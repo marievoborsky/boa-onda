@@ -1,0 +1,253 @@
+{
+ "id": "tag05",
+ "title": "Perguntas",
+ "subtitle": "Woche 1 · Tag 5 · Fragewörter · das typische „é que\" · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen",
+   "items": [
+    {
+     "q": "16 = ___, 19 = ___",
+     "a": "dezasseis / dezanove"
+    },
+    {
+     "q": "Eu ___ dezoito anos. (ter)",
+     "a": "tenho"
+    },
+    {
+     "q": "Sou ___ Alemanha, mas agora estou ___ Portugal. (da/de/em)",
+     "a": "da / em"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Die Fragewörter (10)",
+   "items": [
+    {
+     "pt": "quem",
+     "de": "wer",
+     "ipa": "[kɐ̃j̃]"
+    },
+    {
+     "pt": "o que",
+     "de": "was",
+     "ipa": "[u kɨ]"
+    },
+    {
+     "pt": "onde",
+     "de": "wo (de onde = woher)",
+     "ipa": "[ˈõdɨ]"
+    },
+    {
+     "pt": "quando",
+     "de": "wann",
+     "ipa": "[ˈkwɐ̃du]"
+    },
+    {
+     "pt": "como",
+     "de": "wie",
+     "ipa": "[ˈkomu]"
+    },
+    {
+     "pt": "porquê",
+     "de": "warum (allein / am Satzende)",
+     "ipa": "[puɾˈke]"
+    },
+    {
+     "pt": "porque",
+     "de": "weil / warum (im Satz)",
+     "ipa": "[ˈpuɾkɨ]",
+     "audio": "v0503"
+    },
+    {
+     "pt": "quanto",
+     "de": "wie viel (quantos = wie viele)",
+     "ipa": "[ˈkwɐ̃tu]"
+    },
+    {
+     "pt": "a pergunta",
+     "de": "Frage",
+     "ipa": "[pɨɾˈɡũtɐ]",
+     "audio": "v0501"
+    },
+    {
+     "pt": "a resposta",
+     "de": "Antwort",
+     "ipa": "[ʀɨʃˈpɔʃtɐ]",
+     "audio": "v0502"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Drei Arten zu fragen",
+   "html": "<b>1. Nur Stimme heben:</b> És de Lisboa? – für Ja/Nein-Fragen, keine Umstellung!<br><b>2. Fragewort + Verb:</b> Onde estás? – korrekt, aber knapp/formell.<br><b>3. Fragewort + é que:</b> Onde <b>é que</b> estás? – SO reden die Portugiesen wirklich.<br><br>Das „é que\" (wörtlich „ist es, dass\") bedeutet nichts – es macht die Frage natürlich: <i>De onde <b>é que</b> és? · Como <b>é que</b> estás? · Quantos anos <b>é que</b> tens?</i> Gewöhn es dir von Anfang an an!<br><br><b>porquê oder porque?</b> Allein/am Ende: <b>porquê</b> (Porquê?). Als „weil\": <b>porque</b> (Porque estou cansada). In der Frage: <i>Porque é que estás triste?</i>"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Im Alltag fragen Portugiesen meist <b>nur mit der Stimme</b>: <i>„És de Lisboa?“</i> mit steigender Melodie. Und das kleine <b>é que</b> macht dich sofort natürlicher: <i>„Onde é que moras?“</i> klingt portugiesischer als <i>„Onde moras?“</i>."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A entrevista",
+   "hint": "Neu erschließen: para = für · o meu projeto = mein Projekt · a tua amiga = deine Freundin · quantas = wie viele (weiblich, wegen as perguntas).",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "João, uma pergunta: de onde é que és?",
+     "audio": "d0501"
+    },
+    {
+     "who": "João",
+     "pt": "Sou de Lisboa.",
+     "audio": "d0502"
+    },
+    {
+     "who": "Marie",
+     "pt": "E quantos anos é que tens?",
+     "audio": "d0503"
+    },
+    {
+     "who": "João",
+     "pt": "Tenho dezanove anos. Porquê?",
+     "audio": "d0504"
+    },
+    {
+     "who": "Marie",
+     "pt": "É para o meu projeto de português! Quem é a tua amiga?",
+     "audio": "d0505"
+    },
+    {
+     "who": "João",
+     "pt": "A Ana. Ela é do Porto.",
+     "audio": "d0506"
+    },
+    {
+     "who": "Marie",
+     "pt": "E como é que ela está hoje?",
+     "audio": "d0507"
+    },
+    {
+     "who": "João",
+     "pt": "Está bem, mas está um pouco cansada. Marie, quantas perguntas tens?!",
+     "audio": "d0508"
+    },
+    {
+     "who": "Marie",
+     "pt": "Vinte! Porquê?",
+     "audio": "d0509"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Welches Fragewort passt?",
+   "items": [
+    {
+     "q": "___ é que tu estás? – Estou bem!",
+     "a": "Como"
+    },
+    {
+     "q": "___ é a Ana? – É a amiga do João.",
+     "a": "Quem"
+    },
+    {
+     "q": "___ anos é que tens? – Dezoito.",
+     "a": "Quantos"
+    },
+    {
+     "q": "___ é que estás? – Estou em casa.",
+     "a": "Onde"
+    },
+    {
+     "q": "Estás triste. ___? – Porque o João está doente.",
+     "a": "Porquê"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Bau die Frage mit „é que\"",
+   "items": [
+    {
+     "q": "(de onde / tu / ser)",
+     "a": "De onde é que és?"
+    },
+    {
+     "q": "(como / ela / estar)",
+     "a": "Como é que ela está?"
+    },
+    {
+     "q": "(quantos anos / o João / ter)",
+     "a": "Quantos anos é que o João tem?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Ja/Nein-Frage – nur mit der Stimme! Welche Frage passt zur Antwort?",
+   "items": [
+    {
+     "q": "…? – Sim, sou de Hamburgo.",
+     "a": "És de Hamburgo?"
+    },
+    {
+     "q": "…? – Não, não estou cansada.",
+     "a": "Estás cansada?"
+    },
+    {
+     "q": "…? – Sim, ela é portuguesa.",
+     "a": "Ela é portuguesa?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · porquê oder porque?",
+   "items": [
+    {
+     "q": "Estás em casa. ___?",
+     "a": "Porquê"
+    },
+    {
+     "q": "Estou em casa ___ estou doente.",
+     "a": "porque"
+    },
+    {
+     "q": "___ é que a Marie tem vinte perguntas?",
+     "a": "Porque (vor „é que\" ohne Zirkumflex)"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen & Schreiben",
+   "html": "Jetzt du: Stell dir vor, du interviewst Vasco, den Surflehrer. Schreib drei Fragen (mit „é que\"!) – und beantworte sie laut selbst, als wärst du er."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Vinte perguntas",
+   "audio": "s05",
+   "text": "A Marie tem um projeto de português: vinte perguntas! Hoje as perguntas são para a Ana.<br>— Ana, de onde é que és?<br>— Do Porto.<br>— E onde é que estás feliz?<br>— Em casa e na praia.<br>— Quem é o teu amigo?<br>— O João… e a Marie também!<br>— Porque é que estás em Lisboa, Ana?<br>— Porque Lisboa é fantástica! E porque a Marie está cá…<br>— Ana! Isso não é uma resposta!<br>— É, sim!",
+   "gloss": "Neu erschließen: a praia = der Strand · isso = das (kennst du aus der Vokabelliste). Typisch Ana: nie eine ganz ernste Antwort.",
+   "questions": [
+    {
+     "q": "As perguntas de hoje são para o João.",
+     "a": "Falsch – für Ana."
+    },
+    {
+     "q": "A Ana está feliz em casa e na praia.",
+     "a": "Richtig."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Wenn 5b flüssig ging, bist du auf Kurs – „é que\" ist ab jetzt Standard. Morgen: dein erstes Verb-Muster (-ar) – damit kannst du hunderte Verben konjugieren."
+  }
+ ]
+}

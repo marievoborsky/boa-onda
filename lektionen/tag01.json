@@ -1,0 +1,235 @@
+{
+ "id": "tag01",
+ "title": "Olá!",
+ "subtitle": "Woche 1 · Tag 1 · Begrüßen & sich vorstellen · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "1 · Aussprache zuerst",
+   "html": "Europäisches Portugiesisch „verschluckt\" unbetonte Vokale. Vier Regeln decken 80 % ab:<br><br><b>1.</b> Unbetontes <b>-o</b> am Ende = [u] → obrigad<b>o</b> klingt „obrigadu\"<br><b>2.</b> Unbetontes <b>-e</b> = [ɨ], fast stumm → boa noit<b>e</b> klingt „boa noit(ö)\"<br><b>3.</b> <b>s</b> am Silbenende = [ʃ] wie „sch\" → boa<b>s</b> tarde<b>s</b><br><b>4.</b> <b>ão / -em</b> = nasal, durch die Nase → n<b>ão</b>, b<b>em</b><br><br><b>Sprich 3× laut:</b> olá · bom dia · boa tarde · boa noite · obrigado · não"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Der <b>„beng“-Trick</b> für Nasale: Sprich <b>bem</b> wie deutsches „beng“ – aber stoppe, <i>bevor</i> du das g wirklich sagst. Die Zunge berührt hinten nichts, die Luft geht durch die Nase. Genauso: <i>também</i> = „tam-beng“, <i>não</i> = „nau“ durch die Nase. Und: Am Wortende klingt <b>-o</b> immer wie [u] – „obrigadu“, „tudu“."
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter (12)",
+   "items": [
+    {
+     "pt": "olá",
+     "de": "hallo",
+     "ipa": "[ɔˈla]"
+    },
+    {
+     "pt": "bom dia",
+     "de": "guten Morgen (bis ~12 Uhr)",
+     "ipa": "[bõ ˈdiɐ]"
+    },
+    {
+     "pt": "boa tarde",
+     "de": "guten Tag (12 Uhr bis Dämmerung)",
+     "ipa": "[ˈboɐ ˈtaɾdɨ]"
+    },
+    {
+     "pt": "boa noite",
+     "de": "guten Abend / gute Nacht",
+     "ipa": "[ˈboɐ ˈnojtɨ]"
+    },
+    {
+     "pt": "adeus",
+     "de": "tschüss",
+     "ipa": "[ɐˈdewʃ]"
+    },
+    {
+     "pt": "até amanhã",
+     "de": "bis morgen",
+     "ipa": "[ɐˈtɛ ɐmɐˈɲɐ̃]"
+    },
+    {
+     "pt": "eu",
+     "de": "ich",
+     "ipa": "[ew]"
+    },
+    {
+     "pt": "tu",
+     "de": "du",
+     "ipa": "[tu]"
+    },
+    {
+     "pt": "ele / ela",
+     "de": "er / sie",
+     "ipa": "[ˈelɨ] / [ˈɛlɐ]"
+    },
+    {
+     "pt": "sim",
+     "de": "ja",
+     "ipa": "[sĩ]"
+    },
+    {
+     "pt": "não",
+     "de": "nicht, nein",
+     "ipa": "[nɐ̃w̃]"
+    },
+    {
+     "pt": "obrigado / obrigada",
+     "de": "danke (Mann: -o, Frau: -a!)",
+     "ipa": "[obɾiˈɡadu] / [obɾiˈɡadɐ]"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: ser – dein erstes Verb",
+   "html": "Mit <b>ser</b> sagst du, wer du bist und woher du kommst:<br><br><b>eu sou</b> [so] – Eu sou a Marie.<br><b>tu és</b> [ɛʃ] – Tu és o João?<br><b>ele/ela/você é</b> [ɛ] – Ela é de Lisboa.<br><br><b>Typisch Portugal:</b> Vor Namen steht ein Artikel! <i>Eu sou <b>a</b> Ana. Tu és <b>o</b> João?</i> („Ich bin die Ana\" – im Portugiesischen Standard.) Und: <i>eu</i> darf wegfallen – <i>Sou a Ana.</i> reicht."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Erstes Gespräch",
+   "hint": "Lies laut (2×!), hör dir jede Zeile an. Selbst erschließen: do Porto = de + o Porto (die Stadt heißt „o Porto\"). Und: das erste não heißt „nein\", das zweite „nicht\".",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Olá, bom dia!",
+     "audio": "d0101"
+    },
+    {
+     "who": "Marie",
+     "pt": "Bom dia!",
+     "audio": "d0102"
+    },
+    {
+     "who": "Ana",
+     "pt": "Eu sou a Ana. E tu?",
+     "audio": "d0103"
+    },
+    {
+     "who": "Marie",
+     "pt": "Eu sou a Marie. Muito prazer.",
+     "audio": "d0104"
+    },
+    {
+     "who": "Ana",
+     "pt": "Muito prazer, Marie. És de Berlim?",
+     "audio": "d0105"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não, não sou de Berlim. Sou de Hamburgo. E tu és de Lisboa?",
+     "audio": "d0106"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não, não sou de Lisboa. Sou do Porto.",
+     "audio": "d0107"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ah, obrigada — e até amanhã!",
+     "audio": "d0108"
+    },
+    {
+     "who": "Ana",
+     "pt": "Adeus, Marie!",
+     "audio": "d0109"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Welche Begrüßung passt?",
+   "intro": "Erst selbst laut antworten, dann Lösung aufdecken.",
+   "items": [
+    {
+     "q": "9:00 Uhr →",
+     "a": "Bom dia!"
+    },
+    {
+     "q": "15:00 Uhr →",
+     "a": "Boa tarde!"
+    },
+    {
+     "q": "22:00 Uhr →",
+     "a": "Boa noite!"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Setze sou / és / é ein",
+   "items": [
+    {
+     "q": "Eu ___ a Marie.",
+     "a": "sou"
+    },
+    {
+     "q": "Tu ___ de Berlim?",
+     "a": "és"
+    },
+    {
+     "q": "Ela ___ a Ana.",
+     "a": "é"
+    },
+    {
+     "q": "Ele ___ do Porto.",
+     "a": "é"
+    },
+    {
+     "q": "Eu não ___ de Lisboa.",
+     "a": "sou"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Ana é de Lisboa.",
+     "a": "Falsch – sie ist aus Porto."
+    },
+    {
+     "q": "A Marie é de Hamburgo.",
+     "a": "Richtig."
+    },
+    {
+     "q": "A Ana é do Porto.",
+     "a": "Richtig."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Übersetze",
+   "items": [
+    {
+     "q": "Hallo, ich bin die Marie.",
+     "a": "Olá, eu sou a Marie. (auch: Sou a Marie.)"
+    },
+    {
+     "q": "Bist du der João?",
+     "a": "Tu és o João? (auch: És o João?)"
+    },
+    {
+     "q": "Nein, ich bin nicht aus Lissabon.",
+     "a": "Não, não sou de Lisboa."
+    },
+    {
+     "q": "Danke und bis morgen! (als Frau)",
+     "a": "Obrigada e até amanhã!"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen & Schreiben",
+   "html": "Schreib deine ersten drei portugiesischen Sätze über dich ins Heft – und sprich sie laut, als würdest du dich wirklich vorstellen:<br><br><i>Olá! Eu sou … · Sou de … · Muito prazer!</i>"
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Alles richtig? → Morgen Tag 2 (Herkunft & Nationalitäten). Zwei oder mehr Fehler bei 5b? → Die drei ser-Formen morgen vor Tag 2 noch einmal laut aufsagen: <b>sou, és, é</b>."
+  }
+ ]
+}

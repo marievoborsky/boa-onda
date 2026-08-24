@@ -1,0 +1,227 @@
+{
+ "id": "tag07",
+ "title": "Revisão – Wochentest",
+ "subtitle": "Woche 1 · Tag 7 · Mini-Test · 44 Punkte · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen (laut oder im Heft!), dann aufdecken und Punkte zählen. Ohne Nachschauen – der Test zeigt dir, was in Woche 2 wiederholt werden muss. Notier dir deine Punktzahl pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Bestes Training vor dem Test: <b>Shadowing</b> – eine Dialog-Zeile anhören und sofort halblaut mitsprechen, Melodie imitieren statt übersetzen. Nimm die Dialoge von Tag 1–6 und sprich jede Zeile zweimal nach."
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln: Wie heißt es auf Portugiesisch? (8 P.)",
+   "items": [
+    {
+     "q": "bis morgen",
+     "a": "até amanhã"
+    },
+    {
+     "q": "so lala",
+     "a": "mais ou menos"
+    },
+    {
+     "q": "Sprache",
+     "a": "a língua"
+    },
+    {
+     "q": "danke (als Frau)",
+     "a": "obrigada"
+    },
+    {
+     "q": "krank",
+     "a": "doente"
+    },
+    {
+     "q": "müde (w)",
+     "a": "cansada"
+    },
+    {
+     "q": "Antwort",
+     "a": "a resposta"
+    },
+    {
+     "q": "zu Hause",
+     "a": "em casa"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · ser, estar oder ter? (10 P.)",
+   "items": [
+    {
+     "q": "Eu ___ a Marie e ___ dezoito anos.",
+     "a": "sou / tenho"
+    },
+    {
+     "q": "Tu ___ de Lisboa?",
+     "a": "és"
+    },
+    {
+     "q": "Hoje ele ___ em casa porque ___ doente.",
+     "a": "está / está"
+    },
+    {
+     "q": "Nós ___ alemãs, de Hamburgo.",
+     "a": "somos"
+    },
+    {
+     "q": "Quantos anos ___ tu?",
+     "a": "tens"
+    },
+    {
+     "q": "A Ana e o João ___ amigos.",
+     "a": "são"
+    },
+    {
+     "q": "Eu ___ um pouco cansada, mas ___ feliz.",
+     "a": "estou / estou"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · de, do, da, em, no oder na? (6 P.)",
+   "items": [
+    {
+     "q": "Sou ___ Alemanha.",
+     "a": "da"
+    },
+    {
+     "q": "Ele é ___ Porto.",
+     "a": "do"
+    },
+    {
+     "q": "És ___ Lisboa?",
+     "a": "de"
+    },
+    {
+     "q": "Moro ___ Hamburgo.",
+     "a": "em"
+    },
+    {
+     "q": "Ela mora ___ Porto.",
+     "a": "no"
+    },
+    {
+     "q": "Trabalhas ___ Alemanha?",
+     "a": "na"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · Zahlen als Wort (6 P.)",
+   "items": [
+    {
+     "q": "5 →",
+     "a": "cinco"
+    },
+    {
+     "q": "11 →",
+     "a": "onze"
+    },
+    {
+     "q": "14 →",
+     "a": "catorze"
+    },
+    {
+     "q": "16 →",
+     "a": "dezasseis"
+    },
+    {
+     "q": "19 →",
+     "a": "dezanove"
+    },
+    {
+     "q": "20 →",
+     "a": "vinte"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "E · Lesen: O Tiago (5 P.)",
+   "audio": "r07",
+   "text": "Olá! Eu sou o Tiago e tenho dezoito anos. Sou português, de Faro, mas agora estudo em Lisboa. Falo português, espanhol e um pouco de inglês. Hoje estou um pouco cansado, mas estou muito feliz: a minha amiga Clara está cá em Lisboa! A Clara é espanhola, de Madrid, e tem dezanove anos. Ela fala espanhol e português muito bem — e agora estuda alemão. Porquê? É uma pergunta para a Clara!",
+   "gloss": "Erst lesen, dann anhören. Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "O Tiago é de Lisboa.",
+     "a": "Falsch – aus Faro, er studiert nur in Lissabon."
+    },
+    {
+     "q": "O Tiago fala três línguas.",
+     "a": "Richtig – português, espanhol, inglês."
+    },
+    {
+     "q": "A Clara é portuguesa.",
+     "a": "Falsch – Spanierin."
+    },
+    {
+     "q": "A Clara tem dezanove anos.",
+     "a": "Richtig."
+    },
+    {
+     "q": "O Tiago está triste.",
+     "a": "Falsch – müde, aber sehr glücklich."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "F · Fragen bilden – mit „é que\"! (4 P.)",
+   "items": [
+    {
+     "q": "Du willst wissen, woher Tiago ist:",
+     "a": "De onde é que és? / De onde é que o Tiago é?"
+    },
+    {
+     "q": "…wie alt Clara ist:",
+     "a": "Quantos anos é que tens? / … é que a Clara tem?"
+    },
+    {
+     "q": "…wo sie wohnt:",
+     "a": "Onde é que moras? / Onde é que ela mora?"
+    },
+    {
+     "q": "…wie es ihm heute geht:",
+     "a": "Como é que estás? / Como é que ele está hoje?"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "G · Schreiben: Du selbst (5 P.)",
+   "html": "Fünf Sätze über dich, ohne Spickzettel: Name · Alter · Herkunft · Wohnort + Sprachen · wie es dir heute geht. 1 Punkt pro korrektem Satz.<br><br>Muster: <i>Sou a Marie. Tenho … anos. Sou da Alemanha, de … . Moro em … e falo alemão, inglês e um pouco de português. Hoje estou …</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (44 Punkte)",
+   "html": "<b>38–44:</b> Fantástico! Du bist bereit für Woche 2 (Familie, Porto-Trip, Café).<br><b>28–37:</b> Gut! Schau dir die Teile mit fehlenden Punkten an – besonders B und C, das sind die Fundamente.<br><b>unter 28:</b> Völlig okay nach einer Woche! Wiederhole Tag 3 (ser/estar) und Tag 4 (ter, Zahlen), dann den Test noch einmal.<br><br>Und sag Claude deine Punktzahl – daraus wird Woche 2 auf deine Lücken zugeschnitten."
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: Domingo em Lisboa",
+   "audio": "s07",
+   "text": "Hoje é domingo e está sol. O grupo está na praia de Carcavelos. A água está fria, mas a praia é fantástica. O João não está cá — está no Porto, na casa da irmã. Na praia, a Marie fala com uma rapariga portuguesa:<br>— Olá! És de cá?<br>— Sou, sim. Sou de Lisboa. E tu, de onde és?<br>— Sou da Alemanha. Moro em Lisboa e estudo português!<br>— Falas muito bem!<br>— Obrigada! Tenho bons amigos portugueses… e um projeto com vinte perguntas!",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: o domingo = Sonntag · bons amigos = gute Freunde. Cliffhanger für Woche 2: João erzählt später von einem Surflehrer im Süden…",
+   "questions": [
+    {
+     "q": "Hoje está sol.",
+     "a": "Richtig."
+    },
+    {
+     "q": "O João está na praia.",
+     "a": "Falsch – er ist im Porto bei seiner Schwester Inês."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "id": "tag04",
+ "title": "Quantos anos tens?",
+ "subtitle": "Woche 1 · Tag 4 · Zahlen 0–20 · ter · Alter · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen",
+   "items": [
+    {
+     "q": "Como ___? – ___ bem, obrigada. (estar)",
+     "a": "estás / Estou"
+    },
+    {
+     "q": "Ela é / está alemã. · Ela é / está cansada.",
+     "a": "é (Nationalität) / está (Zustand)"
+    },
+    {
+     "q": "Von Tag 1: Es ist 22 Uhr →",
+     "a": "Boa noite!"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Die Zahlen 0–10",
+   "items": [
+    {
+     "pt": "zero",
+     "de": "null",
+     "ipa": "[ˈzɛɾu]",
+     "audio": "v0401"
+    },
+    {
+     "pt": "um",
+     "de": "eins",
+     "ipa": "[ũ]"
+    },
+    {
+     "pt": "dois",
+     "de": "zwei",
+     "ipa": "[dojʃ]"
+    },
+    {
+     "pt": "três",
+     "de": "drei",
+     "ipa": "[tɾeʃ]"
+    },
+    {
+     "pt": "quatro",
+     "de": "vier",
+     "ipa": "[ˈkwatɾu]"
+    },
+    {
+     "pt": "cinco",
+     "de": "fünf",
+     "ipa": "[ˈsĩku]"
+    },
+    {
+     "pt": "seis",
+     "de": "sechs",
+     "ipa": "[sɐjʃ]"
+    },
+    {
+     "pt": "sete",
+     "de": "sieben",
+     "ipa": "[ˈsɛtɨ]"
+    },
+    {
+     "pt": "oito",
+     "de": "acht",
+     "ipa": "[ˈojtu]"
+    },
+    {
+     "pt": "nove",
+     "de": "neun",
+     "ipa": "[ˈnɔvɨ]"
+    },
+    {
+     "pt": "dez",
+     "de": "zehn",
+     "ipa": "[dɛʃ]"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2b · Die Zahlen 11–20",
+   "items": [
+    {
+     "pt": "onze",
+     "de": "elf",
+     "ipa": "[ˈõzɨ]",
+     "audio": "v0402"
+    },
+    {
+     "pt": "doze",
+     "de": "zwölf",
+     "ipa": "[ˈdozɨ]",
+     "audio": "v0403"
+    },
+    {
+     "pt": "treze",
+     "de": "dreizehn",
+     "ipa": "[ˈtɾezɨ]",
+     "audio": "v0404"
+    },
+    {
+     "pt": "catorze",
+     "de": "vierzehn",
+     "ipa": "[kɐˈtoɾzɨ]",
+     "audio": "v0405"
+    },
+    {
+     "pt": "quinze",
+     "de": "fünfzehn",
+     "ipa": "[ˈkĩzɨ]",
+     "audio": "v0406"
+    },
+    {
+     "pt": "dezasseis",
+     "de": "sechzehn (EP! Brasilien: dezesseis)",
+     "ipa": "[dɨzɐˈsɐjʃ]",
+     "audio": "v0407"
+    },
+    {
+     "pt": "dezassete",
+     "de": "siebzehn (EP! Brasilien: dezessete)",
+     "ipa": "[dɨzɐˈsɛtɨ]",
+     "audio": "v0408"
+    },
+    {
+     "pt": "dezoito",
+     "de": "achtzehn",
+     "ipa": "[dɨˈzojtu]",
+     "audio": "v0409"
+    },
+    {
+     "pt": "dezanove",
+     "de": "neunzehn (EP! Brasilien: dezenove)",
+     "ipa": "[dɨzɐˈnɔvɨ]",
+     "audio": "v0410"
+    },
+    {
+     "pt": "vinte",
+     "de": "zwanzig",
+     "ipa": "[ˈvĩtɨ]"
+    },
+    {
+     "pt": "Quantos anos tens?",
+     "de": "Wie alt bist du? (wörtl.: Wie viele Jahre hast du?)",
+     "ipa": "[ˈkwɐ̃tuz ˈɐnuʃ tɐ̃j̃ʃ]",
+     "audio": "v0411"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: ter – „haben\"",
+   "html": "<b>eu tenho [ˈtɐɲu] · tu tens [tɐ̃j̃ʃ] · ele/ela/você tem [tɐ̃j̃]</b><br><br><b>Alter sagt man mit „haben\":</b> <i>Tenho dezoito anos.</i> – wörtlich „Ich habe achtzehn Jahre.\" (Niemals mit ser!)<br><b>Und Besitz:</b> <i>Tenho um amigo em Lisboa.</i><br><br><b>Aussprache-Falle:</b> tenho – das <b>nh</b> ist wie „nj\" in „Kognak\": [ˈtɐ-nju]. Und tens/tem sind nasal – das n nicht wirklich sprechen!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Zahlen-Stolperfalle: <b>dois</b> ist männlich, <b>duas</b> weiblich – <i>dois cafés</i>, aber <i>duas praias</i>. Und <i>seis</i> klingt in Portugal wie „sejsch“ – das s am Ende ist immer „sch“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: O bebé do grupo",
+   "hint": "Neu erschließen: então = also, dann · cá = hier (Alltagswort wie aqui). Und typisch João: schon wieder müde…",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Marie, quantos anos tens?",
+     "audio": "d0401"
+    },
+    {
+     "who": "Marie",
+     "pt": "Tenho dezoito anos. E tu?",
+     "audio": "d0402"
+    },
+    {
+     "who": "Ana",
+     "pt": "Eu tenho vinte.",
+     "audio": "d0403"
+    },
+    {
+     "who": "Marie",
+     "pt": "E o João, quantos anos tem?",
+     "audio": "d0404"
+    },
+    {
+     "who": "Ana",
+     "pt": "O João tem dezanove anos.",
+     "audio": "d0405"
+    },
+    {
+     "who": "Marie",
+     "pt": "Então eu sou o bebé do grupo!",
+     "audio": "d0406"
+    },
+    {
+     "who": "Ana",
+     "pt": "Sim! E o João hoje não está cá — está em casa.",
+     "audio": "d0407"
+    },
+    {
+     "who": "Marie",
+     "pt": "Está doente?",
+     "audio": "d0408"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não, não! Está bem. Mas está cansado… como sempre.",
+     "audio": "d0409"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Schreib die Zahl als Wort",
+   "items": [
+    {
+     "q": "7 →",
+     "a": "sete"
+    },
+    {
+     "q": "12 →",
+     "a": "doze"
+    },
+    {
+     "q": "16 →",
+     "a": "dezasseis"
+    },
+    {
+     "q": "19 →",
+     "a": "dezanove"
+    },
+    {
+     "q": "20 →",
+     "a": "vinte"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Kopfrechnen auf Portugiesisch",
+   "items": [
+    {
+     "q": "dois + três =",
+     "a": "cinco"
+    },
+    {
+     "q": "dez + quatro =",
+     "a": "catorze"
+    },
+    {
+     "q": "vinte − cinco =",
+     "a": "quinze"
+    },
+    {
+     "q": "oito + oito =",
+     "a": "dezasseis"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Setze tenho / tens / tem ein",
+   "items": [
+    {
+     "q": "Eu ___ dezoito anos.",
+     "a": "tenho"
+    },
+    {
+     "q": "Quantos anos ___ tu?",
+     "a": "tens"
+    },
+    {
+     "q": "A Ana ___ vinte anos.",
+     "a": "tem"
+    },
+    {
+     "q": "Tu ___ amigos em Portugal?",
+     "a": "tens"
+    },
+    {
+     "q": "O João ___ uma amiga alemã.",
+     "a": "tem"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie tem dezoito anos.",
+     "a": "Richtig."
+    },
+    {
+     "q": "A Marie é o bebé do grupo.",
+     "a": "Richtig – sie ist die Jüngste."
+    },
+    {
+     "q": "O João está doente.",
+     "a": "Falsch – nur müde. Wie immer."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen & Schreiben",
+   "html": "Dein Steckbrief wächst! Vier Sätze, laut und ohne aufs Blatt zu schauen:<br><br><i>Sou a … · Tenho … anos · Sou de/da … · Hoje estou …</i><br><br>Bonus: Zähl heute einmal laut von 0 bis 20 – beim Kaffeekochen oder Treppensteigen. Zahlen müssen automatisch werden."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: É segredo!",
+   "audio": "s04",
+   "text": "A Ana tem vinte anos e o João tem dezanove. A Marie tem dezoito — é o bebé do grupo! Hoje o grupo está na casa da Ana. O João já não está doente, está muito bem e está feliz.<br>— Uma pergunta, Ana: o teu pai é do Porto?<br>— É, sim. E a minha mãe também é do Porto.<br>— E quantos anos tem o teu pai?<br>— O meu pai tem… não, não! É segredo!",
+   "gloss": "Neu erschließen: o teu pai / a minha mãe = dein Vater / meine Mutter · já não = nicht mehr · o segredo = das Geheimnis.",
+   "questions": [
+    {
+     "q": "O João tem dezanove anos.",
+     "a": "Richtig."
+    },
+    {
+     "q": "A mãe da Ana é de Coimbra.",
+     "a": "Falsch – auch aus Porto."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Zahlen sitzen nicht? Kein Stress – die kommen ab jetzt täglich nebenbei vor (Preise, Uhrzeit). Wichtig heute: <b>tenho, tens, tem</b> + „Tenho … anos\" müssen sitzen. Morgen: Fragen stellen – und das magische portugiesische „é que\"."
+  }
+ ]
+}

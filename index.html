@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Boa Onda – Europäisches Portugiesisch lernen</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#f4eee2">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Boa Onda">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Typo-System: Fancy nur für große Überschriften · Roboto Mono Light für Dünnes · Space Grotesk für Dickeres */
+  :root {
+    --paper: #f4eee2;        /* warmes Papier */
+    --card: #fffdf6;         /* Karten-Weiß */
+    --ink: #33294a;          /* tiefes Pflaume-Blau */
+    --ink-soft: #7d7490;
+    --lav: #b9a7e6;          /* Lavendel */
+    --lav-deep: #7f6ec2;
+    --lav-pale: #e6dff5;
+    --sea: #3fbfae;          /* Türkis */
+    --sea-pale: #cdeae4;
+    --clay: #d9502e;         /* Klippen-Rot / Terracotta */
+    --clay-soft: #f3cdb9;
+    --sand: #ecd9b4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: "Space Grotesk", "Avenir Next", -apple-system, sans-serif;
+    background: var(--paper); color: var(--ink); min-height: 100vh;
+    position: relative; overflow-x: hidden;
+  }
+  .mono { font-family: "Roboto Mono", monospace; font-weight: 300; }
+  /* Risograph-Körnung */
+  body::after {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 5;
+    opacity: .5; mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  /* Collage-Formen im Hintergrund */
+  .shape { position: fixed; pointer-events: none; z-index: 0; }
+  .sun { top: -60px; right: -70px; width: 230px; height: 230px; border-radius: 50%;
+    background: var(--lav); opacity: .55; }
+  .wave1 { bottom: -140px; left: -80px; width: 380px; height: 380px;
+    border-radius: 44% 56% 58% 42% / 56% 44% 56% 44%;
+    background: var(--sea); opacity: .25; }
+  .wave2 { bottom: -190px; left: 110px; width: 420px; height: 420px;
+    border-radius: 56% 44% 42% 58% / 44% 58% 42% 56%;
+    background: var(--lav); opacity: .22; }
+  .cliff { top: 220px; left: -110px; width: 210px; height: 260px;
+    border-radius: 62% 38% 55% 45% / 50% 62% 38% 50%;
+    background: var(--clay-soft); opacity: .5; }
+
+  .wrap { max-width: 480px; margin: 0 auto; padding: 1.4rem 1.2rem 6.5rem; position: relative; z-index: 1; }
+
+  /* ---------- Header ---------- */
+  header { position: relative; margin-bottom: .2rem; }
+  /* Logo = gerenderte Solvent-Wortmarke (logo.png) – funktioniert auf jedem Gerät */
+  .logo-img { display: block; width: min(82vw, 380px); height: auto;
+    margin-top: 2.4rem; }
+  .streak { position: absolute; top: 0; right: 0;
+    background: var(--card); border-radius: 999px; padding: .3rem .8rem;
+    font-size: .85rem; font-weight: 700; color: var(--clay);
+    box-shadow: 0 2px 10px rgba(51,41,74,.12); transform: rotate(2deg); }
+  .tagline { font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: .72rem; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--ink-soft); margin-bottom: 1.4rem; }
+
+  /* ---------- Spot-Liste ---------- */
+  .spot {
+    background: var(--card); border-radius: 14px; padding: .95rem 1rem;
+    margin-bottom: .75rem; display: flex; align-items: center; gap: .9rem;
+    cursor: pointer; transition: transform .12s ease;
+    box-shadow: 0 3px 14px rgba(51,41,74,.1);
+  }
+  .spot:nth-child(odd)  { transform: rotate(.45deg); }
+  .spot:nth-child(even) { transform: rotate(-.45deg); }
+  .spot:active { transform: scale(.98); }
+  .spot .icon { font-family: "Roboto Mono", monospace; font-weight: 400;
+    font-size: .95rem; color: var(--ink); width: 2.7rem; height: 2.7rem; flex: none;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 58% 42% 52% 48% / 48% 55% 45% 52%; }
+  .spot:nth-child(4n+1) .icon { background: var(--lav-pale); }
+  .spot:nth-child(4n+2) .icon { background: var(--sea-pale); }
+  .spot:nth-child(4n+3) .icon { background: var(--sand); }
+  .spot:nth-child(4n+4) .icon { background: var(--clay-soft); }
+  .spot .info { flex: 1; min-width: 0; }
+  .spot .name { font-weight: 600; font-size: .98rem; }
+  .spot .theme { font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: .75rem; color: var(--ink-soft); }
+  .bar { height: 5px; background: #e8e0d0; border-radius: 3px; margin-top: .45rem; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--sea), var(--lav-deep)); border-radius: 3px; }
+  .spot .pct { font-size: .78rem; font-weight: 700; color: var(--sea); white-space: nowrap; }
+  .mixbtn {
+    width: 100%; border: none; border-radius: 14px; padding: 1.05rem;
+    background: var(--clay); color: #fff8f2; font-size: 1rem; font-weight: 800;
+    font-family: inherit; cursor: pointer; margin: .2rem 0 1.2rem;
+    letter-spacing: .02em; transform: rotate(-.5deg);
+    box-shadow: 0 6px 18px rgba(217,80,46,.35);
+  }
+
+  /* ---------- Karte (Lernen) ---------- */
+  .session { display: none; }
+  .topbar { display: flex; align-items: center; gap: .8rem; margin-bottom: 1.2rem; }
+  .back { background: none; border: none; color: var(--ink); font-size: 1.5rem; cursor: pointer; font-family: inherit; }
+  .sbar { flex: 1; height: 6px; background: #e8e0d0; border-radius: 4px; overflow: hidden; }
+  .sbar i { display: block; height: 100%; background: var(--sea); border-radius: 4px; transition: width .3s; }
+  .card {
+    background: var(--card); color: var(--ink); border-radius: 20px;
+    padding: 2.2rem 1.4rem 1.9rem; text-align: center; min-height: 330px;
+    display: flex; flex-direction: column; justify-content: center; gap: .8rem;
+    position: relative; transform: rotate(-.6deg);
+    box-shadow: 0 12px 34px rgba(51,41,74,.16);
+  }
+  .card .word { font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: 1.75rem; line-height: 1.25; letter-spacing: -.02em; }
+  .card .ipa { font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: .95rem; color: var(--ink-soft); }
+  .card .de { font-size: 1.25rem; font-weight: 600; color: var(--lav-deep); }
+  .card .hintline { font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: .74rem; color: #b3aa9b; position: absolute; bottom: 1rem; left: 0; right: 0; }
+  .audiobtn {
+    border: none; background: var(--sea); color: #fff; border-radius: 50%;
+    width: 3.2rem; height: 3.2rem; font-size: 1.3rem; cursor: pointer;
+    margin: 0 auto; display: block; box-shadow: 0 4px 12px rgba(63,191,174,.4);
+  }
+  .actions { display: flex; gap: .7rem; margin-top: 1.2rem; }
+  .actions button {
+    flex: 1; border: none; border-radius: 14px; padding: 1rem .5rem;
+    font-size: 1rem; font-weight: 800; font-family: inherit; cursor: pointer; color: #fff;
+  }
+  .again { background: var(--lav-deep); transform: rotate(.4deg); }
+  .good { background: var(--clay); transform: rotate(-.4deg); }
+
+  /* ---------- Quiz ---------- */
+  .qword { font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: 1.55rem; text-align: center; margin: 1.4rem 0; }
+  .qipa { font-family: "Roboto Mono", monospace; font-weight: 300;
+    text-align: center; color: var(--ink-soft); margin: -1rem 0 1.4rem; }
+  .opt {
+    width: 100%; text-align: left; border: none; background: var(--card);
+    color: var(--ink); border-radius: 12px; padding: .95rem 1rem;
+    margin-bottom: .6rem; font-size: 1rem; font-family: inherit; font-weight: 600;
+    cursor: pointer; box-shadow: 0 2px 10px rgba(51,41,74,.09);
+  }
+  .opt:nth-child(odd)  { transform: rotate(.3deg); }
+  .opt:nth-child(even) { transform: rotate(-.3deg); }
+  .opt.right { background: var(--sea); color: #fff; }
+  .opt.wrong { background: var(--clay); color: #fff; }
+
+  /* ---------- Ende ---------- */
+  .done { text-align: center; padding: 3rem 0; display: none; position: relative; z-index: 1; }
+  .done .big { font-size: 4rem; }
+  .done h2 { font-weight: 800; font-size: 1.9rem; margin: .8rem 0 .4rem; color: var(--ink); }
+  .done p { color: var(--ink-soft); margin-bottom: 1.6rem; }
+
+  .footer-note { font-family: "Roboto Mono", monospace; font-weight: 300;
+    text-align: center; font-size: .72rem; color: var(--ink-soft); margin-top: 1.6rem; }
+
+  /* ---------- Lektionen ---------- */
+  .kurs-head { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .72rem;
+    letter-spacing: .2em; text-transform: uppercase; color: var(--ink-soft);
+    margin: 1.4rem 0 .6rem .2rem; }
+  .ltitle { font-weight: 700; font-size: 1.5rem; line-height: 1.15;
+    color: var(--ink); letter-spacing: -.01em; }
+  .lsub { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .74rem;
+    color: var(--ink-soft); margin: -.6rem 0 1.2rem 2.3rem; }
+  .printlink { margin-left: auto; flex: none; align-self: flex-start;
+    font-family: "Roboto Mono", monospace; font-size: .72rem; font-weight: 400;
+    color: var(--ink-soft); text-decoration: none; background: var(--card);
+    border-radius: 999px; padding: .35rem .75rem;
+    box-shadow: 0 2px 8px rgba(51,41,74,.1); white-space: nowrap; }
+  .lsec { background: var(--card); border-radius: 16px; padding: 1.1rem 1.1rem 1.2rem;
+    margin-bottom: .9rem; box-shadow: 0 3px 14px rgba(51,41,74,.09); }
+  .lsec h3 { font-size: .95rem; font-weight: 700; margin-bottom: .6rem; }
+  .lsec .body { font-size: .92rem; line-height: 1.55; }
+  .lsec .hint { font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: .76rem; color: var(--ink-soft); margin-top: .7rem; line-height: 1.5; }
+  .vrow { display: flex; align-items: center; gap: .7rem; padding: .45rem 0;
+    border-bottom: 1px solid #efe8da; }
+  .vrow:last-child { border-bottom: none; }
+  .vrow .pt { font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .95rem; }
+  .vrow .vipa { font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: .74rem; color: var(--ink-soft); }
+  .vrow .vde { margin-left: auto; text-align: right; font-size: .85rem;
+    color: var(--lav-deep); font-weight: 600; max-width: 45%; }
+  .playbtn { border: none; background: var(--sea-pale); color: var(--ocean, #0b4f6c);
+    border-radius: 50%; width: 2rem; height: 2rem; flex: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; }
+  .dline { display: flex; gap: .6rem; align-items: center; padding: .3rem 0; }
+  .dline .who { font-family: "Roboto Mono", monospace; font-weight: 400;
+    font-size: .74rem; color: var(--clay); min-width: 3.2rem; }
+  .dline .dpt { font-size: .95rem; cursor: pointer; flex: 1; }
+  .recbtn { border: none; background: var(--clay-soft); color: var(--clay);
+    border-radius: 50%; width: 2rem; height: 2rem; flex: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; }
+  .recbtn.rec { background: var(--clay); color: #fff; animation: recpulse 1s infinite; }
+  .recbtn.err { background: #ddd6c8; color: #9a9184; }
+  @keyframes recpulse { 50% { transform: scale(1.18); } }
+  .myplay { border: none; background: var(--lav-pale); color: var(--lav-deep);
+    border-radius: 50%; width: 2rem; height: 2rem; flex: none; cursor: pointer;
+    display: none; align-items: center; justify-content: center; }
+  .recrow { display: flex; gap: .6rem; align-items: center; margin-top: .9rem; }
+  .recrow .hint { margin-top: 0; flex: 1; }
+  .exitem { padding: .5rem 0; border-bottom: 1px solid #efe8da; }
+  .exitem:last-child { border-bottom: none; }
+  .exitem .q { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .9rem; }
+  .exitem .a { display: none; margin-top: .35rem; font-size: .9rem;
+    color: var(--sea); font-weight: 600; }
+  .exitem.open .a { display: block; }
+  .exitem .reveal { border: none; background: var(--lav-pale); color: var(--lav-deep);
+    font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .74rem;
+    border-radius: 999px; padding: .25rem .8rem; cursor: pointer; margin-top: .35rem; }
+
+  /* ---------- Tab-Leiste & Bereiche ---------- */
+  .tabbar { position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
+    width: 100%; max-width: 480px; background: var(--card);
+    box-shadow: 0 -4px 18px rgba(51,41,74,.09); display: none; align-items: stretch;
+    padding: 5px 6px calc(7px + env(safe-area-inset-bottom)); z-index: 8;
+    border-radius: 16px 16px 0 0; }
+  .tabbar button { flex: 1; border: none; background: none; cursor: pointer;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 3px; min-height: 52px; color: var(--ink-soft);
+    font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .56rem;
+    letter-spacing: .12em; text-transform: uppercase; }
+  .tabbar button.on { color: var(--clay); font-weight: 400; }
+  .tabbar button .tico { width: 34px; height: 26px; display: flex; align-items: center;
+    justify-content: center; border-radius: 58% 42% 52% 48% / 48% 55% 45% 52%; }
+  .tabbar button.on .tico { background: var(--clay-soft); }
+  .chips { display: flex; gap: .45rem; overflow-x: auto; padding-bottom: .35rem;
+    margin-bottom: .5rem; scrollbar-width: none; }
+  .chip { border: none; border-radius: 999px; padding: .45rem .85rem; font-size: .72rem;
+    font-weight: 600; font-family: "Space Grotesk", sans-serif; white-space: nowrap;
+    background: var(--card); color: var(--ink-soft);
+    box-shadow: 0 2px 8px rgba(51,41,74,.08); cursor: pointer; flex: none; }
+  .chip.on { background: var(--clay); color: #fff; }
+  .searchrow { display: flex; align-items: center; gap: .5rem; background: var(--card);
+    border-radius: 12px; padding: .6rem .8rem; box-shadow: 0 2px 10px rgba(51,41,74,.08);
+    margin-bottom: .8rem; color: var(--ink-soft); }
+  .searchrow input { border: none; outline: none; background: none; flex: 1;
+    font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .85rem; color: var(--ink); }
+  .cadbox { background: var(--card); border-radius: 16px; padding: .3rem .9rem;
+    box-shadow: 0 3px 14px rgba(51,41,74,.09); }
+  .boxdots span { display: inline-block; width: 5px; height: 5px; border-radius: 50%;
+    background: #e8e0d0; margin-left: 2px; }
+  .boxdots span.f { background: var(--sea); }
+  .wtok { display: inline; padding: 1px 2px; border-radius: 5px; }
+  .wtok.wnew { background: var(--sand); cursor: pointer; }
+  .wtok.wlearn { background: var(--lav-pale); cursor: pointer; }
+  .wtok.wsel { background: var(--sea); color: #fff; }
+  .wpop { position: fixed; left: 50%; transform: translateX(-50%); bottom: 16px;
+    width: calc(100% - 2rem); max-width: 448px; background: var(--card);
+    border-radius: 14px; box-shadow: 0 8px 24px rgba(51,41,74,.22);
+    padding: .8rem .9rem; display: none; z-index: 9; }
+  .legend { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .62rem;
+    color: var(--ink-soft); display: flex; gap: .9rem; margin-top: .8rem; }
+  .legend i { display: inline-block; width: 9px; height: 9px; border-radius: 3px; margin-right: 4px; }
+</style>
+</head>
+<body>
+<div class="shape sun"></div>
+<div class="shape cliff"></div>
+<div class="shape wave1"></div>
+<div class="shape wave2"></div>
+<div class="wrap">
+
+  <!-- ========== HOJE ========== -->
+  <div id="home">
+    <header>
+      <img class="logo-img" src="logo.png" alt="Boa Onda.">
+      <div class="streak" id="streak">0 Tage</div>
+    </header>
+    <div class="tagline">Europäisches Portugiesisch</div>
+    <button class="mixbtn" id="mixbtn" onclick="startLearn('mix')">Tages-Session · fällige Wellen reiten</button>
+    <div class="kurs-head">Weiter im Kurs</div>
+    <div id="next-lesson"></div>
+    <div class="kurs-head">Heute außerdem</div>
+    <div id="hoje-extra"></div>
+    <div class="footer-note">Dein Fortschritt bleibt im Browser gespeichert.</div>
+  </div>
+
+  <!-- ========== KURS ========== -->
+  <div class="session" id="kurs">
+    <div class="ltitle">Kurs</div>
+    <div class="lsub" style="margin: .2rem 0 1rem .2rem">Woche 1 · Ich und du</div>
+    <div id="lessons"></div>
+    <div class="kurs-head" style="opacity:.7">Woche 2 · Meine Welt · ab Tag 9</div>
+  </div>
+
+  <!-- ========== TEXTOS ========== -->
+  <div class="session" id="textos">
+    <div class="ltitle">Textos</div>
+    <div class="lsub" style="margin: .2rem 0 1rem .2rem">Ein Text pro Lektion, jeden Tag etwas schwerer.<br>Wörter antippen zum Nachschlagen.</div>
+    <div id="textos-list"></div>
+  </div>
+
+  <!-- ========== LEITURA ========== -->
+  <div class="session" id="leitura">
+    <div class="topbar">
+      <button class="back" onclick="goTab('textos')">←</button>
+      <div class="ltitle" id="lt-title" style="flex:1"></div>
+      <button class="audiobtn" id="lt-audio" style="margin:0; width:2.6rem; height:2.6rem; flex:none; display:none" onclick="play(ltAudio)" aria-label="Text anhören"></button>
+    </div>
+    <div class="lsub" id="lt-sub" style="margin-left:2.3rem"></div>
+    <div class="lsec" id="lt-text" style="font-size:1.05rem; line-height:1.85"></div>
+    <div class="legend"><span><i style="background:var(--sand)"></i>neu</span><span><i style="background:var(--lav-pale)"></i>lerne ich</span><span><i style="background:var(--sea)"></i>angetippt</span></div>
+  </div>
+
+  <!-- ========== CADERNO ========== -->
+  <div class="session" id="caderno">
+    <div class="ltitle">Caderno</div>
+    <div class="lsub" style="margin: .2rem 0 1rem .2rem">Dein Vokabelheft</div>
+    <div id="cad-stats"></div>
+    <div class="chips" id="cad-chips"></div>
+    <div class="chips" id="cad-spots"></div>
+    <div class="searchrow" id="cad-search"><input id="cad-q" placeholder="Wort suchen …" oninput="renderCadList()"></div>
+    <button class="mixbtn" id="cad-surf" style="display:none" onclick="surfCad()">Diese Wellen surfen</button>
+    <div class="cadbox" id="cad-list"></div>
+  </div>
+
+  <!-- ========== MAIS ========== -->
+  <div class="session" id="mais">
+    <div class="ltitle">Mais</div>
+    <div class="lsub" style="margin: .2rem 0 1rem .2rem">Nachschlagen, üben, ausdrucken</div>
+    <div id="mais-list"></div>
+  </div>
+
+  <!-- ========== DESCOBRIR (Landeskunde) ========== -->
+  <div class="session" id="descobrir">
+    <div class="topbar">
+      <button class="back" onclick="goTab('mais')">←</button>
+      <div class="ltitle">Descobrir</div>
+    </div>
+    <div class="lsub">Portugal kennenlernen – Land, Kultur, Alltag</div>
+    <div id="descobrir-list"></div>
+  </div>
+
+  <!-- ========== ARTIGO (Landeskunde-Artikel) ========== -->
+  <div class="session" id="artigo">
+    <div class="topbar">
+      <button class="back" onclick="show('descobrir')">←</button>
+      <div class="ltitle" id="art-title" style="flex:1"></div>
+    </div>
+    <div class="lsub" id="art-meta" style="margin-left:2.3rem"></div>
+    <div class="lsec"><div class="body" id="art-body" style="font-size:.95rem; line-height:1.6"></div></div>
+    <div class="lsec" style="border:1.5px dashed var(--sea); background:var(--card)">
+      <h3 style="color:var(--sea)">Sabias que…?</h3>
+      <div class="body" id="art-fact" style="font-size:.92rem"></div>
+    </div>
+  </div>
+
+  <!-- ========== ARBEITSBLÄTTER ========== -->
+  <div class="session" id="blaetter">
+    <div class="topbar">
+      <button class="back" onclick="goTab('mais')">←</button>
+      <div class="ltitle">Arbeitsblätter</div>
+    </div>
+    <div class="lsub">Immer synchron mit den Lektionen · Lösungen auf der letzten Seite</div>
+    <div id="blaetter-list"></div>
+  </div>
+
+  <!-- ========== LERN-SESSION ========== -->
+  <div class="session" id="learn">
+    <div class="topbar">
+      <button class="back" onclick="goHome()">←</button>
+      <div class="sbar"><i id="learnbar"></i></div>
+    </div>
+    <div class="card" id="card" onclick="flipCard()">
+      <div class="word" id="c-pt"></div>
+      <div class="ipa" id="c-ipa"></div>
+      <button class="audiobtn" id="c-audio" onclick="event.stopPropagation(); playCurrent()" aria-label="Anhören"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" stroke="none"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+      <div class="de" id="c-de" style="display:none"></div>
+      <div class="hintline" id="c-hint">Antippen zum Umdrehen</div>
+    </div>
+    <div class="actions" id="learnactions">
+      <button class="again" onclick="answer(false)">Nochmal</button>
+      <button class="good" onclick="answer(true)">Kann ich</button>
+    </div>
+  </div>
+
+  <!-- ========== LEKTION ========== -->
+  <div class="session" id="lesson">
+    <div class="topbar">
+      <button class="back" onclick="goTab('kurs')">←</button>
+      <div class="ltitle" id="l-title"></div>
+      <a class="printlink" id="l-print" href="#" target="_blank" title="Arbeitsblatt drucken"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg> Blatt</a>
+    </div>
+    <div class="lsub" id="l-sub"></div>
+    <div id="l-body"></div>
+    <button class="mixbtn" onclick="finishLesson()" style="margin-top:1.5rem">Stunde abschließen</button>
+  </div>
+
+  <!-- ========== QUIZ ========== -->
+  <div class="session" id="quiz">
+    <div class="topbar">
+      <button class="back" onclick="goHome()">←</button>
+      <div class="sbar"><i id="quizbar"></i></div>
+    </div>
+    <div class="qword" id="q-word"></div>
+    <div class="qipa" id="q-ipa"></div>
+    <div id="q-opts"></div>
+  </div>
+
+  <!-- ========== FERTIG ========== -->
+  <div class="done" id="done">
+    <h2 id="done-title">Boa onda!</h2>
+    <p id="done-text"></p>
+    <button class="mixbtn" onclick="goHome()">Zurück zum Strand</button>
+  </div>
+
+</div>
+
+<nav class="tabbar" id="tabbar"></nav>
+<div class="wpop" id="wpop"></div>
+
+<script src="data.js"></script>
+<script>
+/* ---------- Spots: Blöcke als Surfspots der Algarve-Westküste ---------- */
+const SPOTS = {
+  '01-funktionswoerter': { name: 'Praia do Martinhal', theme: 'Funktionswörter', icon: '01' },
+  '02-verben':           { name: 'Praia da Mareta',    theme: 'Die 20 Verben',   icon: '02' },
+  '03-begruessung':      { name: 'Praia do Tonel',     theme: 'Begrüßung',       icon: '03' },
+  '04-zahlen-zeit':      { name: 'Praia do Beliche',   theme: 'Zahlen & Zeit',   icon: '04' },
+  '05-familie':          { name: 'Praia do Zavial',    theme: 'Familie',         icon: '05' },
+  '06-essen':            { name: 'Praia do Amado',     theme: 'Essen & Trinken', icon: '06' },
+  '07-einkaufen':        { name: 'Praia da Bordeira',  theme: 'Einkaufen',       icon: '07' },
+  '08-wohnen-stadt':     { name: 'Praia da Cordoama',  theme: 'Wohnen & Stadt',  icon: '08' },
+  '09-adjektive':        { name: 'Praia do Castelejo', theme: 'Adjektive',       icon: '09' },
+  '10-sagres-surf':      { name: 'Ponta de Sagres',    theme: 'Surf-Spezial',    icon: '10' },
+};
+const INTERVALS = [0, 1, 3, 7, 21]; // Tage pro Leitner-Box
+
+/* ---------- Speicher ---------- */
+let store = JSON.parse(localStorage.getItem('ep-sagres') || '{"words":{},"streak":{"last":"","count":0}}');
+store.lessons = store.lessons || {};
+function save() { localStorage.setItem('ep-sagres', JSON.stringify(store)); }
+function today() { return new Date().toISOString().slice(0, 10); }
+
+/* Streak */
+(function () {
+  const t = today(), last = store.streak.last;
+  if (last !== t) {
+    const y = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
+    store.streak.count = (last === y) ? store.streak.count + 1 : 1;
+    store.streak.last = t; save();
+  }
+  const n = store.streak.count;
+  document.getElementById('streak').textContent = n + (n === 1 ? ' Tag' : ' Tage');
+})();
+
+/* ---------- Hoje ---------- */
+const DICAS = [
+  'bem = „beng“ ohne das g – Luft durch die Nase!',
+  'você in Portugal meiden – sag tu oder lass das Pronomen weg.',
+  'Tudo bem? ist ein Gruß, keine echte Frage.',
+  'dois cafés, aber duas praias – die Zwei hat m/w!',
+  'Fragen gehen mit der Stimme nach oben: És de Lisboa?',
+  '-am klingt wie -ão: falam = „falãu“.',
+  'Shadowing: Zeile anhören, sofort halblaut mitsprechen.',
+];
+function dueCount() {
+  const t = today();
+  return VOCAB.filter(w => { const s = store.words[w.id]; return s && s.box > 0 && s.due <= t; }).length;
+}
+function renderHome() {
+  const due = dueCount();
+  document.getElementById('mixbtn').textContent =
+    due ? `Tages-Session · ${due} fällige Wellen` : 'Tages-Session · neue Wellen lernen';
+  const next = LESSONS.find(l => !store.lessons[l.id]) || LESSONS[LESSONS.length - 1];
+  const done = LESSONS.filter(l => store.lessons[l.id]).length;
+  const nEl = document.getElementById('next-lesson');
+  nEl.innerHTML = '';
+  const div = document.createElement('div');
+  div.className = 'spot';
+  div.onclick = () => openLesson(next.id);
+  div.innerHTML = `
+    <div class="icon">L${LESSONS.indexOf(next) + 1}</div>
+    <div class="info">
+      <div class="name">${next.label}</div>
+      <div class="theme">${next.sub}</div>
+      <div class="bar"><i style="width:${Math.round(100 * done / LESSONS.length)}%"></i></div>
+    </div>
+    <div class="pct">${done}/${LESSONS.length}</div>`;
+  nEl.appendChild(div);
+  const tx = TEXTOS[Math.min(LESSONS.indexOf(next), TEXTOS.length - 1)];
+  const ex = document.getElementById('hoje-extra');
+  ex.innerHTML = '';
+  const t = document.createElement('div');
+  t.className = 'spot';
+  t.onclick = () => openTexto(tx.tag);
+  t.innerHTML = `
+    <div class="icon">T${tx.num}</div>
+    <div class="info">
+      <div class="name">Texto do dia · ${tx.title}</div>
+      <div class="theme">Tag ${tx.num} · Nível ${tx.nivel} · Wörter antippen</div>
+    </div>`;
+  ex.appendChild(t);
+  const d = document.createElement('div');
+  d.className = 'spot';
+  d.style.cursor = 'default';
+  d.innerHTML = `
+    <div class="icon">D</div>
+    <div class="info">
+      <div class="theme">Dica do dia</div>
+      <div class="name" style="font-size:.86rem; font-weight:500">${DICAS[new Date().getDate() % DICAS.length]}</div>
+    </div>`;
+  ex.appendChild(d);
+}
+const TABVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo'];
+const ALLVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'leitura', 'learn', 'quiz', 'done', 'lesson'];
+function show(id) {
+  for (const s of ALLVIEWS)
+    document.getElementById(s).style.display = (s === id) ? 'block' : 'none';
+  document.getElementById('tabbar').style.display = TABVIEWS.includes(id) ? 'flex' : 'none';
+  hideWpop();
+  renderTabbar(id);
+  window.scrollTo(0, 0);
+}
+function goTab(id) {
+  if (id === 'home') renderHome();
+  else if (id === 'kurs') renderLessons();
+  else if (id === 'textos') renderTextos();
+  else if (id === 'caderno') renderCaderno();
+  else if (id === 'mais') renderMais();
+  else if (id === 'blaetter') renderBlaetter();
+  else if (id === 'descobrir') renderDescobrir();
+  show(id);
+}
+
+/* ---------- Lektionen ---------- */
+const LESSONS = [
+  { id: 'tag01', label: 'Tag 1 · Olá!', sub: 'Begrüßen & sich vorstellen' },
+  { id: 'tag02', label: 'Tag 2 · De onde és?', sub: 'Herkunft & Nationalitäten' },
+  { id: 'tag03', label: 'Tag 3 · Tudo bem?', sub: 'Befinden · ser vs. estar' },
+  { id: 'tag04', label: 'Tag 4 · Quantos anos tens?', sub: 'Zahlen 0–20 · ter · Alter' },
+  { id: 'tag05', label: 'Tag 5 · Perguntas', sub: 'Fragewörter · das „é que"' },
+  { id: 'tag06', label: 'Tag 6 · Trabalho e línguas', sub: 'Beruf & das -ar-Muster' },
+  { id: 'tag07', label: 'Tag 7 · Revisão', sub: 'Wochentest · 44 Punkte' },
+];
+const CHECK_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+function renderLessons() {
+  const el = document.getElementById('lessons');
+  el.innerHTML = '';
+  const next = LESSONS.find(l => !store.lessons[l.id]);
+  LESSONS.forEach((l, i) => {
+    const isDone = !!store.lessons[l.id];
+    let right = '';
+    if (isDone) right = `<div style="width:26px; height:26px; border-radius:50%; background:var(--sea-pale); color:#0b6c5f; display:flex; align-items:center; justify-content:center; flex:none">${CHECK_SVG}</div>`;
+    else if (l === next) right = '<div class="mono" style="font-size:.58rem; letter-spacing:.12em; text-transform:uppercase; background:var(--clay); color:#fff; border-radius:999px; padding:.3rem .6rem; flex:none">Heute</div>';
+    const div = document.createElement('div');
+    div.className = 'spot';
+    div.onclick = () => openLesson(l.id);
+    div.innerHTML = `
+      <div class="icon">L${i + 1}</div>
+      <div class="info">
+        <div class="name">${l.label}</div>
+        <div class="theme">${l.sub}</div>
+      </div>${right}`;
+    el.appendChild(div);
+  });
+}
+function finishLesson() {
+  if (curLesson) { store.lessons[curLesson] = today(); save(); }
+  goTab('kurs');
+}
+let curLesson = null;
+function vocabAudioId(pt) {
+  const w = VOCAB.find(v => v.pt === pt);
+  return w ? w.id : null;
+}
+const PLAY_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 4 20 12 6 20 6 4"/></svg>';
+const MIC_SVG = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>';
+
+/* ---------- Aufnehmen (Shadowing) ---------- */
+let micStream = null, mediaRec = null;
+const recordings = {};   // key → Blob-URL der letzten eigenen Aufnahme
+async function toggleRec(key, btn) {
+  if (mediaRec && mediaRec.state === 'recording') { mediaRec.stop(); return; }
+  if (!navigator.mediaDevices || !window.MediaRecorder) {
+    btn.classList.add('err'); btn.title = 'Aufnahme wird von diesem Browser nicht unterstützt'; return;
+  }
+  try {
+    micStream = micStream || await navigator.mediaDevices.getUserMedia({ audio: true });
+  } catch (e) {
+    btn.classList.add('err'); btn.title = 'Mikrofon-Zugriff nicht erlaubt'; return;
+  }
+  btn.classList.remove('err'); btn.title = 'Aufnehmen – nochmal tippen zum Stoppen';
+  const chunks = [];
+  mediaRec = new MediaRecorder(micStream);
+  mediaRec.ondataavailable = e => chunks.push(e.data);
+  mediaRec.onstop = () => {
+    btn.classList.remove('rec');
+    const blob = new Blob(chunks, { type: mediaRec.mimeType || 'audio/mp4' });
+    if (recordings[key]) URL.revokeObjectURL(recordings[key]);
+    recordings[key] = URL.createObjectURL(blob);
+    const pb = document.getElementById('my-' + key);
+    if (pb) pb.style.display = 'flex';
+  };
+  btn.classList.add('rec');
+  mediaRec.start();
+  setTimeout(() => { if (mediaRec && mediaRec.state === 'recording') mediaRec.stop(); }, 20000);
+}
+function playMine(key) {
+  if (recordings[key]) { audio.src = recordings[key]; audio.play().catch(() => {}); }
+}
+function recButtons(key, mine) {
+  return `<button class="recbtn" onclick="toggleRec('${key}', this)" title="Aufnehmen – nochmal tippen zum Stoppen">${MIC_SVG}</button>
+    <button class="myplay" id="my-${key}" onclick="playMine('${key}')" title="Meine Aufnahme anhören">${PLAY_SVG}</button>`;
+}
+
+/* ---------- Tab-Leiste ---------- */
+const TAB_SVG = {
+  home: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="4.2" y1="4.2" x2="6.3" y2="6.3"/><line x1="17.7" y1="17.7" x2="19.8" y2="19.8"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.2" y1="19.8" x2="6.3" y2="17.7"/><line x1="17.7" y1="6.3" x2="19.8" y2="4.2"/></svg>',
+  kurs: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>',
+  textos: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>',
+  caderno: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+  mais: '<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg>',
+};
+const PRINT_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>';
+function renderTabbar(active) {
+  const act = ['blaetter', 'descobrir', 'artigo'].includes(active) ? 'mais' : active;
+  const defs = [['home', 'Hoje'], ['kurs', 'Kurs'], ['textos', 'Textos'], ['caderno', 'Caderno'], ['mais', 'Mais']];
+  document.getElementById('tabbar').innerHTML = defs.map(([k, l]) =>
+    `<button class="${k === act ? 'on' : ''}" onclick="goTab('${k}')"><span class="tico">${TAB_SVG[k]}</span>${l}</button>`).join('');
+}
+
+/* ---------- Textos (Lesetexte, LingQ-Stil) ---------- */
+const TEXTOS = [
+  { tag: 'tag01', num: 1, title: 'Olá, bom dia!', nivel: 1, story: false },
+  { tag: 'tag02', num: 2, title: 'Este é o João', nivel: 1, story: false },
+  { tag: 'tag03', num: 3, title: 'Uma amiga em Lisboa', nivel: 2, story: true },
+  { tag: 'tag04', num: 4, title: 'É segredo!', nivel: 2, story: true },
+  { tag: 'tag05', num: 5, title: 'Vinte perguntas', nivel: 2, story: true },
+  { tag: 'tag06', num: 6, title: 'A irmã do João', nivel: 3, story: true },
+  { tag: 'tag07', num: 7, title: 'Domingo em Lisboa', nivel: 3, story: true },
+];
+function renderTextos() {
+  const el = document.getElementById('textos-list');
+  el.innerHTML = '';
+  TEXTOS.forEach(t => {
+    const dots = [1, 2, 3].map(i => `<span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:${i <= t.nivel ? 'var(--sea)' : '#e8e0d0'}; margin-right:3px"></span>`).join('');
+    const div = document.createElement('div');
+    div.className = 'spot';
+    div.onclick = () => openTexto(t.tag);
+    div.innerHTML = `
+      <div class="icon">T${t.num}</div>
+      <div class="info">
+        <div class="name">${t.title}</div>
+        <div class="theme">Tag ${t.num} · Nível ${t.nivel} <span style="margin-left:.4rem">${dots}</span></div>
+      </div>`;
+    el.appendChild(div);
+  });
+}
+let ltAudio = null;
+async function openTexto(tag) {
+  const T = TEXTOS.find(t => t.tag === tag);
+  const res = await fetch('lektionen/' + tag + '.json', { cache: 'no-cache' });
+  const L = await res.json();
+  addLessonVocab(L, tag);
+  let html = '', audio = null;
+  const sec = L.sections.find(x => x.type === 'story' && x.title.includes(T.title));
+  if (sec) {
+    const plain = sec.text.replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, '');
+    html = plain.split('\n').map(p => tokenizeLine(p)).join('<br>');
+    audio = sec.audio || null;
+  } else {
+    const r = L.sections.find(x => x.type === 'reading');
+    html = r.lines.map(ln => `<span class="mono" style="font-weight:400; font-size:.72rem; color:var(--clay)">${ln.who}:</span> ` + tokenizeLine(ln.pt)).join('<br>');
+  }
+  ltAudio = audio;
+  document.getElementById('lt-audio').style.display = audio ? 'flex' : 'none';
+  document.getElementById('lt-audio').innerHTML = PLAY_SVG;
+  document.getElementById('lt-title').textContent = T.title;
+  document.getElementById('lt-sub').textContent = `Tag ${T.num} · Nível ${T.nivel} · Wörter antippen zum Nachschlagen`;
+  document.getElementById('lt-text').innerHTML = html;
+  show('leitura');
+}
+function addLessonVocab(L, tag) {
+  const m = vmap();
+  const norm = t => t.toLowerCase().replace(/[?!.,…]/g, '').trim();
+  let n = 0;
+  for (const sec of L.sections) {
+    if (sec.type !== 'vocab') continue;
+    for (const it of sec.items) {
+      n++;
+      const entry = {
+        id: it.audio || vocabAudioId(it.pt) || ('lx-' + tag + '-' + n),
+        pt: it.pt, ipa: it.ipa, de: it.de, hasAudio: !!(it.audio || vocabAudioId(it.pt)),
+      };
+      for (const p of it.pt.split('/').map(x => norm(x)).filter(Boolean)) {
+        if (!m[p]) m[p] = entry;
+        const toks = p.split(/\s+/);
+        if (toks.length > 1) for (const t of toks) if (!m[t]) m[t] = entry;
+      }
+    }
+  }
+}
+let VMAP = null;
+function vmap() {
+  if (VMAP) return VMAP;
+  VMAP = {};
+  const norm = t => t.toLowerCase().replace(/[?!.,…::]/g, '').trim();
+  for (const w of VOCAB) {
+    const parts = w.pt.split('/').map(p => norm(p)).filter(Boolean);
+    for (const p of parts) {
+      if (!VMAP[p]) VMAP[p] = w;
+      const toks = p.split(/\s+/);
+      if (toks.length > 1) for (const t of toks) if (!VMAP[t]) VMAP[t] = w;
+    }
+  }
+  return VMAP;
+}
+function wordClass(n) {
+  const e = vmap()[n];
+  if (!e) return '';
+  const st = store.words[e.id];
+  if (st && st.box >= 2) return '';
+  if (st && st.box >= 1) return 'wlearn';
+  return 'wnew';
+}
+function tokenizeLine(line) {
+  return line.split(/\s+/).filter(Boolean).map(tok => {
+    const core = tok.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, '');
+    if (!core) return `<span>${tok}</span>`;
+    const n = core.toLowerCase();
+    return `<span class="wtok ${wordClass(n)}" data-w="${n}" onclick="tapWord(this)">${tok}</span>`;
+  }).join(' ');
+}
+function playTok(w) {
+  audio.src = 'audio/tok/' + encodeURIComponent(w) + '.m4a';
+  audio.play().catch(() => {});
+}
+function tapWord(el) {
+  document.querySelectorAll('.wtok.wsel').forEach(x => x.classList.remove('wsel'));
+  el.classList.add('wsel');
+  const n = el.dataset.w, e = vmap()[n];
+  const pop = document.getElementById('wpop');
+  playTok(n);
+  if (e) {
+    pop.innerHTML = `
+      <div style="display:flex; align-items:center; gap:.7rem">
+        <button class="playbtn" onclick="playTok('${n}')">${PLAY_SVG}</button>
+        <div style="flex:1; min-width:0">
+          <div class="mono" style="font-size:.95rem; font-weight:400">${e.pt}</div>
+          <div class="mono" style="font-size:.72rem; color:var(--ink-soft)">${e.ipa} · ${e.de}</div>
+        </div>
+        <button class="chip" style="background:var(--lav-pale); color:var(--lav-deep)" onclick="markWord('${e.id}', 1)">Lernen</button>
+        <button class="chip" style="background:var(--sea); color:#fff" onclick="markWord('${e.id}', 2)">Kenne ich</button>
+      </div>`;
+  } else {
+    pop.innerHTML = `
+      <div style="display:flex; align-items:center; gap:.7rem">
+        <button class="playbtn" onclick="playTok('${n}')">${PLAY_SVG}</button>
+        <div class="mono" style="font-size:.8rem; color:var(--ink-soft); flex:1"><b style="color:var(--ink)">${n}</b> – noch nicht im Caderno, kommt in einer späteren Lektion.</div>
+      </div>`;
+  }
+  pop.style.display = 'block';
+}
+function hideWpop() {
+  const p = document.getElementById('wpop');
+  if (p) p.style.display = 'none';
+  document.querySelectorAll('.wtok.wsel').forEach(x => x.classList.remove('wsel'));
+}
+function markWord(id, box) {
+  const st = store.words[id] || { box: 0, due: today() };
+  st.box = box === 1 ? 1 : Math.max(st.box, 2);
+  const d = new Date(Date.now() + INTERVALS[st.box] * 864e5);
+  st.due = d.toISOString().slice(0, 10);
+  store.words[id] = st;
+  save();
+  document.querySelectorAll('.wtok').forEach(t => {
+    const e = vmap()[t.dataset.w];
+    if (e && e.id === id) t.className = 'wtok ' + wordClass(t.dataset.w);
+  });
+  hideWpop();
+}
+
+/* ---------- Caderno (Vokabelheft) ---------- */
+let cadFilter = 'all', cadSpot = 'all';
+function renderCaderno() {
+  const total = VOCAB.length;
+  let g = 0, a = 0;
+  for (const w of VOCAB) { const b = (store.words[w.id] || { box: 0 }).box; if (b >= 2) g++; else if (b === 1) a++; }
+  document.getElementById('cad-stats').innerHTML = `
+    <div class="lsec" style="display:flex; align-items:center; gap:14px; transform:rotate(-.3deg)">
+      <div style="font-size:2rem; font-weight:700; color:var(--sea)">${g}</div>
+      <div style="flex:1">
+        <div style="font-weight:600; font-size:.9rem">von ${total} Wellen gestanden</div>
+        <div class="bar" style="margin-top:.4rem"><i style="width:${Math.round(100 * g / total)}%"></i></div>
+        <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.3rem">${g} gelernt · ${a} in Arbeit · ${total - g - a} neu</div>
+      </div>
+    </div>`;
+  const F = [['all', 'Alle'], ['gelernt', 'Gelernt'], ['arbeit', 'In Arbeit'], ['neu', 'Neu']];
+  document.getElementById('cad-chips').innerHTML = F.map(([k, l]) =>
+    `<button class="chip ${cadFilter === k ? 'on' : ''}" onclick="cadFilter='${k}'; renderCaderno()">${l}</button>`).join('');
+  document.getElementById('cad-spots').innerHTML =
+    `<button class="chip ${cadSpot === 'all' ? 'on' : ''}" onclick="cadSpot='all'; renderCaderno()">Alle Spots</button>` +
+    Object.entries(SPOTS).map(([k, sp]) =>
+      `<button class="chip ${cadSpot === k ? 'on' : ''}" onclick="cadSpot='${k}'; renderCaderno()">${sp.theme}</button>`).join('');
+  document.getElementById('cad-surf').style.display = cadSpot === 'all' ? 'none' : 'block';
+  renderCadList();
+}
+function surfCad() { startLearn(cadSpot === 'all' ? 'mix' : cadSpot); }
+function renderCadList() {
+  const q = (document.getElementById('cad-q').value || '').toLowerCase();
+  const ws = VOCAB.filter(w => {
+    if (cadSpot !== 'all' && w.block !== cadSpot) return false;
+    const b = (store.words[w.id] || { box: 0 }).box;
+    if (cadFilter === 'gelernt' && b < 2) return false;
+    if (cadFilter === 'arbeit' && b !== 1) return false;
+    if (cadFilter === 'neu' && b !== 0) return false;
+    if (q && !(w.pt.toLowerCase().includes(q) || w.de.toLowerCase().includes(q))) return false;
+    return true;
+  });
+  const el = document.getElementById('cad-list');
+  el.innerHTML = ws.length ? '' : '<div class="mono" style="padding:.8rem 0; font-size:.8rem; color:var(--ink-soft)">Nichts gefunden.</div>';
+  for (const w of ws) {
+    const b = (store.words[w.id] || { box: 0 }).box;
+    const dots = '<span class="boxdots">' + [1, 2, 3, 4].map(i => `<span class="${b >= i ? 'f' : ''}"></span>`).join('') + '</span>';
+    const row = document.createElement('div');
+    row.className = 'vrow';
+    row.innerHTML = `
+      <button class="playbtn" onclick="play('${w.id}')">${PLAY_SVG}</button>
+      <div><div class="pt">${w.pt}</div><div class="vipa">${w.ipa}</div></div>
+      <div class="vde">${w.de}<div style="margin-top:2px">${dots}</div></div>`;
+    el.appendChild(row);
+  }
+}
+
+/* ---------- Mais & Arbeitsblätter ---------- */
+const MAIS_SVG = {
+  compass: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>',
+  printer: PRINT_SVG,
+  grid: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>',
+  bulb: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></svg>',
+  book: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>',
+  chart: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="20" x2="6" y2="14"/><line x1="12" y1="20" x2="12" y2="8"/><line x1="18" y1="20" x2="18" y2="4"/></svg>',
+  mic: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg>',
+};
+function renderMais() {
+  const items = [
+    ['compass', 'Descobrir', 'Portugal kennenlernen – Land & Kultur', "goTab('descobrir')"],
+    ['printer', 'Arbeitsblätter', 'Alle Lektionen zum Ausdrucken', "goTab('blaetter')"],
+    ['grid', 'Jogos', 'Kleine Spiele mit deinen Wörtern', null],
+    ['bulb', 'Dicas', 'Alle Grammatik- und Aussprache-Tipps', null],
+    ['book', 'História', 'Die Geschichte der vier Freunde', null],
+    ['chart', 'Fortschritt', 'Streak, Tests und Statistik', null],
+  ];
+  const el = document.getElementById('mais-list');
+  el.innerHTML = '';
+  for (const [ic, title, sub, action] of items) {
+    const div = document.createElement('div');
+    div.className = 'spot';
+    if (action) div.setAttribute('onclick', action);
+    else { div.style.cursor = 'default'; div.style.opacity = '.6'; }
+    div.innerHTML = `
+      <div class="icon">${MAIS_SVG[ic]}</div>
+      <div class="info">
+        <div class="name">${title}</div>
+        <div class="theme">${sub}</div>
+      </div>
+      ${action ? '' : '<div class="mono" style="font-size:.58rem; letter-spacing:.1em; text-transform:uppercase; background:var(--lav-pale); color:var(--lav-deep); border-radius:999px; padding:.3rem .6rem; flex:none">em breve</div>'}`;
+    el.appendChild(div);
+  }
+}
+let DESCOBRIR = null;
+async function renderDescobrir() {
+  if (!DESCOBRIR) {
+    const res = await fetch('descobrir.json', { cache: 'no-cache' });
+    DESCOBRIR = await res.json();
+  }
+  const el = document.getElementById('descobrir-list');
+  el.innerHTML = '';
+  DESCOBRIR.forEach((a, i) => {
+    const div = document.createElement('div');
+    div.className = 'spot';
+    div.onclick = () => openArtigo(a.id);
+    div.innerHTML = `
+      <div class="icon">${String(i + 1).padStart(2, '0')}</div>
+      <div class="info">
+        <div class="name">${a.title}</div>
+        <div class="theme">${a.meta}</div>
+      </div>`;
+    el.appendChild(div);
+  });
+}
+function openArtigo(id) {
+  const a = DESCOBRIR.find(x => x.id === id);
+  document.getElementById('art-title').textContent = a.title;
+  document.getElementById('art-meta').textContent = a.meta;
+  document.getElementById('art-body').innerHTML = a.html;
+  document.getElementById('art-fact').innerHTML = a.fact;
+  show('artigo');
+}
+function renderBlaetter() {
+  const el = document.getElementById('blaetter-list');
+  el.innerHTML = '';
+  LESSONS.forEach((l, i) => {
+    const a = document.createElement('a');
+    a.className = 'spot';
+    a.style.textDecoration = 'none';
+    a.style.color = 'inherit';
+    a.href = 'druck.html?id=' + l.id;
+    a.target = '_blank';
+    a.innerHTML = `
+      <div class="icon">B${i + 1}</div>
+      <div class="info">
+        <div class="name">${l.label}</div>
+        <div class="theme">${l.sub}</div>
+      </div>
+      <div style="width:40px; height:40px; border-radius:50%; background:var(--clay-soft); color:var(--clay); display:flex; align-items:center; justify-content:center; flex:none">${PRINT_SVG}</div>`;
+    el.appendChild(a);
+  });
+}
+async function openLesson(id) {
+  const res = await fetch('lektionen/' + id + '.json', { cache: 'no-cache' });
+  const L = await res.json();
+  document.getElementById('l-title').textContent = L.title;
+  document.getElementById('l-sub').textContent = L.subtitle;
+  document.getElementById('l-print').href = 'druck.html?id=' + id;
+  curLesson = id;
+  const body = document.getElementById('l-body');
+  body.innerHTML = '';
+  for (const sec of L.sections) {
+    const div = document.createElement('div');
+    div.className = 'lsec';
+    if (sec.type === 'note' || sec.type === 'speak') {
+      div.innerHTML = `<h3>${sec.title}</h3><div class="body">${sec.html}</div>`;
+      if (sec.type === 'speak') {
+        div.innerHTML += `<div class="recrow">${recButtons(id + '-speak')}
+          <span class="hint">Nimm dich beim Sprechen auf und hör es dir an – klingt es schon portugiesisch?</span></div>`;
+      }
+    } else if (sec.type === 'vocab') {
+      div.innerHTML = `<h3>${sec.title}</h3>`;
+      for (const it of sec.items) {
+        const aid = it.audio || vocabAudioId(it.pt);
+        const row = document.createElement('div');
+        row.className = 'vrow';
+        row.innerHTML = `
+          ${aid ? `<button class="playbtn" onclick="play('${aid}')">${PLAY_SVG}</button>` : ''}
+          <div><div class="pt">${it.pt}</div><div class="vipa">${it.ipa}</div></div>
+          <div class="vde">${it.de}</div>`;
+        div.appendChild(row);
+      }
+    } else if (sec.type === 'reading') {
+      div.innerHTML = `<h3>${sec.title}</h3>`;
+      for (const ln of sec.lines) {
+        const row = document.createElement('div');
+        row.className = 'dline';
+        row.innerHTML = `<span class="who">${ln.who}</span>
+          <span class="dpt" onclick="play('${ln.audio}')">${ln.pt}</span>
+          ${recButtons(ln.audio)}`;
+        div.appendChild(row);
+      }
+      div.innerHTML += `<div class="hint">Shadowing: Zeile anhören, sofort selbst aufnehmen, beide vergleichen – Melodie imitieren, nicht übersetzen.${sec.hint ? '<br><br>' + sec.hint : ''}</div>`;
+    } else if (sec.type === 'story') {
+      div.innerHTML = `<h3>${sec.title}</h3>
+        ${sec.audio ? `<button class="playbtn" style="margin-bottom:.6rem" onclick="play('${sec.audio}')">${PLAY_SVG}</button>` : ''}
+        <div class="body">${sec.text}</div>
+        ${sec.gloss ? `<div class="hint">${sec.gloss}</div>` : ''}`;
+      for (const it of (sec.questions || [])) {
+        const row = document.createElement('div');
+        row.className = 'exitem';
+        row.innerHTML = `<div class="q">${it.q}</div>
+          <button class="reveal" onclick="this.parentElement.classList.add('open'); this.remove()">Lösung</button>
+          <div class="a">${it.a}</div>`;
+        div.appendChild(row);
+      }
+    } else if (sec.type === 'exercise') {
+      div.innerHTML = `<h3>${sec.title}</h3>` +
+        (sec.intro ? `<div class="hint" style="margin:0 0 .5rem">${sec.intro}</div>` : '');
+      for (const it of sec.items) {
+        const row = document.createElement('div');
+        row.className = 'exitem';
+        row.innerHTML = `<div class="q">${it.q}</div>
+          <button class="reveal" onclick="this.parentElement.classList.add('open'); this.remove()">Lösung</button>
+          <div class="a">${it.a}</div>`;
+        div.appendChild(row);
+      }
+    }
+    body.appendChild(div);
+  }
+  show('lesson');
+}
+function goHome() { goTab('home'); }
+
+/* ---------- Audio ---------- */
+let audio = new Audio();
+function play(id) { audio.src = 'audio/' + id + '.m4a'; audio.play().catch(() => {}); }
+
+/* ---------- Lern-Session ---------- */
+let queue = [], idx = 0, total = 0, flipped = false, correct = 0, curBlock = 'mix';
+
+function dueWords(block) {
+  const pool = block === 'mix' ? VOCAB : VOCAB.filter(w => w.block === block);
+  const t = today();
+  const due = pool.filter(w => { const s = store.words[w.id]; return s && s.box > 0 && s.due <= t; });
+  const fresh = pool.filter(w => !store.words[w.id] || store.words[w.id].box === 0);
+  return due.concat(shuffle(fresh)).slice(0, 10);
+}
+function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+function startLearn(block) {
+  curBlock = block;
+  queue = dueWords(block);
+  if (!queue.length) {
+    // alles gelernt → direkt Quiz anbieten
+    startQuiz(block); return;
+  }
+  idx = 0; total = queue.length; correct = 0;
+  show('learn'); showCard();
+}
+function showCard() {
+  flipped = false;
+  const w = queue[idx];
+  document.getElementById('c-pt').textContent = w.pt;
+  document.getElementById('c-ipa').textContent = w.ipa;
+  document.getElementById('c-de').style.display = 'none';
+  document.getElementById('c-hint').textContent = 'Antippen zum Umdrehen';
+  document.getElementById('learnbar').style.width = (100 * idx / total) + '%';
+  play(w.id);
+}
+function flipCard() {
+  if (flipped) return;
+  flipped = true;
+  const w = queue[idx];
+  document.getElementById('c-de').textContent = w.de;
+  document.getElementById('c-de').style.display = 'block';
+  document.getElementById('c-hint').textContent = 'Und – konntest du es?';
+}
+function playCurrent() { play(queue[idx].id); }
+function answer(good) {
+  if (!flipped) { flipCard(); return; }
+  const w = queue[idx];
+  const s = store.words[w.id] || { box: 0, due: today() };
+  if (good) { s.box = Math.min(s.box + 1, INTERVALS.length - 1); correct++; }
+  else { s.box = Math.max(s.box - 1, 0); queue.push(w); total++; }
+  const d = new Date(Date.now() + INTERVALS[s.box] * 864e5);
+  s.due = d.toISOString().slice(0, 10);
+  store.words[w.id] = s; save();
+  idx++;
+  if (idx >= queue.length) return finish('learn');
+  showCard();
+}
+
+/* ---------- Quiz ---------- */
+let qQueue = [], qIdx = 0, qCorrect = 0, qLock = false;
+function startQuiz(block) {
+  const pool = block === 'mix' ? VOCAB : VOCAB.filter(w => w.block === block);
+  qQueue = shuffle(pool).slice(0, 8);
+  if (qQueue.length < 4) { goHome(); return; }
+  qIdx = 0; qCorrect = 0;
+  show('quiz'); showQuestion();
+}
+function showQuestion() {
+  qLock = false;
+  const w = qQueue[qIdx];
+  const ptToDe = Math.random() < 0.6;
+  document.getElementById('q-word').textContent = ptToDe ? w.pt : w.de;
+  document.getElementById('q-ipa').textContent = ptToDe ? w.ipa : '';
+  document.getElementById('quizbar').style.width = (100 * qIdx / qQueue.length) + '%';
+  if (ptToDe) play(w.id);
+  const pool = VOCAB.filter(x => x.block === w.block && x.id !== w.id);
+  const opts = shuffle([w].concat(shuffle(pool).slice(0, 3)));
+  const box = document.getElementById('q-opts');
+  box.innerHTML = '';
+  for (const o of opts) {
+    const b = document.createElement('button');
+    b.className = 'opt';
+    b.textContent = ptToDe ? o.de : o.pt;
+    b.onclick = () => pick(b, o.id === w.id, w);
+    box.appendChild(b);
+  }
+}
+function pick(btn, right, w) {
+  if (qLock) return;
+  qLock = true;
+  btn.classList.add(right ? 'right' : 'wrong');
+  if (right) qCorrect++;
+  else {
+    for (const b of document.querySelectorAll('.opt'))
+      if (b.textContent === w.de || b.textContent === w.pt) b.classList.add('right');
+  }
+  if (!right) play(w.id);
+  setTimeout(() => { qIdx++; qIdx >= qQueue.length ? finish('quiz') : showQuestion(); }, 1100);
+}
+
+/* ---------- Ende ---------- */
+function finish(mode) {
+  show('done');
+  if (mode === 'learn') {
+    document.getElementById('done-title').textContent = correct === total ? 'Perfeito!' : 'Boa onda!';
+    document.getElementById('done-text').textContent =
+      `${correct} von ${total} Wellen sauber gestanden. ${correct === total ? 'Perfekter Tag in Sagres!' : 'Die Wackler kommen automatisch wieder.'}`;
+  } else {
+    document.getElementById('done-title').textContent = qCorrect >= 7 ? 'Fantástico!' : 'Quiz beendet';
+    document.getElementById('done-text').textContent = `${qCorrect} von ${qQueue.length} richtig.`;
+  }
+}
+
+goTab('home');
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+</script>
+</body>
+</html>

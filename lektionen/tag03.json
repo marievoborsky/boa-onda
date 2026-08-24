@@ -1,0 +1,261 @@
+{
+ "id": "tag03",
+ "title": "Tudo bem?",
+ "subtitle": "Woche 1 · Tag 3 · Befinden · estar · ser vs. estar · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen",
+   "items": [
+    {
+     "q": "Nós ___ de Hamburgo. (ser)",
+     "a": "somos"
+    },
+    {
+     "q": "Sou ___ Alemanha, ele é ___ Porto. (de/do/da)",
+     "a": "da / do"
+    },
+    {
+     "q": "A Marie é alem___, o João é portugu___.",
+     "a": "alemã / português"
+    },
+    {
+     "q": "Von Tag 1: „Sehr erfreut\" heißt…",
+     "a": "Muito prazer"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter (12)",
+   "items": [
+    {
+     "pt": "Tudo bem?",
+     "de": "Alles gut? (DIE Standardbegrüßung)",
+     "ipa": "[ˈtudu bɐ̃j̃]"
+    },
+    {
+     "pt": "Como estás?",
+     "de": "Wie geht's dir?",
+     "ipa": "[ˈkomu ɨʃˈtaʃ]",
+     "audio": "v0301"
+    },
+    {
+     "pt": "bem / mal",
+     "de": "gut / schlecht",
+     "ipa": "[bɐ̃j̃] / [maɫ]",
+     "audio": "v0302"
+    },
+    {
+     "pt": "mais ou menos",
+     "de": "so lala (wörtl. „mehr oder weniger\")",
+     "ipa": "[majz o ˈmenuʃ]",
+     "audio": "v0303"
+    },
+    {
+     "pt": "cansado / cansada",
+     "de": "müde (m / w)",
+     "ipa": "[kɐ̃ˈsadu] / [kɐ̃ˈsadɐ]",
+     "audio": "v0304"
+    },
+    {
+     "pt": "doente",
+     "de": "krank",
+     "ipa": "[duˈẽtɨ]",
+     "audio": "v0305"
+    },
+    {
+     "pt": "feliz",
+     "de": "glücklich",
+     "ipa": "[fɨˈliʃ]",
+     "audio": "v0306"
+    },
+    {
+     "pt": "triste",
+     "de": "traurig",
+     "ipa": "[ˈtɾiʃtɨ]",
+     "audio": "v0307"
+    },
+    {
+     "pt": "um pouco",
+     "de": "ein bisschen",
+     "ipa": "[ũ ˈpoku]",
+     "audio": "v0308"
+    },
+    {
+     "pt": "hoje",
+     "de": "heute",
+     "ipa": "[ˈoʒɨ]"
+    },
+    {
+     "pt": "agora",
+     "de": "jetzt",
+     "ipa": "[ɐˈɡɔɾɐ]"
+    },
+    {
+     "pt": "em casa",
+     "de": "zu Hause",
+     "ipa": "[ɐ̃j̃ ˈkazɐ]",
+     "audio": "v0309"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: estar – das zweite „sein\"",
+   "html": "<b>eu estou [ɨʃˈto] · tu estás [ɨʃˈtaʃ] · ele/ela/você está [ɨʃˈta]</b><br>(Gesprochen fällt das e- oft weg: „stou, stás, stá\". Plural kommt später.)<br><br><b>ser</b> = wer/was jemand IST (dauerhaft): Identität, Herkunft, Nationalität → <i>Sou a Marie. Sou da Alemanha. Ela é alemã.</i><br><b>estar</b> = wie/wo jemand GERADE ist: Zustand, Ort, Befinden → <i>Estou cansada. Estou em Lisboa. Como estás? – Estou bem.</i><br><br><b>Eselsbrücke:</b> ser = Steckbrief (steht im Pass), estar = Stimmungsbericht (kann morgen anders sein). Der schönste Beispielsatz: <i>Ela <b>é</b> alemã, mas agora <b>está</b> em Lisboa.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "<b>„Tudo bem?“</b> ist eher Gruß als echte Frage – wie unser „Na, alles klar?“. Standard-Antwort: <i>„Tudo bem, e tu?“</i> – niemand erwartet einen Gesundheitsbericht. Aussprache: <i>bem</i> = „beng“ ohne das g (nasal durch die Nase!)."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: O João está doente",
+   "hint": "Duzen oder Siezen? Como estás? = du (tu) · Como está? = Sie (você/o senhor). Unter Freunden immer tu.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Olá, Ana! Tudo bem?",
+     "audio": "d0301"
+    },
+    {
+     "who": "Ana",
+     "pt": "Mais ou menos… Estou um pouco cansada. E tu, como estás?",
+     "audio": "d0302"
+    },
+    {
+     "who": "Marie",
+     "pt": "Eu estou muito bem! Mas o João não está bem — está doente.",
+     "audio": "d0303"
+    },
+    {
+     "who": "Ana",
+     "pt": "Oh, não! Ele está em casa?",
+     "audio": "d0304"
+    },
+    {
+     "who": "Marie",
+     "pt": "Sim, hoje está em casa.",
+     "audio": "d0305"
+    },
+    {
+     "who": "Ana",
+     "pt": "E tu, estás feliz em Lisboa?",
+     "audio": "d0306"
+    },
+    {
+     "who": "Marie",
+     "pt": "Estou muito feliz! Eu sou de Hamburgo, mas agora estou em Lisboa.",
+     "audio": "d0307"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Setze estou / estás / está ein",
+   "items": [
+    {
+     "q": "Eu ___ bem, obrigada.",
+     "a": "estou"
+    },
+    {
+     "q": "Tu ___ cansado?",
+     "a": "estás"
+    },
+    {
+     "q": "A Ana ___ um pouco triste.",
+     "a": "está"
+    },
+    {
+     "q": "O João ___ em casa.",
+     "a": "está"
+    },
+    {
+     "q": "Como ___ tu hoje?",
+     "a": "estás"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · ser oder estar? (Die Schlüsselübung!)",
+   "items": [
+    {
+     "q": "Eu sou / estou alemã.",
+     "a": "sou (Nationalität = Steckbrief)"
+    },
+    {
+     "q": "Eu sou / estou doente.",
+     "a": "estou (Zustand)"
+    },
+    {
+     "q": "Ela é / está do Porto.",
+     "a": "é (Herkunft)"
+    },
+    {
+     "q": "Ela é / está em casa.",
+     "a": "está (Ort gerade jetzt)"
+    },
+    {
+     "q": "Tu és / estás feliz hoje?",
+     "a": "estás (Befinden)"
+    },
+    {
+     "q": "Tu és / estás a Marie?",
+     "a": "és (Identität)"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Übersetze",
+   "items": [
+    {
+     "q": "Hallo, alles gut?",
+     "a": "Olá, tudo bem?"
+    },
+    {
+     "q": "Ich bin ein bisschen müde. (als Frau)",
+     "a": "Estou um pouco cansada."
+    },
+    {
+     "q": "Er ist heute zu Hause.",
+     "a": "Ele está em casa hoje. / Hoje ele está em casa."
+    },
+    {
+     "q": "Sie ist Portugiesin, aber sie ist jetzt in Berlin.",
+     "a": "Ela é portuguesa, mas agora está em Berlim."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen & Schreiben",
+   "html": "Wie geht es dir wirklich gerade? Drei ehrliche Sätze mit estar (und einer mit ser), laut:<br><br><i>Hoje estou … · Estou um pouco … · Eu sou …, mas agora estou …</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Uma amiga em Lisboa",
+   "audio": "s03",
+   "text": "A Marie é alemã, de Hamburgo, mas agora está em Lisboa. Hoje está um pouco cansada — mas está feliz, porque Lisboa é fantástica. A Ana e o João são amigos da Marie. A Ana é do Porto e o João é de Lisboa. E hoje? Hoje o João está em casa. Está doente e está triste.<br>— Olá, João! Como estás?<br>— Estou mal…<br>— Oh, não!",
+   "gloss": "Neu erschließen: porque = weil. Erst lesen, dann anhören, dann laut mitlesen.",
+   "questions": [
+    {
+     "q": "A Marie está em Hamburgo agora.",
+     "a": "Falsch – sie ist jetzt in Lissabon."
+    },
+    {
+     "q": "O João está doente e triste.",
+     "a": "Richtig."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "5b ist die Schlüsselübung. Alles richtig → du hast ser/estar verstanden, das größte Stolperthema von Woche 1. Fehler → Tabelle in Teil 3 noch einmal lesen; das kommt morgen wieder. Morgen: Zahlen 0–20 und dein Alter."
+  }
+ ]
+}

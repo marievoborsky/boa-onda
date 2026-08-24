@@ -1,0 +1,253 @@
+{
+ "id": "tag02",
+ "title": "De onde és?",
+ "subtitle": "Woche 1 · Tag 2 · Herkunft & Nationalitäten · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen: Von gestern",
+   "intro": "Ohne nachzuschauen! Erst antworten, dann aufdecken.",
+   "items": [
+    {
+     "q": "Es ist 15 Uhr, du triffst eine Nachbarin:",
+     "a": "Boa tarde!"
+    },
+    {
+     "q": "Eu ___ a Marie. (sein)",
+     "a": "sou"
+    },
+    {
+     "q": "Tu ___ a Ana? (sein)",
+     "a": "és"
+    },
+    {
+     "q": "„danke\" – als Frau sagst du:",
+     "a": "obrigada"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter (12)",
+   "items": [
+    {
+     "pt": "De onde…?",
+     "de": "Woher…?",
+     "ipa": "[dɨ ˈõdɨ]",
+     "audio": "v0201"
+    },
+    {
+     "pt": "alemão / alemã",
+     "de": "deutsch (m / w)",
+     "ipa": "[ɐlɨˈmɐ̃w̃] / [ɐlɨˈmɐ̃]",
+     "audio": "v0202"
+    },
+    {
+     "pt": "português / portuguesa",
+     "de": "portugiesisch (m / w)",
+     "ipa": "[puɾtuˈɡeʃ] / [puɾtuˈɡezɐ]",
+     "audio": "v0203"
+    },
+    {
+     "pt": "inglês / inglesa",
+     "de": "englisch (m / w)",
+     "ipa": "[ĩˈɡleʃ] / [ĩˈɡlezɐ]",
+     "audio": "v0204"
+    },
+    {
+     "pt": "espanhol / espanhola",
+     "de": "spanisch (m / w)",
+     "ipa": "[ʃpɐˈɲɔɫ] / [ʃpɐˈɲɔlɐ]",
+     "audio": "v0205"
+    },
+    {
+     "pt": "a Alemanha",
+     "de": "Deutschland",
+     "ipa": "[ɐlɨˈmɐɲɐ]",
+     "audio": "v0206"
+    },
+    {
+     "pt": "Portugal",
+     "de": "Portugal",
+     "ipa": "[puɾtuˈɡaɫ]",
+     "audio": "v0207"
+    },
+    {
+     "pt": "a cidade",
+     "de": "Stadt",
+     "ipa": "[siˈdadɨ]"
+    },
+    {
+     "pt": "o país",
+     "de": "Land",
+     "ipa": "[pɐˈiʃ]"
+    },
+    {
+     "pt": "mas",
+     "de": "aber",
+     "ipa": "[mɐʃ]"
+    },
+    {
+     "pt": "também",
+     "de": "auch",
+     "ipa": "[tɐ̃ˈbɐ̃j̃]"
+    },
+    {
+     "pt": "este / esta",
+     "de": "dieser / diese (Este é o João = Das ist João)",
+     "ipa": "[ˈeʃtɨ] / [ˈɛʃtɐ]"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: ser – jetzt komplett",
+   "html": "<b>eu sou · tu és · ele/ela/você é · nós somos [ˈsomuʃ] · eles/elas/vocês são [sɐ̃w̃]</b><br><br><b>Herkunft = ser + de:</b> Sou de Hamburgo. · És de Lisboa?<br><br><b>Länder haben Artikel</b> – und de + a verschmilzt zu <b>da</b>: Sou <b>da</b> Alemanha. Ausnahme: Portugal ohne Artikel → Sou <b>de</b> Portugal. Städte mit Artikel genauso: o Porto → Sou <b>do</b> Porto, aber Lisboa → <b>de</b> Lisboa.<br><br><b>Nationalität passt sich an:</b> O Tim é alem<b>ão</b>. A Marie é alem<b>ã</b>. (Kleingeschrieben! Nur Länder groß.)"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "<b>você</b> hörst du in Portugal selten – es kann distanziert oder sogar unhöflich wirken. Sag <b>tu</b> zu Leuten in deinem Alter, und lass sonst das Pronomen einfach weg: <i>„É de Lisboa?“</i> ist völlig höflich. Ganz formell: <b>o senhor / a senhora</b>."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Este é o João",
+   "hint": "Selbst erschließen: a minha cidade = meine Stadt · fantástica = fantastisch (Wörter auf -isch enden oft auf -ico/-ica) · não é? = nicht wahr?",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Olá, Marie! Este é o João.",
+     "audio": "d0201"
+    },
+    {
+     "who": "Marie",
+     "pt": "Olá, João! Muito prazer.",
+     "audio": "d0202"
+    },
+    {
+     "who": "João",
+     "pt": "Muito prazer. Tu és inglesa?",
+     "audio": "d0203"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não, não sou inglesa. Sou alemã, de Hamburgo. E tu, de onde és?",
+     "audio": "d0204"
+    },
+    {
+     "who": "João",
+     "pt": "Sou de Lisboa. É a minha cidade!",
+     "audio": "d0205"
+    },
+    {
+     "who": "Marie",
+     "pt": "A Ana é do Porto, tu és de Lisboa — e eu sou de Hamburgo!",
+     "audio": "d0206"
+    },
+    {
+     "who": "João",
+     "pt": "Sim! E a minha cidade é fantástica, não é?",
+     "audio": "d0207"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Setze die richtige Form von ser ein",
+   "items": [
+    {
+     "q": "Nós ___ de Hamburgo.",
+     "a": "somos"
+    },
+    {
+     "q": "Vocês ___ de Portugal?",
+     "a": "são"
+    },
+    {
+     "q": "Eu ___ da Alemanha.",
+     "a": "sou"
+    },
+    {
+     "q": "A Ana e o João ___ amigos.",
+     "a": "são"
+    },
+    {
+     "q": "Tu ___ espanhol?",
+     "a": "és"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Männlich oder weiblich? Ergänze die Endung",
+   "items": [
+    {
+     "q": "O Tim é alem___.",
+     "a": "alemão"
+    },
+    {
+     "q": "A Marie é alem___.",
+     "a": "alemã"
+    },
+    {
+     "q": "A Ana é portugues___.",
+     "a": "portuguesa"
+    },
+    {
+     "q": "O João é portugu___.",
+     "a": "português"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · de, do oder da?",
+   "items": [
+    {
+     "q": "Sou ___ Alemanha.",
+     "a": "da (de + a Alemanha)"
+    },
+    {
+     "q": "És ___ Lisboa?",
+     "a": "de (Lisboa hat keinen Artikel)"
+    },
+    {
+     "q": "Ele é ___ Porto.",
+     "a": "do (de + o Porto)"
+    },
+    {
+     "q": "Somos ___ Portugal.",
+     "a": "de (Portugal hat keinen Artikel)"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O João é de Lisboa.",
+     "a": "Richtig – geboren und aufgewachsen!"
+    },
+    {
+     "q": "A Marie não é inglesa.",
+     "a": "Richtig – sie ist Deutsche."
+    },
+    {
+     "q": "A Ana e o João são amigos.",
+     "a": "Richtig."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen & Schreiben",
+   "html": "Stell einer portugiesischen Freundin jemanden vor (real oder erfunden) – drei Sätze, laut:<br><br><i>Esta é a … · Ela é … · É de …</i>"
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Fehler bei 5c? Merksatz: <b>a Alemanha → da · o Porto → do · Lisboa & Portugal (kein Artikel) → de</b>. Das kommt morgen im Aufwärmen wieder. Morgen: Tudo bem? – Befinden & der Unterschied ser/estar."
+  }
+ ]
+}

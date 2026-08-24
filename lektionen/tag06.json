@@ -1,0 +1,228 @@
+{
+ "id": "tag06",
+ "title": "Trabalho e línguas",
+ "subtitle": "Woche 1 · Tag 6 · Beruf & Sprachen · das -ar-Muster · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen",
+   "items": [
+    {
+     "q": "Frage mit „é que\": (de onde / tu / ser)?",
+     "a": "De onde é que és?"
+    },
+    {
+     "q": "Ela é / está portuguesa, mas hoje é / está triste.",
+     "a": "é / está"
+    },
+    {
+     "q": "17 =",
+     "a": "dezassete"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter (12)",
+   "items": [
+    {
+     "pt": "falar",
+     "de": "sprechen",
+     "ipa": "[fɐˈlaɾ]"
+    },
+    {
+     "pt": "morar",
+     "de": "wohnen",
+     "ipa": "[muˈɾaɾ]",
+     "audio": "v0601"
+    },
+    {
+     "pt": "trabalhar",
+     "de": "arbeiten",
+     "ipa": "[tɾɐbɐˈʎaɾ]",
+     "audio": "v0602"
+    },
+    {
+     "pt": "estudar",
+     "de": "studieren, lernen",
+     "ipa": "[ɨʃtuˈdaɾ]",
+     "audio": "v0603"
+    },
+    {
+     "pt": "o professor / a professora",
+     "de": "Lehrer/in",
+     "ipa": "[pɾufɨˈsoɾ] / [pɾufɨˈsoɾɐ]",
+     "audio": "v0604"
+    },
+    {
+     "pt": "o médico / a médica",
+     "de": "Arzt / Ärztin",
+     "ipa": "[ˈmɛdiku] / [ˈmɛdikɐ]",
+     "audio": "v0605"
+    },
+    {
+     "pt": "o / a estudante",
+     "de": "Student/in",
+     "ipa": "[ɨʃtuˈdɐ̃tɨ]",
+     "audio": "v0606"
+    },
+    {
+     "pt": "o trabalho",
+     "de": "Arbeit",
+     "ipa": "[tɾɐˈbaʎu]",
+     "audio": "v0607"
+    },
+    {
+     "pt": "a língua",
+     "de": "Sprache",
+     "ipa": "[ˈlĩɡwɐ]",
+     "audio": "v0608"
+    },
+    {
+     "pt": "o alemão / o português / o inglês",
+     "de": "Deutsch / Portugiesisch / Englisch (die Sprachen)",
+     "ipa": "–",
+     "audio": "v0202"
+    },
+    {
+     "pt": "o irmão / a irmã",
+     "de": "Bruder / Schwester",
+     "ipa": "[iɾˈmɐ̃w̃] / [iɾˈmɐ̃]"
+    },
+    {
+     "pt": "muito",
+     "de": "viel, sehr",
+     "ipa": "[ˈmũj̃tu]"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Das -ar-Muster",
+   "html": "Fast alle portugiesischen Verben enden auf <b>-ar</b> – und funktionieren ALLE gleich. Endung ab, neue dran:<br><br><b>eu fal-o · tu fal-as · ele/ela fal-a</b><br>genauso: mor-o/mor-as/mor-a · trabalh-o/-as/-a · estud-o/-as/-a<br><br><b>Drei Baukästen damit:</b><br>① <b>Sprachen</b> (ohne Artikel!): <i>Falo alemão e um pouco de português.</i><br>② <b>Wohnen</b> mit em/no/na: <i>Moro em Lisboa. · Moras no Porto? · Ela mora na Alemanha.</i><br>③ <b>Beruf</b> (ohne Artikel!): <i>Sou professora. · Ele é médico.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Die Endung <b>-am</b> klingt genau wie <b>-ão</b>: <i>falam</i> = „falãu“. Und weil unbetonte Vokale verschluckt werden, klingt <i>falamos</i> fast wie „flamusch“ – hör genau hin und sprich sofort nach."
+  },
+  {
+   "type": "story",
+   "title": "4 · Lesen: Dein erster Text (kein Dialog!)",
+   "audio": "r06",
+   "text": "A Sofia é portuguesa e tem vinte e nove anos. É professora e mora no Porto. Fala português, inglês e um pouco de alemão. O irmão da Sofia, o Rui, é estudante e estuda em Coimbra. Ele tem vinte anos e fala inglês muito bem. A Sofia trabalha muito, mas está feliz — o trabalho é fantástico e o Porto é a cidade da Sofia.",
+   "gloss": "Neu erschließen: vinte e nove = 29 (Zahlen über 20 baut man mit „e\": zwanzig und neun!) · da Sofia = von Sofia (o irmão da Sofia = Sofias Bruder).",
+   "questions": [
+    {
+     "q": "Onde é que a Sofia mora?",
+     "a": "(A Sofia) mora no Porto."
+    },
+    {
+     "q": "O que é que ela fala?",
+     "a": "Fala português, inglês e um pouco de alemão."
+    },
+    {
+     "q": "Quantos anos é que o Rui tem?",
+     "a": "(O Rui) tem vinte anos."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Konjugiere",
+   "items": [
+    {
+     "q": "eu (morar) →",
+     "a": "moro"
+    },
+    {
+     "q": "tu (falar) →",
+     "a": "falas"
+    },
+    {
+     "q": "ela (trabalhar) →",
+     "a": "trabalha"
+    },
+    {
+     "q": "eu (estudar) →",
+     "a": "estudo"
+    },
+    {
+     "q": "tu (morar) →",
+     "a": "moras"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Setze das passende Verb ein (falar · morar · trabalhar · estudar · ser · ter)",
+   "items": [
+    {
+     "q": "Eu ___ em Hamburgo, mas a minha irmã ___ em Lisboa.",
+     "a": "moro / mora"
+    },
+    {
+     "q": "Tu ___ inglês?",
+     "a": "falas"
+    },
+    {
+     "q": "O Rui ___ estudante e ___ em Coimbra.",
+     "a": "é / estuda"
+    },
+    {
+     "q": "A Sofia ___ vinte e nove anos e ___ muito.",
+     "a": "tem / trabalha"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Übersetze",
+   "items": [
+    {
+     "q": "Ich wohne in Deutschland und spreche Deutsch.",
+     "a": "Moro na Alemanha e falo alemão."
+    },
+    {
+     "q": "Sprichst du Portugiesisch? – Ein bisschen!",
+     "a": "Falas português? – Um pouco!"
+    },
+    {
+     "q": "Sie ist Ärztin und arbeitet viel.",
+     "a": "Ela é médica e trabalha muito."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen & Schreiben",
+   "html": "Der große Moment: dein kompletter Steckbrief – <b>sechs Sätze</b>, alles aus dieser Woche (Name, Alter, Herkunft, Wohnort, Sprachen, Beruf/Studium). Das ist morgen dein Spickzettel-Verbot im Wochentest!"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A irmã do João",
+   "audio": "s06",
+   "text": "O João é de Lisboa e estuda. A irmã do João, a Inês, tem vinte e dois anos e mora no Porto. É médica e trabalha num hospital. Trabalha muito — mas o trabalho é fantástico. O pai do João é professor. A mãe trabalha num café em Lisboa.<br>A Inês fala inglês e espanhol. O João fala inglês — e agora estuda alemão. Porquê? Porque a Marie fala alemão!<br>— Olá, Inês! Falas alemão?<br>— Não, mas falo espanhol e inglês. E tu, Marie, falas português?<br>— Um pouco… mas estudo muito!",
+   "gloss": "Neu erschließen: num = em + um (in einem) · o hospital – na, was wohl? Und: João lernt Deutsch. Wegen Marie. Interessant…",
+   "questions": [
+    {
+     "q": "A Inês é professora.",
+     "a": "Falsch – sie ist Ärztin."
+    },
+    {
+     "q": "O João estuda alemão porque a Marie fala alemão.",
+     "a": "Richtig."
+    },
+    {
+     "q": "O pai do João é professor.",
+     "a": "Richtig."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Mit dem -ar-Muster kannst du ab sofort jedes neue -ar-Verb sofort benutzen (dançar, cantar, comprar, surfar…) – du lernst nur noch die Bedeutung. Morgen: Wochentest! Keine Angst – du kannst mehr, als du denkst."
+  }
+ ]
+}

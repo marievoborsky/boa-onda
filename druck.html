@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arbeitsblatt – Boa Onda</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Space Grotesk", "Avenir Next", -apple-system, sans-serif;
+    color: #1c1630; background: #fff; line-height: 1.5;
+    max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem;
+  }
+  header { border-bottom: 3px solid #1c1630; padding-bottom: .6rem; margin-bottom: 1.4rem; }
+  h1 { font-size: 1.9rem; }
+  .sub { font-size: .85rem; color: #555; margin-top: .2rem; }
+  .brand { font-size: .75rem; letter-spacing: .18em; text-transform: uppercase; color: #888; }
+  section { margin-bottom: 1.3rem; break-inside: avoid; }
+  h2 { font-size: 1rem; border-bottom: 1px solid #ccc; padding-bottom: .25rem; margin-bottom: .5rem; }
+  .note { font-size: .92rem; }
+  .tip { border: 1.5px dashed #999; border-radius: 8px; padding: .7rem .9rem; font-size: .9rem; background: #fafafa; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  td { padding: .3rem .4rem; border-bottom: 1px solid #e5e5e5; vertical-align: top; }
+  td.ipa { color: #666; font-size: .82rem; white-space: nowrap; }
+  td.de { text-align: right; }
+  .dline { padding: .15rem 0; font-size: .95rem; }
+  .dline b { display: inline-block; min-width: 4.2rem; font-weight: 600; }
+  .hint { font-size: .8rem; color: #555; margin-top: .5rem; }
+  .ex { margin: .45rem 0 .9rem; }
+  .ex .q { font-size: .95rem; }
+  .writeline { border-bottom: 1px dotted #888; height: 1.5rem; margin-top: .3rem; }
+  .storytext { font-size: .95rem; font-style: italic; margin-bottom: .5rem; }
+  .solutions { page-break-before: always; }
+  .solutions h2 { border-bottom: 3px solid #1c1630; font-size: 1.1rem; }
+  .solutions .sgroup { margin-bottom: .8rem; break-inside: avoid; }
+  .solutions .sgroup h3 { font-size: .88rem; margin-bottom: .25rem; }
+  .solutions ol { padding-left: 1.3rem; font-size: .88rem; }
+  .toolbar { position: fixed; top: 1rem; right: 1rem; display: flex; gap: .5rem; }
+  .toolbar button, .toolbar a {
+    font-family: inherit; font-size: .85rem; font-weight: 600; cursor: pointer;
+    border: none; border-radius: 999px; padding: .5rem 1.1rem; text-decoration: none;
+    background: #d9502e; color: #fff;
+  }
+  .toolbar a { background: #eee; color: #333; }
+  footer { margin-top: 2rem; font-size: .75rem; color: #888; text-align: center; }
+  @media print {
+    .toolbar { display: none; }
+    body { padding: 0; max-width: none; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <a href="index.html">← App</a>
+  <button onclick="window.print()">Drucken</button>
+</div>
+<header>
+  <div class="brand">Boa Onda · Europäisches Portugiesisch</div>
+  <h1 id="title"></h1>
+  <div class="sub" id="sub"></div>
+</header>
+<main id="body"></main>
+<footer>Boa Onda · Arbeitsblatt zum Ausdrucken · Lösungen auf der letzten Seite</footer>
+<script>
+const id = new URLSearchParams(location.search).get('id') || 'tag01';
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+
+fetch('lektionen/' + id + '.json', { cache: 'no-cache' }).then(r => r.json()).then(L => {
+  document.title = 'Arbeitsblatt – ' + L.title;
+  document.getElementById('title').textContent = L.title;
+  document.getElementById('sub').textContent = L.subtitle;
+  const body = document.getElementById('body');
+  const solutions = [];   // {title, answers:[]}
+
+  for (const sec of L.sections) {
+    const s = document.createElement('section');
+    if (sec.type === 'note' || sec.type === 'speak') {
+      const isTip = /Dica da Liz/.test(sec.title);
+      s.innerHTML = `<h2>${esc(sec.title)}</h2>
+        <div class="${isTip ? 'tip' : 'note'}">${sec.html}</div>`;
+      if (sec.type === 'speak') s.innerHTML +=
+        '<div class="writeline"></div><div class="writeline"></div><div class="writeline"></div>';
+    } else if (sec.type === 'vocab') {
+      s.innerHTML = `<h2>${esc(sec.title)}</h2><table>` +
+        sec.items.map(it => `<tr><td>${esc(it.pt)}</td><td class="ipa">${esc(it.ipa)}</td><td class="de">${esc(it.de)}</td></tr>`).join('') +
+        '</table>';
+    } else if (sec.type === 'reading') {
+      s.innerHTML = `<h2>${esc(sec.title)}</h2>` +
+        sec.lines.map(l => `<div class="dline"><b>${esc(l.who)}:</b> ${esc(l.pt)}</div>`).join('') +
+        (sec.hint ? `<div class="hint">${sec.hint}</div>` : '');
+    } else if (sec.type === 'story') {
+      s.innerHTML = `<h2>${esc(sec.title)}</h2><div class="storytext">${sec.text}</div>` +
+        (sec.gloss ? `<div class="hint">${sec.gloss}</div>` : '');
+      if (sec.questions && sec.questions.length) {
+        const sol = { title: sec.title, answers: [] };
+        s.innerHTML += sec.questions.map((it, i) => {
+          sol.answers.push(it.a);
+          return `<div class="ex"><div class="q">${i + 1}. ${it.q}</div><div class="writeline"></div></div>`;
+        }).join('');
+        solutions.push(sol);
+      }
+    } else if (sec.type === 'exercise') {
+      const sol = { title: sec.title, answers: [] };
+      s.innerHTML = `<h2>${esc(sec.title)}</h2>` +
+        (sec.intro ? `<div class="hint" style="margin:0 0 .4rem">${sec.intro}</div>` : '') +
+        sec.items.map((it, i) => {
+          sol.answers.push(it.a);
+          return `<div class="ex"><div class="q">${i + 1}. ${it.q}</div><div class="writeline"></div></div>`;
+        }).join('');
+      solutions.push(sol);
+    }
+    body.appendChild(s);
+  }
+
+  if (solutions.length) {
+    const s = document.createElement('section');
+    s.className = 'solutions';
+    s.innerHTML = '<h2>✔ Lösungen (erst nach den Übungen anschauen!)</h2>' +
+      solutions.map(g => `<div class="sgroup"><h3>${esc(g.title)}</h3><ol>` +
+        g.answers.map(a => `<li>${a}</li>`).join('') + '</ol></div>').join('');
+    body.appendChild(s);
+  }
+});
+</script>
+</body>
+</html>
