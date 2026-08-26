@@ -664,13 +664,15 @@ function renderKursMap() {
     } else {
       el('path', { d: `M ${p.x - 4.5} ${p.y + 1} q 2.2 -4.5 4.5 0 q 2.3 4.5 4.5 0`, fill: 'none', stroke: 'var(--clay)', 'stroke-width': 2, 'stroke-linecap': 'round' });
     }
-    const lx = p.x - 22;
-    const t = el('text', { x: lx, y: p.y + 1, 'text-anchor': 'end',
+    const rechts = i === 0;
+    const lx = rechts ? p.x + 22 : p.x - 22;
+    const anker = rechts ? 'start' : 'end';
+    const t = el('text', { x: lx, y: p.y + 1, 'text-anchor': anker,
       fill: 'var(--ink)', 'font-size': '12', 'font-weight': '700',
       'font-family': 'Space Grotesk, sans-serif', stroke: '#fffdf6', 'stroke-width': '3',
       'paint-order': 'stroke' });
     t.textContent = e2.name;
-    const t2 = el('text', { x: lx, y: p.y + 13, 'text-anchor': 'end',
+    const t2 = el('text', { x: lx, y: p.y + 13, 'text-anchor': anker,
       fill: 'var(--ink)', 'font-size': '7.5', 'letter-spacing': '.06em',
       'font-family': 'Roboto Mono, monospace', stroke: '#fffdf6', 'stroke-width': '2.5',
       'paint-order': 'stroke' });
