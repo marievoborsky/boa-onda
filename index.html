@@ -258,6 +258,50 @@
   .legend { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .62rem;
     color: var(--ink-soft); display: flex; gap: .9rem; margin-top: .8rem; }
   .legend i { display: inline-block; width: 9px; height: 9px; border-radius: 3px; margin-right: 4px; }
+  .exrow { display: flex; gap: .4rem; margin-top: .4rem; }
+  .exin { flex: 1; min-width: 0; border: 1.5px solid #e0d7c4; border-radius: 10px;
+    padding: .5rem .7rem; font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: .9rem; background: var(--card); color: var(--ink); outline: none; }
+  .exin:focus { border-color: var(--sea); }
+  .exitem.exok .exin { border-color: var(--sea); background: var(--sea-pale); }
+  .exfehl { border-color: var(--clay) !important; animation: shake .3s; }
+  @keyframes shake { 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+  .jcard { background: var(--card); border-radius: 16px; padding: .95rem .85rem;
+    box-shadow: 0 3px 14px rgba(51,41,74,.1); cursor: pointer; display: flex;
+    flex-direction: column; gap: .45rem; }
+  .jcard .jic { width: 42px; height: 42px; display: flex; align-items: center;
+    justify-content: center; border-radius: 58% 42% 52% 48% / 48% 55% 45% 52%; }
+  .jcard .jn { font-weight: 700; font-size: .95rem; }
+  .jcard .jd { font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: .68rem; color: var(--ink-soft); line-height: 1.45; }
+  .memgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem; }
+  .memcard { aspect-ratio: 1; border: none; border-radius: 12px; background: var(--lav-pale);
+    font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .72rem;
+    color: transparent; cursor: pointer; padding: .2rem; word-break: break-word;
+    box-shadow: 0 2px 8px rgba(51,41,74,.08); transition: background .15s; }
+  .memcard.auf { background: var(--card); color: var(--ink); }
+  .memcard.weg { background: var(--sea); color: #fff; cursor: default; }
+  .wortchips { display: flex; flex-wrap: wrap; gap: .45rem; }
+  .wchip { border: none; border-radius: 10px; padding: .5rem .7rem;
+    font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .88rem;
+    background: var(--card); color: var(--ink); cursor: pointer;
+    box-shadow: 0 2px 8px rgba(51,41,74,.09); }
+  .satzziel { min-height: 3rem; background: var(--card); border-radius: 12px;
+    padding: .55rem .6rem; margin-bottom: .7rem; display: flex; flex-wrap: wrap;
+    gap: .45rem; box-shadow: inset 0 0 0 1.5px #e8dfcb; }
+  .satzziel.ok { box-shadow: inset 0 0 0 2px var(--sea); }
+  .satzziel.fehl { box-shadow: inset 0 0 0 2px var(--clay); }
+  .satzziel .wchip { background: var(--sea-pale); }
+  .wsgrid { display: grid; grid-template-columns: repeat(8, 1fr); gap: 3px; }
+  .wsc { aspect-ratio: 1; border: none; border-radius: 7px; background: var(--card);
+    font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .8rem;
+    color: var(--ink); cursor: pointer; box-shadow: 0 1px 4px rgba(51,41,74,.07);
+    padding: 0; }
+  .wsc.start { background: var(--lav-pale); }
+  .wsc.fund { background: var(--sea); color: #fff; }
+  .wsworte { display: flex; flex-wrap: wrap; gap: .4rem .8rem; margin-top: .7rem; }
+  .wsworte span { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .78rem; }
+  .wsworte span.fund { color: var(--sea); text-decoration: line-through; }
 </style>
 </head>
 <body>
@@ -351,6 +395,26 @@
       <h3 style="color:var(--sea)">Sabias que…?</h3>
       <div class="body" id="art-fact" style="font-size:.92rem"></div>
     </div>
+  </div>
+
+  <!-- ========== JOGOS ========== -->
+  <div class="session" id="jogos">
+    <div class="topbar">
+      <button class="back" onclick="goTab('mais')">←</button>
+      <div class="ltitle">Jogos</div>
+    </div>
+    <div class="lsub">Kleine Spiele – immer mit deinen Wörtern</div>
+    <div id="jogos-list" style="display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:.7rem"></div>
+  </div>
+
+  <!-- ========== EIN SPIEL ========== -->
+  <div class="session" id="jogo">
+    <div class="topbar">
+      <button class="back" onclick="goTab('jogos')">←</button>
+      <div class="ltitle" id="jogo-title" style="flex:1"></div>
+      <div class="mono" id="jogo-score" style="font-size:.72rem; color:var(--ink-soft)"></div>
+    </div>
+    <div id="jogo-body"></div>
   </div>
 
   <!-- ========== ARBEITSBLÄTTER ========== -->
@@ -510,8 +574,8 @@ function renderHome() {
     </div>`;
   ex.appendChild(d);
 }
-const TABVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo'];
-const ALLVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'leitura', 'learn', 'quiz', 'done', 'lesson'];
+const TABVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'jogos', 'jogo'];
+const ALLVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'jogos', 'jogo', 'leitura', 'learn', 'quiz', 'done', 'lesson'];
 function show(id) {
   for (const s of ALLVIEWS)
     document.getElementById(s).style.display = (s === id) ? 'block' : 'none';
@@ -528,6 +592,7 @@ function goTab(id) {
   else if (id === 'mais') renderMais();
   else if (id === 'blaetter') renderBlaetter();
   else if (id === 'descobrir') renderDescobrir();
+  else if (id === 'jogos') renderJogos();
   show(id);
 }
 
@@ -543,30 +608,41 @@ const LESSONS = [
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
-  { name: 'Lisboa',    sub: 'Woche 1 · Ich und du',        frac: 0.06, tage: 7, offen: true },
-  { name: 'Comporta',  sub: 'Woche 2 · Meine Welt',        frac: 0.38, tage: 7, offen: false },
-  { name: 'Milfontes', sub: 'Woche 3 · Mein Alltag',       frac: 0.68, tage: 7, offen: false },
-  { name: 'Sagres',    sub: 'Woche 4 · Unterwegs',         frac: 0.96, tage: 7, offen: false },
+  { name: 'Porto',     sub: 'Woche 1 · Ich und du',  frac: 0.05, offen: true },
+  { name: 'Lisboa',    sub: 'Woche 2 · Meine Welt',  frac: 0.40, offen: false },
+  { name: 'Milfontes', sub: 'Woche 3 · Mein Alltag', frac: 0.71, offen: false },
+  { name: 'Sagres',    sub: 'Woche 4 · Unterwegs',   frac: 0.96, offen: false },
 ];
 function renderKursMap() {
   const box = document.getElementById('kurs-map');
-  const W = 320, H = 318;
+  const W = 320, H = 440;
   const done = LESSONS.filter(l => store.lessons[l.id]).length;
   const total = 28;
+  const ROTA = 'M 148 20 C 124 60, 152 92, 140 132 C 128 172, 100 184, 106 222 C 112 258, 142 278, 132 316 C 122 354, 94 376, 88 414';
   box.innerHTML = `
-    <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 .2rem .5rem">A viagem da Marie · ${done} von ${total} Tagen</div>
-    <svg viewBox="0 0 ${W} ${H}" style="width:100%; height:auto; display:block">
-      <path id="km-weg" d="M 30 24 C 150 10, 290 40, 285 78 C 280 116, 60 96, 42 140 C 26 180, 250 160, 272 204 C 290 240, 120 236, 60 272"
-        fill="none" stroke="#e8e0d0" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 9"/>
-      <path id="km-fortschritt" d="M 30 24 C 150 10, 290 40, 285 78 C 280 116, 60 96, 42 140 C 26 180, 250 160, 272 204 C 290 240, 120 236, 60 272"
-        fill="none" stroke="var(--sea)" stroke-width="5" stroke-linecap="round"/>
+    <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 .3rem .5rem">A viagem da Marie · ${done} von ${total} Tagen</div>
+    <svg viewBox="0 0 ${W} ${H}" style="width:100%; height:auto; display:block; border-radius:12px">
+      <rect x="0" y="0" width="${W}" height="${H}" fill="#dcece8"/>
+      <circle cx="34" cy="34" r="46" fill="var(--lav)" opacity=".38"/>
+      <path d="M 175 0 C 158 42, 192 74, 178 116 C 164 158, 138 168, 144 208 C 150 246, 180 266, 170 306 C 160 346, 130 366, 126 406 C 125 418, 128 430, 132 440 L ${W} 440 L ${W} 0 Z"
+        fill="#f0e6cb"/>
+      <path d="M 175 0 C 158 42, 192 74, 178 116 C 164 158, 138 168, 144 208 C 150 246, 180 266, 170 306 C 160 346, 130 366, 126 406 C 125 418, 128 430, 132 440"
+        fill="none" stroke="#e2d4ac" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 30 130 q 7 -7 14 0 q 7 7 14 0" fill="none" stroke="var(--sea)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+      <path d="M 44 250 q 7 -7 14 0 q 7 7 14 0" fill="none" stroke="var(--sea)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+      <path d="M 24 370 q 7 -7 14 0 q 7 7 14 0" fill="none" stroke="var(--sea)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+      <text x="46" y="205" fill="#8fbdb3" font-size="9" letter-spacing=".25em" font-family="Roboto Mono, monospace" transform="rotate(-72 46 205)">ATLÂNTICO</text>
+      <path id="km-weg" d="${ROTA}"
+        fill="none" stroke="#c8bfa8" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="1 9"/>
+      <path id="km-fortschritt" d="${ROTA}"
+        fill="none" stroke="var(--sea)" stroke-width="4.5" stroke-linecap="round"/>
       <g id="km-marker"></g>
     </svg>`;
   const svg = box.querySelector('svg');
   const weg = svg.querySelector('#km-weg');
   const fort = svg.querySelector('#km-fortschritt');
   const L = weg.getTotalLength();
-  const doneFrac = done === 0 ? 0 : ETAPPEN[0].frac + (0.30 - ETAPPEN[0].frac) * Math.min(done, 7) / 7;
+  const doneFrac = done === 0 ? 0 : ETAPPEN[0].frac + (0.34 - ETAPPEN[0].frac) * Math.min(done, 7) / 7;
   fort.style.strokeDasharray = (doneFrac * L) + ' ' + L;
   const g = svg.querySelector('#km-marker');
   const NS = 'http://www.w3.org/2000/svg';
@@ -578,7 +654,7 @@ function renderKursMap() {
   }
   // Tages-Punkte der offenen Woche 1
   for (let i = 0; i < 7; i++) {
-    const f = ETAPPEN[0].frac + (0.30 - ETAPPEN[0].frac) * (i + 1) / 7;
+    const f = ETAPPEN[0].frac + (0.34 - ETAPPEN[0].frac) * (i + 1) / 7;
     const p = weg.getPointAtLength(f * L);
     el('circle', { cx: p.x, cy: p.y, r: 4.5,
       fill: i < done ? 'var(--sea)' : '#fffdf6',
@@ -598,14 +674,13 @@ function renderKursMap() {
     } else {
       el('path', { d: `M ${p.x - 4.5} ${p.y + 1} q 2.2 -4.5 4.5 0 q 2.3 4.5 4.5 0`, fill: 'none', stroke: 'var(--sea)', 'stroke-width': 2, 'stroke-linecap': 'round' });
     }
-    const oben = i === 1;
-    const lx = Math.min(Math.max(p.x, 52), W - 52);
-    const t = el('text', { x: lx, y: oben ? p.y - 31 : p.y + 27, 'text-anchor': 'middle',
-      fill: 'var(--ink)', 'font-size': '11.5', 'font-weight': '700',
+    const lx = p.x + 24;
+    const t = el('text', { x: lx, y: p.y + 1, 'text-anchor': 'start',
+      fill: 'var(--ink)', 'font-size': '12', 'font-weight': '700',
       'font-family': 'Space Grotesk, sans-serif' });
     t.textContent = e2.name;
-    const t2 = el('text', { x: lx, y: oben ? p.y - 20 : p.y + 39, 'text-anchor': 'middle',
-      fill: 'var(--ink-soft)', 'font-size': '7.5', 'letter-spacing': '.08em',
+    const t2 = el('text', { x: lx, y: p.y + 13, 'text-anchor': 'start',
+      fill: 'var(--ink-soft)', 'font-size': '7.5', 'letter-spacing': '.06em',
       'font-family': 'Roboto Mono, monospace' });
     t2.textContent = e2.sub;
   });
@@ -698,7 +773,7 @@ const TAB_SVG = {
 };
 const PRINT_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>';
 function renderTabbar(active) {
-  const act = ['blaetter', 'descobrir', 'artigo'].includes(active) ? 'mais' : active;
+  const act = ['blaetter', 'descobrir', 'artigo', 'jogos', 'jogo'].includes(active) ? 'mais' : active;
   const defs = [['home', 'Hoje'], ['kurs', 'Kurs'], ['textos', 'Textos'], ['caderno', 'Caderno'], ['mais', 'Mais']];
   document.getElementById('tabbar').innerHTML = defs.map(([k, l]) =>
     `<button class="${k === act ? 'on' : ''}" onclick="goTab('${k}')"><span class="tico">${TAB_SVG[k]}</span>${l}</button>`).join('');
@@ -921,7 +996,7 @@ function renderMais() {
   const items = [
     ['compass', 'Descobrir', 'Portugal kennenlernen – Land & Kultur', "goTab('descobrir')"],
     ['printer', 'Arbeitsblätter', 'Alle Lektionen zum Ausdrucken', "goTab('blaetter')"],
-    ['grid', 'Jogos', 'Kleine Spiele mit deinen Wörtern', null],
+    ['grid', 'Jogos', 'Kleine Spiele mit deinen Wörtern', "goTab('jogos')"],
     ['bulb', 'Dicas', 'Alle Grammatik- und Aussprache-Tipps', null],
     ['book', 'História', 'Die Geschichte der vier Freunde', null],
     ['chart', 'Fortschritt', 'Streak, Tests und Statistik', null],
@@ -972,6 +1047,275 @@ function openArtigo(id) {
   document.getElementById('art-fact').innerHTML = a.fact;
   show('artigo');
 }
+/* ==================== JOGOS ==================== */
+const JOGOS = [
+  { key: 'memoria', name: 'Memória', desc: 'Paare finden: Wort und Übersetzung', ic: 'cards', bg: 'var(--lav-pale)', fg: 'var(--lav-deep)' },
+  { key: 'ondas', name: 'Ondas', desc: 'Wörter in die richtige Satz-Reihenfolge tippen', ic: 'shuffle', bg: 'var(--sea-pale)', fg: '#0b6c5f' },
+  { key: 'escuta', name: 'Escuta!', desc: 'Hören und das richtige Wort tippen', ic: 'phones', bg: 'var(--clay-soft)', fg: 'var(--clay)' },
+  { key: 'caca', name: 'Caça-palavras', desc: 'Finde die versteckten Wörter im Gitter', ic: 'grid', bg: 'var(--sand)', fg: '#8a6d1f' },
+];
+const JOGO_SVG = {
+  cards: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="12" height="14" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg>',
+  shuffle: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>',
+  phones: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>',
+  grid: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>',
+};
+function renderJogos() {
+  const el = document.getElementById('jogos-list');
+  el.innerHTML = '';
+  for (const j of JOGOS) {
+    const d = document.createElement('div');
+    d.className = 'jcard';
+    d.onclick = () => startJogo(j.key);
+    d.innerHTML = `<div class="jic" style="background:${j.bg}; color:${j.fg}">${JOGO_SVG[j.ic]}</div>
+      <div class="jn">${j.name}</div><div class="jd">${j.desc}</div>`;
+    el.appendChild(d);
+  }
+}
+function startJogo(key) {
+  const j = JOGOS.find(x => x.key === key);
+  document.getElementById('jogo-title').textContent = j.name;
+  document.getElementById('jogo-score').textContent = '';
+  show('jogo');
+  GAMES[key]();
+}
+/* Wort-Pool: erst fällige, dann gelernte, dann Rest */
+function spielWorte(n, nurEinwort) {
+  const t = today();
+  const pool = VOCAB.filter(w => !nurEinwort || (!w.pt.includes('/') && !w.pt.includes(' ') && w.pt.length >= 3));
+  const due = pool.filter(w => { const s = store.words[w.id]; return s && s.box > 0 && s.due <= t; });
+  const rest = shuffle(pool.filter(w => !due.includes(w)));
+  return shuffle(due).concat(rest).slice(0, n);
+}
+function jogoEnde(body, text, again) {
+  body.innerHTML = `<div class="lsec" style="text-align:center; padding:2rem 1rem">
+    <div style="font-size:1.3rem; font-weight:800; margin-bottom:.4rem">Boa onda!</div>
+    <div class="mono" style="font-size:.85rem; color:var(--ink-soft)">${text}</div></div>
+    <button class="mixbtn" id="jg-again">Nochmal spielen</button>
+    <button class="mixbtn" style="background:var(--lav-deep)" onclick="goTab('jogos')">Andere Spiele</button>`;
+  document.getElementById('jg-again').onclick = again;
+}
+
+const GAMES = {};
+
+/* ---------- Memória ---------- */
+GAMES.memoria = function () {
+  const body = document.getElementById('jogo-body');
+  const worte = spielWorte(6, false);
+  let karten = [];
+  worte.forEach((w, i) => {
+    karten.push({ key: i, label: w.pt.split('/')[0].trim(), id: w.id });
+    karten.push({ key: i, label: w.de.split('(')[0].trim() });
+  });
+  karten = shuffle(karten);
+  let offen = [], funde = 0, zuege = 0, sperre = false;
+  body.innerHTML = '<div class="hint" style="margin:0 0 .6rem">Finde die Paare: Portugiesisch und Deutsch.</div><div class="memgrid"></div>';
+  const grid = body.querySelector('.memgrid');
+  karten.forEach((k, idx) => {
+    const b = document.createElement('button');
+    b.className = 'memcard';
+    b.textContent = k.label;
+    b.onclick = () => {
+      if (sperre || b.classList.contains('auf') || b.classList.contains('weg')) return;
+      b.classList.add('auf');
+      if (k.id) play(k.id);
+      offen.push([b, k]);
+      if (offen.length === 2) {
+        zuege++;
+        document.getElementById('jogo-score').textContent = zuege + ' Züge';
+        const [[b1, k1], [b2, k2]] = offen;
+        if (k1.key === k2.key) {
+          b1.classList.add('weg'); b2.classList.add('weg');
+          b1.classList.remove('auf'); b2.classList.remove('auf');
+          offen = [];
+          if (++funde === worte.length)
+            setTimeout(() => jogoEnde(body, `Alle ${worte.length} Paare in ${zuege} Zügen!`, GAMES.memoria), 500);
+        } else {
+          sperre = true;
+          setTimeout(() => { b1.classList.remove('auf'); b2.classList.remove('auf'); offen = []; sperre = false; }, 850);
+        }
+      }
+    };
+    grid.appendChild(b);
+  });
+};
+
+/* ---------- Escuta! ---------- */
+GAMES.escuta = function () {
+  const body = document.getElementById('jogo-body');
+  const runden = spielWorte(8, false);
+  let i = 0, richtig = 0;
+  function runde() {
+    if (i >= runden.length) return jogoEnde(body, `${richtig} von ${runden.length} richtig gehört!`, GAMES.escuta);
+    const w = runden[i];
+    const optionen = shuffle([w].concat(shuffle(VOCAB.filter(x => x.id !== w.id)).slice(0, 3)));
+    document.getElementById('jogo-score').textContent = (i + 1) + ' / ' + runden.length;
+    body.innerHTML = `<div class="hint" style="margin:0 0 .8rem">Hör zu und tippe, was du hörst.</div>
+      <button class="audiobtn" id="esc-play" style="margin:0 auto 1rem"></button><div id="esc-opts"></div>`;
+    const pb = body.querySelector('#esc-play');
+    pb.innerHTML = PLAY_SVG;
+    pb.onclick = () => play(w.id);
+    play(w.id);
+    const box = body.querySelector('#esc-opts');
+    let fertig = false;
+    optionen.forEach(o => {
+      const b = document.createElement('button');
+      b.className = 'opt';
+      b.textContent = o.pt;
+      b.onclick = () => {
+        if (fertig) return;
+        fertig = true;
+        if (o.id === w.id) { b.classList.add('right'); richtig++; }
+        else {
+          b.classList.add('wrong');
+          [...box.children].find(x => x.textContent === w.pt).classList.add('right');
+        }
+        i++;
+        setTimeout(runde, 1000);
+      };
+      box.appendChild(b);
+    });
+  }
+  runde();
+};
+
+/* ---------- Ondas (Satz-Puzzle) ---------- */
+GAMES.ondas = async function () {
+  const body = document.getElementById('jogo-body');
+  body.innerHTML = '<div class="hint">Sätze werden geladen …</div>';
+  const tags = shuffle(LESSONS.map(l => l.id)).slice(0, 3);
+  let saetze = [];
+  for (const t of tags) {
+    const L = await (await fetch('lektionen/' + t + '.json', { cache: 'no-cache' })).json();
+    for (const sec of L.sections) {
+      if (sec.type !== 'reading') continue;
+      for (const ln of sec.lines) {
+        const n = ln.pt.split(/\s+/).length;
+        if (n >= 4 && n <= 9) saetze.push(ln);
+      }
+    }
+  }
+  saetze = shuffle(saetze).slice(0, 5);
+  let i = 0, richtig = 0;
+  function runde() {
+    if (i >= saetze.length) return jogoEnde(body, `${richtig} von ${saetze.length} Wellen sauber gebaut!`, GAMES.ondas);
+    const satz = saetze[i];
+    const worte = satz.pt.split(/\s+/);
+    document.getElementById('jogo-score').textContent = (i + 1) + ' / ' + saetze.length;
+    body.innerHTML = `<div class="hint" style="margin:0 0 .8rem">Tippe die Wörter in der richtigen Reihenfolge.</div>
+      <div class="satzziel" id="on-ziel"></div><div class="wortchips" id="on-pool"></div>
+      <div style="display:flex; gap:.5rem; margin-top:1rem">
+        <button class="mixbtn" style="margin:0; flex:1" id="on-check">Prüfen</button>
+        <button class="mixbtn" style="margin:0; flex:1; background:var(--lav-deep)" id="on-los">Lösung</button>
+      </div>`;
+    const ziel = body.querySelector('#on-ziel'), pool = body.querySelector('#on-pool');
+    shuffle(worte.map((w, idx) => ({ w, idx }))).forEach(t => {
+      const b = document.createElement('button');
+      b.className = 'wchip';
+      b.textContent = t.w;
+      b.onclick = () => { (b.parentElement === pool ? ziel : pool).appendChild(b); ziel.classList.remove('fehl'); };
+      pool.appendChild(b);
+    });
+    body.querySelector('#on-check').onclick = () => {
+      const bau = [...ziel.children].map(b => b.textContent).join(' ');
+      if (bau === satz.pt) {
+        ziel.classList.add('ok'); richtig++;
+        if (satz.audio) play(satz.audio);
+        i++; setTimeout(runde, 1200);
+      } else ziel.classList.add('fehl');
+    };
+    body.querySelector('#on-los').onclick = () => {
+      ziel.classList.add('ok');
+      ziel.innerHTML = '';
+      worte.forEach(w => { const sp = document.createElement('span'); sp.className = 'wchip'; sp.textContent = w; ziel.appendChild(sp); });
+      pool.innerHTML = '';
+      if (satz.audio) play(satz.audio);
+      i++; setTimeout(runde, 1600);
+    };
+  }
+  runde();
+};
+
+/* ---------- Caça-palavras ---------- */
+GAMES.caca = function () {
+  const body = document.getElementById('jogo-body');
+  const N = 8;
+  const worte = spielWorte(30, true).filter(w => w.pt.length <= N).slice(0, 6);
+  const G = Array.from({ length: N }, () => Array(N).fill(''));
+  const platziert = [];
+  for (const w of worte) {
+    const txt = w.pt.toUpperCase();
+    let ok = false;
+    for (let t = 0; t < 60 && !ok; t++) {
+      const hor = Math.random() < 0.5;
+      const r = Math.floor(Math.random() * (hor ? N : N - txt.length + 1));
+      const c = Math.floor(Math.random() * (hor ? N - txt.length + 1 : N));
+      let frei = true;
+      for (let k = 0; k < txt.length; k++) {
+        const ch = G[hor ? r : r + k][hor ? c + k : c];
+        if (ch && ch !== txt[k]) { frei = false; break; }
+      }
+      if (!frei) continue;
+      for (let k = 0; k < txt.length; k++) G[hor ? r : r + k][hor ? c + k : c] = txt[k];
+      platziert.push({ w, txt, r, c, hor });
+      ok = true;
+    }
+  }
+  const ABC = 'AAABCDEEEFGHIIILMNOOOPQRRSSTUUVZÃÇÉÓ';
+  for (let r = 0; r < N; r++) for (let c = 0; c < N; c++)
+    if (!G[r][c]) G[r][c] = ABC[Math.floor(Math.random() * ABC.length)];
+  body.innerHTML = `<div class="hint" style="margin:0 0 .7rem">Tippe den ersten und den letzten Buchstaben eines Wortes.</div>
+    <div class="wsgrid"></div><div class="wsworte"></div>`;
+  const grid = body.querySelector('.wsgrid'), liste = body.querySelector('.wsworte');
+  const zellen = [];
+  for (let r = 0; r < N; r++) for (let c = 0; c < N; c++) {
+    const b = document.createElement('button');
+    b.className = 'wsc';
+    b.textContent = G[r][c];
+    b.dataset.r = r; b.dataset.c = c;
+    b.onclick = () => tipp(b);
+    grid.appendChild(b);
+    zellen.push(b);
+  }
+  const marker = {};
+  platziert.forEach(p => {
+    const sp = document.createElement('span');
+    sp.textContent = p.w.pt + ' · ' + p.w.de.split('(')[0].trim();
+    liste.appendChild(sp);
+    marker[p.txt] = sp;
+  });
+  let start = null, funde = 0;
+  function tipp(b) {
+    if (b.classList.contains('fund')) return;
+    if (!start) { start = b; b.classList.add('start'); return; }
+    if (b === start) { start.classList.remove('start'); start = null; return; }
+    const r1 = +start.dataset.r, c1 = +start.dataset.c, r2 = +b.dataset.r, c2 = +b.dataset.c;
+    start.classList.remove('start');
+    const s = start; start = null;
+    for (const p of platziert) {
+      if (marker[p.txt].classList.contains('fund')) continue;
+      const er = p.hor ? p.r : p.r + p.txt.length - 1;
+      const ec = p.hor ? p.c + p.txt.length - 1 : p.c;
+      const hit = (r1 === p.r && c1 === p.c && r2 === er && c2 === ec) ||
+                  (r2 === p.r && c2 === p.c && r1 === er && c1 === ec);
+      if (hit) {
+        for (let k = 0; k < p.txt.length; k++) {
+          const rr = p.hor ? p.r : p.r + k, cc = p.hor ? p.c + k : p.c;
+          zellen[rr * N + cc].classList.add('fund');
+        }
+        marker[p.txt].classList.add('fund');
+        if (p.w.id) play(p.w.id);
+        document.getElementById('jogo-score').textContent = (++funde) + ' / ' + platziert.length;
+        if (funde === platziert.length)
+          setTimeout(() => jogoEnde(body, `Alle ${platziert.length} Wörter gefunden!`, GAMES.caca), 600);
+        return;
+      }
+    }
+    s.classList.add('exfehl');
+    setTimeout(() => s.classList.remove('exfehl'), 400);
+  }
+};
+
 function renderBlaetter() {
   const el = document.getElementById('blaetter-list');
   el.innerHTML = '';
@@ -1052,8 +1396,15 @@ async function openLesson(id) {
       for (const it of sec.items) {
         const row = document.createElement('div');
         row.className = 'exitem';
-        row.innerHTML = `<div class="q">${it.q}</div>
-          <button class="reveal" onclick="this.parentElement.classList.add('open'); this.remove()">Lösung</button>
+        const typed = it.q.includes('___');
+        row.innerHTML = `<div class="q">${it.q}</div>` +
+          (typed ? `<div class="exrow">
+            <input class="exin" autocapitalize="off" autocorrect="off" spellcheck="false"
+              placeholder="Antwort eintippen …"
+              onkeydown="if (event.key === 'Enter') checkEx(this.closest('.exitem'))">
+            <button class="reveal" onclick="checkEx(this.closest('.exitem'))">Prüfen</button>
+          </div>` : '') +
+          `<button class="reveal" onclick="this.parentElement.classList.add('open'); this.remove()">Lösung</button>
           <div class="a">${it.a}</div>`;
         div.appendChild(row);
       }
@@ -1063,6 +1414,27 @@ async function openLesson(id) {
   show('lesson');
 }
 function goHome() { goTab('home'); }
+
+/* ---------- Lückentext prüfen ---------- */
+function checkEx(row) {
+  const inp = row.querySelector('.exin');
+  const norm = t => t.toLowerCase().replace(/\s+/g, ' ').replace(/[.!?,;:]+$/, '').trim();
+  const sol = row.querySelector('.a').textContent.replace(/\(.*?\)/g, ' ');
+  const alts = sol.split(/\/|·| oder /).map(norm).filter(Boolean);
+  const val = norm(inp.value || '');
+  if (!val) { inp.focus(); return; }
+  const blanks = (row.querySelector('.q').textContent.match(/___/g) || []).length;
+  const ok = alts.includes(val) || norm(sol) === val ||
+    (blanks > 1 && alts.length > 1 && alts.every(a => val.includes(a)));
+  if (ok) {
+    row.classList.add('open', 'exok');
+    row.querySelectorAll('button.reveal').forEach(b => b.remove());
+    inp.disabled = true;
+  } else {
+    inp.classList.add('exfehl');
+    setTimeout(() => inp.classList.remove('exfehl'), 700);
+  }
+}
 
 /* ---------- Audio ---------- */
 let audio = new Audio();
