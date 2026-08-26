@@ -665,17 +665,20 @@ function renderKursMap() {
       el('path', { d: `M ${p.x - 4.5} ${p.y + 1} q 2.2 -4.5 4.5 0 q 2.3 4.5 4.5 0`, fill: 'none', stroke: 'var(--clay)', 'stroke-width': 2, 'stroke-linecap': 'round' });
     }
     const rechts = i === 0;
-    const lx = rechts ? p.x + 22 : p.x - 22;
+    const lx = rechts ? p.x + 24 : p.x - 24;
     const anker = rechts ? 'start' : 'end';
+    const wName = e2.name.length * 7.1, wSub = e2.sub.length * 4.7;
+    const wChip = Math.max(wName, wSub) + 14;
+    el('rect', { x: rechts ? lx - 7 : lx - wChip + 7, y: p.y - 10,
+      width: wChip, height: 28, rx: 8, fill: '#fffdf6', opacity: .92,
+      stroke: '#e6dcc6', 'stroke-width': 1 });
     const t = el('text', { x: lx, y: p.y + 1, 'text-anchor': anker,
-      fill: 'var(--ink)', 'font-size': '12', 'font-weight': '700',
-      'font-family': 'Space Grotesk, sans-serif', stroke: '#fffdf6', 'stroke-width': '3',
-      'paint-order': 'stroke' });
+      fill: 'var(--ink)', 'font-size': '11.5', 'font-weight': '700',
+      'font-family': 'Space Grotesk, sans-serif' });
     t.textContent = e2.name;
     const t2 = el('text', { x: lx, y: p.y + 13, 'text-anchor': anker,
-      fill: 'var(--ink)', 'font-size': '7.5', 'letter-spacing': '.06em',
-      'font-family': 'Roboto Mono, monospace', stroke: '#fffdf6', 'stroke-width': '2.5',
-      'paint-order': 'stroke' });
+      fill: 'var(--ink-soft)', 'font-size': '7.5', 'letter-spacing': '.05em',
+      'font-family': 'Roboto Mono, monospace' });
     t2.textContent = e2.sub;
   });
   // Surfbrett-Marker an aktueller Position
