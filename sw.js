@@ -1,4 +1,4 @@
-const CACHE = 'boa-onda-v1';
+const CACHE = 'boa-onda-v2';
 const CORE = ['./index.html', './data.js', './manifest.webmanifest', './lektionen/tag01.json'];
 
 self.addEventListener('install', e => {
