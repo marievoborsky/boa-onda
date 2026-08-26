@@ -21,45 +21,57 @@ import json, os, re, sys, base64, subprocess, tempfile, urllib.request, glob
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(BASE, 'audio-neu')
-VOICE = 'pt-PT-Wavenet-A'   # weiblich; Alternativen: -B/-C (m), -D (w), pt-PT-Standard-*
+VOICE_W = 'pt-PT-Wavenet-E'   # weiblich: Ana, Marie, Vokabeln, Geschichten, Einzelwörter
+VOICE_M = 'pt-PT-Wavenet-F'   # männlich: João, Vasco
+MAENNER = {'joão', 'joao', 'vasco', 'tiago'}
 KEY = os.environ.get('GOOGLE_TTS_API_KEY')
 
 def collect():
-    """Sammelt alle (audio-id, text)-Paare der App."""
+    """Sammelt alle (audio-id, {text, voice})-Paare der App."""
     items = {}
+    def add(aid, text, voice=None):
+        items[aid] = {'text': text, 'voice': voice or VOICE_W}
     # 1) Vokabeln aus data.js (Feld say oder pt)
     s = open(os.path.join(BASE, 'data.js')).read()
     for w in json.loads(s[s.index('['):s.rindex(']')+1]):
-        items[w['id']] = w.get('say') or w['pt']
-    # 2) Lektionen: Dialoge, Lektions-Vokabeln, Geschichten
+        add(w['id'], w.get('say') or w['pt'])
+    # 2) Lektionen: Dialoge (Stimme nach Sprecher!), Lektions-Vokabeln, Geschichten
     for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', 'tag*.json'))):
         L = json.load(open(f))
         for sec in L['sections']:
             if sec['type'] == 'reading':
                 for ln in sec['lines']:
-                    if ln.get('audio'): items[ln['audio']] = ln['pt']
+                    if ln.get('audio'):
+                        v = VOICE_M if ln['who'].strip().lower() in MAENNER else VOICE_W
+                        add(ln['audio'], ln['pt'], v)
             elif sec['type'] == 'vocab':
                 for it in sec['items']:
-                    if it.get('audio'): items[it['audio']] = it['pt'].replace(' / ', ', ')
+                    if it.get('audio'): add(it['audio'], it['pt'].replace(' / ', ', '))
             elif sec['type'] == 'story' and sec.get('audio'):
                 t = re.sub(r'<br\s*/?>', ' ', sec['text'])
-                items[sec['audio']] = re.sub(r'<[^>]+>', '', t)
+                add(sec['audio'], re.sub(r'<[^>]+>', '', t))
     # 3) Einzelwörter für die Textos (tok/)
     for f in glob.glob(os.path.join(BASE, 'audio', 'tok', '*.m4a')):
         w = os.path.splitext(os.path.basename(f))[0]
-        items['tok/' + w] = w
+        add('tok/' + w, w)
     return items
 
-def synth(text, dest):
+def synth(text, dest, voice=None):
     req = json.dumps({
         'input': {'text': text},
-        'voice': {'languageCode': 'pt-PT', 'name': VOICE},
+        'voice': {'languageCode': 'pt-PT', 'name': voice or VOICE_W},
         'audioConfig': {'audioEncoding': 'LINEAR16', 'speakingRate': 0.92},
     }).encode()
     r = urllib.request.Request(
         'https://texttospeech.googleapis.com/v1/text:synthesize?key=' + KEY,
         data=req, headers={'Content-Type': 'application/json'})
-    wav = base64.b64decode(json.loads(urllib.request.urlopen(r).read())['audioContent'])
+    for versuch in range(3):
+        try:
+            wav = base64.b64decode(json.loads(urllib.request.urlopen(r, timeout=30).read())['audioContent'])
+            break
+        except Exception as e:
+            if versuch == 2: raise
+            import time; time.sleep(2)
     with tempfile.NamedTemporaryFile(suffix='.wav', delete=False) as tf:
         tf.write(wav); tmp = tf.name
     os.makedirs(os.path.dirname(dest), exist_ok=True)
@@ -73,10 +85,10 @@ if __name__ == '__main__':
     items = collect()
     probe = '--probe' in sys.argv
     todo = dict(list(items.items())[:3]) if probe else items
-    print(f'{len(todo)} von {len(items)} Audios → {OUT} (Stimme: {VOICE})')
-    for i, (aid, text) in enumerate(todo.items(), 1):
+    print(f'{len(todo)} von {len(items)} Audios → {OUT} ({VOICE_W} + {VOICE_M})')
+    for i, (aid, it) in enumerate(todo.items(), 1):
         dest = os.path.join(OUT, aid + '.m4a')
         if os.path.exists(dest): continue
-        synth(text, dest)
-        if i % 25 == 0 or probe: print(f'  {i}/{len(todo)}: {aid} – {text[:40]}')
+        synth(it['text'], dest, it['voice'])
+        if i % 25 == 0 or probe: print(f'  {i}/{len(todo)}: {aid} – {it["text"][:40]}', flush=True)
     print('Fertig. Anhören, dann: mv audio audio-alt && mv audio-neu audio')
