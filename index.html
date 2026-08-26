@@ -618,72 +618,15 @@ function renderKursMap() {
   const W = 320, H = 440;
   const done = LESSONS.filter(l => store.lessons[l.id]).length;
   const total = 28;
-  const ROTA = 'M 148 20 C 124 60, 152 92, 140 132 C 128 172, 100 184, 106 222 C 112 258, 142 278, 132 316 C 122 354, 94 376, 88 414';
+  const ROTA = 'M 118 16 C 112 60, 120 100, 124 140 C 130 175, 160 175, 158 205 C 155 235, 130 245, 126 285 C 122 320, 130 350, 148 392';
   box.innerHTML = `
     <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 .3rem .5rem">A viagem da Marie · ${done} von ${total} Tagen</div>
-    <svg viewBox="0 0 ${W} ${H}" style="width:100%; height:auto; display:block; border-radius:12px">
-      <rect x="0" y="0" width="${W}" height="${H}" fill="#dcece8"/>
-      <circle cx="34" cy="34" r="46" fill="var(--lav)" opacity=".38"/>
-      <path d="M 175 0 C 158 42, 192 74, 178 116 C 164 158, 138 168, 144 208 C 150 246, 180 266, 170 306 C 160 346, 130 366, 126 406 C 125 418, 128 430, 132 440 L ${W} 440 L ${W} 0 Z"
-        fill="#f0e6cb"/>
-      <path d="M 175 0 C 158 42, 192 74, 178 116 C 164 158, 138 168, 144 208 C 150 246, 180 266, 170 306 C 160 346, 130 366, 126 406 C 125 418, 128 430, 132 440"
-        fill="none" stroke="#e2d4ac" stroke-width="2.5" stroke-linecap="round"/>
-      <path d="M 28 96 q 7 -7 14 0 q 7 7 14 0" fill="none" stroke="var(--sea)" stroke-width="2" opacity=".4" stroke-linecap="round"/>
-      <path d="M 52 176 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="var(--sea)" stroke-width="2" opacity=".35" stroke-linecap="round"/>
-      <path d="M 26 258 q 7 -7 14 0 q 7 7 14 0" fill="none" stroke="var(--sea)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
-      <path d="M 56 344 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="var(--sea)" stroke-width="2" opacity=".35" stroke-linecap="round"/>
-      <path d="M 24 404 q 7 -7 14 0 q 7 7 14 0" fill="none" stroke="var(--sea)" stroke-width="2" opacity=".4" stroke-linecap="round"/>
-      <g opacity=".95">
-        <path d="M 40 300 q 11 7 22 0 l -3 5 q -8 4 -16 0 Z" fill="#fffdf6"/>
-        <line x1="51" y1="278" x2="51" y2="299" stroke="#9a8d72" stroke-width="1.5"/>
-        <path d="M 53 279 l 13 17 l -13 0 Z" fill="var(--clay-soft)"/>
-      </g>
-      <text x="42" y="215" fill="#8fbdb3" font-size="9" letter-spacing=".25em" font-family="Roboto Mono, monospace" transform="rotate(-72 42 215)">ATLÂNTICO</text>
-      <ellipse cx="252" cy="148" rx="52" ry="19" fill="#e9dcb6" opacity=".85"/>
-      <ellipse cx="238" cy="330" rx="46" ry="17" fill="#e9dcb6" opacity=".7"/>
-      <path d="M 320 62 C 262 74, 212 62, 176 52" fill="none" stroke="#cfe4de" stroke-width="3.5" stroke-linecap="round"/>
-      <path d="M 320 238 C 252 252, 192 234, 148 213" fill="none" stroke="#cfe4de" stroke-width="4" stroke-linecap="round"/>
-      <g>
-        <line x1="252" y1="118" x2="252" y2="126" stroke="#9a8d72" stroke-width="1.5"/>
-        <circle cx="252" cy="112" r="7.5" fill="#9ec3ae"/>
-        <line x1="212" y1="192" x2="212" y2="200" stroke="#9a8d72" stroke-width="1.5"/>
-        <circle cx="212" cy="186" r="6.5" fill="#9ec3ae"/>
-        <line x1="268" y1="296" x2="268" y2="304" stroke="#9a8d72" stroke-width="1.5"/>
-        <circle cx="268" cy="290" r="7" fill="#9ec3ae"/>
-      </g>
-      <g>
-        <line x1="262" y1="58" x2="296" y2="58" stroke="var(--clay)" stroke-width="2.2" stroke-linecap="round"/>
-        <path d="M 266 66 q 13 -15 26 0" fill="none" stroke="var(--clay)" stroke-width="2.2" stroke-linecap="round"/>
-      </g>
-      <g>
-        <rect x="222" y="246" width="30" height="14" rx="3.5" fill="#eec25c"/>
-        <rect x="226" y="249" width="6" height="5.5" rx="1" fill="#fffdf6"/>
-        <rect x="234.5" y="249" width="6" height="5.5" rx="1" fill="#fffdf6"/>
-        <rect x="243" y="249" width="6" height="5.5" rx="1" fill="#fffdf6"/>
-        <circle cx="230" cy="261.5" r="2" fill="#7d7490"/>
-        <circle cx="244" cy="261.5" r="2" fill="#7d7490"/>
-        <path d="M 233 246 l 4 -5 l 4 5" fill="none" stroke="#7d7490" stroke-width="1.3"/>
-      </g>
-      <g>
-        <line x1="236" y1="366" x2="236" y2="352" stroke="#9a8d72" stroke-width="1.6"/>
-        <path d="M 222 354 a 14 14 0 0 1 28 0 Z" fill="var(--clay-soft)"/>
-        <path d="M 229 354 a 7 14 0 0 1 14 0" fill="none" stroke="var(--clay)" stroke-width="1.4"/>
-      </g>
-      <g>
-        <path d="M 196 402 l 3.5 -18 l 7 0 l 3.5 18 Z" fill="#fffdf6"/>
-        <rect x="197.8" y="392" width="10.4" height="3.4" fill="var(--clay)"/>
-        <rect x="199.5" y="384" width="7" height="3.2" rx="1" fill="var(--clay)"/>
-        <circle cx="203" cy="381.5" r="1.6" fill="#eec25c"/>
-      </g>
-      <g opacity=".8">
-        <circle cx="288" cy="392" r="11" fill="none" stroke="#b3a88e" stroke-width="1.4"/>
-        <path d="M 288 385 l 3 9 l -3 -2.5 l -3 2.5 Z" fill="var(--clay)"/>
-        <text x="288" y="381" text-anchor="middle" fill="#9a8d72" font-size="7" font-family="Roboto Mono, monospace">N</text>
-      </g>
+    <svg viewBox="0 0 320 411" style="width:100%; height:auto; display:block; border-radius:12px">
+      <image href="karte.png" x="0" y="0" width="320" height="411" preserveAspectRatio="xMidYMid slice"/>
       <path id="km-weg" d="${ROTA}"
-        fill="none" stroke="#c8bfa8" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="1 9"/>
+        fill="none" stroke="#fffdf6" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="1 9" opacity=".95"/>
       <path id="km-fortschritt" d="${ROTA}"
-        fill="none" stroke="var(--sea)" stroke-width="4.5" stroke-linecap="round"/>
+        fill="none" stroke="var(--clay)" stroke-width="4.5" stroke-linecap="round"/>
       <g id="km-marker"></g>
     </svg>`;
   const svg = box.querySelector('svg');
@@ -705,31 +648,32 @@ function renderKursMap() {
     const f = ETAPPEN[0].frac + (0.34 - ETAPPEN[0].frac) * (i + 1) / 7;
     const p = weg.getPointAtLength(f * L);
     el('circle', { cx: p.x, cy: p.y, r: 4.5,
-      fill: i < done ? 'var(--sea)' : '#fffdf6',
-      stroke: i < done ? 'var(--sea)' : '#cfc6b4', 'stroke-width': 1.6 });
+      fill: i < done ? 'var(--clay)' : '#fffdf6',
+      stroke: i < done ? '#fffdf6' : '#b3a88e', 'stroke-width': 1.6 });
   }
   // Etappen-Stationen
   ETAPPEN.forEach((e2, i) => {
     const p = weg.getPointAtLength(e2.frac * L);
     const erreicht = i === 0;
     el('circle', { cx: p.x, cy: p.y, r: 13,
-      fill: erreicht ? 'var(--sea-pale)' : 'var(--sand)',
-      stroke: erreicht ? 'var(--sea)' : '#d8c9a4', 'stroke-width': 2,
-      opacity: erreicht ? 1 : .75 });
+      fill: '#fffdf6', stroke: erreicht ? 'var(--clay)' : '#b3a88e', 'stroke-width': 2,
+      opacity: .95 });
     if (!erreicht) {
       el('rect', { x: p.x - 3.5, y: p.y - 2.5, width: 7, height: 6, rx: 1.2, fill: 'none', stroke: '#9a8d72', 'stroke-width': 1.4 });
       el('path', { d: `M ${p.x - 2.2} ${p.y - 2.5} v -1.6 a 2.2 2.2 0 0 1 4.4 0 v 1.6`, fill: 'none', stroke: '#9a8d72', 'stroke-width': 1.4 });
     } else {
-      el('path', { d: `M ${p.x - 4.5} ${p.y + 1} q 2.2 -4.5 4.5 0 q 2.3 4.5 4.5 0`, fill: 'none', stroke: 'var(--sea)', 'stroke-width': 2, 'stroke-linecap': 'round' });
+      el('path', { d: `M ${p.x - 4.5} ${p.y + 1} q 2.2 -4.5 4.5 0 q 2.3 4.5 4.5 0`, fill: 'none', stroke: 'var(--clay)', 'stroke-width': 2, 'stroke-linecap': 'round' });
     }
-    const lx = p.x + 24;
-    const t = el('text', { x: lx, y: p.y + 1, 'text-anchor': 'start',
+    const lx = p.x - 22;
+    const t = el('text', { x: lx, y: p.y + 1, 'text-anchor': 'end',
       fill: 'var(--ink)', 'font-size': '12', 'font-weight': '700',
-      'font-family': 'Space Grotesk, sans-serif' });
+      'font-family': 'Space Grotesk, sans-serif', stroke: '#fffdf6', 'stroke-width': '3',
+      'paint-order': 'stroke' });
     t.textContent = e2.name;
-    const t2 = el('text', { x: lx, y: p.y + 13, 'text-anchor': 'start',
-      fill: 'var(--ink-soft)', 'font-size': '7.5', 'letter-spacing': '.06em',
-      'font-family': 'Roboto Mono, monospace' });
+    const t2 = el('text', { x: lx, y: p.y + 13, 'text-anchor': 'end',
+      fill: 'var(--ink)', 'font-size': '7.5', 'letter-spacing': '.06em',
+      'font-family': 'Roboto Mono, monospace', stroke: '#fffdf6', 'stroke-width': '2.5',
+      'paint-order': 'stroke' });
     t2.textContent = e2.sub;
   });
   // Surfbrett-Marker an aktueller Position
