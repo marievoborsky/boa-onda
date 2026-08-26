@@ -12,7 +12,7 @@ Voraussetzung: ELEVENLABS_API_KEY in der Umgebung, Voice-IDs in stimmen.json.
 import json, os, re, sys, glob, subprocess, tempfile, time, urllib.request, urllib.error
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(BASE, 'audio-11')
+OUT = os.path.join(BASE, 'audio')
 KEY = os.environ.get('ELEVENLABS_API_KEY')
 VOICES = json.load(open(os.path.join(BASE, 'stimmen.json')))
 MODEL = 'eleven_multilingual_v2'
@@ -41,8 +41,23 @@ def collect():
             elif sec['type'] == 'story' and sec.get('audio'):
                 t = re.sub(r'<br\s*/?>', ' ', sec['text'])
                 add(sec['audio'], re.sub(r'<[^>]+>', '', t), 'marie')
-    for f in glob.glob(os.path.join(BASE, 'audio', 'tok', '*.m4a')):
-        w = os.path.splitext(os.path.basename(f))[0]
+    # Einzelwörter (Textos): aus allen Story-/Dialogtexten ableiten
+    tok = set()
+    def toks(text):
+        text = re.sub(r'<br\s*/?>', ' ', text)
+        text = re.sub(r'<[^>]+>', ' ', text)
+        for w in text.split():
+            core = re.sub(r'^[^\wÀ-ÿ]+|[^\wÀ-ÿ]+$', '', w)
+            if core and re.search(r'[A-Za-zÀ-ÿ]', core):
+                tok.add(core.lower())
+    for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', 'tag*.json'))):
+        L = json.load(open(f))
+        for sec in L['sections']:
+            if sec['type'] == 'story':
+                toks(sec['text'])
+            elif sec['type'] == 'reading':
+                for ln in sec['lines']: toks(ln['pt'])
+    for w in sorted(tok):
         add('tok/' + w, w, 'marie', PREV)
     # Tag-8-Sagres aus dem Arbeitsblatt (Marie & Vasco)
     html = open(os.path.join(BASE, '..', 'arbeitsblaetter', 'tag-08-sagres.html')).read()
