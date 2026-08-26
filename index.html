@@ -286,6 +286,7 @@
   <div class="session" id="kurs">
     <div class="ltitle">Kurs</div>
     <div class="lsub" style="margin: .2rem 0 1rem .2rem">Woche 1 · Ich und du</div>
+    <div class="lsec" id="kurs-map" style="padding:.9rem .6rem .5rem; transform:rotate(-.3deg)"></div>
     <div id="lessons"></div>
     <div class="kurs-head" style="opacity:.7">Woche 2 · Meine Welt · ab Tag 9</div>
   </div>
@@ -540,8 +541,84 @@ const LESSONS = [
   { id: 'tag06', label: 'Tag 6 · Trabalho e línguas', sub: 'Beruf & das -ar-Muster' },
   { id: 'tag07', label: 'Tag 7 · Revisão', sub: 'Wochentest · 44 Punkte' },
 ];
+/* ---------- Reisekarte (A Viagem) ---------- */
+const ETAPPEN = [
+  { name: 'Lisboa',    sub: 'Woche 1 · Ich und du',        frac: 0.06, tage: 7, offen: true },
+  { name: 'Comporta',  sub: 'Woche 2 · Meine Welt',        frac: 0.38, tage: 7, offen: false },
+  { name: 'Milfontes', sub: 'Woche 3 · Mein Alltag',       frac: 0.68, tage: 7, offen: false },
+  { name: 'Sagres',    sub: 'Woche 4 · Unterwegs',         frac: 0.96, tage: 7, offen: false },
+];
+function renderKursMap() {
+  const box = document.getElementById('kurs-map');
+  const W = 320, H = 318;
+  const done = LESSONS.filter(l => store.lessons[l.id]).length;
+  const total = 28;
+  box.innerHTML = `
+    <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 .2rem .5rem">A viagem da Marie · ${done} von ${total} Tagen</div>
+    <svg viewBox="0 0 ${W} ${H}" style="width:100%; height:auto; display:block">
+      <path id="km-weg" d="M 30 24 C 150 10, 290 40, 285 78 C 280 116, 60 96, 42 140 C 26 180, 250 160, 272 204 C 290 240, 120 236, 60 272"
+        fill="none" stroke="#e8e0d0" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 9"/>
+      <path id="km-fortschritt" d="M 30 24 C 150 10, 290 40, 285 78 C 280 116, 60 96, 42 140 C 26 180, 250 160, 272 204 C 290 240, 120 236, 60 272"
+        fill="none" stroke="var(--sea)" stroke-width="5" stroke-linecap="round"/>
+      <g id="km-marker"></g>
+    </svg>`;
+  const svg = box.querySelector('svg');
+  const weg = svg.querySelector('#km-weg');
+  const fort = svg.querySelector('#km-fortschritt');
+  const L = weg.getTotalLength();
+  const doneFrac = done === 0 ? 0 : ETAPPEN[0].frac + (0.30 - ETAPPEN[0].frac) * Math.min(done, 7) / 7;
+  fort.style.strokeDasharray = (doneFrac * L) + ' ' + L;
+  const g = svg.querySelector('#km-marker');
+  const NS = 'http://www.w3.org/2000/svg';
+  function el(tag, attrs) {
+    const e = document.createElementNS(NS, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    g.appendChild(e);
+    return e;
+  }
+  // Tages-Punkte der offenen Woche 1
+  for (let i = 0; i < 7; i++) {
+    const f = ETAPPEN[0].frac + (0.30 - ETAPPEN[0].frac) * (i + 1) / 7;
+    const p = weg.getPointAtLength(f * L);
+    el('circle', { cx: p.x, cy: p.y, r: 4.5,
+      fill: i < done ? 'var(--sea)' : '#fffdf6',
+      stroke: i < done ? 'var(--sea)' : '#cfc6b4', 'stroke-width': 1.6 });
+  }
+  // Etappen-Stationen
+  ETAPPEN.forEach((e2, i) => {
+    const p = weg.getPointAtLength(e2.frac * L);
+    const erreicht = i === 0;
+    el('circle', { cx: p.x, cy: p.y, r: 13,
+      fill: erreicht ? 'var(--sea-pale)' : 'var(--sand)',
+      stroke: erreicht ? 'var(--sea)' : '#d8c9a4', 'stroke-width': 2,
+      opacity: erreicht ? 1 : .75 });
+    if (!erreicht) {
+      el('rect', { x: p.x - 3.5, y: p.y - 2.5, width: 7, height: 6, rx: 1.2, fill: 'none', stroke: '#9a8d72', 'stroke-width': 1.4 });
+      el('path', { d: `M ${p.x - 2.2} ${p.y - 2.5} v -1.6 a 2.2 2.2 0 0 1 4.4 0 v 1.6`, fill: 'none', stroke: '#9a8d72', 'stroke-width': 1.4 });
+    } else {
+      el('path', { d: `M ${p.x - 4.5} ${p.y + 1} q 2.2 -4.5 4.5 0 q 2.3 4.5 4.5 0`, fill: 'none', stroke: 'var(--sea)', 'stroke-width': 2, 'stroke-linecap': 'round' });
+    }
+    const oben = i === 1;
+    const lx = Math.min(Math.max(p.x, 52), W - 52);
+    const t = el('text', { x: lx, y: oben ? p.y - 31 : p.y + 27, 'text-anchor': 'middle',
+      fill: 'var(--ink)', 'font-size': '11.5', 'font-weight': '700',
+      'font-family': 'Space Grotesk, sans-serif' });
+    t.textContent = e2.name;
+    const t2 = el('text', { x: lx, y: oben ? p.y - 20 : p.y + 39, 'text-anchor': 'middle',
+      fill: 'var(--ink-soft)', 'font-size': '7.5', 'letter-spacing': '.08em',
+      'font-family': 'Roboto Mono, monospace' });
+    t2.textContent = e2.sub;
+  });
+  // Surfbrett-Marker an aktueller Position
+  const mp = weg.getPointAtLength(doneFrac * L);
+  el('ellipse', { cx: mp.x, cy: mp.y, rx: 7, ry: 12, fill: 'var(--clay)', stroke: '#fffdf6', 'stroke-width': 2.5,
+    transform: `rotate(28 ${mp.x} ${mp.y})` });
+  el('line', { x1: mp.x, y1: mp.y - 8, x2: mp.x, y2: mp.y + 8, stroke: '#fff8f2', 'stroke-width': 1.3,
+    transform: `rotate(28 ${mp.x} ${mp.y})` });
+}
 const CHECK_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
 function renderLessons() {
+  renderKursMap();
   const el = document.getElementById('lessons');
   el.innerHTML = '';
   const next = LESSONS.find(l => !store.lessons[l.id]);
