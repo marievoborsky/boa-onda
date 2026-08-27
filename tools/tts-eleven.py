@@ -11,10 +11,10 @@ Voraussetzung: ELEVENLABS_API_KEY in der Umgebung, Voice-IDs in stimmen.json.
 """
 import json, os, re, sys, glob, subprocess, tempfile, time, urllib.request, urllib.error
 
-BASE = os.path.dirname(os.path.abspath(__file__))
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # app/
 OUT = os.path.join(BASE, 'audio')
 KEY = os.environ.get('ELEVENLABS_API_KEY')
-VOICES = json.load(open(os.path.join(BASE, 'stimmen.json')))
+VOICES = json.load(open(os.path.join(BASE, 'tools', 'stimmen.json')))
 MODEL = 'eleven_multilingual_v2'
 WHO2FIG = {'ana': 'ana', 'marie': 'marie', 'joão': 'joao', 'joao': 'joao', 'vasco': 'vasco'}
 # Kontext-Anker, damit kurze Einzelwörter sicher als EP gesprochen werden (wird nicht mitgesprochen)

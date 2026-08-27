@@ -19,7 +19,7 @@ Aufruf:
 """
 import json, os, re, sys, base64, subprocess, tempfile, urllib.request, glob
 
-BASE = os.path.dirname(os.path.abspath(__file__))
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # app/
 OUT = os.path.join(BASE, 'audio-neu')
 VOICE_W = 'pt-PT-Wavenet-E'   # weiblich: Ana, Marie, Vokabeln, Geschichten, Einzelwörter
 VOICE_M = 'pt-PT-Wavenet-F'   # männlich: João, Vasco
