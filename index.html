@@ -682,6 +682,29 @@ function renderKursMap() {
       'font-family': 'Roboto Mono, monospace' });
     t2.textContent = e2.sub;
   });
+  // Staffel-2-Teaser: die Reise geht weiter …
+  const tp = weg.getPointAtLength(0.995 * L);
+  const teaser = document.createElementNS(NS, 'path');
+  teaser.setAttribute('d', `M ${tp.x} ${tp.y} C ${tp.x + 40} ${tp.y + 10}, ${tp.x + 90} ${tp.y + 6}, ${tp.x + 118} ${tp.y - 2}`);
+  teaser.setAttribute('fill', 'none');
+  teaser.setAttribute('stroke', '#b3a88e');
+  teaser.setAttribute('stroke-width', '3.5');
+  teaser.setAttribute('stroke-linecap', 'round');
+  teaser.setAttribute('stroke-dasharray', '1 10');
+  teaser.setAttribute('opacity', '.6');
+  g.appendChild(teaser);
+  el('circle', { cx: tp.x + 128, cy: tp.y - 3, r: 11, fill: '#fffdf6', opacity: .85,
+    stroke: '#b3a88e', 'stroke-width': 1.6, 'stroke-dasharray': '3 3' });
+  const tq = el('text', { x: tp.x + 128, y: tp.y + 1, 'text-anchor': 'middle',
+    fill: 'var(--ink-soft)', 'font-size': '12', 'font-weight': '700',
+    'font-family': 'Space Grotesk, sans-serif' });
+  tq.textContent = '?';
+  const tl = el('text', { x: tp.x + 128, y: tp.y - 20, 'text-anchor': 'middle',
+    fill: 'var(--ink-soft)', 'font-size': '7', 'letter-spacing': '.1em',
+    'font-family': 'Roboto Mono, monospace', stroke: '#fffdf6', 'stroke-width': '2.5',
+    'paint-order': 'stroke' });
+  tl.textContent = 'STAFFEL 2';
+
   // Surfbrett-Marker an aktueller Position
   const mp = weg.getPointAtLength(doneFrac * L);
   el('ellipse', { cx: mp.x, cy: mp.y, rx: 7, ry: 12, fill: 'var(--clay)', stroke: '#fffdf6', 'stroke-width': 2.5,
