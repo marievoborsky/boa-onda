@@ -190,7 +190,9 @@
   .playbtn { border: none; background: var(--sea-pale); color: var(--ocean, #0b4f6c);
     border-radius: 50%; width: 2rem; height: 2rem; flex: none; cursor: pointer;
     display: flex; align-items: center; justify-content: center; }
-  .dline { display: flex; gap: .6rem; align-items: center; padding: .3rem 0; }
+  .dline { display: flex; gap: .55rem; align-items: center; padding: .3rem 0; }
+  .avat { width: 28px; height: 28px; border-radius: 50%; object-fit: cover;
+    object-position: top; flex: none; box-shadow: 0 1px 4px rgba(51,41,74,.2); }
   .dline .who { font-family: "Roboto Mono", monospace; font-weight: 400;
     font-size: .74rem; color: var(--clay); min-width: 3.2rem; }
   .dline .dpt { font-size: .95rem; cursor: pointer; flex: 1; }
@@ -1371,7 +1373,9 @@ async function openLesson(id) {
     const div = document.createElement('div');
     div.className = 'lsec';
     if (sec.type === 'note' || sec.type === 'speak') {
-      div.innerHTML = `<h3>${sec.title}</h3><div class="body">${sec.html}</div>`;
+      const vasco = sec.title.includes('Dica do Vasco')
+        ? '<img class="avat" src="avatare/vasco.png" alt="" style="width:34px; height:34px; vertical-align:middle; margin-right:.5rem">' : '';
+      div.innerHTML = `<h3 style="${vasco ? 'display:flex; align-items:center' : ''}">${vasco}${sec.title}</h3><div class="body">${sec.html}</div>`;
       if (sec.type === 'speak') {
         div.innerHTML += `<div class="recrow">${recButtons(id + '-speak')}
           <span class="hint">Nimm dich beim Sprechen auf und hör es dir an – klingt es schon portugiesisch?</span></div>`;
@@ -1393,7 +1397,8 @@ async function openLesson(id) {
       for (const ln of sec.lines) {
         const row = document.createElement('div');
         row.className = 'dline';
-        row.innerHTML = `<span class="who">${ln.who}</span>
+        const fig = { ana: 'ana', marie: 'marie', 'joão': 'joao', vasco: 'vasco' }[ln.who.trim().toLowerCase()];
+        row.innerHTML = `${fig ? `<img class="avat" src="avatare/${fig}.png" alt="">` : ''}<span class="who">${ln.who}</span>
           <span class="dpt" onclick="play('${ln.audio}')">${ln.pt}</span>
           ${recButtons(ln.audio)}`;
         div.appendChild(row);
