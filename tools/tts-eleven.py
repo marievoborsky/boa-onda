@@ -16,7 +16,7 @@ OUT = os.path.join(BASE, 'audio')
 KEY = os.environ.get('ELEVENLABS_API_KEY')
 VOICES = json.load(open(os.path.join(BASE, 'tools', 'stimmen.json')))
 MODEL = 'eleven_multilingual_v2'
-WHO2FIG = {'ana': 'ana', 'marie': 'marie', 'joão': 'joao', 'joao': 'joao', 'vasco': 'vasco', 'tomás': 'ana', 'tomas': 'ana'}  # Tomás (12): Ana-Stimme – Kinderstimmen-Design ist bei ElevenLabs zu Recht gesperrt
+WHO2FIG = {'ana': 'ana', 'marie': 'marie', 'joão': 'joao', 'joao': 'joao', 'vasco': 'vasco', 'tomás': 'ana', 'tomas': 'ana', 'empregado': 'vasco', 'empregada': 'marie'}  # Tomás (12): Ana-Stimme – Kinderstimmen-Design ist bei ElevenLabs zu Recht gesperrt
 # Kontext-Anker, damit kurze Einzelwörter sicher als EP gesprochen werden (wird nicht mitgesprochen)
 PREV = 'Em português europeu: '
 

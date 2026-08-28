@@ -614,6 +614,7 @@ const LESSONS = [
   { id: 'tag09', label: 'Tag 9 · A família', sub: 'Familie & Possessive', w: 1 },
   { id: 'tag10', label: 'Tag 10 · Como é ele?', sub: 'Personen beschreiben · Adjektive', w: 1 },
   { id: 'tag11', label: 'Tag 11 · Gosto disto!', sub: 'Essen & Trinken · gostar de', w: 1 },
+  { id: 'tag12', label: 'Tag 12 · No café', sub: 'Bestellen · se faz favor', w: 1 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -845,6 +846,7 @@ const TEXTOS = [
   { tag: 'tag09', num: 9, title: 'Bem-vindos ao Porto!', nivel: 3, story: true },
   { tag: 'tag10', num: 10, title: 'O almoço', nivel: 3, story: true },
   { tag: 'tag11', num: 11, title: 'Os vídeos do Vasco', nivel: 3, story: true },
+  { tag: 'tag12', num: 12, title: 'A primeira aula é grátis', nivel: 3, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');
@@ -989,24 +991,50 @@ function markWord(id, box) {
 
 /* ---------- Caderno (Vokabelheft) ---------- */
 let cadFilter = 'all', cadSpot = 'all';
-function renderCaderno() {
-  const total = VOCAB.length;
+let LVOCAB = null;   // Lektionswörter (mit Wochen-Zuordnung)
+async function ladeLVocab() {
+  if (LVOCAB) return LVOCAB;
+  LVOCAB = [];
+  for (const l of LESSONS) {
+    try {
+      const L = await (await fetch('lektionen/' + l.id + '.json', { cache: 'no-cache' })).json();
+      for (const sec of L.sections) {
+        if (sec.type !== 'vocab') continue;
+        for (const it of sec.items) {
+          if (it.audio) LVOCAB.push({ id: it.audio, pt: it.pt, ipa: it.ipa, de: it.de, w: l.w, tag: l.label.split(' ·')[0] });
+        }
+      }
+    } catch (e) {}
+  }
+  return LVOCAB;
+}
+async function renderCaderno() {
+  await ladeLVocab();
+  const alle = VOCAB.concat(LVOCAB);
+  const total = alle.length;
   let g = 0, a = 0;
-  for (const w of VOCAB) { const b = (store.words[w.id] || { box: 0 }).box; if (b >= 2) g++; else if (b === 1) a++; }
+  for (const w of alle) { const b = (store.words[w.id] || { box: 0 }).box; if (b >= 2) g++; else if (b === 1) a++; }
+  const pct = Math.round(100 * g / total);
   document.getElementById('cad-stats').innerHTML = `
     <div class="lsec" style="display:flex; align-items:center; gap:14px; transform:rotate(-.3deg)">
-      <div style="font-size:2rem; font-weight:700; color:var(--sea)">${g}</div>
+      <div style="text-align:center">
+        <div style="font-size:1.9rem; font-weight:700; color:var(--sea); line-height:1">${pct}%</div>
+        <div class="mono" style="font-size:.58rem; letter-spacing:.1em; color:var(--ink-soft); margin-top:.2rem">VON A1</div>
+      </div>
       <div style="flex:1">
-        <div style="font-weight:600; font-size:.9rem">von ${total} Wellen gestanden</div>
-        <div class="bar" style="margin-top:.4rem"><i style="width:${Math.round(100 * g / total)}%"></i></div>
+        <div style="font-weight:600; font-size:.9rem">${g} von ${total} A1-Wellen gestanden</div>
+        <div class="bar" style="margin-top:.4rem"><i style="width:${pct}%"></i></div>
         <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.3rem">${g} gelernt · ${a} in Arbeit · ${total - g - a} neu</div>
       </div>
     </div>`;
   const F = [['all', 'Alle'], ['gelernt', 'Gelernt'], ['arbeit', 'In Arbeit'], ['neu', 'Neu']];
   document.getElementById('cad-chips').innerHTML = F.map(([k, l]) =>
     `<button class="chip ${cadFilter === k ? 'on' : ''}" onclick="cadFilter='${k}'; renderCaderno()">${l}</button>`).join('');
+  const wochen = [...new Set(LESSONS.map(l => l.w))];
   document.getElementById('cad-spots').innerHTML =
-    `<button class="chip ${cadSpot === 'all' ? 'on' : ''}" onclick="cadSpot='all'; renderCaderno()">Alle Spots</button>` +
+    `<button class="chip ${cadSpot === 'all' ? 'on' : ''}" onclick="cadSpot='all'; renderCaderno()">Alle</button>` +
+    wochen.map(w =>
+      `<button class="chip ${cadSpot === 'w' + w ? 'on' : ''}" onclick="cadSpot='w${w}'; renderCaderno()">Woche ${w + 1}</button>`).join('') +
     Object.entries(SPOTS).map(([k, sp]) =>
       `<button class="chip ${cadSpot === k ? 'on' : ''}" onclick="cadSpot='${k}'; renderCaderno()">${sp.theme}</button>`).join('');
   document.getElementById('cad-surf').style.display = cadSpot === 'all' ? 'none' : 'block';
@@ -1015,8 +1043,11 @@ function renderCaderno() {
 function surfCad() { startLearn(cadSpot === 'all' ? 'mix' : cadSpot); }
 function renderCadList() {
   const q = (document.getElementById('cad-q').value || '').toLowerCase();
-  const ws = VOCAB.filter(w => {
-    if (cadSpot !== 'all' && w.block !== cadSpot) return false;
+  const woche = cadSpot.startsWith('w') && cadSpot.length === 2 ? +cadSpot[1] : null;
+  const basis = woche !== null ? (LVOCAB || []).filter(x => x.w === woche)
+    : cadSpot === 'all' ? VOCAB.concat(LVOCAB || []) : VOCAB;
+  const ws = basis.filter(w => {
+    if (woche === null && cadSpot !== 'all' && w.block !== cadSpot) return false;
     const b = (store.words[w.id] || { box: 0 }).box;
     if (cadFilter === 'gelernt' && b < 2) return false;
     if (cadFilter === 'arbeit' && b !== 1) return false;
@@ -1033,7 +1064,7 @@ function renderCadList() {
     row.className = 'vrow';
     row.innerHTML = `
       <button class="playbtn" onclick="play('${w.id}')">${PLAY_SVG}</button>
-      <div><div class="pt">${w.pt}</div><div class="vipa">${w.ipa}</div></div>
+      <div><div class="pt">${w.pt}</div><div class="vipa">${w.ipa}${w.tag ? ' · ' + w.tag : ''}</div></div>
       <div class="vde">${w.de}<div style="margin-top:2px">${dots}</div></div>`;
     el.appendChild(row);
   }
