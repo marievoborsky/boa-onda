@@ -1,0 +1,311 @@
+{
+ "id": "tag10",
+ "title": "Como é ele?",
+ "subtitle": "Woche 2 · Tag 10 · Personen beschreiben · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 9)",
+   "items": [
+    {
+     "q": "___ ___ família é grande. (meine)",
+     "a": "A minha"
+    },
+    {
+     "q": "o irmão → os ___",
+     "a": "irmãos"
+    },
+    {
+     "q": "Der Vater meines Vaters ist mein ___ (pt!)",
+     "a": "avô"
+    },
+    {
+     "q": "„Cool“ auf gut Portugiesisch: ___",
+     "a": "fixe"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Beschreiben (12)",
+   "items": [
+    {
+     "pt": "alto / alta",
+     "de": "groß (Person)",
+     "ipa": "[ˈaɫtu] / [ˈaɫtɐ]",
+     "audio": "v1001"
+    },
+    {
+     "pt": "baixo / baixa",
+     "de": "klein (Person)",
+     "ipa": "[ˈbajʃu] / [ˈbajʃɐ]",
+     "audio": "v1002"
+    },
+    {
+     "pt": "jovem",
+     "de": "jung (m + w gleich!)",
+     "ipa": "[ˈʒɔvɐ̃j̃]",
+     "audio": "v1003"
+    },
+    {
+     "pt": "velho / velha",
+     "de": "alt",
+     "ipa": "[ˈvɛʎu] / [ˈvɛʎɐ]",
+     "audio": "v1004"
+    },
+    {
+     "pt": "bonito / bonita",
+     "de": "schön, hübsch",
+     "ipa": "[buˈnitu] / [buˈnitɐ]",
+     "audio": "v1005"
+    },
+    {
+     "pt": "giro / gira",
+     "de": "süß, cool (typisch EP!)",
+     "ipa": "[ˈʒiɾu] / [ˈʒiɾɐ]",
+     "audio": "v1006"
+    },
+    {
+     "pt": "simpático / simpática",
+     "de": "sympathisch, nett",
+     "ipa": "[sĩˈpatiku] / [sĩˈpatikɐ]",
+     "audio": "v1007"
+    },
+    {
+     "pt": "engraçado / engraçada",
+     "de": "lustig",
+     "ipa": "[ẽɡɾɐˈsadu] / [ẽɡɾɐˈsadɐ]",
+     "audio": "v1008"
+    },
+    {
+     "pt": "o cabelo",
+     "de": "Haar",
+     "ipa": "[kɐˈbelu]",
+     "audio": "v1009"
+    },
+    {
+     "pt": "os olhos",
+     "de": "die Augen",
+     "ipa": "[ˈɔʎuʃ]",
+     "audio": "v1010"
+    },
+    {
+     "pt": "castanho / castanha",
+     "de": "braun (Haare/Augen)",
+     "ipa": "[kɐʃˈtɐɲu] / [kɐʃˈtɐɲɐ]",
+     "audio": "v1011"
+    },
+    {
+     "pt": "os óculos",
+     "de": "die Brille",
+     "ipa": "[ˈɔkuluʃ]",
+     "audio": "v1012"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Adjektive passen sich an",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Adjektive sind wie Neoprenanzüge – sie passen sich an, wer sie trägt:<br><br><b>-o / -a:</b> o pai é alt<b>o</b> · a mãe é alt<b>a</b><br><b>-e und Konsonant bleiben gleich:</b> ele é jov<b>em</b> · ela é jov<b>em</b> · o mar é grand<b>e</b><br><b>Plural: +s:</b> os primos são alt<b>os</b> · as primas são alt<b>as</b><br><br><b>Stellung:</b> Das Adjektiv kommt meist NACH dem Nomen: <i>o cabelo castanho, os olhos bonitos</i>.<br><br>Und fürs Aussehen nimmst du <b>ser</b> (Steckbrief!): <i>Ela é alta.</i> – so bleibt es nämlich. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "<b>giro / gira</b> ist eines der portugiesischsten Wörter überhaupt: süß, hübsch, cool – <i>Que giro!</i> („Wie cool/süß ist das denn!“) hörst du in Lissabon zwanzig Mal am Tag. In Brasilien bedeutet <i>giro</i> nur „Drehung“ – wer giro sagt, outet sich sofort (positiv!) als EP-Sprecher. Aussprache: <b>„schiru“</b> – das g wie in „Journal“. Und Vorsicht Klassiker: <i>os óculos</i> (Brille) ist im Portugiesischen <b>Plural</b> – „die Brillen“, auch wenn es nur eine ist!"
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Ao almoço",
+   "hint": "Selbst erschlossen: como o pai = wie der Vater · o vosso pai = euer Vater (Vorgriff!) · tão = so · a voz = die Stimme · azuis = blau (Plural von azul) · ter sono = müde sein (wörtl. „Schlaf haben“).",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Ana, o teu irmão é muito engraçado!",
+     "audio": "d1001"
+    },
+    {
+     "who": "Ana",
+     "pt": "O Tomás? Sim! E ele é alto — tem doze anos e é alto!",
+     "audio": "d1002"
+    },
+    {
+     "who": "João",
+     "pt": "Como o pai. O vosso pai é muito alto.",
+     "audio": "d1003"
+    },
+    {
+     "who": "Marie",
+     "pt": "E a tua avó é tão querida. Mas fala muito rápido…",
+     "audio": "d1004"
+    },
+    {
+     "who": "Ana",
+     "pt": "Eu sei! A minha avó é baixa, mas a voz é grande!",
+     "audio": "d1005"
+    },
+    {
+     "who": "Marie",
+     "pt": "Tens os olhos da tua mãe. Castanhos e bonitos.",
+     "audio": "d1006"
+    },
+    {
+     "who": "Ana",
+     "pt": "Obrigada! E tu tens os olhos azuis — muito giros.",
+     "audio": "d1007"
+    },
+    {
+     "who": "João",
+     "pt": "E eu? Eu tenho o cabelo bonito, não é?",
+     "audio": "d1008"
+    },
+    {
+     "who": "Ana",
+     "pt": "Tu tens sono, João. Sempre!",
+     "audio": "d1009"
+    },
+    {
+     "who": "Marie",
+     "pt": "A tua família é muito simpática, Ana.",
+     "audio": "d1010"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Gleiche das Adjektiv an",
+   "items": [
+    {
+     "q": "A Ana é ___ (engraçado)",
+     "a": "engraçada"
+    },
+    {
+     "q": "O Tomás é ___ (alto)",
+     "a": "alto"
+    },
+    {
+     "q": "A avó é ___ (baixo)",
+     "a": "baixa"
+    },
+    {
+     "q": "Os pais são ___ (simpático)",
+     "a": "simpáticos"
+    },
+    {
+     "q": "As primas são ___ (giro)",
+     "a": "giras"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Beschreibe mit ser + Adjektiv",
+   "items": [
+    {
+     "q": "Mein Großvater ist alt. → O meu avô ___ ___.",
+     "a": "é velho"
+    },
+    {
+     "q": "Deine Mutter ist jung. → A tua mãe ___ ___.",
+     "a": "é jovem"
+    },
+    {
+     "q": "Meine Augen sind braun. → Os meus olhos ___ ___.",
+     "a": "são castanhos"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Wer ist es? (aus dem Dialog)",
+   "items": [
+    {
+     "q": "É jovem, alto e muito engraçado: o ___",
+     "a": "Tomás"
+    },
+    {
+     "q": "É baixa, fala rápido e é muito querida: a ___",
+     "a": "avó"
+    },
+    {
+     "q": "Tem sono. Sempre: o ___",
+     "a": "João"
+    },
+    {
+     "q": "Tem os olhos azuis: a ___",
+     "a": "Marie"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch?",
+   "items": [
+    {
+     "q": "O pai da Ana é baixo.",
+     "a": "Falsch – er ist groß (alto)."
+    },
+    {
+     "q": "A Ana tem os olhos castanhos, como a mãe.",
+     "a": "Richtig."
+    },
+    {
+     "q": "O João diz que tem o cabelo bonito.",
+     "a": "Richtig – Ana findet: er hat vor allem Schlaf. 😴"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Meine Schwester ist groß und lustig. → ___",
+     "a": "A minha irmã é alta e engraçada."
+    },
+    {
+     "q": "Deine Augen sind sehr schön. → ___",
+     "a": "Os teus olhos são muito bonitos."
+    },
+    {
+     "q": "Wie süß! (typisch EP) → ___",
+     "a": "Que giro!"
+    },
+    {
+     "q": "Mein Opa hat eine Brille. → ___",
+     "a": "O meu avô tem óculos."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Beschreib deine Menschen",
+   "html": "Beschreib zwei Menschen aus deinem Leben – je zwei Sätze, laut: <i>A minha mãe é… Tem os olhos… O meu amigo é… Tem o cabelo…</i><br><br>Und einmal ehrlich vor dem Spiegel: <i>Eu sou… e muito giro/gira!</i> 😄 Dann aufnehmen und vergleichen."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: O almoço",
+   "audio": "s10",
+   "text": "Domingo. Almoço na casa da família da Ana — a mesa é grande e a comida é fantástica. O pai da Ana é alto e simpático. A mãe tem os olhos castanhos, como a Ana. O Tomás é jovem e muito engraçado.<br>A avó fala e fala — muito rápido: „EntãoMarieegostasdoPortoéumacidadelindanãoé?“<br>A Marie compreende… uma palavra: Porto.<br>— Avó, mais devagar! — diz a Ana. — A Marie está a aprender!<br>A avó fala devagar: — Gostas… do… Porto?<br>— Sim! O Porto é muito bonito! — diz a Marie.<br>A avó está feliz: — Ela compreende! A alemã é gira!<br>O Tomás pergunta: — João, tu surfas? O teu amigo Vasco é professor de surf, não é?<br>O João abre os olhos: — Como é que tu sabes do Vasco…?",
+   "gloss": "Neu erschließen: o almoço = das Mittagessen · a comida = das Essen · mais devagar = langsamer · está a aprender = sie lernt gerade (EP-Verlaufsform – Vorgriff!) · perguntar = fragen · saber = wissen. Die Avó-Zeile ohne Leerzeichen ist Absicht: So klingt schnelles Portugiesisch am Anfang! Hör die Geschichte zweimal.",
+   "questions": [
+    {
+     "q": "A comida é fantástica.",
+     "a": "Richtig."
+    },
+    {
+     "q": "A Marie compreende a avó sofort komplett.",
+     "a": "Falsch – erst als die Avó langsamer spricht."
+    },
+    {
+     "q": "O Tomás sabe do Vasco.",
+     "a": "Richtig – aber woher?! João ist verwirrt…"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Wenn 5a sitzt (alto/alta/altos/altas), hast du das Angleichungs-Muster – es gilt für fast alle Adjektive für immer. Morgen: <b>Essen & Trinken</b> – gostar de! Und die Frage bleibt: Woher kennt Tomás den Vasco…?"
+  }
+ ]
+}
