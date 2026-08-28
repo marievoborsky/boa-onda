@@ -5,8 +5,8 @@
  "sections": [
   {
    "type": "note",
-   "title": "1 · Warum dieser Tag anders ist",
-   "html": "Alles hier kannst du in Sagres <b>wirklich sagen</b> – mit dem Stoff aus Woche 1 plus drei Zauberformeln. Sagres liegt am äußersten Südwestzipfel Europas – <i>o fim do mundo</i>, „das Ende der Welt“, sagten die Seefahrer – und hat einige der besten Anfänger-Surfspots Portugals. Und ja: Das Bier ist nach dem Ort benannt."
+   "title": "Warum dieser Tag anders ist",
+   "html": "Alles hier kannst du in Sagres <b>wirklich sagen</b> – mit dem Stoff aus Woche 1 plus drei Zauberformeln. Sagres liegt am äußersten Südwestzipfel Europas – <i>o fim do mundo</i>, „das Ende der Welt“, sagten die Seefahrer – und hat einige der besten Anfänger-Surfspots Portugals. Und ja: Das Bier ist nach dem Ort benannt. <i>(Dieser Spezial-Tag ist ein Vorgeschmack außerhalb der Staffel-Geschichte – in der Story lernt die Gruppe Vasco erst in Woche 4 persönlich kennen!)</i>"
   },
   {
    "type": "exercise",
@@ -55,7 +55,7 @@
     {
      "pt": "o surf / fazer surf",
      "de": "Surfen / surfen gehen",
-     "ipa": "[ˈsɜɾf(ɨ)]",
+     "ipa": "[ˈsɐɾf(ɨ)]",
      "audio": "v0804"
     },
     {

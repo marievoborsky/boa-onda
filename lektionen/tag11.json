@@ -1,0 +1,307 @@
+{
+ "id": "tag11",
+ "title": "Gosto disto!",
+ "subtitle": "Woche 2 · Tag 11 · Essen & Trinken · gostar de · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 10)",
+   "items": [
+    {
+     "q": "A minha irmã é ___ (alto)",
+     "a": "alta"
+    },
+    {
+     "q": "Os meus avós são ___ (simpático)",
+     "a": "simpáticos"
+    },
+    {
+     "q": "„Wie süß!“ auf EP: ___",
+     "a": "Que giro!"
+    },
+    {
+     "q": "___ ___ avó fala rápido. (meine)",
+     "a": "A minha"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: À mesa (12)",
+   "items": [
+    {
+     "pt": "o pão",
+     "de": "Brot",
+     "ipa": "[pɐ̃w̃]",
+     "audio": "v1101"
+    },
+    {
+     "pt": "o queijo",
+     "de": "Käse",
+     "ipa": "[ˈkɐjʒu]",
+     "audio": "v1102"
+    },
+    {
+     "pt": "o peixe",
+     "de": "Fisch",
+     "ipa": "[ˈpɐjʃ(ɨ)]",
+     "audio": "v1103"
+    },
+    {
+     "pt": "a carne",
+     "de": "Fleisch",
+     "ipa": "[ˈkaɾnɨ]",
+     "audio": "v1104"
+    },
+    {
+     "pt": "a fruta",
+     "de": "Obst",
+     "ipa": "[ˈfɾutɐ]",
+     "audio": "v1105"
+    },
+    {
+     "pt": "o bolo",
+     "de": "Kuchen",
+     "ipa": "[ˈbolu]",
+     "audio": "v1106"
+    },
+    {
+     "pt": "o sumo",
+     "de": "Saft (EP! Brasilien: suco)",
+     "ipa": "[ˈsumu]",
+     "audio": "v1107"
+    },
+    {
+     "pt": "o leite",
+     "de": "Milch",
+     "ipa": "[ˈlɐjtɨ]",
+     "audio": "v1108"
+    },
+    {
+     "pt": "a sopa",
+     "de": "Suppe",
+     "ipa": "[ˈsopɐ]",
+     "audio": "v1109"
+    },
+    {
+     "pt": "o pequeno-almoço",
+     "de": "Frühstück (EP!)",
+     "ipa": "[pɨˈkenu aɫˈmosu]",
+     "audio": "v1110"
+    },
+    {
+     "pt": "o jantar",
+     "de": "Abendessen",
+     "ipa": "[ʒɐ̃ˈtaɾ]",
+     "audio": "v1111"
+    },
+    {
+     "pt": "delicioso / deliciosa",
+     "de": "köstlich",
+     "ipa": "[dɨliˈsjozu] / [dɨliˈsjɔzɐ]",
+     "audio": "v1112"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: gostar DE",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Heute das wichtigste Verb für alles, was du magst – und es kommt NIE allein:<br><br><b>gostar + de:</b> <i>Gosto <b>de</b> café. · Gostas <b>de</b> surf? · Ela gosta <b>de</b> música.</i><br><br>Und wenn ein Artikel dazukommt, verschmilzt <b>de</b> – das kennst du schon von <i>do Porto</i>:<br><b>de + o = do</b> → <i>Gosto <b>do</b> pão.</i><br><b>de + a = da</b> → <i>Gosto <b>da</b> sopa.</i><br><b>de + os = dos / de + as = das</b> → <i>Gosto <b>dos</b> bolos. · Gosto <b>das</b> praias.</i><br><br>Ohne Artikel = allgemein (<i>Gosto de café</i> – ich mag Kaffee generell), mit Artikel = etwas Bestimmtes (<i>Gosto do café da avó</i> – DIESEN Kaffee). Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Drei Essens-Wörter, die dich sofort als EP-Profi zeigen: <b>o pequeno-almoço</b> ist das Frühstück (wörtlich „kleines Mittagessen“ – in Brasilien sagt man <i>café da manhã</i>), <b>o sumo</b> ist der Saft (BR: <i>suco</i>), und ein <b>galão</b> kennst du ja schon aus Descobrir. Und die schönste Antwort, wenn dir etwas schmeckt, ist kurz: <b>„Gosto!“</b> oder mit Nachdruck <b>„Adoro!“</b> (ich liebe es) – beides mit einem Lächeln, mehr braucht es nicht."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: O pequeno-almoço",
+   "hint": "Selbst erschlossen: faz = macht (fazer – Vorgriff!) · o melhor = der/das beste · a cama = das Bett · comer = essen · Espera! = Warte! · conhecer = kennen. Tomás spricht heute mit – er ist 12, Anas Bruder.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Bom dia! O pequeno-almoço está na mesa. Gostas de queijo, Marie?",
+     "audio": "d1101"
+    },
+    {
+     "who": "Marie",
+     "pt": "Gosto muito! E gosto do pão da tua avó. É delicioso.",
+     "audio": "d1102"
+    },
+    {
+     "who": "Ana",
+     "pt": "A avó faz o melhor pão do Porto. João, gostas de sumo?",
+     "audio": "d1103"
+    },
+    {
+     "who": "João",
+     "pt": "Gosto… mas agora queria um café. Ou dois.",
+     "audio": "d1104"
+    },
+    {
+     "who": "Marie",
+     "pt": "Tu e o café! Gostas mais do café ou da tua cama?",
+     "audio": "d1105"
+    },
+    {
+     "who": "João",
+     "pt": "Boa pergunta… Gosto dos dois.",
+     "audio": "d1106"
+    },
+    {
+     "who": "Ana",
+     "pt": "E o Tomás? Não come. Está no telemóvel.",
+     "audio": "d1107"
+    },
+    {
+     "who": "Marie",
+     "pt": "Tomás, não gostas do pequeno-almoço?",
+     "audio": "d1108"
+    },
+    {
+     "who": "Tomás",
+     "pt": "Gosto! Mas… olha, João. Vídeos de surf. O professor é fixe!",
+     "audio": "d1109"
+    },
+    {
+     "who": "João",
+     "pt": "Espera… eu conheço este professor…",
+     "audio": "d1110"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · de, do, da, dos oder das?",
+   "items": [
+    {
+     "q": "Gosto ___ café. (allgemein)",
+     "a": "de"
+    },
+    {
+     "q": "Gosto ___ pão da avó. (bestimmt: o pão)",
+     "a": "do"
+    },
+    {
+     "q": "Gostas ___ sopa? (a sopa)",
+     "a": "da"
+    },
+    {
+     "q": "Ele gosta ___ bolos. (os bolos)",
+     "a": "dos"
+    },
+    {
+     "q": "Gostamos ___ praias do Porto. (as praias)",
+     "a": "das"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Antworte über dich (Muster: Gosto de… / Não gosto de…)",
+   "items": [
+    {
+     "q": "Gostas de peixe? → ___",
+     "a": "Gosto (muito) de peixe. / Não gosto de peixe."
+    },
+    {
+     "q": "Gostas de café? → ___",
+     "a": "Gosto de café. / Não gosto de café."
+    },
+    {
+     "q": "Gostas do Porto? → ___",
+     "a": "Gosto (muito) do Porto!"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Was passt? (Mahlzeiten)",
+   "items": [
+    {
+     "q": "Am Morgen: o ___",
+     "a": "pequeno-almoço"
+    },
+    {
+     "q": "Am Mittag: o ___",
+     "a": "almoço"
+    },
+    {
+     "q": "Am Abend: o ___",
+     "a": "jantar"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie gosta do pão da avó.",
+     "a": "Richtig – é delicioso!"
+    },
+    {
+     "q": "O João queria um sumo.",
+     "a": "Falsch – einen Kaffee. Oder zwei."
+    },
+    {
+     "q": "O Tomás mostra vídeos de futebol.",
+     "a": "Falsch – vídeos de surf!"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Ich mag Käse. → ___",
+     "a": "Gosto de queijo."
+    },
+    {
+     "q": "Magst du den Kuchen? → ___",
+     "a": "Gostas do bolo?"
+    },
+    {
+     "q": "Das Frühstück ist köstlich. → ___",
+     "a": "O pequeno-almoço é delicioso."
+    },
+    {
+     "q": "Ich mag die Strände von Porto. → ___",
+     "a": "Gosto das praias do Porto."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Deine Speisekarte",
+   "html": "Sag laut, was du magst und was nicht – fünf Sätze mit <i>Gosto de… / Gosto muito de… / Não gosto de… / Adoro…</i> Und einmal ganz konkret mit Verschmelzung: <i>Gosto do/da…</i> über dein Lieblingsessen.<br><br>Dann: aufnehmen, anhören, vergleichen."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Os vídeos do Vasco",
+   "audio": "s11",
+   "text": "Segunda-feira de manhã. O último dia no Porto. A avó faz um pequeno-almoço grande: pão, queijo, fruta e bolo. — Comam, comam! — diz a avó.<br>O Tomás mostra o telemóvel: vídeos de surf, ondas grandes, um professor com uma prancha branca.<br>— Este professor é famoso! — diz o Tomás. — Os vídeos dele são muito fixes!<br>O João olha… e abre os olhos: — Não acredito. É o Vasco! O meu amigo Vasco, de Sagres!<br>— O TEU amigo?! — O Tomás está muito feliz. — O teu amigo é o professor dos vídeos?!<br>A Marie pergunta: — O Vasco da mensagem de voz? O professor de surf?<br>— Sim! — diz o João. — E ele diz que as ondas estão perfeitas…<br>A Ana faz um sorriso: — Então… quando é que vamos a Sagres?",
+   "gloss": "Neu erschließen: o último dia = der letzte Tag · Comam! = Esst! (Aufforderung) · mostrar = zeigen · famoso = berühmt · dele = von ihm · Não acredito! = Ich glaub's nicht! · o sorriso = das Lächeln · vamos = wir fahren/gehen (Vorgriff auf ir!). Das Rätsel ist gelöst: Tomás kennt Vasco aus dem Internet – Vascos Surf-Videos sind berühmt!",
+   "questions": [
+    {
+     "q": "O professor dos vídeos é o Vasco.",
+     "a": "Richtig – João traut seinen Augen nicht!"
+    },
+    {
+     "q": "O Tomás conhece o Vasco pessoalmente (persönlich).",
+     "a": "Falsch – nur aus den Videos."
+    },
+    {
+     "q": "A Ana pergunta: Quando é que vamos a Sagres?",
+     "a": "Richtig – der Trip rückt näher…"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Sitzt <b>gostar de</b> mit do/da/dos/das? Das brauchst du ab jetzt täglich. Morgen wird es praktisch: <b>Im Café bestellen</b> – Queria um galão e um pastel de nata, por favor! Und Sagres… Sagres ruft immer lauter."
+  }
+ ]
+}
