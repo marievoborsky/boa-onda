@@ -332,10 +332,10 @@
   <div class="session" id="kurs">
     <div class="ltitle" style="display:flex; align-items:center; gap:.5rem">Kurs
       <span class="mono" style="font-size:.6rem; font-weight:400; letter-spacing:.1em; background:var(--sea-pale); color:#0b6c5f; border-radius:999px; padding:.25rem .6rem">NIVEAU A1</span></div>
-    <div class="lsub" style="margin: .2rem 0 1rem .2rem">Staffel 1 · Woche 1 · Ich und du</div>
+    <div class="lsub" style="margin: .2rem 0 1rem .2rem">Staffel 1 · A viagem até Sagres</div>
     <div class="lsec" id="kurs-map" style="padding:.9rem .6rem .5rem; transform:rotate(-.3deg)"></div>
     <div id="lessons"></div>
-    <div class="kurs-head" style="opacity:.7">Woche 2 · Meine Welt · ab Tag 9</div>
+    <div class="kurs-head" id="kurs-naechste" style="opacity:.7"></div>
   </div>
 
   <!-- ========== TEXTOS ========== -->
@@ -600,15 +600,17 @@ function goTab(id) {
 }
 
 /* ---------- Lektionen ---------- */
+const WOCHEN = ['Woche 1 · Ich und du', 'Woche 2 · Meine Welt', 'Woche 3 · Mein Alltag', 'Woche 4 · Unterwegs'];
 const LESSONS = [
-  { id: 'tag01', label: 'Tag 1 · Olá!', sub: 'Begrüßen & sich vorstellen' },
-  { id: 'tag02', label: 'Tag 2 · De onde és?', sub: 'Herkunft & Nationalitäten' },
-  { id: 'tag03', label: 'Tag 3 · Tudo bem?', sub: 'Befinden · ser vs. estar' },
-  { id: 'tag04', label: 'Tag 4 · Quantos anos tens?', sub: 'Zahlen 0–20 · ter · Alter' },
-  { id: 'tag05', label: 'Tag 5 · Perguntas', sub: 'Fragewörter · das „é que"' },
-  { id: 'tag06', label: 'Tag 6 · Trabalho e línguas', sub: 'Beruf & das -ar-Muster' },
-  { id: 'tag07', label: 'Tag 7 · Revisão', sub: 'Wochentest · 44 Punkte' },
-  { id: 'tag08', label: 'Tag 8 · Sagres!', sub: 'Surf-Spezial · Bonus' },
+  { id: 'tag01', label: 'Tag 1 · Olá!', sub: 'Begrüßen & sich vorstellen', w: 0 },
+  { id: 'tag02', label: 'Tag 2 · De onde és?', sub: 'Herkunft & Nationalitäten', w: 0 },
+  { id: 'tag03', label: 'Tag 3 · Tudo bem?', sub: 'Befinden · ser vs. estar', w: 0 },
+  { id: 'tag04', label: 'Tag 4 · Quantos anos tens?', sub: 'Zahlen 0–20 · ter · Alter', w: 0 },
+  { id: 'tag05', label: 'Tag 5 · Perguntas', sub: 'Fragewörter · das „é que"', w: 0 },
+  { id: 'tag06', label: 'Tag 6 · Trabalho e línguas', sub: 'Beruf & das -ar-Muster', w: 0 },
+  { id: 'tag07', label: 'Tag 7 · Revisão', sub: 'Wochentest · 44 Punkte', w: 0 },
+  { id: 'tag08', label: 'Tag 8 · Sagres!', sub: 'Surf-Spezial · Bonus', w: 0 },
+  { id: 'tag09', label: 'Tag 9 · A família', sub: 'Familie & Possessive', w: 1 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -637,7 +639,12 @@ function renderKursMap() {
   const weg = svg.querySelector('#km-weg');
   const fort = svg.querySelector('#km-fortschritt');
   const L = weg.getTotalLength();
-  const doneFrac = done === 0 ? 0 : ETAPPEN[0].frac + (0.34 - ETAPPEN[0].frac) * Math.min(done, 7) / 7;
+  const SEG = [[0.05, 0.34], [0.40, 0.66], [0.71, 0.85], [0.875, 0.955]];
+  const wocheOffen = w => LESSONS.some(l => l.w === w);
+  const wocheDone = w => Math.min(LESSONS.filter(l => l.w === w && store.lessons[l.id]).length, 7);
+  const dayFrac = (w, k) => SEG[w][0] + (SEG[w][1] - SEG[w][0]) * k / 7;
+  let doneFrac = 0;
+  for (let w = 0; w < 4; w++) if (wocheDone(w) > 0) doneFrac = dayFrac(w, wocheDone(w));
   fort.style.strokeDasharray = (doneFrac * L) + ' ' + L;
   const g = svg.querySelector('#km-marker');
   const NS = 'http://www.w3.org/2000/svg';
@@ -647,18 +654,20 @@ function renderKursMap() {
     g.appendChild(e);
     return e;
   }
-  // Tages-Punkte der offenen Woche 1
-  for (let i = 0; i < 7; i++) {
-    const f = ETAPPEN[0].frac + (0.34 - ETAPPEN[0].frac) * (i + 1) / 7;
-    const p = weg.getPointAtLength(f * L);
-    el('circle', { cx: p.x, cy: p.y, r: 4.5,
-      fill: i < done ? 'var(--clay)' : '#fffdf6',
-      stroke: i < done ? '#fffdf6' : '#b3a88e', 'stroke-width': 1.6 });
+  // Tages-Punkte aller offenen Wochen
+  for (let w = 0; w < 4; w++) {
+    if (!wocheOffen(w)) continue;
+    for (let i = 0; i < 7; i++) {
+      const p = weg.getPointAtLength(dayFrac(w, i + 1) * L);
+      el('circle', { cx: p.x, cy: p.y, r: 4.5,
+        fill: i < wocheDone(w) ? 'var(--clay)' : '#fffdf6',
+        stroke: i < wocheDone(w) ? '#fffdf6' : '#b3a88e', 'stroke-width': 1.6 });
+    }
   }
   // Etappen-Stationen
   ETAPPEN.forEach((e2, i) => {
     const p = weg.getPointAtLength(e2.frac * L);
-    const erreicht = i === 0;
+    const erreicht = wocheOffen(i);
     el('circle', { cx: p.x, cy: p.y, r: 13,
       fill: '#fffdf6', stroke: erreicht ? 'var(--clay)' : '#b3a88e', 'stroke-width': 2,
       opacity: .95 });
@@ -721,7 +730,18 @@ function renderLessons() {
   const el = document.getElementById('lessons');
   el.innerHTML = '';
   const next = LESSONS.find(l => !store.lessons[l.id]);
+  let letzteWoche = -1;
+  const maxW = Math.max(...LESSONS.map(l => l.w));
+  document.getElementById('kurs-naechste').textContent =
+    maxW < 3 ? WOCHEN[maxW + 1] + ' · em breve' : '';
   LESSONS.forEach((l, i) => {
+    if (l.w !== letzteWoche) {
+      letzteWoche = l.w;
+      const h = document.createElement('div');
+      h.className = 'kurs-head';
+      h.textContent = WOCHEN[l.w];
+      el.appendChild(h);
+    }
     const isDone = !!store.lessons[l.id];
     let right = '';
     if (isDone) right = `<div style="width:26px; height:26px; border-radius:50%; background:var(--sea-pale); color:#0b6c5f; display:flex; align-items:center; justify-content:center; flex:none">${CHECK_SVG}</div>`;
@@ -813,6 +833,7 @@ const TEXTOS = [
   { tag: 'tag06', num: 6, title: 'A irmã do João', nivel: 3, story: true },
   { tag: 'tag07', num: 7, title: 'Domingo em Lisboa', nivel: 3, story: true },
   { tag: 'tag08', num: 8, title: 'O fim do mundo', nivel: 3, story: true },
+  { tag: 'tag09', num: 9, title: 'Bem-vindos ao Porto!', nivel: 3, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');

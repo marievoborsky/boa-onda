@@ -1,0 +1,320 @@
+{
+ "id": "tag09",
+ "title": "A família",
+ "subtitle": "Woche 2 · Tag 9 · Familie & Possessive · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 8)",
+   "items": [
+    {
+     "q": "Du willst höflich einen Kaffee bestellen: ___",
+     "a": "Queria um café, por favor."
+    },
+    {
+     "q": "Was kostet die Surfstunde? → ___",
+     "a": "Quanto custa a aula de surf?"
+    },
+    {
+     "q": "A água é / está fria hoje.",
+     "a": "está (Zustand heute)"
+    },
+    {
+     "q": "Eu ___ uma prancha. (mieten)",
+     "a": "alugo"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: A família (12)",
+   "items": [
+    {
+     "pt": "a família",
+     "de": "Familie",
+     "ipa": "[fɐˈmiliɐ]",
+     "audio": "v0901"
+    },
+    {
+     "pt": "os pais",
+     "de": "die Eltern (Achtung: nicht „Väter“!)",
+     "ipa": "[pajʃ]",
+     "audio": "v0902"
+    },
+    {
+     "pt": "o pai",
+     "de": "Vater",
+     "ipa": "[paj]",
+     "audio": "v0903"
+    },
+    {
+     "pt": "a mãe",
+     "de": "Mutter",
+     "ipa": "[mɐ̃j̃]",
+     "audio": "v0904"
+    },
+    {
+     "pt": "o irmão / a irmã",
+     "de": "Bruder / Schwester",
+     "ipa": "[iɾˈmɐ̃w̃] / [iɾˈmɐ̃]",
+     "audio": "v0905"
+    },
+    {
+     "pt": "o avô",
+     "de": "Großvater (geschlossenes ô!)",
+     "ipa": "[ɐˈvo]",
+     "audio": "v0906"
+    },
+    {
+     "pt": "a avó",
+     "de": "Großmutter (offenes ó!)",
+     "ipa": "[ɐˈvɔ]",
+     "audio": "v0907"
+    },
+    {
+     "pt": "o tio / a tia",
+     "de": "Onkel / Tante",
+     "ipa": "[ˈtiu] / [ˈtiɐ]",
+     "audio": "v0908"
+    },
+    {
+     "pt": "o primo / a prima",
+     "de": "Cousin / Cousine",
+     "ipa": "[ˈpɾimu] / [ˈpɾimɐ]",
+     "audio": "v0909"
+    },
+    {
+     "pt": "o filho / a filha",
+     "de": "Sohn / Tochter",
+     "ipa": "[ˈfiʎu] / [ˈfiʎɐ]",
+     "audio": "v0910"
+    },
+    {
+     "pt": "a foto",
+     "de": "Foto",
+     "ipa": "[ˈfɔtu]",
+     "audio": "v0911"
+    },
+    {
+     "pt": "fixe",
+     "de": "cool (typisch EP!)",
+     "ipa": "[ˈfiʃ(ɨ)]",
+     "audio": "v0912"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: meu, minha – die Possessive",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Heute zeigst du, was DEINS ist:<br><br><b>o meu / a minha</b> – mein(e): <i>o meu pai, a minha mãe</i><br><b>o teu / a tua</b> – dein(e): <i>o teu irmão, a tua família</i><br><b>o seu / a sua</b> – sein(e)/ihr(e): <i>a sua avó</i><br>Plural: <b>os meus / as minhas</b> – <i>os meus pais, as minhas primas</i><br><br><b>Die goldene EP-Regel:</b> Vor dem Possessiv steht IMMER der Artikel! <i><b>A</b> minha família</i>, nie nur „minha família“. Das Possessiv richtet sich nach der <b>Sache</b>, nicht nach dir: <i>o meu pai</i> sagt auch Marie.<br><br><b>Plural der Nomen:</b> einfach <b>-s</b> (<i>a prima → as primas</i>); bei <b>-ão</b> meist <b>-ãos</b>: <i>o irmão → os irmãos</i>. Und merke: <i>o pai + a mãe = <b>os pais</b></i> (die Eltern!). Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Ein Strich entscheidet über Oma oder Opa: <b>avô</b> [ɐˈvo] mit geschlossenem o ist der <b>Großvater</b>, <b>avó</b> [ɐˈvɔ] mit offenem o (wie in „Sonne“) die <b>Großmutter</b>. Übe beide laut im Wechsel – ô, ó, ô, ó. Und ab heute darfst du <b>fixe</b> sagen [„fisch(ö)“] – DAS Alltagswort für „cool“, das dich sofort portugiesischer klingen lässt. In Brasilien versteht es keiner – umso besser fürs EP!"
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Bem-vindos ao Porto!",
+   "hint": "Selbst erschlossen: bem-vindos = willkommen · a viagem = die Reise · jovem = jung · Olha! = Schau! · Quem é? = Wer ist das? (quem kennst du von Tag 5).",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Bem-vindos ao Porto! A minha cidade — no Porto é melhor!",
+     "audio": "d0901"
+    },
+    {
+     "who": "João",
+     "pt": "Estou cansado… a viagem é longa.",
+     "audio": "d0902"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ana, a tua família mora aqui?",
+     "audio": "d0903"
+    },
+    {
+     "who": "Ana",
+     "pt": "Sim! Os meus pais, a minha avó e os meus primos.",
+     "audio": "d0904"
+    },
+    {
+     "who": "Marie",
+     "pt": "A tua família é grande! Tens irmãos?",
+     "audio": "d0905"
+    },
+    {
+     "who": "Ana",
+     "pt": "Tenho um irmão, o Tomás. Ele tem doze anos.",
+     "audio": "d0906"
+    },
+    {
+     "who": "Marie",
+     "pt": "Olha, uma foto! Quem é?",
+     "audio": "d0907"
+    },
+    {
+     "who": "Ana",
+     "pt": "É o meu avô com a minha avó. E este é o meu pai.",
+     "audio": "d0908"
+    },
+    {
+     "who": "Marie",
+     "pt": "O teu pai é muito jovem!",
+     "audio": "d0909"
+    },
+    {
+     "who": "Ana",
+     "pt": "Obrigada! A minha mãe diz: no Porto somos todos jovens!",
+     "audio": "d0910"
+    },
+    {
+     "who": "João",
+     "pt": "A tua família é fixe, Ana. E agora… um café?",
+     "audio": "d0911"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Setze das Possessiv ein (mit Artikel!)",
+   "items": [
+    {
+     "q": "___ ___ mãe é do Porto. (meine)",
+     "a": "A minha"
+    },
+    {
+     "q": "___ ___ pai fala alemão? (dein)",
+     "a": "O teu"
+    },
+    {
+     "q": "___ ___ pais moram em Lisboa. (meine)",
+     "a": "Os meus"
+    },
+    {
+     "q": "___ ___ irmã é médica. (seine/ihre)",
+     "a": "A sua"
+    },
+    {
+     "q": "___ ___ primas são do Porto. (deine)",
+     "a": "As tuas"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Bilde den Plural",
+   "items": [
+    {
+     "q": "a tia → as ___",
+     "a": "tias"
+    },
+    {
+     "q": "o primo → os ___",
+     "a": "primos"
+    },
+    {
+     "q": "o irmão → os ___",
+     "a": "irmãos"
+    },
+    {
+     "q": "o pai + a mãe = os ___",
+     "a": "pais"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Familien-Logik: Wer ist das?",
+   "items": [
+    {
+     "q": "O pai do meu pai é o meu ___",
+     "a": "avô"
+    },
+    {
+     "q": "A filha da minha tia é a minha ___",
+     "a": "prima"
+    },
+    {
+     "q": "A mãe da minha mãe é a minha ___",
+     "a": "avó"
+    },
+    {
+     "q": "O filho dos meus pais (nicht ich!) é o meu ___",
+     "a": "irmão"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A família da Ana mora no Porto.",
+     "a": "Richtig."
+    },
+    {
+     "q": "A Ana tem uma irmã.",
+     "a": "Falsch – einen Bruder, den Tomás."
+    },
+    {
+     "q": "O avô da Ana está na foto.",
+     "a": "Richtig – mit der Großmutter."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Meine Familie ist groß. → ___",
+     "a": "A minha família é grande."
+    },
+    {
+     "q": "Dein Bruder ist cool! → ___",
+     "a": "O teu irmão é fixe!"
+    },
+    {
+     "q": "Meine Großmutter wohnt in Porto. → ___",
+     "a": "A minha avó mora no Porto."
+    },
+    {
+     "q": "Sind das deine Eltern? → ___",
+     "a": "São os teus pais?"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Deine Familie",
+   "html": "Stell deine Familie vor – vier Sätze, laut: <i>A minha família é… · O meu pai é de… · A minha mãe tem… anos · O meu irmão / A minha irmã é…</i> Keine Geschwister? Dann Oma, Onkel oder dein Haustier – <i>o meu cão</i> zählt auch. 😉<br><br>Danach: Nimm dich auf und vergleiche."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Bem-vindos ao Porto!",
+   "audio": "s09",
+   "text": "Sábado. A Marie, a Ana e o João estão no Porto — a cidade da Ana. A família da Ana mora numa casa grande: os pais, a avó e o irmão, o Tomás.<br>— Bem-vindos! — diz a mãe da Ana.<br>A avó fala muito… e muito rápido! A Marie não compreende tudo, mas a avó é muito querida.<br>— A tua avó fala rápido! — diz a Marie.<br>— Eu sei! — diz a Ana. — Mas tu compreendes mais e mais. O teu português está fixe!<br>O Tomás tem uma prancha pequena. O João diz: — O teu irmão surfa? Fixe!<br>À noite, o telemóvel da Marie faz „pling“. Uma mensagem de voz… do Vasco: „Olá! Aqui em Sagres… as ondas estão perfeitas…“",
+   "gloss": "Neu erschließen: numa = em + uma · querida = lieb, herzlich · rápido = schnell · o telemóvel = das Handy (EP! In Brasilien: celular) · uma mensagem de voz = eine Sprachnachricht.",
+   "questions": [
+    {
+     "q": "A família da Ana mora numa casa pequena.",
+     "a": "Falsch – numa casa grande."
+    },
+    {
+     "q": "A avó fala muito rápido.",
+     "a": "Richtig – Ohrentraining!"
+    },
+    {
+     "q": "A mensagem de voz é do João.",
+     "a": "Falsch – vom Vasco, aus Sagres…"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Sitzt „Artikel + Possessiv“ (a minha, o teu)? Dann bist du bereit für Tag 10: Personen beschreiben – wie sehen sie alle aus, die Familie der Ana? Und… was will Vasco mit den perfekten Wellen sagen?"
+  }
+ ]
+}
