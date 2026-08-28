@@ -732,14 +732,20 @@ function renderLessons() {
   const next = LESSONS.find(l => !store.lessons[l.id]);
   let letzteWoche = -1;
   const maxW = Math.max(...LESSONS.map(l => l.w));
-  document.getElementById('kurs-naechste').textContent =
-    maxW < 3 ? WOCHEN[maxW + 1] + ' · em breve' : '';
+  const kn = document.getElementById('kurs-naechste');
+  if (maxW < 3) {
+    kn.style.cssText = 'display:flex; align-items:center; gap:.55rem; opacity:.55';
+    kn.innerHTML = `<img src="etappen/${['porto','lisboa','milfontes','sagres'][maxW + 1]}.png" alt=""
+      style="width:38px; height:38px; border-radius:11px; object-fit:cover; filter:grayscale(.4)">${WOCHEN[maxW + 1]} · em breve`;
+  } else kn.textContent = '';
   LESSONS.forEach((l, i) => {
     if (l.w !== letzteWoche) {
       letzteWoche = l.w;
       const h = document.createElement('div');
       h.className = 'kurs-head';
-      h.textContent = WOCHEN[l.w];
+      h.style.cssText = 'display:flex; align-items:center; gap:.55rem';
+      h.innerHTML = `<img src="etappen/${['porto','lisboa','milfontes','sagres'][l.w]}.png" alt=""
+        style="width:38px; height:38px; border-radius:11px; object-fit:cover; box-shadow:0 2px 8px rgba(51,41,74,.15)">${WOCHEN[l.w]}`;
       el.appendChild(h);
     }
     const isDone = !!store.lessons[l.id];
