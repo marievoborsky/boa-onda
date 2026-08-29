@@ -1,0 +1,320 @@
+{
+ "id": "tag13",
+ "title": "Quanto custa?",
+ "subtitle": "Woche 2 · Tag 13 · Zahlen 20–100 & Preise · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 12)",
+   "items": [
+    {
+     "q": "Bestell einen Espresso (EP-Wort!): ___",
+     "a": "Queria uma bica, se faz favor."
+    },
+    {
+     "q": "Die Rechnung, bitte: ___",
+     "a": "A conta, se faz favor!"
+    },
+    {
+     "q": "„Kommt sofort!“: ___",
+     "a": "É para já!"
+    },
+    {
+     "q": "20 = ___ (von Tag 4!)",
+     "a": "vinte"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Números e preços (12)",
+   "items": [
+    {
+     "pt": "trinta",
+     "de": "dreißig",
+     "ipa": "[ˈtɾĩtɐ]",
+     "audio": "v1301"
+    },
+    {
+     "pt": "quarenta",
+     "de": "vierzig",
+     "ipa": "[kwɐˈɾẽtɐ]",
+     "audio": "v1302"
+    },
+    {
+     "pt": "cinquenta",
+     "de": "fünfzig",
+     "ipa": "[sĩˈkwẽtɐ]",
+     "audio": "v1303"
+    },
+    {
+     "pt": "sessenta",
+     "de": "sechzig",
+     "ipa": "[sɨˈsẽtɐ]",
+     "audio": "v1304"
+    },
+    {
+     "pt": "setenta",
+     "de": "siebzig",
+     "ipa": "[sɨˈtẽtɐ]",
+     "audio": "v1305"
+    },
+    {
+     "pt": "oitenta",
+     "de": "achtzig",
+     "ipa": "[ojˈtẽtɐ]",
+     "audio": "v1306"
+    },
+    {
+     "pt": "noventa",
+     "de": "neunzig",
+     "ipa": "[nuˈvẽtɐ]",
+     "audio": "v1307"
+    },
+    {
+     "pt": "cem",
+     "de": "hundert",
+     "ipa": "[sɐ̃j̃]",
+     "audio": "v1308"
+    },
+    {
+     "pt": "o cêntimo",
+     "de": "Cent",
+     "ipa": "[ˈsẽtimu]",
+     "audio": "v1309"
+    },
+    {
+     "pt": "custar",
+     "de": "kosten (-ar-Verb)",
+     "ipa": "[kuʃˈtaɾ]",
+     "audio": "v1310"
+    },
+    {
+     "pt": "caro / cara",
+     "de": "teuer",
+     "ipa": "[ˈkaɾu] / [ˈkaɾɐ]",
+     "audio": "v1311"
+    },
+    {
+     "pt": "barato / barata",
+     "de": "billig, günstig",
+     "ipa": "[bɐˈɾatu] / [bɐˈɾatɐ]",
+     "audio": "v1312"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Der Zahlen-Baukasten 20–100",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Die Zehner kennst du jetzt – der Rest ist reines Lego mit <b>e</b> („und“):<br><br><b>Zehner + e + Einer:</b> vinte <b>e</b> um (21) · trinta <b>e</b> cinco (35) · noventa <b>e</b> nove (99)<br><b>cem</b> = genau 100 · ab 101: <b>cento e</b> um, cento e catorze…<br><br><b>Preise:</b> <i>Quanto custa?</i> (eine Sache) · <i>Quanto custa<b>m</b>?</i> (mehrere – as laranjas!). Antwort: <i>São três euros e cinquenta.</i><br><br>Und die Schwester von do/da: <b>em + o = no, em + a = na</b> – <i>no mercado, na praia, no verão</i>. Kennst du längst aus <i>no Porto</i> – jetzt ist es offiziell! Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Preise verstehst du schneller, wenn du weißt, was wegfällt: <b>„Um euro e cinquenta“</b> heißt eigentlich „…cinquenta <i>cêntimos</i>“ – das Wort cêntimos lassen alle weg. Und an der Kasse hörst du oft nur <b>„São três e vinte“</b> – Euro UND cêntimos gespart. 😄 Noch ein Klassiker: <b>dois/duas</b> gilt auch bei Preisen und Mengen – <i>dois euros</i>, aber <i>duas laranjas</i>. Wer das richtig macht, klingt sofort eingelebt."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: No mercado",
+   "hint": "Selbst erschlossen: comprar = kaufen · tudo = alles · a viagem = die Reise (von Tag 9!) · a laranja = die Orange · o quilo = das Kilo · o autocarro = der Bus (EP! Brasilien: ônibus) · ida e volta = hin und zurück · o verão = der Sommer. Der Mercado da Ribeira in Lissabon ist echt – und großartig.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Mercado da Ribeira! Aqui compramos tudo para a viagem.",
+     "audio": "d1301"
+    },
+    {
+     "who": "Marie",
+     "pt": "Quanto custa a fruta? … Desculpe, quanto custam as laranjas?",
+     "audio": "d1302"
+    },
+    {
+     "who": "Empregada",
+     "pt": "Um euro e cinquenta o quilo. São muito boas!",
+     "audio": "d1303"
+    },
+    {
+     "who": "Marie",
+     "pt": "Então queria dois quilos, se faz favor.",
+     "audio": "d1304"
+    },
+    {
+     "who": "Empregada",
+     "pt": "Três euros, se faz favor.",
+     "audio": "d1305"
+    },
+    {
+     "who": "João",
+     "pt": "E o protetor solar? Quanto custa?",
+     "audio": "d1306"
+    },
+    {
+     "who": "Ana",
+     "pt": "Doze euros e noventa. É caro!",
+     "audio": "d1307"
+    },
+    {
+     "who": "João",
+     "pt": "No verão o sol é grátis… o protetor não.",
+     "audio": "d1308"
+    },
+    {
+     "who": "Marie",
+     "pt": "E o autocarro para Sagres? Quanto custa?",
+     "audio": "d1309"
+    },
+    {
+     "who": "Ana",
+     "pt": "Vinte e dois euros. Ida e volta: quarenta e quatro.",
+     "audio": "d1310"
+    },
+    {
+     "who": "João",
+     "pt": "Barato! Sagres, aqui vamos nós!",
+     "audio": "d1311"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Schreib die Zahl als Wort",
+   "items": [
+    {
+     "q": "31 = ___",
+     "a": "trinta e um"
+    },
+    {
+     "q": "44 = ___",
+     "a": "quarenta e quatro"
+    },
+    {
+     "q": "67 = ___",
+     "a": "sessenta e sete"
+    },
+    {
+     "q": "89 = ___",
+     "a": "oitenta e nove"
+    },
+    {
+     "q": "100 = ___",
+     "a": "cem"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · custa oder custam?",
+   "items": [
+    {
+     "q": "Quanto ___ o galão?",
+     "a": "custa"
+    },
+    {
+     "q": "Quanto ___ as laranjas?",
+     "a": "custam"
+    },
+    {
+     "q": "Quanto ___ os pastéis de nata?",
+     "a": "custam"
+    },
+    {
+     "q": "Quanto ___ a aula de surf?",
+     "a": "custa"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · no oder na? (em + o/a)",
+   "items": [
+    {
+     "q": "___ mercado (o mercado)",
+     "a": "no"
+    },
+    {
+     "q": "___ praia (a praia)",
+     "a": "na"
+    },
+    {
+     "q": "___ café (o café)",
+     "a": "no"
+    },
+    {
+     "q": "___ estação (a estação)",
+     "a": "na"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "As laranjas custam um euro e cinquenta o quilo.",
+     "a": "Richtig."
+    },
+    {
+     "q": "O protetor solar é barato.",
+     "a": "Falsch – doze euros e noventa, é caro!"
+    },
+    {
+     "q": "O autocarro para Sagres custa quarenta euros ida e volta.",
+     "a": "Falsch – quarenta e quatro (2 × 22)."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Wie viel kostet das? → ___",
+     "a": "Quanto custa?"
+    },
+    {
+     "q": "Das macht fünf Euro fünfzig. → ___",
+     "a": "São cinco euros e cinquenta."
+    },
+    {
+     "q": "Das ist teuer! → ___",
+     "a": "É caro!"
+    },
+    {
+     "q": "Zwei Kilo Orangen, bitte. → ___",
+     "a": "Dois quilos de laranjas, se faz favor."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Kopfrechnen auf Portugiesisch",
+   "html": "Sag laut auf Portugiesisch: dein Alter + 20 · deine Hausnummer · den Preis deines letzten Einkaufs · und zähle in Zehnern von 20 bis 100 (<i>vinte, trinta, quarenta…</i>).<br><br>Profi-Übung: Beim nächsten echten Einkauf im Kopf jeden Preis auf Portugiesisch mitsprechen."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A conta de Sagres",
+   "audio": "s13",
+   "text": "À noite, na casa da Marie. Na mesa: papel, uma calculadora e três cafés.<br>— Então — diz a Ana. — O autocarro: quarenta e quatro euros por pessoa. O hostel em Sagres: vinte e cinco euros por noite. Duas noites: cinquenta.<br>— A primeira aula é grátis — diz o João. — E a segunda custa vinte euros, com prancha e fato.<br>A Marie conta: — Quarenta e quatro… mais cinquenta… mais vinte… São cento e catorze euros.<br>— Mais os pastéis de nata — diz o João. — Importante.<br>O telemóvel da Ana toca. É o Tomás, do Porto: — Ana! A mãe diz que eu posso ir a Sagres… se vocês dizem que sim. POSSO IR? Por favor, por favor, POR FAVOR!<br>A Ana olha para a Marie. A Marie olha para o João. O João faz um sorriso:<br>— O fã número um do Vasco? Claro que sim.",
+   "gloss": "Neu erschließen: a calculadora = der Taschenrechner · por pessoa / por noite = pro Person / pro Nacht · o hostel = das Hostel · contar = zählen/rechnen · tocar = klingeln · o fã = der Fan · Claro que sim! = Na klar!",
+   "questions": [
+    {
+     "q": "O hostel custa vinte e cinco euros por noite.",
+     "a": "Richtig – duas noites: cinquenta."
+    },
+    {
+     "q": "A segunda aula de surf é grátis.",
+     "a": "Falsch – die erste! Die zweite kostet zwanzig Euro."
+    },
+    {
+     "q": "O Tomás pode ir a Sagres.",
+     "a": "Richtig – „O fã número um do Vasco? Claro que sim.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kannst du 44, 67 und 99 ohne Zögern? Und weißt du, wann <i>custam</i>? Dann bist du markt-ready. Morgen: <b>Wochentage & Uhrzeit</b> – denn für Sagres braucht es einen Termin. Und Vasco… hat da eine Bedingung."
+  }
+ ]
+}
