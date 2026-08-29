@@ -374,6 +374,7 @@
     <div class="ltitle">Mais</div>
     <div class="lsub" style="margin: .2rem 0 1rem .2rem">Nachschlagen, üben, ausdrucken</div>
     <div id="mais-list"></div>
+    <a href="datenschutz.html" class="mono" style="display:block; text-align:center; margin-top:1.6rem; font-size:.62rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); text-decoration:none">Datenschutz</a>
   </div>
 
   <!-- ========== DESCOBRIR (Landeskunde) ========== -->
@@ -615,6 +616,9 @@ const LESSONS = [
   { id: 'tag10', label: 'Tag 10 · Como é ele?', sub: 'Personen beschreiben · Adjektive', w: 1 },
   { id: 'tag11', label: 'Tag 11 · Gosto disto!', sub: 'Essen & Trinken · gostar de', w: 1 },
   { id: 'tag12', label: 'Tag 12 · No café', sub: 'Bestellen · se faz favor', w: 1 },
+  { id: 'tag13', label: 'Tag 13 · Quanto custa?', sub: 'Zahlen 20–100 · Preise', w: 1 },
+  { id: 'tag14', label: 'Tag 14 · Os dias e as horas', sub: 'Wochentage · Que horas são?', w: 1 },
+  { id: 'tag15', label: 'Tag 15 · Revisão II', sub: 'Wochentest · 42 Punkte', w: 1 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -626,8 +630,8 @@ const ETAPPEN = [
 function renderKursMap() {
   const box = document.getElementById('kurs-map');
   const W = 320, H = 440;
-  const done = LESSONS.filter(l => store.lessons[l.id]).length;
-  const total = 28;
+  const done = LESSONS.filter(l => l.id !== 'tag08' && store.lessons[l.id]).length;
+  const total = 28; // Tag 8 (Sagres-Bonus) steht außerhalb des 28-Tage-Bogens
   const ROTA = 'M 118 16 C 112 60, 120 100, 124 140 C 130 175, 160 175, 158 205 C 155 235, 130 245, 126 285 C 122 320, 130 350, 148 392';
   box.innerHTML = `
     <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 .3rem .5rem">A viagem da Marie · Staffel 1 · A1 · ${done} von ${total} Tagen</div>
@@ -847,6 +851,9 @@ const TEXTOS = [
   { tag: 'tag10', num: 10, title: 'O almoço', nivel: 3, story: true },
   { tag: 'tag11', num: 11, title: 'Os vídeos do Vasco', nivel: 3, story: true },
   { tag: 'tag12', num: 12, title: 'A primeira aula é grátis', nivel: 3, story: true },
+  { tag: 'tag13', num: 13, title: 'A conta de Sagres', nivel: 3, story: true },
+  { tag: 'tag14', num: 14, title: 'Boa onda não tem pressa', nivel: 3, story: true },
+  { tag: 'tag15', num: 15, title: 'A pergunta do Vasco', nivel: 3, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');

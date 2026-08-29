@@ -1,0 +1,324 @@
+{
+ "id": "tag14",
+ "title": "Os dias e as horas",
+ "subtitle": "Woche 2 · Tag 14 · Wochentage & Uhrzeit · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 13)",
+   "items": [
+    {
+     "q": "67 = ___",
+     "a": "sessenta e sete"
+    },
+    {
+     "q": "Quanto ___ os pastéis de nata?",
+     "a": "custam"
+    },
+    {
+     "q": "em + o = ___ (… mercado)",
+     "a": "no"
+    },
+    {
+     "q": "„Das macht drei Euro fünfzig“: ___",
+     "a": "São três euros e cinquenta."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: A semana e as horas (12)",
+   "items": [
+    {
+     "pt": "segunda-feira",
+     "de": "Montag",
+     "ipa": "[sɨˈɡũdɐ ˈfɐjɾɐ]",
+     "audio": "v1401"
+    },
+    {
+     "pt": "terça-feira",
+     "de": "Dienstag",
+     "ipa": "[ˈteɾsɐ ˈfɐjɾɐ]",
+     "audio": "v1402"
+    },
+    {
+     "pt": "quarta-feira",
+     "de": "Mittwoch",
+     "ipa": "[ˈkwaɾtɐ ˈfɐjɾɐ]",
+     "audio": "v1403"
+    },
+    {
+     "pt": "quinta-feira",
+     "de": "Donnerstag",
+     "ipa": "[ˈkĩtɐ ˈfɐjɾɐ]",
+     "audio": "v1404"
+    },
+    {
+     "pt": "sexta-feira",
+     "de": "Freitag",
+     "ipa": "[ˈsɐjʃtɐ ˈfɐjɾɐ]",
+     "audio": "v1405"
+    },
+    {
+     "pt": "o sábado",
+     "de": "Samstag",
+     "ipa": "[ˈsabɐdu]",
+     "audio": "v1406"
+    },
+    {
+     "pt": "o domingo",
+     "de": "Sonntag",
+     "ipa": "[duˈmĩɡu]",
+     "audio": "v1407"
+    },
+    {
+     "pt": "o fim de semana",
+     "de": "das Wochenende",
+     "ipa": "[fĩ dɨ sɨˈmɐnɐ]",
+     "audio": "v1408"
+    },
+    {
+     "pt": "a hora",
+     "de": "die Stunde, die Uhrzeit",
+     "ipa": "[ˈɔɾɐ]",
+     "audio": "v1409"
+    },
+    {
+     "pt": "Que horas são?",
+     "de": "Wie spät ist es?",
+     "ipa": "[kɨ ˈɔɾɐʃ ˈsɐ̃w̃]",
+     "audio": "v1410"
+    },
+    {
+     "pt": "o meio-dia",
+     "de": "der Mittag",
+     "ipa": "[ˈmɐju ˈdiɐ]",
+     "audio": "v1411"
+    },
+    {
+     "pt": "e meia",
+     "de": "halb (nach der vollen Stunde!)",
+     "ipa": "[i ˈmɐjɐ]",
+     "audio": "v1412"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Der Uhrzeit-Baukasten",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Uhrzeiten sind wie Wellen zählen – zwei Regeln, fertig:<br><br><b>São + Zahl:</b> São duas. · São sete horas. · São oito <b>e meia</b> (8:30) · São dez <b>e vinte</b> (10:20)<br><b>É + Einzahl:</b> <b>É</b> uma hora. · <b>É</b> meio-dia. · <b>É</b> meia-noite.<br><br><b>„Um wie viel Uhr?“ → às:</b> A aula é <b>às</b> nove. · <b>à</b> uma · <b>ao</b> meio-dia. (Das ist a + as = às – die Schwester von no/na!)<br><br><b>Und die Tage:</b> Die -feira-Tage sind weiblich → <b>na</b> segunda, <b>na</b> sexta. Sábado und domingo sind männlich → <b>no</b> sábado, <b>no</b> domingo. „Jeden Samstag“ = <b>aos</b> sábados. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Im echten Leben lässt fast jeder das <b>-feira</b> weg: <i>na segunda, na terça, na sexta</i> – nur sábado und domingo bleiben, wie sie sind. Und die berühmteste Uhrzeit-Falle Portugals: <b>12:30 = meio-dia e meia</b> (nicht „e meio“!) – denn gemeint ist <i>meia hora</i>, und hora ist weiblich. Wer das richtig sagt, erntet anerkennende Blicke."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A chamada",
+   "hint": "Selbst erschlossen: a chamada = der Anruf · ligar = anrufen · pronto/prontos = bereit · o principiante = der Anfänger · perigoso = gefährlich · esperar = warten · eu digo = ich sage (dizer). Lautsprecher an – Vasco ist dran!",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "João, que horas são?",
+     "audio": "d1401"
+    },
+    {
+     "who": "João",
+     "pt": "São seis e meia. Porquê?",
+     "audio": "d1402"
+    },
+    {
+     "who": "Marie",
+     "pt": "A chamada com o Vasco é às sete!",
+     "audio": "d1403"
+    },
+    {
+     "who": "Ana",
+     "pt": "São sete horas. Eu ligo… Olá, Vasco!",
+     "audio": "d1404"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Olá, olá! Então, prontos para Sagres?",
+     "audio": "d1405"
+    },
+    {
+     "who": "Marie",
+     "pt": "Sim! Vamos no sábado?",
+     "audio": "d1406"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Este fim de semana, não. As ondas estão muito grandes para principiantes.",
+     "audio": "d1407"
+    },
+    {
+     "who": "João",
+     "pt": "E no domingo?",
+     "audio": "d1408"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Também não. É perigoso. Esperamos.",
+     "audio": "d1409"
+    },
+    {
+     "who": "Ana",
+     "pt": "Então quando é que vamos?",
+     "audio": "d1410"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Calma! Eu digo quando. Boa onda!",
+     "audio": "d1411"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Die Woche",
+   "items": [
+    {
+     "q": "Montag = ___",
+     "a": "segunda-feira / segunda"
+    },
+    {
+     "q": "Freitag = ___",
+     "a": "sexta-feira / sexta"
+    },
+    {
+     "q": "Samstag = ___",
+     "a": "sábado / o sábado"
+    },
+    {
+     "q": "Sonntag = ___",
+     "a": "domingo / o domingo"
+    },
+    {
+     "q": "Wochenende = ___",
+     "a": "o fim de semana / fim de semana"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Wie spät? (São… / É…)",
+   "items": [
+    {
+     "q": "7:00 → ___",
+     "a": "São sete horas. / São sete."
+    },
+    {
+     "q": "1:00 → ___",
+     "a": "É uma hora. / É uma."
+    },
+    {
+     "q": "12:00 (mittags) → ___",
+     "a": "É meio-dia."
+    },
+    {
+     "q": "2:30 → ___",
+     "a": "São duas e meia."
+    },
+    {
+     "q": "12:30 → ___ (Liz-Falle!)",
+     "a": "É meio-dia e meia."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · na oder no?",
+   "items": [
+    {
+     "q": "___ segunda-feira",
+     "a": "na"
+    },
+    {
+     "q": "___ sábado",
+     "a": "no"
+    },
+    {
+     "q": "___ sexta-feira",
+     "a": "na"
+    },
+    {
+     "q": "___ domingo",
+     "a": "no"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A chamada com o Vasco é às sete.",
+     "a": "Richtig."
+    },
+    {
+     "q": "O grupo vai a Sagres no sábado.",
+     "a": "Falsch – dieses Wochenende nicht, die Wellen sind zu groß."
+    },
+    {
+     "q": "O Vasco diz quando vão.",
+     "a": "Richtig – „Eu digo quando.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Wie spät ist es? → ___",
+     "a": "Que horas são?"
+    },
+    {
+     "q": "Es ist halb drei. → ___",
+     "a": "São duas e meia."
+    },
+    {
+     "q": "Am Montag habe ich Unterricht. → ___",
+     "a": "Na segunda(-feira) tenho aulas. / Na segunda tenho aula."
+    },
+    {
+     "q": "Bis Samstag! → ___",
+     "a": "Até sábado!"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A tua semana",
+   "html": "Sag deine Woche laut, Tag für Tag: <i>Na segunda estudo português. Na terça trabalho. No sábado…</i><br><br>Dann Uhren-Training: Schau dreimal heute auf die Uhr und sag die Zeit laut auf Portugiesisch – <i>São quatro e vinte…</i> Und wenn dich jemand komisch anschaut: <i>É segredo.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Boa onda não tem pressa",
+   "audio": "s14",
+   "text": "Sexta-feira à noite. O telemóvel da Marie toca. É uma mensagem do Tomás, do Porto: «Olá! É amanhã? Vamos a Sagres amanhã?»<br>A Marie responde: «Não, Tomás. Este fim de semana não. As ondas estão muito grandes.»<br>«E no domingo?»<br>«Também não.»<br>«Ohhh…»<br>No sábado, a Marie está na praia de Carcavelos com a Ana. O mar está grande e o vento está forte.<br>— O Vasco tem razão — diz a Ana. — Isto não é para principiantes.<br>Agora, todos os dias, a Marie olha para a previsão do tempo: segunda… terça… quarta… Quando é que o mar está calmo?<br>— Calma, Marie — diz o João. — O Vasco conhece o mar. E boa onda não tem pressa.",
+   "gloss": "Neu erschließen: a mensagem = die Nachricht · responder = antworten · o vento = der Wind · forte = stark · ter razão = recht haben · a previsão do tempo = die Wettervorhersage · calmo = ruhig · ter pressa = es eilig haben",
+   "questions": [
+    {
+     "q": "A mensagem do Tomás é do Porto.",
+     "a": "Richtig."
+    },
+    {
+     "q": "No sábado, o mar está calmo.",
+     "a": "Falsch – groß, und der Wind ist stark."
+    },
+    {
+     "q": "A Marie olha para a previsão do tempo todos os dias.",
+     "a": "Richtig – das Wetter-Watching beginnt!"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kannst du <i>Que horas são?</i> beantworten – auch um 1:00 und 12:30? Und weißt du, warum es <b>na</b> sexta, aber <b>no</b> sábado heißt? Dann bist du terminfest. Morgen: <b>Revisão II</b> – der große Woche-2-Test. Danach wartet Woche 3… und Vascos Wetterbericht."
+  }
+ ]
+}

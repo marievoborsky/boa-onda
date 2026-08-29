@@ -1,0 +1,231 @@
+{
+ "id": "tag15",
+ "title": "Revisão II – Wochentest",
+ "subtitle": "Woche 2 · Tag 15 · Mini-Test · 42 Punkte · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen (laut oder im Heft!), dann aufdecken und Punkte zählen. Ohne Nachschauen – der Test zeigt dir, was vor Woche 3 noch wackelt. Notier dir deine Punktzahl pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Bestes Aufwärmen für diesen Test: der <b>Rollen-Trick</b>. Spiel den Café-Dialog von Tag 12 einmal laut durch – aber sprich BEIDE Rollen, Kellner und Gast, mit Stimmwechsel. Wer bestellen UND antworten kann, hat die Chunks wirklich im Ohr, nicht nur im Kopf."
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln: Wie heißt es auf Portugiesisch? (8 P.)",
+   "items": [
+    {
+     "q": "das Wochenende",
+     "a": "o fim de semana"
+    },
+    {
+     "q": "Frühstück (EP!)",
+     "a": "o pequeno-almoço"
+    },
+    {
+     "q": "Saft (EP!)",
+     "a": "o sumo"
+    },
+    {
+     "q": "die Rechnung",
+     "a": "a conta"
+    },
+    {
+     "q": "cool (das EP-Wort)",
+     "a": "fixe"
+    },
+    {
+     "q": "die Großmutter (offenes o!)",
+     "a": "a avó"
+    },
+    {
+     "q": "achtzig",
+     "a": "oitenta"
+    },
+    {
+     "q": "Espresso in Lissabon",
+     "a": "a bica"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · Possessive – mit Artikel! (6 P.)",
+   "items": [
+    {
+     "q": "___ ___ pai é simpático. (mein)",
+     "a": "O meu"
+    },
+    {
+     "q": "A ___ mãe fala rápido. (deine)",
+     "a": "tua"
+    },
+    {
+     "q": "A ___ irmã é médica. (seine – die von João)",
+     "a": "sua"
+    },
+    {
+     "q": "Os ___ pais moram no Porto. (ihre – die von Ana)",
+     "a": "seus"
+    },
+    {
+     "q": "As ___ primas são giras. (meine)",
+     "a": "minhas"
+    },
+    {
+     "q": "Und die goldene EP-Regel: ___ meu irmão (was fehlt vorne?)",
+     "a": "o"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Adjektive angleichen (6 P.)",
+   "items": [
+    {
+     "q": "O João é alto. A Ana é ___.",
+     "a": "alta"
+    },
+    {
+     "q": "O avô é velho. A avó é ___.",
+     "a": "velha"
+    },
+    {
+     "q": "O primo é giro. As primas são ___.",
+     "a": "giras"
+    },
+    {
+     "q": "Ele é jovem. Ela é ___.",
+     "a": "jovem"
+    },
+    {
+     "q": "O bolo é delicioso. A sopa é ___.",
+     "a": "deliciosa"
+    },
+    {
+     "q": "O cabelo é castanho. Os olhos são ___.",
+     "a": "castanhos"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · gostar + de, do, da, dos, das (6 P.)",
+   "items": [
+    {
+     "q": "Gosto ___ pão. (o pão)",
+     "a": "do"
+    },
+    {
+     "q": "Gostas ___ sopa? (a sopa)",
+     "a": "da"
+    },
+    {
+     "q": "Ela gosta ___ pastéis de nata. (os pastéis)",
+     "a": "dos"
+    },
+    {
+     "q": "Não gosto ___ ondas grandes. (as ondas)",
+     "a": "das"
+    },
+    {
+     "q": "Gostamos ___ surf. (kein Artikel!)",
+     "a": "de"
+    },
+    {
+     "q": "O Tomás gosta ___ vídeos do Vasco. (os vídeos)",
+     "a": "dos"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Zahlen & Preise (6 P.)",
+   "items": [
+    {
+     "q": "35 →",
+     "a": "trinta e cinco"
+    },
+    {
+     "q": "76 →",
+     "a": "setenta e seis"
+    },
+    {
+     "q": "100 →",
+     "a": "cem"
+    },
+    {
+     "q": "Quanto ___ o galão?",
+     "a": "custa"
+    },
+    {
+     "q": "Quanto ___ as laranjas?",
+     "a": "custam"
+    },
+    {
+     "q": "„Das macht vier Euro fünfzig“:",
+     "a": "São quatro euros e cinquenta."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "F · Lesen: O caderno da Marie (5 P.)",
+   "audio": "r15",
+   "text": "A Marie escreve no caderno:<br>«O Porto é fantástico! A família da Ana é grande e muito simpática. O pai é alto, a mãe é gira e a avó fala muito, muito rápido. O irmão da Ana, o Tomás, tem doze anos e é o fã número um do Vasco.<br>O almoço da avó é delicioso: sopa, peixe e um bolo. E no Café Majestic, digo pela primeira vez: ‘Queria uma bica e um pastel de nata, se faz favor.’ A bica custa um euro e vinte.<br>E agora? Agora esperamos. Sagres não tem pressa… mas eu tenho!»",
+   "gloss": "Erst lesen, dann anhören. Neu erschließen: o caderno = das Heft · escrever = schreiben · pela primeira vez = zum ersten Mal. Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "A família da Ana é pequena.",
+     "a": "Falsch – grande e muito simpática."
+    },
+    {
+     "q": "A avó fala muito rápido.",
+     "a": "Richtig – Ohrentraining!"
+    },
+    {
+     "q": "O Tomás é o fã número um do João.",
+     "a": "Falsch – do Vasco."
+    },
+    {
+     "q": "A bica custa um euro e vinte.",
+     "a": "Richtig."
+    },
+    {
+     "q": "A Marie não tem pressa.",
+     "a": "Falsch – Sagres hat keine Eile, aber Marie schon!"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "G · Schreiben: Der Café-Dialog (5 P.)",
+   "html": "Schreib deinen eigenen Mini-Dialog im Café, ohne Spickzettel – alle vier Züge (1 P. pro Zug + 1 P. für EP-Würze wie <i>se faz favor</i> oder <i>bica</i>):<br><br>1. Bestellen (<i>Queria…</i>) · 2. Der Kellner fragt nach (<i>Mais alguma coisa?</i>) · 3. Deine Antwort · 4. Zahlen (<i>A conta…</i>)<br><br>Bonus: Lies beide Rollen laut – wie im Liz-Tipp."
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (42 Punkte)",
+   "html": "<b>36–42:</b> Fantástico! Woche 3 (Alltag, Uhrzeiten, Pläne) kann kommen – und damit Vascos Wetterbericht.<br><b>27–35:</b> Gut! Schau auf die Teile mit fehlenden Punkten – B und D sind die Klassiker (Artikel vor Possessiv, gostar DE).<br><b>unter 27:</b> Kein Drama – Woche 2 war voll! Wiederhole Tag 9 (Possessive) und Tag 11 (gostar), dann den Test noch einmal.<br><br>Und sag Claude deine Punktzahl – daraus wird Woche 3 auf deine Lücken zugeschnitten."
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: A pergunta do Vasco",
+   "audio": "s15",
+   "text": "Domingo à noite. A semana no Porto é história – o grupo está outra vez em Lisboa, na casa da Ana.<br>O telemóvel toca: uma mensagem de voz. É o Vasco:<br>— Olá, olá! Boas notícias: as ondas estão quase perfeitas. Quase! Mas primeiro tenho uma pergunta: o que é que vocês fazem todos os dias? Têm aulas? Trabalham? A que horas?<br>— Porquê? — pergunta a Marie.<br>— Com o Vasco é sempre um segredo — diz o João.<br>A Ana responde à mensagem: «Temos aulas de manhã…»<br>— Perfeito — diz o Vasco. — Então na próxima semana falamos do dia a dia. E depois… Sagres.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: a mensagem de voz = die Sprachnachricht · boas notícias = gute Neuigkeiten · quase = fast · fazem = (ihr/sie) macht/machen (fazer – kommt in Woche 3!) · de manhã = morgens · próxima = nächste · o dia a dia = der Alltag",
+   "questions": [
+    {
+     "q": "As ondas estão perfeitas.",
+     "a": "Falsch – quase (fast) perfeitas!"
+    },
+    {
+     "q": "O Vasco pergunta o que o grupo faz todos os dias.",
+     "a": "Richtig – warum wohl? Woche 3 verrät es."
+    }
+   ]
+  }
+ ]
+}

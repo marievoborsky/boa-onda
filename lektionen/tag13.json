@@ -111,12 +111,12 @@
   {
    "type": "note",
    "title": "Dica da Liz (Talk the Streets)",
-   "html": "Preise verstehst du schneller, wenn du weißt, was wegfällt: <b>„Um euro e cinquenta“</b> heißt eigentlich „…cinquenta <i>cêntimos</i>“ – das Wort cêntimos lassen alle weg. Und an der Kasse hörst du oft nur <b>„São três e vinte“</b> – Euro UND cêntimos gespart. 😄 Noch ein Klassiker: <b>dois/duas</b> gilt auch bei Preisen und Mengen – <i>dois euros</i>, aber <i>duas laranjas</i>. Wer das richtig macht, klingt sofort eingelebt."
+   "html": "Preise verstehst du schneller, wenn du weißt, was wegfällt: <b>„Um euro e cinquenta“</b> heißt eigentlich „…cinquenta <i>cêntimos</i>“ – das Wort cêntimos lassen alle weg. Und an der Kasse hörst du oft nur <b>„São três e vinte“</b> – Euro UND cêntimos gespart. Noch ein Klassiker: <b>dois/duas</b> gilt auch bei Preisen und Mengen – <i>dois euros</i>, aber <i>duas laranjas</i>. Wer das richtig macht, klingt sofort eingelebt."
   },
   {
    "type": "reading",
    "title": "4 · Lesen: No mercado",
-   "hint": "Selbst erschlossen: comprar = kaufen · tudo = alles · a viagem = die Reise (von Tag 9!) · a laranja = die Orange · o quilo = das Kilo · o autocarro = der Bus (EP! Brasilien: ônibus) · ida e volta = hin und zurück · o verão = der Sommer. Der Mercado da Ribeira in Lissabon ist echt – und großartig.",
+   "hint": "Selbst erschlossen: comprar = kaufen · tudo = alles · a viagem = die Reise (von Tag 9!) · a laranja = die Orange · o quilo = das Kilo · a vendedora = die Verkäuferin (am Stand) · o protetor solar = die Sonnencreme · o autocarro = der Bus (EP! Brasilien: ônibus) · ida e volta = hin und zurück · o verão = der Sommer. Der Mercado da Ribeira in Lissabon ist echt – und großartig.",
    "lines": [
     {
      "who": "Ana",
@@ -129,7 +129,7 @@
      "audio": "d1302"
     },
     {
-     "who": "Empregada",
+     "who": "Vendedora",
      "pt": "Um euro e cinquenta o quilo. São muito boas!",
      "audio": "d1303"
     },
@@ -139,7 +139,7 @@
      "audio": "d1304"
     },
     {
-     "who": "Empregada",
+     "who": "Vendedora",
      "pt": "Três euros, se faz favor.",
      "audio": "d1305"
     },
@@ -294,8 +294,8 @@
    "type": "story",
    "title": "7 · Kleine Geschichte: A conta de Sagres",
    "audio": "s13",
-   "text": "À noite, na casa da Marie. Na mesa: papel, uma calculadora e três cafés.<br>— Então — diz a Ana. — O autocarro: quarenta e quatro euros por pessoa. O hostel em Sagres: vinte e cinco euros por noite. Duas noites: cinquenta.<br>— A primeira aula é grátis — diz o João. — E a segunda custa vinte euros, com prancha e fato.<br>A Marie conta: — Quarenta e quatro… mais cinquenta… mais vinte… São cento e catorze euros.<br>— Mais os pastéis de nata — diz o João. — Importante.<br>O telemóvel da Ana toca. É o Tomás, do Porto: — Ana! A mãe diz que eu posso ir a Sagres… se vocês dizem que sim. POSSO IR? Por favor, por favor, POR FAVOR!<br>A Ana olha para a Marie. A Marie olha para o João. O João faz um sorriso:<br>— O fã número um do Vasco? Claro que sim.",
-   "gloss": "Neu erschließen: a calculadora = der Taschenrechner · por pessoa / por noite = pro Person / pro Nacht · o hostel = das Hostel · contar = zählen/rechnen · tocar = klingeln · o fã = der Fan · Claro que sim! = Na klar!",
+   "text": "À noite, na casa da Marie. Na mesa: papel, uma calculadora e três cafés.<br>— Então — diz a Ana. — O autocarro: quarenta e quatro euros por pessoa. O hostel em Sagres: vinte e cinco euros por noite. Duas noites: cinquenta.<br>— A primeira aula é grátis — diz o João. — E a segunda custa vinte euros, com prancha e fato.<br>A Marie conta: — Quarenta e quatro… mais cinquenta… mais vinte… São cento e catorze euros.<br>— Mais os pastéis de nata — diz o João. — Importante.<br>O telemóvel da Ana toca. É o Tomás, do Porto: — Ana! A mãe diz que sim! Posso ir a Sagres com vocês? POSSO IR? Por favor, por favor, POR FAVOR!<br>A Ana olha para a Marie. A Marie olha para o João. O João faz um sorriso:<br>— O fã número um do Vasco? Claro que sim.",
+   "gloss": "Neu erschließen: a calculadora = der Taschenrechner · o fato (de surf) = der Neoprenanzug (EP!) · por pessoa / por noite = pro Person / pro Nacht · o hostel = das Hostel · contar = zählen/rechnen · tocar = klingeln · o fã = der Fan · Claro que sim! = Na klar!",
    "questions": [
     {
      "q": "O hostel custa vinte e cinco euros por noite.",

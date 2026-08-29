@@ -16,7 +16,7 @@ OUT = os.path.join(BASE, 'audio')
 KEY = os.environ.get('ELEVENLABS_API_KEY')
 VOICES = json.load(open(os.path.join(BASE, 'tools', 'stimmen.json')))
 MODEL = 'eleven_multilingual_v2'
-WHO2FIG = {'ana': 'ana', 'marie': 'marie', 'joão': 'joao', 'joao': 'joao', 'vasco': 'vasco', 'tomás': 'ana', 'tomas': 'ana', 'empregado': 'vasco', 'empregada': 'marie'}  # Tomás (12): Ana-Stimme – Kinderstimmen-Design ist bei ElevenLabs zu Recht gesperrt
+WHO2FIG = {'ana': 'ana', 'marie': 'marie', 'joão': 'joao', 'joao': 'joao', 'vasco': 'vasco', 'tomás': 'ana', 'tomas': 'ana', 'empregado': 'vasco', 'empregada': 'marie', 'vendedora': 'marie'}  # Tomás (12): Ana-Stimme – Kinderstimmen-Design ist bei ElevenLabs zu Recht gesperrt
 # Kontext-Anker, damit kurze Einzelwörter sicher als EP gesprochen werden (wird nicht mitgesprochen)
 PREV = 'Em português europeu: '
 
@@ -41,24 +41,9 @@ def collect():
             elif sec['type'] == 'story' and sec.get('audio'):
                 t = re.sub(r'<br\s*/?>', ' ', sec['text'])
                 add(sec['audio'], re.sub(r'<[^>]+>', '', t), 'marie')
-    # Einzelwörter (Textos): aus allen Story-/Dialogtexten ableiten
-    tok = set()
-    def toks(text):
-        text = re.sub(r'<br\s*/?>', ' ', text)
-        text = re.sub(r'<[^>]+>', ' ', text)
-        for w in text.split():
-            core = re.sub(r'^[^\wÀ-ÿ]+|[^\wÀ-ÿ]+$', '', w)
-            if core and re.search(r'[A-Za-zÀ-ÿ]', core):
-                tok.add(core.lower())
-    for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', 'tag*.json'))):
-        L = json.load(open(f))
-        for sec in L['sections']:
-            if sec['type'] == 'story':
-                toks(sec['text'])
-            elif sec['type'] == 'reading':
-                for ln in sec['lines']: toks(ln['pt'])
-    for w in sorted(tok):
-        add('tok/' + w, w, 'marie', PREV)
+    # tok/-Einzelwörter kommen seit 29.08. NICHT mehr von ElevenLabs:
+    # die Marie-Stimme spricht EP-Auslaute bei Einzelwörtern unsauber („adeus"
+    # ohne End-[ʃ]). Einzelwörter generiert tts-tok-google.py (Google TTS).
     # Tag-8-Sagres aus dem Arbeitsblatt (Marie & Vasco)
     html = open(os.path.join(BASE, '..', 'arbeitsblaetter', 'tag-08-sagres.html')).read()
     lines = re.findall(r'<span class="who">([^<]+):</span>\s*([^<]+)</p>', html)[:12]
