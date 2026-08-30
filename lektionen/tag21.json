@@ -1,0 +1,310 @@
+{
+ "id": "tag21",
+ "title": "Que tempo faz?",
+ "subtitle": "Woche 3 · Tag 21 · Wetter & Jahreszeiten · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 20)",
+   "items": [
+    {
+     "q": "Es gibt kein Bad: ___",
+     "a": "Não há casa de banho."
+    },
+    {
+     "q": "Wo liegt der Bahnhof? ___",
+     "a": "Onde é que fica a estação?"
+    },
+    {
+     "q": "auf dem Tisch = em cima ___ mesa",
+     "a": "da"
+    },
+    {
+     "q": "Heute bleibe ich zu Hause: ___",
+     "a": "Hoje fico em casa."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: O tempo (12)",
+   "items": [
+    {
+     "pt": "o tempo",
+     "de": "das Wetter (auch: die Zeit)",
+     "ipa": "[ˈtẽpu]",
+     "audio": "v2101"
+    },
+    {
+     "pt": "o sol",
+     "de": "die Sonne",
+     "ipa": "[sɔɫ]",
+     "audio": "v2102"
+    },
+    {
+     "pt": "a chuva",
+     "de": "der Regen",
+     "ipa": "[ˈʃuvɐ]",
+     "audio": "v2103"
+    },
+    {
+     "pt": "chover",
+     "de": "regnen",
+     "ipa": "[ʃuˈveɾ]",
+     "audio": "v2104"
+    },
+    {
+     "pt": "o calor",
+     "de": "die Hitze, die Wärme",
+     "ipa": "[kɐˈloɾ]",
+     "audio": "v2105"
+    },
+    {
+     "pt": "o frio",
+     "de": "die Kälte",
+     "ipa": "[ˈfɾiu]",
+     "audio": "v2106"
+    },
+    {
+     "pt": "a nuvem",
+     "de": "die Wolke",
+     "ipa": "[ˈnuvɐ̃j̃]",
+     "audio": "v2107"
+    },
+    {
+     "pt": "o céu",
+     "de": "der Himmel",
+     "ipa": "[sɛw]",
+     "audio": "v2108"
+    },
+    {
+     "pt": "a primavera",
+     "de": "der Frühling",
+     "ipa": "[pɾimɐˈvɛɾɐ]",
+     "audio": "v2109"
+    },
+    {
+     "pt": "o verão",
+     "de": "der Sommer",
+     "ipa": "[vɨˈɾɐ̃w̃]",
+     "audio": "v2110"
+    },
+    {
+     "pt": "o outono",
+     "de": "der Herbst",
+     "ipa": "[o(w)ˈtonu]",
+     "audio": "v2111"
+    },
+    {
+     "pt": "o inverno",
+     "de": "der Winter",
+     "ipa": "[ĩˈvɛɾnu]",
+     "audio": "v2112"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Wetter macht man",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Im Deutschen <b>ist</b> das Wetter – im Portugiesischen <b>macht</b> es sich meistens selbst:<br><br><b>Die Frage:</b> <i>Que tempo faz?</i> – Wie ist das Wetter?<br><b>Mit fazer</b> (immer diese eine Form): <i><b>Faz</b> sol. · <b>Faz</b> calor. · <b>Faz</b> frio. · <b>Faz</b> bom tempo. · <b>Faz</b> mau tempo.</i><br><b>Mit estar</b> (eher: gerade jetzt): <i><b>Está</b> sol. · <b>Está</b> calor. · O céu <b>está</b> limpo.</i><br><b>Regen hat ein eigenes Verb:</b> <i><b>Chove.</b></i> – Es regnet. Und heute, in diesem Moment: <i><b>Está a chover.</b></i><br><br><b>Jahreszeiten mit no/na:</b> <i><b>no</b> verão · <b>no</b> inverno · <b>no</b> outono · <b>na</b> primavera.</i><br><br>Für uns am Meer zählt nur eins: <i>Como está o mar?</i> Und diese Woche… hörst du gleich. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Jetzt der Unterschied, an dem man Portugal von Brasilien am schnellsten hört: die <b>Verlaufsform</b>. Brasilien sagt <i>está chovendo</i>, Portugal sagt <b>está a chover</b> – <b>estar a + Grundform</b>. Genauso: <i>estou a estudar</i> (ich lerne gerade), <i>estás a brincar?</i> (willst du mich veräppeln?), <i>ele está a dormir</i>. Du hast die Form schon zweimal in den Geschichten gesehen – ab heute darfst du sie selbst benutzen. Ein einziges kleines <b>a</b>, und du klingst europäisch."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A previsão",
+   "hint": "Selbst erschlossen: a previsão = die Vorhersage · o grau = das Grad · limpo = klar, sauber · o nevoeiro = der Nebel · a maré = die Gezeiten · perfeito = perfekt · acreditar = glauben.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Que tempo faz em Sagres na sexta?",
+     "audio": "d2101"
+    },
+    {
+     "who": "João",
+     "pt": "Faz sol. Vinte e dois graus. Céu limpo.",
+     "audio": "d2102"
+    },
+    {
+     "who": "Ana",
+     "pt": "E o vento?",
+     "audio": "d2103"
+    },
+    {
+     "who": "João",
+     "pt": "Fraco. De manhã há um pouco de nevoeiro, mas depois vai estar sol.",
+     "audio": "d2104"
+    },
+    {
+     "who": "Marie",
+     "pt": "E as ondas? Diz-me as ondas!",
+     "audio": "d2105"
+    },
+    {
+     "who": "João",
+     "pt": "Um metro. Um metro, Marie.",
+     "audio": "d2106"
+    },
+    {
+     "who": "Ana",
+     "pt": "Aqui em Lisboa está a chover. É quase engraçado.",
+     "audio": "d2107"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não acredito. Não acredito!",
+     "audio": "d2108"
+    },
+    {
+     "who": "João",
+     "pt": "Acredita. No sábado vais estar dentro de água.",
+     "audio": "d2109"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Que tempo faz?",
+   "items": [
+    {
+     "q": "Die Sonne scheint: ___ sol.",
+     "a": "Faz / Está"
+    },
+    {
+     "q": "Es ist heiß: ___ calor.",
+     "a": "Faz / Está"
+    },
+    {
+     "q": "Es regnet (allgemein): ___",
+     "a": "Chove."
+    },
+    {
+     "q": "Es regnet gerade: ___",
+     "a": "Está a chover."
+    },
+    {
+     "q": "Das Wetter ist schlecht: ___ mau tempo.",
+     "a": "Faz / Está"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Die Verlaufsform: estar a + Grundform",
+   "items": [
+    {
+     "q": "Ich lerne gerade. → ___",
+     "a": "Estou a estudar."
+    },
+    {
+     "q": "Er schläft gerade. → ___",
+     "a": "Ele está a dormir."
+    },
+    {
+     "q": "Wir essen gerade. → ___",
+     "a": "Estamos a comer."
+    },
+    {
+     "q": "Sie warten gerade. → ___",
+     "a": "Eles estão a esperar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · no oder na? (Jahreszeiten)",
+   "items": [
+    {
+     "q": "___ verão faz calor.",
+     "a": "No"
+    },
+    {
+     "q": "___ primavera chove muito.",
+     "a": "Na"
+    },
+    {
+     "q": "___ inverno faz frio.",
+     "a": "No"
+    },
+    {
+     "q": "___ outono há vento.",
+     "a": "No"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "Na sexta-feira faz sol em Sagres.",
+     "a": "Richtig – 22 Grad, klarer Himmel."
+    },
+    {
+     "q": "As ondas vão ter três metros.",
+     "a": "Falsch – einen Meter. Perfekt für Anfänger!"
+    },
+    {
+     "q": "Em Lisboa também faz sol.",
+     "a": "Falsch – dort regnet es gerade („está a chover“)."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Wie ist das Wetter? → ___",
+     "a": "Que tempo faz?"
+    },
+    {
+     "q": "Im Sommer ist es heiß. → ___",
+     "a": "No verão faz calor."
+    },
+    {
+     "q": "Es regnet gerade. → ___",
+     "a": "Está a chover."
+    },
+    {
+     "q": "Der Himmel ist klar. → ___",
+     "a": "O céu está limpo."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O tempo hoje",
+   "html": "Schau aus dem Fenster und beschreib das Wetter laut – drei Sätze: <i>Hoje faz… O céu está… Está a chover? Não, não está.</i><br><br>Dann die Jahreszeiten-Runde: Was macht das Wetter bei dir <i>no verão</i>, <i>no inverno</i>, <i>na primavera</i>, <i>no outono</i>? Ein Satz pro Jahreszeit.<br><br>Und zum Schluss die Übung, die Portugiesen jeden Tag machen: Sag jemandem in drei Sätzen, wie das Wetter morgen wird. <i>Amanhã vai fazer sol…</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A mensagem de quinta-feira",
+   "audio": "s21",
+   "text": "Quinta-feira, dez da noite. Está a chover em Lisboa. A Marie está na cama com o telemóvel na mão.<br>Vinte e três dias. Vinte e três dias a olhar para a previsão do tempo.<br>O telemóvel apita. É o grupo. É o Vasco.<br>«Boa noite, malta. Vento fraco, ondas de um metro, maré boa às dez da manhã. Não vou dizer que é perfeito…»<br>A Marie fecha os olhos.<br>«…porque no mar nunca se diz isso. Mas é o melhor fim de semana do mês. Tragam boa disposição e uma toalha. O resto tenho eu.»<br>Três segundos depois, a Ana escreve: «VAMOS.»<br>Um segundo depois, o Tomás, que não devia estar acordado: «VAMOS!!!»<br>E depois o João, às dez e um minuto da noite, com a lógica de sempre:<br>«Alguém sabe a que horas parte o comboio?»<br>Lá fora chove sobre Lisboa. A Marie sorri para o teto escuro e diz, baixinho, em português:<br>— No sábado vou surfar.",
+   "gloss": "Neu erschließen: a cama = das Bett · a maré = die Gezeiten · Tragam! = Bringt mit! (Befehlsform – Woche 4) · a toalha = das Handtuch · o resto = der Rest · não devia estar acordado = er sollte gar nicht wach sein · o teto = die Decke · lá fora = draußen · sobre = über",
+   "questions": [
+    {
+     "q": "O Vasco diz que o mar vai estar perfeito.",
+     "a": "Fast – er sagt bewusst nicht „perfekt“, aber es ist das beste Wochenende des Monats."
+    },
+    {
+     "q": "Em Lisboa está a chover.",
+     "a": "Richtig – und in Sagres wird die Sonne scheinen."
+    },
+    {
+     "q": "A Marie está triste.",
+     "a": "Falsch – sie lächelt in die Dunkelheit: „No sábado vou surfar.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt über das Wetter reden – das Lieblingsthema jedes Portugiesen – und mit <b>estar a + Grundform</b> sagen, was gerade passiert. Damit ist der neue Stoff von Woche 3 komplett. Morgen: <b>Revisão III</b>, der Wochentest. Und danach beginnt Woche 4: <b>Sagres.</b>"
+  }
+ ]
+}

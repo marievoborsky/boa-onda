@@ -1,0 +1,306 @@
+{
+ "id": "tag19",
+ "title": "Vamos a Sagres!",
+ "subtitle": "Woche 3 · Tag 19 · Pläne machen · ir + Infinitiv · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 18)",
+   "items": [
+    {
+     "q": "Eu ___ desporto. (fazer)",
+     "a": "faço"
+    },
+    {
+     "q": "Eles ___ ao cinema. (ir)",
+     "a": "vão"
+    },
+    {
+     "q": "Vou ___ praia. (a praia)",
+     "a": "à"
+    },
+    {
+     "q": "Ich laufe nie: ___",
+     "a": "Nunca corro."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Fazer planos (12)",
+   "items": [
+    {
+     "pt": "o plano",
+     "de": "der Plan",
+     "ipa": "[ˈplɐnu]",
+     "audio": "v1901"
+    },
+    {
+     "pt": "a semana que vem",
+     "de": "nächste Woche",
+     "ipa": "[sɨˈmɐnɐ kɨ ˈvɐ̃j̃]",
+     "audio": "v1902"
+    },
+    {
+     "pt": "o mês",
+     "de": "der Monat",
+     "ipa": "[meʃ]",
+     "audio": "v1903"
+    },
+    {
+     "pt": "reservar",
+     "de": "reservieren, buchen",
+     "ipa": "[ʁɨzɨɾˈvaɾ]",
+     "audio": "v1904"
+    },
+    {
+     "pt": "o bilhete",
+     "de": "das Ticket, die Fahrkarte",
+     "ipa": "[biˈʎetɨ]",
+     "audio": "v1905"
+    },
+    {
+     "pt": "o comboio",
+     "de": "der Zug (EP! Brasilien: trem)",
+     "ipa": "[kõˈboju]",
+     "audio": "v1906"
+    },
+    {
+     "pt": "a mala",
+     "de": "der Koffer, die Tasche",
+     "ipa": "[ˈmalɐ]",
+     "audio": "v1907"
+    },
+    {
+     "pt": "levar",
+     "de": "mitnehmen",
+     "ipa": "[lɨˈvaɾ]",
+     "audio": "v1908"
+    },
+    {
+     "pt": "talvez",
+     "de": "vielleicht",
+     "ipa": "[taɫˈveʃ]",
+     "audio": "v1909"
+    },
+    {
+     "pt": "de certeza",
+     "de": "bestimmt, ganz sicher",
+     "ipa": "[dɨ sɨɾˈtezɐ]",
+     "audio": "v1910"
+    },
+    {
+     "pt": "finalmente",
+     "de": "endlich",
+     "ipa": "[finaɫˈmẽtɨ]",
+     "audio": "v1911"
+    },
+    {
+     "pt": "juntos / juntas",
+     "de": "zusammen",
+     "ipa": "[ˈʒũtuʃ] / [ˈʒũtɐʃ]",
+     "audio": "v1912"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Die Zukunft in zwei Wörtern",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Heute lernst du die Zukunft – und sie ist geschenkt, weil du <b>ir</b> schon kannst.<br><br><b>ir + Infinitiv</b> (genau wie „ich werde…“):<br><i><b>Vou</b> surfar.</i> – Ich werde surfen. / Ich gehe surfen.<br><i><b>Vais</b> gostar!</i> – Du wirst es mögen!<br><i><b>Vamos</b> reservar os bilhetes.</i> – Wir werden die Tickets buchen.<br><i>Eles <b>vão</b> chegar tarde.</i><br><br>Das Verb dahinter bleibt in der Grundform – <b>immer</b>. Kein Anhängen, kein Umbauen: <i>vou comer, vais dormir, vamos partir</i>.<br><br><b>Und der Trick, den alle nutzen:</b> Mit einem Zeitwort reicht sogar die Gegenwart – <i><b>Amanhã</b> parto às oito.</i> Portugal spricht die Zukunft am liebsten im Präsens. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Zwei Zeitwörter, die Deutsche fast immer verwechseln: <b>logo</b> heißt nicht „bald irgendwann“, sondern <b>später heute</b> – <i>Vou logo à praia</i> = ich gehe nachher an den Strand. Deshalb heißt der Abschied unter Freunden <b>Até logo!</b> (bis später) und nicht até amanhã. Und <b>a semana que vem</b> ist die Alltagsform für „nächste Woche“ – wörtlich „die Woche, die kommt“. Klingt hübsch, oder? Portugiesisch lässt die Zeit auf einen zukommen."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A reserva",
+   "hint": "Selbst erschlossen: a reserva = die Buchung · o telemóvel = das Handy · o site = die Webseite · caro = teuer (von Tag 13!) · esperar = warten (von Tag 14) · a boleia = die Mitfahrgelegenheit · o carro = das Auto · a carrinha = der Kleinbus · na mesma = trotzdem · vemos = wir sehen weiter · seguro = sicher · a boa disposição = die gute Laune.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Então? Vamos reservar os bilhetes ou não?",
+     "audio": "d1901"
+    },
+    {
+     "who": "Marie",
+     "pt": "Vamos! Mas o Vasco diz que as ondas ainda estão grandes.",
+     "audio": "d1902"
+    },
+    {
+     "who": "João",
+     "pt": "Talvez. Eu vou reservar na mesma. Depois vemos.",
+     "audio": "d1903"
+    },
+    {
+     "who": "Ana",
+     "pt": "Que lógica maravilhosa, João.",
+     "audio": "d1904"
+    },
+    {
+     "who": "Marie",
+     "pt": "O comboio para Lagos custa vinte euros. Depois vamos de autocarro.",
+     "audio": "d1905"
+    },
+    {
+     "who": "João",
+     "pt": "Ou vamos de boleia! O meu primo tem uma carrinha velha.",
+     "audio": "d1906"
+    },
+    {
+     "who": "Ana",
+     "pt": "Com o Tomás? Não. Vamos de comboio, é mais seguro.",
+     "audio": "d1907"
+    },
+    {
+     "who": "Marie",
+     "pt": "Vou levar só uma mala pequena. E o fato de surf?",
+     "audio": "d1908"
+    },
+    {
+     "who": "João",
+     "pt": "O Vasco tem tudo. Nós vamos levar fome e boa disposição.",
+     "audio": "d1909"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Bau die Zukunft: ir + Infinitiv",
+   "items": [
+    {
+     "q": "Eu ___ ___ os bilhetes. (reservar)",
+     "a": "vou reservar"
+    },
+    {
+     "q": "Tu ___ ___ connosco? (nadar)",
+     "a": "vais nadar"
+    },
+    {
+     "q": "Nós ___ ___ de comboio. (partir)",
+     "a": "vamos partir"
+    },
+    {
+     "q": "Eles ___ ___ tarde. (chegar)",
+     "a": "vão chegar"
+    },
+    {
+     "q": "A Marie ___ ___ uma mala pequena. (levar)",
+     "a": "vai levar"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Von heute auf morgen",
+   "items": [
+    {
+     "q": "Hoje estudo. → Amanhã ___",
+     "a": "vou estudar"
+    },
+    {
+     "q": "Hoje corro. → Amanhã ___",
+     "a": "vou correr"
+    },
+    {
+     "q": "Hoje comemos em casa. → Amanhã ___",
+     "a": "vamos comer em casa"
+    },
+    {
+     "q": "Hoje ela trabalha. → Amanhã ela ___",
+     "a": "vai trabalhar"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · talvez, de certeza oder finalmente?",
+   "items": [
+    {
+     "q": "___ vamos a Sagres! (nach drei Wochen Warten)",
+     "a": "Finalmente"
+    },
+    {
+     "q": "Não sei… ___ vou.",
+     "a": "talvez"
+    },
+    {
+     "q": "O João vai chegar tarde, ___.",
+     "a": "de certeza"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O comboio para Lagos custa vinte euros.",
+     "a": "Richtig."
+    },
+    {
+     "q": "Vão de carro com o primo do João.",
+     "a": "Falsch – mit dem Zug, das ist sicherer."
+    },
+    {
+     "q": "A Marie vai levar o fato de surf dela.",
+     "a": "Falsch – Vasco hat alles. Sie bringen Hunger und gute Laune mit."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Wir werden die Tickets buchen. → ___",
+     "a": "Vamos reservar os bilhetes."
+    },
+    {
+     "q": "Ich gehe nachher an den Strand. → ___",
+     "a": "Vou logo à praia."
+    },
+    {
+     "q": "Nächste Woche fahre ich nach Porto. → ___",
+     "a": "A semana que vem vou ao Porto. / … vou a Porto."
+    },
+    {
+     "q": "Bis später! → ___",
+     "a": "Até logo!"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Os teus planos",
+   "html": "Sag laut, was du vorhast – fünf Sätze mit <b>ir + Infinitiv</b>:<br><br><i>Logo vou… Amanhã vou… No fim de semana vou… A semana que vem vou… No verão vou…</i><br><br>Und dann die ehrliche Variante mit <i>talvez</i> und <i>de certeza</i>: <i>Talvez vá correr… De certeza vou dormir muito.</i> (Merk dir für später: nach <i>talvez</i> nutzen Portugiesen gern eine Extra-Form – <i>vá</i> statt <i>vou</i>. Das kommt in Staffel 2, heute reicht <i>talvez vou</i>.)"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Os bilhetes",
+   "audio": "s19",
+   "text": "Quarta-feira à noite. Três telemóveis, uma mesa, um plano.<br>— Comboio das oito e dez — diz a Ana. — Sexta-feira da semana que vem.<br>— Sexta? Eu tenho aulas até às cinco — diz a Marie.<br>— Então o das seis da tarde. Chegamos a Lagos à noite e dormimos lá.<br>O João não diz nada. Está a olhar para o telemóvel.<br>— João?<br>— Uma mensagem do Vasco.<br>Silêncio. A Ana e a Marie olham uma para a outra.<br>— Lê! — diz a Marie.<br>— «Olá, malta. A previsão para a semana que vem: as ondas vão descer para um metro. Vento fraco. Se isto se mantiver…»<br>— Se isto se mantiver o quê?! — grita a Ana.<br>— Acaba aqui. Ele está a escrever.<br>Os três olham para o telemóvel como três gatos para uma janela.<br>O telemóvel apita.<br>«…vai ser perfeito para vocês. Reservem.»",
+   "gloss": "Neu erschließen: a malta = die Leute, „Leute!“ (typisch EP-Anrede) · descer = sinken · fraco = schwach · se isto se mantiver = wenn das so bleibt (eine Form für Staffel 2 – hier nur zum Wiedererkennen) · gritar = schreien · acabar = enden · está a escrever = er schreibt gerade (EP-Verlaufsform: estar a + Infinitiv – merk sie dir!) · o gato = die Katze · a janela = das Fenster · apitar = piepen · Reservem! = Bucht! (Befehlsform, kommt in Woche 4)",
+   "questions": [
+    {
+     "q": "O comboio da manhã não serve à Marie.",
+     "a": "Richtig – sie hat bis fünf Unterricht, sie nehmen den um sechs."
+    },
+    {
+     "q": "As ondas vão descer para um metro.",
+     "a": "Richtig – und der Wind wird schwach."
+    },
+    {
+     "q": "O Vasco diz que ainda é perigoso.",
+     "a": "Falsch – „vai ser perfeito para vocês. Reservem.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kannst du jetzt über morgen sprechen? Test: Sag drei Dinge, die du morgen machst – mit <i>vou</i> + Grundform. Wenn das flüssig geht, hast du die halbe Zukunft des Portugiesischen im Griff. Morgen: <b>Wohnen</b> – wo was steht, und das kleine Wort <b>há</b>, das dir seit Tagen begegnet."
+  }
+ ]
+}

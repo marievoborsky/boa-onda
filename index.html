@@ -54,7 +54,8 @@
     border-radius: 62% 38% 55% 45% / 50% 62% 38% 50%;
     background: var(--clay-soft); opacity: .5; }
 
-  .wrap { max-width: 480px; margin: 0 auto; padding: 1.4rem 1.2rem 6.5rem; position: relative; z-index: 1; }
+  .wrap { max-width: 480px; margin: 0 auto; position: relative; z-index: 1;
+    padding: calc(1.4rem + env(safe-area-inset-top)) 1.2rem calc(6.5rem + env(safe-area-inset-bottom)); }
 
   /* ---------- Header ---------- */
   header { position: relative; margin-bottom: .2rem; }
@@ -105,7 +106,9 @@
   /* ---------- Karte (Lernen) ---------- */
   .session { display: none; }
   .topbar { display: flex; align-items: center; gap: .8rem; margin-bottom: 1.2rem; }
-  .back { background: none; border: none; color: var(--ink); font-size: 1.5rem; cursor: pointer; font-family: inherit; }
+  .back { background: none; border: none; color: var(--ink); font-size: 1.5rem; cursor: pointer;
+    font-family: inherit; min-width: 44px; min-height: 44px; margin-left: -.6rem;
+    display: flex; align-items: center; justify-content: center; }
   .sbar { flex: 1; height: 6px; background: #e8e0d0; border-radius: 4px; overflow: hidden; }
   .sbar i { display: block; height: 100%; background: var(--sea); border-radius: 4px; transition: width .3s; }
   .card {
@@ -188,7 +191,7 @@
   .vrow .vde { margin-left: auto; text-align: right; font-size: .85rem;
     color: var(--lav-deep); font-weight: 600; max-width: 45%; }
   .playbtn { border: none; background: var(--sea-pale); color: var(--ocean, #0b4f6c);
-    border-radius: 50%; width: 2rem; height: 2rem; flex: none; cursor: pointer;
+    border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .35rem; margin: -.35rem; cursor: pointer;
     display: flex; align-items: center; justify-content: center; }
   .dline { display: flex; gap: .55rem; align-items: center; padding: .3rem 0; }
   .avat { width: 28px; height: 28px; border-radius: 50%; object-fit: cover;
@@ -197,13 +200,13 @@
     font-size: .74rem; color: var(--clay); min-width: 3.2rem; }
   .dline .dpt { font-size: .95rem; cursor: pointer; flex: 1; }
   .recbtn { border: none; background: var(--clay-soft); color: var(--clay);
-    border-radius: 50%; width: 2rem; height: 2rem; flex: none; cursor: pointer;
+    border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .35rem; margin: -.35rem; cursor: pointer;
     display: flex; align-items: center; justify-content: center; }
   .recbtn.rec { background: var(--clay); color: #fff; animation: recpulse 1s infinite; }
   .recbtn.err { background: #ddd6c8; color: #9a9184; }
   @keyframes recpulse { 50% { transform: scale(1.18); } }
   .myplay { border: none; background: var(--lav-pale); color: var(--lav-deep);
-    border-radius: 50%; width: 2rem; height: 2rem; flex: none; cursor: pointer;
+    border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .35rem; margin: -.35rem; cursor: pointer;
     display: none; align-items: center; justify-content: center; }
   .recrow { display: flex; gap: .6rem; align-items: center; margin-top: .9rem; }
   .recrow .hint { margin-top: 0; flex: 1; }
@@ -215,7 +218,7 @@
   .exitem.open .a { display: block; }
   .exitem .reveal { border: none; background: var(--lav-pale); color: var(--lav-deep);
     font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .74rem;
-    border-radius: 999px; padding: .25rem .8rem; cursor: pointer; margin-top: .35rem; }
+    border-radius: 999px; padding: .55rem 1rem; min-height: 38px; cursor: pointer; margin-top: .35rem; }
 
   /* ---------- Tab-Leiste & Bereiche ---------- */
   .tabbar { position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
@@ -401,6 +404,16 @@
     </div>
   </div>
 
+  <!-- ========== FORTSCHRITT ========== -->
+  <div class="session" id="fortschritt">
+    <div class="topbar">
+      <button class="back" onclick="goTab('mais')">←</button>
+      <div class="ltitle">Fortschritt</div>
+    </div>
+    <div class="lsub">Deine Wochen, Wörter und Wackler</div>
+    <div id="fort-body"></div>
+  </div>
+
   <!-- ========== JOGOS ========== -->
   <div class="session" id="jogos">
     <div class="topbar">
@@ -503,23 +516,60 @@ const SPOTS = {
 };
 const INTERVALS = [0, 1, 3, 7, 21]; // Tage pro Leitner-Box
 
-/* ---------- Speicher ---------- */
-let store = JSON.parse(localStorage.getItem('ep-sagres') || '{"words":{},"streak":{"last":"","count":0}}');
-store.lessons = store.lessons || {};
-function save() { localStorage.setItem('ep-sagres', JSON.stringify(store)); }
-function today() { return new Date().toISOString().slice(0, 10); }
-
-/* Streak */
-(function () {
-  const t = today(), last = store.streak.last;
-  if (last !== t) {
-    const y = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
-    store.streak.count = (last === y) ? store.streak.count + 1 : 1;
-    store.streak.last = t; save();
+/* ---------- Speicher ----------
+   Defensiv laden: ein kaputter oder gesperrter localStorage darf die App nie
+   blockieren – im Zweifel mit leerem Lernstand starten, das Kaputte sichern. */
+function ladeStore() {
+  let roh = null;
+  try { roh = localStorage.getItem('ep-sagres'); }
+  catch (e) { return leererStore(); }           // Safari mit gesperrtem Speicher
+  if (!roh) return leererStore();
+  let s;
+  try { s = JSON.parse(roh); }
+  catch (e) {
+    try { localStorage.setItem('ep-sagres-kaputt', roh); } catch (e2) {}
+    return leererStore();
   }
-  const n = store.streak.count;
+  if (!s || typeof s !== 'object') return leererStore();
+  if (!s.words || typeof s.words !== 'object') s.words = {};
+  if (!s.lessons || typeof s.lessons !== 'object') s.lessons = {};
+  if (!s.streak || typeof s.streak !== 'object') s.streak = { last: '', count: 0 };
+  if (typeof s.streak.count !== 'number') s.streak.count = 0;
+  if (typeof s.streak.last !== 'string') s.streak.last = '';
+  if (!s.fehler || typeof s.fehler !== 'object') s.fehler = {};
+  if (!s.tage || typeof s.tage !== 'object') s.tage = {};
+  return s;
+}
+function leererStore() {
+  return { words: {}, lessons: {}, streak: { last: '', count: 0 }, fehler: {}, tage: {} };
+}
+let store = ladeStore();
+function save() { try { localStorage.setItem('ep-sagres', JSON.stringify(store)); } catch (e) {} }
+/* Lokales Datum – toISOString() wäre UTC und würde den Streak nachts reißen */
+function today(d) {
+  const x = d || new Date();
+  return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`;
+}
+/* Streak zählt echte Aktivität (Karte beantwortet / Lektion / Übung), nicht das
+   bloße Öffnen der App. aktiv() wird von den Lernpfaden aufgerufen. */
+function aktiv(karten, richtig) {
+  const t = today();
+  const tag = store.tage[t] || (store.tage[t] = { karten: 0, richtig: 0 });
+  tag.karten += karten || 0; tag.richtig += richtig || 0;
+  if (store.streak.last !== t) {
+    const gestern = today(new Date(Date.now() - 864e5));
+    store.streak.count = (store.streak.last === gestern) ? store.streak.count + 1 : 1;
+    store.streak.last = t;
+  }
+  save(); zeigeStreak();
+}
+function zeigeStreak() {
+  const t = today(), gestern = today(new Date(Date.now() - 864e5));
+  // Streak gilt nur, wenn heute oder gestern gelernt wurde
+  const n = (store.streak.last === t || store.streak.last === gestern) ? store.streak.count : 0;
   document.getElementById('streak').textContent = n + (n === 1 ? ' Tag' : ' Tage');
-})();
+}
+zeigeStreak();
 
 /* ---------- Hoje ---------- */
 const DICAS = [
@@ -558,6 +608,20 @@ function renderHome() {
   const tx = TEXTOS[Math.min(LESSONS.indexOf(next), TEXTOS.length - 1)];
   const ex = document.getElementById('hoje-extra');
   ex.innerHTML = '';
+  // Meine Wackler: Wörter, bei denen schon einmal ein Fehler passiert ist
+  const wack = wacklerListe();
+  if (wack.length) {
+    const wv = document.createElement('div');
+    wv.className = 'spot';
+    wv.onclick = () => startLearn('wackler');
+    wv.innerHTML = `
+      <div class="icon" style="background:var(--clay-soft); color:var(--clay)">W</div>
+      <div class="info">
+        <div class="name">Meine Wackler · ${wack.length} ${wack.length === 1 ? 'Wort' : 'Wörter'}</div>
+        <div class="theme">Wo es zuletzt gehakt hat – gezielt wiederholen</div>
+      </div>`;
+    ex.appendChild(wv);
+  }
   const t = document.createElement('div');
   t.className = 'spot';
   t.onclick = () => openTexto(tx.tag);
@@ -579,16 +643,29 @@ function renderHome() {
     </div>`;
   ex.appendChild(d);
 }
-const TABVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'jogos', 'jogo'];
-const ALLVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'jogos', 'jogo', 'leitura', 'learn', 'quiz', 'done', 'lesson'];
-function show(id) {
+const TABVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'jogos', 'jogo', 'fortschritt'];
+const ALLVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'jogos', 'jogo', 'fortschritt', 'leitura', 'learn', 'quiz', 'done', 'lesson'];
+let viewStack = [];   // für die Android-Zurück-Taste
+function show(id, ausHistory) {
   for (const s of ALLVIEWS)
     document.getElementById(s).style.display = (s === id) ? 'block' : 'none';
   document.getElementById('tabbar').style.display = TABVIEWS.includes(id) ? 'flex' : 'none';
   hideWpop();
   renderTabbar(id);
   window.scrollTo(0, 0);
+  // Ohne History-Eintrag beendete die System-Zurück-Taste die App mitten in der Lektion.
+  // Dieselbe Ansicht zweimal hintereinander erzeugt keinen zweiten Eintrag.
+  if (!ausHistory && viewStack[viewStack.length - 1] !== id) {
+    viewStack.push(id);
+    history.pushState({ view: id }, '');
+  }
 }
+window.addEventListener('popstate', () => {
+  viewStack.pop();
+  const ziel = viewStack[viewStack.length - 1];
+  if (ziel) show(ziel, true);
+  else show('home', true);
+});
 function goTab(id) {
   if (id === 'home') renderHome();
   else if (id === 'kurs') renderLessons();
@@ -598,6 +675,7 @@ function goTab(id) {
   else if (id === 'blaetter') renderBlaetter();
   else if (id === 'descobrir') renderDescobrir();
   else if (id === 'jogos') renderJogos();
+  else if (id === 'fortschritt') renderFortschritt();
   show(id);
 }
 
@@ -619,6 +697,13 @@ const LESSONS = [
   { id: 'tag13', label: 'Tag 13 · Quanto custa?', sub: 'Zahlen 20–100 · Preise', w: 1 },
   { id: 'tag14', label: 'Tag 14 · Os dias e as horas', sub: 'Wochentage · Que horas são?', w: 1 },
   { id: 'tag15', label: 'Tag 15 · Revisão II', sub: 'Wochentest · 42 Punkte', w: 1 },
+  { id: 'tag16', label: 'Tag 16 · O meu dia', sub: 'Tagesablauf · -ar-Verben komplett', w: 2 },
+  { id: 'tag17', label: 'Tag 17 · Levanto-me cedo', sub: '-er/-ir-Verben · reflexiv', w: 2 },
+  { id: 'tag18', label: 'Tag 18 · O que é que fazes?', sub: 'Freizeit · fazer & ir', w: 2 },
+  { id: 'tag19', label: 'Tag 19 · Vamos a Sagres!', sub: 'Pläne · ir + Infinitiv', w: 2 },
+  { id: 'tag20', label: 'Tag 20 · Onde é que fica?', sub: 'Wohnen · há & ficar', w: 2 },
+  { id: 'tag21', label: 'Tag 21 · Que tempo faz?', sub: 'Wetter & Jahreszeiten', w: 2 },
+  { id: 'tag22', label: 'Tag 22 · Revisão III', sub: 'Wochentest · 43 Punkte', w: 2 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -793,7 +878,7 @@ async function toggleRec(key, btn) {
     btn.classList.add('err'); btn.title = 'Aufnahme wird von diesem Browser nicht unterstützt'; return;
   }
   try {
-    micStream = micStream || await navigator.mediaDevices.getUserMedia({ audio: true });
+    micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
   } catch (e) {
     btn.classList.add('err'); btn.title = 'Mikrofon-Zugriff nicht erlaubt'; return;
   }
@@ -808,6 +893,8 @@ async function toggleRec(key, btn) {
     recordings[key] = URL.createObjectURL(blob);
     const pb = document.getElementById('my-' + key);
     if (pb) pb.style.display = 'flex';
+    // Mikrofon freigeben – sonst bleibt die Aufnahme-Anzeige des Handys an
+    if (micStream) { micStream.getTracks().forEach(t => t.stop()); micStream = null; }
   };
   btn.classList.add('rec');
   mediaRec.start();
@@ -816,9 +903,10 @@ async function toggleRec(key, btn) {
 function playMine(key) {
   if (recordings[key]) { audio.src = recordings[key]; audio.play().catch(() => {}); }
 }
-function recButtons(key, mine) {
+function recButtons(key) {
+  const da = recordings[key] ? ' style="display:flex"' : '';
   return `<button class="recbtn" onclick="toggleRec('${key}', this)" title="Aufnehmen – nochmal tippen zum Stoppen">${MIC_SVG}</button>
-    <button class="myplay" id="my-${key}" onclick="playMine('${key}')" title="Meine Aufnahme anhören">${PLAY_SVG}</button>`;
+    <button class="myplay" id="my-${key}"${da} onclick="playMine('${key}')" title="Meine Aufnahme anhören">${PLAY_SVG}</button>`;
 }
 
 /* ---------- Tab-Leiste ---------- */
@@ -854,6 +942,13 @@ const TEXTOS = [
   { tag: 'tag13', num: 13, title: 'A conta de Sagres', nivel: 3, story: true },
   { tag: 'tag14', num: 14, title: 'Boa onda não tem pressa', nivel: 3, story: true },
   { tag: 'tag15', num: 15, title: 'A pergunta do Vasco', nivel: 3, story: true },
+  { tag: 'tag16', num: 16, title: 'A rotina e o mar', nivel: 3, story: true },
+  { tag: 'tag17', num: 17, title: 'O clube das seis da manhã', nivel: 3, story: true },
+  { tag: 'tag18', num: 18, title: 'Domingo de manhã', nivel: 3, story: true },
+  { tag: 'tag19', num: 19, title: 'Os bilhetes', nivel: 3, story: true },
+  { tag: 'tag20', num: 20, title: 'O hostel', nivel: 3, story: true },
+  { tag: 'tag21', num: 21, title: 'A mensagem de quinta-feira', nivel: 3, story: true },
+  { tag: 'tag22', num: 22, title: 'O comboio das seis', nivel: 3, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');
@@ -875,8 +970,13 @@ function renderTextos() {
 let ltAudio = null;
 async function openTexto(tag) {
   const T = TEXTOS.find(t => t.tag === tag);
-  const res = await fetch('lektionen/' + tag + '.json', { cache: 'no-cache' });
-  const L = await res.json();
+  let L;
+  try { L = await ladeJSON('lektionen/' + tag + '.json'); }
+  catch (e) {
+    show('leitura');
+    ladefehler('lt-text', 'Der Text konnte nicht geladen werden. Bist du offline?', () => openTexto(tag));
+    return;
+  }
   addLessonVocab(L, tag);
   let html = '', audio = null;
   const sec = L.sections.find(x => x.type === 'story' && x.title.includes(T.title));
@@ -998,22 +1098,56 @@ function markWord(id, box) {
 
 /* ---------- Caderno (Vokabelheft) ---------- */
 let cadFilter = 'all', cadSpot = 'all';
+/* ---------- Laden mit Fehlerbehandlung ----------
+   Ohne das endete jeder fehlgeschlagene Ladevorgang stumm – für die Nutzerin
+   sah ein Netzfehler aus wie ein Absturz. */
+const JSON_CACHE = {};
+async function ladeJSON(pfad) {
+  if (JSON_CACHE[pfad]) return JSON_CACHE[pfad];
+  const res = await fetch(pfad, { cache: 'no-cache' });
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const daten = await res.json();
+  JSON_CACHE[pfad] = daten;
+  return daten;
+}
+function ladefehler(elId, text, retryFn) {
+  const el = document.getElementById(elId);
+  if (!el) return;
+  el.innerHTML = '';
+  const box = document.createElement('div');
+  box.className = 'lsec';
+  box.style.cssText = 'border:1.5px dashed var(--clay); background:var(--card); text-align:center';
+  box.innerHTML = `<div class="body" style="margin-bottom:.8rem">${text}</div>`;
+  const b = document.createElement('button');
+  b.className = 'mixbtn'; b.textContent = 'Nochmal versuchen';
+  b.onclick = retryFn;
+  box.appendChild(b);
+  el.appendChild(box);
+}
+
 let LVOCAB = null;   // Lektionswörter (mit Wochen-Zuordnung)
-async function ladeLVocab() {
-  if (LVOCAB) return LVOCAB;
-  LVOCAB = [];
-  for (const l of LESSONS) {
-    try {
-      const L = await (await fetch('lektionen/' + l.id + '.json', { cache: 'no-cache' })).json();
-      for (const sec of L.sections) {
-        if (sec.type !== 'vocab') continue;
-        for (const it of sec.items) {
-          if (it.audio) LVOCAB.push({ id: it.audio, pt: it.pt, ipa: it.ipa, de: it.de, w: l.w, tag: l.label.split(' ·')[0] });
+let LVOCAB_P = null; // laufendes Laden – verhindert halbgefüllte Zwischenstände
+function ladeLVocab() {
+  if (LVOCAB) return Promise.resolve(LVOCAB);
+  if (LVOCAB_P) return LVOCAB_P;
+  LVOCAB_P = (async () => {
+    const listen = await Promise.all(LESSONS.map(async l => {
+      try {
+        const L = await ladeJSON('lektionen/' + l.id + '.json');
+        const raus = [];
+        for (const sec of L.sections) {
+          if (sec.type !== 'vocab') continue;
+          for (const it of sec.items) {
+            if (it.audio) raus.push({ id: it.audio, pt: it.pt, ipa: it.ipa, de: it.de, w: l.w, tag: l.label.split(' ·')[0] });
+          }
         }
-      }
-    } catch (e) {}
-  }
-  return LVOCAB;
+        return raus;
+      } catch (e) { return []; }
+    }));
+    LVOCAB = listen.flat();
+    return LVOCAB;
+  })();
+  return LVOCAB_P;
 }
 async function renderCaderno() {
   await ladeLVocab();
@@ -1034,7 +1168,8 @@ async function renderCaderno() {
         <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.3rem">${g} gelernt · ${a} in Arbeit · ${total - g - a} neu</div>
       </div>
     </div>`;
-  const F = [['all', 'Alle'], ['gelernt', 'Gelernt'], ['arbeit', 'In Arbeit'], ['neu', 'Neu']];
+  const F = [['all', 'Alle'], ['gelernt', 'Gelernt'], ['arbeit', 'In Arbeit'], ['neu', 'Neu'],
+    ['wackler', 'Wackler' + (Object.keys(store.fehler).length ? ' · ' + wacklerListe().length : '')]];
   document.getElementById('cad-chips').innerHTML = F.map(([k, l]) =>
     `<button class="chip ${cadFilter === k ? 'on' : ''}" onclick="cadFilter='${k}'; renderCaderno()">${l}</button>`).join('');
   const wochen = [...new Set(LESSONS.map(l => l.w))];
@@ -1059,6 +1194,7 @@ function renderCadList() {
     if (cadFilter === 'gelernt' && b < 2) return false;
     if (cadFilter === 'arbeit' && b !== 1) return false;
     if (cadFilter === 'neu' && b !== 0) return false;
+    if (cadFilter === 'wackler' && !store.fehler[w.id]) return false;
     if (q && !(w.pt.toLowerCase().includes(q) || w.de.toLowerCase().includes(q))) return false;
     return true;
   });
@@ -1094,7 +1230,7 @@ function renderMais() {
     ['grid', 'Jogos', 'Kleine Spiele mit deinen Wörtern', "goTab('jogos')"],
     ['bulb', 'Dicas', 'Alle Grammatik- und Aussprache-Tipps', null],
     ['book', 'História', 'Die Geschichte der vier Freunde', null],
-    ['chart', 'Fortschritt', 'Streak, Tests und Statistik', null],
+    ['chart', 'Fortschritt', 'Deine Wochen, Wörter und Wackler', "goTab('fortschritt')"],
   ];
   const el = document.getElementById('mais-list');
   el.innerHTML = '';
@@ -1116,8 +1252,11 @@ function renderMais() {
 let DESCOBRIR = null;
 async function renderDescobrir() {
   if (!DESCOBRIR) {
-    const res = await fetch('descobrir.json', { cache: 'no-cache' });
-    DESCOBRIR = await res.json();
+    try { DESCOBRIR = await ladeJSON('descobrir.json'); }
+    catch (e) {
+      ladefehler('descobrir-list', 'Die Artikel konnten nicht geladen werden.', () => renderDescobrir());
+      return;
+    }
   }
   const el = document.getElementById('descobrir-list');
   el.innerHTML = '';
@@ -1155,6 +1294,88 @@ const JOGO_SVG = {
   phones: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>',
   grid: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>',
 };
+/* ---------- Fortschritt ---------- */
+async function renderFortschritt() {
+  await ladeLVocab();
+  const el = document.getElementById('fort-body');
+  const alle = alleWorte();
+  const box = id => (store.words[id] || { box: 0 }).box;
+  const gelernt = alle.filter(w => box(w.id) >= 2).length;
+  const arbeit = alle.filter(w => box(w.id) === 1).length;
+  const pct = Math.round(100 * gelernt / alle.length);
+  const lek = LESSONS.filter(l => store.lessons[l.id]).length;
+  const wack = wacklerListe();
+
+  // letzte 14 Tage als Balken
+  const tage = [];
+  for (let i = 13; i >= 0; i--) {
+    const d = today(new Date(Date.now() - i * 864e5));
+    tage.push({ d, k: (store.tage[d] || {}).karten || 0 });
+  }
+  const max = Math.max(1, ...tage.map(t => t.k));
+  const WT = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+  const balken = tage.map(t => {
+    const h = Math.round(6 + 46 * t.k / max);
+    const heute = t.d === today();
+    return `<div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:.3rem">
+      <div style="width:100%; max-width:14px; height:${h}px; border-radius:4px;
+        background:${t.k ? 'var(--sea)' : '#e8e0d0'}; ${heute ? 'outline:2px solid var(--clay); outline-offset:1px' : ''}"></div>
+      <div class="mono" style="font-size:.5rem; color:var(--ink-soft)">${WT[new Date(t.d + 'T12:00').getDay()]}</div>
+    </div>`;
+  }).join('');
+  const summe = tage.reduce((a, t) => a + t.k, 0);
+  const aktiveTage = tage.filter(t => t.k).length;
+
+  const kachel = (gross, klein) =>
+    `<div style="flex:1; background:var(--card); border-radius:16px; padding:.9rem .6rem; text-align:center">
+      <div style="font-size:1.5rem; font-weight:700">${gross}</div>
+      <div class="mono" style="font-size:.56rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft); margin-top:.15rem">${klein}</div>
+    </div>`;
+
+  el.innerHTML = `
+    <div style="display:flex; gap:.6rem; margin-bottom:.9rem">
+      ${kachel(store.streak.count + (store.streak.count === 1 ? ' Tag' : ' Tage'), 'Streak')}
+      ${kachel(lek + '/' + LESSONS.length, 'Lektionen')}
+      ${kachel(pct + '%', 'von A1')}
+    </div>
+    <div class="lsec">
+      <h3>Die letzten 14 Tage</h3>
+      <div style="display:flex; gap:.25rem; align-items:flex-end; height:70px; margin:.9rem 0 .3rem">${balken}</div>
+      <div class="mono" style="font-size:.62rem; color:var(--ink-soft)">
+        ${summe} Karten an ${aktiveTage} ${aktiveTage === 1 ? 'Tag' : 'Tagen'}
+      </div>
+    </div>
+    <div class="lsec">
+      <h3>Wortschatz</h3>
+      <div class="bar" style="margin:.7rem 0 .6rem"><i style="width:${pct}%"></i></div>
+      <div class="mono" style="font-size:.68rem; line-height:1.7; color:var(--ink-soft)">
+        ${gelernt} gelernt · ${arbeit} in Arbeit · ${alle.length - gelernt - arbeit} neu<br>
+        insgesamt ${alle.length} Wörter (Kern + alle Lektionen)
+      </div>
+    </div>`;
+
+  const w = document.createElement('div');
+  w.className = 'lsec';
+  w.innerHTML = `<h3>Meine Wackler</h3>
+    <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin:.5rem 0 .8rem">
+      ${wack.length ? wack.length + (wack.length === 1 ? ' Wort hat' : ' Wörter haben') + ' zuletzt gehakt.'
+                    : 'Noch keine Wackler – oder alle schon wieder sicher.'}
+    </div>`;
+  if (wack.length) {
+    const liste = document.createElement('div');
+    liste.className = 'mono';
+    liste.style.cssText = 'font-size:.72rem; line-height:1.9; margin-bottom:.9rem';
+    liste.textContent = wack.slice(0, 12).map(x => x.pt).join(' · ');
+    w.appendChild(liste);
+    const b = document.createElement('button');
+    b.className = 'mixbtn';
+    b.textContent = 'Wackler wiederholen';
+    b.onclick = () => startLearn('wackler');
+    w.appendChild(b);
+  }
+  el.appendChild(w);
+}
+
 function renderJogos() {
   const el = document.getElementById('jogos-list');
   el.innerHTML = '';
@@ -1281,7 +1502,7 @@ GAMES.ondas = async function () {
   const tags = shuffle(LESSONS.map(l => l.id)).slice(0, 3);
   let saetze = [];
   for (const t of tags) {
-    const L = await (await fetch('lektionen/' + t + '.json', { cache: 'no-cache' })).json();
+    const L = await ladeJSON('lektionen/' + t + '.json');
     for (const sec of L.sections) {
       if (sec.type !== 'reading') continue;
       for (const ln of sec.lines) {
@@ -1432,8 +1653,15 @@ function renderBlaetter() {
   });
 }
 async function openLesson(id) {
-  const res = await fetch('lektionen/' + id + '.json', { cache: 'no-cache' });
-  const L = await res.json();
+  let L;
+  show('lesson');
+  try { L = await ladeJSON('lektionen/' + id + '.json'); }
+  catch (e) {
+    document.getElementById('l-title').textContent = 'Nicht geladen';
+    document.getElementById('l-sub').textContent = '';
+    ladefehler('l-body', 'Die Lektion konnte nicht geladen werden. Bist du offline?', () => openLesson(id));
+    return;
+  }
   document.getElementById('l-title').textContent = L.title;
   document.getElementById('l-sub').textContent = L.subtitle;
   document.getElementById('l-print').href = 'druck.html?id=' + id;
@@ -1513,6 +1741,25 @@ async function openLesson(id) {
 }
 function goHome() { goTab('home'); }
 
+/* Kurze Einblendung statt stummer Navigation */
+function meldung(text) {
+  let el = document.getElementById('toast');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'toast';
+    el.style.cssText = 'position:fixed; left:50%; transform:translateX(-50%);' +
+      'bottom:calc(6.2rem + env(safe-area-inset-bottom)); z-index:60; max-width:88vw;' +
+      'background:var(--ink); color:var(--paper); padding:.75rem 1.1rem; border-radius:14px;' +
+      'font-family:"Roboto Mono",monospace; font-weight:300; font-size:.8rem; line-height:1.45;' +
+      'box-shadow:0 6px 20px rgba(51,41,74,.25); opacity:0; transition:opacity .25s';
+    document.body.appendChild(el);
+  }
+  el.textContent = text;
+  requestAnimationFrame(() => { el.style.opacity = '1'; });
+  clearTimeout(el._t);
+  el._t = setTimeout(() => { el.style.opacity = '0'; }, 3200);
+}
+
 /* ---------- Lückentext prüfen ---------- */
 function checkEx(row) {
   const inp = row.querySelector('.exin');
@@ -1539,14 +1786,42 @@ let audio = new Audio();
 function play(id) { audio.src = 'audio/' + id + '.m4a'; audio.play().catch(() => {}); }
 
 /* ---------- Lern-Session ---------- */
-let queue = [], idx = 0, total = 0, flipped = false, correct = 0, curBlock = 'mix';
+let queue = [], idx = 0, total = 0, flipped = false, correct = 0, curBlock = 'mix', wiederholt = {};
 
+/* Alle lernbaren Wörter: Kernwortschatz + Lektionsvokabeln (LVOCAB).
+   Ohne das erreichte gut ein Drittel der Wörter nie eine Übung. */
+function alleWorte() { return LVOCAB ? VOCAB.concat(LVOCAB) : VOCAB; }
+/* Ein Filter, zwei Taxonomien: Themen-Blöcke (Kernwortschatz) und
+   Wochen (Lektionswörter, Feld w). 'wackler' zieht das Fehlerarchiv. */
+function filterPool(block) {
+  const alle = alleWorte();
+  if (block === 'mix' || block === 'all') return alle;
+  if (block === 'wackler') return wacklerListe();
+  const woche = /^w\d$/.test(block) ? +block[1] : null;
+  if (woche !== null) return alle.filter(w => w.w === woche);
+  return alle.filter(w => w.block === block);
+}
 function dueWords(block) {
-  const pool = block === 'mix' ? VOCAB : VOCAB.filter(w => w.block === block);
+  const pool = filterPool(block);
   const t = today();
   const due = pool.filter(w => { const s = store.words[w.id]; return s && s.box > 0 && s.due <= t; });
-  const fresh = pool.filter(w => !store.words[w.id] || store.words[w.id].box === 0);
-  return due.concat(shuffle(fresh)).slice(0, 10);
+  // gescheiterte Wörter (Box 0, aber schon gesehen) vor die neuen ziehen
+  const wackler = pool.filter(w => store.words[w.id] && store.words[w.id].box === 0);
+  const fresh = pool.filter(w => !store.words[w.id]);
+  return due.concat(shuffle(wackler), shuffle(fresh)).slice(0, 10);
+}
+/* Fehlerarchiv: jeder Fehler wird mit Datum gemerkt („Meine Wackler“) */
+function merkeFehler(id) {
+  const f = store.fehler[id] || { n: 0, last: '' };
+  f.n++; f.last = today();
+  store.fehler[id] = f; save();
+}
+function wacklerListe() {
+  const byId = {}; for (const w of alleWorte()) byId[w.id] = w;
+  return Object.keys(store.fehler)
+    .filter(id => byId[id] && (!store.words[id] || store.words[id].box < 3))
+    .sort((a, b) => store.fehler[b].n - store.fehler[a].n)
+    .map(id => byId[id]);
 }
 function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
@@ -1554,10 +1829,10 @@ function startLearn(block) {
   curBlock = block;
   queue = dueWords(block);
   if (!queue.length) {
-    // alles gelernt → direkt Quiz anbieten
+    // alles gelernt → Quiz anbieten; reicht auch das nicht, klar Bescheid sagen
     startQuiz(block); return;
   }
-  idx = 0; total = queue.length; correct = 0;
+  idx = 0; total = queue.length; correct = 0; wiederholt = {};
   show('learn'); showCard();
 }
 function showCard() {
@@ -1567,7 +1842,7 @@ function showCard() {
   document.getElementById('c-ipa').textContent = w.ipa;
   document.getElementById('c-de').style.display = 'none';
   document.getElementById('c-hint').textContent = 'Antippen zum Umdrehen';
-  document.getElementById('learnbar').style.width = (100 * idx / total) + '%';
+  document.getElementById('learnbar').style.width = Math.min(100, 100 * idx / total) + '%';
   play(w.id);
 }
 function flipCard() {
@@ -1584,10 +1859,16 @@ function answer(good) {
   const w = queue[idx];
   const s = store.words[w.id] || { box: 0, due: today() };
   if (good) { s.box = Math.min(s.box + 1, INTERVALS.length - 1); correct++; }
-  else { s.box = Math.max(s.box - 1, 0); queue.push(w); total++; }
-  const d = new Date(Date.now() + INTERVALS[s.box] * 864e5);
-  s.due = d.toISOString().slice(0, 10);
+  else {
+    s.box = Math.max(s.box - 1, 0);
+    merkeFehler(w.id);
+    // hoechstens zweimal nachlegen, sonst waechst die Queue endlos
+    wiederholt[w.id] = (wiederholt[w.id] || 0) + 1;
+    if (wiederholt[w.id] <= 2) queue.push(w);
+  }
+  s.due = today(new Date(Date.now() + INTERVALS[s.box] * 864e5));
   store.words[w.id] = s; save();
+  aktiv(1, good ? 1 : 0);
   idx++;
   if (idx >= queue.length) return finish('learn');
   showCard();
@@ -1596,9 +1877,9 @@ function answer(good) {
 /* ---------- Quiz ---------- */
 let qQueue = [], qIdx = 0, qCorrect = 0, qLock = false;
 function startQuiz(block) {
-  const pool = block === 'mix' ? VOCAB : VOCAB.filter(w => w.block === block);
+  const pool = filterPool(block);
   qQueue = shuffle(pool).slice(0, 8);
-  if (qQueue.length < 4) { goHome(); return; }
+  if (qQueue.length < 4) { meldung('Hier sind gerade keine Wörter fällig – such dir im Caderno einen anderen Filter aus.'); return; }
   qIdx = 0; qCorrect = 0;
   show('quiz'); showQuestion();
 }
@@ -1610,7 +1891,9 @@ function showQuestion() {
   document.getElementById('q-ipa').textContent = ptToDe ? w.ipa : '';
   document.getElementById('quizbar').style.width = (100 * qIdx / qQueue.length) + '%';
   if (ptToDe) play(w.id);
-  const pool = VOCAB.filter(x => x.block === w.block && x.id !== w.id);
+  const alle = alleWorte();
+  let pool = alle.filter(x => x.block === w.block && x.id !== w.id);
+  if (pool.length < 3) pool = alle.filter(x => x.id !== w.id);
   const opts = shuffle([w].concat(shuffle(pool).slice(0, 3)));
   const box = document.getElementById('q-opts');
   box.innerHTML = '';
@@ -1628,9 +1911,11 @@ function pick(btn, right, w) {
   btn.classList.add(right ? 'right' : 'wrong');
   if (right) qCorrect++;
   else {
+    merkeFehler(w.id);
     for (const b of document.querySelectorAll('.opt'))
       if (b.textContent === w.de || b.textContent === w.pt) b.classList.add('right');
   }
+  aktiv(1, right ? 1 : 0);
   if (!right) play(w.id);
   setTimeout(() => { qIdx++; qIdx >= qQueue.length ? finish('quiz') : showQuestion(); }, 1100);
 }

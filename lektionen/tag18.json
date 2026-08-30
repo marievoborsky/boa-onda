@@ -1,0 +1,318 @@
+{
+ "id": "tag18",
+ "title": "O que é que fazes?",
+ "subtitle": "Woche 3 · Tag 18 · Freizeit · fazer & ir · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 17)",
+   "items": [
+    {
+     "q": "Eu ___ às sete. (levantar-se)",
+     "a": "levanto-me"
+    },
+    {
+     "q": "Nós ___ português. (aprender)",
+     "a": "aprendemos"
+    },
+    {
+     "q": "Ich verstehe nicht: ___",
+     "a": "Não percebo."
+    },
+    {
+     "q": "Verneine: Deito-me tarde. → ___",
+     "a": "Não me deito tarde."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Tempos livres (12)",
+   "items": [
+    {
+     "pt": "fazer",
+     "de": "machen, tun",
+     "ipa": "[fɐˈzeɾ]",
+     "audio": "v1801"
+    },
+    {
+     "pt": "ir",
+     "de": "gehen, fahren",
+     "ipa": "[iɾ]",
+     "audio": "v1802"
+    },
+    {
+     "pt": "o desporto",
+     "de": "Sport (EP! Brasilien: esporte)",
+     "ipa": "[dɨʃˈpoɾtu]",
+     "audio": "v1803"
+    },
+    {
+     "pt": "nadar",
+     "de": "schwimmen",
+     "ipa": "[nɐˈdaɾ]",
+     "audio": "v1804"
+    },
+    {
+     "pt": "correr",
+     "de": "laufen, rennen",
+     "ipa": "[kuˈʁeɾ]",
+     "audio": "v1805"
+    },
+    {
+     "pt": "ouvir música",
+     "de": "Musik hören",
+     "ipa": "[oˈviɾ ˈmuzikɐ]",
+     "audio": "v1806"
+    },
+    {
+     "pt": "o filme",
+     "de": "der Film",
+     "ipa": "[ˈfiɫmɨ]",
+     "audio": "v1807"
+    },
+    {
+     "pt": "o livro",
+     "de": "das Buch",
+     "ipa": "[ˈlivɾu]",
+     "audio": "v1808"
+    },
+    {
+     "pt": "sempre",
+     "de": "immer",
+     "ipa": "[ˈsẽpɾɨ]",
+     "audio": "v1809"
+    },
+    {
+     "pt": "nunca",
+     "de": "nie",
+     "ipa": "[ˈnũkɐ]",
+     "audio": "v1810"
+    },
+    {
+     "pt": "às vezes",
+     "de": "manchmal",
+     "ipa": "[aʒ ˈvezɨʃ]",
+     "audio": "v1811"
+    },
+    {
+     "pt": "muitas vezes",
+     "de": "oft",
+     "ipa": "[ˈmũjtɐʒ ˈvezɨʃ]",
+     "audio": "v1812"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: fazer, ir – und wie oft",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Zwei Verben, die du täglich brauchst – beide unregelmäßig, beide schnell gelernt:<br><br><b>fazer (machen):</b> fa<b>ço</b> · fa<b>zes</b> · fa<b>z</b> · fa<b>zemos</b> · fa<b>zem</b><br><b>ir (gehen/fahren):</b> <b>vou</b> · <b>vais</b> · <b>vai</b> · <b>vamos</b> · <b>vão</b><br><br><b>Wohin? ir + a</b> – und a verschmilzt genau wie du es kennst:<br>a + o = <b>ao</b> (vou <b>ao</b> cinema) · a + a = <b>à</b> (vou <b>à</b> praia) · a + as = <b>às</b> (das kennst du von der Uhrzeit!)<br>Für „nach Hause“ ohne Artikel: <i>vou <b>para</b> casa</i>.<br><br><b>Wie oft?</b> Die Häufigkeit steht meist direkt hinterm Verb: <i>Corro <b>sempre</b> de manhã. Vou <b>muitas vezes</b> à praia.</i><br>Nur <b>nunca</b> stellt sich gern vor das Verb: <i><b>Nunca</b> corro à noite.</i> Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "<b>fazer</b> steckt in einer Wendung, die kein Lehrbuch früh genug beibringt: <b>fazer anos</b> = Geburtstag haben. <i>Faço anos em maio.</i> – „Ich habe im Mai Geburtstag.“ Und wenn jemand fragt <b>Quando é que fazes anos?</b>, meint er genau das. Zweiter Klassiker: die Frage <b>O que é que fazes?</b> kann beides heißen – „Was machst du (beruflich)?“ und „Was machst du (gerade)?“. Der Zusammenhang klärt es, und im Zweifel fragst du einfach zurück."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Planos de sábado",
+   "hint": "Selbst erschlossen: os tempos livres = die Freizeit · o cinema = das Kino · o ginásio = das Fitnessstudio · a piscina = das Schwimmbad · connosco = mit uns (EP! Brasilien: conosco) · leio = ich lese (ler) · ouço = ich höre (ouvir) · vens? = kommst du? (vir) · fico em casa = ich bleibe zu Hause (ficar – Tag 20) · há = es gibt (Tag 20) · andar de um lado para o outro = hin und her laufen · a fome = der Hunger.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "O que é que fazes aos sábados, Marie?",
+     "audio": "d1801"
+    },
+    {
+     "who": "Marie",
+     "pt": "Às vezes vou à praia. Muitas vezes fico em casa e leio um livro.",
+     "audio": "d1802"
+    },
+    {
+     "who": "Ana",
+     "pt": "Nós vamos sempre correr de manhã. Vens connosco?",
+     "audio": "d1803"
+    },
+    {
+     "who": "Marie",
+     "pt": "Corro muito mal! Mas nado bem. Há piscina no ginásio?",
+     "audio": "d1804"
+    },
+    {
+     "who": "Ana",
+     "pt": "Há, sim. E à tarde vamos ao cinema. Há um filme português.",
+     "audio": "d1805"
+    },
+    {
+     "who": "João",
+     "pt": "Eu nunca corro de manhã. Faço desporto à noite.",
+     "audio": "d1806"
+    },
+    {
+     "who": "Marie",
+     "pt": "Que desporto é que fazes à noite?",
+     "audio": "d1807"
+    },
+    {
+     "who": "João",
+     "pt": "Ouço música e ando de um lado para o outro na cozinha.",
+     "audio": "d1808"
+    },
+    {
+     "who": "Ana",
+     "pt": "Isso não é desporto, João. Isso é fome.",
+     "audio": "d1809"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · fazer oder ir? Setz ein",
+   "items": [
+    {
+     "q": "Eu ___ desporto. (fazer)",
+     "a": "faço"
+    },
+    {
+     "q": "Tu ___ à praia? (ir)",
+     "a": "vais"
+    },
+    {
+     "q": "A Ana ___ ao cinema. (ir)",
+     "a": "vai"
+    },
+    {
+     "q": "Nós ___ os exercícios. (fazer)",
+     "a": "fazemos"
+    },
+    {
+     "q": "Eles ___ ao ginásio. (ir)",
+     "a": "vão"
+    },
+    {
+     "q": "O que é que vocês ___? (fazer)",
+     "a": "fazem"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · ao, à oder para?",
+   "items": [
+    {
+     "q": "Vou ___ cinema. (o cinema)",
+     "a": "ao"
+    },
+    {
+     "q": "Vou ___ praia. (a praia)",
+     "a": "à"
+    },
+    {
+     "q": "Vou ___ casa. (nach Hause)",
+     "a": "para"
+    },
+    {
+     "q": "Vamos ___ ginásio. (o ginásio)",
+     "a": "ao"
+    },
+    {
+     "q": "Vamos ___ piscina. (a piscina)",
+     "a": "à"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Wie oft? Bau den Satz",
+   "items": [
+    {
+     "q": "correr / eu / sempre / de manhã →",
+     "a": "Corro sempre de manhã."
+    },
+    {
+     "q": "nunca / eu / nadar / à noite →",
+     "a": "Nunca nado à noite."
+    },
+    {
+     "q": "às vezes / nós / ir / ao cinema →",
+     "a": "Às vezes vamos ao cinema."
+    },
+    {
+     "q": "muitas vezes / o João / dormir / até tarde →",
+     "a": "O João dorme muitas vezes até tarde."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie corre muito bem.",
+     "a": "Falsch – „Corro muito mal!“ Sie schwimmt gut."
+    },
+    {
+     "q": "A Ana e os amigos correm sempre de manhã.",
+     "a": "Richtig."
+    },
+    {
+     "q": "O João faz desporto à noite.",
+     "a": "Er behauptet es – aber Ana nennt es fome (Hunger)."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Was machst du am Wochenende? → ___",
+     "a": "O que é que fazes ao fim de semana?"
+    },
+    {
+     "q": "Ich gehe manchmal ins Kino. → ___",
+     "a": "Às vezes vou ao cinema."
+    },
+    {
+     "q": "Wir machen nie Sport. → ___",
+     "a": "Nunca fazemos desporto."
+    },
+    {
+     "q": "Ich habe im Mai Geburtstag. → ___",
+     "a": "Faço anos em maio."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Os teus tempos livres",
+   "html": "Beantworte laut, jeweils mit einer Häufigkeit:<br><br><i>O que é que fazes de manhã? · O que é que fazes ao fim de semana? · Fazes desporto? · Vais muitas vezes ao cinema? · Quando é que fazes anos?</i><br><br>Dann drei ehrliche Sätze mit <b>nunca</b>: <i>Nunca corro. Nunca acordo às cinco. Nunca…</i> Achte auf die Stellung – <i>nunca</i> vor dem Verb, der Rest dahinter."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Domingo de manhã",
+   "audio": "s18",
+   "text": "Domingo, oito da manhã. A Ana corre. A Marie nada. O João dorme.<br>Na piscina, a Marie conta as voltas: uma, duas, três… dez. Não pensa em nada. Não pensa nas ondas de Sagres. Não pensa na previsão do tempo.<br>Está a mentir a si própria, claro. Pensa sempre nas ondas.<br>Às dez horas, os três encontram-se num café ao pé do rio. A Ana bebe água, a Marie come uma torrada, o João olha para o café como quem olha para um milagre.<br>— Marie — diz a Ana. — Quantas vezes olhas hoje para a previsão?<br>— Nenhuma.<br>— A sério?<br>— … Duas.<br>O João levanta a chávena, muito sério:<br>— À Marie, que nunca mente. Quase nunca.",
+   "gloss": "Neu erschließen: a volta = die Bahn (im Schwimmbad) · não pensa em nada = sie denkt an nichts · mentir a si própria = sich selbst belügen · encontrar-se = sich treffen · ao pé de = neben, in der Nähe von · o rio = der Fluss · o milagre = das Wunder · a chávena = die Tasse (EP! Brasilien: xícara) · nenhuma = keine · a sério? = im Ernst?",
+   "questions": [
+    {
+     "q": "A Marie nada dez voltas.",
+     "a": "Richtig."
+    },
+    {
+     "q": "A Marie não pensa nas ondas.",
+     "a": "Falsch – sie belügt sich selbst, sie denkt immer daran."
+    },
+    {
+     "q": "A Marie olha duas vezes para a previsão.",
+     "a": "Richtig – sie gibt es zögernd zu."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kannst du <b>fazer</b> und <b>ir</b> ohne Nachdenken? Und weißt du, wann <i>ao</i>, wann <i>à</i>, wann <i>para</i>? Dann hast du gerade zwei Verben gelernt, die dir jeden Tag begegnen. Morgen wird es spannend: mit <b>ir</b> baust du die <b>Zukunft</b> – und die Gruppe fängt an, Sagres wirklich zu planen."
+  }
+ ]
+}

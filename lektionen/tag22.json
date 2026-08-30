@@ -1,0 +1,239 @@
+{
+ "id": "tag22",
+ "title": "Revisão III – Wochentest",
+ "subtitle": "Woche 3 · Tag 22 · Mini-Test · 43 Punkte · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen (laut oder im Heft!), dann aufdecken und Punkte zählen. Ohne Nachschauen – der Test zeigt dir, was vor Sagres noch wackelt. Notier dir deine Punktzahl pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Vor einem Test hilft kein Pauken mehr, sondern <b>Selbstgespräch</b>. Geh fünf Minuten durch die Wohnung und erzähl dir deinen gestrigen Tag auf Portugiesisch – <i>Levantei… nein: Levanto-me às sete, tomo o pequeno-almoço…</i> Wo du stockst, liegt deine Lücke. Genau die schaust du dann nach. Das ist effizienter als jede Vokabelliste, weil dein Gehirn die Lücke selbst gefunden hat."
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln: Wie heißt es auf Portugiesisch? (8 P.)",
+   "items": [
+    {
+     "q": "aufwachen",
+     "a": "acordar"
+    },
+    {
+     "q": "sich schlafen legen",
+     "a": "deitar-se"
+    },
+    {
+     "q": "verstehen (das EP-Wort)",
+     "a": "perceber"
+    },
+    {
+     "q": "Sport (EP!)",
+     "a": "o desporto"
+    },
+    {
+     "q": "manchmal",
+     "a": "às vezes"
+    },
+    {
+     "q": "das Bad (EP!)",
+     "a": "a casa de banho"
+    },
+    {
+     "q": "der Zug (EP!)",
+     "a": "o comboio"
+    },
+    {
+     "q": "es regnet gerade",
+     "a": "está a chover"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · Verben: -ar, -er, -ir (8 P.)",
+   "items": [
+    {
+     "q": "Eu ___ às sete. (acordar)",
+     "a": "acordo"
+    },
+    {
+     "q": "Nós ___ às nove. (começar)",
+     "a": "começamos"
+    },
+    {
+     "q": "Eles ___ tarde. (jantar)",
+     "a": "jantam"
+    },
+    {
+     "q": "Tu ___ chá? (beber)",
+     "a": "bebes"
+    },
+    {
+     "q": "Nós ___ português. (aprender)",
+     "a": "aprendemos"
+    },
+    {
+     "q": "Nós ___ às oito. (partir)",
+     "a": "partimos"
+    },
+    {
+     "q": "Eu ___ desporto. (fazer)",
+     "a": "faço"
+    },
+    {
+     "q": "Eles ___ à praia. (ir)",
+     "a": "vão"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Reflexiv – und wohin das Pronomen springt (6 P.)",
+   "items": [
+    {
+     "q": "Eu ___ às sete e meia. (levantar-se)",
+     "a": "levanto-me"
+    },
+    {
+     "q": "Ele ___ João. (chamar-se)",
+     "a": "chama-se"
+    },
+    {
+     "q": "Nós ___ cedo. (levantar-se)",
+     "a": "levantamo-nos"
+    },
+    {
+     "q": "Verneine: Levanto-me cedo. → ___",
+     "a": "Não me levanto cedo."
+    },
+    {
+     "q": "Frag: Um wie viel Uhr stehst du auf? ___",
+     "a": "A que horas te levantas?"
+    },
+    {
+     "q": "Frag: Wie heißt du? ___",
+     "a": "Como te chamas?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · ao, à, para, no, na, há (6 P.)",
+   "items": [
+    {
+     "q": "Vou ___ cinema. (o cinema)",
+     "a": "ao"
+    },
+    {
+     "q": "Vou ___ praia. (a praia)",
+     "a": "à"
+    },
+    {
+     "q": "Vou ___ casa. (nach Hause)",
+     "a": "para"
+    },
+    {
+     "q": "___ verão faz calor.",
+     "a": "No"
+    },
+    {
+     "q": "___ dois quartos no apartamento.",
+     "a": "Há"
+    },
+    {
+     "q": "em cima ___ mesa (a mesa)",
+     "a": "da"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Die Zukunft: ir + Infinitiv (5 P.)",
+   "items": [
+    {
+     "q": "Hoje estudo. → Amanhã ___",
+     "a": "vou estudar"
+    },
+    {
+     "q": "Wir werden die Tickets buchen. → ___",
+     "a": "Vamos reservar os bilhetes."
+    },
+    {
+     "q": "Sie (Plural) werden spät ankommen. → ___",
+     "a": "Vão chegar tarde."
+    },
+    {
+     "q": "Ich gehe nachher an den Strand. → ___",
+     "a": "Vou logo à praia."
+    },
+    {
+     "q": "Am Samstag werde ich surfen. → ___",
+     "a": "No sábado vou surfar."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "F · Lesen: Um dia normal (5 P.)",
+   "audio": "r22",
+   "text": "Olá! Chamo-me Rita e vivo em Faro, no Algarve. De segunda a sexta levanto-me às sete e meia, tomo um duche e bebo um galão. As aulas começam às nove e acabam às quatro. Ao almoço como uma sandes no jardim da escola, com as minhas amigas.<br>À tarde estudo, mas às vezes vou correr — nunca de manhã, é muito cedo para mim! No inverno fico em casa e leio.<br>Ao fim de semana é diferente: se faz bom tempo, vou à praia com o meu irmão. Ele tem quinze anos e surfa muito bem. Eu não. Eu fico na areia com um livro e digo que estou a treinar a paciência.<br>A semana que vem vou a Lisboa com a minha mãe. Vamos ficar três dias em casa da minha tia. Finalmente!",
+   "gloss": "Erst lesen, dann anhören. Neu erschließen: acabar = enden · o jardim = der Garten · a areia = der Sand · treinar = trainieren · a paciência = die Geduld. Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "A Rita levanta-se às sete e meia.",
+     "a": "Richtig."
+    },
+    {
+     "q": "A Rita corre de manhã.",
+     "a": "Falsch – nie morgens, das ist ihr zu früh."
+    },
+    {
+     "q": "O irmão da Rita surfa bem.",
+     "a": "Richtig – sie selbst nicht."
+    },
+    {
+     "q": "No inverno a Rita vai muito à praia.",
+     "a": "Falsch – im Winter bleibt sie zu Hause und liest."
+    },
+    {
+     "q": "A semana que vem a Rita vai a Lisboa.",
+     "a": "Richtig – drei Tage bei ihrer Tante."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "G · Schreiben: O teu dia e os teus planos (5 P.)",
+   "html": "Schreib fünf Sätze über dich – ohne Spickzettel, 1 Punkt pro korrektem Satz:<br><br>1. Wann du aufstehst (reflexiv!) · 2. Was du morgens machst · 3. Wie oft du Sport machst (<i>sempre / nunca / às vezes</i>) · 4. Wo deine Wohnung liegt (<i>fica…</i>) · 5. Was du nächste Woche vorhast (<i>vou…</i>)<br><br>Muster: <i>Levanto-me às… De manhã… Faço desporto… O meu apartamento fica… A semana que vem vou…</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (43 Punkte)",
+   "html": "<b>37–43:</b> Fantástico! Du sprichst über deinen Alltag, deine Pläne und das Wetter – das ist alles, was man für die ersten Wochen im Land braucht.<br><b>28–36:</b> Gut! Schau auf die Teile mit fehlenden Punkten – C (Pronomen-Stellung) und E (ir + Infinitiv) sind die typischen Wackelkandidaten.<br><b>unter 28:</b> Woche 3 war die grammatikreichste bisher. Wiederhole Tag 17 (Verben komplett) und Tag 19 (Zukunft), dann den Test noch einmal.<br><br>Und sag Claude deine Punktzahl – Woche 4 wird auf deine Lücken zugeschnitten. Woche 4 heißt: <b>Sagres.</b>"
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: O comboio das seis",
+   "audio": "s22",
+   "text": "Sexta-feira, cinco e quarenta da tarde. Estação do Oriente.<br>A Marie chega a correr, com a mala pequena e o cabelo molhado — em Lisboa ainda chove.<br>A Ana está à porta do comboio, com o telemóvel na mão e a paciência no fim.<br>— Falta o João.<br>— Claro que falta o João.<br>Às cinco e cinquenta e cinco, o João aparece. Não tem mala. Tem um saco de plástico.<br>— Onde está a tua mala?<br>— Isto é a minha mala.<br>— O que é que levas aí?<br>— Uma toalha, uma t-shirt e catorze pastéis de nata.<br>A Ana abre a boca. Fecha a boca.<br>O comboio parte às seis em ponto. Lisboa fica para trás, cinzenta e molhada. Meia hora depois, o céu abre.<br>A Marie olha pela janela: campos, sol baixo, e ao longe qualquer coisa azul que ainda não é o mar, mas quase.<br>Escreve uma mensagem: «Vasco, estamos no comboio.»<br>A resposta chega em três segundos:<br>«Finalmente. Amanhã às dez, na praia. Levem calma e boa disposição. Boa onda!»",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: molhado = nass · faltar = fehlen · aparecer = auftauchen · o saco de plástico = die Plastiktüte · a boca = der Mund · em ponto = pünktlich, Punkt (sechs) · ficar para trás = zurückbleiben · cinzento = grau · o campo = das Feld · ao longe = in der Ferne · Levem! = Bringt mit! (Befehlsform – Woche 4)",
+   "questions": [
+    {
+     "q": "O João leva uma mala grande.",
+     "a": "Falsch – eine Plastiktüte mit Handtuch, T-Shirt und vierzehn pastéis de nata."
+    },
+    {
+     "q": "Em Lisboa faz sol.",
+     "a": "Falsch – es regnet. Erst nach einer halben Stunde reißt der Himmel auf."
+    },
+    {
+     "q": "O Vasco espera o grupo na praia às dez.",
+     "a": "Richtig – morgen früh um zehn."
+    }
+   ]
+  }
+ ]
+}

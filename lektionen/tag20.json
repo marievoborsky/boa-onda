@@ -1,0 +1,315 @@
+{
+ "id": "tag20",
+ "title": "Onde é que fica?",
+ "subtitle": "Woche 3 · Tag 20 · Wohnen · há, ficar & Ortsangaben · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 19)",
+   "items": [
+    {
+     "q": "Morgen lerne ich: Amanhã ___ ___.",
+     "a": "vou estudar"
+    },
+    {
+     "q": "Wir werden die Tickets buchen: ___",
+     "a": "Vamos reservar os bilhetes."
+    },
+    {
+     "q": "Bis später! ___",
+     "a": "Até logo!"
+    },
+    {
+     "q": "nächste Woche = ___",
+     "a": "a semana que vem"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Em casa (12)",
+   "items": [
+    {
+     "pt": "o apartamento",
+     "de": "die Wohnung",
+     "ipa": "[ɐpɐɾtɐˈmẽtu]",
+     "audio": "v2001"
+    },
+    {
+     "pt": "o quarto",
+     "de": "das Zimmer, Schlafzimmer",
+     "ipa": "[ˈkwaɾtu]",
+     "audio": "v2002"
+    },
+    {
+     "pt": "a sala",
+     "de": "das Wohnzimmer",
+     "ipa": "[ˈsalɐ]",
+     "audio": "v2003"
+    },
+    {
+     "pt": "a cozinha",
+     "de": "die Küche",
+     "ipa": "[kuˈziɲɐ]",
+     "audio": "v2004"
+    },
+    {
+     "pt": "a casa de banho",
+     "de": "das Bad (EP! Brasilien: banheiro)",
+     "ipa": "[ˈkazɐ dɨ ˈbɐɲu]",
+     "audio": "v2005"
+    },
+    {
+     "pt": "a janela",
+     "de": "das Fenster",
+     "ipa": "[ʒɐˈnɛlɐ]",
+     "audio": "v2006"
+    },
+    {
+     "pt": "a porta",
+     "de": "die Tür",
+     "ipa": "[ˈpɔɾtɐ]",
+     "audio": "v2007"
+    },
+    {
+     "pt": "ficar",
+     "de": "liegen, sich befinden (auch: bleiben)",
+     "ipa": "[fiˈkaɾ]",
+     "audio": "v2008"
+    },
+    {
+     "pt": "em cima de",
+     "de": "auf, über",
+     "ipa": "[ɐ̃j̃ ˈsimɐ dɨ]",
+     "audio": "v2009"
+    },
+    {
+     "pt": "debaixo de",
+     "de": "unter",
+     "ipa": "[dɨˈbajʃu dɨ]",
+     "audio": "v2010"
+    },
+    {
+     "pt": "perto de",
+     "de": "in der Nähe von",
+     "ipa": "[ˈpɛɾtu dɨ]",
+     "audio": "v2011"
+    },
+    {
+     "pt": "longe de",
+     "de": "weit weg von",
+     "ipa": "[ˈlõʒɨ dɨ]",
+     "audio": "v2012"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: há, fica – und wo die Dinge stehen",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Drei Werkzeuge für alles, was mit Orten zu tun hat.<br><br><b>1. há = es gibt.</b> Ein einziges Wort, immer gleich – egal ob eins oder hundert:<br><i><b>Há</b> um quarto. · <b>Há</b> dois quartos. · <b>Não há</b> casa de banho!</i><br>(Es ist übrigens eine Form von <i>haver</i> – aber du brauchst nur diese eine.)<br><br><b>2. ficar = liegen/sich befinden.</b> Wo Deutsche „ist“ sagen, sagt Portugal gern <b>fica</b>:<br><i>O apartamento <b>fica</b> perto do rio. · Onde é que <b>fica</b> a estação?</i><br>Und dasselbe Verb heißt auch „bleiben“: <i><b>Fico</b> em casa.</i><br><br><b>3. Die Ortswörter enden fast alle auf <i>de</i></b> – und <i>de</i> verschmilzt wie immer:<br>em cima <b>da</b> mesa · debaixo <b>da</b> cama · ao lado <b>do</b> café · perto <b>do</b> mar · longe <b>da</b> praia.<br>Ein Wort merken, den Rest kannst du schon. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Wenn du in Portugal nach dem Weg fragst, sagst du fast nie <i>Onde está…?</i> – für Gebäude, Straßen und Orte fragt man <b>Onde é que fica…?</b> <i>Onde é que fica a estação? Onde é que fica a casa de banho?</i> Und genau dieser letzte Satz ist im Urlaub Gold wert: In Portugal heißt es <b>casa de banho</b>, nicht banheiro – und wer nach der <i>toilette</i> sucht, findet oft nur ratlose Blicke. Ein Wort, ein gerettetes Kaffeetrinken."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: O apartamento da Ana",
+   "hint": "Selbst erschlossen: pequeno = klein · o prédio = das Wohnhaus · o andar = die Etage · o elevador = der Aufzug · a cama = das Bett · a vista = die Aussicht · barulhento = laut · valer a pena = sich lohnen.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Onde é que fica o teu apartamento?",
+     "audio": "d2001"
+    },
+    {
+     "who": "Ana",
+     "pt": "Fica na Graça, perto do miradouro. Longe da escola, mas gosto.",
+     "audio": "d2002"
+    },
+    {
+     "who": "Marie",
+     "pt": "É grande?",
+     "audio": "d2003"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não! Há dois quartos, uma sala pequena, cozinha e casa de banho.",
+     "audio": "d2004"
+    },
+    {
+     "who": "Marie",
+     "pt": "E há elevador?",
+     "audio": "d2005"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não há. Quarto andar, a pé. É o meu desporto.",
+     "audio": "d2006"
+    },
+    {
+     "who": "Marie",
+     "pt": "E a vista?",
+     "audio": "d2007"
+    },
+    {
+     "who": "Ana",
+     "pt": "Da janela da cozinha vê-se o rio. Por isso fico aqui.",
+     "audio": "d2008"
+    },
+    {
+     "who": "João",
+     "pt": "E debaixo da cama dela há três pranchas de surf. Nunca usadas.",
+     "audio": "d2009"
+    },
+    {
+     "who": "Ana",
+     "pt": "A partir da semana que vem, usadas!",
+     "audio": "d2010"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · há oder não há?",
+   "items": [
+    {
+     "q": "___ um quarto no apartamento.",
+     "a": "Há"
+    },
+    {
+     "q": "___ dois quartos e uma sala.",
+     "a": "Há"
+    },
+    {
+     "q": "No prédio da Ana ___ elevador. (kein!)",
+     "a": "não há"
+    },
+    {
+     "q": "___ casa de banho no comboio?",
+     "a": "Há"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Verschmelzung: de + Artikel",
+   "items": [
+    {
+     "q": "em cima ___ mesa (a mesa)",
+     "a": "da"
+    },
+    {
+     "q": "debaixo ___ cama (a cama)",
+     "a": "da"
+    },
+    {
+     "q": "ao lado ___ café (o café)",
+     "a": "do"
+    },
+    {
+     "q": "perto ___ mar (o mar)",
+     "a": "do"
+    },
+    {
+     "q": "longe ___ praias (as praias)",
+     "a": "das"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · ficar: die richtige Form",
+   "items": [
+    {
+     "q": "O apartamento ___ perto do rio.",
+     "a": "fica"
+    },
+    {
+     "q": "Hoje eu ___ em casa.",
+     "a": "fico"
+    },
+    {
+     "q": "Onde é que ___ a estação?",
+     "a": "fica"
+    },
+    {
+     "q": "Nós ___ no hostel duas noites.",
+     "a": "ficamos"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O apartamento da Ana fica perto da escola.",
+     "a": "Falsch – weit weg von der Schule, nah am Miradouro."
+    },
+    {
+     "q": "Não há elevador no prédio.",
+     "a": "Richtig – vierter Stock, zu Fuß."
+    },
+    {
+     "q": "Debaixo da cama da Ana há três pranchas.",
+     "a": "Richtig – und ab nächster Woche werden sie endlich benutzt."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Wo liegt der Bahnhof? → ___",
+     "a": "Onde é que fica a estação?"
+    },
+    {
+     "q": "Es gibt kein Bad. → ___",
+     "a": "Não há casa de banho."
+    },
+    {
+     "q": "Das Buch liegt auf dem Tisch. → ___",
+     "a": "O livro está em cima da mesa."
+    },
+    {
+     "q": "Heute bleibe ich zu Hause. → ___",
+     "a": "Hoje fico em casa."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A tua casa",
+   "html": "Beschreib deine Wohnung laut – sechs Sätze:<br><br><i>Moro num apartamento / numa casa. Há … quartos. A cozinha fica ao lado da sala. Da janela vê-se… O meu quarto é… Não há…</i><br><br>Dann die Suchspiel-Variante: Nimm drei Dinge in deinem Zimmer und sag, wo sie liegen – <i>em cima da mesa, debaixo da cama, ao lado da janela</i>. Wer das kann, kann in Portugal auch nach dem Weg fragen."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: O hostel",
+   "audio": "s20",
+   "text": "— Encontrei — diz o João, com o telemóvel na mão. — Hostel em Sagres, quarto para quatro pessoas.<br>— Quatro? — pergunta a Marie. — Somos três.<br>— Somos quatro. O Tomás chega na sexta-feira com a mãe da Ana. A mãe fica em Lagos, ele fica connosco.<br>A Ana levanta os olhos ao céu.<br>— Ele vai falar do Vasco o fim de semana todo.<br>— Ele vai falar do Vasco a vida toda — diz o João.<br>A Marie olha para as fotos do hostel: uma sala com sofás velhos, uma cozinha pequena, uma janela grande.<br>— Fica longe da praia?<br>— Cinco minutos a pé. E há uma coisa importante…<br>— O quê?<br>— Da janela do quarto vê-se o mar.<br>Silêncio. Depois a Ana diz baixinho, para ninguém:<br>— Nunca dormi tão perto do mar.<br>E a Marie percebe que não é só ela que está à espera.",
+   "gloss": "Neu erschließen: encontrei = ich habe gefunden (Perfekt – Woche 4!) · a mão = die Hand · levantar os olhos ao céu = die Augen verdrehen · a vida toda = das ganze Leben · o sofá = das Sofa · a pé = zu Fuß · vê-se = man sieht · nunca dormi = ich habe nie geschlafen (Perfekt) · tão = so · estar à espera = warten, gespannt sein",
+   "questions": [
+    {
+     "q": "O quarto do hostel é para quatro pessoas.",
+     "a": "Richtig – Tomás kommt mit!"
+    },
+    {
+     "q": "O hostel fica longe da praia.",
+     "a": "Falsch – fünf Minuten zu Fuß."
+    },
+    {
+     "q": "Só a Marie está à espera da viagem.",
+     "a": "Falsch – am Ende merkt sie, dass es auch Ana so geht."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Drei Sätze aus dem Kopf: <i>Es gibt zwei Zimmer. · Die Küche liegt neben dem Wohnzimmer. · Wo ist das Bad?</i> Wenn die sitzen, kannst du dich in einer fremden Wohnung – und in einer fremden Stadt – orientieren. Morgen der letzte neue Stoff der Woche: <b>das Wetter</b>. Und damit die Frage, auf die alle warten."
+  }
+ ]
+}

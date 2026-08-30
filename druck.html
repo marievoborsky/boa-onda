@@ -115,7 +115,7 @@ fetch('lektionen/' + id + '.json', { cache: 'no-cache' }).then(r => r.json()).th
   if (solutions.length) {
     const s = document.createElement('section');
     s.className = 'solutions';
-    s.innerHTML = '<h2>✔ Lösungen (erst nach den Übungen anschauen!)</h2>' +
+    s.innerHTML = '<h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px"><polyline points="20 6 9 17 4 12"/></svg> Lösungen (erst nach den Übungen anschauen!)</h2>' +
       solutions.map(g => `<div class="sgroup"><h3>${esc(g.title)}</h3><ol>` +
         g.answers.map(a => `<li>${a}</li>`).join('') + '</ol></div>').join('');
     body.appendChild(s);

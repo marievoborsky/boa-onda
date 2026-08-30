@@ -1,0 +1,314 @@
+{
+ "id": "tag16",
+ "title": "O meu dia",
+ "subtitle": "Woche 3 · Tag 16 · Tagesablauf · -ar-Verben komplett · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Woche 2)",
+   "items": [
+    {
+     "q": "Wie spät ist es? ___",
+     "a": "Que horas são?"
+    },
+    {
+     "q": "7:30 → ___",
+     "a": "São sete e meia."
+    },
+    {
+     "q": "Am Montag: ___ segunda-feira",
+     "a": "na"
+    },
+    {
+     "q": "Ich mag Brot: Gosto ___ pão.",
+     "a": "do"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: O dia a dia (12)",
+   "items": [
+    {
+     "pt": "acordar",
+     "de": "aufwachen",
+     "ipa": "[ɐkuɾˈdaɾ]",
+     "audio": "v1601"
+    },
+    {
+     "pt": "tomar",
+     "de": "nehmen (Frühstück, Duschen, Kaffee)",
+     "ipa": "[tuˈmaɾ]",
+     "audio": "v1602"
+    },
+    {
+     "pt": "começar",
+     "de": "anfangen, beginnen",
+     "ipa": "[kumɨˈsaɾ]",
+     "audio": "v1603"
+    },
+    {
+     "pt": "chegar",
+     "de": "ankommen",
+     "ipa": "[ʃɨˈɡaɾ]",
+     "audio": "v1604"
+    },
+    {
+     "pt": "almoçar",
+     "de": "zu Mittag essen",
+     "ipa": "[aɫmuˈsaɾ]",
+     "audio": "v1605"
+    },
+    {
+     "pt": "jantar",
+     "de": "zu Abend essen (auch: das Abendessen)",
+     "ipa": "[ʒɐ̃ˈtaɾ]",
+     "audio": "v1606"
+    },
+    {
+     "pt": "descansar",
+     "de": "sich ausruhen",
+     "ipa": "[dɨʃkɐ̃ˈsaɾ]",
+     "audio": "v1607"
+    },
+    {
+     "pt": "de manhã",
+     "de": "morgens, am Morgen",
+     "ipa": "[dɨ mɐˈɲɐ̃]",
+     "audio": "v1608"
+    },
+    {
+     "pt": "à tarde",
+     "de": "nachmittags",
+     "ipa": "[a ˈtaɾdɨ]",
+     "audio": "v1609"
+    },
+    {
+     "pt": "à noite",
+     "de": "abends, nachts",
+     "ipa": "[a ˈnojtɨ]",
+     "audio": "v1610"
+    },
+    {
+     "pt": "cedo",
+     "de": "früh",
+     "ipa": "[ˈsedu]",
+     "audio": "v1611"
+    },
+    {
+     "pt": "tarde",
+     "de": "spät",
+     "ipa": "[ˈtaɾdɨ]",
+     "audio": "v1612"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Das -ar-Muster komplett",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Von Tag 6 kennst du <i>falo, falas, fala</i>. Heute kommen die letzten zwei Formen – dann kannst du <b>jedes</b> -ar-Verb. Und das sind Hunderte.<br><br><b>falar (sprechen):</b><br>eu fal<b>o</b> · tu fal<b>as</b> · ele/ela fal<b>a</b><br>nós fal<b>amos</b> · eles/elas/vocês fal<b>am</b><br><br>Streich das <i>-ar</i>, häng die Endung an – fertig: <i>acordo, acordas, acorda, acordamos, acordam</i>. Genauso: trabalhar, estudar, morar, gostar, começar, almoçar, jantar, descansar, custar, comprar…<br><br>Und die Tageszeiten hängst du einfach hinten dran: <i>Estudo <b>de manhã</b>. Trabalho <b>à tarde</b>. Descanso <b>à noite</b>.</i> Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Jetzt kommt ein Trick, der dich sofort natürlicher klingen lässt: <b>lass das Pronomen weg</b>. Die Verbendung sagt ja schon, wer gemeint ist. Also nicht <i>Eu acordo às sete</i>, sondern einfach <b>Acordo às sete.</b> Portugiesen benutzen <i>eu</i> und <i>tu</i> vor allem zur Betonung („ICH stehe früh auf, du nicht“). Wer jeden Satz mit <i>eu</i> beginnt, klingt wie ein Lehrbuch. Weglassen = eingelebt."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: De volta a Lisboa",
+   "hint": "Selbst erschlossen: de volta = zurück · a aula = der Unterricht (kennst du aus „aula de surf“) · tomar um duche = duschen · normalmente = normalerweise · juntas = zusammen (weiblich) · há = es gibt (kommt an Tag 20 richtig dran) · ao lado de = neben · dormes = du schläfst (dormir – ein -ir-Verb, das ist morgen dran!) · fechados = geschlossen.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "De volta a Lisboa! Amanhã começamos as aulas outra vez.",
+     "audio": "d1601"
+    },
+    {
+     "who": "Marie",
+     "pt": "A que horas começam?",
+     "audio": "d1602"
+    },
+    {
+     "who": "Ana",
+     "pt": "Às nove. Normalmente acordo às sete e tomo o pequeno-almoço em casa.",
+     "audio": "d1603"
+    },
+    {
+     "who": "Marie",
+     "pt": "Eu acordo às sete e meia. Tomo um duche e chego cedo.",
+     "audio": "d1604"
+    },
+    {
+     "who": "Ana",
+     "pt": "E almoçamos juntas? Há um café bom ao lado da escola.",
+     "audio": "d1605"
+    },
+    {
+     "who": "Marie",
+     "pt": "Boa ideia! E o João? A que horas acorda?",
+     "audio": "d1606"
+    },
+    {
+     "who": "João",
+     "pt": "Tarde. Muito tarde. Estudo à noite e descanso de manhã.",
+     "audio": "d1607"
+    },
+    {
+     "who": "Ana",
+     "pt": "Tu não descansas de manhã. Tu dormes de manhã!",
+     "audio": "d1608"
+    },
+    {
+     "who": "João",
+     "pt": "Descanso com os olhos fechados. É diferente.",
+     "audio": "d1609"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Setz die -ar-Verben ein",
+   "items": [
+    {
+     "q": "Eu ___ às sete. (acordar)",
+     "a": "acordo"
+    },
+    {
+     "q": "Tu ___ às nove? (começar)",
+     "a": "começas"
+    },
+    {
+     "q": "A Ana ___ em casa. (almoçar)",
+     "a": "almoça"
+    },
+    {
+     "q": "Nós ___ juntas. (estudar)",
+     "a": "estudamos"
+    },
+    {
+     "q": "Os pais ___ muito. (trabalhar)",
+     "a": "trabalham"
+    },
+    {
+     "q": "Vocês ___ tarde. (jantar)",
+     "a": "jantam"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · de manhã, à tarde oder à noite?",
+   "items": [
+    {
+     "q": "Tomo o pequeno-almoço ___ (7:30)",
+     "a": "de manhã"
+    },
+    {
+     "q": "Estudo na biblioteca ___ (15:00)",
+     "a": "à tarde"
+    },
+    {
+     "q": "Janto ___ (20:00)",
+     "a": "à noite"
+    },
+    {
+     "q": "Acordo cedo ___ (6:00)",
+     "a": "de manhã"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Frag zurück (mit é que!)",
+   "items": [
+    {
+     "q": "Du willst wissen, wann Ana aufwacht:",
+     "a": "A que horas é que acordas? / … é que a Ana acorda?"
+    },
+    {
+     "q": "…wo sie zu Mittag isst:",
+     "a": "Onde é que almoças? / Onde é que ela almoça?"
+    },
+    {
+     "q": "…wann der Unterricht anfängt:",
+     "a": "A que horas é que começam as aulas?"
+    },
+    {
+     "q": "…was João abends macht:",
+     "a": "O que é que o João estuda à noite? / O que é que fazes à noite?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "As aulas começam às nove.",
+     "a": "Richtig."
+    },
+    {
+     "q": "A Marie acorda às sete.",
+     "a": "Falsch – às sete e meia. A Ana acorda às sete."
+    },
+    {
+     "q": "O João acorda cedo.",
+     "a": "Falsch – tarde, muito tarde!"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Ich stehe um sieben auf. → ___",
+     "a": "Acordo às sete."
+    },
+    {
+     "q": "Wir essen zusammen zu Mittag. → ___",
+     "a": "Almoçamos juntos. / Almoçamos juntas."
+    },
+    {
+     "q": "Der Unterricht fängt um neun an. → ___",
+     "a": "As aulas começam às nove."
+    },
+    {
+     "q": "Abends ruhe ich mich aus. → ___",
+     "a": "À noite descanso."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O teu dia",
+   "html": "Erzähl deinen eigenen Tag laut – fünf Sätze, jeder mit einem -ar-Verb und einer Uhrzeit:<br><br><i>Acordo às… Tomo o pequeno-almoço… Começo a trabalhar às… Almoço… À noite janto e descanso.</i><br><br>Und dann noch einmal in der <b>nós</b>-Form, als wärt ihr zu zweit: <i>Acordamos, tomamos, começamos…</i> Denk an Liz: das <i>eu</i> weglassen!"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A rotina e o mar",
+   "audio": "s16",
+   "text": "Segunda-feira, seis e meia da manhã. Lisboa acorda devagar.<br>A Marie acorda cedo — mas não por causa das aulas. Primeiro pega no telemóvel e olha para a previsão do tempo em Sagres.<br>Ondas: dois metros. Vento: forte.<br>— Ainda não — diz baixinho.<br>Depois: duche, pequeno-almoço, autocarro, aulas às nove. Ao meio-dia almoça com a Ana. À tarde estudam juntas na biblioteca. À noite janta em casa e escreve as palavras novas no caderno.<br>Na terça: ondas de dois metros. Na quarta: dois metros e meio.<br>Na quinta, à noite, o João pergunta:<br>— Marie, olhas para a previsão quantas vezes por dia?<br>A Marie pensa.<br>— Uma. Ou duas… — e depois, honesta: — Ou seis.<br>— Boa onda — diz o João, com um sorriso. — Já és portuguesa: falas do tempo o dia todo.",
+   "gloss": "Neu erschließen: devagar = langsam · por causa de = wegen · pegar em = greifen nach · baixinho = leise · a biblioteca = die Bibliothek · quantas vezes = wie oft · pensar = denken · honesta = ehrlich · o dia todo = den ganzen Tag",
+   "questions": [
+    {
+     "q": "A Marie acorda cedo por causa das aulas.",
+     "a": "Falsch – wegen der Wellenvorhersage!"
+    },
+    {
+     "q": "Na quarta as ondas são maiores do que na terça.",
+     "a": "Richtig – dois metros e meio."
+    },
+    {
+     "q": "A Marie olha para a previsão seis vezes por dia.",
+     "a": "Richtig – sie gibt es am Ende zu."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kannst du ein beliebiges -ar-Verb in allen fünf Formen? Probier <i>descansar</i> aus dem Kopf. Wenn ja: du beherrschst gerade die größte Verbgruppe des Portugiesischen. Morgen kommen die anderen zwei – <b>-er und -ir</b> – und die Verben, die auf sich selbst zeigen: <i>levantar-<b>se</b></i>."
+  }
+ ]
+}

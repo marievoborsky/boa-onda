@@ -1,0 +1,318 @@
+{
+ "id": "tag17",
+ "title": "Levanto-me cedo",
+ "subtitle": "Woche 3 · Tag 17 · -er/-ir-Verben & reflexive Verben · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 16)",
+   "items": [
+    {
+     "q": "Nós ___ às nove. (começar)",
+     "a": "começamos"
+    },
+    {
+     "q": "Eles ___ tarde. (jantar)",
+     "a": "jantam"
+    },
+    {
+     "q": "morgens = ___",
+     "a": "de manhã"
+    },
+    {
+     "q": "Ich wache früh auf: ___",
+     "a": "Acordo cedo."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Mais verbos (12)",
+   "items": [
+    {
+     "pt": "comer",
+     "de": "essen",
+     "ipa": "[kuˈmeɾ]",
+     "audio": "v1701"
+    },
+    {
+     "pt": "beber",
+     "de": "trinken",
+     "ipa": "[bɨˈbeɾ]",
+     "audio": "v1702"
+    },
+    {
+     "pt": "aprender",
+     "de": "lernen",
+     "ipa": "[ɐpɾẽˈdeɾ]",
+     "audio": "v1703"
+    },
+    {
+     "pt": "perceber",
+     "de": "verstehen (typisch EP!)",
+     "ipa": "[pɨɾsɨˈbeɾ]",
+     "audio": "v1704"
+    },
+    {
+     "pt": "escrever",
+     "de": "schreiben",
+     "ipa": "[ʃkɾɨˈveɾ]",
+     "audio": "v1705"
+    },
+    {
+     "pt": "viver",
+     "de": "leben",
+     "ipa": "[viˈveɾ]",
+     "audio": "v1706"
+    },
+    {
+     "pt": "abrir",
+     "de": "öffnen",
+     "ipa": "[ɐˈbɾiɾ]",
+     "audio": "v1707"
+    },
+    {
+     "pt": "partir",
+     "de": "abfahren, losfahren",
+     "ipa": "[pɐɾˈtiɾ]",
+     "audio": "v1708"
+    },
+    {
+     "pt": "dormir",
+     "de": "schlafen",
+     "ipa": "[duɾˈmiɾ]",
+     "audio": "v1709"
+    },
+    {
+     "pt": "levantar-se",
+     "de": "aufstehen",
+     "ipa": "[lɨvɐ̃ˈtaɾsɨ]",
+     "audio": "v1710"
+    },
+    {
+     "pt": "deitar-se",
+     "de": "sich schlafen legen",
+     "ipa": "[dɐjˈtaɾsɨ]",
+     "audio": "v1711"
+    },
+    {
+     "pt": "chamar-se",
+     "de": "heißen",
+     "ipa": "[ʃɐˈmaɾsɨ]",
+     "audio": "v1712"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: -er, -ir und die Verben mit Spiegel",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Gestern -ar, heute der Rest. Gute Nachricht: -er und -ir sind fast identisch.<br><br><b>comer:</b> com<b>o</b> · com<b>es</b> · com<b>e</b> · com<b>emos</b> · com<b>em</b><br><b>partir:</b> part<b>o</b> · part<b>es</b> · part<b>e</b> · part<b>imos</b> · part<b>em</b><br>Einziger Unterschied: die nós-Form (-<b>e</b>mos / -<b>i</b>mos). Sonst gleich!<br><br><b>Und die Verben mit Spiegel</b> (reflexiv) – das Pronomen hängt hinten dran, mit Bindestrich:<br>levanto-<b>me</b> · levantas-<b>te</b> · levanta-<b>se</b> · levantamo-<b>nos</b> · levantam-<b>se</b><br><i>(Ja: nós verliert sein -s. Portugiesische Eleganz.)</i><br><br><b>Die wichtigste EP-Regel dazu:</b> Nach <b>não</b> und nach Fragewörtern springt das Pronomen nach VORNE:<br><i>Levanto-me cedo.</i> → <i><b>Não me</b> levanto cedo.</i> · <i><b>A que horas te</b> levantas?</i><br>In Brasilien steht es immer vorne – hier hörst du den Unterschied sofort. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Ein Wort, das dich in Portugal sofort verrät – im guten Sinn: <b>perceber</b>. Wo Lehrbücher <i>entender</i> sagen, sagt Portugal <b>Não percebo</b> („ich versteh's nicht“) und fragt am Satzende <b>Percebes?</b> Das hörst du hundertmal am Tag. Und wenn dir jemand zu schnell spricht, ist der Rettungssatz: <b>Não percebi, pode repetir se faz favor?</b> – „Hab ich nicht verstanden, können Sie das wiederholen?“ Den einen Satz auswendig können ist mehr wert als zwanzig Vokabeln."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Duas rotinas",
+   "hint": "Selbst erschlossen: a rotina = die Routine · o pão com manteiga = Brot mit Butter · o chá = der Tee · até = bis · a série = die Serie · nunca = nie · impossível = unmöglich.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "A que horas te levantas, Marie?",
+     "audio": "d1701"
+    },
+    {
+     "who": "Marie",
+     "pt": "Levanto-me às sete e meia. Como pão com manteiga e bebo um chá.",
+     "audio": "d1702"
+    },
+    {
+     "who": "Ana",
+     "pt": "E deitas-te cedo?",
+     "audio": "d1703"
+    },
+    {
+     "who": "Marie",
+     "pt": "Deito-me às onze. Escrevo as palavras novas e depois durmo.",
+     "audio": "d1704"
+    },
+    {
+     "who": "Ana",
+     "pt": "O João não se deita às onze. Ele vive à noite!",
+     "audio": "d1705"
+    },
+    {
+     "who": "João",
+     "pt": "Eu aprendo melhor à noite. A cidade está calma, percebes?",
+     "audio": "d1706"
+    },
+    {
+     "who": "Marie",
+     "pt": "E a que horas te levantas?",
+     "audio": "d1707"
+    },
+    {
+     "who": "João",
+     "pt": "Não me levanto cedo. Nunca. É impossível.",
+     "audio": "d1708"
+    },
+    {
+     "who": "Ana",
+     "pt": "Ele abre os olhos ao meio-dia e diz que ainda é de manhã.",
+     "audio": "d1709"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · -er oder -ir? Setz ein",
+   "items": [
+    {
+     "q": "Eu ___ pão. (comer)",
+     "a": "como"
+    },
+    {
+     "q": "Tu ___ chá? (beber)",
+     "a": "bebes"
+    },
+    {
+     "q": "Nós ___ português. (aprender)",
+     "a": "aprendemos"
+    },
+    {
+     "q": "Nós ___ às oito. (partir)",
+     "a": "partimos"
+    },
+    {
+     "q": "Eles ___ oito horas. (dormir)",
+     "a": "dormem"
+    },
+    {
+     "q": "A Ana ___ em Lisboa. (viver)",
+     "a": "vive"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Reflexiv: die richtige Form",
+   "items": [
+    {
+     "q": "Eu ___ às sete. (levantar-se)",
+     "a": "levanto-me"
+    },
+    {
+     "q": "Tu ___ tarde. (deitar-se)",
+     "a": "deitas-te"
+    },
+    {
+     "q": "Ele ___ João. (chamar-se)",
+     "a": "chama-se"
+    },
+    {
+     "q": "Nós ___ cedo. (levantar-se)",
+     "a": "levantamo-nos"
+    },
+    {
+     "q": "Eles ___ à meia-noite. (deitar-se)",
+     "a": "deitam-se"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Das Pronomen springt nach vorne!",
+   "items": [
+    {
+     "q": "Levanto-me cedo. → Verneint: ___",
+     "a": "Não me levanto cedo."
+    },
+    {
+     "q": "Deitas-te tarde. → Verneint: ___",
+     "a": "Não te deitas tarde."
+    },
+    {
+     "q": "Frag: Um wie viel Uhr stehst du auf? ___",
+     "a": "A que horas te levantas?"
+    },
+    {
+     "q": "Frag: Wie heißt du? ___",
+     "a": "Como te chamas?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie levanta-se às sete e meia.",
+     "a": "Richtig."
+    },
+    {
+     "q": "O João deita-se às onze.",
+     "a": "Falsch – er lebt nachts, „ele vive à noite“."
+    },
+    {
+     "q": "A Marie bebe café ao pequeno-almoço.",
+     "a": "Falsch – chá (Tee)."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Ich stehe um halb acht auf. → ___",
+     "a": "Levanto-me às sete e meia."
+    },
+    {
+     "q": "Ich verstehe nicht. → ___",
+     "a": "Não percebo."
+    },
+    {
+     "q": "Wir lernen Portugiesisch. → ___",
+     "a": "Aprendemos português."
+    },
+    {
+     "q": "Er geht spät schlafen. → ___",
+     "a": "Ele deita-se tarde."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Von morgens bis abends",
+   "html": "Erzähl deinen Tag noch einmal – aber jetzt mit den neuen Verben und mindestens zwei reflexiven Formen:<br><br><i>Levanto-me às… Como… Bebo… Aprendo… À noite escrevo… Deito-me às…</i><br><br>Dann die Gegenprobe, alles verneint: <i>Não me levanto cedo. Não como pão. Não me deito tarde.</i> Achte darauf, wie das Pronomen springt – genau da hört man das europäische Portugiesisch."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: O clube das seis da manhã",
+   "audio": "s17",
+   "text": "Quinta-feira. A Marie levanta-se às seis. Ainda está escuro.<br>Não é por causa das aulas. É por causa do mar.<br>Abre o telemóvel: ondas de dois metros. Fecha o telemóvel. Bebe um chá.<br>Às seis e meia recebe uma mensagem. É o Tomás, do Porto:<br>«Bom dia! Também não durmo. Como estão as ondas?»<br>A Marie sorri e escreve: «Grandes. Ainda não.»<br>«E amanhã?»<br>«Amanhã vemos.»<br>Às sete, outra mensagem — desta vez do João, que nunca se levanta cedo:<br>«Vocês são doidos. São SETE da manhã.»<br>A Marie responde: «Tu também não dormes!»<br>«Eu não me levanto cedo. Eu ainda não me deitei.»",
+   "gloss": "Neu erschließen: escuro = dunkel · fechar = schließen · receber = bekommen · sorrir = lächeln · desta vez = diesmal · doidos = verrückt · vemos = wir sehen (ver) · ainda não me deitei = ich habe mich noch nicht hingelegt (ein winziger Vorgriff aufs Perfekt – kommt in Woche 4!)",
+   "questions": [
+    {
+     "q": "A Marie levanta-se às seis por causa das aulas.",
+     "a": "Falsch – wegen des Meeres (der Wellenvorhersage)."
+    },
+    {
+     "q": "O Tomás também está acordado.",
+     "a": "Richtig – er schreibt um halb sieben."
+    },
+    {
+     "q": "O João levanta-se cedo nesse dia.",
+     "a": "Falsch – er ist noch gar nicht ins Bett gegangen!"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Drei Fragen: Wie heißt <i>nós</i> bei <b>comer</b> und bei <b>partir</b>? Wo steht das Pronomen in <i>Não ___ levanto cedo</i>? Und wie fragst du jemanden nach seinem Namen? Wenn das sitzt, kannst du jetzt <b>alle drei</b> Verbgruppen. Morgen: was du in der Freizeit machst – mit <b>fazer</b> und <b>ir</b>, den zwei wichtigsten unregelmäßigen Verben."
+  }
+ ]
+}
