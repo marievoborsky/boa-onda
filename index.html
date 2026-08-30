@@ -9,8 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Boa Onda">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="fonts/fonts.css" rel="stylesheet">
 <style>
   /* Typo-System: Fancy nur für große Überschriften · Roboto Mono Light für Dünnes · Space Grotesk für Dickeres */
   :root {
@@ -1934,6 +1933,12 @@ function finish(mode) {
 }
 
 goTab('home');
+// Lektionswörter gleich beim Start laden – sonst kennt Hoje die Wackler aus
+// den Lektionen noch nicht und der Lernpool wäre bis zum ersten Caderno-Besuch
+// auf den Kernwortschatz beschränkt.
+ladeLVocab().then(() => {
+  if (document.getElementById('home').style.display === 'block') renderHome();
+});
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }
