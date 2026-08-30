@@ -116,7 +116,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: A previsão",
-   "hint": "Selbst erschlossen: a previsão = die Vorhersage · o grau = das Grad · limpo = klar, sauber · o nevoeiro = der Nebel · a maré = die Gezeiten · perfeito = perfekt · acreditar = glauben.",
+   "hint": "Selbst erschlossen: a previsão = die Vorhersage · o grau = das Grad · limpo = klar, sauber · o nevoeiro = der Nebel · a maré = die Gezeiten · perfeito = perfekt · acreditar = glauben · Diz-me…! = Sag mir…! und Acredita. = Glaub es. (beides Befehlsform – kommt in Woche 4, hier nur zum Erschließen).",
    "lines": [
     {
      "who": "Marie",
@@ -289,7 +289,7 @@
    "questions": [
     {
      "q": "O Vasco diz que o mar vai estar perfeito.",
-     "a": "Fast – er sagt bewusst nicht „perfekt“, aber es ist das beste Wochenende des Monats."
+     "a": "Falsch – er sagt bewusst NICHT „perfekt“ („no mar nunca se diz isso“). Aber: das beste Wochenende des Monats."
     },
     {
      "q": "Em Lisboa está a chover.",
