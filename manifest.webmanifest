@@ -9,12 +9,64 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "categories": ["education"],
+  "categories": [
+    "education"
+  ],
   "background_color": "#f4eee2",
   "theme_color": "#f4eee2",
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
-  ]
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "store-shots/01-hoje.webp",
+      "sizes": "540x960",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Dein Tagesplan"
+    },
+    {
+      "src": "store-shots/02-kurs.webp",
+      "sizes": "540x960",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Die Reise von Porto bis Sagres"
+    },
+    {
+      "src": "store-shots/03-lektion-dialog.webp",
+      "sizes": "540x960",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Dialoge mit echten Stimmen"
+    },
+    {
+      "src": "store-shots/04-leitura.webp",
+      "sizes": "540x960",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Lesetexte zum Antippen"
+    }
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "prefer_related_applications": false
 }
