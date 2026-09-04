@@ -217,7 +217,7 @@
    "type": "story",
    "title": "G · Lesen: A mensagem do Vasco (5 P.)",
    "audio": "r29",
-   "text": "Olá, malta! Chegaram bem a Lisboa? Aqui em Sagres hoje está vento e o mar está grande — a semana passada foi a semana certa.<br>Foi uma boa semana para mim também. A Marie apanhou a primeira onda, a Ana esteve mais tempo dentro de água do que eu, e o João… o João dormiu, mas dormiu com estilo.<br>O Tomás ficou mais dois dias com a mãe. Ontem apanhou uma onda sozinho e chorou. De alegria, diz ele.<br>Marie: no verão a prancha grande está aqui à tua espera. Mas atenção — no verão falamos só português. Sem alemão, sem inglês. Combinado?<br>Boa onda, e até ao verão.<br>Vasco",
+   "text": "Olá, malta! Chegaram bem a Lisboa? Aqui em Sagres hoje está vento e o mar está grande — a semana passada foi a semana certa.<br>Foi uma boa semana para mim também. A Marie apanhou a primeira onda, a Ana esteve mais tempo dentro de água do que eu, e o João… o João dormiu, mas dormiu com estilo.<br>O Tomás fica mais dois dias com a mãe. Hoje apanhou uma onda sozinho e chorou. De alegria, diz ele.<br>Marie: no verão a prancha grande está aqui à tua espera. Mas atenção — no verão falamos só português. Sem alemão, sem inglês. Combinado?<br>Boa onda, e até ao verão.<br>Vasco",
    "gloss": "Erst lesen, dann anhören. Neu erschließen: certo, certa = richtig · com estilo = mit Stil · chorar = weinen · a alegria = die Freude · à tua espera = wartet auf dich · atenção = Achtung · Combinado? = Abgemacht? Richtig oder falsch:",
    "questions": [
     {
@@ -229,8 +229,8 @@
      "a": "Richtig – länger als Vasco selbst."
     },
     {
-     "q": "O Tomás voltou para o Porto com o grupo.",
-     "a": "Falsch – er blieb zwei Tage länger mit seiner Mutter."
+     "q": "O Tomás voltou para Lisboa com o grupo.",
+     "a": "Falsch – er bleibt zwei Tage länger mit seiner Mutter in Sagres."
     },
     {
      "q": "O Tomás apanhou uma onda sozinho.",
@@ -264,8 +264,8 @@
      "a": "Richtig – die fünf am Strand, João mit geschlossenen Augen."
     },
     {
-     "q": "O João vai jantar a casa da Ana.",
-     "a": "Falsch – er „schläft“ (und schreibt gleichzeitig). Marie geht hin und bringt Brot."
+     "q": "A Marie vai jantar a casa da Ana e leva pão.",
+     "a": "Richtig – „Vou. Levo pão.“"
     },
     {
      "q": "A Marie escreve no caderno que volta no verão.",

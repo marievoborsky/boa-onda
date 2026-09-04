@@ -106,7 +106,7 @@
   {
    "type": "note",
    "title": "3 · Dica do Vasco: Die höfliche Befehlsform",
-   "html": "<i>(Sprachnachricht, 8:35 Uhr:)</i> Ihr habt sie schon ein paarmal gesehen: <i>Diz-me! · Lê! · Reservem! · Tragam!</i> Heute lernt ihr, wie man sie <b>selbst</b> baut – und zwar die höfliche Form, die euch jeder Portugiese auf der Straße sagt.<br><br><b>Das Rezept (Sie-Form):</b> Nimm den Stamm und tausch die Endung:<br>• <b>-ar</b>-Verben → <b>-e</b>: <i>virar → <b>Vire</b> à esquerda. · atravessar → <b>Atravesse</b> a praça. · falar → <b>Fale</b> devagar.</i><br>• <b>-er / -ir</b>-Verben → <b>-a</b>: <i>seguir → <b>Siga</b> em frente. · beber → <b>Beba</b> água.</i><br>• Mehrere Personen (ihr/Sie alle): <b>-em / -am</b>: <i><b>Virem</b> à direita. · <b>Sigam</b> em frente.</i><br><br><b>Merkhilfe:</b> Die Endungen sind „vertauscht“ – -ar-Verben kriegen ein <b>e</b>, die anderen ein <b>a</b>.<br><br><b>Und unter Freunden (du)?</b> Da ist die Befehlsform einfach die <b>ele/ela-Form</b> des Präsens: <i>Vira! · Segue! · Fala! · Olha!</i> – deshalb sagt Ana ständig <i>Olha, …</i><br><br><b>Desculpe</b> ist selbst so eine Form (von <i>desculpar</i>, entschuldigen): <i>Desculp<b>e</b></i> zu Fremden, <i>Desculp<b>a</b></i> zu Freunden. Boa onda!"
+   "html": "<i>(Sprachnachricht, 8:35 Uhr:)</i> Ihr habt sie schon ein paarmal gesehen: <i>Diz-me! · Lê! · Reservem! · Tragam!</i> Heute lernt ihr, wie man sie <b>selbst</b> baut – und zwar die höfliche Form, die euch jeder Portugiese auf der Straße sagt.<br><br><b>Das Rezept (Sie-Form):</b> Nimm den Stamm und tausch die Endung:<br>• <b>-ar</b>-Verben → <b>-e</b>: <i>virar → <b>Vire</b> à esquerda. · atravessar → <b>Atravesse</b> a praça. · falar → <b>Fale</b> devagar.</i><br>• <b>-er / -ir</b>-Verben → <b>-a</b>: <i>seguir → <b>Siga</b> em frente. · beber → <b>Beba</b> água.</i> (Bei -ir-Verben wie <i>seguir</i> geht man von der eu-Form aus: <i>sigo → Siga</i>.)<br>• Mehrere Personen (ihr/Sie alle): <b>-em / -am</b>: <i><b>Virem</b> à direita. · <b>Sigam</b> em frente.</i><br><br><b>Merkhilfe:</b> Die Endungen sind „vertauscht“ – -ar-Verben kriegen ein <b>e</b>, die anderen ein <b>a</b>.<br><br><b>Und unter Freunden (du)?</b> Da ist die Befehlsform einfach die <b>ele/ela-Form</b> des Präsens: <i>Vira! · Segue! · Fala! · Olha!</i> – deshalb sagt Ana ständig <i>Olha, …</i><br><br><b>Desculpe</b> ist selbst so eine Form (von <i>desculpar</i>, entschuldigen): <i>Desculp<b>e</b></i> zu Fremden, <i>Desculp<b>a</b></i> zu Freunden. Boa onda!"
   },
   {
    "type": "note",
@@ -258,7 +258,7 @@
      "a": "Falsch – „Não é longe“, fünf Minuten zu Fuß."
     },
     {
-     "q": "Na praça, a Marie tem de virar à direita.",
+     "q": "Na praça, a Marie vira à direita.",
      "a": "Falsch – links („vire à esquerda“). Rechts liegt erst der Busbahnhof nach der Brücke."
     },
     {
