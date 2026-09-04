@@ -1,0 +1,324 @@
+{
+ "id": "tag24",
+ "title": "Onde é a estação?",
+ "subtitle": "Woche 4 · Tag 24 · Nach dem Weg fragen · Höfliche Befehlsform · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 23)",
+   "items": [
+    {
+     "q": "Was ist das hier? → O que é ___?",
+     "a": "isto"
+    },
+    {
+     "q": "Jene Flasche dort: ___ garrafa",
+     "a": "aquela"
+    },
+    {
+     "q": "Wir brauchen Wasser: ___ de água.",
+     "a": "Precisamos"
+    },
+    {
+     "q": "Der Laden ist nah: A loja fica ___ da praia.",
+     "a": "perto"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: O caminho (12)",
+   "items": [
+    {
+     "pt": "Desculpe, …",
+     "de": "Entschuldigen Sie, …",
+     "ipa": "[dɨʃˈkuɫpɨ]",
+     "audio": "v2401"
+    },
+    {
+     "pt": "a estação de autocarros",
+     "de": "der Busbahnhof",
+     "ipa": "[ɨʃtɐˈsɐ̃w̃ dɨ awtɔˈkaʁuʃ]",
+     "audio": "v2402"
+    },
+    {
+     "pt": "a rua",
+     "de": "die Straße",
+     "ipa": "[ˈʁuɐ]",
+     "audio": "v2403"
+    },
+    {
+     "pt": "à esquerda",
+     "de": "links, nach links",
+     "ipa": "[a ɨʃˈkeɾdɐ]",
+     "audio": "v2404"
+    },
+    {
+     "pt": "à direita",
+     "de": "rechts, nach rechts",
+     "ipa": "[a diˈɾɐjtɐ]",
+     "audio": "v2405"
+    },
+    {
+     "pt": "em frente",
+     "de": "geradeaus",
+     "ipa": "[ɐ̃j̃ ˈfɾẽtɨ]",
+     "audio": "v2406"
+    },
+    {
+     "pt": "virar",
+     "de": "abbiegen",
+     "ipa": "[viˈɾaɾ]",
+     "audio": "v2407"
+    },
+    {
+     "pt": "seguir",
+     "de": "weitergehen, folgen",
+     "ipa": "[sɨˈgiɾ]",
+     "audio": "v2408"
+    },
+    {
+     "pt": "atravessar",
+     "de": "überqueren",
+     "ipa": "[ɐtɾɐvɨˈsaɾ]",
+     "audio": "v2409"
+    },
+    {
+     "pt": "a praça",
+     "de": "der Platz",
+     "ipa": "[ˈpɾasɐ]",
+     "audio": "v2410"
+    },
+    {
+     "pt": "a paragem",
+     "de": "die Haltestelle",
+     "ipa": "[pɐˈɾaʒɐ̃j̃]",
+     "audio": "v2411"
+    },
+    {
+     "pt": "a pé",
+     "de": "zu Fuß",
+     "ipa": "[ɐ ˈpɛ]",
+     "audio": "v2412"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Die höfliche Befehlsform",
+   "html": "<i>(Sprachnachricht, 8:35 Uhr:)</i> Ihr habt sie schon ein paarmal gesehen: <i>Diz-me! · Lê! · Reservem! · Tragam!</i> Heute lernt ihr, wie man sie <b>selbst</b> baut – und zwar die höfliche Form, die euch jeder Portugiese auf der Straße sagt.<br><br><b>Das Rezept (Sie-Form):</b> Nimm den Stamm und tausch die Endung:<br>• <b>-ar</b>-Verben → <b>-e</b>: <i>virar → <b>Vire</b> à esquerda. · atravessar → <b>Atravesse</b> a praça. · falar → <b>Fale</b> devagar.</i><br>• <b>-er / -ir</b>-Verben → <b>-a</b>: <i>seguir → <b>Siga</b> em frente. · beber → <b>Beba</b> água.</i><br>• Mehrere Personen (ihr/Sie alle): <b>-em / -am</b>: <i><b>Virem</b> à direita. · <b>Sigam</b> em frente.</i><br><br><b>Merkhilfe:</b> Die Endungen sind „vertauscht“ – -ar-Verben kriegen ein <b>e</b>, die anderen ein <b>a</b>.<br><br><b>Und unter Freunden (du)?</b> Da ist die Befehlsform einfach die <b>ele/ela-Form</b> des Präsens: <i>Vira! · Segue! · Fala! · Olha!</i> – deshalb sagt Ana ständig <i>Olha, …</i><br><br><b>Desculpe</b> ist selbst so eine Form (von <i>desculpar</i>, entschuldigen): <i>Desculp<b>e</b></i> zu Fremden, <i>Desculp<b>a</b></i> zu Freunden. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Drei Dinge, die dir auf der Straße wirklich passieren: Erstens sagt man <b>„Não é longe“</b> – auch wenn es zwanzig Minuten sind. Zweitens beschreiben Portugiesen den Weg mit <i>sempre em frente</i> („immer geradeaus“) und einer Handbewegung, die alles erklärt. Drittens: <i>esquerda</i> klingt wie <b>„schkérda“</b> – das e am Anfang ist fast weg, das s wird zum sch. Übe es dreimal, dann versteht dich auch der Busfahrer."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Desculpe, onde é…?",
+   "hint": "Selbst erschlossen: até à = bis zu · a ponte = die Brücke · depois da ponte = nach der Brücke · ter razão = recht haben · Corram! = Lauft! (correr, Befehlsform für „ihr“) · o senhor = der Herr.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Desculpe, onde é a estação de autocarros?",
+     "audio": "d2401"
+    },
+    {
+     "who": "Senhor",
+     "pt": "A estação? Não é longe. Siga em frente até à praça.",
+     "audio": "d2402"
+    },
+    {
+     "who": "Marie",
+     "pt": "Até à praça… sim.",
+     "audio": "d2403"
+    },
+    {
+     "who": "Senhor",
+     "pt": "Na praça, vire à esquerda. Depois atravesse a ponte.",
+     "audio": "d2404"
+    },
+    {
+     "who": "Marie",
+     "pt": "A ponte? Há uma ponte?",
+     "audio": "d2405"
+    },
+    {
+     "who": "Senhor",
+     "pt": "Há. Depois da ponte, a estação fica à direita. Cinco minutos a pé.",
+     "audio": "d2406"
+    },
+    {
+     "who": "Marie",
+     "pt": "Muito obrigada!",
+     "audio": "d2407"
+    },
+    {
+     "who": "Senhor",
+     "pt": "De nada. Vão para Sagres?",
+     "audio": "d2408"
+    },
+    {
+     "who": "João",
+     "pt": "Vamos. O autocarro é às nove e um quarto.",
+     "audio": "d2409"
+    },
+    {
+     "who": "Senhor",
+     "pt": "Então não sigam em frente. Corram!",
+     "audio": "d2410"
+    },
+    {
+     "who": "Ana",
+     "pt": "Ele tem razão. São nove e cinco!",
+     "audio": "d2411"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Die Befehlsform bilden (Sie)",
+   "items": [
+    {
+     "q": "abbiegen → ___ à esquerda.",
+     "a": "Vire"
+    },
+    {
+     "q": "weitergehen → ___ em frente.",
+     "a": "Siga"
+    },
+    {
+     "q": "überqueren → ___ a praça.",
+     "a": "Atravesse"
+    },
+    {
+     "q": "entschuldigen → ___!",
+     "a": "Desculpe"
+    },
+    {
+     "q": "sprechen (langsam, bitte) → ___ devagar, se faz favor.",
+     "a": "Fale"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Sie-Form → du-Form",
+   "items": [
+    {
+     "q": "Vire à direita. → (du) ___ à direita.",
+     "a": "Vira"
+    },
+    {
+     "q": "Siga em frente. → (du) ___ em frente.",
+     "a": "Segue"
+    },
+    {
+     "q": "Desculpe. → (du) ___.",
+     "a": "Desculpa"
+    },
+    {
+     "q": "Fale devagar. → (du) ___ devagar.",
+     "a": "Fala"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Wo ist es?",
+   "items": [
+    {
+     "q": "Die Bank ist links: O banco fica ___.",
+     "a": "à esquerda"
+    },
+    {
+     "q": "Das Café ist geradeaus: O café é ___.",
+     "a": "em frente"
+    },
+    {
+     "q": "Der Strand ist nah: A praia é ___.",
+     "a": "perto"
+    },
+    {
+     "q": "Der Bahnhof ist weit: A estação é ___.",
+     "a": "longe"
+    },
+    {
+     "q": "Fünf Minuten zu Fuß: cinco minutos ___",
+     "a": "a pé"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A estação de autocarros é longe.",
+     "a": "Falsch – „Não é longe“, fünf Minuten zu Fuß."
+    },
+    {
+     "q": "Na praça, a Marie tem de virar à direita.",
+     "a": "Falsch – links („vire à esquerda“). Rechts liegt erst der Busbahnhof nach der Brücke."
+    },
+    {
+     "q": "O autocarro para Sagres é às nove e um quarto.",
+     "a": "Richtig – und es ist schon fünf nach neun. Corram!"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Entschuldigen Sie, wo ist der Strand? → ___",
+     "a": "Desculpe, onde é a praia?"
+    },
+    {
+     "q": "Gehen Sie geradeaus. → ___",
+     "a": "Siga em frente."
+    },
+    {
+     "q": "Biegen Sie rechts ab. → ___",
+     "a": "Vire à direita."
+    },
+    {
+     "q": "Es ist nicht weit. → ___",
+     "a": "Não é longe."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O caminho para casa",
+   "html": "Beschreib jemandem den Weg von deiner Haustür zum nächsten Supermarkt – laut, mit der Hand in der Luft: <i>Siga em frente… vire à esquerda… atravesse a rua… fica à direita.</i><br><br>Dann die Frage, die du ab jetzt überall stellen kannst, dreimal, mit „schkérda“-Ohr: <i>Desculpe, onde é a estação? Onde é a praia? Onde é a casa de banho?</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Cinco minutos a pé",
+   "audio": "s24",
+   "text": "Nove e seis. Três sacos, três pessoas, uma ponte.<br>— Corram! — grita a Ana.<br>A Marie corre. A Ana corre. O João corre dez metros, para, e diz:<br>— Eu não corro com pão.<br>— Então dá-me o pão!<br>A Ana leva o pão. O João corre. Atravessam a praça, viram à esquerda, atravessam a ponte. As laranjas saltam dentro do saco como bolas.<br>Nove e treze. A estação. Um autocarro azul com a porta aberta e um motorista com cara de quem tem tempo.<br>— Sagres? — pergunta a Marie, sem ar.<br>— Sagres. Mas calma, menina. Este autocarro sai às nove e meia. O das nove e um quarto é o de Lagos para Lagos.<br>Silêncio.<br>— Isso existe? — pergunta o João.<br>— Não. Estou a brincar. Entrem.<br>A Ana senta-se, fecha os olhos e diz para ninguém:<br>— Odeio o sentido de humor deste país.<br>Mas está a sorrir. Todos estão. Em quinze minutos, o autocarro parte para o fim do mundo.",
+   "gloss": "Neu erschließen: gritar = schreien · parar = stehenbleiben · dá-me = gib mir · saltar = hüpfen · a bola = der Ball · azul = blau · aberto, aberta = offen · com cara de quem tem tempo = mit einem Gesicht, das Zeit hat · sem ar = außer Atem · a menina = das Mädchen, „junge Frau“ · sair = losfahren, hinausgehen · Estou a brincar = ich mach nur Spaß · Entrem! = Steigt ein! · odiar = hassen · o sentido de humor = der Humor · o país = das Land · sorrir = lächeln · o fim do mundo = das Ende der Welt (so nennt man Sagres)",
+   "questions": [
+    {
+     "q": "O João corre com o pão.",
+     "a": "Falsch – „Eu não corro com pão.“ Ana nimmt es ihm ab."
+    },
+    {
+     "q": "O autocarro para Sagres sai às nove e um quarto.",
+     "a": "Falsch – um halb zehn. Der Fahrer hat sie nur veräppelt („Estou a brincar“)."
+    },
+    {
+     "q": "No fim, todos estão a sorrir.",
+     "a": "Richtig – auch Ana, obwohl sie den Humor „dieses Landes“ angeblich hasst."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt nach dem Weg fragen, eine Wegbeschreibung verstehen und die <b>höfliche Befehlsform</b> selbst bilden (<i>Vire! Siga! Desculpe!</i>). Der Bus fährt um halb zehn. Morgen: <b>De autocarro para Sagres</b> – Verkehrsmittel, <i>poder</i> und <i>querer</i>… und um zehn Uhr steht jemand am Strand."
+  }
+ ]
+}

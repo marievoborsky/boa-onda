@@ -6,7 +6,8 @@ EP-Auslaut nicht zuverlässig (z. B. „adeus" ohne End-[ʃ]). Google TTS macht
 das korrekt. Dialoge/Vokabeln/Geschichten bleiben ElevenLabs.
 
 Aufruf:
-  python3 tts-tok-google.py           # alle tok-Wörter, überschreibt audio/tok/
+  python3 tts-tok-google.py           # nur NEUE tok-Wörter (inkrementell)
+  python3 tts-tok-google.py --alle    # alles neu, überschreibt audio/tok/
   python3 tts-tok-google.py --nur adeus obrigada   # nur einzelne Wörter
 Danach: sw.js-Cache bumpen + pushen.
 """
@@ -66,6 +67,9 @@ if __name__ == '__main__':
         nur = set(sys.argv[sys.argv.index('--nur') + 1:])
         woerter = [w for w in woerter if w in nur]
     print(f'{len(woerter)} tok-Wörter → {OUT} ({VOICE})', flush=True)
+    if '--alle' not in sys.argv and '--nur' not in sys.argv:
+        woerter = [w for w in woerter if not os.path.exists(os.path.join(OUT, w + '.m4a'))]
+        print(f'  davon neu: {len(woerter)} (--alle erzwingt alles)', flush=True)
     for i, w in enumerate(woerter, 1):
         synth(w, os.path.join(OUT, w + '.m4a'))
         if i % 50 == 0: print(f'  {i}/{len(woerter)}: {w}', flush=True)

@@ -1,0 +1,277 @@
+{
+ "id": "tag29",
+ "title": "Revisão final – Abschlusstest",
+ "subtitle": "Woche 4 · Tag 29 · Staffelfinale · 50 Punkte · ca. 40 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Vier Wochen, ein Test. Erst jede Aufgabe selbst lösen (laut oder im Heft), dann aufdecken und Punkte zählen – ohne Nachschauen. Es geht nicht um die Note: Der Test zeigt dir, was von A1 sitzt und was du in Staffel 2 mitnimmst. Notier dir die Punkte pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Vor dem letzten Test ein Gedanke statt eines Tipps: Sprachen lernt man nicht in Wochen, sondern in <b>Gesprächen</b>. Alles, was du hier abfragst, hast du in vier Wochen mit Ana, João und Vasco erlebt – im Café, im Bus, im Wasser. Wenn du ab jetzt jeden Tag <b>einen</b> Satz laut sagst, den du heute noch nicht gesagt hast, kommt A2 von allein. <i>Boa sorte!</i>"
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln aus vier Wochen (10 P.)",
+   "items": [
+    {
+     "q": "Guten Abend",
+     "a": "Boa noite"
+    },
+    {
+     "q": "die Schwester",
+     "a": "a irmã"
+    },
+    {
+     "q": "der Zug (EP!)",
+     "a": "o comboio"
+    },
+    {
+     "q": "der Bus (EP!)",
+     "a": "o autocarro"
+    },
+    {
+     "q": "das Frühstück (EP!)",
+     "a": "o pequeno-almoço"
+    },
+    {
+     "q": "die Speisekarte (EP!)",
+     "a": "a ementa"
+    },
+    {
+     "q": "links",
+     "a": "à esquerda"
+    },
+    {
+     "q": "gestern",
+     "a": "ontem"
+    },
+    {
+     "q": "das Wetter",
+     "a": "o tempo"
+    },
+    {
+     "q": "zurückkommen",
+     "a": "voltar"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · ser, estar, ter (5 P.)",
+   "items": [
+    {
+     "q": "Eu ___ de Hamburgo. (ser)",
+     "a": "sou"
+    },
+    {
+     "q": "Tu ___ cansado? (estar)",
+     "a": "estás"
+    },
+    {
+     "q": "Nós ___ dezoito anos. (ter)",
+     "a": "temos"
+    },
+    {
+     "q": "O João ___ em Lisboa hoje. (estar)",
+     "a": "está"
+    },
+    {
+     "q": "Eles ___ simpáticos. (ser)",
+     "a": "são"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Verben im Präsens – auch reflexiv (6 P.)",
+   "items": [
+    {
+     "q": "Eu ___ português. (falar)",
+     "a": "falo"
+    },
+    {
+     "q": "Nós ___ peixe. (comer)",
+     "a": "comemos"
+    },
+    {
+     "q": "Eles ___ às sete. (partir)",
+     "a": "partem"
+    },
+    {
+     "q": "Eu ___ às oito. (levantar-se)",
+     "a": "levanto-me"
+    },
+    {
+     "q": "Ela não ___ cedo. (deitar-se)",
+     "a": "se deita"
+    },
+    {
+     "q": "Eu ___ surfar amanhã. (ir)",
+     "a": "vou"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · Die kleinen Wörter (6 P.)",
+   "items": [
+    {
+     "q": "Gosto ___ praia. (de + a)",
+     "a": "da"
+    },
+    {
+     "q": "Vamos ___ café. (a + o)",
+     "a": "ao"
+    },
+    {
+     "q": "Ela mora ___ Porto. (em + o)",
+     "a": "no"
+    },
+    {
+     "q": "Vamos ___ autocarro. (mit dem Bus)",
+     "a": "de"
+    },
+    {
+     "q": "Vamos ___ pé. (zu Fuß)",
+     "a": "a"
+    },
+    {
+     "q": "Preciso ___ água.",
+     "a": "de"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Zeigen und höflich befehlen (6 P.)",
+   "items": [
+    {
+     "q": "Wie viel kostet das hier? → Quanto custa ___?",
+     "a": "isto"
+    },
+    {
+     "q": "jene Flasche dort: ___ garrafa",
+     "a": "aquela"
+    },
+    {
+     "q": "Biegen Sie links ab: ___ à esquerda.",
+     "a": "Vire"
+    },
+    {
+     "q": "Gehen Sie geradeaus: ___ em frente.",
+     "a": "Siga"
+    },
+    {
+     "q": "Darf ich? → ___?",
+     "a": "Posso"
+    },
+    {
+     "q": "Bringen Sie mir die Rechnung: Traga-___ a conta.",
+     "a": "me"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "F · Was gestern war: das Perfekt (8 P.)",
+   "items": [
+    {
+     "q": "Ontem eu ___ (surfar).",
+     "a": "surfei"
+    },
+    {
+     "q": "Tu ___ bem? (dormir)",
+     "a": "dormiste"
+    },
+    {
+     "q": "A Ana ___ uma onda. (apanhar)",
+     "a": "apanhou"
+    },
+    {
+     "q": "Nós ___ no porto. (jantar)",
+     "a": "jantámos"
+    },
+    {
+     "q": "Eu ___ a Sagres. (ir)",
+     "a": "fui"
+    },
+    {
+     "q": "___ um dia perfeito. (ser)",
+     "a": "Foi"
+    },
+    {
+     "q": "Eu ___ medo. (ter)",
+     "a": "tive"
+    },
+    {
+     "q": "O que é que tu ___? (fazer)",
+     "a": "fizeste"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "G · Lesen: A mensagem do Vasco (5 P.)",
+   "audio": "r29",
+   "text": "Olá, malta! Chegaram bem a Lisboa? Aqui em Sagres hoje está vento e o mar está grande — a semana passada foi a semana certa.<br>Foi uma boa semana para mim também. A Marie apanhou a primeira onda, a Ana esteve mais tempo dentro de água do que eu, e o João… o João dormiu, mas dormiu com estilo.<br>O Tomás ficou mais dois dias com a mãe. Ontem apanhou uma onda sozinho e chorou. De alegria, diz ele.<br>Marie: no verão a prancha grande está aqui à tua espera. Mas atenção — no verão falamos só português. Sem alemão, sem inglês. Combinado?<br>Boa onda, e até ao verão.<br>Vasco",
+   "gloss": "Erst lesen, dann anhören. Neu erschließen: certo, certa = richtig · com estilo = mit Stil · chorar = weinen · a alegria = die Freude · à tua espera = wartet auf dich · atenção = Achtung · Combinado? = Abgemacht? Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "Hoje o mar em Sagres está bom para principiantes.",
+     "a": "Falsch – Wind und großes Meer. Letzte Woche war die richtige."
+    },
+    {
+     "q": "A Ana esteve muito tempo dentro de água.",
+     "a": "Richtig – länger als Vasco selbst."
+    },
+    {
+     "q": "O Tomás voltou para o Porto com o grupo.",
+     "a": "Falsch – er blieb zwei Tage länger mit seiner Mutter."
+    },
+    {
+     "q": "O Tomás apanhou uma onda sozinho.",
+     "a": "Richtig – und hat vor Freude geweint."
+    },
+    {
+     "q": "No verão, o Vasco quer falar inglês com a Marie.",
+     "a": "Falsch – nur Portugiesisch. „Combinado?“"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "H · Schreiben: A minha semana em Sagres (4 P.)",
+   "html": "Du bist Marie. Schreib vier Sätze über die Woche – ohne Spickzettel, 1 Punkt pro korrektem Satz:<br><br>1. Womit ihr nach Sagres gefahren seid (<i>Fomos de…</i>) · 2. Was du gestern gemacht hast (<i>Ontem…</i>) · 3. Was du im Restaurant bestellt hast (<i>Pedi…</i>) · 4. Was du versprichst (<i>Prometo…</i> / <i>Eu volto…</i>)<br><br>Muster: <i>Fomos de comboio e de autocarro. Ontem surfei e caí muitas vezes. Pedi uma dourada grelhada. Prometo voltar no verão.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (50 Punkte)",
+   "html": "<b>43–50:</b> Parabéns – das ist A1, und zwar mit Luft nach oben. Du kannst dich vorstellen, bestellen, nach dem Weg fragen, über Alltag, Wetter und Gestern reden. In Portugal kommst du damit durch jeden Tag.<br><b>32–42:</b> Muito bem! Schau auf die Teile mit fehlenden Punkten – F (Perfekt) ist frisch und darf noch wackeln. Nimm dir Tag 27 und 28 noch einmal vor.<br><b>unter 32:</b> Kein Drama: Vier Wochen sind viel Stoff. Wiederhole die Wochentests (Tag 7, 15, 22) und dann diesen Test noch einmal – die zweite Runde ist immer besser.<br><br><b>Was jetzt?</b> Deine Vokabeln warten im Caderno, die Wackler auf der Hoje-Seite. Und wenn du es offiziell willst: Das <b>CIPLE</b> ist die portugiesische A2-Prüfung – Staffel 2 bringt dich dorthin. <b>Staffel 2 · A volta</b> beginnt im Sommer. Bis dahin: Boa onda!"
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: Boa onda",
+   "audio": "s29",
+   "text": "Segunda-feira, sete da tarde. Lisboa.<br>A Marie está à janela do seu quarto, como há quatro semanas. Mas agora a janela tem um postal de Sagres, e a Marie tem sal no cabelo e um caderno cheio.<br>O telemóvel apita. É o grupo.<br>O Vasco mandou uma fotografia: os cinco na praia, com as pranchas, o João de olhos fechados. Por baixo, só duas palavras: «Boa onda.»<br>A Ana escreve: «Quem é que vem jantar? Faço bacalhau.»<br>O João escreve: «Estou a dormir.»<br>A Ana escreve: «Estás a escrever.»<br>O João escreve: «Estou a dormir e a escrever. Sou um homem de muitos talentos.»<br>A Marie ri sozinha, no quarto, em português — porque agora até rir é em português.<br>Escreve: «Vou. Levo pão.»<br>Depois abre o caderno na última página, onde estão as duas palavras de ontem. Por baixo, escreve mais uma linha:<br>«Staffel 2: a volta. No verão. Porto, Coimbra, Algarve — e Sagres outra vez.»<br>Fecha o caderno. Lá fora, o elétrico 28 sobe a rua a chiar, como sempre. Mas hoje soa a música.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: o postal = die Postkarte · o sal = das Salz · cheio = voll · mandou = hat geschickt (mandar) · de olhos fechados = mit geschlossenen Augen · Quem é que vem…? = Wer kommt…? · o bacalhau = der Stockfisch (Nationalgericht) · o homem = der Mann · o talento = das Talent · até = sogar · a linha = die Zeile · a volta = die Rückkehr, die Runde · o elétrico = die Straßenbahn · subir = hinauffahren · chiar = quietschen · soar a = klingen nach",
+   "questions": [
+    {
+     "q": "O Vasco mandou uma fotografia do grupo.",
+     "a": "Richtig – die fünf am Strand, João mit geschlossenen Augen."
+    },
+    {
+     "q": "O João vai jantar a casa da Ana.",
+     "a": "Falsch – er „schläft“ (und schreibt gleichzeitig). Marie geht hin und bringt Brot."
+    },
+    {
+     "q": "A Marie escreve no caderno que volta no verão.",
+     "a": "Richtig – „Staffel 2: a volta. No verão.“ Porto, Coimbra, Algarve, Sagres."
+    }
+   ]
+  }
+ ]
+}

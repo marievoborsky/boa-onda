@@ -1,0 +1,337 @@
+{
+ "id": "tag27",
+ "title": "O que é que fizeste?",
+ "subtitle": "Woche 4 · Tag 27 · Über Gestern reden · Perfekt (regelmäßig) · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 26)",
+   "items": [
+    {
+     "q": "Bringen Sie mir die Speisekarte: Traga-___ a ementa.",
+     "a": "me"
+    },
+    {
+     "q": "Können Sie uns die Rechnung bringen? Pode trazer-___ a conta?",
+     "a": "nos"
+    },
+    {
+     "q": "Für mich, den gegrillten Fisch: ___, o peixe grelhado.",
+     "a": "Para mim"
+    },
+    {
+     "q": "Ich bestelle eine Suppe: Eu ___ uma sopa.",
+     "a": "peço"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Ontem (12)",
+   "items": [
+    {
+     "pt": "ontem",
+     "de": "gestern",
+     "ipa": "[ˈõtɐ̃j̃]",
+     "audio": "v2701"
+    },
+    {
+     "pt": "a semana passada",
+     "de": "letzte Woche",
+     "ipa": "[ɐ sɨˈmɐnɐ pɐˈsadɐ]",
+     "audio": "v2702"
+    },
+    {
+     "pt": "já",
+     "de": "schon",
+     "ipa": "[ʒa]",
+     "audio": "v2703"
+    },
+    {
+     "pt": "ainda não",
+     "de": "noch nicht",
+     "ipa": "[ɐˈĩdɐ ˈnɐ̃w̃]",
+     "audio": "v2704"
+    },
+    {
+     "pt": "a primeira vez",
+     "de": "das erste Mal",
+     "ipa": "[ɐ pɾiˈmɐjɾɐ ˈveʃ]",
+     "audio": "v2705"
+    },
+    {
+     "pt": "apanhar",
+     "de": "fangen, erwischen, nehmen (Bus, Welle)",
+     "ipa": "[ɐpɐˈɲaɾ]",
+     "audio": "v2706"
+    },
+    {
+     "pt": "cair",
+     "de": "fallen",
+     "ipa": "[kɐˈiɾ]",
+     "audio": "v2707"
+    },
+    {
+     "pt": "conseguir",
+     "de": "schaffen, hinbekommen",
+     "ipa": "[kõsɨˈgiɾ]",
+     "audio": "v2708"
+    },
+    {
+     "pt": "adorar",
+     "de": "lieben, total mögen",
+     "ipa": "[ɐduˈɾaɾ]",
+     "audio": "v2709"
+    },
+    {
+     "pt": "tirar uma fotografia",
+     "de": "ein Foto machen",
+     "ipa": "[tiˈɾaɾ ˈumɐ futugɾɐˈfiɐ]",
+     "audio": "v2710"
+    },
+    {
+     "pt": "o medo",
+     "de": "die Angst (ter medo = Angst haben)",
+     "ipa": "[ˈmedu]",
+     "audio": "v2711"
+    },
+    {
+     "pt": "a areia",
+     "de": "der Sand",
+     "ipa": "[ɐˈɾɐjɐ]",
+     "audio": "v2712"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Was gestern war – das Perfekt",
+   "html": "<i>(Sonntagmorgen, Café am Hafen, Vasco mit Bica:)</i> Vier Wochen habt ihr nur in der Gegenwart geredet. Ab heute könnt ihr erzählen, was <b>gestern</b> war – die wichtigste Zeitform nach dem Präsens. Portugiesen nennen sie <i>pretérito perfeito</i>; sie ist EINE Form für „ich surfte“ und „ich habe gesurft“.<br><br><b>-ar</b> (surfar): <i>surf<b>ei</b> · surf<b>aste</b> · surf<b>ou</b> · surf<b>ámos</b> · surf<b>aram</b></i><br><b>-er</b> (comer): <i>com<b>i</b> · com<b>este</b> · com<b>eu</b> · com<b>emos</b> · com<b>eram</b></i><br><b>-ir</b> (dormir): <i>dorm<b>i</b> · dorm<b>iste</b> · dorm<b>iu</b> · dorm<b>imos</b> · dorm<b>iram</b></i><br><br><b>Drei Dinge merken:</b><br>1. Die <b>eu</b>-Form der -ar-Verben endet auf <b>-ei</b>: <i>apanhei, jantei, falei</i>.<br>2. Die <b>nós</b>-Form der -ar-Verben schreibt man in Portugal mit Akzent: <i>jant<b>á</b>mos</i> (gestern) – ohne Akzent <i>jantamos</i> (heute). Ein Strich, ein Tag Unterschied.<br>3. Bei -er und -ir ist die nós-Form gleich wie im Präsens (<i>comemos, dormimos</i>) – der Kontext hilft: <i>Ontem comemos peixe.</i><br><br><b>Die Frage dazu</b> kennt ihr schon aus den Geschichten: <i>O que é que <b>fizeste</b>?</i> – Was hast du gemacht? (<i>fazer</i> ist unregelmäßig – das kommt morgen, versprochen.)<br><br><b>cair</b> bekommt einen Akzent, weil zwei Vokale sich sonst verschlucken: <i>ca<b>í</b>, ca<b>í</b>ste, ca<b>iu</b>, ca<b>í</b>mos, ca<b>í</b>ram</i>. Und ihr seid gestern alle oft gefallen. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Die du-Form auf <b>-aste / -este / -iste</b> klingt in Portugal wie ein einziger Zischlaut: <i>falaste</i> → <b>„falásht“</b>, <i>comeste</i> → <b>„komésht“</b>. Das e am Ende ist weg, das s wird sch. Und die er/sie-Form <i>-ou</i> ist kein „ou“ wie im Deutschen, sondern ein glattes <b>„o“</b>: <i>apanhou</i> → „apanjó“. Wenn du Portugiesen fragst <i>Dormiste bem?</i> und es wie „durmíscht bäng“ klingt, bist du drin."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Domingo de manhã",
+   "hint": "Selbst erschlossen: fizeste = du hast gemacht (fazer – morgen) · contar = zählen · também contam = zählen auch · Eu vi = ich habe gesehen (ver, unregelmäßig) · fechado = geschlossen · sozinha = allein.",
+   "lines": [
+    {
+     "who": "Vasco",
+     "pt": "Bom dia, malta. Então, Marie: o que é que fizeste ontem?",
+     "audio": "d2701"
+    },
+    {
+     "who": "Marie",
+     "pt": "Surfei! Caí muitas vezes, mas apanhei três ondas.",
+     "audio": "d2702"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Três? Eu contei uma.",
+     "audio": "d2703"
+    },
+    {
+     "who": "Marie",
+     "pt": "Uma grande e duas pequenas. As pequenas também contam.",
+     "audio": "d2704"
+    },
+    {
+     "who": "Ana",
+     "pt": "Eu apanhei uma. E nadei muito. Muito.",
+     "audio": "d2705"
+    },
+    {
+     "who": "João",
+     "pt": "Eu descansei.",
+     "audio": "d2706"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Dormiste na areia, João. Eu vi.",
+     "audio": "d2707"
+    },
+    {
+     "who": "João",
+     "pt": "Descansei com os olhos fechados. É diferente.",
+     "audio": "d2708"
+    },
+    {
+     "who": "Marie",
+     "pt": "E depois jantámos no porto. Comi peixe e pedi tudo sozinha.",
+     "audio": "d2709"
+    },
+    {
+     "who": "Ana",
+     "pt": "E a Marie tirou cinquenta fotografias do mar. Cinquenta.",
+     "audio": "d2710"
+    },
+    {
+     "who": "Vasco",
+     "pt": "E hoje?",
+     "audio": "d2711"
+    },
+    {
+     "who": "Marie",
+     "pt": "Hoje vou apanhar dez.",
+     "audio": "d2712"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · -ar-Verben im Perfekt",
+   "items": [
+    {
+     "q": "Eu ___ (surfar) ontem.",
+     "a": "surfei"
+    },
+    {
+     "q": "Tu ___ (falar) com o Vasco?",
+     "a": "falaste"
+    },
+    {
+     "q": "A Ana ___ (apanhar) uma onda.",
+     "a": "apanhou"
+    },
+    {
+     "q": "Nós ___ (jantar) no porto.",
+     "a": "jantámos"
+    },
+    {
+     "q": "Eles ___ (descansar) na praia.",
+     "a": "descansaram"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · -er- und -ir-Verben im Perfekt",
+   "items": [
+    {
+     "q": "Eu ___ (comer) peixe.",
+     "a": "comi"
+    },
+    {
+     "q": "Tu ___ (dormir) bem?",
+     "a": "dormiste"
+    },
+    {
+     "q": "O João ___ (dormir) na areia.",
+     "a": "dormiu"
+    },
+    {
+     "q": "Nós ___ (beber) um galão.",
+     "a": "bebemos"
+    },
+    {
+     "q": "Eles ___ (partir) às seis.",
+     "a": "partiram"
+    },
+    {
+     "q": "Eu ___ (cair) catorze vezes.",
+     "a": "caí"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Heute oder gestern?",
+   "items": [
+    {
+     "q": "Ontem ___ (comer, eu) sopa.",
+     "a": "comi"
+    },
+    {
+     "q": "Hoje ___ (comer, eu) peixe.",
+     "a": "como"
+    },
+    {
+     "q": "A semana passada ___ (estudar, nós) muito.",
+     "a": "estudámos"
+    },
+    {
+     "q": "Agora ___ (estar, nós) a descansar.",
+     "a": "estamos"
+    },
+    {
+     "q": "Ontem ___ (chegar, eles) a Sagres.",
+     "a": "chegaram"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie apanhou três ondas grandes.",
+     "a": "Falsch – eine große und zwei kleine. „As pequenas também contam.“"
+    },
+    {
+     "q": "O João dormiu na areia.",
+     "a": "Richtig – Vasco hat es gesehen. João nennt es „descansar com os olhos fechados“."
+    },
+    {
+     "q": "A Marie tirou cinco fotografias.",
+     "a": "Falsch – fünfzig."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Ich habe gestern gesurft. → ___",
+     "a": "Surfei ontem. / Ontem surfei."
+    },
+    {
+     "q": "Wir haben Fisch gegessen. → ___",
+     "a": "Comemos peixe."
+    },
+    {
+     "q": "Hast du gut geschlafen? → ___",
+     "a": "Dormiste bem?"
+    },
+    {
+     "q": "Sie haben am Strand ausgeruht. → ___",
+     "a": "Eles descansaram na praia. / Descansaram na praia."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O teu dia de ontem",
+   "html": "Erzähl deinen gestrigen Tag laut, nur mit regelmäßigen Verben – fünf Sätze reichen: <i>Ontem acordei às… Tomei o pequeno-almoço… Trabalhei / Estudei… Jantei… Dormi às…</i><br><br>Dann frag jemanden (oder den Spiegel): <i>Dormiste bem? Comeste? Falaste português ontem?</i><br><br>Und eine ehrliche Antwort: <i>Ainda não surfei. Mas já falei português!</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: O caderno, domingo",
+   "audio": "s27",
+   "text": "Domingo de manhã. O hostel ainda dorme; a Marie não. Está à janela do quarto, com o caderno, e vê o mar.<br>Escreve:<br>«Ontem apanhei a minha primeira onda. Caí catorze vezes. Não conto as vezes na areia.<br>O Vasco explicou tudo devagar. A Ana apanhou uma onda e gritou muito. O João dormiu na areia e depois jantou por três.<br>Comemos peixe no porto. Pedi tudo sozinha. Percebi tudo. Quase tudo.<br>À noite o farol piscou e eu não dormi durante uma hora, porque o mar faz barulho e eu adoro esse barulho.<br>Hoje quero apanhar dez ondas. O Vasco diz que cinco chegam.»<br>Fecha o caderno. Lá em baixo, na cozinha, alguém deixou cair uma chávena.<br>— Desculpem! — grita o João. — Estou acordado! São nove e meia!<br>A Marie sorri. Alguém acordou antes das dez. Também é a primeira vez.",
+   "gloss": "Neu erschließen: estar à janela = am Fenster stehen · contar = zählen · explicar = erklären · por três = für drei · durante = während, lang · o barulho = der Lärm, das Rauschen · cinco chegam = fünf reichen · lá em baixo = unten · deixar cair = fallen lassen · a chávena = die Tasse · Desculpem! = Entschuldigt! (ihr-Form) · antes das dez = vor zehn",
+   "questions": [
+    {
+     "q": "A Marie caiu catorze vezes na água.",
+     "a": "Richtig – und die Stürze auf dem Sand zählt sie nicht mit."
+    },
+    {
+     "q": "O João jantou pouco.",
+     "a": "Falsch – „jantou por três“, er hat für drei gegessen."
+    },
+    {
+     "q": "A Marie dormiu logo, sem problemas.",
+     "a": "Falsch – eine Stunde lang nicht, wegen des Meeresrauschens. Aber sie liebt dieses Rauschen."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt erzählen, was gestern war – mit allen regelmäßigen Verben (<b>surfei, comi, dormi</b>) und dem EP-Akzent in <i>jantámos</i>. Was noch fehlt, sind die fünf wichtigsten unregelmäßigen: <i>ser, ir, ter, estar, fazer</i>. Morgen, beim Sonnenuntergang am <b>Cabo de São Vicente</b>: <i>Foi um dia perfeito.</i>"
+  }
+ ]
+}

@@ -1,0 +1,329 @@
+{
+ "id": "tag23",
+ "title": "Isto ou aquilo?",
+ "subtitle": "Woche 4 · Tag 23 · Einkaufen · Demonstrative · ca. 25 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 21 & 22)",
+   "items": [
+    {
+     "q": "Wie ist das Wetter? → ___",
+     "a": "Que tempo faz?"
+    },
+    {
+     "q": "Es regnet gerade: ___",
+     "a": "Está a chover."
+    },
+    {
+     "q": "Der Zug fährt um sechs ab: O comboio ___ às seis.",
+     "a": "parte"
+    },
+    {
+     "q": "Wir werden surfen: ___ surfar.",
+     "a": "Vamos"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: As compras (12)",
+   "items": [
+    {
+     "pt": "este / esta",
+     "de": "dieser / diese (hier, bei mir)",
+     "ipa": "[ˈeʃtɨ / ˈɛʃtɐ]",
+     "audio": "v2301"
+    },
+    {
+     "pt": "esse / essa",
+     "de": "dieser / diese (da, bei dir)",
+     "ipa": "[ˈesɨ / ˈɛsɐ]",
+     "audio": "v2302"
+    },
+    {
+     "pt": "aquele / aquela",
+     "de": "jener / jene (dort)",
+     "ipa": "[ɐˈkelɨ / ɐˈkɛlɐ]",
+     "audio": "v2303"
+    },
+    {
+     "pt": "isto / isso / aquilo",
+     "de": "das hier / das da / das dort",
+     "ipa": "[ˈiʃtu / ˈisu / ɐˈkilu]",
+     "audio": "v2304"
+    },
+    {
+     "pt": "o supermercado",
+     "de": "der Supermarkt",
+     "ipa": "[supɛɾmɨɾˈkadu]",
+     "audio": "v2305"
+    },
+    {
+     "pt": "a loja",
+     "de": "der Laden",
+     "ipa": "[ˈlɔʒɐ]",
+     "audio": "v2306"
+    },
+    {
+     "pt": "comprar",
+     "de": "kaufen",
+     "ipa": "[kõˈpɾaɾ]",
+     "audio": "v2307"
+    },
+    {
+     "pt": "a garrafa",
+     "de": "die Flasche",
+     "ipa": "[gɐˈʁafɐ]",
+     "audio": "v2308"
+    },
+    {
+     "pt": "o saco",
+     "de": "die Tüte, der Beutel",
+     "ipa": "[ˈsaku]",
+     "audio": "v2309"
+    },
+    {
+     "pt": "precisar de",
+     "de": "brauchen",
+     "ipa": "[pɾɨsiˈzaɾ dɨ]",
+     "audio": "v2310"
+    },
+    {
+     "pt": "a laranja",
+     "de": "die Orange",
+     "ipa": "[lɐˈɾɐ̃ʒɐ]",
+     "audio": "v2311"
+    },
+    {
+     "pt": "o troco",
+     "de": "das Wechselgeld",
+     "ipa": "[ˈtɾoku]",
+     "audio": "v2312"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Hier, da, dort",
+   "html": "<i>(Sprachnachricht, Samstag, 7:58 Uhr:)</i> Bom dia, malta! Bevor ihr in den Bus steigt: <i>Comprem água!</i> Und damit ihr im Laden zeigen könnt, was ihr wollt – drei Entfernungen:<br><br><b>este / esta</b> – hier, bei mir: <i>Queria <b>esta</b> garrafa.</i><br><b>esse / essa</b> – da, bei dir (beim Gegenüber): <i><b>Esse</b> pão é fresco?</i><br><b>aquele / aquela</b> – dort, weit weg von uns beiden: <i>Quanto custa <b>aquela</b> prancha?</i><br><br>Sie richten sich nach dem Nomen: <i>este saco · esta loja · estes sacos · estas lojas</i>.<br><br><b>Ohne Nomen</b> – „das (hier/da/dort)“ – gibt es die kurzen Formen: <i>O que é <b>isto</b>? · <b>Isso</b> é protetor solar. · <b>Aquilo</b> é o mar.</i> Und <i>Isso!</i> allein heißt: <b>Genau!</b><br><br><b>Verschmelzungen</b> wie bei do/da: <i>de + este = <b>deste</b> · em + esta = <b>nesta</b> · de + aquele = <b>daquele</b></i>. Beispiel: <i>Gosto <b>desta</b> loja.</i><br><br><b>precisar de</b> = brauchen, immer mit <b>de</b>: <i>Preciso <b>de</b> água. · Precisamos <b>do</b> saco.</i> Até já!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Liz (Talk the Streets)",
+   "html": "Hör auf den <b>Vokal</b>: <i>este</i> [ˈeʃtɨ] ist geschlossen, <i>esta</i> [ˈɛʃtɐ] offen – wie „ä“. Genauso <i>esse</i> [ˈesɨ] und <i>essa</i> [ˈɛsɐ]. Das ist der Unterschied zwischen „dieser“ und „diese“, und Portugiesen hören ihn sofort.<br><br>Und <i>isto</i>? Klingt in echt wie <b>„ischt“</b> – das End-o wird fast verschluckt. Wenn du <i>Quanto custa isto?</i> mit sauberem „ischt“ sagst, bist du im Laden schon halb Einheimische."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Na loja",
+   "hint": "Selbst erschlossen: o vendedor = der Verkäufer · pequeno, pequena = klein (Tag 8) · o quilo = das Kilo · o protetor solar = die Sonnencreme (Tag 8) · com cara de Lisboa = mit Lissabon-Gesicht (= blass!) · tudo = alles · Levamos = wir nehmen (levar).",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Bom dia! Queria uma garrafa de água, se faz favor. Esta.",
+     "audio": "d2301"
+    },
+    {
+     "who": "Vendedor",
+     "pt": "Esta pequena ou aquela grande?",
+     "audio": "d2302"
+    },
+    {
+     "who": "Marie",
+     "pt": "Aquela. E este pão também.",
+     "audio": "d2303"
+    },
+    {
+     "who": "Ana",
+     "pt": "Marie, precisamos de fruta. Olha, essas laranjas são giras.",
+     "audio": "d2304"
+    },
+    {
+     "who": "Marie",
+     "pt": "Quanto custam estas laranjas?",
+     "audio": "d2305"
+    },
+    {
+     "who": "Vendedor",
+     "pt": "Um euro e vinte o quilo.",
+     "audio": "d2306"
+    },
+    {
+     "who": "João",
+     "pt": "E isto? O que é isto?",
+     "audio": "d2307"
+    },
+    {
+     "who": "Vendedor",
+     "pt": "Isso é protetor solar. Para surfistas com cara de Lisboa.",
+     "audio": "d2308"
+    },
+    {
+     "who": "João",
+     "pt": "Levamos dois.",
+     "audio": "d2309"
+    },
+    {
+     "who": "Marie",
+     "pt": "Quanto é tudo?",
+     "audio": "d2310"
+    },
+    {
+     "who": "Vendedor",
+     "pt": "Sete euros e cinquenta. Quer um saco?",
+     "audio": "d2311"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não, obrigada. Tenho este.",
+     "audio": "d2312"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · este, esta, estes, estas … aquele",
+   "items": [
+    {
+     "q": "___ pão (hier bei mir) é fresco.",
+     "a": "Este"
+    },
+    {
+     "q": "Quanto custam ___ laranjas (hier)?",
+     "a": "estas"
+    },
+    {
+     "q": "Queria ___ garrafa (dort).",
+     "a": "aquela"
+    },
+    {
+     "q": "___ saco (da, bei dir) é teu?",
+     "a": "Esse"
+    },
+    {
+     "q": "___ lojas (dort) são caras.",
+     "a": "Aquelas"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · isto, isso, aquilo",
+   "items": [
+    {
+     "q": "Was ist das hier? → O que é ___?",
+     "a": "isto"
+    },
+    {
+     "q": "Das da (bei dir) ist Sonnencreme. → ___ é protetor solar.",
+     "a": "Isso"
+    },
+    {
+     "q": "Das dort ist das Meer. → ___ é o mar.",
+     "a": "Aquilo"
+    },
+    {
+     "q": "Genau! → ___!",
+     "a": "Isso"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · precisar de + do/da",
+   "items": [
+    {
+     "q": "Wir brauchen Wasser: Precisamos ___ água.",
+     "a": "de"
+    },
+    {
+     "q": "Ich brauche das Brot: Preciso ___ pão.",
+     "a": "do"
+    },
+    {
+     "q": "Sie braucht die Tüte: Ela precisa ___ saco.",
+     "a": "do"
+    },
+    {
+     "q": "Brauchst du die Orangen? Precisas ___ laranjas?",
+     "a": "das"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie compra a garrafa pequena.",
+     "a": "Falsch – sie nimmt die große („Aquela.“)."
+    },
+    {
+     "q": "As laranjas custam um euro e vinte o quilo.",
+     "a": "Richtig."
+    },
+    {
+     "q": "O João leva um protetor solar.",
+     "a": "Falsch – zwei („Levamos dois.“)."
+    },
+    {
+     "q": "A Marie quer um saco.",
+     "a": "Falsch – sie hat schon einen („Tenho este.“)."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Wie viel kostet das hier? → ___",
+     "a": "Quanto custa isto?"
+    },
+    {
+     "q": "Ich nehme dieses (hier). → ___",
+     "a": "Levo este. / Quero este. / Levo esta. / Quero esta."
+    },
+    {
+     "q": "Wir brauchen Brot. → ___",
+     "a": "Precisamos de pão."
+    },
+    {
+     "q": "Jene Orangen dort sind teuer. → ___",
+     "a": "Aquelas laranjas são caras."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Na loja",
+   "html": "Stell dich in deine Küche und zeig auf drei Dinge – nah, beim Gegenüber, weit weg: <i>Queria este… Esse… é fresco? Quanto custa aquela…?</i><br><br>Dann deine Einkaufsliste für Sagres, laut: <i>Preciso de água, de pão, de protetor solar…</i> Mindestens fünf Dinge.<br><br>Und die Königsfrage, dreimal mit sauberem „ischt“: <i>Quanto custa isto?</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: As compras",
+   "audio": "s23",
+   "text": "Sábado, oito da manhã. Lagos acorda devagar; o grupo não.<br>A Ana tem uma lista. A Marie tem o dinheiro. O João tem o saco de plástico de ontem — agora vazio, porque os catorze pastéis de nata já não existem.<br>— Precisamos de água, fruta e pão — diz a Ana. — E de protetor solar para o João.<br>— Eu tenho protetor solar.<br>— Tens? Mostra.<br>O João abre o saco. Lá dentro há uma toalha e uma t-shirt.<br>— Está em Lisboa.<br>Na loja, a Marie escolhe: esta garrafa, este pão, aquelas laranjas. Diz «Quanto custa isto?» duas vezes e percebe a resposta duas vezes. Sente-se uma campeã.<br>Só uma coisa corre mal: quando o vendedor pergunta «Quer um saco?», a Marie responde «Sim, obrigada» e o João responde «Não, obrigado» ao mesmo tempo.<br>O vendedor olha para os dois e dá o saco à Marie.<br>— Ela é que manda — diz o João. — Boa escolha.<br>Às oito e meia estão na rua com três sacos e um problema novo: onde é a estação de autocarros?",
+   "gloss": "Neu erschließen: devagar = langsam · o dinheiro = das Geld · ontem = gestern · vazio = leer · já não existem = gibt es nicht mehr · Mostra! = Zeig her! (Befehlsform – morgen) · lá dentro = drinnen · escolher = auswählen · sentir-se = sich fühlen · a campeã = die Meisterin · correr mal = schiefgehen · ao mesmo tempo = gleichzeitig · dar = geben · Ela é que manda = sie hat das Sagen · a escolha = die Wahl",
+   "questions": [
+    {
+     "q": "O João tem protetor solar no saco.",
+     "a": "Falsch – nur Handtuch und T-Shirt. Die Sonnencreme liegt in Lissabon."
+    },
+    {
+     "q": "A Marie percebe as respostas do vendedor.",
+     "a": "Richtig – zweimal gefragt, zweimal verstanden. „Sente-se uma campeã.“"
+    },
+    {
+     "q": "O vendedor dá o saco ao João.",
+     "a": "Falsch – Marie bekommt ihn („Ela é que manda“)."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt im Laden auf Dinge zeigen (<b>este / esse / aquele</b>), nach dem Preis fragen und sagen, was du brauchst (<b>precisar de</b>). Woche 4 hat begonnen – und die drei stehen in Lagos mit drei Tüten und ohne Plan. Morgen: <b>Desculpe, onde é a estação de autocarros?</b> – nach dem Weg fragen, und die erste Befehlsform."
+  }
+ ]
+}
