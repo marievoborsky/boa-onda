@@ -1,11 +1,11 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v7';
+const SHELL = 'boa-onda-shell-v8';
 const AUDIO = 'boa-onda-audio-v1';
 const LEKTIONEN = Array.from({ length: 29 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`);
 const CORE = [
   './index.html', './data.js', './manifest.webmanifest', './descobrir.json',
-  './logo.png', './karte.png', './boa-onda-welle.png', './datenschutz.html',
+  './logo.png', './karte.png', './boa-onda-welle.png', './datenschutz.html', './druck.html',
   './fonts/fonts.css',
   './fonts/robotomono-af121f2f.woff2',
   './fonts/robotomono-fe832705.woff2',
@@ -20,7 +20,7 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(SHELL)
       // einzeln laden: eine fehlende Datei darf die Installation nicht kippen
-      .then(c => Promise.all(CORE.map(u => c.add(u).catch(() => {}))))
+      .then(c => Promise.all(CORE.map(u => c.add(new Request(u, { cache: 'reload' })).catch(() => {}))))
       .then(() => self.skipWaiting())
   );
 });
@@ -66,7 +66,7 @@ self.addEventListener('fetch', e => {
           caches.open(SHELL).then(c => c.put(e.request, kopie)).catch(() => {});
         }
         return res;
-      }).catch(() => caches.match(e.request).then(hit => hit ||
+      }).catch(() => caches.match(e.request, { ignoreSearch: true }).then(hit => hit ||
         caches.match('./index.html')))
     );
   }

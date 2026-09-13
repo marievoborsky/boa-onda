@@ -6,7 +6,9 @@
 <title>Boa Onda – Europäisches Portugiesisch lernen</title>
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#f4eee2">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Boa Onda">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <link href="fonts/fonts.css" rel="stylesheet">
@@ -16,7 +18,7 @@
     --paper: #f4eee2;        /* warmes Papier */
     --card: #fffdf6;         /* Karten-Weiß */
     --ink: #33294a;          /* tiefes Pflaume-Blau */
-    --ink-soft: #7d7490;
+    --ink-soft: #6a6180;
     --lav: #b9a7e6;          /* Lavendel */
     --lav-deep: #7f6ec2;
     --lav-pale: #e6dff5;
@@ -213,7 +215,7 @@
   .exitem:last-child { border-bottom: none; }
   .exitem .q { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .9rem; }
   .exitem .a { display: none; margin-top: .35rem; font-size: .9rem;
-    color: var(--sea); font-weight: 600; }
+    color: #0b6c5f; font-weight: 600; }
   .exitem.open .a { display: block; }
   .exitem .reveal { border: none; background: var(--lav-pale); color: var(--lav-deep);
     font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .74rem;
@@ -306,6 +308,8 @@
   .wsworte { display: flex; flex-wrap: wrap; gap: .4rem .8rem; margin-top: .7rem; }
   .wsworte span { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .78rem; }
   .wsworte span.fund { color: var(--sea); text-decoration: line-through; }
+  /* iOS zoomt bei Eingabefeldern unter 16px in die Seite – deshalb hier fest 16px */
+  .exin, .searchrow input { font-size: 16px; }
 </style>
 </head>
 <body>
@@ -377,6 +381,7 @@
     <div class="lsub" style="margin: .2rem 0 1rem .2rem">Nachschlagen, üben, ausdrucken</div>
     <div id="mais-list"></div>
     <a href="datenschutz.html" class="mono" style="display:block; text-align:center; margin-top:1.6rem; font-size:.62rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); text-decoration:none">Datenschutz</a>
+    <a href="#" onclick="resetStore(); return false" class="mono" style="display:block; text-align:center; margin-top:.8rem; font-size:.62rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); text-decoration:none">Fortschritt zurücksetzen</a>
   </div>
 
   <!-- ========== DESCOBRIR (Landeskunde) ========== -->
@@ -467,7 +472,7 @@
     <div class="topbar">
       <button class="back" onclick="goTab('kurs')">←</button>
       <div class="ltitle" id="l-title"></div>
-      <a class="printlink" id="l-print" href="#" target="_blank" title="Arbeitsblatt drucken"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg> Blatt</a>
+      <a class="printlink" id="l-print" href="#" title="Arbeitsblatt drucken"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg> Blatt</a>
     </div>
     <div class="lsub" id="l-sub"></div>
     <div id="l-body"></div>
@@ -562,10 +567,13 @@ function aktiv(karten, richtig) {
   }
   save(); zeigeStreak();
 }
-function zeigeStreak() {
+function streakAktuell() {
   const t = today(), gestern = today(new Date(Date.now() - 864e5));
   // Streak gilt nur, wenn heute oder gestern gelernt wurde
-  const n = (store.streak.last === t || store.streak.last === gestern) ? store.streak.count : 0;
+  return (store.streak.last === t || store.streak.last === gestern) ? store.streak.count : 0;
+}
+function zeigeStreak() {
+  const n = streakAktuell();
   document.getElementById('streak').textContent = n + (n === 1 ? ' Tag' : ' Tage');
 }
 zeigeStreak();
@@ -661,11 +669,13 @@ function show(id, ausHistory) {
 }
 window.addEventListener('popstate', () => {
   viewStack.pop();
-  const ziel = viewStack[viewStack.length - 1];
-  if (ziel) show(ziel, true);
-  else show('home', true);
+  let ziel = viewStack[viewStack.length - 1] || 'home';
+  // Zurück in eine beendete Lern-/Quiz-Session ergäbe einen toten Screen
+  if (ziel === 'learn' || ziel === 'quiz' || ziel === 'done') { viewStack.length = 0; ziel = 'home'; }
+  if (TABVIEWS.includes(ziel)) goTab(ziel, true);   // neu rendern (Zähler, Haken)
+  else show(ziel, true);
 });
-function goTab(id) {
+function goTab(id, ausHistory) {
   if (id === 'home') renderHome();
   else if (id === 'kurs') renderLessons();
   else if (id === 'textos') renderTextos();
@@ -675,7 +685,7 @@ function goTab(id) {
   else if (id === 'descobrir') renderDescobrir();
   else if (id === 'jogos') renderJogos();
   else if (id === 'fortschritt') renderFortschritt();
-  show(id);
+  show(id, ausHistory);
 }
 
 /* ---------- Lektionen ---------- */
@@ -870,29 +880,35 @@ function renderLessons() {
 }
 function finishLesson() {
   if (curLesson) { store.lessons[curLesson] = today(); save(); }
+  aktiv(0, 0);
   goTab('kurs');
 }
 let curLesson = null;
 function vocabAudioId(pt) {
-  const w = VOCAB.find(v => v.pt === pt);
+  const k = pt.trim().toLowerCase();
+  const w = VOCAB.find(v => v.pt.trim().toLowerCase() === k);
   return w ? w.id : null;
 }
 const PLAY_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 4 20 12 6 20 6 4"/></svg>';
 const MIC_SVG = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>';
 
 /* ---------- Aufnehmen (Shadowing) ---------- */
-let micStream = null, mediaRec = null;
+let micStream = null, mediaRec = null, micBusy = false;
 const recordings = {};   // key → Blob-URL der letzten eigenen Aufnahme
 async function toggleRec(key, btn) {
   if (mediaRec && mediaRec.state === 'recording') { mediaRec.stop(); return; }
+  if (micBusy) return;   // Doppeltipp während der Berechtigungsabfrage
   if (!navigator.mediaDevices || !window.MediaRecorder) {
-    btn.classList.add('err'); btn.title = 'Aufnahme wird von diesem Browser nicht unterstützt'; return;
+    btn.classList.add('err'); meldung('Aufnahme wird von diesem Browser nicht unterstützt.'); return;
   }
+  micBusy = true;
   try {
     micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
   } catch (e) {
-    btn.classList.add('err'); btn.title = 'Mikrofon-Zugriff nicht erlaubt'; return;
+    micBusy = false;
+    btn.classList.add('err'); meldung('Mikrofon-Zugriff nicht erlaubt – bitte in den Einstellungen freigeben.'); return;
   }
+  micBusy = false;
   btn.classList.remove('err'); btn.title = 'Aufnehmen – nochmal tippen zum Stoppen';
   const chunks = [];
   mediaRec = new MediaRecorder(micStream);
@@ -908,8 +924,14 @@ async function toggleRec(key, btn) {
     if (micStream) { micStream.getTracks().forEach(t => t.stop()); micStream = null; }
   };
   btn.classList.add('rec');
-  mediaRec.start();
-  setTimeout(() => { if (mediaRec && mediaRec.state === 'recording') mediaRec.stop(); }, 20000);
+  const rec = mediaRec;   // Timer an DIESE Aufnahme binden, nicht an eine spätere
+  try { rec.start(); }
+  catch (e) {
+    btn.classList.remove('rec'); meldung('Aufnahme konnte nicht gestartet werden.');
+    if (micStream) { micStream.getTracks().forEach(t => t.stop()); micStream = null; }
+    return;
+  }
+  setTimeout(() => { if (rec.state === 'recording') rec.stop(); }, 20000);
 }
 function playMine(key) {
   if (recordings[key]) { audio.src = recordings[key]; audio.play().catch(() => {}); }
@@ -1104,7 +1126,7 @@ function markWord(id, box) {
   const st = store.words[id] || { box: 0, due: today() };
   st.box = box === 1 ? 1 : Math.max(st.box, 2);
   const d = new Date(Date.now() + INTERVALS[st.box] * 864e5);
-  st.due = d.toISOString().slice(0, 10);
+  st.due = today(d);
   store.words[id] = st;
   save();
   document.querySelectorAll('.wtok').forEach(t => {
@@ -1127,6 +1149,11 @@ async function ladeJSON(pfad) {
   const daten = await res.json();
   JSON_CACHE[pfad] = daten;
   return daten;
+}
+function resetStore() {
+  if (!confirm('Wirklich alles zurücksetzen? Lektionen, Vokabelstand und Streak werden gelöscht.')) return;
+  try { localStorage.removeItem('ep-sagres'); localStorage.removeItem('ep-sagres-kaputt'); } catch (e) {}
+  location.reload();
 }
 function ladefehler(elId, text, retryFn) {
   const el = document.getElementById(elId);
@@ -1156,6 +1183,10 @@ function ladeLVocab() {
         for (const sec of L.sections) {
           if (sec.type !== 'vocab') continue;
           for (const it of sec.items) {
+            // Wörter, die schon im Kernwortschatz stehen, nicht doppelt anlegen –
+            // sonst zwei Karten für dasselbe Wort und verzerrte A1-Prozente.
+            const k = it.pt.trim().toLowerCase();
+            if (VOCAB.some(v => v.pt.trim().toLowerCase() === k)) continue;
             if (it.audio) raus.push({ id: it.audio, pt: it.pt, ipa: it.ipa, de: it.de, w: l.w, tag: l.label.split(' ·')[0] });
           }
         }
@@ -1352,7 +1383,7 @@ async function renderFortschritt() {
 
   el.innerHTML = `
     <div style="display:flex; gap:.6rem; margin-bottom:.9rem">
-      ${kachel(store.streak.count + (store.streak.count === 1 ? ' Tag' : ' Tage'), 'Streak')}
+      ${kachel(streakAktuell() + (streakAktuell() === 1 ? ' Tag' : ' Tage'), 'Streak')}
       ${kachel(lek + '/' + LESSONS.length, 'Lektionen')}
       ${kachel(pct + '%', 'von A1')}
     </div>
@@ -1520,7 +1551,9 @@ GAMES.ondas = async function () {
   const tags = shuffle(LESSONS.map(l => l.id)).slice(0, 3);
   let saetze = [];
   for (const t of tags) {
-    const L = await ladeJSON('lektionen/' + t + '.json');
+    let L;
+    try { L = await ladeJSON('lektionen/' + t + '.json'); }
+    catch (e) { ladefehler('jogo-body', 'Die Sätze konnten nicht geladen werden.', () => startJogo('ondas')); return; }
     for (const sec of L.sections) {
       if (sec.type !== 'reading') continue;
       for (const ln of sec.lines) {
@@ -1659,7 +1692,6 @@ function renderBlaetter() {
     a.style.textDecoration = 'none';
     a.style.color = 'inherit';
     a.href = 'druck.html?id=' + l.id;
-    a.target = '_blank';
     a.innerHTML = `
       <div class="icon">B${i + 1}</div>
       <div class="info">
@@ -1781,14 +1813,26 @@ function meldung(text) {
 /* ---------- Lückentext prüfen ---------- */
 function checkEx(row) {
   const inp = row.querySelector('.exin');
-  const norm = t => t.toLowerCase().replace(/\s+/g, ' ').replace(/[.!?,;:]+$/, '').trim();
-  const sol = row.querySelector('.a').textContent.replace(/\(.*?\)/g, ' ');
-  const alts = sol.split(/\/|·| oder /).map(norm).filter(Boolean);
+  // trim VOR der Satzzeichen-Regel: „Gosto de café. / Gosto do café.“ – die erste
+  // Alternative endete sonst auf „. “ und wurde nie akzeptiert.
+  const norm = t => t.toLowerCase().replace(/\s+/g, ' ').trim().replace(/[.!?,;:]+$/, '').trim();
+  const ohneAkzent = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  // Klammern = optional: „Gosto (muito) de peixe.“ gilt mit und ohne „muito“
+  const roh = row.querySelector('.a').textContent;
+  const sol = roh.replace(/\(.*?\)/g, ' ');
+  const alts = (sol + ' / ' + roh.replace(/[()]/g, '')).split(/\/|·| oder /).map(norm).filter(Boolean);
   const val = norm(inp.value || '');
   if (!val) { inp.focus(); return; }
   const blanks = (row.querySelector('.q').textContent.match(/___/g) || []).length;
-  const ok = alts.includes(val) || norm(sol) === val ||
-    (blanks > 1 && alts.length > 1 && alts.every(a => val.includes(a)));
+  const passt = v => alts.includes(v) || norm(sol) === v ||
+    (blanks > 1 && alts.length > 1 && alts.every(a => v.includes(a)));
+  let ok = passt(val);
+  // Akzent-Toleranz: „nao“ statt „não“ zählt, aber mit Hinweis – A1-Lernende
+  // scheitern sonst an der Tastatur, nicht am Wissen.
+  if (!ok && alts.some(a => ohneAkzent(a) === ohneAkzent(val))) {
+    ok = true; meldung('Richtig – nur ein Akzent fehlt. Schau dir die Lösung an.');
+  }
+  aktiv(1, ok ? 1 : 0);
   if (ok) {
     row.classList.add('open', 'exok');
     row.querySelectorAll('button.reveal').forEach(b => b.remove());
@@ -1942,9 +1986,10 @@ function pick(btn, right, w) {
 function finish(mode) {
   show('done');
   if (mode === 'learn') {
-    document.getElementById('done-title').textContent = correct === total ? 'Perfeito!' : 'Boa onda!';
+    const perfekt = Object.keys(wiederholt).length === 0;
+    document.getElementById('done-title').textContent = perfekt ? 'Perfeito!' : 'Boa onda!';
     document.getElementById('done-text').textContent =
-      `${correct} von ${total} Wellen sauber gestanden. ${correct === total ? 'Perfekter Tag in Sagres!' : 'Die Wackler kommen automatisch wieder.'}`;
+      `${Math.min(correct, total)} von ${total} Wellen sauber gestanden. ${perfekt ? 'Perfekter Tag in Sagres!' : 'Die Wackler kommen automatisch wieder.'}`;
   } else {
     document.getElementById('done-title').textContent = qCorrect >= 7 ? 'Fantástico!' : 'Quiz beendet';
     document.getElementById('done-text').textContent = `${qCorrect} von ${qQueue.length} richtig.`;
