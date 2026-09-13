@@ -116,7 +116,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: Planos de sábado",
-   "hint": "Selbst erschlossen: os tempos livres = die Freizeit · o cinema = das Kino · o ginásio = das Fitnessstudio · a piscina = das Schwimmbad · connosco = mit uns (EP! Brasilien: conosco) · leio = ich lese (ler) · ouço = ich höre (ouvir) · vens? = kommst du? (vir) · fico em casa = ich bleibe zu Hause (ficar – Tag 20) · há = es gibt (Tag 20) · andar de um lado para o outro = hin und her laufen · a fome = der Hunger.",
+   "hint": "Selbst erschlossen: a prima = die Cousine · os tempos livres = die Freizeit · o cinema = das Kino · o ginásio = das Fitnessstudio · a piscina = das Schwimmbad · connosco = mit uns (EP! Brasilien: conosco) · leio = ich lese (ler) · ouço = ich höre (ouvir) · vens? = kommst du? (vir) · fico em casa = ich bleibe zu Hause (ficar – Tag 20) · há = es gibt (Tag 20) · andar de um lado para o outro = hin und her laufen · a fome = der Hunger.",
    "lines": [
     {
      "who": "Ana",
@@ -130,7 +130,7 @@
     },
     {
      "who": "Ana",
-     "pt": "Nós vamos sempre correr de manhã. Vens connosco?",
+     "pt": "Eu vou sempre correr de manhã com a minha prima. Vens connosco?",
      "audio": "d1803"
     },
     {
@@ -252,8 +252,8 @@
      "a": "Falsch – „Corro muito mal!“ Sie schwimmt gut."
     },
     {
-     "q": "A Ana e os amigos correm sempre de manhã.",
-     "a": "Richtig."
+     "q": "A Ana corre sempre de manhã com a prima.",
+     "a": "Richtig – und João nie."
     },
     {
      "q": "O João faz desporto à noite.",
@@ -267,7 +267,7 @@
    "items": [
     {
      "q": "Was machst du am Wochenende? → ___",
-     "a": "O que é que fazes ao fim de semana?"
+     "a": "O que é que fazes ao fim de semana? / O que é que fazes no fim de semana?"
     },
     {
      "q": "Ich gehe manchmal ins Kino. → ___",

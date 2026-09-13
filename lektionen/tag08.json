@@ -32,7 +32,7 @@
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: Strand & Surf (14)",
+   "title": "2 · Neue Wörter: Strand & Surf (15)",
    "items": [
     {
      "pt": "a praia",
@@ -117,6 +117,12 @@
      "de": "Euro",
      "ipa": "[ˈewɾu]",
      "audio": "v0814"
+    },
+    {
+     "pt": "a água",
+     "de": "das Wasser",
+     "ipa": "[ˈaɡwɐ]",
+     "audio": "v0815"
     }
    ]
   },
@@ -206,7 +212,7 @@
      "a": "Quanto custa o fato de surf?"
     },
     {
-     "q": "Du willst höflich eine Wasserflasche bestellen: ___",
+     "q": "Du willst höflich ein Wasser bestellen: ___",
      "a": "Queria uma água, por favor."
     },
     {
@@ -295,7 +301,7 @@
     },
     {
      "q": "Es ist sonnig und die Wellen sind klein – perfekt! → ___",
-     "a": "Está sol e as ondas estão pequenas — perfeito!"
+     "a": "Está sol e as ondas estão pequenas. Perfeito! / Está sol e as ondas estão pequenas, perfeito!"
     }
    ]
   },
@@ -308,8 +314,8 @@
    "type": "story",
    "title": "7 · Kleine Geschichte: O fim do mundo",
    "audio": "s08",
-   "text": "Férias! O grupo está em Sagres. Está sol, está vento — e as ondas estão perfeitas. Hoje a Marie tem uma aula de surf com o Vasco. A água está fria, mas a Marie tem um fato de surf.<br>— Vasco, as ondas estão muito grandes!<br>— Não, Marie, estão pequenas. Não tem problema!<br>Uma hora na água… e a Marie surfa! Está muito feliz.<br>— Fantástico! Agora queria um chá quente. Quanto custa o chá no café da praia?<br>— Dois euros.<br>A Marie e a Ana estão no café. O Vasco aluga uma prancha e nada no mar. E o João? O João está na toalha — está muito cansado!",
-   "gloss": "Deine bisher längste Geschichte! Neu erschließen: as férias = die Ferien · a toalha = das Handtuch · uma hora = eine Stunde.",
+   "text": "Férias! O grupo está em Sagres. Está sol, está vento — e as ondas estão perfeitas. Hoje a Marie tem uma aula de surf com o Vasco. A água está fria, mas a Marie tem um fato de surf.<br>— Vasco, as ondas estão muito grandes!<br>— Não, Marie, estão pequenas. Não tem problema!<br>Uma hora na água… e a Marie surfa! Está muito feliz.<br>— Fantástico! Agora queria um chá quente. Quanto custa o chá no café da praia?<br>— Dois euros.<br>A Marie e a Ana estão no café. O Vasco surfa e nada no mar. E o João? O João está na toalha — está muito cansado!",
+   "gloss": "Deine bisher längste Geschichte! Neu erschließen: as férias = die Ferien · a toalha = das Handtuch · uma hora = eine Stunde · o chá = der Tee · com = mit.",
    "questions": [
     {
      "q": "As ondas estão muito grandes.",

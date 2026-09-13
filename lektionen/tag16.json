@@ -116,7 +116,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: De volta a Lisboa",
-   "hint": "Selbst erschlossen: de volta = zurück · a aula = der Unterricht (kennst du aus „aula de surf“) · tomar um duche = duschen · normalmente = normalerweise · juntas = zusammen (weiblich) · há = es gibt (kommt an Tag 20 richtig dran) · ao lado de = neben · dormes = du schläfst (dormir – ein -ir-Verb, das ist morgen dran!) · fechados = geschlossen.",
+   "hint": "Selbst erschlossen: outra vez = wieder, noch einmal · de volta = zurück · a aula = der Unterricht (kennst du aus „aula de surf“) · tomar um duche = duschen · normalmente = normalerweise · juntas = zusammen (weiblich) · há = es gibt (kommt an Tag 20 richtig dran) · ao lado de = neben · dormes = du schläfst (dormir – ein -ir-Verb, das ist morgen dran!) · fechados = geschlossen.",
    "lines": [
     {
      "who": "Ana",
@@ -234,8 +234,8 @@
      "a": "A que horas é que começam as aulas?"
     },
     {
-     "q": "…was João abends macht:",
-     "a": "O que é que o João estuda à noite? / O que é que fazes à noite?"
+     "q": "…was João abends lernt:",
+     "a": "O que é que o João estuda à noite?"
     }
    ]
   },
@@ -289,15 +289,15 @@
    "title": "7 · Kleine Geschichte: A rotina e o mar",
    "audio": "s16",
    "text": "Segunda-feira, seis e meia da manhã. Lisboa acorda devagar.<br>A Marie acorda cedo — mas não por causa das aulas. Primeiro pega no telemóvel e olha para a previsão do tempo em Sagres.<br>Ondas: dois metros. Vento: forte.<br>— Ainda não — diz baixinho.<br>Depois: duche, pequeno-almoço, autocarro, aulas às nove. Ao meio-dia almoça com a Ana. À tarde estudam juntas na biblioteca. À noite janta em casa e escreve as palavras novas no caderno.<br>Na terça: ondas de dois metros. Na quarta: dois metros e meio.<br>Na quinta, à noite, o João pergunta:<br>— Marie, olhas para a previsão quantas vezes por dia?<br>A Marie pensa.<br>— Uma. Ou duas… — e depois, honesta: — Ou seis.<br>— Boa onda — diz o João, com um sorriso. — Já és portuguesa: falas do tempo o dia todo.",
-   "gloss": "Neu erschließen: devagar = langsam · por causa de = wegen · pegar em = greifen nach · baixinho = leise · a biblioteca = die Bibliothek · quantas vezes = wie oft · pensar = denken · honesta = ehrlich · o dia todo = den ganzen Tag",
+   "gloss": "Neu erschließen: ainda = noch · ainda não = noch nicht · devagar = langsam · por causa de = wegen · pegar em = greifen nach · baixinho = leise · a biblioteca = die Bibliothek · quantas vezes = wie oft · pensar = denken · honesta = ehrlich · o dia todo = den ganzen Tag",
    "questions": [
     {
      "q": "A Marie acorda cedo por causa das aulas.",
      "a": "Falsch – wegen der Wellenvorhersage!"
     },
     {
-     "q": "Na quarta as ondas são maiores do que na terça.",
-     "a": "Richtig – dois metros e meio."
+     "q": "Na quarta as ondas têm dois metros e meio.",
+     "a": "Richtig."
     },
     {
      "q": "A Marie olha para a previsão seis vezes por dia.",

@@ -116,7 +116,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: Na loja",
-   "hint": "Selbst erschlossen: o vendedor = der Verkäufer · pequeno, pequena = klein (Tag 8) · o quilo = das Kilo · o protetor solar = die Sonnencreme (Tag 8) · com cara de Lisboa = mit Lissabon-Gesicht (= blass!) · tudo = alles · Levamos = wir nehmen (levar).",
+   "hint": "Selbst erschlossen: o vendedor = der Verkäufer · Quer…? = Möchten Sie…? (querer – kommt an Tag 25) · fresco = frisch · pequeno, pequena = klein (Tag 8) · o quilo = das Kilo · o protetor solar = die Sonnencreme (Tag 8) · com cara de Lisboa = mit Lissabon-Gesicht (= blass!) · tudo = alles · Levamos = wir nehmen (levar).",
    "lines": [
     {
      "who": "Marie",
@@ -282,7 +282,7 @@
     },
     {
      "q": "Ich nehme dieses (hier). → ___",
-     "a": "Levo este. / Quero este. / Levo esta. / Quero esta."
+     "a": "Levo este. / Levo esta."
     },
     {
      "q": "Wir brauchen Brot. → ___",

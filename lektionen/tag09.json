@@ -116,7 +116,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: Bem-vindos ao Porto!",
-   "hint": "Selbst erschlossen: bem-vindos = willkommen · a viagem = die Reise · jovem = jung · Olha! = Schau! · Quem é? = Wer ist das? (quem kennst du von Tag 5).",
+   "hint": "Selbst erschlossen: bem-vindos = willkommen · a viagem = die Reise · jovem = jung · Olha! = Schau! · Quem é? = Wer ist das? (quem kennst du von Tag 5) · diz = sagt (dizer) · Eu sei! = Ich weiß! · compreender = verstehen · todos = alle · à noite = abends · melhor = besser.",
    "lines": [
     {
      "who": "Ana",
@@ -294,8 +294,8 @@
    "type": "story",
    "title": "7 · Kleine Geschichte: Bem-vindos ao Porto!",
    "audio": "s09",
-   "text": "Sábado. A Marie, a Ana e o João estão no Porto — a cidade da Ana. A família da Ana mora numa casa grande: os pais, a avó e o irmão, o Tomás.<br>— Bem-vindos! — diz a mãe da Ana.<br>A avó fala muito… e muito rápido! A Marie não compreende tudo, mas a avó é muito querida.<br>— A tua avó fala rápido! — diz a Marie.<br>— Eu sei! — diz a Ana. — Mas tu compreendes mais e mais. O teu português está fixe!<br>O Tomás tem uma prancha pequena. O João diz: — O teu irmão surfa? Fixe!<br>À noite, o telemóvel da Marie faz „pling“. Uma mensagem de voz… do Vasco: „Olá! Aqui em Sagres… as ondas estão perfeitas…“",
-   "gloss": "Neu erschließen: numa = em + uma · querida = lieb, herzlich · rápido = schnell · o telemóvel = das Handy (EP! In Brasilien: celular) · uma mensagem de voz = eine Sprachnachricht.",
+   "text": "Sábado. A Marie, a Ana e o João estão no Porto — a cidade da Ana. A família da Ana mora numa casa grande: os pais, a avó e o irmão, o Tomás.<br>— Bem-vindos! — diz a mãe da Ana.<br>A avó fala muito… e muito rápido! A Marie não compreende tudo, mas a avó é muito querida.<br>— A tua avó fala rápido! — diz a Marie.<br>— Eu sei! — diz a Ana. — Mas tu compreendes mais e mais. O teu português está fixe!<br>O Tomás tem uma prancha pequena. O João diz: — O teu irmão surfa? Fixe!<br>À noite, o telemóvel do João faz „pling“. Uma mensagem de voz… do Vasco: „Olá! Aqui em Sagres… as ondas estão perfeitas…“",
+   "gloss": "Neu erschließen: diz = sagt · Eu sei! = Ich weiß! · compreendes = du verstehst · sábado = Samstag · numa = em + uma · querida = lieb, herzlich · rápido = schnell · o telemóvel = das Handy (EP! In Brasilien: celular) · uma mensagem de voz = eine Sprachnachricht.",
    "questions": [
     {
      "q": "A família da Ana mora numa casa pequena.",

@@ -506,7 +506,7 @@ const VOCAB = [
  {
   "pt": "agora",
   "de": "jetzt",
-  "ipa": "[ɐˈɡɔɾɐ]",
+  "ipa": "[ɐˈgɔɾɐ]",
   "block": "01-funktionswoerter",
   "id": "w064",
   "say": "agora"
@@ -674,7 +674,7 @@ const VOCAB = [
  {
   "pt": "gostar de",
   "de": "mögen",
-  "ipa": "[ɡuʃˈtaɾ dɨ]",
+  "ipa": "[guʃˈtaɾ dɨ]",
   "block": "02-verben",
   "id": "w085",
   "say": "gostar de"
@@ -730,7 +730,7 @@ const VOCAB = [
  {
   "pt": "até logo",
   "de": "bis später",
-  "ipa": "[ɐˈtɛ ˈlɔɡu]",
+  "ipa": "[ɐˈtɛ ˈlɔgu]",
   "block": "03-begruessung",
   "id": "w092",
   "say": "até logo"
@@ -754,7 +754,7 @@ const VOCAB = [
  {
   "pt": "obrigado / obrigada",
   "de": "danke (m / w)",
-  "ipa": "[obɾiˈɡadu] / [obɾiˈɡadɐ]",
+  "ipa": "[obɾiˈgadu] / [obɾiˈgadɐ]",
   "block": "03-begruessung",
   "id": "w095",
   "say": "obrigado, obrigada"
@@ -970,7 +970,7 @@ const VOCAB = [
  {
   "pt": "segunda-feira",
   "de": "Montag",
-  "ipa": "[sɨˈɡũdɐ ˈfɐjɾɐ]",
+  "ipa": "[sɨˈgũdɐ ˈfɐjɾɐ]",
   "block": "04-zahlen-zeit",
   "id": "w122",
   "say": "segunda-feira"
@@ -1018,7 +1018,7 @@ const VOCAB = [
  {
   "pt": "domingo",
   "de": "Sonntag",
-  "ipa": "[duˈmĩɡu]",
+  "ipa": "[duˈmĩgu]",
   "block": "04-zahlen-zeit",
   "id": "w128",
   "say": "domingo"
@@ -1090,7 +1090,7 @@ const VOCAB = [
  {
   "pt": "o rapaz",
   "de": "Junge",
-  "ipa": "[ʀɐˈpaʃ]",
+  "ipa": "[ʁɐˈpaʃ]",
   "block": "05-familie",
   "id": "w137",
   "say": "o rapaz"
@@ -1098,7 +1098,7 @@ const VOCAB = [
  {
   "pt": "a rapariga",
   "de": "Mädchen",
-  "ipa": "[ʀɐpɐˈɾiɡɐ]",
+  "ipa": "[ʁɐpɐˈɾigɐ]",
   "block": "05-familie",
   "id": "w138",
   "say": "a rapariga"
@@ -1178,7 +1178,7 @@ const VOCAB = [
  {
   "pt": "o amigo / a amiga",
   "de": "Freund / Freundin",
-  "ipa": "[ɐˈmiɡu] / [ɐˈmiɡɐ]",
+  "ipa": "[ɐˈmigu] / [ɐˈmigɐ]",
   "block": "05-familie",
   "id": "w148",
   "say": "o amigo, a amiga"
@@ -1186,7 +1186,7 @@ const VOCAB = [
  {
   "pt": "a água",
   "de": "Wasser",
-  "ipa": "[ˈaɡwɐ]",
+  "ipa": "[ˈagwɐ]",
   "block": "06-essen",
   "id": "w149",
   "say": "a água"
@@ -1418,7 +1418,7 @@ const VOCAB = [
  {
   "pt": "pagar",
   "de": "bezahlen",
-  "ipa": "[pɐˈɡaɾ]",
+  "ipa": "[pɐˈgaɾ]",
   "block": "07-einkaufen",
   "id": "w178",
   "say": "pagar"
@@ -1498,7 +1498,7 @@ const VOCAB = [
  {
   "pt": "a rua",
   "de": "Straße",
-  "ipa": "[ˈʀuɐ]",
+  "ipa": "[ˈʁuɐ]",
   "block": "08-wohnen-stadt",
   "id": "w188",
   "say": "a rua"
@@ -1530,7 +1530,7 @@ const VOCAB = [
  {
   "pt": "o autocarro",
   "de": "Bus",
-  "ipa": "[awtɔˈkaʀu]",
+  "ipa": "[awtɔˈkaʁu]",
   "block": "08-wohnen-stadt",
   "id": "w192",
   "say": "o autocarro"
@@ -1594,7 +1594,7 @@ const VOCAB = [
  {
   "pt": "grande / pequeno",
   "de": "groß / klein",
-  "ipa": "[ˈɡɾɐ̃dɨ] / [pɨˈkenu]",
+  "ipa": "[ˈgɾɐ̃dɨ] / [pɨˈkenu]",
   "block": "09-adjektive",
   "id": "w200",
   "say": "grande, pequeno"
@@ -1674,7 +1674,7 @@ const VOCAB = [
  {
   "pt": "fazer surf",
   "de": "surfen gehen",
-  "ipa": "[ˈsɜɾf]",
+  "ipa": "[fɐˈzeɾ ˈsɐɾfɨ]",
   "block": "10-sagres-surf",
   "id": "w210",
   "say": "fazer surf"
@@ -1690,7 +1690,7 @@ const VOCAB = [
  {
   "pt": "o fato de surf",
   "de": "Neoprenanzug",
-  "ipa": "[ˈfatu]",
+  "ipa": "[ˈfatu dɨ ˈsɐɾfɨ]",
   "block": "10-sagres-surf",
   "id": "w212",
   "say": "o fato de surf"
@@ -1698,7 +1698,7 @@ const VOCAB = [
  {
   "pt": "a aula de surf",
   "de": "Surfstunde",
-  "ipa": "[ˈawlɐ]",
+  "ipa": "[ˈawlɐ dɨ ˈsɐɾfɨ]",
   "block": "10-sagres-surf",
   "id": "w213",
   "say": "a aula de surf"
@@ -1706,7 +1706,7 @@ const VOCAB = [
  {
   "pt": "alugar",
   "de": "mieten",
-  "ipa": "[ɐluˈɡaɾ]",
+  "ipa": "[ɐluˈgaɾ]",
   "block": "10-sagres-surf",
   "id": "w214",
   "say": "alugar"
@@ -1754,7 +1754,7 @@ const VOCAB = [
  {
   "pt": "Queria uma aula de surf.",
   "de": "Ich hätte gern eine Surfstunde.",
-  "ipa": "",
+  "ipa": "[kɨˈɾiɐ ˈumɐ ˈawlɐ dɨ ˈsɐɾfɨ]",
   "block": "10-sagres-surf",
   "id": "w220",
   "say": "Queria uma aula de surf."
@@ -1762,17 +1762,17 @@ const VOCAB = [
  {
   "pt": "Posso alugar uma prancha?",
   "de": "Kann ich ein Brett mieten?",
-  "ipa": "",
+  "ipa": "[ˈpɔsu ɐluˈgaɾ ˈumɐ ˈpɾɐ̃ʃɐ]",
   "block": "10-sagres-surf",
   "id": "w221",
   "say": "Posso alugar uma prancha?"
  },
  {
-  "pt": "Quanto custa?",
-  "de": "Was kostet das?",
-  "ipa": "[ˈkwɐ̃tu ˈkuʃtɐ]",
+  "pt": "Quanto custa a aula?",
+  "de": "Was kostet die Stunde?",
+  "ipa": "[ˈkwɐ̃tu ˈkuʃtɐ ɐ ˈawlɐ]",
   "block": "10-sagres-surf",
   "id": "w222",
-  "say": "Quanto custa?"
+  "say": "Quanto custa a aula?"
  }
 ];

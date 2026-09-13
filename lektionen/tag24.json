@@ -228,7 +228,7 @@
    "title": "5c · Wo ist es?",
    "items": [
     {
-     "q": "Die Bank ist links: O banco fica ___.",
+     "q": "Der Laden ist links: A loja fica ___.",
      "a": "à esquerda"
     },
     {
@@ -299,11 +299,11 @@
    "title": "7 · Kleine Geschichte: Cinco minutos a pé",
    "audio": "s24",
    "text": "Nove e seis. Três sacos, três pessoas, uma ponte.<br>— Corram! — grita a Ana.<br>A Marie corre. A Ana corre. O João corre dez metros, para, e diz:<br>— Eu não corro com pão.<br>— Então dá-me o pão!<br>A Ana leva o pão. O João corre. Atravessam a praça, viram à esquerda, atravessam a ponte. As laranjas saltam dentro do saco como bolas.<br>Nove e treze. A estação. Um autocarro azul com a porta aberta e um motorista com cara de quem tem tempo.<br>— Sagres? — pergunta a Marie, sem ar.<br>— Sagres. Mas calma, menina. Este autocarro sai às nove e meia. O das nove e um quarto é o de Lagos para Lagos.<br>Silêncio.<br>— Isso existe? — pergunta o João.<br>— Não. Estou a brincar. Entrem.<br>A Ana senta-se, fecha os olhos e diz para ninguém:<br>— Odeio o sentido de humor deste país.<br>Mas está a sorrir. Todos estão. Em quinze minutos, o autocarro parte para o fim do mundo.",
-   "gloss": "Neu erschließen: gritar = schreien · parar = stehenbleiben · dá-me = gib mir · saltar = hüpfen · a bola = der Ball · azul = blau · aberto, aberta = offen · com cara de quem tem tempo = mit einem Gesicht, das Zeit hat · sem ar = außer Atem · a menina = das Mädchen, „junge Frau“ · sair = losfahren, hinausgehen · Estou a brincar = ich mach nur Spaß · Entrem! = Steigt ein! · odiar = hassen · o sentido de humor = der Humor · o país = das Land · sorrir = lächeln · o fim do mundo = das Ende der Welt (so nennt man Sagres)",
+   "gloss": "Neu erschließen: gritar = schreien · parar = stehenbleiben · dá-me = gib mir · saltar = hüpfen · a bola = der Ball · o motorista = der Fahrer (morgen Vokabel) · existir = existieren · azul = blau · aberto, aberta = offen · com cara de quem tem tempo = mit einem Gesicht, das Zeit hat · sem ar = außer Atem · a menina = das Mädchen, „junge Frau“ · sair = losfahren, hinausgehen · Estou a brincar = ich mach nur Spaß · Entrem! = Steigt ein! · odiar = hassen · o sentido de humor = der Humor · o país = das Land · sorrir = lächeln · o fim do mundo = das Ende der Welt (so nennt man Sagres)",
    "questions": [
     {
-     "q": "O João corre com o pão.",
-     "a": "Falsch – „Eu não corro com pão.“ Ana nimmt es ihm ab."
+     "q": "O João corre até à estação com o pão.",
+     "a": "Falsch – nach zehn Metern bleibt er stehen („Eu não corro com pão“). Ana nimmt es ihm ab."
     },
     {
      "q": "O autocarro para Sagres sai às nove e um quarto.",

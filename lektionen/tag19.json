@@ -116,7 +116,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: A reserva",
-   "hint": "Selbst erschlossen: a reserva = die Buchung · o telemóvel = das Handy · o site = die Webseite · caro = teuer (von Tag 13!) · esperar = warten (von Tag 14) · a boleia = die Mitfahrgelegenheit · o carro = das Auto · a carrinha = der Kleinbus · na mesma = trotzdem · vemos = wir sehen weiter · seguro = sicher · a boa disposição = die gute Laune.",
+   "hint": "Selbst erschlossen: a reserva = die Buchung · só = nur · de comboio / de autocarro = mit dem Zug / mit dem Bus · a lógica = die Logik · maravilhosa = wunderbar · mais seguro = sicherer · a boleia = die Mitfahrgelegenheit · o carro = das Auto · a carrinha = der Kleinbus · na mesma = trotzdem · vemos = wir sehen weiter · seguro = sicher · a boa disposição = die gute Laune.",
    "lines": [
     {
      "who": "Ana",
@@ -150,7 +150,7 @@
     },
     {
      "who": "Ana",
-     "pt": "Com o Tomás connosco numa carrinha velha? Não. Vamos de comboio, é mais seguro.",
+     "pt": "Com o Tomás em Sagres numa carrinha velha? Não. Vamos de comboio, é mais seguro.",
      "audio": "d1907"
     },
     {
@@ -263,7 +263,7 @@
     },
     {
      "q": "Nächste Woche fahre ich nach Porto. → ___",
-     "a": "A semana que vem vou ao Porto. / … vou a Porto."
+     "a": "A semana que vem vou ao Porto."
     },
     {
      "q": "Bis später! → ___",

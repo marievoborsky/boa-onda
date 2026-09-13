@@ -112,11 +112,11 @@
   {
    "type": "reading",
    "title": "4 · Lesen: Este é o João",
-   "hint": "Selbst erschließen: a minha cidade = meine Stadt · fantástica = fantastisch (Wörter auf -isch enden oft auf -ico/-ica) · não é? = nicht wahr?",
+   "hint": "Selbst erschließen: o meu amigo / a minha amiga = mein Freund / meine Freundin · a minha cidade = meine Stadt · fantástica = fantastisch (Wörter auf -isch enden oft auf -ico/-ica) · não é? = nicht wahr?",
    "lines": [
     {
      "who": "Ana",
-     "pt": "Olá, Marie! Este é o João.",
+     "pt": "Olá, Marie! Este é o João, o meu amigo.",
      "audio": "d0201"
     },
     {
@@ -182,19 +182,19 @@
    "title": "5b · Männlich oder weiblich? Ergänze die Endung",
    "items": [
     {
-     "q": "O Tim é alem___.",
+     "q": "O Tim é ___. (deutsch)",
      "a": "alemão"
     },
     {
-     "q": "A Marie é alem___.",
+     "q": "A Marie é ___. (deutsch)",
      "a": "alemã"
     },
     {
-     "q": "A Ana é portugues___.",
+     "q": "A Ana é ___. (portugiesisch)",
      "a": "portuguesa"
     },
     {
-     "q": "O João é portugu___.",
+     "q": "O João é ___. (portugiesisch)",
      "a": "português"
     }
    ]
@@ -234,8 +234,8 @@
      "a": "Richtig – sie ist Deutsche."
     },
     {
-     "q": "A Ana e o João são amigos.",
-     "a": "Richtig."
+     "q": "O João é o amigo da Ana.",
+     "a": "Richtig – „Este é o João, o meu amigo.“"
     }
    ]
   },
