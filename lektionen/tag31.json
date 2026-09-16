@@ -1,246 +1,270 @@
 {
  "id": "tag31",
- "title": "Quando era pequena",
- "subtitle": "Staffel 2 · Woche 5 · Tag 31 · Wie es früher war · Imperfekt · ca. 30 Min.",
+ "title": "A avó conta",
+ "subtitle": "Staffel 2 · Woche 5 · Tag 31 · Perfekt oder Imperfekt? · ca. 30 Min.",
  "sections": [
   {
    "type": "exercise",
    "title": "1 · Aufwärmen (von Tag 30)",
    "items": [
     {
-     "q": "Ich bin vor einem Jahr angekommen: Cheguei ___ um ano.",
-     "a": "há"
+     "q": "Als ich klein war: Quando ___ pequena",
+     "a": "era"
     },
     {
-     "q": "Seit März: ___ março",
-     "a": "desde"
+     "q": "Wir wohnten in Porto: ___ no Porto. (viver)",
+     "a": "Vivíamos"
     },
     {
-     "q": "Ich habe euch vermisst: Tive ___ vossas.",
-     "a": "saudades"
+     "q": "Es gab keine Autos: Não ___ carros.",
+     "a": "havia"
     },
     {
-     "q": "Wir sind mit dem Auto gekommen: ___ de carro. (vir)",
-     "a": "Viemos"
+     "q": "Sie war acht: ___ oito anos.",
+     "a": "Tinha"
     }
    ]
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: Antigamente (14)",
+   "title": "2 · Neue Wörter: Uma história (14)",
    "items": [
     {
-     "pt": "antigamente",
-     "de": "früher",
-     "ipa": "[ɐ̃tigɐˈmẽtɨ]",
+     "pt": "enquanto",
+     "de": "während",
+     "ipa": "[ẽˈkwɐ̃tu]",
      "audio": "v3101"
     },
     {
-     "pt": "a infância",
-     "de": "die Kindheit",
-     "ipa": "[ĩˈfɐ̃sjɐ]",
+     "pt": "de repente",
+     "de": "plötzlich",
+     "ipa": "[dɨ ʁɨˈpẽtɨ]",
      "audio": "v3102"
     },
     {
-     "pt": "brincar",
-     "de": "spielen (als Kind)",
-     "ipa": "[bɾĩˈkaɾ]",
+     "pt": "naquela altura",
+     "de": "damals",
+     "ipa": "[nɐˈkɛlɐ aɫˈtuɾɐ]",
      "audio": "v3103"
     },
     {
-     "pt": "a escola",
-     "de": "die Schule",
-     "ipa": "[ɨʃˈkɔlɐ]",
+     "pt": "conhecer",
+     "de": "kennenlernen, kennen",
+     "ipa": "[kuɲɨˈseɾ]",
      "audio": "v3104"
     },
     {
-     "pt": "o bairro",
-     "de": "das Viertel",
-     "ipa": "[ˈbajʁu]",
+     "pt": "apaixonar-se (por)",
+     "de": "sich verlieben (in)",
+     "ipa": "[ɐpajʃuˈnaɾsɨ]",
      "audio": "v3105"
     },
     {
-     "pt": "viver",
-     "de": "leben, wohnen",
-     "ipa": "[viˈveɾ]",
+     "pt": "casar-se (com)",
+     "de": "heiraten",
+     "ipa": "[kɐˈzaɾsɨ]",
      "audio": "v3106"
     },
     {
-     "pt": "lembrar-se de",
-     "de": "sich erinnern an",
-     "ipa": "[lẽˈbɾaɾsɨ dɨ]",
+     "pt": "o namorado / a namorada",
+     "de": "der Freund / die Freundin (Partner)",
+     "ipa": "[nɐmuˈɾadu / nɐmuˈɾadɐ]",
      "audio": "v3107"
     },
     {
-     "pt": "costumar",
-     "de": "pflegen zu, gewöhnlich tun",
-     "ipa": "[kuʃtuˈmaɾ]",
+     "pt": "a festa",
+     "de": "das Fest, die Party",
+     "ipa": "[ˈfɛʃtɐ]",
      "audio": "v3108"
     },
     {
-     "pt": "diferente",
-     "de": "anders, verschieden",
-     "ipa": "[difɨˈɾẽtɨ]",
+     "pt": "acontecer",
+     "de": "passieren",
+     "ipa": "[ɐkõtɨˈseɾ]",
      "audio": "v3109"
     },
     {
-     "pt": "igual",
-     "de": "gleich",
-     "ipa": "[iˈgwaɫ]",
+     "pt": "contar",
+     "de": "erzählen (auch: zählen)",
+     "ipa": "[kõˈtaɾ]",
      "audio": "v3110"
     },
     {
-     "pt": "o quintal",
-     "de": "der Hinterhof, der Garten hinterm Haus",
-     "ipa": "[kĩˈtaɫ]",
+     "pt": "a história",
+     "de": "die Geschichte",
+     "ipa": "[iʃˈtɔɾjɐ]",
      "audio": "v3111"
     },
     {
-     "pt": "o vizinho / a vizinha",
-     "de": "der Nachbar / die Nachbarin",
-     "ipa": "[viˈziɲu / viˈziɲɐ]",
+     "pt": "o baile",
+     "de": "der Tanzabend",
+     "ipa": "[ˈbajlɨ]",
      "audio": "v3112"
     },
     {
-     "pt": "sonhar (com)",
-     "de": "träumen (von)",
-     "ipa": "[suˈɲaɾ]",
+     "pt": "nervoso / nervosa",
+     "de": "nervös",
+     "ipa": "[nɨɾˈvozu / nɨɾˈvɔzɐ]",
      "audio": "v3113"
     },
     {
-     "pt": "naquele tempo",
-     "de": "damals, zu jener Zeit",
-     "ipa": "[nɐˈkelɨ ˈtẽpu]",
+     "pt": "o coração",
+     "de": "das Herz",
+     "ipa": "[kuɾɐˈsɐ̃w̃]",
      "audio": "v3114"
     }
    ]
   },
   {
    "type": "note",
-   "title": "3 · Dica do Vasco: Das Imperfekt – wie es war",
-   "html": "<i>(Sprachnachricht:)</i> Ihr kennt das Perfekt: <i>Cheguei. Comi. Fui.</i> – was passiert ist, Punkt. Heute kommt die zweite Vergangenheit, das <b>Imperfekt</b> (<i>pretérito imperfeito</i>): wie etwas <b>war</b>, was man <b>früher immer</b> tat, der <b>Hintergrund</b>.<br><br><b>-ar</b> (brincar): <i>brinc<b>ava</b> · brinc<b>avas</b> · brinc<b>ava</b> · brinc<b>ávamos</b> · brinc<b>avam</b></i><br><b>-er / -ir</b> (viver, ir): <i>viv<b>ia</b> · viv<b>ias</b> · viv<b>ia</b> · viv<b>íamos</b> · viv<b>iam</b></i> – und <i>ir</i> geht genauso: <i>ia, ias, ia, íamos, iam</i>.<br><br><b>Nur drei Unregelmäßige</b>, die ihr wirklich braucht:<br><b>ser</b>: <i>era · eras · era · éramos · eram</i> – <i>Eu <b>era</b> pequena.</i><br><b>ter</b>: <i>tinha · tinhas · tinha · tínhamos · tinham</i> – <i><b>Tinha</b> oito anos.</i><br><b>haver</b>: <i><b>havia</b></i> = es gab – <i>Não <b>havia</b> carros.</i><br><br><b>Wann Imperfekt?</b><br>1. Früher, gewöhnlich, immer: <i>Antigamente <b>vivíamos</b> aqui.</i><br>2. Zustand, Beschreibung: <i>A rua <b>era</b> diferente. <b>Tinha</b> medo do mar.</i><br>3. Alter und Uhrzeit in der Vergangenheit: <i><b>Tinha</b> dez anos. <b>Eram</b> oito horas.</i><br><br><b>costumar + Grundform</b> = pflegte zu: <i><b>Costumávamos</b> ir à praia.</i> – Wir gingen immer an den Strand. Boa onda!"
+   "title": "3 · Dica do Vasco: Foto oder Film?",
+   "html": "<i>(Sprachnachricht:)</i> Jetzt habt ihr zwei Vergangenheiten – und die Frage ist jeden Tag dieselbe: <b>welche?</b> Mein Trick:<br><br><b>Perfekt = Foto.</b> Ein Ereignis, ein Punkt, „und dann passierte…“: <i>Um rapaz <b>deu</b>-me com um martelo. Ele <b>pediu</b> desculpa. <b>Casámos</b>.</i><br><b>Imperfekt = Film im Hintergrund.</b> Wie es war, während etwas passierte; Zustand, Alter, Wetter, Gewohnheit: <i><b>Chovia</b>. <b>Tinha</b> dezassete anos. <b>Estávamos</b> na Ribeira.</i><br><br><b>Zusammen im Satz:</b> <i><b>Estava</b> a chover quando <b>cheguei</b>.</i> – Es regnete (Film), als ich ankam (Foto).<br><i><b>Enquanto</b> ele <b>falava</b>, eu já <b>sabia</b>.</i> – während = Imperfekt.<br><br><b>Signalwörter:</b> <i>de repente, ontem, uma vez, depois</i> → Perfekt · <i>enquanto, antigamente, sempre, todos os dias, naquela altura</i> → Imperfekt.<br><br><b>Drei Verben ändern die Bedeutung:</b><br><i>conhecer</i>: <b>conheci</b> = ich lernte kennen · <b>conhecia</b> = ich kannte<br><i>saber</i>: <b>soube</b> = ich erfuhr · <b>sabia</b> = ich wusste<br><i>querer</i>: <b>quis</b> = ich wollte (und tat es) · <b>queria</b> = ich wollte (Zustand, Wunsch)<br>Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Die nós-Formen des Imperfekts haben einen <b>Akzent</b>, und der ist kein Schmuck: <i>brinc<b>á</b>vamos</i> [bɾĩˈkavɐmuʃ], <i>viv<b>í</b>amos</i>, <i><b>é</b>ramos</i> – die Betonung liegt auf der drittletzten Silbe, und alles danach wird verschluckt: „brinKÁvamusch“. Und der Satz, mit dem in Portugal jede Familiengeschichte beginnt: <b>Quando eu era pequeno…</b> / <b>pequena…</b> – „Als ich klein war“. Danach kann man eine Stunde weiterreden. Die Avó beweist es gleich."
+   "html": "<b>Era uma vez…</b> – „Es war einmal“ – jedes portugiesische Märchen beginnt im Imperfekt. Im Alltag benutzt man es auch zum Abschwächen: <i>Queria um café</i> (nicht <i>quero</i>) kennst du längst, und <i>Estava a pensar…</i> („ich dachte gerade…“) ist die höfliche Art, einen Vorschlag zu machen. Und beim Hören: <i>-ava</i> klingt wie <b>„-áva“</b> mit klarem a, <i>-ia</i> wie <b>„-íe“</b> – <i>vivia</i> = „vivíe“. Wenn du dieses kurze Schluss-e hörst, ist es Imperfekt."
   },
   {
    "type": "reading",
-   "title": "4 · Lesen: As fotografias antigas",
-   "hint": "Selbst erschlossen: Esta sou eu = das bin ich · havia = es gab (haver) · uns com os outros = miteinander · por mensagem = per Nachricht · a senhora = Sie (höflich, zu einer älteren Frau) · Tu é que… = DU warst es, die … · a frase mais portuguesa que já ouvi = der portugiesischste Satz, den ich je gehört habe.",
+   "title": "4 · Lesen: Como conheceu o avô?",
+   "hint": "Selbst erschlossen: o São João = das Johannisfest in Porto (23./24. Juni) · insistir = darauf bestehen · o vestido = das Kleid · a Ribeira = das Uferviertel in Porto · o fogo de artifício = das Feuerwerk · dar com um martelo na cabeça = mit einem (Plastik-)Hammer auf den Kopf hauen – São-João-Tradition! · furioso, furiosa = wütend · pediu desculpa = hat sich entschuldigt · à quarta vez = beim vierten Mal · Come! = Iss!",
    "lines": [
     {
-     "who": "Avó",
-     "pt": "Olha, Marie. Esta sou eu. Tinha oito anos.",
+     "who": "Marie",
+     "pt": "Avó, como é que conheceu o avô?",
      "audio": "d3101"
     },
     {
-     "who": "Marie",
-     "pt": "Não acredito! Era tão pequena!",
+     "who": "Avó",
+     "pt": "Foi em 1968, no São João. Eu tinha dezassete anos e não queria ir à festa.",
      "audio": "d3102"
     },
     {
-     "who": "Avó",
-     "pt": "Antigamente vivíamos aqui, neste bairro. Mas a rua era diferente. Não havia carros.",
+     "who": "Marie",
+     "pt": "Porquê?",
      "audio": "d3103"
     },
     {
-     "who": "Marie",
-     "pt": "E o que é que fazia, quando era pequena?",
+     "who": "Avó",
+     "pt": "Porque chovia! Chovia e eu tinha um vestido novo. Mas a minha irmã insistiu.",
      "audio": "d3104"
     },
     {
-     "who": "Avó",
-     "pt": "Brincava na rua o dia todo. Ia à escola de manhã e à tarde ajudava a minha mãe.",
+     "who": "João",
+     "pt": "E depois?",
      "audio": "d3105"
     },
     {
-     "who": "João",
-     "pt": "A minha avó diz o mesmo. Acho que todas as avós brincavam na rua.",
+     "who": "Avó",
+     "pt": "Estávamos na Ribeira, a ver o fogo de artifício, e de repente um rapaz deu-me com um martelo de plástico na cabeça.",
      "audio": "d3106"
     },
     {
-     "who": "Avó",
-     "pt": "E não tínhamos telemóveis, João. Falávamos uns com os outros.",
+     "who": "Marie",
+     "pt": "O avô?",
      "audio": "d3107"
     },
     {
-     "who": "João",
-     "pt": "Eu falo. Por mensagem.",
+     "who": "Avó",
+     "pt": "O avô, sim. Eu fiquei furiosa. Ele pediu desculpa três vezes. À quarta vez, já não estava furiosa.",
      "audio": "d3108"
     },
     {
-     "who": "Avó",
-     "pt": "Lembras-te, Marie, do ano passado? Não percebias nada do que eu dizia.",
+     "who": "João",
+     "pt": "E casaram-se?",
      "audio": "d3109"
     },
     {
-     "who": "Marie",
-     "pt": "Lembro-me. A senhora falava muito rápido.",
+     "who": "Avó",
+     "pt": "Dois anos depois. Enquanto ele falava, eu já sabia.",
      "audio": "d3110"
     },
     {
-     "who": "Avó",
-     "pt": "Eu falava normal. Tu é que ouvias devagar.",
+     "who": "João",
+     "pt": "A avó do Porto é melhor do que a minha.",
      "audio": "d3111"
     },
     {
-     "who": "João",
-     "pt": "Isso é a frase mais portuguesa que já ouvi.",
+     "who": "Avó",
+     "pt": "Todas as avós do Porto são melhores. Come, João.",
      "audio": "d3112"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · Das Imperfekt bilden",
+   "title": "5a · Perfekt oder Imperfekt? (antippen)",
    "items": [
     {
-     "q": "Eu ___ (brincar) na rua.",
-     "a": "brincava"
+     "q": "Eu ___ dezassete anos. (ter)",
+     "opts": [
+      "tinha",
+      "tive"
+     ],
+     "a": "tinha – Alter ist ein Zustand → Imperfekt"
     },
     {
-     "q": "Tu ___ (viver) no Porto?",
-     "a": "vivias"
+     "q": "De repente um rapaz ___-me na cabeça. (dar)",
+     "opts": [
+      "deu",
+      "dava"
+     ],
+     "a": "deu – plötzliches Ereignis → Perfekt"
     },
     {
-     "q": "Nós ___ (ir) à escola a pé.",
-     "a": "íamos"
+     "q": "___ e eu não queria ir. (chover)",
+     "opts": [
+      "Chovia",
+      "Choveu"
+     ],
+     "a": "Chovia – Hintergrund, Wetter → Imperfekt"
     },
     {
-     "q": "Eles ___ (ter) medo do mar.",
-     "a": "tinham"
+     "q": "A minha irmã ___. (insistir)",
+     "opts": [
+      "insistiu",
+      "insistia"
+     ],
+     "a": "insistiu – einmalige Handlung → Perfekt"
     },
     {
-     "q": "A rua ___ (ser) diferente.",
-     "a": "era"
+     "q": "Enquanto ele ___, eu já sabia. (falar)",
+     "opts": [
+      "falava",
+      "falou"
+     ],
+     "a": "falava – nach enquanto (gleichzeitig) → Imperfekt"
     },
     {
-     "q": "Vocês ___ (falar) muito.",
-     "a": "falavam"
+     "q": "Dois anos depois ___-se. (casar)",
+     "opts": [
+      "casaram",
+      "casavam"
+     ],
+     "a": "casaram – Ereignis → Perfekt"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · era, tinha, havia",
+   "title": "5b · conhecer, saber, querer – Bedeutungswechsel",
    "items": [
     {
-     "q": "Quando eu ___ pequena, ___ medo do mar.",
-     "a": "era / tinha"
+     "q": "Eu ___ (conhecer) o avô no São João. (= kennenlernen)",
+     "a": "conheci"
     },
     {
-     "q": "Antigamente não ___ carros na rua.",
-     "a": "havia"
+     "q": "Naquela altura eu não ___ (conhecer) o Porto. (= kennen)",
+     "a": "conhecia"
     },
     {
-     "q": "___ oito horas da noite.",
-     "a": "Eram"
+     "q": "Eu não ___ (querer) ir à festa. (Wunsch, Zustand)",
+     "a": "queria"
     },
     {
-     "q": "A avó ___ dez anos na fotografia.",
-     "a": "tinha"
+     "q": "Eu ___ (saber) logo que era ele. (= erfahren, plötzlich wissen)",
+     "a": "soube"
     }
    ]
   },
@@ -249,19 +273,19 @@
    "title": "5c · Satz bauen",
    "items": [
     {
-     "q": "Als ich klein war, spielte ich auf der Straße.",
-     "satz": "Quando era pequena, brincava na rua.",
-     "a": "Quando era pequena, brincava na rua."
+     "q": "Es regnete und ich hatte ein neues Kleid.",
+     "satz": "Chovia e eu tinha um vestido novo.",
+     "a": "Chovia e eu tinha um vestido novo."
     },
     {
-     "q": "Früher gab es keine Handys.",
-     "satz": "Antigamente não havia telemóveis.",
-     "a": "Antigamente não havia telemóveis."
+     "q": "Plötzlich sah ich den Großvater.",
+     "satz": "De repente vi o avô.",
+     "a": "De repente vi o avô."
     },
     {
-     "q": "Erinnerst du dich an letztes Jahr?",
-     "satz": "Lembras-te do ano passado?",
-     "a": "Lembras-te do ano passado?"
+     "q": "Während er sprach, wusste ich es schon.",
+     "satz": "Enquanto ele falava, eu já sabia.",
+     "a": "Enquanto ele falava, eu já sabia."
     }
    ]
   },
@@ -270,16 +294,16 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "Na fotografia, a avó tinha dez anos.",
-     "a": "Falsch – acht."
+     "q": "A avó queria muito ir à festa.",
+     "a": "Falsch – sie wollte nicht, weil es regnete. Ihre Schwester bestand darauf."
     },
     {
-     "q": "Antigamente havia muitos carros na rua.",
-     "a": "Falsch – keine. Die Kinder spielten den ganzen Tag auf der Straße."
+     "q": "O avô deu-lhe com um martelo de plástico na cabeça.",
+     "a": "Richtig – so lernt man sich beim São João kennen."
     },
     {
-     "q": "A avó diz que falava muito rápido.",
-     "a": "Falsch – „Eu falava normal. Tu é que ouvias devagar.“"
+     "q": "Casaram-se no mesmo ano.",
+     "a": "Falsch – zwei Jahre später."
     }
    ]
   },
@@ -288,53 +312,53 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Ich wohnte in Hamburg. → ___",
-     "a": "Vivia em Hamburgo. / Morava em Hamburgo."
+     "q": "Ich war siebzehn. → ___",
+     "a": "Tinha dezassete anos."
     },
     {
-     "q": "Wir gingen jeden Tag zur Schule. → ___",
-     "a": "Íamos à escola todos os dias."
+     "q": "Es regnete. → ___",
+     "a": "Chovia. / Estava a chover."
     },
     {
-     "q": "Sie war acht (Jahre alt). → ___",
-     "a": "Tinha oito anos."
+     "q": "Sie haben zwei Jahre später geheiratet. → ___",
+     "a": "Casaram-se dois anos depois."
     },
     {
-     "q": "Die Straße war anders. → ___",
-     "a": "A rua era diferente."
+     "q": "Wie hast du Vasco kennengelernt? → ___",
+     "a": "Como é que conheceste o Vasco?"
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: A tua infância",
-   "html": "Deine Kindheit in sechs Sätzen, alle im Imperfekt: <i>Quando era pequena, vivia em… Brincava… Ia à escola… Tinha medo de… Costumava… Sonhava com…</i><br><br>Dann die Akzent-Übung, dreimal laut: <i>brincávamos, vivíamos, éramos</i> – Betonung vorne, Rest verschlucken."
+   "title": "6 · Sprechen: Como é que conheceste…?",
+   "html": "Erzähl, wie du jemanden kennengelernt hast – eine Freundin, deinen Partner, deine beste Kollegin. Der Trick: erst der Film, dann das Foto. <i>Naquela altura eu tinha… anos. Estava… Chovia / Fazia sol… E de repente…</i> Mindestens sechs Sätze, drei im Imperfekt, drei im Perfekt.<br><br>Zum Schluss der Satz der Avó, langsam und mit Gefühl: <i>Enquanto ele falava, eu já sabia.</i>"
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: O quintal",
+   "title": "7 · Kleine Geschichte: O caderno novo",
    "audio": "s31",
-   "text": "À noite, no quintal da avó, a Marie conta a sua infância. Em português. Devagar, mas conta.<br>— Quando era pequena, vivia perto do rio. Não era o mar, mas eu achava que era. Todos os domingos íamos ao porto ver os navios grandes. Eu tinha medo dos navios e adorava os navios ao mesmo tempo.<br>— Isso é normal — diz o João. — Eu tinha medo do elétrico e ia de elétrico todos os dias.<br>— Vi o mar pela primeira vez aos sete anos. Na Dinamarca. Estava frio, chovia, e eu entrei na água com a roupa toda. A minha mãe gritou durante dez minutos.<br>A Ana ri.<br>— E o surf?<br>— O surf veio muito mais tarde. Há um ano. Aqui.<br>A mãe da Ana traz chá e senta-se com eles.<br>— E este verão, Marie? Que planos tens?<br>Silêncio. A Marie olha para o chão.<br>— Tenho um plano — diz. — Mas ainda não é um plano oficial.<br>— Um plano que não é oficial é um segredo — diz o João.<br>— Então é um segredo.<br>O Tomás, que estava a dormir no sofá com o telemóvel na mão, abre um olho.<br>— Eu sei qual é.<br>Não sabe. Mas todos olham para ele, e ele fecha o olho outra vez, muito satisfeito.",
-   "gloss": "Neu erschließen: o navio = das (große) Schiff · ao mesmo tempo = gleichzeitig · a Dinamarca = Dänemark · com a roupa toda = mit allen Kleidern · gritar = schreien · mais tarde = später · trazer = bringen · o chão = der Boden · oficial = offiziell · satisfeito = zufrieden",
+   "text": "A Marie comprou um caderno novo no Porto. O velho acabou em Sagres, na última página, com duas palavras. Este começa com a história da avó.<br>Escreve à noite, na cama, com o gato ao lado:<br>«Em 1968 a avó tinha dezassete anos. Chovia. Ela tinha um vestido novo e não queria ir à festa, mas foi. Estava na Ribeira quando um rapaz lhe deu com um martelo na cabeça. Ficou furiosa. Ele pediu desculpa três vezes. Casaram-se dois anos depois.»<br>Lê o texto duas vezes. Está certo? Perfeito para as coisas que aconteceram, imperfeito para como era. Acha que sim. Não tem a certeza. Amanhã pergunta à Ana.<br>Depois escreve mais uma linha:<br>«Há um ano eu não percebia a avó. Hoje a avó contou-me a história do avô e eu percebi tudo. Enquanto ela falava, eu não pensava em alemão. Nem uma vez.»<br>Fecha o caderno. No corredor, ouve a Ana ao telefone, baixinho:<br>— Sim… sim, eu sei que é longe… Não, ainda não disse a ninguém.<br>A Marie fica quieta. A Ana também tem um segredo. Esta casa está cheia deles.",
+   "gloss": "Neu erschließen: acabou = endete · lhe deu = gab ihr (den Hammerschlag) · certo = richtig · ter a certeza = sicher sein · nem uma vez = nicht ein einziges Mal · o corredor = der Flur · quieto, quieta = still · cheio de = voller",
    "questions": [
     {
-     "q": "Quando era pequena, a Marie vivia perto do mar.",
-     "a": "Falsch – am Fluss. Aber sie fand, es sei das Meer."
+     "q": "A Marie escreve a história da avó no caderno velho.",
+     "a": "Falsch – in einem neuen Heft. Das alte endete in Sagres mit „eu volto“."
     },
     {
-     "q": "A Marie viu o mar pela primeira vez na Dinamarca.",
-     "a": "Richtig – mit sieben, bei Regen, in voller Kleidung ins Wasser."
+     "q": "Enquanto a avó falava, a Marie pensava em alemão.",
+     "a": "Falsch – „Nem uma vez.“ Nicht ein einziges Mal."
     },
     {
-     "q": "A Marie conta o seu plano à mãe da Ana.",
-     "a": "Falsch – „ainda não é um plano oficial“. Also ein Geheimnis."
+     "q": "A Ana também tem um segredo.",
+     "a": "Richtig – ein Telefonat im Flur: „ainda não disse a ninguém“."
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Du kannst jetzt erzählen, wie es <b>früher</b> war: <b>era, tinha, havia</b> und die regelmäßigen Formen auf <b>-ava / -ia</b>. Morgen kommt der Moment, in dem beide Vergangenheiten zusammenarbeiten: Die Avó erzählt, wie sie den Avô kennengelernt hat – <b>Perfekt oder Imperfekt?</b>"
+   "html": "Du kannst jetzt entscheiden: <b>Foto oder Film</b>, Perfekt oder Imperfekt – und du kennst die drei Verben, die dabei ihre Bedeutung wechseln. Morgen ist der 23. Juni: <b>São João</b>, die längste Nacht in Porto – mit Plastikhämmern, Basilikum und den kleinen Wörtern <i>o, a, os, as</i>."
   }
  ]
 }

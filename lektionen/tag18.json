@@ -1,245 +1,233 @@
 {
  "id": "tag18",
- "title": "O que é que fazes?",
- "subtitle": "Woche 3 · Tag 18 · Freizeit · fazer & ir · ca. 25 Min.",
+ "title": "Vamos a Sagres!",
+ "subtitle": "Woche 3 · Tag 18 · Pläne machen · ir + Infinitiv · ca. 25 Min.",
  "sections": [
   {
    "type": "exercise",
    "title": "1 · Aufwärmen (von Tag 17)",
    "items": [
     {
-     "q": "Eu ___ às sete. (levantar-se)",
-     "a": "levanto-me"
-    },
-    {
-     "q": "Nós ___ português. (aprender)",
-     "a": "aprendemos"
-    },
-    {
-     "q": "Ich verstehe nicht: ___",
-     "a": "Não percebo."
-    },
-    {
-     "q": "Verneine: Deito-me tarde. → ___",
-     "a": "Não me deito tarde."
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "2 · Neue Wörter: Tempos livres (12)",
-   "items": [
-    {
-     "pt": "fazer",
-     "de": "machen, tun",
-     "ipa": "[fɐˈzeɾ]",
-     "audio": "v1801"
-    },
-    {
-     "pt": "ir",
-     "de": "gehen, fahren",
-     "ipa": "[iɾ]",
-     "audio": "v1802"
-    },
-    {
-     "pt": "o desporto",
-     "de": "Sport (EP! Brasilien: esporte)",
-     "ipa": "[dɨʃˈpoɾtu]",
-     "audio": "v1803"
-    },
-    {
-     "pt": "nadar",
-     "de": "schwimmen",
-     "ipa": "[nɐˈdaɾ]",
-     "audio": "v1804"
-    },
-    {
-     "pt": "correr",
-     "de": "laufen, rennen",
-     "ipa": "[kuˈʁeɾ]",
-     "audio": "v1805"
-    },
-    {
-     "pt": "ouvir música",
-     "de": "Musik hören",
-     "ipa": "[oˈviɾ ˈmuzikɐ]",
-     "audio": "v1806"
-    },
-    {
-     "pt": "o filme",
-     "de": "der Film",
-     "ipa": "[ˈfiɫmɨ]",
-     "audio": "v1807"
-    },
-    {
-     "pt": "o livro",
-     "de": "das Buch",
-     "ipa": "[ˈlivɾu]",
-     "audio": "v1808"
-    },
-    {
-     "pt": "sempre",
-     "de": "immer",
-     "ipa": "[ˈsẽpɾɨ]",
-     "audio": "v1809"
-    },
-    {
-     "pt": "nunca",
-     "de": "nie",
-     "ipa": "[ˈnũkɐ]",
-     "audio": "v1810"
-    },
-    {
-     "pt": "às vezes",
-     "de": "manchmal",
-     "ipa": "[aʒ ˈvezɨʃ]",
-     "audio": "v1811"
-    },
-    {
-     "pt": "muitas vezes",
-     "de": "oft",
-     "ipa": "[ˈmũjtɐʒ ˈvezɨʃ]",
-     "audio": "v1812"
-    }
-   ]
-  },
-  {
-   "type": "note",
-   "title": "3 · Dica do Vasco: fazer, ir – und wie oft",
-   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Zwei Verben, die du täglich brauchst – beide unregelmäßig, beide schnell gelernt:<br><br><b>fazer (machen):</b> fa<b>ço</b> · fa<b>zes</b> · fa<b>z</b> · fa<b>zemos</b> · fa<b>zem</b><br><b>ir (gehen/fahren):</b> <b>vou</b> · <b>vais</b> · <b>vai</b> · <b>vamos</b> · <b>vão</b><br><br><b>Wohin? ir + a</b> – und a verschmilzt genau wie du es kennst:<br>a + o = <b>ao</b> (vou <b>ao</b> cinema) · a + a = <b>à</b> (vou <b>à</b> praia) · a + as = <b>às</b> (das kennst du von der Uhrzeit!)<br>Für „nach Hause“ ohne Artikel: <i>vou <b>para</b> casa</i>.<br><br><b>Wie oft?</b> Die Häufigkeit steht meist direkt hinterm Verb: <i>Corro <b>sempre</b> de manhã. Vou <b>muitas vezes</b> à praia.</i><br>Nur <b>nunca</b> stellt sich gern vor das Verb: <i><b>Nunca</b> corro à noite.</i> Boa onda!"
-  },
-  {
-   "type": "note",
-   "title": "Dica da Ana",
-   "html": "<b>fazer</b> steckt in einer Wendung, die kein Lehrbuch früh genug beibringt: <b>fazer anos</b> = Geburtstag haben. <i>Faço anos em maio.</i> – „Ich habe im Mai Geburtstag.“ Und wenn jemand fragt <b>Quando é que fazes anos?</b>, meint er genau das. Zweiter Klassiker: die Frage <b>O que é que fazes?</b> kann beides heißen – „Was machst du (beruflich)?“ und „Was machst du (gerade)?“. Der Zusammenhang klärt es, und im Zweifel fragst du einfach zurück."
-  },
-  {
-   "type": "reading",
-   "title": "4 · Lesen: Planos de sábado",
-   "hint": "Selbst erschlossen: a prima = die Cousine · os tempos livres = die Freizeit · o cinema = das Kino · o ginásio = das Fitnessstudio · a piscina = das Schwimmbad · connosco = mit uns (EP! Brasilien: conosco) · leio = ich lese (ler) · ouço = ich höre (ouvir) · vens? = kommst du? (vir) · fico em casa = ich bleibe zu Hause (ficar – Tag 20) · há = es gibt (Tag 20) · andar de um lado para o outro = hin und her laufen · a fome = der Hunger.",
-   "lines": [
-    {
-     "who": "Ana",
-     "pt": "O que é que fazes aos sábados, Marie?",
-     "audio": "d1801"
-    },
-    {
-     "who": "Marie",
-     "pt": "Às vezes vou à praia. Muitas vezes fico em casa e leio um livro.",
-     "audio": "d1802"
-    },
-    {
-     "who": "Ana",
-     "pt": "Eu vou sempre correr de manhã com a minha prima. Vens connosco?",
-     "audio": "d1803"
-    },
-    {
-     "who": "Marie",
-     "pt": "Corro muito mal! Mas nado bem. Há piscina no ginásio?",
-     "audio": "d1804"
-    },
-    {
-     "who": "Ana",
-     "pt": "Há, sim. E à tarde vamos ao cinema. Há um filme português.",
-     "audio": "d1805"
-    },
-    {
-     "who": "João",
-     "pt": "Eu nunca corro de manhã. Faço desporto à noite.",
-     "audio": "d1806"
-    },
-    {
-     "who": "Marie",
-     "pt": "Que desporto é que fazes à noite?",
-     "audio": "d1807"
-    },
-    {
-     "who": "João",
-     "pt": "Ouço música e ando de um lado para o outro na cozinha.",
-     "audio": "d1808"
-    },
-    {
-     "who": "Ana",
-     "pt": "Isso não é desporto, João. Isso é fome.",
-     "audio": "d1809"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "5a · fazer oder ir? Setz ein",
-   "items": [
-    {
      "q": "Eu ___ desporto. (fazer)",
      "a": "faço"
     },
     {
-     "q": "Tu ___ à praia? (ir)",
-     "a": "vais"
-    },
-    {
-     "q": "A Ana ___ ao cinema. (ir)",
-     "a": "vai"
-    },
-    {
-     "q": "Nós ___ os exercícios. (fazer)",
-     "a": "fazemos"
-    },
-    {
-     "q": "Eles ___ ao ginásio. (ir)",
+     "q": "Eles ___ ao cinema. (ir)",
      "a": "vão"
-    },
-    {
-     "q": "O que é que vocês ___? (fazer)",
-     "a": "fazem"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "5b · ao, à oder para?",
-   "items": [
-    {
-     "q": "Vou ___ cinema. (o cinema)",
-     "a": "ao"
     },
     {
      "q": "Vou ___ praia. (a praia)",
      "a": "à"
     },
     {
-     "q": "Vou ___ casa. (nach Hause)",
-     "a": "para"
+     "q": "Ich laufe nie: ___",
+     "a": "Nunca corro."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Fazer planos (12)",
+   "items": [
+    {
+     "pt": "o plano",
+     "de": "der Plan",
+     "ipa": "[ˈplɐnu]",
+     "audio": "v1801"
     },
     {
-     "q": "Vamos ___ ginásio. (o ginásio)",
-     "a": "ao"
+     "pt": "a semana que vem",
+     "de": "nächste Woche",
+     "ipa": "[sɨˈmɐnɐ kɨ ˈvɐ̃j̃]",
+     "audio": "v1802"
     },
     {
-     "q": "Vamos ___ piscina. (a piscina)",
-     "a": "à"
+     "pt": "o mês",
+     "de": "der Monat",
+     "ipa": "[meʃ]",
+     "audio": "v1803"
+    },
+    {
+     "pt": "reservar",
+     "de": "reservieren, buchen",
+     "ipa": "[ʁɨzɨɾˈvaɾ]",
+     "audio": "v1804"
+    },
+    {
+     "pt": "o bilhete",
+     "de": "das Ticket, die Fahrkarte",
+     "ipa": "[biˈʎetɨ]",
+     "audio": "v1805"
+    },
+    {
+     "pt": "o comboio",
+     "de": "der Zug (EP! Brasilien: trem)",
+     "ipa": "[kõˈboju]",
+     "audio": "v1806"
+    },
+    {
+     "pt": "a mala",
+     "de": "der Koffer, die Tasche",
+     "ipa": "[ˈmalɐ]",
+     "audio": "v1807"
+    },
+    {
+     "pt": "levar",
+     "de": "mitnehmen",
+     "ipa": "[lɨˈvaɾ]",
+     "audio": "v1808"
+    },
+    {
+     "pt": "talvez",
+     "de": "vielleicht",
+     "ipa": "[taɫˈveʃ]",
+     "audio": "v1809"
+    },
+    {
+     "pt": "de certeza",
+     "de": "bestimmt, ganz sicher",
+     "ipa": "[dɨ sɨɾˈtezɐ]",
+     "audio": "v1810"
+    },
+    {
+     "pt": "finalmente",
+     "de": "endlich",
+     "ipa": "[finaɫˈmẽtɨ]",
+     "audio": "v1811"
+    },
+    {
+     "pt": "juntos / juntas",
+     "de": "zusammen",
+     "ipa": "[ˈʒũtuʃ] / [ˈʒũtɐʃ]",
+     "audio": "v1812"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Die Zukunft in zwei Wörtern",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Heute lernst du die Zukunft – und sie ist geschenkt, weil du <b>ir</b> schon kannst.<br><br><b>ir + Infinitiv</b> (genau wie „ich werde…“):<br><i><b>Vou</b> surfar.</i> – Ich werde surfen. / Ich gehe surfen.<br><i><b>Vais</b> gostar!</i> – Du wirst es mögen!<br><i><b>Vamos</b> reservar os bilhetes.</i> – Wir werden die Tickets buchen.<br><i>Eles <b>vão</b> chegar tarde.</i><br><br>Das Verb dahinter bleibt in der Grundform – <b>immer</b>. Kein Anhängen, kein Umbauen: <i>vou comer, vais dormir, vamos partir</i>.<br><br><b>Und der Trick, den alle nutzen:</b> Mit einem Zeitwort reicht sogar die Gegenwart – <i><b>Amanhã</b> parto às oito.</i> Portugal spricht die Zukunft am liebsten im Präsens. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Zwei Zeitwörter, die Deutsche fast immer verwechseln: <b>logo</b> heißt nicht „bald irgendwann“, sondern <b>später heute</b> – <i>Vou logo à praia</i> = ich gehe nachher an den Strand. Deshalb heißt der Abschied unter Freunden <b>Até logo!</b> (bis später) und nicht até amanhã. Und <b>a semana que vem</b> ist die Alltagsform für „nächste Woche“ – wörtlich „die Woche, die kommt“. Klingt hübsch, oder? Portugiesisch lässt die Zeit auf einen zukommen."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A reserva",
+   "hint": "Selbst erschlossen: a reserva = die Buchung · só = nur · de comboio / de autocarro = mit dem Zug / mit dem Bus · a lógica = die Logik · maravilhosa = wunderbar · mais seguro = sicherer · a boleia = die Mitfahrgelegenheit · o carro = das Auto · a carrinha = der Kleinbus · na mesma = trotzdem · vemos = wir sehen weiter · seguro = sicher · a boa disposição = die gute Laune.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Então? Vamos reservar os bilhetes ou não?",
+     "audio": "d1801"
+    },
+    {
+     "who": "Marie",
+     "pt": "Vamos! Mas o Vasco diz que as ondas ainda estão grandes.",
+     "audio": "d1802"
+    },
+    {
+     "who": "João",
+     "pt": "Talvez. Eu vou reservar na mesma. Depois vemos.",
+     "audio": "d1803"
+    },
+    {
+     "who": "Ana",
+     "pt": "Que lógica maravilhosa, João.",
+     "audio": "d1804"
+    },
+    {
+     "who": "Marie",
+     "pt": "O comboio para Lagos custa vinte euros. Depois vamos de autocarro.",
+     "audio": "d1805"
+    },
+    {
+     "who": "João",
+     "pt": "Ou vamos de boleia! O meu primo tem uma carrinha velha.",
+     "audio": "d1806"
+    },
+    {
+     "who": "Ana",
+     "pt": "Com o Tomás em Sagres numa carrinha velha? Não. Vamos de comboio, é mais seguro.",
+     "audio": "d1807"
+    },
+    {
+     "who": "Marie",
+     "pt": "Vou levar só uma mala pequena. E o fato de surf?",
+     "audio": "d1808"
+    },
+    {
+     "who": "João",
+     "pt": "O Vasco tem tudo. Nós vamos levar fome e boa disposição.",
+     "audio": "d1809"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Wie oft? Bau den Satz",
+   "title": "5a · Bau die Zukunft: ir + Infinitiv",
    "items": [
     {
-     "q": "correr / eu / sempre / de manhã →",
-     "a": "Corro sempre de manhã."
+     "q": "Eu ___ ___ os bilhetes. (reservar)",
+     "a": "vou reservar"
     },
     {
-     "q": "nunca / eu / nadar / à noite →",
-     "a": "Nunca nado à noite."
+     "q": "Tu ___ ___ connosco? (nadar)",
+     "a": "vais nadar"
     },
     {
-     "q": "às vezes / nós / ir / ao cinema →",
-     "a": "Às vezes vamos ao cinema."
+     "q": "Nós ___ ___ de comboio. (partir)",
+     "a": "vamos partir"
     },
     {
-     "q": "muitas vezes / o João / dormir / até tarde →",
-     "a": "O João dorme muitas vezes até tarde."
+     "q": "Eles ___ ___ tarde. (chegar)",
+     "a": "vão chegar"
+    },
+    {
+     "q": "A Marie ___ ___ uma mala pequena. (levar)",
+     "a": "vai levar"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Von heute auf morgen",
+   "items": [
+    {
+     "q": "Hoje estudo. → Amanhã ___",
+     "a": "vou estudar"
+    },
+    {
+     "q": "Hoje corro. → Amanhã ___",
+     "a": "vou correr"
+    },
+    {
+     "q": "Hoje comemos em casa. → Amanhã ___",
+     "a": "vamos comer em casa"
+    },
+    {
+     "q": "Hoje ela trabalha. → Amanhã ela ___",
+     "a": "vai trabalhar"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · talvez, de certeza oder finalmente?",
+   "items": [
+    {
+     "q": "___ vamos a Sagres! (nach drei Wochen Warten)",
+     "a": "Finalmente"
+    },
+    {
+     "q": "Não sei… ___ vou.",
+     "a": "talvez"
+    },
+    {
+     "q": "O João vai chegar tarde, ___.",
+     "a": "de certeza"
     }
    ]
   },
@@ -248,16 +236,16 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "A Marie corre muito bem.",
-     "a": "Falsch – „Corro muito mal!“ Sie schwimmt gut."
+     "q": "O comboio para Lagos custa vinte euros.",
+     "a": "Richtig."
     },
     {
-     "q": "A Ana corre sempre de manhã com a prima.",
-     "a": "Richtig – und João nie."
+     "q": "Vão de carro com o primo do João.",
+     "a": "Falsch – mit dem Zug, das ist sicherer."
     },
     {
-     "q": "O João faz desporto à noite.",
-     "a": "Richtig – er behauptet es. (Ana findet allerdings, das sei eher fome als desporto.)"
+     "q": "A Marie vai levar o fato de surf dela.",
+     "a": "Falsch – Vasco hat alles. Sie bringen Hunger und gute Laune mit."
     }
    ]
   },
@@ -266,53 +254,53 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Was machst du am Wochenende? → ___",
-     "a": "O que é que fazes ao fim de semana? / O que é que fazes no fim de semana?"
+     "q": "Wir werden die Tickets buchen. → ___",
+     "a": "Vamos reservar os bilhetes."
     },
     {
-     "q": "Ich gehe manchmal ins Kino. → ___",
-     "a": "Às vezes vou ao cinema."
+     "q": "Ich gehe nachher an den Strand. → ___",
+     "a": "Vou logo à praia."
     },
     {
-     "q": "Wir machen nie Sport. → ___",
-     "a": "Nunca fazemos desporto."
+     "q": "Nächste Woche fahre ich nach Porto. → ___",
+     "a": "A semana que vem vou ao Porto."
     },
     {
-     "q": "Ich habe im Mai Geburtstag. → ___",
-     "a": "Faço anos em maio."
+     "q": "Bis später! → ___",
+     "a": "Até logo!"
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: Os teus tempos livres",
-   "html": "Beantworte laut, jeweils mit einer Häufigkeit:<br><br><i>O que é que fazes de manhã? · O que é que fazes ao fim de semana? · Fazes desporto? · Vais muitas vezes ao cinema? · Quando é que fazes anos?</i><br><br>Dann drei ehrliche Sätze mit <b>nunca</b>: <i>Nunca corro. Nunca acordo às cinco. Nunca…</i> Achte auf die Stellung – <i>nunca</i> vor dem Verb, der Rest dahinter."
+   "title": "6 · Sprechen: Os teus planos",
+   "html": "Sag laut, was du vorhast – fünf Sätze mit <b>ir + Infinitiv</b>:<br><br><i>Logo vou… Amanhã vou… No fim de semana vou… A semana que vem vou… No verão vou…</i><br><br>Und dann die ehrliche Variante mit <i>talvez</i> und <i>de certeza</i>: <i>Talvez vá correr… De certeza vou dormir muito.</i> (Merk dir für später: nach <i>talvez</i> nutzen Portugiesen gern eine Extra-Form – <i>vá</i> statt <i>vou</i>. Das kommt in Staffel 2, heute reicht <i>talvez vou</i>.)"
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: Domingo de manhã",
+   "title": "7 · Kleine Geschichte: Os bilhetes",
    "audio": "s18",
-   "text": "Domingo, oito da manhã. A Ana corre. A Marie nada. O João dorme.<br>Na piscina, a Marie conta as voltas: uma, duas, três… dez. Não pensa em nada. Não pensa nas ondas de Sagres. Não pensa na previsão do tempo.<br>Está a mentir a si própria, claro. Pensa sempre nas ondas.<br>Às dez horas, os três encontram-se num café ao pé do rio. A Ana bebe água, a Marie come uma torrada, o João olha para o café como quem olha para um milagre.<br>— Marie — diz a Ana. — Quantas vezes olhas hoje para a previsão?<br>— Nenhuma.<br>— A sério?<br>— … Duas.<br>O João levanta a chávena, muito sério:<br>— À Marie, que nunca mente. Quase nunca.",
-   "gloss": "Neu erschließen: a volta = die Bahn (im Schwimmbad) · não pensa em nada = sie denkt an nichts · mentir a si própria = sich selbst belügen · encontrar-se = sich treffen · ao pé de = neben, in der Nähe von · o rio = der Fluss · o milagre = das Wunder · a chávena = die Tasse (EP! Brasilien: xícara) · nenhuma = keine · a sério? = im Ernst?",
+   "text": "Quarta-feira à noite. Três telemóveis, uma mesa, um plano.<br>— Comboio das oito e dez — diz a Ana. — Sexta-feira da semana que vem.<br>— Sexta? Eu tenho aulas até às cinco — diz a Marie.<br>— Então o das seis da tarde. Chegamos a Lagos à noite e dormimos lá.<br>O João não diz nada. Está a olhar para o telemóvel.<br>— João?<br>— Uma mensagem do Vasco.<br>Silêncio. A Ana e a Marie olham uma para a outra.<br>— Lê! — diz a Marie.<br>— «Olá, malta. A previsão para a semana que vem: as ondas vão descer para um metro. Vento fraco. Se isto se mantiver…»<br>— Se isto se mantiver o quê?! — grita a Ana.<br>— Acaba aqui. Ele está a escrever.<br>Os três olham para o telemóvel como três gatos para uma janela.<br>O telemóvel apita.<br>«…vai ser perfeito para vocês. Reservem.»",
+   "gloss": "Neu erschließen: a malta = die Leute, „Leute!“ (typisch EP-Anrede) · descer = sinken · fraco = schwach · se isto se mantiver = wenn das so bleibt (eine Form für Staffel 2 – hier nur zum Wiedererkennen) · Lê! = Lies vor! (Befehlsform wie Reservem! – Woche 4) · gritar = schreien · acabar = enden · está a escrever = er schreibt gerade (EP-Verlaufsform: estar a + Infinitiv – merk sie dir!) · o gato = die Katze · a janela = das Fenster · apitar = piepen · Reservem! = Bucht! (Befehlsform, kommt in Woche 4)",
    "questions": [
     {
-     "q": "A Marie nada dez voltas.",
-     "a": "Richtig."
+     "q": "O comboio da manhã não serve à Marie.",
+     "a": "Richtig – sie hat bis fünf Unterricht, sie nehmen den um sechs."
     },
     {
-     "q": "A Marie não pensa nas ondas.",
-     "a": "Falsch – sie belügt sich selbst, sie denkt immer daran."
+     "q": "As ondas vão descer para um metro.",
+     "a": "Richtig – und der Wind wird schwach."
     },
     {
-     "q": "A Marie olha duas vezes para a previsão.",
-     "a": "Richtig – sie gibt es zögernd zu."
+     "q": "O Vasco diz que ainda é perigoso.",
+     "a": "Falsch – „vai ser perfeito para vocês. Reservem.“"
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Kannst du <b>fazer</b> und <b>ir</b> ohne Nachdenken? Und weißt du, wann <i>ao</i>, wann <i>à</i>, wann <i>para</i>? Dann hast du gerade zwei Verben gelernt, die dir jeden Tag begegnen. Morgen wird es spannend: mit <b>ir</b> baust du die <b>Zukunft</b> – und die Gruppe fängt an, Sagres wirklich zu planen."
+   "html": "Kannst du jetzt über morgen sprechen? Test: Sag drei Dinge, die du morgen machst – mit <i>vou</i> + Grundform. Wenn das flüssig geht, hast du die halbe Zukunft des Portugiesischen im Griff. Morgen: <b>Wohnen</b> – wo was steht, und das kleine Wort <b>há</b>, das dir seit Tagen begegnet."
   }
  ]
 }

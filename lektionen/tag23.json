@@ -1,252 +1,251 @@
 {
  "id": "tag23",
- "title": "Isto ou aquilo?",
- "subtitle": "Woche 4 · Tag 23 · Einkaufen · Demonstrative · ca. 25 Min.",
+ "title": "Onde é a estação?",
+ "subtitle": "Woche 4 · Tag 23 · Nach dem Weg fragen · Höfliche Befehlsform · ca. 25 Min.",
  "sections": [
   {
    "type": "exercise",
-   "title": "1 · Aufwärmen (von Tag 21 & 22)",
-   "items": [
-    {
-     "q": "Wie ist das Wetter? → ___",
-     "a": "Que tempo faz?"
-    },
-    {
-     "q": "Es regnet gerade: ___",
-     "a": "Está a chover."
-    },
-    {
-     "q": "Der Zug fährt um sechs ab: O comboio ___ às seis.",
-     "a": "parte"
-    },
-    {
-     "q": "Wir werden surfen: ___ surfar.",
-     "a": "Vamos"
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "2 · Neue Wörter: As compras (12)",
-   "items": [
-    {
-     "pt": "este / esta",
-     "de": "dieser / diese (hier, bei mir)",
-     "ipa": "[ˈeʃtɨ / ˈɛʃtɐ]",
-     "audio": "v2301"
-    },
-    {
-     "pt": "esse / essa",
-     "de": "dieser / diese (da, bei dir)",
-     "ipa": "[ˈesɨ / ˈɛsɐ]",
-     "audio": "v2302"
-    },
-    {
-     "pt": "aquele / aquela",
-     "de": "jener / jene (dort)",
-     "ipa": "[ɐˈkelɨ / ɐˈkɛlɐ]",
-     "audio": "v2303"
-    },
-    {
-     "pt": "isto / isso / aquilo",
-     "de": "das hier / das da / das dort",
-     "ipa": "[ˈiʃtu / ˈisu / ɐˈkilu]",
-     "audio": "v2304"
-    },
-    {
-     "pt": "o supermercado",
-     "de": "der Supermarkt",
-     "ipa": "[supɛɾmɨɾˈkadu]",
-     "audio": "v2305"
-    },
-    {
-     "pt": "a loja",
-     "de": "der Laden",
-     "ipa": "[ˈlɔʒɐ]",
-     "audio": "v2306"
-    },
-    {
-     "pt": "comprar",
-     "de": "kaufen",
-     "ipa": "[kõˈpɾaɾ]",
-     "audio": "v2307"
-    },
-    {
-     "pt": "a garrafa",
-     "de": "die Flasche",
-     "ipa": "[gɐˈʁafɐ]",
-     "audio": "v2308"
-    },
-    {
-     "pt": "o saco",
-     "de": "die Tüte, der Beutel",
-     "ipa": "[ˈsaku]",
-     "audio": "v2309"
-    },
-    {
-     "pt": "precisar de",
-     "de": "brauchen",
-     "ipa": "[pɾɨsiˈzaɾ dɨ]",
-     "audio": "v2310"
-    },
-    {
-     "pt": "a laranja",
-     "de": "die Orange",
-     "ipa": "[lɐˈɾɐ̃ʒɐ]",
-     "audio": "v2311"
-    },
-    {
-     "pt": "o troco",
-     "de": "das Wechselgeld",
-     "ipa": "[ˈtɾoku]",
-     "audio": "v2312"
-    }
-   ]
-  },
-  {
-   "type": "note",
-   "title": "3 · Dica do Vasco: Hier, da, dort",
-   "html": "<i>(Sprachnachricht, Samstag, 7:58 Uhr:)</i> Bom dia, malta! Bevor ihr in den Bus steigt: <i>Comprem água!</i> (Kauft Wasser! – eine Befehlsform, die ihr morgen lernt.) Und damit ihr im Laden zeigen könnt, was ihr wollt – drei Entfernungen:<br><br><b>este / esta</b> – hier, bei mir: <i>Queria <b>esta</b> garrafa.</i><br><b>esse / essa</b> – da, bei dir (beim Gegenüber): <i><b>Esse</b> pão é fresco?</i><br><b>aquele / aquela</b> – dort, weit weg von uns beiden: <i>Quanto custa <b>aquela</b> prancha?</i><br><br>Sie richten sich nach dem Nomen: <i>este saco · esta loja · estes sacos · estas lojas</i>.<br><br><b>Ohne Nomen</b> – „das (hier/da/dort)“ – gibt es die kurzen Formen: <i>O que é <b>isto</b>? · <b>Isso</b> é protetor solar. · <b>Aquilo</b> é o mar.</i> Und <i>Isso!</i> allein heißt: <b>Genau!</b><br><br><b>Verschmelzungen</b> wie bei do/da: <i>de + este = <b>deste</b> · em + esta = <b>nesta</b> · de + aquele = <b>daquele</b></i>. Beispiel: <i>Gosto <b>desta</b> loja.</i><br><br><b>precisar de</b> = brauchen, immer mit <b>de</b>: <i>Preciso <b>de</b> água. · Precisamos <b>do</b> saco.</i> Até já!"
-  },
-  {
-   "type": "note",
-   "title": "Dica da Ana",
-   "html": "Hör auf den <b>Vokal</b>: <i>este</i> [ˈeʃtɨ] ist geschlossen, <i>esta</i> [ˈɛʃtɐ] offen – wie „ä“. Genauso <i>esse</i> [ˈesɨ] und <i>essa</i> [ˈɛsɐ]. Das ist der Unterschied zwischen „dieser“ und „diese“, und Portugiesen hören ihn sofort.<br><br>Und <i>isto</i>? Klingt in echt wie <b>„ischt“</b> – das End-o wird fast verschluckt. Wenn du <i>Quanto custa isto?</i> mit sauberem „ischt“ sagst, bist du im Laden schon halb Einheimische."
-  },
-  {
-   "type": "reading",
-   "title": "4 · Lesen: Na loja",
-   "hint": "Selbst erschlossen: o vendedor = der Verkäufer · Quer…? = Möchten Sie…? (querer – kommt an Tag 25) · fresco = frisch · pequeno, pequena = klein (Tag 8) · o quilo = das Kilo · o protetor solar = die Sonnencreme (Tag 8) · com cara de Lisboa = mit Lissabon-Gesicht (= blass!) · tudo = alles · Levamos = wir nehmen (levar).",
-   "lines": [
-    {
-     "who": "Marie",
-     "pt": "Bom dia! Queria uma garrafa de água, se faz favor. Esta.",
-     "audio": "d2301"
-    },
-    {
-     "who": "Vendedor",
-     "pt": "Esta pequena ou aquela grande?",
-     "audio": "d2302"
-    },
-    {
-     "who": "Marie",
-     "pt": "Aquela. E este pão também.",
-     "audio": "d2303"
-    },
-    {
-     "who": "Ana",
-     "pt": "Marie, precisamos de fruta. Olha, essas laranjas são giras.",
-     "audio": "d2304"
-    },
-    {
-     "who": "Marie",
-     "pt": "Quanto custam estas laranjas?",
-     "audio": "d2305"
-    },
-    {
-     "who": "Vendedor",
-     "pt": "Um euro e vinte o quilo.",
-     "audio": "d2306"
-    },
-    {
-     "who": "João",
-     "pt": "E isto? O que é isto?",
-     "audio": "d2307"
-    },
-    {
-     "who": "Vendedor",
-     "pt": "Isso é protetor solar. Para surfistas com cara de Lisboa.",
-     "audio": "d2308"
-    },
-    {
-     "who": "João",
-     "pt": "Levamos dois.",
-     "audio": "d2309"
-    },
-    {
-     "who": "Marie",
-     "pt": "Quanto é tudo?",
-     "audio": "d2310"
-    },
-    {
-     "who": "Vendedor",
-     "pt": "Sete euros e cinquenta. Quer um saco?",
-     "audio": "d2311"
-    },
-    {
-     "who": "Marie",
-     "pt": "Não, obrigada. Tenho este.",
-     "audio": "d2312"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "5a · este, esta, estes, estas … aquele",
-   "items": [
-    {
-     "q": "___ pão (hier bei mir) é fresco.",
-     "a": "Este"
-    },
-    {
-     "q": "Quanto custam ___ laranjas (hier)?",
-     "a": "estas"
-    },
-    {
-     "q": "Queria ___ garrafa (dort).",
-     "a": "aquela"
-    },
-    {
-     "q": "___ saco (da, bei dir) é teu?",
-     "a": "Esse"
-    },
-    {
-     "q": "___ lojas (dort) são caras.",
-     "a": "Aquelas"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "5b · isto, isso, aquilo",
+   "title": "1 · Aufwärmen (von Tag 22)",
    "items": [
     {
      "q": "Was ist das hier? → O que é ___?",
      "a": "isto"
     },
     {
-     "q": "Das da (bei dir) ist Sonnencreme. → ___ é protetor solar.",
-     "a": "Isso"
+     "q": "Jene Flasche dort: ___ garrafa",
+     "a": "aquela"
     },
     {
-     "q": "Das dort ist das Meer. → ___ é o mar.",
-     "a": "Aquilo"
+     "q": "Wir brauchen Wasser: ___ de água.",
+     "a": "Precisamos"
     },
     {
-     "q": "Genau! → ___!",
-     "a": "Isso"
+     "q": "Der Laden ist nah: A loja fica ___ da praia.",
+     "a": "perto"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: O caminho (12)",
+   "items": [
+    {
+     "pt": "Desculpe, …",
+     "de": "Entschuldigen Sie, …",
+     "ipa": "[dɨʃˈkuɫpɨ]",
+     "audio": "v2301"
+    },
+    {
+     "pt": "a estação de autocarros",
+     "de": "der Busbahnhof",
+     "ipa": "[ɨʃtɐˈsɐ̃w̃ dɨ awtɔˈkaʁuʃ]",
+     "audio": "v2302"
+    },
+    {
+     "pt": "a rua",
+     "de": "die Straße",
+     "ipa": "[ˈʁuɐ]",
+     "audio": "v2303"
+    },
+    {
+     "pt": "à esquerda",
+     "de": "links, nach links",
+     "ipa": "[a ɨʃˈkeɾdɐ]",
+     "audio": "v2304"
+    },
+    {
+     "pt": "à direita",
+     "de": "rechts, nach rechts",
+     "ipa": "[a diˈɾɐjtɐ]",
+     "audio": "v2305"
+    },
+    {
+     "pt": "em frente",
+     "de": "geradeaus",
+     "ipa": "[ɐ̃j̃ ˈfɾẽtɨ]",
+     "audio": "v2306"
+    },
+    {
+     "pt": "virar",
+     "de": "abbiegen",
+     "ipa": "[viˈɾaɾ]",
+     "audio": "v2307"
+    },
+    {
+     "pt": "seguir",
+     "de": "weitergehen, folgen",
+     "ipa": "[sɨˈgiɾ]",
+     "audio": "v2308"
+    },
+    {
+     "pt": "atravessar",
+     "de": "überqueren",
+     "ipa": "[ɐtɾɐvɨˈsaɾ]",
+     "audio": "v2309"
+    },
+    {
+     "pt": "a praça",
+     "de": "der Platz",
+     "ipa": "[ˈpɾasɐ]",
+     "audio": "v2310"
+    },
+    {
+     "pt": "a paragem",
+     "de": "die Haltestelle",
+     "ipa": "[pɐˈɾaʒɐ̃j̃]",
+     "audio": "v2311"
+    },
+    {
+     "pt": "a pé",
+     "de": "zu Fuß",
+     "ipa": "[ɐ ˈpɛ]",
+     "audio": "v2312"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Die höfliche Befehlsform",
+   "html": "<i>(Sprachnachricht, 8:35 Uhr:)</i> Ihr habt sie schon ein paarmal gesehen: <i>Diz-me! · Lê! · Reservem! · Tragam!</i> Heute lernt ihr, wie man sie <b>selbst</b> baut – und zwar die höfliche Form, die euch jeder Portugiese auf der Straße sagt.<br><br><b>Das Rezept (Sie-Form):</b> Nimm den Stamm und tausch die Endung:<br>• <b>-ar</b>-Verben → <b>-e</b>: <i>virar → <b>Vire</b> à esquerda. · atravessar → <b>Atravesse</b> a praça. · falar → <b>Fale</b> devagar.</i><br>• <b>-er / -ir</b>-Verben → <b>-a</b>: <i>seguir → <b>Siga</b> em frente. · beber → <b>Beba</b> água.</i> (Bei -ir-Verben wie <i>seguir</i> geht man von der eu-Form aus: <i>sigo → Siga</i>.)<br>• Mehrere Personen (ihr/Sie alle): <b>-em / -am</b>: <i><b>Virem</b> à direita. · <b>Sigam</b> em frente.</i><br><br><b>Merkhilfe:</b> Die Endungen sind „vertauscht“ – -ar-Verben kriegen ein <b>e</b>, die anderen ein <b>a</b>.<br><br><b>Und unter Freunden (du)?</b> Da ist die Befehlsform einfach die <b>ele/ela-Form</b> des Präsens: <i>Vira! · Segue! · Fala! · Olha!</i> – deshalb sagt Ana ständig <i>Olha, …</i><br><br><b>Desculpe</b> ist selbst so eine Form (von <i>desculpar</i>, entschuldigen): <i>Desculp<b>e</b></i> zu Fremden, <i>Desculp<b>a</b></i> zu Freunden. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Drei Dinge, die dir auf der Straße wirklich passieren: Erstens sagt man <b>„Não é longe“</b> – auch wenn es zwanzig Minuten sind. Zweitens beschreiben Portugiesen den Weg mit <i>sempre em frente</i> („immer geradeaus“) und einer Handbewegung, die alles erklärt. Drittens: <i>esquerda</i> klingt wie <b>„schkérda“</b> – das e am Anfang ist fast weg, das s wird zum sch. Übe es dreimal, dann versteht dich auch der Busfahrer."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Desculpe, onde é…?",
+   "hint": "Selbst erschlossen: até à = bis zu · a ponte = die Brücke · depois da ponte = nach der Brücke · ter razão = recht haben · Corram! = Lauft! (correr, Befehlsform für „ihr“) · o senhor = der Herr.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Desculpe, onde é a estação de autocarros?",
+     "audio": "d2301"
+    },
+    {
+     "who": "Senhor",
+     "pt": "A estação? Não é longe. Siga em frente até à praça.",
+     "audio": "d2302"
+    },
+    {
+     "who": "Marie",
+     "pt": "Até à praça… sim.",
+     "audio": "d2303"
+    },
+    {
+     "who": "Senhor",
+     "pt": "Na praça, vire à esquerda. Depois atravesse a ponte.",
+     "audio": "d2304"
+    },
+    {
+     "who": "Marie",
+     "pt": "A ponte? Há uma ponte?",
+     "audio": "d2305"
+    },
+    {
+     "who": "Senhor",
+     "pt": "Há. Depois da ponte, a estação fica à direita. Cinco minutos a pé.",
+     "audio": "d2306"
+    },
+    {
+     "who": "Marie",
+     "pt": "Muito obrigada!",
+     "audio": "d2307"
+    },
+    {
+     "who": "Senhor",
+     "pt": "De nada. Vão para Sagres?",
+     "audio": "d2308"
+    },
+    {
+     "who": "João",
+     "pt": "Vamos. O autocarro é às nove e um quarto.",
+     "audio": "d2309"
+    },
+    {
+     "who": "Senhor",
+     "pt": "Então não sigam em frente. Corram!",
+     "audio": "d2310"
+    },
+    {
+     "who": "Ana",
+     "pt": "Ele tem razão. São nove e cinco!",
+     "audio": "d2311"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · precisar de + do/da",
+   "title": "5a · Die Befehlsform bilden (Sie)",
    "items": [
     {
-     "q": "Wir brauchen Wasser: Precisamos ___ água.",
-     "a": "de"
+     "q": "abbiegen → ___ à esquerda.",
+     "a": "Vire"
     },
     {
-     "q": "Ich brauche das Brot: Preciso ___ pão.",
-     "a": "do"
+     "q": "weitergehen → ___ em frente.",
+     "a": "Siga"
     },
     {
-     "q": "Sie braucht die Tüte: Ela precisa ___ saco.",
-     "a": "do"
+     "q": "überqueren → ___ a praça.",
+     "a": "Atravesse"
     },
     {
-     "q": "Brauchst du die Orangen? Precisas ___ laranjas?",
-     "a": "das"
+     "q": "entschuldigen → ___!",
+     "a": "Desculpe"
+    },
+    {
+     "q": "sprechen (langsam, bitte) → ___ devagar, se faz favor.",
+     "a": "Fale"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Sie-Form → du-Form",
+   "items": [
+    {
+     "q": "Vire à direita. → (du) ___ à direita.",
+     "a": "Vira"
+    },
+    {
+     "q": "Siga em frente. → (du) ___ em frente.",
+     "a": "Segue"
+    },
+    {
+     "q": "Desculpe. → (du) ___.",
+     "a": "Desculpa"
+    },
+    {
+     "q": "Fale devagar. → (du) ___ devagar.",
+     "a": "Fala"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Wo ist es?",
+   "items": [
+    {
+     "q": "Der Laden ist links: A loja fica ___.",
+     "a": "à esquerda"
+    },
+    {
+     "q": "Das Café ist geradeaus: O café é ___.",
+     "a": "em frente"
+    },
+    {
+     "q": "Der Strand ist nah: A praia é ___.",
+     "a": "perto"
+    },
+    {
+     "q": "Der Bahnhof ist weit: A estação é ___.",
+     "a": "longe"
+    },
+    {
+     "q": "Fünf Minuten zu Fuß: cinco minutos ___",
+     "a": "a pé"
     }
    ]
   },
@@ -255,20 +254,16 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "A Marie compra a garrafa pequena.",
-     "a": "Falsch – sie nimmt die große („Aquela.“)."
+     "q": "A estação de autocarros é longe.",
+     "a": "Falsch – „Não é longe“, fünf Minuten zu Fuß."
     },
     {
-     "q": "As laranjas custam um euro e vinte o quilo.",
-     "a": "Richtig."
+     "q": "Na praça, a Marie vira à direita.",
+     "a": "Falsch – links („vire à esquerda“). Rechts liegt erst der Busbahnhof nach der Brücke."
     },
     {
-     "q": "O João leva um protetor solar.",
-     "a": "Falsch – zwei („Levamos dois.“)."
-    },
-    {
-     "q": "A Marie quer um saco.",
-     "a": "Falsch – sie hat schon einen („Tenho este.“)."
+     "q": "O autocarro para Sagres é às nove e um quarto.",
+     "a": "Richtig – und es ist schon fünf nach neun. Corram!"
     }
    ]
   },
@@ -277,53 +272,53 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Wie viel kostet das hier? → ___",
-     "a": "Quanto custa isto?"
+     "q": "Entschuldigen Sie, wo ist der Strand? → ___",
+     "a": "Desculpe, onde é a praia?"
     },
     {
-     "q": "Ich nehme dieses (hier). → ___",
-     "a": "Levo este. / Levo esta."
+     "q": "Gehen Sie geradeaus. → ___",
+     "a": "Siga em frente."
     },
     {
-     "q": "Wir brauchen Brot. → ___",
-     "a": "Precisamos de pão."
+     "q": "Biegen Sie rechts ab. → ___",
+     "a": "Vire à direita."
     },
     {
-     "q": "Jene Orangen dort sind teuer. → ___",
-     "a": "Aquelas laranjas são caras."
+     "q": "Es ist nicht weit. → ___",
+     "a": "Não é longe."
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: Na loja",
-   "html": "Stell dich in deine Küche und zeig auf drei Dinge – nah, beim Gegenüber, weit weg: <i>Queria este… Esse… é fresco? Quanto custa aquela…?</i><br><br>Dann deine Einkaufsliste für Sagres, laut: <i>Preciso de água, de pão, de protetor solar…</i> Mindestens fünf Dinge.<br><br>Und die Königsfrage, dreimal mit sauberem „ischt“: <i>Quanto custa isto?</i>"
+   "title": "6 · Sprechen: O caminho para casa",
+   "html": "Beschreib jemandem den Weg von deiner Haustür zum nächsten Supermarkt – laut, mit der Hand in der Luft: <i>Siga em frente… vire à esquerda… atravesse a rua… fica à direita.</i><br><br>Dann die Frage, die du ab jetzt überall stellen kannst, dreimal, mit „schkérda“-Ohr: <i>Desculpe, onde é a estação? Onde é a praia? Onde é a casa de banho?</i>"
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: As compras",
+   "title": "7 · Kleine Geschichte: Cinco minutos a pé",
    "audio": "s23",
-   "text": "Sábado, oito da manhã. Lagos acorda devagar; o grupo não.<br>A Ana tem uma lista. A Marie tem o dinheiro. O João tem o saco de plástico de ontem — agora vazio, porque os catorze pastéis de nata já não existem.<br>— Precisamos de água, fruta e pão — diz a Ana. — E de protetor solar para o João.<br>— Eu tenho protetor solar.<br>— Tens? Mostra.<br>O João abre o saco. Lá dentro há uma toalha e uma t-shirt.<br>— Está em Lisboa.<br>Na loja, a Marie escolhe: esta garrafa, este pão, aquelas laranjas. Diz «Quanto custa isto?» duas vezes e percebe a resposta duas vezes. Sente-se uma campeã.<br>Só uma coisa corre mal: quando o vendedor pergunta «Quer um saco?», a Ana responde «Sim, obrigada» e o João responde «Não, obrigado» ao mesmo tempo.<br>O vendedor olha para os dois e dá o saco à Ana.<br>— Ela é que manda — diz o João. — Boa escolha.<br>Às oito e meia estão na rua com três sacos e um problema novo: onde é a estação de autocarros?",
-   "gloss": "Neu erschließen: devagar = langsam · o dinheiro = das Geld · ontem = gestern · vazio = leer · já não existem = gibt es nicht mehr · Mostra! = Zeig her! (Befehlsform – morgen) · lá dentro = drinnen · escolher = auswählen · sentir-se = sich fühlen · a campeã = die Meisterin · correr mal = schiefgehen · ao mesmo tempo = gleichzeitig · dar = geben · Ela é que manda = sie hat das Sagen · a escolha = die Wahl",
+   "text": "Nove e seis. Três sacos, três pessoas, uma ponte.<br>— Corram! — grita a Ana.<br>A Marie corre. A Ana corre. O João corre dez metros, para, e diz:<br>— Eu não corro com pão.<br>— Então dá-me o pão!<br>A Ana leva o pão. O João corre. Atravessam a praça, viram à esquerda, atravessam a ponte. As laranjas saltam dentro do saco como bolas.<br>Nove e treze. A estação. Um autocarro azul com a porta aberta e um motorista com cara de quem tem tempo.<br>— Sagres? — pergunta a Marie, sem ar.<br>— Sagres. Mas calma, menina. Este autocarro sai às nove e meia. O das nove e um quarto é o de Lagos para Lagos.<br>Silêncio.<br>— Isso existe? — pergunta o João.<br>— Não. Estou a brincar. Entrem.<br>A Ana senta-se, fecha os olhos e diz para ninguém:<br>— Odeio o sentido de humor deste país.<br>Mas está a sorrir. Todos estão. Em quinze minutos, o autocarro parte para o fim do mundo.",
+   "gloss": "Neu erschließen: gritar = schreien · parar = stehenbleiben · dá-me = gib mir · saltar = hüpfen · a bola = der Ball · o motorista = der Fahrer (morgen Vokabel) · existir = existieren · azul = blau · aberto, aberta = offen · com cara de quem tem tempo = mit einem Gesicht, das Zeit hat · sem ar = außer Atem · a menina = das Mädchen, „junge Frau“ · sair = losfahren, hinausgehen · Estou a brincar = ich mach nur Spaß · Entrem! = Steigt ein! · odiar = hassen · o sentido de humor = der Humor · o país = das Land · sorrir = lächeln · o fim do mundo = das Ende der Welt (so nennt man Sagres)",
    "questions": [
     {
-     "q": "O João tem protetor solar no saco.",
-     "a": "Falsch – nur Handtuch und T-Shirt. Die Sonnencreme liegt in Lissabon."
+     "q": "O João corre até à estação com o pão.",
+     "a": "Falsch – nach zehn Metern bleibt er stehen („Eu não corro com pão“). Ana nimmt es ihm ab."
     },
     {
-     "q": "A Marie percebe as respostas do vendedor.",
-     "a": "Richtig – zweimal gefragt, zweimal verstanden. „Sente-se uma campeã.“"
+     "q": "O autocarro para Sagres sai às nove e um quarto.",
+     "a": "Falsch – um halb zehn. Der Fahrer hat sie nur veräppelt („Estou a brincar“)."
     },
     {
-     "q": "O vendedor dá o saco ao João.",
-     "a": "Falsch – Ana bekommt ihn („Ela é que manda“)."
+     "q": "No fim, todos estão a sorrir.",
+     "a": "Richtig – auch Ana, obwohl sie den Humor „dieses Landes“ angeblich hasst."
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Du kannst jetzt im Laden auf Dinge zeigen (<b>este / esse / aquele</b>), nach dem Preis fragen und sagen, was du brauchst (<b>precisar de</b>). Woche 4 hat begonnen – und die drei stehen in Lagos mit drei Tüten und ohne Plan. Morgen: <b>Desculpe, onde é a estação de autocarros?</b> – nach dem Weg fragen, und die erste Befehlsform."
+   "html": "Du kannst jetzt nach dem Weg fragen, eine Wegbeschreibung verstehen und die <b>höfliche Befehlsform</b> selbst bilden (<i>Vire! Siga! Desculpe!</i>). Der Bus fährt um halb zehn. Morgen: <b>De autocarro para Sagres</b> – Verkehrsmittel, <i>poder</i> und <i>querer</i>… und um zehn Uhr steht jemand am Strand."
   }
  ]
 }

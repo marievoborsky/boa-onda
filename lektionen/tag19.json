@@ -1,233 +1,242 @@
 {
  "id": "tag19",
- "title": "Vamos a Sagres!",
- "subtitle": "Woche 3 · Tag 19 · Pläne machen · ir + Infinitiv · ca. 25 Min.",
+ "title": "Onde é que fica?",
+ "subtitle": "Woche 3 · Tag 19 · Wohnen · há, ficar & Ortsangaben · ca. 25 Min.",
  "sections": [
   {
    "type": "exercise",
    "title": "1 · Aufwärmen (von Tag 18)",
    "items": [
     {
-     "q": "Eu ___ desporto. (fazer)",
-     "a": "faço"
+     "q": "Morgen lerne ich: Amanhã ___ ___.",
+     "a": "vou estudar"
     },
     {
-     "q": "Eles ___ ao cinema. (ir)",
-     "a": "vão"
+     "q": "Wir werden die Tickets buchen: ___",
+     "a": "Vamos reservar os bilhetes."
     },
     {
-     "q": "Vou ___ praia. (a praia)",
-     "a": "à"
+     "q": "Bis später! ___",
+     "a": "Até logo!"
     },
     {
-     "q": "Ich laufe nie: ___",
-     "a": "Nunca corro."
+     "q": "nächste Woche = ___",
+     "a": "a semana que vem"
     }
    ]
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: Fazer planos (12)",
+   "title": "2 · Neue Wörter: Em casa (12)",
    "items": [
     {
-     "pt": "o plano",
-     "de": "der Plan",
-     "ipa": "[ˈplɐnu]",
+     "pt": "o apartamento",
+     "de": "die Wohnung",
+     "ipa": "[ɐpɐɾtɐˈmẽtu]",
      "audio": "v1901"
     },
     {
-     "pt": "a semana que vem",
-     "de": "nächste Woche",
-     "ipa": "[sɨˈmɐnɐ kɨ ˈvɐ̃j̃]",
+     "pt": "o quarto",
+     "de": "das Zimmer, Schlafzimmer",
+     "ipa": "[ˈkwaɾtu]",
      "audio": "v1902"
     },
     {
-     "pt": "o mês",
-     "de": "der Monat",
-     "ipa": "[meʃ]",
+     "pt": "a sala",
+     "de": "das Wohnzimmer",
+     "ipa": "[ˈsalɐ]",
      "audio": "v1903"
     },
     {
-     "pt": "reservar",
-     "de": "reservieren, buchen",
-     "ipa": "[ʁɨzɨɾˈvaɾ]",
+     "pt": "a cozinha",
+     "de": "die Küche",
+     "ipa": "[kuˈziɲɐ]",
      "audio": "v1904"
     },
     {
-     "pt": "o bilhete",
-     "de": "das Ticket, die Fahrkarte",
-     "ipa": "[biˈʎetɨ]",
+     "pt": "a casa de banho",
+     "de": "das Bad (EP! Brasilien: banheiro)",
+     "ipa": "[ˈkazɐ dɨ ˈbɐɲu]",
      "audio": "v1905"
     },
     {
-     "pt": "o comboio",
-     "de": "der Zug (EP! Brasilien: trem)",
-     "ipa": "[kõˈboju]",
+     "pt": "a janela",
+     "de": "das Fenster",
+     "ipa": "[ʒɐˈnɛlɐ]",
      "audio": "v1906"
     },
     {
-     "pt": "a mala",
-     "de": "der Koffer, die Tasche",
-     "ipa": "[ˈmalɐ]",
+     "pt": "a porta",
+     "de": "die Tür",
+     "ipa": "[ˈpɔɾtɐ]",
      "audio": "v1907"
     },
     {
-     "pt": "levar",
-     "de": "mitnehmen",
-     "ipa": "[lɨˈvaɾ]",
+     "pt": "ficar",
+     "de": "liegen, sich befinden (auch: bleiben)",
+     "ipa": "[fiˈkaɾ]",
      "audio": "v1908"
     },
     {
-     "pt": "talvez",
-     "de": "vielleicht",
-     "ipa": "[taɫˈveʃ]",
+     "pt": "em cima de",
+     "de": "auf, über",
+     "ipa": "[ɐ̃j̃ ˈsimɐ dɨ]",
      "audio": "v1909"
     },
     {
-     "pt": "de certeza",
-     "de": "bestimmt, ganz sicher",
-     "ipa": "[dɨ sɨɾˈtezɐ]",
+     "pt": "debaixo de",
+     "de": "unter",
+     "ipa": "[dɨˈbajʃu dɨ]",
      "audio": "v1910"
     },
     {
-     "pt": "finalmente",
-     "de": "endlich",
-     "ipa": "[finaɫˈmẽtɨ]",
+     "pt": "perto de",
+     "de": "in der Nähe von",
+     "ipa": "[ˈpɛɾtu dɨ]",
      "audio": "v1911"
     },
     {
-     "pt": "juntos / juntas",
-     "de": "zusammen",
-     "ipa": "[ˈʒũtuʃ] / [ˈʒũtɐʃ]",
+     "pt": "longe de",
+     "de": "weit weg von",
+     "ipa": "[ˈlõʒɨ dɨ]",
      "audio": "v1912"
     }
    ]
   },
   {
    "type": "note",
-   "title": "3 · Dica do Vasco: Die Zukunft in zwei Wörtern",
-   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Heute lernst du die Zukunft – und sie ist geschenkt, weil du <b>ir</b> schon kannst.<br><br><b>ir + Infinitiv</b> (genau wie „ich werde…“):<br><i><b>Vou</b> surfar.</i> – Ich werde surfen. / Ich gehe surfen.<br><i><b>Vais</b> gostar!</i> – Du wirst es mögen!<br><i><b>Vamos</b> reservar os bilhetes.</i> – Wir werden die Tickets buchen.<br><i>Eles <b>vão</b> chegar tarde.</i><br><br>Das Verb dahinter bleibt in der Grundform – <b>immer</b>. Kein Anhängen, kein Umbauen: <i>vou comer, vais dormir, vamos partir</i>.<br><br><b>Und der Trick, den alle nutzen:</b> Mit einem Zeitwort reicht sogar die Gegenwart – <i><b>Amanhã</b> parto às oito.</i> Portugal spricht die Zukunft am liebsten im Präsens. Boa onda!"
+   "title": "3 · Dica do Vasco: há, fica – und wo die Dinge stehen",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Drei Werkzeuge für alles, was mit Orten zu tun hat.<br><br><b>1. há = es gibt.</b> Ein einziges Wort, immer gleich – egal ob eins oder hundert:<br><i><b>Há</b> um quarto. · <b>Há</b> dois quartos. · <b>Não há</b> casa de banho!</i><br>(Es ist übrigens eine Form von <i>haver</i> – aber du brauchst nur diese eine.)<br><br><b>2. ficar = liegen/sich befinden.</b> Wo Deutsche „ist“ sagen, sagt Portugal gern <b>fica</b>:<br><i>O apartamento <b>fica</b> perto do rio. · Onde é que <b>fica</b> a estação?</i><br>Und dasselbe Verb heißt auch „bleiben“: <i><b>Fico</b> em casa.</i><br><br><b>3. Die Ortswörter enden fast alle auf <i>de</i></b> – und <i>de</i> verschmilzt wie immer:<br>em cima <b>da</b> mesa · debaixo <b>da</b> cama · ao lado <b>do</b> café · perto <b>do</b> mar · longe <b>da</b> praia.<br>Ein Wort merken, den Rest kannst du schon. Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Zwei Zeitwörter, die Deutsche fast immer verwechseln: <b>logo</b> heißt nicht „bald irgendwann“, sondern <b>später heute</b> – <i>Vou logo à praia</i> = ich gehe nachher an den Strand. Deshalb heißt der Abschied unter Freunden <b>Até logo!</b> (bis später) und nicht até amanhã. Und <b>a semana que vem</b> ist die Alltagsform für „nächste Woche“ – wörtlich „die Woche, die kommt“. Klingt hübsch, oder? Portugiesisch lässt die Zeit auf einen zukommen."
+   "html": "Wenn du in Portugal nach dem Weg fragst, sagst du fast nie <i>Onde está…?</i> – für Gebäude, Straßen und Orte fragt man <b>Onde é que fica…?</b> <i>Onde é que fica a estação? Onde é que fica a casa de banho?</i> Und genau dieser letzte Satz ist im Urlaub Gold wert: In Portugal heißt es <b>casa de banho</b>, nicht banheiro – und wer nach der <i>toilette</i> sucht, findet oft nur ratlose Blicke. Ein Wort, ein gerettetes Kaffeetrinken."
   },
   {
    "type": "reading",
-   "title": "4 · Lesen: A reserva",
-   "hint": "Selbst erschlossen: a reserva = die Buchung · só = nur · de comboio / de autocarro = mit dem Zug / mit dem Bus · a lógica = die Logik · maravilhosa = wunderbar · mais seguro = sicherer · a boleia = die Mitfahrgelegenheit · o carro = das Auto · a carrinha = der Kleinbus · na mesma = trotzdem · vemos = wir sehen weiter · seguro = sicher · a boa disposição = die gute Laune.",
+   "title": "4 · Lesen: O apartamento da Ana",
+   "hint": "Selbst erschlossen: pequeno = klein · o prédio = das Wohnhaus · o andar = die Etage · o elevador = der Aufzug · a cama = das Bett · a vista = die Aussicht · o miradouro = der Aussichtspunkt · a Graça = ein Stadtteil in Lissabon · a pé = zu Fuß · vê-se = man sieht · por isso = deshalb · usadas = gebraucht · a partir de = ab.",
    "lines": [
     {
-     "who": "Ana",
-     "pt": "Então? Vamos reservar os bilhetes ou não?",
+     "who": "Marie",
+     "pt": "Onde é que fica o teu apartamento?",
      "audio": "d1901"
     },
     {
-     "who": "Marie",
-     "pt": "Vamos! Mas o Vasco diz que as ondas ainda estão grandes.",
+     "who": "Ana",
+     "pt": "Fica na Graça, perto do miradouro. Longe da escola, mas gosto.",
      "audio": "d1902"
     },
     {
-     "who": "João",
-     "pt": "Talvez. Eu vou reservar na mesma. Depois vemos.",
+     "who": "Marie",
+     "pt": "É grande?",
      "audio": "d1903"
     },
     {
      "who": "Ana",
-     "pt": "Que lógica maravilhosa, João.",
+     "pt": "Não! Há dois quartos, uma sala pequena, cozinha e casa de banho.",
      "audio": "d1904"
     },
     {
      "who": "Marie",
-     "pt": "O comboio para Lagos custa vinte euros. Depois vamos de autocarro.",
+     "pt": "E há elevador?",
      "audio": "d1905"
     },
     {
-     "who": "João",
-     "pt": "Ou vamos de boleia! O meu primo tem uma carrinha velha.",
+     "who": "Ana",
+     "pt": "Não há. Quarto andar, a pé. É o meu desporto.",
      "audio": "d1906"
     },
     {
-     "who": "Ana",
-     "pt": "Com o Tomás em Sagres numa carrinha velha? Não. Vamos de comboio, é mais seguro.",
+     "who": "Marie",
+     "pt": "E a vista?",
      "audio": "d1907"
     },
     {
-     "who": "Marie",
-     "pt": "Vou levar só uma mala pequena. E o fato de surf?",
+     "who": "Ana",
+     "pt": "Da janela da cozinha vê-se o rio. Por isso fico aqui.",
      "audio": "d1908"
     },
     {
      "who": "João",
-     "pt": "O Vasco tem tudo. Nós vamos levar fome e boa disposição.",
+     "pt": "E debaixo da cama dela há três pranchas de surf. Nunca usadas.",
      "audio": "d1909"
+    },
+    {
+     "who": "Ana",
+     "pt": "A partir da semana que vem, usadas!",
+     "audio": "d1910"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · Bau die Zukunft: ir + Infinitiv",
+   "title": "5a · há oder não há?",
    "items": [
     {
-     "q": "Eu ___ ___ os bilhetes. (reservar)",
-     "a": "vou reservar"
+     "q": "___ um quarto no apartamento.",
+     "a": "Há"
     },
     {
-     "q": "Tu ___ ___ connosco? (nadar)",
-     "a": "vais nadar"
+     "q": "___ dois quartos e uma sala.",
+     "a": "Há"
     },
     {
-     "q": "Nós ___ ___ de comboio. (partir)",
-     "a": "vamos partir"
+     "q": "No prédio da Ana ___ elevador. (kein!)",
+     "a": "não há"
     },
     {
-     "q": "Eles ___ ___ tarde. (chegar)",
-     "a": "vão chegar"
-    },
-    {
-     "q": "A Marie ___ ___ uma mala pequena. (levar)",
-     "a": "vai levar"
+     "q": "___ casa de banho no comboio?",
+     "a": "Há"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · Von heute auf morgen",
+   "title": "5b · Verschmelzung: de + Artikel",
    "items": [
     {
-     "q": "Hoje estudo. → Amanhã ___",
-     "a": "vou estudar"
+     "q": "em cima ___ mesa (a mesa)",
+     "a": "da"
     },
     {
-     "q": "Hoje corro. → Amanhã ___",
-     "a": "vou correr"
+     "q": "debaixo ___ cama (a cama)",
+     "a": "da"
     },
     {
-     "q": "Hoje comemos em casa. → Amanhã ___",
-     "a": "vamos comer em casa"
+     "q": "ao lado ___ café (o café)",
+     "a": "do"
     },
     {
-     "q": "Hoje ela trabalha. → Amanhã ela ___",
-     "a": "vai trabalhar"
+     "q": "perto ___ mar (o mar)",
+     "a": "do"
+    },
+    {
+     "q": "longe ___ praias (as praias)",
+     "a": "das"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · talvez, de certeza oder finalmente?",
+   "title": "5c · ficar: die richtige Form",
    "items": [
     {
-     "q": "___ vamos a Sagres! (nach drei Wochen Warten)",
-     "a": "Finalmente"
+     "q": "O apartamento ___ perto do rio.",
+     "a": "fica"
     },
     {
-     "q": "Não sei… ___ vou.",
-     "a": "talvez"
+     "q": "Hoje eu ___ em casa.",
+     "a": "fico"
     },
     {
-     "q": "O João vai chegar tarde, ___.",
-     "a": "de certeza"
+     "q": "Onde é que ___ a estação?",
+     "a": "fica"
+    },
+    {
+     "q": "Nós ___ no hostel duas noites.",
+     "a": "ficamos"
     }
    ]
   },
@@ -236,16 +245,16 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "O comboio para Lagos custa vinte euros.",
-     "a": "Richtig."
+     "q": "O apartamento da Ana fica perto da escola.",
+     "a": "Falsch – weit weg von der Schule, nah am Miradouro."
     },
     {
-     "q": "Vão de carro com o primo do João.",
-     "a": "Falsch – mit dem Zug, das ist sicherer."
+     "q": "Não há elevador no prédio.",
+     "a": "Richtig – vierter Stock, zu Fuß."
     },
     {
-     "q": "A Marie vai levar o fato de surf dela.",
-     "a": "Falsch – Vasco hat alles. Sie bringen Hunger und gute Laune mit."
+     "q": "Debaixo da cama da Ana há três pranchas.",
+     "a": "Richtig – und ab nächster Woche werden sie endlich benutzt."
     }
    ]
   },
@@ -254,53 +263,53 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Wir werden die Tickets buchen. → ___",
-     "a": "Vamos reservar os bilhetes."
+     "q": "Wo liegt der Bahnhof? → ___",
+     "a": "Onde é que fica a estação?"
     },
     {
-     "q": "Ich gehe nachher an den Strand. → ___",
-     "a": "Vou logo à praia."
+     "q": "Es gibt kein Bad. → ___",
+     "a": "Não há casa de banho."
     },
     {
-     "q": "Nächste Woche fahre ich nach Porto. → ___",
-     "a": "A semana que vem vou ao Porto."
+     "q": "Das Buch liegt auf dem Tisch. → ___",
+     "a": "O livro está em cima da mesa."
     },
     {
-     "q": "Bis später! → ___",
-     "a": "Até logo!"
+     "q": "Heute bleibe ich zu Hause. → ___",
+     "a": "Hoje fico em casa."
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: Os teus planos",
-   "html": "Sag laut, was du vorhast – fünf Sätze mit <b>ir + Infinitiv</b>:<br><br><i>Logo vou… Amanhã vou… No fim de semana vou… A semana que vem vou… No verão vou…</i><br><br>Und dann die ehrliche Variante mit <i>talvez</i> und <i>de certeza</i>: <i>Talvez vá correr… De certeza vou dormir muito.</i> (Merk dir für später: nach <i>talvez</i> nutzen Portugiesen gern eine Extra-Form – <i>vá</i> statt <i>vou</i>. Das kommt in Staffel 2, heute reicht <i>talvez vou</i>.)"
+   "title": "6 · Sprechen: A tua casa",
+   "html": "Beschreib deine Wohnung laut – sechs Sätze:<br><br><i>Moro num apartamento / numa casa. Há … quartos. A cozinha fica ao lado da sala. Da janela vê-se… O meu quarto é… Não há…</i><br><br>Dann die Suchspiel-Variante: Nimm drei Dinge in deinem Zimmer und sag, wo sie liegen – <i>em cima da mesa, debaixo da cama, ao lado da janela</i>. Wer das kann, kann in Portugal auch nach dem Weg fragen."
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: Os bilhetes",
+   "title": "7 · Kleine Geschichte: O hostel",
    "audio": "s19",
-   "text": "Quarta-feira à noite. Três telemóveis, uma mesa, um plano.<br>— Comboio das oito e dez — diz a Ana. — Sexta-feira da semana que vem.<br>— Sexta? Eu tenho aulas até às cinco — diz a Marie.<br>— Então o das seis da tarde. Chegamos a Lagos à noite e dormimos lá.<br>O João não diz nada. Está a olhar para o telemóvel.<br>— João?<br>— Uma mensagem do Vasco.<br>Silêncio. A Ana e a Marie olham uma para a outra.<br>— Lê! — diz a Marie.<br>— «Olá, malta. A previsão para a semana que vem: as ondas vão descer para um metro. Vento fraco. Se isto se mantiver…»<br>— Se isto se mantiver o quê?! — grita a Ana.<br>— Acaba aqui. Ele está a escrever.<br>Os três olham para o telemóvel como três gatos para uma janela.<br>O telemóvel apita.<br>«…vai ser perfeito para vocês. Reservem.»",
-   "gloss": "Neu erschließen: a malta = die Leute, „Leute!“ (typisch EP-Anrede) · descer = sinken · fraco = schwach · se isto se mantiver = wenn das so bleibt (eine Form für Staffel 2 – hier nur zum Wiedererkennen) · Lê! = Lies vor! (Befehlsform wie Reservem! – Woche 4) · gritar = schreien · acabar = enden · está a escrever = er schreibt gerade (EP-Verlaufsform: estar a + Infinitiv – merk sie dir!) · o gato = die Katze · a janela = das Fenster · apitar = piepen · Reservem! = Bucht! (Befehlsform, kommt in Woche 4)",
+   "text": "— Encontrei — diz o João, com o telemóvel na mão. — Hostel em Sagres, quarto para quatro pessoas.<br>— Quatro? — pergunta a Marie. — Somos três.<br>— Somos quatro. O Tomás chega na sexta-feira com a mãe da Ana. A mãe fica em Lagos, ele fica connosco.<br>A Ana levanta os olhos ao céu.<br>— Ele vai falar do Vasco o fim de semana todo.<br>— Ele vai falar do Vasco a vida toda — diz o João.<br>A Marie olha para as fotos do hostel: uma sala com sofás velhos, uma cozinha pequena, uma janela grande.<br>— Fica longe da praia?<br>— Cinco minutos a pé. E há uma coisa importante…<br>— O quê?<br>— Da janela do quarto vê-se o mar.<br>Silêncio. Depois a Ana diz baixinho, para ninguém:<br>— Nunca dormi tão perto do mar.<br>E a Marie percebe que não é só ela que está à espera.",
+   "gloss": "Neu erschließen: encontrei = ich habe gefunden (Perfekt – Woche 4!) · a mão = die Hand · levantar os olhos ao céu = die Augen verdrehen · a vida toda = das ganze Leben · o sofá = das Sofa · a pé = zu Fuß · vê-se = man sieht · nunca dormi = ich habe nie geschlafen (Perfekt) · tão = so · estar à espera = warten, gespannt sein · ninguém = niemand",
    "questions": [
     {
-     "q": "O comboio da manhã não serve à Marie.",
-     "a": "Richtig – sie hat bis fünf Unterricht, sie nehmen den um sechs."
+     "q": "O quarto do hostel é para quatro pessoas.",
+     "a": "Richtig – Tomás kommt mit!"
     },
     {
-     "q": "As ondas vão descer para um metro.",
-     "a": "Richtig – und der Wind wird schwach."
+     "q": "O hostel fica longe da praia.",
+     "a": "Falsch – fünf Minuten zu Fuß."
     },
     {
-     "q": "O Vasco diz que ainda é perigoso.",
-     "a": "Falsch – „vai ser perfeito para vocês. Reservem.“"
+     "q": "Só a Marie está à espera da viagem.",
+     "a": "Falsch – am Ende merkt sie, dass es auch Ana so geht."
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Kannst du jetzt über morgen sprechen? Test: Sag drei Dinge, die du morgen machst – mit <i>vou</i> + Grundform. Wenn das flüssig geht, hast du die halbe Zukunft des Portugiesischen im Griff. Morgen: <b>Wohnen</b> – wo was steht, und das kleine Wort <b>há</b>, das dir seit Tagen begegnet."
+   "html": "Drei Sätze aus dem Kopf: <i>Es gibt zwei Zimmer. · Die Küche liegt neben dem Wohnzimmer. · Wo ist das Bad?</i> Wenn die sitzen, kannst du dich in einer fremden Wohnung – und in einer fremden Stadt – orientieren. Morgen der letzte neue Stoff der Woche: <b>das Wetter</b>. Und damit die Frage, auf die alle warten."
   }
  ]
 }

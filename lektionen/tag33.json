@@ -1,291 +1,272 @@
 {
  "id": "tag33",
- "title": "São João",
- "subtitle": "Staffel 2 · Woche 5 · Tag 33 · Das Fest · o, a, os, as · ca. 30 Min.",
+ "title": "No Porto é melhor",
+ "subtitle": "Staffel 2 · Woche 5 · Tag 33 · Vergleichen · mais … do que, tão … como · ca. 30 Min.",
  "sections": [
   {
    "type": "exercise",
    "title": "1 · Aufwärmen (von Tag 32)",
    "items": [
     {
-     "q": "Ontem ___ na Ribeira. (estar – Hintergrund)",
-     "opts": [
-      "estávamos",
-      "estivemos"
-     ],
-     "a": "estávamos – wie es war, Hintergrund → Imperfekt"
+     "q": "Ich sehe ihn: Vejo-___.",
+     "a": "o"
     },
     {
-     "q": "De repente ___ o fogo de artifício. (começar)",
-     "opts": [
-      "começou",
-      "começava"
-     ],
-     "a": "começou – plötzliches Ereignis → Perfekt"
+     "q": "Ich sehe sie (die Sardinen) nicht: Não ___ vejo.",
+     "a": "as"
     },
     {
-     "q": "Ich lernte ihn 1968 kennen: ___ (conhecer) em 1968.",
-     "a": "Conheci-o / Conheci"
+     "q": "Ich werde ihn (den Basilikum) kaufen: Vou ___.",
+     "a": "comprá-lo"
     },
     {
-     "q": "Während er sprach: ___ ele falava",
-     "a": "Enquanto"
+     "q": "Mitternacht: a ___",
+     "a": "meia-noite"
     }
    ]
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: A festa (14)",
+   "title": "2 · Neue Wörter: Comparar (14)",
    "items": [
     {
-     "pt": "o São João",
-     "de": "das Johannisfest (Porto, 23./24. Juni)",
-     "ipa": "[u sɐ̃w̃ ʒuˈɐ̃w̃]",
+     "pt": "melhor",
+     "de": "besser",
+     "ipa": "[mɨˈʎɔɾ]",
      "audio": "v3301"
     },
     {
-     "pt": "o martelo",
-     "de": "der Hammer",
-     "ipa": "[mɐɾˈtɛlu]",
+     "pt": "pior",
+     "de": "schlechter",
+     "ipa": "[piˈɔɾ]",
      "audio": "v3302"
     },
     {
-     "pt": "o manjerico",
-     "de": "der Basilikumtopf (São-João-Geschenk)",
-     "ipa": "[mɐ̃ʒɨˈɾiku]",
+     "pt": "maior",
+     "de": "größer",
+     "ipa": "[mɐˈjɔɾ]",
      "audio": "v3303"
     },
     {
-     "pt": "o balão",
-     "de": "der Ballon",
-     "ipa": "[bɐˈlɐ̃w̃]",
+     "pt": "mais pequeno / mais pequena",
+     "de": "kleiner (EP!)",
+     "ipa": "[majʃ pɨˈkenu / pɨˈkenɐ]",
      "audio": "v3304"
     },
     {
-     "pt": "a sardinha",
-     "de": "die Sardine",
-     "ipa": "[sɐɾˈdiɲɐ]",
+     "pt": "mais … do que",
+     "de": "mehr … als",
+     "ipa": "[majʃ … du kɨ]",
      "audio": "v3305"
     },
     {
-     "pt": "o fogo de artifício",
-     "de": "das Feuerwerk",
-     "ipa": "[ˈfogu dɨ ɐɾtɨˈfisju]",
+     "pt": "menos … do que",
+     "de": "weniger … als",
+     "ipa": "[ˈmenuʃ … du kɨ]",
      "audio": "v3306"
     },
     {
-     "pt": "a multidão",
-     "de": "die Menschenmenge",
-     "ipa": "[muɫtiˈdɐ̃w̃]",
+     "pt": "tão … como",
+     "de": "so … wie",
+     "ipa": "[tɐ̃w̃ … ˈkomu]",
      "audio": "v3307"
     },
     {
-     "pt": "dançar",
-     "de": "tanzen",
-     "ipa": "[dɐ̃ˈsaɾ]",
+     "pt": "a opinião",
+     "de": "die Meinung",
+     "ipa": "[ɔpiˈnjɐ̃w̃]",
      "audio": "v3308"
     },
     {
-     "pt": "a meia-noite",
-     "de": "Mitternacht",
-     "ipa": "[ɐ ˈmɐjɐ ˈnojtɨ]",
+     "pt": "concordar (com)",
+     "de": "zustimmen",
+     "ipa": "[kõkuɾˈdaɾ]",
      "audio": "v3309"
     },
     {
-     "pt": "lançar",
-     "de": "werfen, steigen lassen",
-     "ipa": "[lɐ̃ˈsaɾ]",
+     "pt": "discordar (de)",
+     "de": "widersprechen, anderer Meinung sein",
+     "ipa": "[diʃkuɾˈdaɾ]",
      "audio": "v3310"
     },
     {
-     "pt": "o fumo",
-     "de": "der Rauch",
-     "ipa": "[ˈfumu]",
+     "pt": "a francesinha",
+     "de": "Portos Sandwich mit Fleisch, Käse und Sauce",
+     "ipa": "[fɾɐ̃sɨˈziɲɐ]",
      "audio": "v3311"
     },
     {
-     "pt": "cheio / cheia",
-     "de": "voll",
-     "ipa": "[ˈʃɐju / ˈʃɐjɐ]",
+     "pt": "o bacalhau",
+     "de": "der Stockfisch",
+     "ipa": "[bɐkɐˈʎaw]",
      "audio": "v3312"
     },
     {
-     "pt": "perder",
-     "de": "verlieren, verpassen",
-     "ipa": "[pɨɾˈdeɾ]",
+     "pt": "a discussão",
+     "de": "die Diskussion, der Streit",
+     "ipa": "[diʃkuˈsɐ̃w̃]",
      "audio": "v3313"
     },
     {
-     "pt": "encontrar",
-     "de": "finden, treffen",
-     "ipa": "[ẽkõˈtɾaɾ]",
+     "pt": "barulhento / barulhenta",
+     "de": "laut",
+     "ipa": "[bɐɾuˈʎẽtu / bɐɾuˈʎẽtɐ]",
      "audio": "v3314"
     }
    ]
   },
   {
    "type": "note",
-   "title": "3 · Dica do Vasco: ihn, sie, es – o, a, os, as",
-   "html": "<i>(Sprachnachricht, mit Feuerwerk im Hintergrund – Vasco hört zu:)</i> Ihr kennt <i>me, te, lhe, nos</i> aus Tag 26 (mir, dir, ihm). Heute die Wörter für <b>ihn / sie / es</b> – die Sache, die man sieht, kauft, findet:<br><br><b>o</b> = ihn, es (m.) · <b>a</b> = sie, es (w.) · <b>os</b> = sie (m. Pl.) · <b>as</b> = sie (w. Pl.)<br><i>Vejo o Tomás. → Vejo<b>-o</b>.</i> · <i>Compro a sardinha. → Compro<b>-a</b>.</i> · <i>Encontrei os amigos. → Encontrei<b>-os</b>.</i><br><br><b>Die Stellung</b> ist dieselbe wie bei <i>me</i>: hinten mit Bindestrich – und nach <b>não</b>, Fragewörtern und <b>que</b> springt es nach vorn: <i>Não <b>o</b> vejo. · Onde é que <b>os</b> encontraste?</i><br><br><b>Eine Besonderheit nach der Grundform:</b> Endet das Verb auf <b>-r</b>, fällt das r weg, das Pronomen wird <b>-lo / -la</b>, und der Vokal davor bekommt einen Akzent (-ar → á, -er → ê, -ir bleibt ohne): <i>Vou comprar o manjerico → Vou compr<b>á-lo</b>. · Queres ver a Ana? → Queres v<b>ê-la</b>? · Vou ouvir o fado → Vou ouv<b>i-lo</b>.</i> Das klingt kompliziert, ist aber nur eine Sache der Aussprache – „comprá-lo“ rutscht leichter über die Zunge als „comprar-o“.<br><br><b>Auch me / te / nos</b> können „mich / dich / uns“ sein: <i>Ela viu<b>-me</b>. · Não <b>te</b> vi na Ribeira.</i> Boa festa!"
+   "title": "3 · Dica do Vasco: Vergleichen",
+   "html": "<i>(Sprachnachricht:)</i> Wer in Portugal mit Leuten aus Porto und Lissabon am Tisch sitzt, braucht heute nur eine Sache: <b>vergleichen</b>.<br><br><b>mehr / weniger … als:</b> <i>mais … <b>do que</b></i> · <i>menos … <b>do que</b></i><br><i>Lisboa é <b>mais</b> grande <b>do que</b> o Porto? – Nein, dafür gibt es ein Wort: <b>maior</b>.</i><br><br><b>Vier Vergleiche haben eigene Wörter</b> (wie im Deutschen „besser“, nicht „guter“):<br><i>bom → <b>melhor</b> · mau → <b>pior</b> · grande → <b>maior</b> · pequeno → <b>mais pequeno</b></i><br>Ja, „mais pequeno“ – in Portugal sagt man das so. <i>menor</i> gibt es auch, aber eher für Mengen und Abstraktes.<br><br><b>so … wie:</b> <i><b>tão</b> simpático <b>como</b></i> – <i>As pessoas do Porto são <b>tão</b> simpáticas <b>como</b> as de Lisboa.</i><br>Mit Nomen: <i><b>tanto</b> peixe <b>como</b> carne</i>.<br><br><b>Meinung sagen:</b> <i><b>Acho que</b>… · <b>Na minha opinião</b>… · <b>Concordo</b> com a Ana. · <b>Discordo</b>. · <b>Tens razão</b>.</i><br><br>Und wenn es ernst wird: <i>Eu prefiro Sagres.</i> Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "São João ist die größte Nacht des Jahres in Porto, und die Regeln sind einfach: Man haut Fremden mit einem <b>Plastikhammer</b> auf den Kopf (freundlich!), man schenkt einen <b>manjerico</b> mit einem Vierzeiler drin, man isst <b>Sardinen</b> vom Grill, und um Mitternacht gibt es Feuerwerk über der Ponte D. Luís. Danach wird bis zum Sonnenaufgang getanzt. Der Gruß dazu: <b>Bom São João!</b> Beide Wörter nasal, „ssãu schu-ãu“. Und die Antwort auf jede Hammerattacke ist ein Lächeln – wer sich beschwert, hat das Fest nicht verstanden."
+   "html": "Die Rivalität Porto–Lissabon ist ernst und gleichzeitig ein Witz, den beide Seiten pflegen. Die aus Porto heißen <b>tripeiros</b> (nach den Kutteln, die sie angeblich essen), die aus Lissabon <b>alfacinhas</b> („Salatköpfchen“). Mein Satz kennst du: <i>No Porto é melhor!</i> Die Lisboeter antworten mit einem müden Lächeln. Und die <b>francesinha</b>? Ein Sandwich mit Steak, Wurst, Schinken, Käse überbacken und Biersauce. Man isst sie einmal und redet ein Jahr davon. <b>do que</b> spricht sich „du kö“, ganz kurz."
   },
   {
    "type": "reading",
-   "title": "4 · Lesen: Onde está o Tomás?",
-   "hint": "Selbst erschlossen: há um minuto = vor einer Minute · Foi comprar = er ist … kaufen gegangen · dela = von ihr (de + ela) · óbvio = offensichtlich · Por isso = deshalb · Anda cá! = Komm her! · Toma. = Hier, nimm. · morrer = sterben · Deixa-o = Lass ihn · a varanda = der Balkon. Tomás’ Antwort gibt Ana weiter – er ist zu beschäftigt mit dem Hammer.",
+   "title": "4 · Lesen: Ao almoço",
+   "hint": "Selbst erschlossen: o bacalhau à Brás = Stockfisch mit Ei und Kartoffelstroh (Lissabonner Klassiker) · o país = das Land · eu sou suspeito = ich bin befangen · achar = finden, meinen · Diz. = Sag es. · pensava = ich dachte · Isso é verdade = das stimmt · tens de = du musst · preferir = vorziehen (eu prefiro) · o / a diplomata.",
    "lines": [
     {
-     "who": "Ana",
-     "pt": "Marie! Onde está o Tomás? Não o vejo.",
+     "who": "João",
+     "pt": "A francesinha é boa. Mas o bacalhau à Brás de Lisboa é melhor.",
      "audio": "d3301"
     },
     {
-     "who": "Marie",
-     "pt": "Estava aqui há um minuto. Tinha o martelo na mão.",
+     "who": "Ana",
+     "pt": "Melhor?! A francesinha é o melhor prato do país.",
      "audio": "d3302"
     },
     {
-     "who": "João",
-     "pt": "Eu vi-o. Foi comprar um manjerico para a Marie.",
+     "who": "Pai",
+     "pt": "Concordo com a Ana. Mas eu sou suspeito.",
      "audio": "d3303"
     },
     {
-     "who": "Ana",
-     "pt": "Para a Marie?",
+     "who": "Marie",
+     "pt": "Eu acho as duas cidades bonitas. Lisboa é maior, o Porto é mais…",
      "audio": "d3304"
     },
     {
-     "who": "João",
-     "pt": "Ele gosta dela. É óbvio.",
+     "who": "Ana",
+     "pt": "Mais bonito. Diz. Mais bonito.",
      "audio": "d3305"
     },
     {
      "who": "Marie",
-     "pt": "Ele tem treze anos!",
+     "pt": "Mais pequeno. E mais barulhento do que eu pensava.",
      "audio": "d3306"
     },
     {
      "who": "João",
-     "pt": "Por isso é óbvio.",
+     "pt": "E mais frio. E chove mais do que em Lisboa.",
      "audio": "d3307"
     },
     {
-     "who": "Ana",
-     "pt": "Ali está ele! Tomás! Anda cá! Onde é que compraste isso?",
+     "who": "Pai",
+     "pt": "Mas as pessoas são mais simpáticas.",
      "audio": "d3308"
     },
     {
-     "who": "Ana",
-     "pt": "Ele diz que o comprou na Ribeira. Para ti. Toma.",
+     "who": "João",
+     "pt": "Isso é verdade. Tão simpáticas como as de Lisboa. Quase.",
      "audio": "d3309"
     },
     {
-     "who": "Marie",
-     "pt": "Um manjerico! Obrigada, Tomás! Vou levá-lo para Hamburgo.",
+     "who": "Ana",
+     "pt": "Marie, tu tens de decidir. Porto ou Lisboa?",
      "audio": "d3310"
     },
     {
-     "who": "João",
-     "pt": "Não vais. Os manjericos morrem em Hamburgo. Deixa-o na varanda da avó.",
+     "who": "Marie",
+     "pt": "Eu? Eu prefiro Sagres.",
      "audio": "d3311"
     },
     {
-     "who": "Ana",
-     "pt": "Meia-noite! O fogo de artifício! Vamos, vamos, vamos!",
+     "who": "Pai",
+     "pt": "Resposta de diplomata. Come mais bacalhau.",
      "audio": "d3312"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · o, a, os, as einsetzen",
+   "title": "5a · mais / menos … do que",
    "items": [
     {
-     "q": "Vejo o Tomás. → Vejo-___.",
-     "a": "o"
+     "q": "O Porto é ___ pequeno ___ Lisboa.",
+     "a": "mais / do que"
     },
     {
-     "q": "Compro a sardinha. → Compro-___.",
-     "a": "a"
+     "q": "Lisboa é ___ (größer) ___ o Porto.",
+     "a": "maior / do que"
     },
     {
-     "q": "Encontrei os amigos. → Encontrei-___.",
-     "a": "os"
+     "q": "No Porto chove ___ (mehr) ___ em Lisboa.",
+     "a": "mais / do que"
     },
     {
-     "q": "Não vejo os balões. → Não ___ vejo.",
-     "a": "os"
-    },
-    {
-     "q": "Onde compraste o manjerico? → Onde é que ___ compraste?",
-     "a": "o"
-    },
-    {
-     "q": "Perdi as chaves. → Perdi-___.",
-     "a": "as"
+     "q": "Em Sagres há ___ (weniger) pessoas ___ no Porto.",
+     "a": "menos / do que"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · Welche Stellung? (antippen)",
+   "title": "5b · tão … como",
    "items": [
     {
-     "q": "Vejo o Tomás. →",
-     "opts": [
-      "Vejo-o.",
-      "O vejo."
-     ],
-     "a": "Vejo-o. – im normalen Satz hängt das Pronomen hinten"
+     "q": "As pessoas do Porto são ___ simpáticas ___ as de Lisboa.",
+     "a": "tão / como"
     },
     {
-     "q": "Não vejo o Tomás. →",
-     "opts": [
-      "Não o vejo.",
-      "Não vejo-o."
-     ],
-     "a": "Não o vejo. – nach não springt es nach vorn"
+     "q": "O João é ___ alto ___ o Vasco.",
+     "a": "tão / como"
     },
     {
-     "q": "Vou comprar o manjerico. →",
-     "opts": [
-      "Vou comprá-lo.",
-      "Vou comprar-o."
-     ],
-     "a": "Vou comprá-lo. – nach -r fällt das r weg, dafür -lo mit Akzent"
-    },
-    {
-     "q": "Onde encontraste os amigos? →",
-     "opts": [
-      "Onde é que os encontraste?",
-      "Onde é que encontraste-os?"
-     ],
-     "a": "Onde é que os encontraste? – nach dem Fragewort nach vorn"
+     "q": "A Marie fala ___ bem ___ a Ana? Quase.",
+     "a": "tão / como"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Satz bauen",
+   "title": "5c · Welches Wort? (antippen)",
    "items": [
     {
-     "q": "Ich sehe ihn nicht.",
-     "satz": "Não o vejo.",
-     "a": "Não o vejo."
+     "q": "Este café é ___ do que aquele. (besser)",
+     "opts": [
+      "melhor",
+      "mais bom"
+     ],
+     "a": "melhor – „mais bom“ gibt es nicht"
     },
     {
-     "q": "Wo hast du das gekauft?",
-     "satz": "Onde é que compraste isso?",
-     "a": "Onde é que compraste isso?"
+     "q": "Hamburgo é ___ do que o Porto. (größer)",
+     "opts": [
+      "maior",
+      "mais grande"
+     ],
+     "a": "maior – eigenes Wort"
     },
     {
-     "q": "Lass ihn auf dem Balkon.",
-     "satz": "Deixa-o na varanda.",
-     "a": "Deixa-o na varanda."
+     "q": "O Tomás é ___ do que a Ana. (kleiner)",
+     "opts": [
+      "mais pequeno",
+      "menos grande"
+     ],
+     "a": "mais pequeno – in Portugal die übliche Form („menor“ geht auch, eher für Mengen)"
+    },
+    {
+     "q": "O tempo hoje está ___ do que ontem. (schlechter)",
+     "opts": [
+      "pior",
+      "mais mau"
+     ],
+     "a": "pior – eigenes Wort"
     }
    ]
   },
@@ -294,71 +275,70 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "O Tomás foi comprar sardinhas.",
-     "a": "Falsch – einen manjerico, für Marie."
+     "q": "O pai da Ana concorda com o João.",
+     "a": "Falsch – er stimmt Ana zu (und gibt zu, befangen zu sein)."
     },
     {
-     "q": "Segundo o João, o Tomás gosta da Marie.",
-     "a": "Richtig – „É óbvio.“ Er ist dreizehn, deshalb ist es offensichtlich."
+     "q": "Segundo o João, no Porto chove mais do que em Lisboa.",
+     "a": "Richtig – und es ist kälter."
     },
     {
-     "q": "A Marie vai levar o manjerico para Hamburgo.",
-     "a": "Falsch – João sagt, in Hamburg sterben die Basilikumtöpfe. Er bleibt auf dem Balkon der Avó."
+     "q": "A Marie decide: Porto.",
+     "a": "Falsch – „Eu prefiro Sagres.“ Antwort einer Diplomatin."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Übersetze",
+   "title": "5e · Satz bauen",
    "items": [
     {
-     "q": "Ich habe sie (die Sardinen) gegessen. → ___",
-     "a": "Comi-as."
+     "q": "Ich stimme Ana zu.",
+     "satz": "Concordo com a Ana.",
+     "a": "Concordo com a Ana."
     },
     {
-     "q": "Ich habe ihn gesehen. → ___",
-     "a": "Vi-o."
+     "q": "Lissabon ist größer als Porto.",
+     "satz": "Lisboa é maior do que o Porto.",
+     "a": "Lisboa é maior do que o Porto."
     },
     {
-     "q": "Ich kenne sie (Ana) seit einem Jahr. → ___",
-     "a": "Conheço-a há um ano."
-    },
-    {
-     "q": "Ich sehe sie (die Ballons) nicht. → ___",
-     "a": "Não os vejo."
+     "q": "Ich ziehe Sagres vor.",
+     "satz": "Eu prefiro Sagres.",
+     "a": "Eu prefiro Sagres."
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: Não o vejo!",
-   "html": "Nimm fünf Dinge auf deinem Tisch und sag laut, was du damit machst – mit Pronomen: <i>O telemóvel? Vejo-o. A chávena? Lavo-a. Os livros? Não os leio. As chaves? Perdi-as!</i><br><br>Dann die Feuerwerks-Nacht in vier Sätzen: <i>Comprei um manjerico. Dei-o à… Vi o fogo de artifício. Dançámos até…</i>"
+   "title": "6 · Sprechen: A tua cidade e o Porto",
+   "html": "Vergleiche deine Stadt mit Porto in sechs Sätzen: <i>A minha cidade é maior / mais pequena do que o Porto. É tão bonita como… Chove mais / menos… As pessoas são…</i><br><br>Dann Meinung, laut und entschieden: <i>Na minha opinião, … Concordo. Discordo. Tens razão.</i> Und zum Schluss Anas Satz, mit ihrem Stolz: <i>No Porto é melhor!</i>"
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: A noite mais longa do ano",
+   "title": "7 · Kleine Geschichte: A ponte",
    "audio": "s33",
-   "text": "À meia-noite, o céu sobre a Ponte D. Luís explode em vermelho e ouro. A multidão grita. O rio fica cheio de luz. A Marie não fotografa: olha. Este ano quer guardá-lo na cabeça, não no telemóvel.<br>Depois do fogo, a cidade não vai para casa. Vai dançar. Nas ruas da Ribeira há música em cada esquina, fumo de sardinhas, milhares de martelos de plástico. A Marie recebe doze marteladas na cabeça em dez minutos e dá quinze. Perde o João na multidão e encontra-o meia hora depois, a dormir num banco, com o martelo ainda na mão.<br>— Ele dorme em todo o lado — diz a Ana. — É um talento.<br>O Tomás não dorme. O Tomás lança um balão com o pai e fica a vê-lo subir até desaparecer no escuro.<br>— Para onde é que vai? — pergunta à Marie.<br>— Para Sagres, se calhar.<br>— Não. Para Hamburgo. Para te esperar.<br>Às quatro da manhã, com o sol quase a nascer, o grupo sobe a rua devagar. A Ana leva o João pelo braço. A Marie leva o manjerico. O quintal da avó cheira a noite e a manjerico.<br>No papel do manjerico está escrito um verso, em letra de criança:<br>«Manjerico verde, manjerico sem par – a alemã do Norte voltou para ficar.»<br>A Marie lê-o duas vezes. Não sabe se é verdade. Mas gosta muito de o ler.",
-   "gloss": "Neu erschließen: se calhar = vielleicht (kommt an Tag 35) · explodir = explodieren · o ouro = das Gold · a luz = das Licht · guardar = aufbewahren · a esquina = die Straßenecke · milhares = tausende · a martelada = der Hammerschlag · o banco = die Bank · em todo o lado = überall · subir = aufsteigen · desaparecer = verschwinden · nascer (o sol) = aufgehen · pelo braço = am Arm · o verso = der Vers · sem par = ohnegleichen · voltou para ficar = ist zurückgekommen, um zu bleiben",
+   "text": "Depois do almoço, a discussão continua na rua. O João defende Lisboa, a Ana defende o Porto, o pai defende o bacalhau, e o Tomás defende Sagres, porque o Vasco vive lá.<br>— Sagres não é uma cidade — diz a Ana.<br>— Por isso é melhor — diz o Tomás.<br>Sobem até à Ponte D. Luís. Do tabuleiro de cima vê-se tudo: o rio, os barcos, as casas de Gaia, as pessoas pequenas lá em baixo. O vento é forte. A Marie segura o cabelo com as duas mãos.<br>— Em Hamburgo há mais pontes do que em Veneza — diz.<br>— Isso é verdade? — pergunta o João.<br>— Dizem que sim. Nunca contei.<br>— Mas nenhuma é tão bonita como esta — diz a Ana, sem olhar para a ponte. Olha para o telemóvel. Está calada há dez minutos, o que não é normal.<br>— Estás bem? — pergunta a Marie, baixinho.<br>— Estou. Estou à espera de uma resposta.<br>— De quem?<br>— Amanhã conto. Se a resposta for boa.<br>O João, que ouviu tudo, não diz nada. O Tomás, que não ouviu nada, aponta para o rio:<br>— Ali! Um surfista!<br>Não é um surfista. É um homem num barco pequeno, a pescar. Mas ninguém o corrige. É um dia bonito demais para isso.",
+   "gloss": "Neu erschließen: defender = verteidigen · o tabuleiro de cima = das obere Deck (der Brücke) · Gaia = Vila Nova de Gaia, die Stadt gegenüber · segurar = festhalten · Veneza = Venedig · Dizem que sim = man sagt es · nenhuma = keine · calado, calada = still, schweigsam · Se a resposta for boa = wenn die Antwort gut ist (eine Form für später!) · apontar = zeigen auf · pescar = angeln · corrigir = korrigieren · demais = zu (sehr)",
    "questions": [
     {
-     "q": "A Marie fotografa o fogo de artifício.",
-     "a": "Falsch – dieses Jahr schaut sie nur. Sie will es im Kopf behalten, nicht im Handy."
+     "q": "O Tomás defende Sagres porque o Vasco vive lá.",
+     "a": "Richtig – und weil Sagres keine Stadt ist, ist es „por isso“ besser."
     },
     {
-     "q": "O João dorme num banco com o martelo na mão.",
-     "a": "Richtig – „Ele dorme em todo o lado. É um talento.“"
+     "q": "A Ana está muito faladora na ponte.",
+     "a": "Falsch – sie schweigt seit zehn Minuten und wartet auf eine Antwort. Das ist nicht normal."
     },
     {
-     "q": "O verso no manjerico diz que a alemã voltou para ficar.",
-     "a": "Richtig – in Kinderschrift. Marie weiß nicht, ob es stimmt, liest es aber gern."
+     "q": "O Tomás vê um surfista no rio.",
+     "a": "Falsch – einen Mann in einem kleinen Boot beim Angeln. Aber niemand korrigiert ihn."
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Du kannst jetzt „ihn, sie, es“ sagen (<b>o, a, os, as</b>), weißt, wohin sie springen, und kennst <b>comprá-lo</b>. Vier Uhr morgens in Porto – morgen Mittag geht es am Tisch weiter, und zwar mit Streit: <b>Porto oder Lissabon?</b> Vergleichen lernen."
+   "html": "Du kannst jetzt vergleichen (<b>mais … do que, tão … como, melhor, maior, mais pequeno</b>) und deine Meinung sagen. Ana wartet auf eine Antwort, Marie hütet ein Geheimnis – morgen platzen beide: <b>O plano</b>, und wie man über die Zukunft spricht."
   }
  ]
 }

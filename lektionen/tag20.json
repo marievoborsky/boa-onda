@@ -1,242 +1,237 @@
 {
  "id": "tag20",
- "title": "Onde é que fica?",
- "subtitle": "Woche 3 · Tag 20 · Wohnen · há, ficar & Ortsangaben · ca. 25 Min.",
+ "title": "Que tempo faz?",
+ "subtitle": "Woche 3 · Tag 20 · Wetter & Jahreszeiten · ca. 25 Min.",
  "sections": [
   {
    "type": "exercise",
    "title": "1 · Aufwärmen (von Tag 19)",
    "items": [
     {
-     "q": "Morgen lerne ich: Amanhã ___ ___.",
-     "a": "vou estudar"
+     "q": "Es gibt kein Bad: ___",
+     "a": "Não há casa de banho."
     },
     {
-     "q": "Wir werden die Tickets buchen: ___",
-     "a": "Vamos reservar os bilhetes."
+     "q": "Wo liegt der Bahnhof? ___",
+     "a": "Onde é que fica a estação?"
     },
     {
-     "q": "Bis später! ___",
-     "a": "Até logo!"
+     "q": "auf dem Tisch = em cima ___ mesa",
+     "a": "da"
     },
     {
-     "q": "nächste Woche = ___",
-     "a": "a semana que vem"
+     "q": "Heute bleibe ich zu Hause: ___",
+     "a": "Hoje fico em casa."
     }
    ]
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: Em casa (12)",
+   "title": "2 · Neue Wörter: O tempo (12)",
    "items": [
     {
-     "pt": "o apartamento",
-     "de": "die Wohnung",
-     "ipa": "[ɐpɐɾtɐˈmẽtu]",
+     "pt": "o tempo",
+     "de": "das Wetter (auch: die Zeit)",
+     "ipa": "[ˈtẽpu]",
      "audio": "v2001"
     },
     {
-     "pt": "o quarto",
-     "de": "das Zimmer, Schlafzimmer",
-     "ipa": "[ˈkwaɾtu]",
+     "pt": "o sol",
+     "de": "die Sonne",
+     "ipa": "[sɔɫ]",
      "audio": "v2002"
     },
     {
-     "pt": "a sala",
-     "de": "das Wohnzimmer",
-     "ipa": "[ˈsalɐ]",
+     "pt": "a chuva",
+     "de": "der Regen",
+     "ipa": "[ˈʃuvɐ]",
      "audio": "v2003"
     },
     {
-     "pt": "a cozinha",
-     "de": "die Küche",
-     "ipa": "[kuˈziɲɐ]",
+     "pt": "chover",
+     "de": "regnen",
+     "ipa": "[ʃuˈveɾ]",
      "audio": "v2004"
     },
     {
-     "pt": "a casa de banho",
-     "de": "das Bad (EP! Brasilien: banheiro)",
-     "ipa": "[ˈkazɐ dɨ ˈbɐɲu]",
+     "pt": "o calor",
+     "de": "die Hitze, die Wärme",
+     "ipa": "[kɐˈloɾ]",
      "audio": "v2005"
     },
     {
-     "pt": "a janela",
-     "de": "das Fenster",
-     "ipa": "[ʒɐˈnɛlɐ]",
+     "pt": "o frio",
+     "de": "die Kälte",
+     "ipa": "[ˈfɾiu]",
      "audio": "v2006"
     },
     {
-     "pt": "a porta",
-     "de": "die Tür",
-     "ipa": "[ˈpɔɾtɐ]",
+     "pt": "a nuvem",
+     "de": "die Wolke",
+     "ipa": "[ˈnuvɐ̃j̃]",
      "audio": "v2007"
     },
     {
-     "pt": "ficar",
-     "de": "liegen, sich befinden (auch: bleiben)",
-     "ipa": "[fiˈkaɾ]",
+     "pt": "o céu",
+     "de": "der Himmel",
+     "ipa": "[sɛw]",
      "audio": "v2008"
     },
     {
-     "pt": "em cima de",
-     "de": "auf, über",
-     "ipa": "[ɐ̃j̃ ˈsimɐ dɨ]",
+     "pt": "a primavera",
+     "de": "der Frühling",
+     "ipa": "[pɾimɐˈvɛɾɐ]",
      "audio": "v2009"
     },
     {
-     "pt": "debaixo de",
-     "de": "unter",
-     "ipa": "[dɨˈbajʃu dɨ]",
+     "pt": "o verão",
+     "de": "der Sommer",
+     "ipa": "[vɨˈɾɐ̃w̃]",
      "audio": "v2010"
     },
     {
-     "pt": "perto de",
-     "de": "in der Nähe von",
-     "ipa": "[ˈpɛɾtu dɨ]",
+     "pt": "o outono",
+     "de": "der Herbst",
+     "ipa": "[o(w)ˈtonu]",
      "audio": "v2011"
     },
     {
-     "pt": "longe de",
-     "de": "weit weg von",
-     "ipa": "[ˈlõʒɨ dɨ]",
+     "pt": "o inverno",
+     "de": "der Winter",
+     "ipa": "[ĩˈvɛɾnu]",
      "audio": "v2012"
     }
    ]
   },
   {
    "type": "note",
-   "title": "3 · Dica do Vasco: há, fica – und wo die Dinge stehen",
-   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Drei Werkzeuge für alles, was mit Orten zu tun hat.<br><br><b>1. há = es gibt.</b> Ein einziges Wort, immer gleich – egal ob eins oder hundert:<br><i><b>Há</b> um quarto. · <b>Há</b> dois quartos. · <b>Não há</b> casa de banho!</i><br>(Es ist übrigens eine Form von <i>haver</i> – aber du brauchst nur diese eine.)<br><br><b>2. ficar = liegen/sich befinden.</b> Wo Deutsche „ist“ sagen, sagt Portugal gern <b>fica</b>:<br><i>O apartamento <b>fica</b> perto do rio. · Onde é que <b>fica</b> a estação?</i><br>Und dasselbe Verb heißt auch „bleiben“: <i><b>Fico</b> em casa.</i><br><br><b>3. Die Ortswörter enden fast alle auf <i>de</i></b> – und <i>de</i> verschmilzt wie immer:<br>em cima <b>da</b> mesa · debaixo <b>da</b> cama · ao lado <b>do</b> café · perto <b>do</b> mar · longe <b>da</b> praia.<br>Ein Wort merken, den Rest kannst du schon. Boa onda!"
+   "title": "3 · Dica do Vasco: Wetter macht man",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Im Deutschen <b>ist</b> das Wetter – im Portugiesischen <b>macht</b> es sich meistens selbst:<br><br><b>Die Frage:</b> <i>Que tempo faz?</i> – Wie ist das Wetter?<br><b>Mit fazer</b> (immer diese eine Form): <i><b>Faz</b> sol. · <b>Faz</b> calor. · <b>Faz</b> frio. · <b>Faz</b> bom tempo. · <b>Faz</b> mau tempo.</i><br><b>Mit estar</b> (eher: gerade jetzt): <i><b>Está</b> sol. · <b>Está</b> calor. · O céu <b>está</b> limpo.</i><br><b>Regen hat ein eigenes Verb:</b> <i><b>Chove.</b></i> – Es regnet. Und heute, in diesem Moment: <i><b>Está a chover.</b></i><br><br><b>Jahreszeiten mit no/na:</b> <i><b>no</b> verão · <b>no</b> inverno · <b>no</b> outono · <b>na</b> primavera.</i><br><br>Für uns am Meer zählt nur eins: <i>Como está o mar?</i> Und diese Woche… hörst du gleich. Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Wenn du in Portugal nach dem Weg fragst, sagst du fast nie <i>Onde está…?</i> – für Gebäude, Straßen und Orte fragt man <b>Onde é que fica…?</b> <i>Onde é que fica a estação? Onde é que fica a casa de banho?</i> Und genau dieser letzte Satz ist im Urlaub Gold wert: In Portugal heißt es <b>casa de banho</b>, nicht banheiro – und wer nach der <i>toilette</i> sucht, findet oft nur ratlose Blicke. Ein Wort, ein gerettetes Kaffeetrinken."
+   "html": "Jetzt der Unterschied, an dem man Portugal von Brasilien am schnellsten hört: die <b>Verlaufsform</b>. Brasilien sagt <i>está chovendo</i>, Portugal sagt <b>está a chover</b> – <b>estar a + Grundform</b>. Genauso: <i>estou a estudar</i> (ich lerne gerade), <i>estás a brincar?</i> (willst du mich veräppeln?), <i>ele está a dormir</i>. Du hast die Form schon zweimal in den Geschichten gesehen – ab heute darfst du sie selbst benutzen. Ein einziges kleines <b>a</b>, und du klingst europäisch."
   },
   {
    "type": "reading",
-   "title": "4 · Lesen: O apartamento da Ana",
-   "hint": "Selbst erschlossen: pequeno = klein · o prédio = das Wohnhaus · o andar = die Etage · o elevador = der Aufzug · a cama = das Bett · a vista = die Aussicht · o miradouro = der Aussichtspunkt · a Graça = ein Stadtteil in Lissabon · a pé = zu Fuß · vê-se = man sieht · por isso = deshalb · usadas = gebraucht · a partir de = ab.",
+   "title": "4 · Lesen: A previsão",
+   "hint": "Selbst erschlossen: a previsão = die Vorhersage · o grau = der Grad · limpo = klar, sauber · o nevoeiro = der Nebel · dentro de água = im Wasser · acreditar = glauben · Diz-me…! = Sag mir…! und Acredita. = Glaub es. (beides Befehlsform – kommt in Woche 4, hier nur zum Erschließen).",
    "lines": [
     {
      "who": "Marie",
-     "pt": "Onde é que fica o teu apartamento?",
+     "pt": "Que tempo faz em Sagres na sexta?",
      "audio": "d2001"
     },
     {
-     "who": "Ana",
-     "pt": "Fica na Graça, perto do miradouro. Longe da escola, mas gosto.",
+     "who": "João",
+     "pt": "Faz sol. Vinte e dois graus. Céu limpo.",
      "audio": "d2002"
     },
     {
-     "who": "Marie",
-     "pt": "É grande?",
+     "who": "Ana",
+     "pt": "E o vento?",
      "audio": "d2003"
     },
     {
-     "who": "Ana",
-     "pt": "Não! Há dois quartos, uma sala pequena, cozinha e casa de banho.",
+     "who": "João",
+     "pt": "Fraco. De manhã há um pouco de nevoeiro, mas depois vai estar sol.",
      "audio": "d2004"
     },
     {
      "who": "Marie",
-     "pt": "E há elevador?",
+     "pt": "E as ondas? Diz-me as ondas!",
      "audio": "d2005"
     },
     {
-     "who": "Ana",
-     "pt": "Não há. Quarto andar, a pé. É o meu desporto.",
+     "who": "João",
+     "pt": "Um metro. Um metro, Marie.",
      "audio": "d2006"
     },
     {
-     "who": "Marie",
-     "pt": "E a vista?",
+     "who": "Ana",
+     "pt": "Aqui em Lisboa está a chover. É quase engraçado.",
      "audio": "d2007"
     },
     {
-     "who": "Ana",
-     "pt": "Da janela da cozinha vê-se o rio. Por isso fico aqui.",
+     "who": "Marie",
+     "pt": "Não acredito. Não acredito!",
      "audio": "d2008"
     },
     {
      "who": "João",
-     "pt": "E debaixo da cama dela há três pranchas de surf. Nunca usadas.",
+     "pt": "Acredita. No sábado vais estar dentro de água.",
      "audio": "d2009"
-    },
-    {
-     "who": "Ana",
-     "pt": "A partir da semana que vem, usadas!",
-     "audio": "d2010"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · há oder não há?",
+   "title": "5a · Que tempo faz?",
    "items": [
     {
-     "q": "___ um quarto no apartamento.",
-     "a": "Há"
+     "q": "Die Sonne scheint: ___ sol.",
+     "a": "Faz / Está"
     },
     {
-     "q": "___ dois quartos e uma sala.",
-     "a": "Há"
+     "q": "Es ist heiß: ___ calor.",
+     "a": "Faz / Está"
     },
     {
-     "q": "No prédio da Ana ___ elevador. (kein!)",
-     "a": "não há"
+     "q": "Es regnet (allgemein): ___",
+     "a": "Chove."
     },
     {
-     "q": "___ casa de banho no comboio?",
-     "a": "Há"
+     "q": "Es regnet gerade: ___",
+     "a": "Está a chover."
+    },
+    {
+     "q": "Das Wetter ist schlecht: ___ mau tempo.",
+     "a": "Faz / Está"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · Verschmelzung: de + Artikel",
+   "title": "5b · Die Verlaufsform: estar a + Grundform",
    "items": [
     {
-     "q": "em cima ___ mesa (a mesa)",
-     "a": "da"
+     "q": "Ich lerne gerade. → ___",
+     "a": "Estou a estudar."
     },
     {
-     "q": "debaixo ___ cama (a cama)",
-     "a": "da"
+     "q": "Er schläft gerade. → ___",
+     "a": "Ele está a dormir."
     },
     {
-     "q": "ao lado ___ café (o café)",
-     "a": "do"
+     "q": "Wir essen gerade. → ___",
+     "a": "Estamos a comer."
     },
     {
-     "q": "perto ___ mar (o mar)",
-     "a": "do"
-    },
-    {
-     "q": "longe ___ praias (as praias)",
-     "a": "das"
+     "q": "Sie warten gerade. → ___",
+     "a": "Eles estão a esperar."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · ficar: die richtige Form",
+   "title": "5c · no oder na? (Jahreszeiten)",
    "items": [
     {
-     "q": "O apartamento ___ perto do rio.",
-     "a": "fica"
+     "q": "___ verão faz calor.",
+     "a": "No"
     },
     {
-     "q": "Hoje eu ___ em casa.",
-     "a": "fico"
+     "q": "___ primavera chove muito.",
+     "a": "Na"
     },
     {
-     "q": "Onde é que ___ a estação?",
-     "a": "fica"
+     "q": "___ inverno faz frio.",
+     "a": "No"
     },
     {
-     "q": "Nós ___ no hostel duas noites.",
-     "a": "ficamos"
+     "q": "___ outono há vento.",
+     "a": "No"
     }
    ]
   },
@@ -245,16 +240,16 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "O apartamento da Ana fica perto da escola.",
-     "a": "Falsch – weit weg von der Schule, nah am Miradouro."
+     "q": "Na sexta-feira faz sol em Sagres.",
+     "a": "Richtig – 22 Grad, klarer Himmel."
     },
     {
-     "q": "Não há elevador no prédio.",
-     "a": "Richtig – vierter Stock, zu Fuß."
+     "q": "As ondas vão ter três metros.",
+     "a": "Falsch – einen Meter. Perfekt für Anfänger!"
     },
     {
-     "q": "Debaixo da cama da Ana há três pranchas.",
-     "a": "Richtig – und ab nächster Woche werden sie endlich benutzt."
+     "q": "Em Lisboa também faz sol.",
+     "a": "Falsch – dort regnet es gerade („está a chover“)."
     }
    ]
   },
@@ -263,53 +258,53 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Wo liegt der Bahnhof? → ___",
-     "a": "Onde é que fica a estação?"
+     "q": "Wie ist das Wetter? → ___",
+     "a": "Que tempo faz?"
     },
     {
-     "q": "Es gibt kein Bad. → ___",
-     "a": "Não há casa de banho."
+     "q": "Im Sommer ist es heiß. → ___",
+     "a": "No verão faz calor."
     },
     {
-     "q": "Das Buch liegt auf dem Tisch. → ___",
-     "a": "O livro está em cima da mesa."
+     "q": "Es regnet gerade. → ___",
+     "a": "Está a chover."
     },
     {
-     "q": "Heute bleibe ich zu Hause. → ___",
-     "a": "Hoje fico em casa."
+     "q": "Der Himmel ist klar. → ___",
+     "a": "O céu está limpo."
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: A tua casa",
-   "html": "Beschreib deine Wohnung laut – sechs Sätze:<br><br><i>Moro num apartamento / numa casa. Há … quartos. A cozinha fica ao lado da sala. Da janela vê-se… O meu quarto é… Não há…</i><br><br>Dann die Suchspiel-Variante: Nimm drei Dinge in deinem Zimmer und sag, wo sie liegen – <i>em cima da mesa, debaixo da cama, ao lado da janela</i>. Wer das kann, kann in Portugal auch nach dem Weg fragen."
+   "title": "6 · Sprechen: O tempo hoje",
+   "html": "Schau aus dem Fenster und beschreib das Wetter laut – drei Sätze: <i>Hoje faz… O céu está… Está a chover? Não, não está.</i><br><br>Dann die Jahreszeiten-Runde: Was macht das Wetter bei dir <i>no verão</i>, <i>no inverno</i>, <i>na primavera</i>, <i>no outono</i>? Ein Satz pro Jahreszeit.<br><br>Und zum Schluss die Übung, die Portugiesen jeden Tag machen: Sag jemandem in drei Sätzen, wie das Wetter morgen wird. <i>Amanhã vai fazer sol…</i>"
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: O hostel",
+   "title": "7 · Kleine Geschichte: A mensagem de quinta-feira",
    "audio": "s20",
-   "text": "— Encontrei — diz o João, com o telemóvel na mão. — Hostel em Sagres, quarto para quatro pessoas.<br>— Quatro? — pergunta a Marie. — Somos três.<br>— Somos quatro. O Tomás chega na sexta-feira com a mãe da Ana. A mãe fica em Lagos, ele fica connosco.<br>A Ana levanta os olhos ao céu.<br>— Ele vai falar do Vasco o fim de semana todo.<br>— Ele vai falar do Vasco a vida toda — diz o João.<br>A Marie olha para as fotos do hostel: uma sala com sofás velhos, uma cozinha pequena, uma janela grande.<br>— Fica longe da praia?<br>— Cinco minutos a pé. E há uma coisa importante…<br>— O quê?<br>— Da janela do quarto vê-se o mar.<br>Silêncio. Depois a Ana diz baixinho, para ninguém:<br>— Nunca dormi tão perto do mar.<br>E a Marie percebe que não é só ela que está à espera.",
-   "gloss": "Neu erschließen: encontrei = ich habe gefunden (Perfekt – Woche 4!) · a mão = die Hand · levantar os olhos ao céu = die Augen verdrehen · a vida toda = das ganze Leben · o sofá = das Sofa · a pé = zu Fuß · vê-se = man sieht · nunca dormi = ich habe nie geschlafen (Perfekt) · tão = so · estar à espera = warten, gespannt sein · ninguém = niemand",
+   "text": "Quinta-feira, dez da noite. Está a chover em Lisboa. A Marie está na cama com o telemóvel na mão.<br>Vinte e três dias. Vinte e três dias a olhar para a previsão do tempo.<br>O telemóvel apita. É o grupo. É o Vasco.<br>«Boa noite, malta. Vento fraco, ondas de um metro, maré boa às dez da manhã. Não vou dizer que é perfeito…»<br>A Marie fecha os olhos.<br>«…porque no mar nunca se diz isso. Mas é o melhor fim de semana do mês. Tragam boa disposição e uma toalha. O resto tenho eu.»<br>Três segundos depois, a Ana escreve: «VAMOS.»<br>Um segundo depois, o Tomás, que não devia estar acordado: «VAMOS!!!»<br>E depois o João, às dez e um minuto da noite, com a lógica de sempre:<br>«Alguém sabe a que horas parte o comboio?»<br>Lá fora chove sobre Lisboa. A Marie sorri para o teto escuro e diz, baixinho, em português:<br>— No sábado vou surfar.",
+   "gloss": "Neu erschließen: alguém = jemand · a cama = das Bett · a maré = die Gezeiten · Tragam! = Bringt mit! (Befehlsform – Woche 4) · a toalha = das Handtuch · o resto = der Rest · não devia estar acordado = er sollte gar nicht wach sein · o teto = die Decke · lá fora = draußen · sobre = über",
    "questions": [
     {
-     "q": "O quarto do hostel é para quatro pessoas.",
-     "a": "Richtig – Tomás kommt mit!"
+     "q": "O Vasco diz que o mar vai estar perfeito.",
+     "a": "Falsch – er sagt bewusst NICHT „perfekt“ („no mar nunca se diz isso“). Aber: das beste Wochenende des Monats."
     },
     {
-     "q": "O hostel fica longe da praia.",
-     "a": "Falsch – fünf Minuten zu Fuß."
+     "q": "Em Lisboa está a chover.",
+     "a": "Richtig – und in Sagres wird die Sonne scheinen."
     },
     {
-     "q": "Só a Marie está à espera da viagem.",
-     "a": "Falsch – am Ende merkt sie, dass es auch Ana so geht."
+     "q": "A Marie está triste.",
+     "a": "Falsch – sie lächelt in die Dunkelheit: „No sábado vou surfar.“"
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Drei Sätze aus dem Kopf: <i>Es gibt zwei Zimmer. · Die Küche liegt neben dem Wohnzimmer. · Wo ist das Bad?</i> Wenn die sitzen, kannst du dich in einer fremden Wohnung – und in einer fremden Stadt – orientieren. Morgen der letzte neue Stoff der Woche: <b>das Wetter</b>. Und damit die Frage, auf die alle warten."
+   "html": "Du kannst jetzt über das Wetter reden – das Lieblingsthema jedes Portugiesen – und mit <b>estar a + Grundform</b> sagen, was gerade passiert. Damit ist der neue Stoff von Woche 3 komplett. Morgen: <b>Revisão III</b>, der Wochentest. Und danach beginnt Woche 4: <b>Sagres.</b>"
   }
  ]
 }

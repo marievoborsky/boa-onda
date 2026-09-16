@@ -1,234 +1,235 @@
 {
  "id": "tag11",
- "title": "Gosto disto!",
- "subtitle": "Woche 2 · Tag 11 · Essen & Trinken · gostar de · ca. 25 Min.",
+ "title": "No café",
+ "subtitle": "Woche 2 · Tag 11 · Im Café bestellen · ca. 25 Min.",
  "sections": [
   {
    "type": "exercise",
    "title": "1 · Aufwärmen (von Tag 10)",
    "items": [
     {
-     "q": "A minha irmã é ___ (alto)",
-     "a": "alta"
+     "q": "Gosto ___ pão da avó. (o pão)",
+     "a": "do"
     },
     {
-     "q": "Os meus avós são ___ (simpático)",
-     "a": "simpáticos"
+     "q": "Gostas ___ praias? (as praias)",
+     "a": "das"
     },
     {
-     "q": "„Wie süß!“ auf EP: ___",
-     "a": "Que giro!"
+     "q": "Frühstück auf EP: o ___",
+     "a": "pequeno-almoço"
     },
     {
-     "q": "___ ___ avó fala rápido. (meine)",
-     "a": "A minha"
+     "q": "Saft auf EP: o ___",
+     "a": "sumo"
     }
    ]
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: À mesa (12)",
+   "title": "2 · Neue Wörter: No café (12)",
    "items": [
     {
-     "pt": "o pão",
-     "de": "Brot",
-     "ipa": "[pɐ̃w̃]",
+     "pt": "a bica",
+     "de": "Espresso (so heißt er in Lissabon!)",
+     "ipa": "[ˈbikɐ]",
      "audio": "v1101"
     },
     {
-     "pt": "o queijo",
-     "de": "Käse",
-     "ipa": "[ˈkɐjʒu]",
+     "pt": "o galão",
+     "de": "Milchkaffee im Glas",
+     "ipa": "[ɡɐˈlɐ̃w̃]",
      "audio": "v1102"
     },
     {
-     "pt": "o peixe",
-     "de": "Fisch",
-     "ipa": "[ˈpɐjʃ(ɨ)]",
+     "pt": "a meia de leite",
+     "de": "Milchkaffee in der Tasse",
+     "ipa": "[ˈmɐjɐ dɨ ˈlɐjtɨ]",
      "audio": "v1103"
     },
     {
-     "pt": "a carne",
-     "de": "Fleisch",
-     "ipa": "[ˈkaɾnɨ]",
+     "pt": "o pastel de nata",
+     "de": "Puddingtörtchen",
+     "ipa": "[pɐʃˈtɛɫ dɨ ˈnatɐ]",
      "audio": "v1104"
     },
     {
-     "pt": "a fruta",
-     "de": "Obst",
-     "ipa": "[ˈfɾutɐ]",
+     "pt": "a torrada",
+     "de": "Toast (mit viel Butter!)",
+     "ipa": "[tuˈʁadɐ]",
      "audio": "v1105"
     },
     {
-     "pt": "o bolo",
-     "de": "Kuchen",
-     "ipa": "[ˈbolu]",
+     "pt": "a sandes",
+     "de": "Sandwich (EP! Brasilien: sanduíche)",
+     "ipa": "[ˈsɐ̃dɨʃ]",
      "audio": "v1106"
     },
     {
-     "pt": "o sumo",
-     "de": "Saft (EP! Brasilien: suco)",
-     "ipa": "[ˈsumu]",
+     "pt": "a conta",
+     "de": "Rechnung",
+     "ipa": "[ˈkõtɐ]",
      "audio": "v1107"
     },
     {
-     "pt": "o leite",
-     "de": "Milch",
-     "ipa": "[ˈlɐjtɨ]",
+     "pt": "o empregado / a empregada",
+     "de": "Kellner / Kellnerin",
+     "ipa": "[ẽpɾɨˈɡadu] / [ẽpɾɨˈɡadɐ]",
      "audio": "v1108"
     },
     {
-     "pt": "a sopa",
-     "de": "Suppe",
-     "ipa": "[ˈsopɐ]",
+     "pt": "a mesa",
+     "de": "Tisch",
+     "ipa": "[ˈmezɐ]",
      "audio": "v1109"
     },
     {
-     "pt": "o pequeno-almoço",
-     "de": "Frühstück (EP!)",
-     "ipa": "[pɨˈkenu aɫˈmosu]",
+     "pt": "se faz favor",
+     "de": "bitte (typisch EP – wie por favor)",
+     "ipa": "[sɨ faʃ fɐˈvoɾ]",
      "audio": "v1110"
     },
     {
-     "pt": "o jantar",
-     "de": "Abendessen",
-     "ipa": "[ʒɐ̃ˈtaɾ]",
+     "pt": "Mais alguma coisa?",
+     "de": "Sonst noch etwas?",
+     "ipa": "[majz aɫˈɡumɐ ˈkojzɐ]",
      "audio": "v1111"
     },
     {
-     "pt": "delicioso / deliciosa",
-     "de": "köstlich",
-     "ipa": "[dɨliˈsjozu] / [dɨliˈsjɔzɐ]",
+     "pt": "É para já!",
+     "de": "Kommt sofort!",
+     "ipa": "[ɛ ˈpɐɾɐ ˈʒa]",
      "audio": "v1112"
     }
    ]
   },
   {
    "type": "note",
-   "title": "3 · Dica do Vasco: gostar DE",
-   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Heute das wichtigste Verb für alles, was du magst – und es kommt NIE allein:<br><br><b>gostar + de:</b> <i>Gosto <b>de</b> café. · Gostas <b>de</b> surf? · Ela gosta <b>de</b> música.</i><br><br>Und wenn ein Artikel dazukommt, verschmilzt <b>de</b> – das kennst du schon von <i>do Porto</i>:<br><b>de + o = do</b> → <i>Gosto <b>do</b> pão.</i><br><b>de + a = da</b> → <i>Gosto <b>da</b> sopa.</i><br><b>de + os = dos / de + as = das</b> → <i>Gosto <b>dos</b> bolos. · Gosto <b>das</b> praias.</i><br><br>Ohne Artikel = allgemein (<i>Gosto de café</i> – ich mag Kaffee generell), mit Artikel = etwas Bestimmtes (<i>Gosto do café da avó</i> – DIESEN Kaffee).<br><br>PS – der Lektionstitel: <b>disto</b> = de + isto („von dem hier“). <i>Gosto disto!</i> – Ich mag das hier! Dein erstes Verschmelzungs-Extra. Boa onda!"
+   "title": "3 · Dica do Vasco: Der Bestell-Baukasten",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Bestellen ist ein Spiel mit vier Zügen – mehr brauchst du nie:<br><br><b>1. Bestellen:</b> <i>Queria um galão, se faz favor.</i> (<i>Queria</i> = „ich hätte gern“ – die höfliche Form von <i>quero</i>)<br><b>2. Nachlegen:</b> <i>E um pastel de nata.</i><br><b>3. Auf „Mais alguma coisa?“:</b> <i>Não, obrigada. / Sim, queria também…</i><br><b>4. Zahlen:</b> <i>A conta, se faz favor!</i><br><br><b>se faz favor vs. por favor:</b> beides „bitte“ – <i>se faz favor</i> [sfaʃfɐˈvoɾ] ist die typische EP-Variante, im Alltag oft zu „s'faz favor“ verschluckt. Und Kaffee-Kunde: <b>uma bica</b> = Espresso (in Porto sagen manche alte Herren <i>um cimbalino</i>!), <b>um galão</b> = im Glas, <b>uma meia de leite</b> = in der Tasse. Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Drei Essens-Wörter, die dich sofort als EP-Profi zeigen: <b>o pequeno-almoço</b> ist das Frühstück (wörtlich „kleines Mittagessen“ – in Brasilien sagt man <i>café da manhã</i>), <b>o sumo</b> ist der Saft (BR: <i>suco</i>), und den <b>galão</b> (Milchkaffee im Glas) lernst du morgen im Café kennen. Und die schönste Antwort, wenn dir etwas schmeckt, ist kurz: <b>„Gosto!“</b> oder mit Nachdruck <b>„Adoro!“</b> (ich liebe es) – beides mit einem Lächeln, mehr braucht es nicht."
+   "html": "Der Kaffee-Moment ist DER Alltagstest: Wer <b>„Queria uma bica, se faz favor“</b> sagt, bekommt ein Lächeln – wer „einen Espresso bitte“ auf Englisch versucht, den Touristenpreis. Merk dir das Ritual: bestellen, am Tresen trinken (billiger als am Tisch!), <i>obrigada</i>, weiter. Und die Antwort des Kellners <b>„É para já!“</b> („kommt sofort!“) ist pure portugiesische Höflichkeit – auch wenn es dann doch fünf Minuten dauert."
   },
   {
    "type": "reading",
-   "title": "4 · Lesen: O pequeno-almoço",
-   "hint": "Selbst erschlossen: faz = macht (fazer – Vorgriff!) · o melhor = der/das beste · a cama = das Bett · comer = essen · Espera! = Warte! · conhecer = kennen. Tomás spricht heute mit – er ist 12, Anas Bruder.",
+   "title": "4 · Lesen: No Café Majestic",
+   "hint": "Selbst erschlossen: O que desejam? = Was wünschen Sie? · Com certeza = Selbstverständlich · para si / para mim = für Sie / für mich · o comboio = der Zug (EP! Brasilien: trem) · às três = um drei (Uhrzeit – Vorgriff auf Tag 13!) · pedir = bestellen (a Marie pede = Marie bestellt). Das Café Majestic gibt es wirklich – seit 1921, Rua Santa Catarina.",
    "lines": [
     {
      "who": "Ana",
-     "pt": "Bom dia! O pequeno-almoço está na mesa. Gostas de queijo, Marie?",
+     "pt": "O Café Majestic! O café mais bonito do Porto. Uma mesa para quatro, se faz favor!",
      "audio": "d1101"
     },
     {
-     "who": "Marie",
-     "pt": "Gosto muito! E gosto do pão da tua avó. É delicioso.",
+     "who": "Empregado",
+     "pt": "Bem-vindos! Aqui, se faz favor. O que desejam?",
      "audio": "d1102"
     },
     {
-     "who": "Ana",
-     "pt": "A avó faz o melhor pão do Porto. João, gostas de sumo?",
+     "who": "Marie",
+     "pt": "Queria um galão e um pastel de nata, se faz favor.",
      "audio": "d1103"
     },
     {
-     "who": "João",
-     "pt": "Gosto… mas agora queria um café. Ou dois.",
+     "who": "Empregado",
+     "pt": "Com certeza. E para si?",
      "audio": "d1104"
     },
     {
-     "who": "Marie",
-     "pt": "Tu e o café! Gostas mais do café ou da tua cama?",
+     "who": "Ana",
+     "pt": "Para mim uma bica e uma torrada.",
      "audio": "d1105"
     },
     {
      "who": "João",
-     "pt": "Boa pergunta… Gosto dos dois.",
+     "pt": "Uma bica… não. Duas bicas. E uma sandes.",
      "audio": "d1106"
     },
     {
-     "who": "Ana",
-     "pt": "E o Tomás? Não come. Está no telemóvel.",
+     "who": "Tomás",
+     "pt": "Um sumo, se faz favor!",
      "audio": "d1107"
     },
     {
-     "who": "Marie",
-     "pt": "Tomás, não gostas do pequeno-almoço?",
+     "who": "Empregado",
+     "pt": "Dois galões… não, um galão, três bicas, um sumo… É para já!",
      "audio": "d1108"
     },
     {
-     "who": "Tomás",
-     "pt": "Gosto! Mas… olha, João. Vídeos de surf. O professor é fixe!",
+     "who": "Marie",
+     "pt": "Este café é muito bonito. Gosto muito do Porto.",
      "audio": "d1109"
     },
     {
-     "who": "João",
-     "pt": "Espera… eu conheço este professor…",
+     "who": "Ana",
+     "pt": "Eu sei. No Porto é melhor!",
      "audio": "d1110"
+    },
+    {
+     "who": "João",
+     "pt": "A conta, se faz favor! O comboio é às três…",
+     "audio": "d1111"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · de, do, da, dos oder das?",
+   "title": "5a · Bestelle höflich (mit Queria… se faz favor)",
    "items": [
     {
-     "q": "Gosto ___ café. (allgemein)",
-     "a": "de"
+     "q": "Einen Milchkaffee im Glas: ___",
+     "a": "Queria um galão, se faz favor."
     },
     {
-     "q": "Gosto ___ pão da avó. (bestimmt: o pão)",
-     "a": "do"
+     "q": "Einen Espresso und ein Puddingtörtchen: ___",
+     "a": "Queria uma bica e um pastel de nata, se faz favor."
     },
     {
-     "q": "Gostas ___ sopa? (a sopa)",
-     "a": "da"
+     "q": "Die Rechnung: ___",
+     "a": "A conta, se faz favor!"
     },
     {
-     "q": "Ele gosta ___ bolos. (os bolos)",
-     "a": "dos"
-    },
-    {
-     "q": "Gostamos ___ praias do Porto. (as praias)",
-     "a": "das"
+     "q": "Ein Sandwich und ein Wasser: ___",
+     "a": "Queria uma sandes e uma água, se faz favor."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · Antworte über dich (Muster: Gosto de… / Não gosto de…)",
+   "title": "5b · Was antwortest du?",
    "items": [
     {
-     "q": "Gostas de peixe? → ___",
-     "a": "Gosto (muito) de peixe. / Não gosto de peixe."
+     "q": "„Mais alguma coisa?“ – du willst nichts mehr: ___",
+     "a": "Não, obrigada. (als Mann: obrigado)"
     },
     {
-     "q": "Gostas de café? → ___",
-     "a": "Gosto de café. / Não gosto de café."
+     "q": "„Mais alguma coisa?“ – du willst noch einen Kuchen: ___",
+     "a": "Sim, queria também um bolo."
     },
     {
-     "q": "Gostas do Porto? → ___",
-     "a": "Gosto (muito) do Porto!"
+     "q": "„O que desejam?“ – bestell irgendwas Portugiesisches: ___",
+     "a": "Queria uma bica / um galão / um pastel de nata, se faz favor."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Was passt? (Mahlzeiten)",
+   "title": "5c · Welcher Kaffee ist das?",
    "items": [
     {
-     "q": "Am Morgen: o ___",
-     "a": "pequeno-almoço"
+     "q": "Espresso, klein und stark: a ___",
+     "a": "bica"
     },
     {
-     "q": "Am Mittag: o ___",
-     "a": "almoço"
+     "q": "Milchkaffee im Glas: o ___",
+     "a": "galão"
     },
     {
-     "q": "Am Abend: o ___",
-     "a": "jantar"
+     "q": "Milchkaffee in der Tasse: a ___",
+     "a": "meia de leite"
     }
    ]
   },
@@ -237,16 +238,16 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "A Marie gosta do pão da avó.",
-     "a": "Richtig – é delicioso!"
+     "q": "A Marie pede um galão e um pastel de nata.",
+     "a": "Richtig."
     },
     {
-     "q": "O João queria um sumo.",
-     "a": "Falsch – einen Kaffee. Oder zwei."
+     "q": "O João pede uma bica.",
+     "a": "Falsch – zwei! Duas bicas. E uma sandes."
     },
     {
-     "q": "O Tomás mostra vídeos de futebol.",
-     "a": "Falsch – vídeos de surf!"
+     "q": "O grupo tem muito tempo.",
+     "a": "Falsch – o comboio é às três!"
     }
    ]
   },
@@ -255,53 +256,53 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Ich mag Käse. → ___",
-     "a": "Gosto de queijo."
+     "q": "Einen Tisch für zwei, bitte. → ___",
+     "a": "Uma mesa para dois, se faz favor."
     },
     {
-     "q": "Magst du den Kuchen? → ___",
-     "a": "Gostas do bolo?"
+     "q": "Ich hätte gern einen Toast. → ___",
+     "a": "Queria uma torrada, se faz favor."
     },
     {
-     "q": "Das Frühstück ist köstlich. → ___",
-     "a": "O pequeno-almoço é delicioso."
+     "q": "Sonst noch etwas? → ___",
+     "a": "Mais alguma coisa?"
     },
     {
-     "q": "Ich mag die Strände von Porto. → ___",
-     "a": "Gosto das praias do Porto."
+     "q": "Die Rechnung, bitte. → ___",
+     "a": "A conta, se faz favor."
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: Deine Speisekarte",
-   "html": "Sag laut, was du magst und was nicht – fünf Sätze mit <i>Gosto de… / Gosto muito de… / Não gosto de… / Adoro…</i> Und einmal ganz konkret mit Verschmelzung: <i>Gosto do/da…</i> über dein Lieblingsessen.<br><br>Dann: aufnehmen, anhören, vergleichen."
+   "title": "6 · Sprechen: Dein Café-Rollenspiel",
+   "html": "Spiel beide Rollen, laut: Der Kellner fragt (<i>O que desejam? · Mais alguma coisa?</i>), du bestellst (<i>Queria…</i>), du zahlst (<i>A conta, se faz favor</i>). Genau diesen Dialog führst du in Portugal jeden Tag – mach ihn dir zur Gewohnheit.<br><br>Dann: aufnehmen und mit dem Dialog von oben vergleichen."
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: Os vídeos do Vasco",
+   "title": "7 · Kleine Geschichte: A primeira aula é grátis",
    "audio": "s11",
-   "text": "Segunda-feira de manhã. O último dia no Porto. A avó faz um pequeno-almoço grande: pão, queijo, fruta e bolo. — Comam, comam! — diz a avó.<br>O Tomás mostra o telemóvel: vídeos de surf, ondas grandes, um professor com uma prancha branca.<br>— Este professor é famoso! — diz o Tomás. — Os vídeos dele são muito fixes!<br>O João olha… e abre os olhos: — Não acredito. É o Vasco! O meu amigo Vasco, de Sagres!<br>— O TEU amigo?! — O Tomás está muito feliz. — O teu amigo é o professor dos vídeos?!<br>A Marie pergunta: — O Vasco da mensagem de voz? O professor de surf?<br>— Sim! — diz o João. — E ele diz que as ondas estão perfeitas…<br>A Ana faz um sorriso: — Então… quando é que vamos a Sagres?",
-   "gloss": "Neu erschließen: segunda-feira de manhã = Montagmorgen (Wochentage kommen an Tag 14) · branca = weiß · o último dia = der letzte Tag · Comam! = Esst! (Aufforderung) · mostrar = zeigen · famoso = berühmt · dele = von ihm · Não acredito! = Ich glaub's nicht! · o sorriso = das Lächeln · vamos = wir fahren/gehen (Vorgriff auf ir!). Das Rätsel ist gelöst: Tomás kennt Vasco aus dem Internet – Vascos Surf-Videos sind berühmt!",
+   "text": "No Café Majestic, o pequeno grupo está feliz. O galão da Marie é delicioso, o pastel de nata é… perfeito. — Mais alguma coisa? — pergunta o empregado. — Não, obrigada. A conta, se faz favor! — diz a Marie. Sozinha! Em português!<br>A Ana faz um sorriso: — O teu português está muito bom!<br>Na estação, o Tomás está triste: — Adeus, Marie! Adeus, João!<br>— Até breve, Tomás! — diz a Marie.<br>No comboio para Lisboa, o telemóvel do João faz „pling“. O Vasco: „Olá João! Então? Quando é que vens a Sagres? Traz as tuas amigas — a primeira aula é grátis!“<br>O João olha para a Marie e para a Ana: — Ele diz… que a primeira aula é grátis.<br>— SAGRES! — dizem as duas.",
+   "gloss": "Neu erschließen: pedir = bestellen · sozinha = ganz allein · a estação = der Bahnhof · Até breve! = Bis bald! · vens = du kommst (Vorgriff auf vir!) · Traz…! = Bring…mit! · grátis = gratis. Und ja: Marie hat zum ersten Mal alles alleine auf Portugiesisch bestellt UND bezahlt!",
    "questions": [
     {
-     "q": "O professor dos vídeos é o Vasco.",
-     "a": "Richtig – João traut seinen Augen nicht!"
+     "q": "A Marie pede a conta em português.",
+     "a": "Richtig – sozinha! Großer Moment."
     },
     {
-     "q": "O Tomás conhece o Vasco pessoalmente (persönlich).",
-     "a": "Falsch – nur aus den Videos."
+     "q": "O Tomás está feliz na estação.",
+     "a": "Falsch – triste. Der Abschied!"
     },
     {
-     "q": "A Ana pergunta: Quando é que vamos a Sagres?",
-     "a": "Richtig – der Trip rückt näher…"
+     "q": "O Vasco diz que a primeira aula é grátis.",
+     "a": "Richtig – SAGRES! sagen beide."
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Sitzt <b>gostar de</b> mit do/da/dos/das? Das brauchst du ab jetzt täglich. Morgen wird es praktisch: <b>Im Café bestellen</b> – Queria um galão e um pastel de nata, por favor! Und Sagres… Sagres ruft immer lauter."
+   "html": "Kannst du Bestellen–Antworten–Zahlen ohne nachzudenken? Dann bist du café-ready. Morgen: <b>Zahlen bis 100 und Preise</b> – damit du auch verstehst, was die conta sagt. E depois… Sagres?"
   }
  ]
 }

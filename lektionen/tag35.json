@@ -1,369 +1,301 @@
 {
  "id": "tag35",
- "title": "O plano",
- "subtitle": "Staffel 2 · Woche 5 · Tag 35 · Über die Zukunft reden · ir + Infinitiv, futuro · Hörverstehen · ca. 30 Min.",
+ "title": "Revisão IV – Wochentest",
+ "subtitle": "Staffel 2 · Woche 5 · Tag 35 · Mini-Test · 50 Punkte · ca. 35 Min.",
  "sections": [
   {
-   "type": "exercise",
-   "title": "1 · Aufwärmen (von Tag 34)",
-   "items": [
-    {
-     "q": "Lissabon ist größer als Porto: Lisboa é ___ ___ o Porto.",
-     "a": "maior / do que"
-    },
-    {
-     "q": "so nett wie: ___ simpático ___",
-     "a": "tão / como"
-    },
-    {
-     "q": "Ich stimme zu: ___",
-     "a": "Concordo."
-    },
-    {
-     "q": "kleiner (EP): ",
-     "opts": [
-      "mais pequeno",
-      "mais grande"
-     ],
-     "a": "mais pequeno"
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "2 · Neue Wörter: O futuro (14)",
-   "items": [
-    {
-     "pt": "o futuro",
-     "de": "die Zukunft",
-     "ipa": "[fuˈtuɾu]",
-     "audio": "v3501"
-    },
-    {
-     "pt": "o plano",
-     "de": "der Plan",
-     "ipa": "[ˈplɐnu]",
-     "audio": "v3502"
-    },
-    {
-     "pt": "a decisão",
-     "de": "die Entscheidung",
-     "ipa": "[dɨsiˈzɐ̃w̃]",
-     "audio": "v3503"
-    },
-    {
-     "pt": "decidir",
-     "de": "entscheiden",
-     "ipa": "[dɨsiˈdiɾ]",
-     "audio": "v3504"
-    },
-    {
-     "pt": "se calhar",
-     "de": "vielleicht (EP, gesprochen)",
-     "ipa": "[sɨ kɐˈʎaɾ]",
-     "audio": "v3505"
-    },
-    {
-     "pt": "provavelmente",
-     "de": "wahrscheinlich",
-     "ipa": "[pɾuvavɛɫˈmẽtɨ]",
-     "audio": "v3506"
-    },
-    {
-     "pt": "de certeza",
-     "de": "ganz sicher",
-     "ipa": "[dɨ sɨɾˈtezɐ]",
-     "audio": "v3507"
-    },
-    {
-     "pt": "ajudar",
-     "de": "helfen",
-     "ipa": "[ɐʒuˈdaɾ]",
-     "audio": "v3508"
-    },
-    {
-     "pt": "a época alta",
-     "de": "die Hochsaison",
-     "ipa": "[ˈɛpukɐ ˈaɫtɐ]",
-     "audio": "v3509"
-    },
-    {
-     "pt": "o emprego",
-     "de": "der Job, die Stelle",
-     "ipa": "[ẽˈpɾegu]",
-     "audio": "v3510"
-    },
-    {
-     "pt": "a candidatura",
-     "de": "die Bewerbung",
-     "ipa": "[kɐ̃didɐˈtuɾɐ]",
-     "audio": "v3511"
-    },
-    {
-     "pt": "a vaga",
-     "de": "der freie Platz, die freie Stelle",
-     "ipa": "[ˈvagɐ]",
-     "audio": "v3512"
-    },
-    {
-     "pt": "a universidade",
-     "de": "die Universität",
-     "ipa": "[univɨɾsiˈdadɨ]",
-     "audio": "v3513"
-    },
-    {
-     "pt": "mudar-se (para)",
-     "de": "umziehen (nach)",
-     "ipa": "[muˈdaɾsɨ]",
-     "audio": "v3514"
-    }
-   ]
-  },
-  {
    "type": "note",
-   "title": "3 · Dica do Vasco: Was sein wird",
-   "html": "<i>(Sprachnachricht – noch ahnt Vasco nichts:)</i> Über die Zukunft redet man in Portugal fast immer so, wie ihr es schon könnt: <b>ir + Grundform</b>. <i><b>Vou</b> ajudar. <b>Vais</b> ver. <b>Vamos</b> contar ao João.</i> Das ist die gesprochene Zukunft, und sie reicht für neunzig Prozent des Lebens.<br><br>Die anderen zehn Prozent sind das <b>futuro simples</b> – schriftlich, förmlich, in Wettervorhersagen, oder für Vermutungen. Ihr müsst es <b>erkennen</b>, nicht bilden: Grundform + <b>-ei, -ás, -á, -emos, -ão</b>.<br><i>ser<b>á</b></i> = es wird sein · <i>ter<b>emos</b></i> = wir werden haben · <i>far<b>ei</b></i> = ich werde tun (fazer verkürzt zu far-) · <i>dir<b>á</b></i> = er wird sagen.<br><i>„<b>Será</b> difícil.“ – „<b>Teremos</b> sol amanhã.“</i><br><br><b>Sicher, wahrscheinlich, vielleicht:</b><br><i><b>de certeza</b></i> – ganz sicher · <i><b>provavelmente</b></i> – wahrscheinlich · <i><b>se calhar</b></i> – vielleicht (gesprochen!) · <i><b>talvez</b></i> – vielleicht (eher schriftlich; zieht eine Verbform nach sich, die in Woche 7 kommt – bis dahin lieber <i>se calhar</i>).<br><br><b>Pläne machen:</b> <i>Decidi… · Vou… · Mudo-me em setembro.</i> (Präsens für Festes!) Boa onda!"
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen (laut oder im Heft), dann prüfen und Punkte zählen – ohne Nachschauen. Der Test zeigt dir, ob die zwei Vergangenheiten sitzen, bevor es nach Coimbra geht. Notier dir die Punkte pro Teil!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "<b>Se calhar</b> ist das portugiesischste „vielleicht“, das es gibt – wörtlich „wenn es sich fügt“. Portugiesen sagen es zehnmal am Tag: <i>Se calhar vou. Se calhar não. Se calhar chove.</i> Ausgesprochen „sö kal-JÁR“. <i>Talvez</i> klingt dagegen wie aus dem Buch. Und die Frage, die man stellt, wenn jemand etwas Großes ankündigt: <b>Falas a sério?</b> – „Ist das dein Ernst?“ Antwort: <i>A sério.</i> Ganz ernst."
+   "html": "Vor dem Test kein Grammatikbuch, sondern eine <b>Geschichte</b>: Erzähl dir fünf Minuten lang laut, wie dein letztes Wochenende war – erst wie es war (<i>Estava… Fazia… Tinha…</i>), dann was passiert ist (<i>Fui… Comi… Vi…</i>). Wo du zögerst, sitzt die Lücke. Und die Lücke ist fast immer dieselbe: „war das ein Foto oder ein Film?“"
   },
   {
-   "type": "reading",
-   "title": "4 · Lesen: A chamada",
-   "hint": "Selbst erschlossen: Se preciso? = Ob ich brauche? · o aluno = der Schüler · Falas a sério? = Ist das dein Ernst? · a carrinha = der Van · Recebi = ich habe bekommen (receber) · Mudo-me = ich ziehe um · chorar = weinen · a notícia = die Nachricht · vai dormir com a notícia = wird bei der Nachricht einschlafen.",
-   "lines": [
+   "type": "exercise",
+   "title": "A · Vokabeln aus Woche 5 (10 P.)",
+   "items": [
     {
-     "who": "Vasco",
-     "pt": "Marie? És tu? Estás em Portugal?!",
-     "audio": "d3501"
+     "q": "vermissen (Sehnsucht haben nach)",
+     "a": "ter saudades (de)"
     },
     {
-     "who": "Marie",
-     "pt": "Estou no Porto desde sexta. Vasco, tenho uma pergunta. Precisas de ajuda na escola este verão?",
-     "audio": "d3502"
+     "q": "früher",
+     "a": "antigamente"
     },
     {
-     "who": "Vasco",
-     "pt": "Se preciso? A época alta começa em julho e eu tenho duas pessoas para vinte alunos por dia.",
-     "audio": "d3503"
+     "q": "sich erinnern an",
+     "a": "lembrar-se de"
     },
     {
-     "who": "Marie",
-     "pt": "Então vou ajudar. Chego em agosto, com o João. Posso ficar até setembro.",
-     "audio": "d3504"
+     "q": "plötzlich",
+     "a": "de repente"
     },
     {
-     "who": "Vasco",
-     "pt": "Falas a sério? Vais viver em Sagres?",
-     "audio": "d3505"
+     "q": "während (+ Satz: während er sprach …)",
+     "a": "enquanto"
     },
     {
-     "who": "Marie",
-     "pt": "Vou. Já decidi. Se calhar vou dormir na tua carrinha, mas vou.",
-     "audio": "d3506"
+     "q": "kennenlernen",
+     "a": "conhecer"
     },
     {
-     "who": "Vasco",
-     "pt": "Vais dormir numa cama, como uma pessoa normal. Isto vai ser um verão incrível.",
-     "audio": "d3507"
+     "q": "die Menschenmenge",
+     "a": "a multidão"
     },
     {
-     "who": "Ana",
-     "pt": "Marie? Com quem é que estás a falar?",
-     "audio": "d3508"
+     "q": "besser",
+     "a": "melhor"
     },
     {
-     "who": "Marie",
-     "pt": "Com o Vasco. Ana… vou trabalhar em Sagres. O verão inteiro.",
-     "audio": "d3509"
+     "q": "vielleicht (gesprochen, EP)",
+     "a": "se calhar"
     },
     {
-     "who": "Ana",
-     "pt": "O QUÊ? Então eu também tenho uma novidade. Recebi a resposta de Coimbra. Tenho vaga. Mudo-me em setembro.",
-     "audio": "d3510"
-    },
-    {
-     "who": "Marie",
-     "pt": "Coimbra?! Ana!",
-     "audio": "d3511"
-    },
-    {
-     "who": "Ana",
-     "pt": "Provavelmente vou chorar. Mas primeiro vamos contar ao João. Ele vai dormir com a notícia.",
-     "audio": "d3512"
+     "q": "umziehen (nach)",
+     "a": "mudar-se (para)"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · ir + Grundform",
+   "title": "B · Perfekt – auch die Unregelmäßigen (6 P.)",
    "items": [
     {
-     "q": "Eu ___ ajudar na escola. (ir)",
-     "a": "vou"
+     "q": "Eu ___ de avião. (vir)",
+     "a": "vim"
     },
     {
-     "q": "Tu ___ viver em Sagres?",
-     "a": "vais"
+     "q": "Tu ___ o fogo de artifício? (ver)",
+     "a": "viste"
     },
     {
-     "q": "Nós ___ contar ao João.",
-     "a": "vamos"
+     "q": "A avó ___ que sim. (dizer)",
+     "a": "disse"
     },
     {
-     "q": "A Ana ___ mudar-se para Coimbra.",
-     "a": "vai"
+     "q": "Nós ___ até às quatro. (dançar)",
+     "a": "dançámos"
     },
     {
-     "q": "Eles ___ dormir na carrinha.",
-     "a": "vão"
+     "q": "O Tomás ___ dez centímetros. (crescer)",
+     "a": "cresceu"
+    },
+    {
+     "q": "Eles ___ na Ribeira. (estar)",
+     "a": "estiveram"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · Futuro erkennen: Was heißt das? (antippen)",
+   "title": "C · Imperfekt (8 P.)",
    "items": [
     {
-     "q": "„Será difícil.“",
-     "opts": [
-      "Es wird schwierig sein.",
-      "Es war schwierig."
-     ],
-     "a": "Es wird schwierig sein. – ser + á"
+     "q": "Quando eu ___ pequena… (ser)",
+     "a": "era"
     },
     {
-     "q": "„Vais ver, vai correr bem.“",
-     "opts": [
-      "Du wirst sehen, es wird gut gehen.",
-      "Du hast gesehen, es ging gut."
-     ],
-     "a": "Du wirst sehen, es wird gut gehen. – ir + Grundform"
+     "q": "Eu ___ oito anos. (ter)",
+     "a": "tinha"
     },
     {
-     "q": "„Farei tudo.“",
-     "opts": [
-      "Ich werde alles tun.",
-      "Ich tat alles."
-     ],
-     "a": "Ich werde alles tun. – fazer → far- + ei"
+     "q": "Nós ___ na rua. (brincar)",
+     "a": "brincávamos"
     },
     {
-     "q": "„Teremos sol amanhã.“",
-     "opts": [
-      "Wir werden morgen Sonne haben.",
-      "Wir hatten gestern Sonne."
-     ],
-     "a": "Wir werden morgen Sonne haben. – ter + emos"
+     "q": "Tu ___ no Porto? (viver)",
+     "a": "vivias"
+    },
+    {
+     "q": "Não ___ carros. (haver)",
+     "a": "havia"
+    },
+    {
+     "q": "Eles ___ à escola a pé. (ir)",
+     "a": "iam"
+    },
+    {
+     "q": "___ oito horas. (ser)",
+     "a": "Eram"
+    },
+    {
+     "q": "A avó ___ muito rápido. (falar)",
+     "a": "falava"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Wie sicher? (antippen)",
+   "title": "D · Perfekt oder Imperfekt? (6 P.)",
    "items": [
     {
-     "q": "Vielleicht schlafe ich im Van. → ___ vou dormir na carrinha.",
+     "q": "Ontem ___ na Ribeira quando começou o fogo. (estar)",
      "opts": [
-      "Se calhar",
-      "De certeza"
+      "estávamos",
+      "estivemos"
      ],
-     "a": "Se calhar – vielleicht"
+     "a": "estávamos – Hintergrund"
     },
     {
-     "q": "Ganz sicher komme ich zurück. → Volto ___.",
+     "q": "De repente ___ um balão. (ver, eu)",
      "opts": [
-      "de certeza",
-      "se calhar"
+      "vi",
+      "via"
      ],
-     "a": "de certeza – ganz sicher"
+     "a": "vi – Ereignis"
     },
     {
-     "q": "Wahrscheinlich weine ich. → ___ vou chorar.",
+     "q": "Naquela altura a avó ___ dezassete anos. (ter)",
      "opts": [
-      "Provavelmente",
-      "De certeza"
+      "tinha",
+      "teve"
      ],
-     "a": "Provavelmente – wahrscheinlich"
+     "a": "tinha – Alter"
+    },
+    {
+     "q": "A minha irmã ___ e eu fui. (insistir)",
+     "opts": [
+      "insistiu",
+      "insistia"
+     ],
+     "a": "insistiu – einmalige Handlung"
+    },
+    {
+     "q": "Enquanto ele ___, eu já sabia. (falar)",
+     "opts": [
+      "falava",
+      "falou"
+     ],
+     "a": "falava – enquanto"
+    },
+    {
+     "q": "___ o Vasco há um ano. (conhecer, eu)",
+     "opts": [
+      "Conheci",
+      "Conhecia"
+     ],
+     "a": "Conheci – kennenlernen = Ereignis"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "E · o, a, os, as (6 P.)",
    "items": [
     {
-     "q": "O Vasco tem pessoas suficientes na escola.",
-     "a": "Falsch – zwei Leute für zwanzig Schüler am Tag. Er braucht Hilfe."
+     "q": "Vejo o Tomás. → Vejo-___.",
+     "a": "o"
     },
     {
-     "q": "A Marie vai ficar em Sagres até setembro.",
-     "a": "Richtig – ab August, „Já decidi.“"
+     "q": "Não vejo a Ana. → Não ___ vejo.",
+     "a": "a"
     },
     {
-     "q": "A Ana muda-se para Coimbra em julho.",
-     "a": "Falsch – im September. Sie hat den Studienplatz gerade bekommen."
+     "q": "Comprei os manjericos. → Comprei-___.",
+     "a": "os"
+    },
+    {
+     "q": "Vou comprar a sardinha. → Vou ___.",
+     "a": "comprá-la"
+    },
+    {
+     "q": "Onde encontraste as chaves? → Onde é que ___ encontraste?",
+     "a": "as"
+    },
+    {
+     "q": "Ela viu-me? → Sim, ela viu-___. (dich)",
+     "a": "te"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Satz bauen",
+   "title": "F · Vergleichen (5 P.)",
    "items": [
     {
-     "q": "Ich werde den ganzen Sommer in Sagres arbeiten.",
-     "satz": "Vou trabalhar em Sagres o verão inteiro.",
-     "a": "Vou trabalhar em Sagres o verão inteiro."
+     "q": "Lisboa é ___ (größer) do que o Porto.",
+     "a": "maior"
     },
     {
-     "q": "Ich ziehe im September um.",
-     "satz": "Mudo-me em setembro.",
-     "a": "Mudo-me em setembro."
+     "q": "O Porto é ___ (kleiner, EP) do que Lisboa.",
+     "a": "mais pequeno"
     },
     {
-     "q": "Ist das dein Ernst?",
-     "satz": "Falas a sério?",
-     "a": "Falas a sério?"
+     "q": "A francesinha é ___ (besser) do que o bacalhau? (Meinung)",
+     "a": "melhor"
+    },
+    {
+     "q": "As pessoas são ___ simpáticas ___ as de Lisboa. (so … wie)",
+     "a": "tão / como"
+    },
+    {
+     "q": "No Porto chove ___ do que em Lisboa. (mehr)",
+     "a": "mais"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "G · Lesen: Mensagem da Ana para a Inês (5 P.)",
+   "audio": "r35",
+   "text": "Olá, Inês! Sou eu, a Ana, a amiga do teu irmão preferido. Tenho uma novidade: em setembro mudo-me para Coimbra! Recebi a resposta da universidade ontem. Ainda não acredito.<br>Preciso da tua ajuda. Tu vives lá há um ano, não é? Como é a cidade? Onde é que os estudantes moram? É mais cara do que o Porto? O João diz que tu conheces toda a gente.<br>Outra coisa: a Marie está cá. Sim, a alemã! Voltou há uma semana e vai trabalhar em Sagres o verão inteiro, na escola do Vasco. Em agosto o João leva-nos para o sul na carrinha velha do tio. Quando conheci o João, essa carrinha já era velha.<br>Se calhar passamos por Coimbra no caminho. Podemos dormir em tua casa? Só duas noites. Prometo que o João não dorme no teu sofá.<br>Beijinhos, Ana",
+   "gloss": "Erst lesen, dann anhören. Neu erschließen: preferido = Lieblings- · toda a gente = alle · passar por = vorbeikommen in · Beijinhos = Küsschen (Nachrichten-Schluss). Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "A Ana muda-se para Coimbra em setembro.",
+     "a": "Richtig – die Antwort der Uni kam gestern."
+    },
+    {
+     "q": "A Inês vive em Coimbra há um ano.",
+     "a": "Richtig – seit einem Jahr (vorher war sie Ärztin in Porto)."
+    },
+    {
+     "q": "A Marie voltou há um mês.",
+     "a": "Falsch – vor einer Woche."
+    },
+    {
+     "q": "Em agosto, o grupo vai para o sul de comboio.",
+     "a": "Falsch – im alten Van von Joãos Onkel."
+    },
+    {
+     "q": "A Ana quer dormir em casa da Inês durante uma semana.",
+     "a": "Falsch – nur zwei Nächte."
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: Os teus planos",
-   "html": "Deine Pläne für den nächsten Sommer in sechs Sätzen: dreimal <i>vou + Grundform</i>, einmal <i>se calhar</i>, einmal <i>de certeza</i>, einmal <i>provavelmente</i>. <i>Este verão vou… Se calhar… De certeza que… Provavelmente…</i><br><br>Dann Vascos Reaktion, mit seiner Überraschung: <i>Falas a sério? Isto vai ser um verão incrível.</i>"
-  },
-  {
-   "type": "story",
-   "title": "7 · Hörverstehen: Duas novidades",
-   "audio": "s35",
-   "listen": true,
-   "text": "O João está no sofá da avó, com os olhos fechados, quando a Ana e a Marie entram na sala.<br>— João. Acorda. Temos duas novidades.<br>— Estou a ouvir. De olhos fechados ouve-se melhor.<br>— Eu vou para Coimbra em setembro — diz a Ana. — Tenho vaga na universidade.<br>O João abre um olho.<br>— E eu vou trabalhar em Sagres — diz a Marie. — Na escola do Vasco. Até setembro.<br>O João abre o outro olho. Senta-se. Durante dez segundos não diz nada, o que para o João é muito tempo.<br>— Então ninguém fica em Lisboa.<br>— Tu ficas — diz a Ana.<br>— Eu não fico. Eu também tenho uma novidade.<br>As duas olham para ele.<br>— O meu tio deu-me a carrinha. A velha. A que a Ana odeia.<br>— Aquela carrinha não anda — diz a Ana.<br>— Anda. Devagar, mas anda. Em agosto levo-vos para o sul. Coimbra primeiro, para a Ana ver a universidade. Depois o Alentejo. Depois Sagres.<br>— Isso não é um plano — diz a Marie. — Isso é uma viagem.<br>— É a mesma coisa — diz o João, e fecha os olhos outra vez. — Acordem-me em agosto.<br>Lá fora, no quintal, o Tomás lança um martelo de plástico ao ar e apanha-o. Ele vai a Sagres de certeza. Ainda não sabe como. Mas vai.",
-   "gloss": "Erst hören (zweimal!), dann die Fragen – und erst danach den Text lesen. Neu erschließen: Acorda! = Wach auf! · ouve-se melhor = man hört besser · o tio = der Onkel · odiar = hassen · não anda = fährt nicht · levo-vos = ich bringe euch · ao ar = in die Luft · apanha-o = fängt ihn",
-   "questions": [
-    {
-     "q": "O João ouve as novidades de olhos fechados.",
-     "a": "Richtig – „De olhos fechados ouve-se melhor.“"
-    },
-    {
-     "q": "O João vai ficar em Lisboa o verão inteiro.",
-     "a": "Falsch – er hat den alten Van vom Onkel bekommen und bringt alle im August in den Süden."
-    },
-    {
-     "q": "A viagem vai ser: Coimbra, depois o Alentejo, depois Sagres.",
-     "a": "Richtig – erst Ana die Universität zeigen, dann durchs Alentejo nach Sagres."
-    },
-    {
-     "q": "O Tomás já sabe como vai a Sagres.",
-     "a": "Falsch – „Ainda não sabe como. Mas vai.“"
-    }
-   ]
+   "title": "H · Schreiben: Como era, o que aconteceu (4 P.)",
+   "html": "Schreib vier Sätze über eine Erinnerung – ohne Spickzettel, 1 Punkt pro korrektem Satz:<br><br>1. Wie alt du warst und wo du wohntest (<i>Tinha… Vivia…</i>) · 2. Wie das Wetter war (<i>Fazia… / Chovia…</i>) · 3. Was plötzlich passiert ist (<i>De repente…</i>, Perfekt) · 4. Wie es ausging (Perfekt)<br><br>Muster: <i>Tinha sete anos e vivia em Hamburgo. Chovia. De repente vi o mar. Entrei na água com a roupa toda.</i>"
   },
   {
    "type": "note",
-   "title": "Selbstcheck",
-   "html": "Du kannst jetzt über die Zukunft reden (<b>vou + Grundform</b>), das <b>futuro</b> erkennen (<i>será, teremos</i>) und sagen, wie sicher du bist (<b>se calhar, provavelmente, de certeza</b>). Und du hast zum ersten Mal eine Geschichte <b>nur mit den Ohren</b> verstanden. Morgen: <b>Revisão IV</b>, der Wochentest – dann geht es nach Coimbra."
+   "title": "Auswertung (50 Punkte)",
+   "html": "<b>43–50:</b> Fantástico! Beide Vergangenheiten sitzen, du kannst vergleichen und Pläne machen. Coimbra kann kommen.<br><b>32–42:</b> Muito bem! Schau auf Teil D – Perfekt oder Imperfekt ist die Frage, die dich bis C1 begleitet. Lies die Geschichten von Tag 31 und 32 noch einmal und markiere jede Verbform mit „Foto“ oder „Film“.<br><b>unter 32:</b> Woche 5 war ein großer Schritt (A2 beginnt). Wiederhole Tag 30 und 31, dann den Test noch einmal.<br><br>Nächste Woche: <b>Coimbra</b> – die Universität, eine Wohnung suchen, Inês im Krankenhaus, Fado bei Nacht."
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: A última noite no Porto",
+   "audio": "s35",
+   "text": "A última noite no Porto é quieta. O São João acabou, os martelos estão numa gaveta, o manjerico está na varanda e ainda vive.<br>A avó chama a Marie à cozinha.<br>— Vais para Sagres.<br>— Vou, avó. Em agosto.<br>— E vais falar português o verão todo.<br>— Vou tentar.<br>A avó abre um armário e tira uma caixa. Dentro da caixa está um martelo de plástico, velho, amarelo, com o cabo partido.<br>— Este é de 1968.<br>A Marie não diz nada. Não consegue.<br>— Não é para ti — diz a avó. — É para ficar aqui. Mas queria que o visses. Para saberes que as coisas importantes começam sempre com um martelo na cabeça.<br>— Isso é uma frase muito portuguesa, avó.<br>— Eu sei. Agora vai dormir. Amanhã o comboio é cedo.<br>No quarto, a Ana já está na cama, com o telemóvel.<br>— A Inês respondeu — diz. — Diz que podemos ficar lá. E na semana que vem há um dia para os alunos novos na universidade. Vamos as duas, e tu vens connosco. Diz que Coimbra é a cidade mais bonita de Portugal.<br>— Ela é de Lisboa.<br>— Por isso é que é grave.<br>A Marie deita-se. Pela janela vê o rio, escuro, e as luzes de Gaia. Amanhã Lisboa. Na semana que vem, Coimbra. Em agosto o sul. Fecha os olhos e, pela primeira vez, sonha em português.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: a gaveta = die Schublade · tentar = versuchen · o armário = der Schrank · a caixa = die Schachtel · amarelo = gelb · o cabo partido = der abgebrochene Griff · Não consegue = sie schafft es nicht · queria que o visses = ich wollte, dass du ihn siehst (eine Form für später) · para saberes = damit du weißt · grave = ernst · a luz = das Licht",
+   "questions": [
+    {
+     "q": "A avó dá o martelo de 1968 à Marie.",
+     "a": "Falsch – er bleibt hier. Sie wollte nur, dass Marie ihn sieht."
+    },
+    {
+     "q": "Segundo a Inês, Coimbra é a cidade mais bonita de Portugal.",
+     "a": "Richtig – und weil Inês aus Lissabon ist, ist das „grave“."
+    },
+    {
+     "q": "A Marie sonha em alemão.",
+     "a": "Falsch – zum ersten Mal auf Portugiesisch."
+    }
+   ]
   }
  ]
 }

@@ -1,277 +1,371 @@
 {
  "id": "tag29",
- "title": "Revisão final – Abschlusstest",
- "subtitle": "Woche 4 · Tag 29 · Staffelfinale · 50 Punkte · ca. 40 Min.",
+ "title": "Outra vez Portugal",
+ "subtitle": "Staffel 2 · Woche 5 · Tag 29 · Wiedersehen · há, desde, durante · ca. 30 Min.",
  "sections": [
   {
    "type": "note",
-   "title": "So geht's",
-   "html": "Vier Wochen, ein Test. Erst jede Aufgabe selbst lösen (laut oder im Heft), dann aufdecken und Punkte zählen – ohne Nachschauen. Es geht nicht um die Note: Der Test zeigt dir, was von A1 sitzt und was du in Staffel 2 mitnimmst. Notier dir die Punkte pro Teil!"
+   "title": "Bem-vinda de volta – so läuft Staffel 2",
+   "html": "Ein Jahr ist vergangen. Marie kommt für einen ganzen Sommer zurück – mit einem Plan, den sie noch niemandem verraten hat. Ab jetzt lernst du <b>A2</b>: erzählen, wie es früher war, vergleichen, Probleme lösen, Pläne machen. Die Lektionen sind etwas länger (14 Wörter, längere Geschichten), und es gibt neue Übungsformen: <b>Auswahl-Knöpfe</b> (z. B. „Perfekt oder Imperfekt?“) und <b>Satz bauen</b> (Wörter in die richtige Reihenfolge tippen). Alles aus Staffel 1 bleibt im Caderno – die A2-Wörter bekommen ihre eigene Zeile."
+  },
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (aus Staffel 1)",
+   "items": [
+    {
+     "q": "Was hast du gestern gemacht? → O que é que ___ ontem?",
+     "a": "fizeste"
+    },
+    {
+     "q": "Ich hatte Angst, aber ich habe es geschafft: ___ medo, mas ___.",
+     "a": "Tive / consegui"
+    },
+    {
+     "q": "Wir sind nach Sagres gefahren: ___ a Sagres.",
+     "a": "Fomos"
+    },
+    {
+     "q": "Es war unglaublich: ___ incrível.",
+     "a": "Foi"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: A chegada (14)",
+   "items": [
+    {
+     "pt": "o aeroporto",
+     "de": "der Flughafen",
+     "ipa": "[aɛɾuˈpoɾtu]",
+     "audio": "v2901"
+    },
+    {
+     "pt": "o voo",
+     "de": "der Flug",
+     "ipa": "[ˈvou]",
+     "audio": "v2902"
+    },
+    {
+     "pt": "a chegada",
+     "de": "die Ankunft",
+     "ipa": "[ʃɨˈgadɐ]",
+     "audio": "v2903"
+    },
+    {
+     "pt": "a mala",
+     "de": "der Koffer, die Tasche",
+     "ipa": "[ˈmalɐ]",
+     "audio": "v2904"
+    },
+    {
+     "pt": "ter saudades (de)",
+     "de": "vermissen, Sehnsucht haben (nach)",
+     "ipa": "[teɾ sawˈdadɨʃ]",
+     "audio": "v2905"
+    },
+    {
+     "pt": "abraçar",
+     "de": "umarmen",
+     "ipa": "[ɐbɾɐˈsaɾ]",
+     "audio": "v2906"
+    },
+    {
+     "pt": "há + Zeit",
+     "de": "vor (Vergangenheit) / seit (mit Präsens)",
+     "ipa": "[a]",
+     "audio": "v2907"
+    },
+    {
+     "pt": "desde",
+     "de": "seit (Zeitpunkt)",
+     "ipa": "[ˈdeʒdɨ]",
+     "audio": "v2908"
+    },
+    {
+     "pt": "durante",
+     "de": "während, … lang",
+     "ipa": "[duˈɾɐ̃tɨ]",
+     "audio": "v2909"
+    },
+    {
+     "pt": "o ano",
+     "de": "das Jahr",
+     "ipa": "[ˈɐnu]",
+     "audio": "v2910"
+    },
+    {
+     "pt": "mudar",
+     "de": "sich verändern, wechseln",
+     "ipa": "[muˈdaɾ]",
+     "audio": "v2911"
+    },
+    {
+     "pt": "crescer",
+     "de": "wachsen",
+     "ipa": "[kɾɨʃˈseɾ]",
+     "audio": "v2912"
+    },
+    {
+     "pt": "a novidade",
+     "de": "die Neuigkeit",
+     "ipa": "[nuviˈdadɨ]",
+     "audio": "v2913"
+    },
+    {
+     "pt": "inteiro / inteira",
+     "de": "ganz (o verão inteiro = der ganze Sommer)",
+     "ipa": "[ĩˈtɐjɾu / ĩˈtɐjɾɐ]",
+     "audio": "v2914"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Vor, seit, während",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Bem-vinda de volta, Marie! Bevor ihr im Norden Bacalhau esst, drei kleine Wörter, mit denen ihr über Zeit redet:<br><br><b>há + Zeitspanne</b> = <b>vor</b>: <i>Cheguei <b>há</b> um ano.</i> – Ich bin vor einem Jahr angekommen.<br>Mit <b>Präsens</b> heißt dasselbe <b>seit</b>: <i>Estou aqui <b>há</b> dois dias.</i> – Ich bin seit zwei Tagen hier.<br><b>desde + Zeitpunkt</b> = <b>seit</b> (ab wann): <i><b>Desde</b> março. · <b>Desde</b> ontem. · <b>Desde</b> quando?</i><br><b>durante + Dauer</b> = <b>während, … lang</b>: <i>Falámos <b>durante</b> três horas.</i><br><br><b>Und das Perfekt</b> kennt ihr – hier drei Unregelmäßige, die ihr diese Woche braucht:<br><b>vir</b> (kommen): <i>vim · vieste · veio · viemos · vieram</i><br><b>ver</b> (sehen): <i>vi · viste · viu · vimos · viram</i><br><b>dizer</b> (sagen): <i>disse · disseste · disse · dissemos · disseram</i><br><br>Und jetzt: Umarmt die Avó von mir. Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Vor dem letzten Test ein Gedanke statt eines Tipps: Sprachen lernt man nicht in Wochen, sondern in <b>Gesprächen</b>. Alles, was du hier abfragst, hast du in vier Wochen mit Ana, João und Vasco erlebt – im Café, im Bus, im Wasser. Wenn du ab jetzt jeden Tag <b>einen</b> Satz laut sagst, den du heute noch nicht gesagt hast, kommt A2 von allein. <i>Boa sorte!</i>"
+   "html": "<b>Saudade</b> ist das Wort, das Portugiesen für unübersetzbar halten – Sehnsucht, Vermissen und ein bisschen Melancholie in einem. In Portugal sagt man es fast immer im <b>Plural</b>: <i>Tenho saudades tuas</i> (ich vermisse dich), <i>tenho saudades vossas</i> (euch), <i>tenho saudades do mar</i>. Ausgesprochen <b>„ssau-dádsch“</b> – das End-s ist wieder das EP-„sch“. Und der Satz, mit dem man sich nach langer Zeit begrüßt: <b>Há quanto tempo!</b> – wörtlich „seit wie viel Zeit!“, gemeint: „Lang ist’s her!“"
   },
   {
-   "type": "exercise",
-   "title": "A · Vokabeln aus vier Wochen (10 P.)",
-   "items": [
+   "type": "reading",
+   "title": "4 · Lesen: No aeroporto do Porto",
+   "hint": "Selbst erschlossen: Há quanto tempo! = Lang ist’s her! · tantas = so viele · vossas = von euch (eure) · o centímetro · Vês? = Siehst du? (ver) · o senhor ao meu lado = der Herr neben mir · Bem-vinda = Willkommen (zu einer Frau) · estou com ele = ich habe es gerade · Sabe, sabe. = Er weiß es sehr wohl. · fez = hat gemacht (fazer).",
+   "lines": [
     {
-     "q": "Guten Abend",
-     "a": "Boa noite"
+     "who": "Ana",
+     "pt": "MARIE! Há quanto tempo!",
+     "audio": "d2901"
     },
     {
-     "q": "die Schwester",
-     "a": "a irmã"
+     "who": "Marie",
+     "pt": "Um ano. Um ano inteiro! Tive tantas saudades vossas.",
+     "audio": "d2902"
     },
     {
-     "q": "der Zug (EP!)",
-     "a": "o comboio"
+     "who": "Tomás",
+     "pt": "Eu cresci dez centímetros. Vês?",
+     "audio": "d2903"
     },
     {
-     "q": "der Bus (EP!)",
-     "a": "o autocarro"
+     "who": "Marie",
+     "pt": "Vejo. E surfas melhor do que eu, já sei.",
+     "audio": "d2904"
     },
     {
-     "q": "das Frühstück (EP!)",
-     "a": "o pequeno-almoço"
+     "who": "Tomás",
+     "pt": "Muito melhor.",
+     "audio": "d2905"
     },
     {
-     "q": "die Speisekarte (EP!)",
-     "a": "a ementa"
+     "who": "Ana",
+     "pt": "Como foi o voo?",
+     "audio": "d2906"
     },
     {
-     "q": "links",
-     "a": "à esquerda"
+     "who": "Marie",
+     "pt": "Foi bom, mas durante três horas o senhor ao meu lado falou do tempo em Hamburgo.",
+     "audio": "d2907"
     },
     {
-     "q": "gestern",
-     "a": "ontem"
+     "who": "Ana",
+     "pt": "Bem-vinda a Portugal. Aqui também falamos do tempo.",
+     "audio": "d2908"
     },
     {
-     "q": "das Wetter",
-     "a": "o tempo"
+     "who": "Marie",
+     "pt": "Desde quando é que tens carro?",
+     "audio": "d2909"
     },
     {
-     "q": "zurückkommen",
-     "a": "voltar"
+     "who": "Ana",
+     "pt": "Desde março. É do meu pai. Ele não sabe que estou com ele.",
+     "audio": "d2910"
+    },
+    {
+     "who": "Tomás",
+     "pt": "Sabe, sabe.",
+     "audio": "d2911"
+    },
+    {
+     "who": "Ana",
+     "pt": "Vamos. A avó fez almoço para vinte pessoas. Somos cinco.",
+     "audio": "d2912"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "B · ser, estar, ter (5 P.)",
+   "title": "5a · Perfekt-Wiederholung",
    "items": [
     {
-     "q": "Eu ___ de Hamburgo. (ser)",
-     "a": "sou"
+     "q": "Eu ___ (chegar) ontem.",
+     "a": "cheguei"
     },
     {
-     "q": "Tu ___ cansado? (estar)",
-     "a": "estás"
+     "q": "Tu ___ (ver) o Tomás?",
+     "a": "viste"
     },
     {
-     "q": "Nós ___ dezoito anos. (ter)",
-     "a": "temos"
+     "q": "A avó ___ (fazer) almoço.",
+     "a": "fez"
     },
     {
-     "q": "O João ___ em Lisboa hoje. (estar)",
-     "a": "está"
+     "q": "Nós ___ (vir) de carro.",
+     "a": "viemos"
     },
     {
-     "q": "Eles ___ simpáticos. (ser)",
-     "a": "são"
+     "q": "Eles ___ (ter) saudades.",
+     "a": "tiveram"
+    },
+    {
+     "q": "Ela ___ (dizer) olá.",
+     "a": "disse"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "C · Verben im Präsens – auch reflexiv (6 P.)",
+   "title": "5b · há, desde oder durante?",
    "items": [
     {
-     "q": "Eu ___ português. (falar)",
-     "a": "falo"
+     "q": "Cheguei ___ um ano.",
+     "a": "há"
     },
     {
-     "q": "Nós ___ peixe. (comer)",
-     "a": "comemos"
+     "q": "Estou em Portugal ___ ontem.",
+     "a": "desde"
     },
     {
-     "q": "Eles ___ às sete. (partir)",
-     "a": "partem"
+     "q": "Falámos ___ três horas. (drei Stunden lang)",
+     "a": "durante"
     },
     {
-     "q": "Eu ___ às oito. (levantar-se)",
-     "a": "levanto-me"
+     "q": "___ quando é que tens carro?",
+     "a": "Desde"
     },
     {
-     "q": "Ela não ___ cedo. (deitar-se)",
-     "a": "se deita"
-    },
-    {
-     "q": "Eu ___ surfar amanhã. (ir)",
-     "a": "vou"
+     "q": "Não vejo a Ana ___ um ano.",
+     "a": "há"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "D · Die kleinen Wörter (6 P.)",
+   "title": "5c · Zeitpunkt, Dauer oder Abstand? (antippen)",
+   "intro": "Neue Übungsform: Tipp die richtige Antwort an.",
    "items": [
     {
-     "q": "Gosto ___ praia. (de + a)",
-     "a": "da"
+     "q": "Vivo em Lisboa ___ 2025.",
+     "opts": [
+      "desde",
+      "há",
+      "durante"
+     ],
+     "a": "desde – ein Zeitpunkt, ab dem etwas gilt"
     },
     {
-     "q": "Vamos ___ café. (a + o)",
-     "a": "ao"
+     "q": "Esperei ___ duas horas. (zwei Stunden lang)",
+     "opts": [
+      "durante",
+      "desde",
+      "há"
+     ],
+     "a": "durante – eine Dauer"
     },
     {
-     "q": "Ela mora ___ Porto. (em + o)",
-     "a": "no"
+     "q": "Conheci o João ___ um ano.",
+     "opts": [
+      "há",
+      "desde",
+      "durante"
+     ],
+     "a": "há – ein Abstand zurück: vor einem Jahr"
     },
     {
-     "q": "Vamos ___ autocarro. (mit dem Bus)",
-     "a": "de"
-    },
-    {
-     "q": "Vamos ___ pé. (zu Fuß)",
-     "a": "a"
-    },
-    {
-     "q": "Preciso ___ água.",
-     "a": "de"
+     "q": "Estou aqui ___ dois dias.",
+     "opts": [
+      "há",
+      "desde",
+      "durante"
+     ],
+     "a": "há – mit Präsens: seit zwei Tagen (Zeitspanne bis jetzt)"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "E · Zeigen und höflich befehlen (6 P.)",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "Wie viel kostet das hier? → Quanto custa ___?",
-     "a": "isto"
+     "q": "O Tomás cresceu dez centímetros.",
+     "a": "Richtig – und er surft jetzt „muito melhor“."
     },
     {
-     "q": "jene Flasche dort: ___ garrafa",
-     "a": "aquela"
+     "q": "O voo foi mau.",
+     "a": "Falsch – gut, nur der Sitznachbar redete drei Stunden übers Wetter in Hamburg."
     },
     {
-     "q": "Biegen Sie links ab: ___ à esquerda.",
-     "a": "Vire"
-    },
-    {
-     "q": "Gehen Sie geradeaus: ___ em frente.",
-     "a": "Siga"
-    },
-    {
-     "q": "Darf ich? → ___?",
-     "a": "Posso"
-    },
-    {
-     "q": "Bringen Sie mir die Rechnung: Traga-___ a conta.",
-     "a": "me"
+     "q": "O carro é da Ana.",
+     "a": "Falsch – von ihrem Vater, der angeblich nichts davon weiß."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "F · Was gestern war: das Perfekt (8 P.)",
+   "title": "5e · Satz bauen",
+   "intro": "Neue Übungsform: Tipp die Wörter in der richtigen Reihenfolge an, dann „Prüfen“.",
    "items": [
     {
-     "q": "Ontem eu ___ (surfar).",
-     "a": "surfei"
+     "q": "Ich habe euch so vermisst.",
+     "satz": "Tive tantas saudades vossas.",
+     "a": "Tive tantas saudades vossas."
     },
     {
-     "q": "Tu ___ bem? (dormir)",
-     "a": "dormiste"
+     "q": "Seit wann hast du ein Auto?",
+     "satz": "Desde quando é que tens carro?",
+     "a": "Desde quando é que tens carro?"
     },
     {
-     "q": "A Ana ___ uma onda. (apanhar)",
-     "a": "apanhou"
-    },
-    {
-     "q": "Nós ___ no porto. (jantar)",
-     "a": "jantámos"
-    },
-    {
-     "q": "Eu ___ a Sagres. (ir)",
-     "a": "fui"
-    },
-    {
-     "q": "___ um dia perfeito. (ser)",
-     "a": "Foi"
-    },
-    {
-     "q": "Eu ___ medo. (ter)",
-     "a": "tive"
-    },
-    {
-     "q": "O que é que tu ___? (fazer)",
-     "a": "fizeste"
-    }
-   ]
-  },
-  {
-   "type": "story",
-   "title": "G · Lesen: A mensagem do Vasco (5 P.)",
-   "audio": "r29",
-   "text": "Olá, malta! Chegaram bem a Lisboa? Aqui em Sagres hoje está vento e o mar está grande — a semana passada foi a semana certa.<br>Foi uma boa semana para mim também. A Marie apanhou a primeira onda, a Ana esteve mais tempo dentro de água do que eu, e o João… o João dormiu, mas dormiu com estilo.<br>O Tomás fica mais dois dias com a mãe. Hoje apanhou uma onda sozinho e chorou. De alegria, diz ele.<br>Marie: no verão a prancha grande está aqui à tua espera. Mas atenção — no verão falamos só português. Sem alemão, sem inglês. Combinado?<br>Boa onda, e até ao verão.<br>Vasco",
-   "gloss": "Erst lesen, dann anhören. Neu erschließen: certo, certa = richtig · com estilo = mit Stil · chorar = weinen · a alegria = die Freude · à tua espera = wartet auf dich · atenção = Achtung · Combinado? = Abgemacht? Richtig oder falsch:",
-   "questions": [
-    {
-     "q": "Hoje o mar em Sagres está bom para principiantes.",
-     "a": "Falsch – Wind und großes Meer. Letzte Woche war die richtige."
-    },
-    {
-     "q": "A Ana esteve muito tempo dentro de água.",
-     "a": "Richtig – länger als Vasco selbst."
-    },
-    {
-     "q": "O Tomás voltou para Lisboa com o grupo.",
-     "a": "Falsch – er bleibt zwei Tage länger mit seiner Mutter in Sagres."
-    },
-    {
-     "q": "O Tomás apanhou uma onda sozinho.",
-     "a": "Richtig – und hat vor Freude geweint."
-    },
-    {
-     "q": "No verão, o Vasco quer falar inglês com a Marie.",
-     "a": "Falsch – nur Portugiesisch. „Combinado?“"
+     "q": "Ich bin vor einem Jahr angekommen.",
+     "satz": "Cheguei há um ano.",
+     "a": "Cheguei há um ano."
     }
    ]
   },
   {
    "type": "speak",
-   "title": "H · Schreiben: A minha semana em Sagres (4 P.)",
-   "html": "Du bist Marie. Schreib vier Sätze über die Woche – ohne Spickzettel, 1 Punkt pro korrektem Satz:<br><br>1. Womit ihr nach Sagres gefahren seid (<i>Fomos de…</i>) · 2. Was du gestern gemacht hast (<i>Ontem…</i>) · 3. Was du im Restaurant bestellt hast (<i>Pedi…</i>) · 4. Was du versprichst (<i>Prometo…</i> / <i>Eu volto…</i>)<br><br>Muster: <i>Fomos de comboio e de autocarro. Ontem surfei e caí muitas vezes. Pedi uma dourada grelhada. Prometo voltar no verão.</i>"
-  },
-  {
-   "type": "note",
-   "title": "Auswertung (50 Punkte)",
-   "html": "<b>43–50:</b> Parabéns – das ist A1, und zwar mit Luft nach oben. Du kannst dich vorstellen, bestellen, nach dem Weg fragen, über Alltag, Wetter und Gestern reden. In Portugal kommst du damit durch jeden Tag.<br><b>32–42:</b> Muito bem! Schau auf die Teile mit fehlenden Punkten – F (Perfekt) ist frisch und darf noch wackeln. Nimm dir Tag 27 und 28 noch einmal vor.<br><b>unter 32:</b> Kein Drama: Vier Wochen sind viel Stoff. Wiederhole die Wochentests (Tag 7, 15, 22) und dann diesen Test noch einmal – die zweite Runde ist immer besser.<br><br><b>Was jetzt?</b> Deine Vokabeln warten im Caderno, die Wackler auf der Hoje-Seite. Und wenn du es offiziell willst: Das <b>CIPLE</b> ist die portugiesische A2-Prüfung – Staffel 2 bringt dich dorthin.<br><br><b>Staffel 2 · A volta</b> (A2) ist in Arbeit und erscheint automatisch hier in der App, ohne Update. Bis dahin drei Dinge, die den Stoff festigen: 1. Jeden Tag die Wackler auf der Hoje-Seite surfen. 2. Die Geschichten in <b>Textos</b> noch einmal ohne Nachschlagen lesen – erst Tag 3, dann Tag 29. 3. Einen Wochentest wiederholen (Tag 7, 15, 22). Boa onda!"
+   "title": "6 · Sprechen: Há quanto tempo!",
+   "html": "Stell dir vor, du triffst Ana nach einem Jahr. Sag ihr in sechs Sätzen, was seitdem passiert ist – im Perfekt, mit <i>há</i>, <i>desde</i> und <i>durante</i>: <i>Há um ano voltei para Hamburgo. Desde setembro trabalho em… Durante o inverno estudei português todos os dias…</i><br><br>Und zum Aufwärmen der Gefühle, laut und mit „sch“: <i>Tive tantas saudades vossas!</i>"
   },
   {
    "type": "story",
-   "title": "Bonus · Kleine Geschichte: Boa onda",
+   "title": "7 · Kleine Geschichte: A casa cheia",
    "audio": "s29",
-   "text": "Segunda-feira, sete da tarde. Lisboa.<br>A Marie está à janela do seu quarto, como há quatro semanas. Mas agora a janela tem um postal de Sagres, e a Marie tem sal no cabelo e um caderno cheio.<br>O telemóvel apita. É o grupo.<br>O Vasco mandou uma fotografia: os cinco na praia, com as pranchas, o João de olhos fechados. Por baixo, só duas palavras: «Boa onda.»<br>A Ana escreve: «Quem é que vem jantar? Faço bacalhau.»<br>O João escreve: «Estou a dormir.»<br>A Ana escreve: «Estás a escrever.»<br>O João escreve: «Estou a dormir e a escrever. Sou um homem de muitos talentos.»<br>A Marie ri sozinha, no quarto, em português — porque agora até rir é em português.<br>Escreve: «Vou. Levo pão.»<br>Depois abre o caderno na última página, onde estão as duas palavras de ontem. Por baixo, escreve mais uma linha:<br>«Staffel 2: a volta. No verão. Porto, Coimbra, Algarve — e Sagres outra vez.»<br>Fecha o caderno. Lá fora, o elétrico 28 sobe a rua a chiar, como sempre. Mas hoje soa a música.",
-   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: o postal = die Postkarte · o sal = das Salz · cheio = voll · mandou = hat geschickt (mandar) · de olhos fechados = mit geschlossenen Augen · Quem é que vem…? = Wer kommt…? · o bacalhau = der Stockfisch (Nationalgericht) · o homem = der Mann · o talento = das Talent · até = sogar · a linha = die Zeile · a volta = die Rückkehr, die Runde · o elétrico = die Straßenbahn · subir = hinauffahren · chiar = quietschen · soar a = klingen nach",
+   "text": "A casa da avó cheira a bacalhau e a pão quente. Está tudo igual: a mesa grande, as fotografias na parede, o gato no sofá. Só a Marie mudou.<br>— Estás mais magra — diz a avó, e põe-lhe mais comida no prato.<br>— Estou igual, avó.<br>— Mais magra. Come.<br>A avó fala mais devagar do que há um ano. Ou a Marie percebe mais depressa. Provavelmente as duas coisas.<br>Às cinco da tarde chega o João, de comboio, com uma mala pequena e o mesmo cabelo de sempre.<br>— Vieste de Lisboa só para o jantar? — pergunta a Marie.<br>— Vim para o São João. O jantar é um bónus.<br>Durante o jantar, todos falam ao mesmo tempo. O Tomás conta que apanhou uma onda de dois metros. A Ana diz que foi um metro. O pai diz que o Porto vai ganhar o campeonato. A avó diz que ninguém come.<br>A Marie ouve tudo, percebe quase tudo, e não diz nada sobre o seu plano. Ainda não.<br>À noite, no quarto pequeno com a janela para o rio, o telemóvel apita. É uma mensagem do Vasco para o grupo:<br>«Alguém sabe se a alemã volta este ano? A prancha grande está à espera.»<br>A Marie sorri e não responde. Amanhã. Ou depois de amanhã.",
+   "gloss": "Neu erschließen: cheirar a = riechen nach · a parede = die Wand · o gato = die Katze · magro, magra = dünn · põe-lhe = legt ihr (pôr) · depressa = schnell · o bónus (EP-Schreibweise!) = der Bonus · ganhar o campeonato = die Meisterschaft gewinnen · provavelmente = wahrscheinlich · ninguém = niemand · ainda não = noch nicht · a alemã = die Deutsche · à espera = wartet",
    "questions": [
     {
-     "q": "O Vasco mandou uma fotografia do grupo.",
-     "a": "Richtig – die fünf am Strand, João mit geschlossenen Augen."
+     "q": "A avó fala mais depressa do que há um ano.",
+     "a": "Falsch – langsamer. Oder Marie versteht schneller. Wahrscheinlich beides."
     },
     {
-     "q": "A Marie vai jantar a casa da Ana e leva pão.",
-     "a": "Richtig – „Vou. Levo pão.“"
+     "q": "O João veio ao Porto só para o jantar.",
+     "a": "Falsch – für das São-João-Fest. Das Abendessen ist „ein Bonus“."
     },
     {
-     "q": "A Marie escreve no caderno que volta no verão.",
-     "a": "Richtig – „Staffel 2: a volta. No verão.“ Porto, Coimbra, Algarve, Sagres."
+     "q": "A Marie responde logo à mensagem do Vasco.",
+     "a": "Falsch – sie lächelt und antwortet nicht. „Amanhã. Ou depois de amanhã.“"
     }
    ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt sagen, seit wann, wie lange und vor wie langer Zeit etwas war (<b>há, desde, durante</b>), und du hast das Perfekt wieder im Griff – inklusive <i>vim, vi, disse</i>. Marie hat einen Plan und Vasco eine Frage. Morgen holt die Avó die alten Fotos raus: <b>Quando eu era pequena…</b> – das Imperfekt."
   }
  ]
 }

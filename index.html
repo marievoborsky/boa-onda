@@ -545,6 +545,19 @@ function ladeStore() {
   if (typeof s.streak.last !== 'string') s.streak.last = '';
   if (!s.fehler || typeof s.fehler !== 'object') s.fehler = {};
   if (!s.tage || typeof s.tage !== 'object') s.tage = {};
+  // Umnummerierung 17.09.2026: alter Tag 8 (Sagres) = Bonus, tag09..36 -> tag08..35, Wort-IDs analog
+  if (!s.v2) {
+    const key = k => {
+      let m = k.match(/^tag(\d\d)$/);
+      if (m) { const n = +m[1]; return n === 8 ? 'sagres' : n >= 9 ? 'tag' + String(n - 1).padStart(2, '0') : k; }
+      m = k.match(/^([vdsr])(\d\d)(\d\d)?$/);
+      if (m) { const n = +m[2]; if (n === 8) return m[1] + 'b' + (m[3] || ''); if (n >= 9) return m[1] + String(n - 1).padStart(2, '0') + (m[3] || ''); }
+      return k;
+    };
+    for (const f of ['lessons', 'words', 'fehler']) { const o = {}; for (const k in s[f]) o[key(k)] = s[f][k]; s[f] = o; }
+    s.v2 = true;
+    try { localStorage.setItem('ep-sagres', JSON.stringify(s)); } catch (e) {}
+  }
   return s;
 }
 function leererStore() {
@@ -607,7 +620,7 @@ function renderHome() {
   div.className = 'spot';
   div.onclick = () => openLesson(next.id);
   div.innerHTML = `
-    <div class="icon">L${LESSONS.indexOf(next) + 1}</div>
+    <div class="icon">${next.bonus ? 'B' : 'L' + lessonNum(next)}</div>
     <div class="info">
       <div class="name">${next.label}</div>
       <div class="theme">${next.sub}</div>
@@ -639,7 +652,7 @@ function renderHome() {
     <div class="icon">T${tx.num}</div>
     <div class="info">
       <div class="name">Texto do dia · ${tx.title}</div>
-      <div class="theme">Tag ${tx.num} · Nível ${tx.nivel} · Wörter antippen</div>
+      <div class="theme">${tx.num === 'B' ? 'Bonus' : 'Tag ' + tx.num} · Nível ${tx.nivel} · Wörter antippen</div>
     </div>`;
   ex.appendChild(t);
   const d = document.createElement('div');
@@ -704,35 +717,35 @@ const LESSONS = [
   { id: 'tag05', label: 'Tag 5 · Perguntas', sub: 'Fragewörter · das „é que"', w: 0 },
   { id: 'tag06', label: 'Tag 6 · Trabalho e línguas', sub: 'Beruf & das -ar-Muster', w: 0 },
   { id: 'tag07', label: 'Tag 7 · Revisão', sub: 'Wochentest · 44 Punkte', w: 0 },
-  { id: 'tag08', label: 'Tag 8 · Sagres!', sub: 'Surf-Spezial · Bonus', w: 0 },
-  { id: 'tag09', label: 'Tag 9 · A família', sub: 'Familie & Possessive', w: 1 },
-  { id: 'tag10', label: 'Tag 10 · Como é ele?', sub: 'Personen beschreiben · Adjektive', w: 1 },
-  { id: 'tag11', label: 'Tag 11 · Gosto disto!', sub: 'Essen & Trinken · gostar de', w: 1 },
-  { id: 'tag12', label: 'Tag 12 · No café', sub: 'Bestellen · se faz favor', w: 1 },
-  { id: 'tag13', label: 'Tag 13 · Quanto custa?', sub: 'Zahlen 20–100 · Preise', w: 1 },
-  { id: 'tag14', label: 'Tag 14 · Os dias e as horas', sub: 'Wochentage · Que horas são?', w: 1 },
-  { id: 'tag15', label: 'Tag 15 · Revisão II', sub: 'Wochentest · 42 Punkte', w: 1 },
-  { id: 'tag16', label: 'Tag 16 · O meu dia', sub: 'Tagesablauf · -ar-Verben komplett', w: 2 },
-  { id: 'tag17', label: 'Tag 17 · Levanto-me cedo', sub: '-er/-ir-Verben · reflexiv', w: 2 },
-  { id: 'tag18', label: 'Tag 18 · O que é que fazes?', sub: 'Freizeit · fazer & ir', w: 2 },
-  { id: 'tag19', label: 'Tag 19 · Vamos a Sagres!', sub: 'Pläne · ir + Infinitiv', w: 2 },
-  { id: 'tag20', label: 'Tag 20 · Onde é que fica?', sub: 'Wohnen · há & ficar', w: 2 },
-  { id: 'tag21', label: 'Tag 21 · Que tempo faz?', sub: 'Wetter & Jahreszeiten', w: 2 },
-  { id: 'tag22', label: 'Tag 22 · Revisão III', sub: 'Wochentest · 43 Punkte', w: 2 },
-  { id: 'tag23', label: 'Tag 23 · Isto ou aquilo?', sub: 'Einkaufen · Demonstrative', w: 3 },
-  { id: 'tag24', label: 'Tag 24 · Onde é a estação?', sub: 'Weg fragen · Befehlsform', w: 3 },
-  { id: 'tag25', label: 'Tag 25 · De autocarro para Sagres', sub: 'Verkehrsmittel · poder & querer', w: 3 },
-  { id: 'tag26', label: 'Tag 26 · No restaurante do porto', sub: 'Bestellen · me, te, lhe', w: 3 },
-  { id: 'tag27', label: 'Tag 27 · O que é que fizeste?', sub: 'Perfekt regelmäßig', w: 3 },
-  { id: 'tag28', label: 'Tag 28 · Foi um dia perfeito', sub: 'Perfekt: ser, ir, ter, estar, fazer', w: 3 },
-  { id: 'tag29', label: 'Tag 29 · Revisão final', sub: 'Abschlusstest · 50 Punkte', w: 3 },
-  { id: 'tag30', label: 'Tag 30 · Outra vez Portugal', sub: 'Wiedersehen · há, desde, durante', w: 4 },
-  { id: 'tag31', label: 'Tag 31 · Quando era pequena', sub: 'Imperfekt · wie es früher war', w: 4 },
-  { id: 'tag32', label: 'Tag 32 · A avó conta', sub: 'Perfekt oder Imperfekt?', w: 4 },
-  { id: 'tag33', label: 'Tag 33 · São João', sub: 'Das Fest · o, a, os, as', w: 4 },
-  { id: 'tag34', label: 'Tag 34 · No Porto é melhor', sub: 'Vergleichen · mais … do que', w: 4 },
-  { id: 'tag35', label: 'Tag 35 · O plano', sub: 'Zukunft · Hörverstehen', w: 4 },
-  { id: 'tag36', label: 'Tag 36 · Revisão IV', sub: 'Wochentest · 50 Punkte', w: 4 },
+  { id: 'tag08', label: 'Tag 8 · A família', sub: 'Familie & Possessive', w: 1 },
+  { id: 'tag09', label: 'Tag 9 · Como é ele?', sub: 'Personen beschreiben · Adjektive', w: 1 },
+  { id: 'tag10', label: 'Tag 10 · Gosto disto!', sub: 'Essen & Trinken · gostar de', w: 1 },
+  { id: 'tag11', label: 'Tag 11 · No café', sub: 'Bestellen · se faz favor', w: 1 },
+  { id: 'tag12', label: 'Tag 12 · Quanto custa?', sub: 'Zahlen 20–100 · Preise', w: 1 },
+  { id: 'tag13', label: 'Tag 13 · Os dias e as horas', sub: 'Wochentage · Que horas são?', w: 1 },
+  { id: 'tag14', label: 'Tag 14 · Revisão II', sub: 'Wochentest · 42 Punkte', w: 1 },
+  { id: 'tag15', label: 'Tag 15 · O meu dia', sub: 'Tagesablauf · -ar-Verben komplett', w: 2 },
+  { id: 'tag16', label: 'Tag 16 · Levanto-me cedo', sub: '-er/-ir-Verben · reflexiv', w: 2 },
+  { id: 'tag17', label: 'Tag 17 · O que é que fazes?', sub: 'Freizeit · fazer & ir', w: 2 },
+  { id: 'tag18', label: 'Tag 18 · Vamos a Sagres!', sub: 'Pläne · ir + Infinitiv', w: 2 },
+  { id: 'tag19', label: 'Tag 19 · Onde é que fica?', sub: 'Wohnen · há & ficar', w: 2 },
+  { id: 'tag20', label: 'Tag 20 · Que tempo faz?', sub: 'Wetter & Jahreszeiten', w: 2 },
+  { id: 'tag21', label: 'Tag 21 · Revisão III', sub: 'Wochentest · 43 Punkte', w: 2 },
+  { id: 'tag22', label: 'Tag 22 · Isto ou aquilo?', sub: 'Einkaufen · Demonstrative', w: 3 },
+  { id: 'tag23', label: 'Tag 23 · Onde é a estação?', sub: 'Weg fragen · Befehlsform', w: 3 },
+  { id: 'tag24', label: 'Tag 24 · De autocarro para Sagres', sub: 'Verkehrsmittel · poder & querer', w: 3 },
+  { id: 'tag25', label: 'Tag 25 · No restaurante do porto', sub: 'Bestellen · me, te, lhe', w: 3 },
+  { id: 'tag26', label: 'Tag 26 · O que é que fizeste?', sub: 'Perfekt regelmäßig', w: 3 },
+  { id: 'tag27', label: 'Tag 27 · Foi um dia perfeito', sub: 'Perfekt: ser, ir, ter, estar, fazer', w: 3 },
+  { id: 'tag28', label: 'Tag 28 · Revisão final', sub: 'Abschlusstest · 50 Punkte', w: 3 },
+  { id: 'sagres', label: 'Bonus · Sagres!', sub: 'Surf-Spezial · Strand, Surfschule, Bestellen', w: 3, bonus: true },
+  { id: 'tag29', label: 'Tag 29 · Outra vez Portugal', sub: 'Wiedersehen · há, desde, durante', w: 4 },
+  { id: 'tag30', label: 'Tag 30 · Quando era pequena', sub: 'Imperfekt · wie es früher war', w: 4 },
+  { id: 'tag31', label: 'Tag 31 · A avó conta', sub: 'Perfekt oder Imperfekt?', w: 4 },
+  { id: 'tag32', label: 'Tag 32 · São João', sub: 'Das Fest · o, a, os, as', w: 4 },
+  { id: 'tag33', label: 'Tag 33 · No Porto é melhor', sub: 'Vergleichen · mais … do que', w: 4 },
+  { id: 'tag34', label: 'Tag 34 · O plano', sub: 'Zukunft · Hörverstehen', w: 4 },
+  { id: 'tag35', label: 'Tag 35 · Revisão IV', sub: 'Wochentest · 50 Punkte', w: 4 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -769,8 +782,8 @@ function renderKursMap() {
 }
 function renderKursMapFor(cfg) {
   const box = cfg.box;
-  const done = LESSONS.filter(l => l.w >= cfg.w0 && l.w < cfg.w0 + 4 && l.id !== 'tag08' && store.lessons[l.id]).length;
-  const total = 28; // Tag 8 (Sagres-Bonus) steht außerhalb des 28-Tage-Bogens
+  const done = LESSONS.filter(l => l.w >= cfg.w0 && l.w < cfg.w0 + 4 && !l.bonus && store.lessons[l.id]).length;
+  const total = 28; // der Sagres-Bonus steht außerhalb des 28-Tage-Bogens
   const ROTA = cfg.rota;
   box.innerHTML = `
     <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 .3rem .5rem">${cfg.titel} · ${done} von ${total} Tagen</div>
@@ -789,7 +802,7 @@ function renderKursMapFor(cfg) {
   const L = weg.getTotalLength();
   const SEG = cfg.seg, w0 = cfg.w0;
   const wocheOffen = w => LESSONS.some(l => l.w === w);
-  const wocheDone = w => Math.min(LESSONS.filter(l => l.w === w && store.lessons[l.id]).length, 7);
+  const wocheDone = w => Math.min(LESSONS.filter(l => l.w === w && !l.bonus && store.lessons[l.id]).length, 7);
   const dayFrac = (w, k) => SEG[w - w0][0] + (SEG[w - w0][1] - SEG[w - w0][0]) * k / 7;
   let doneFrac = 0;
   for (let w = w0; w < w0 + 4; w++) if (wocheDone(w) > 0) doneFrac = dayFrac(w, wocheDone(w));
@@ -874,6 +887,11 @@ function renderKursMapFor(cfg) {
   el('line', { x1: mp.x, y1: mp.y - 8, x2: mp.x, y2: mp.y + 8, stroke: '#fff8f2', 'stroke-width': 1.3,
     transform: `rotate(28 ${mp.x} ${mp.y})` });
 }
+/* Anzeige-Nummer: fortlaufend über die Lerntage, der Bonus bekommt ein B */
+function lessonNum(l) {
+  if (l.bonus) return 'B';
+  return LESSONS.filter(x => !x.bonus).indexOf(l) + 1;
+}
 const CHECK_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
 function renderLessons() {
   renderKursMap();
@@ -913,7 +931,7 @@ function renderLessons() {
     div.className = 'spot';
     div.onclick = () => openLesson(l.id);
     div.innerHTML = `
-      <div class="icon">L${i + 1}</div>
+      <div class="icon">${l.bonus ? 'B' : 'L' + lessonNum(l)}</div>
       <div class="info">
         <div class="name">${l.label}</div>
         <div class="theme">${l.sub}</div>
@@ -1010,35 +1028,35 @@ const TEXTOS = [
   { tag: 'tag05', num: 5, title: 'Vinte perguntas', nivel: 2, story: true },
   { tag: 'tag06', num: 6, title: 'A irmã do João', nivel: 3, story: true },
   { tag: 'tag07', num: 7, title: 'Domingo em Lisboa', nivel: 3, story: true },
-  { tag: 'tag08', num: 8, title: 'O fim do mundo', nivel: 3, story: true },
-  { tag: 'tag09', num: 9, title: 'Bem-vindos ao Porto!', nivel: 3, story: true },
-  { tag: 'tag10', num: 10, title: 'O almoço', nivel: 3, story: true },
-  { tag: 'tag11', num: 11, title: 'Os vídeos do Vasco', nivel: 3, story: true },
-  { tag: 'tag12', num: 12, title: 'A primeira aula é grátis', nivel: 3, story: true },
-  { tag: 'tag13', num: 13, title: 'A conta de Sagres', nivel: 3, story: true },
-  { tag: 'tag14', num: 14, title: 'Boa onda não tem pressa', nivel: 3, story: true },
-  { tag: 'tag15', num: 15, title: 'A pergunta do Vasco', nivel: 3, story: true },
-  { tag: 'tag16', num: 16, title: 'A rotina e o mar', nivel: 3, story: true },
-  { tag: 'tag17', num: 17, title: 'O clube das seis da manhã', nivel: 3, story: true },
-  { tag: 'tag18', num: 18, title: 'Domingo de manhã', nivel: 3, story: true },
-  { tag: 'tag19', num: 19, title: 'Os bilhetes', nivel: 3, story: true },
-  { tag: 'tag20', num: 20, title: 'O hostel', nivel: 3, story: true },
-  { tag: 'tag21', num: 21, title: 'A mensagem de quinta-feira', nivel: 3, story: true },
-  { tag: 'tag22', num: 22, title: 'O comboio das seis', nivel: 3, story: true },
-  { tag: 'tag23', num: 23, title: 'As compras', nivel: 3, story: true },
-  { tag: 'tag24', num: 24, title: 'Cinco minutos a pé', nivel: 3, story: true },
-  { tag: 'tag25', num: 25, title: 'A primeira onda', nivel: 3, story: true },
-  { tag: 'tag26', num: 26, title: 'O jantar no porto', nivel: 3, story: true },
-  { tag: 'tag27', num: 27, title: 'O caderno, domingo', nivel: 3, story: true },
-  { tag: 'tag28', num: 28, title: 'A última página', nivel: 4, story: true },
-  { tag: 'tag29', num: 29, title: 'Boa onda', nivel: 4, story: true },
-  { tag: 'tag30', num: 30, title: 'A casa cheia', nivel: 4, story: true },
-  { tag: 'tag31', num: 31, title: 'O quintal', nivel: 4, story: true },
-  { tag: 'tag32', num: 32, title: 'O caderno novo', nivel: 4, story: true },
-  { tag: 'tag33', num: 33, title: 'A noite mais longa do ano', nivel: 5, story: true },
-  { tag: 'tag34', num: 34, title: 'A ponte', nivel: 5, story: true },
-  { tag: 'tag35', num: 35, title: 'Duas novidades', nivel: 5, story: true },
-  { tag: 'tag36', num: 36, title: 'A última noite no Porto', nivel: 5, story: true },
+  { tag: 'tag08', num: 8, title: 'Bem-vindos ao Porto!', nivel: 3, story: true },
+  { tag: 'tag09', num: 9, title: 'O almoço', nivel: 3, story: true },
+  { tag: 'tag10', num: 10, title: 'Os vídeos do Vasco', nivel: 3, story: true },
+  { tag: 'tag11', num: 11, title: 'A primeira aula é grátis', nivel: 3, story: true },
+  { tag: 'tag12', num: 12, title: 'A conta de Sagres', nivel: 3, story: true },
+  { tag: 'tag13', num: 13, title: 'Boa onda não tem pressa', nivel: 3, story: true },
+  { tag: 'tag14', num: 14, title: 'A pergunta do Vasco', nivel: 3, story: true },
+  { tag: 'tag15', num: 15, title: 'A rotina e o mar', nivel: 3, story: true },
+  { tag: 'tag16', num: 16, title: 'O clube das seis da manhã', nivel: 3, story: true },
+  { tag: 'tag17', num: 17, title: 'Domingo de manhã', nivel: 3, story: true },
+  { tag: 'tag18', num: 18, title: 'Os bilhetes', nivel: 3, story: true },
+  { tag: 'tag19', num: 19, title: 'O hostel', nivel: 3, story: true },
+  { tag: 'tag20', num: 20, title: 'A mensagem de quinta-feira', nivel: 3, story: true },
+  { tag: 'tag21', num: 21, title: 'O comboio das seis', nivel: 3, story: true },
+  { tag: 'tag22', num: 22, title: 'As compras', nivel: 3, story: true },
+  { tag: 'tag23', num: 23, title: 'Cinco minutos a pé', nivel: 3, story: true },
+  { tag: 'tag24', num: 24, title: 'A primeira onda', nivel: 3, story: true },
+  { tag: 'tag25', num: 25, title: 'O jantar no porto', nivel: 3, story: true },
+  { tag: 'tag26', num: 26, title: 'O caderno, domingo', nivel: 3, story: true },
+  { tag: 'tag27', num: 27, title: 'A última página', nivel: 4, story: true },
+  { tag: 'tag28', num: 28, title: 'Boa onda', nivel: 4, story: true },
+  { tag: 'sagres', num: 'B', title: 'O fim do mundo', nivel: 3, story: true },
+  { tag: 'tag29', num: 29, title: 'A casa cheia', nivel: 4, story: true },
+  { tag: 'tag30', num: 30, title: 'O quintal', nivel: 4, story: true },
+  { tag: 'tag31', num: 31, title: 'O caderno novo', nivel: 4, story: true },
+  { tag: 'tag32', num: 32, title: 'A noite mais longa do ano', nivel: 5, story: true },
+  { tag: 'tag33', num: 33, title: 'A ponte', nivel: 5, story: true },
+  { tag: 'tag34', num: 34, title: 'Duas novidades', nivel: 5, story: true },
+  { tag: 'tag35', num: 35, title: 'A última noite no Porto', nivel: 5, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');
@@ -1052,7 +1070,7 @@ function renderTextos() {
       <div class="icon">T${t.num}</div>
       <div class="info">
         <div class="name">${t.title}</div>
-        <div class="theme">Tag ${t.num} · Nível ${t.nivel} <span style="margin-left:.4rem">${dots}</span></div>
+        <div class="theme">${t.num === 'B' ? 'Bonus' : 'Tag ' + t.num} · Nível ${t.nivel} <span style="margin-left:.4rem">${dots}</span></div>
       </div>`;
     el.appendChild(div);
   });

@@ -1,269 +1,280 @@
 {
  "id": "tag24",
- "title": "Onde é a estação?",
- "subtitle": "Woche 4 · Tag 24 · Nach dem Weg fragen · Höfliche Befehlsform · ca. 25 Min.",
+ "title": "De autocarro para Sagres",
+ "subtitle": "Woche 4 · Tag 24 · Verkehrsmittel · poder & querer · ca. 25 Min.",
  "sections": [
   {
    "type": "exercise",
    "title": "1 · Aufwärmen (von Tag 23)",
    "items": [
     {
-     "q": "Was ist das hier? → O que é ___?",
-     "a": "isto"
+     "q": "Biegen Sie links ab: ___ à esquerda.",
+     "a": "Vire"
     },
     {
-     "q": "Jene Flasche dort: ___ garrafa",
-     "a": "aquela"
+     "q": "Gehen Sie geradeaus: ___ em frente.",
+     "a": "Siga"
     },
     {
-     "q": "Wir brauchen Wasser: ___ de água.",
-     "a": "Precisamos"
+     "q": "Entschuldigen Sie, wo ist der Platz? → ___",
+     "a": "Desculpe, onde é a praça?"
     },
     {
-     "q": "Der Laden ist nah: A loja fica ___ da praia.",
-     "a": "perto"
+     "q": "zu Fuß: ___",
+     "a": "a pé"
     }
    ]
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: O caminho (12)",
+   "title": "2 · Neue Wörter: A viagem (12)",
    "items": [
     {
-     "pt": "Desculpe, …",
-     "de": "Entschuldigen Sie, …",
-     "ipa": "[dɨʃˈkuɫpɨ]",
+     "pt": "o autocarro",
+     "de": "der Bus (EP!)",
+     "ipa": "[awtɔˈkaʁu]",
      "audio": "v2401"
     },
     {
-     "pt": "a estação de autocarros",
-     "de": "der Busbahnhof",
-     "ipa": "[ɨʃtɐˈsɐ̃w̃ dɨ awtɔˈkaʁuʃ]",
+     "pt": "a viagem",
+     "de": "die Reise, die Fahrt",
+     "ipa": "[ˈvjaʒɐ̃j̃]",
      "audio": "v2402"
     },
     {
-     "pt": "a rua",
-     "de": "die Straße",
-     "ipa": "[ˈʁuɐ]",
+     "pt": "o carro",
+     "de": "das Auto",
+     "ipa": "[ˈkaʁu]",
      "audio": "v2403"
     },
     {
-     "pt": "à esquerda",
-     "de": "links, nach links",
-     "ipa": "[a ɨʃˈkeɾdɐ]",
+     "pt": "a bicicleta",
+     "de": "das Fahrrad",
+     "ipa": "[bisiˈklɛtɐ]",
      "audio": "v2404"
     },
     {
-     "pt": "à direita",
-     "de": "rechts, nach rechts",
-     "ipa": "[a diˈɾɐjtɐ]",
+     "pt": "o barco",
+     "de": "das Boot, das Schiff",
+     "ipa": "[ˈbaɾku]",
      "audio": "v2405"
     },
     {
-     "pt": "em frente",
-     "de": "geradeaus",
-     "ipa": "[ɐ̃j̃ ˈfɾẽtɨ]",
+     "pt": "o avião",
+     "de": "das Flugzeug",
+     "ipa": "[ɐviˈɐ̃w̃]",
      "audio": "v2406"
     },
     {
-     "pt": "virar",
-     "de": "abbiegen",
-     "ipa": "[viˈɾaɾ]",
+     "pt": "o motorista",
+     "de": "der Fahrer",
+     "ipa": "[mutuˈɾiʃtɐ]",
      "audio": "v2407"
     },
     {
-     "pt": "seguir",
-     "de": "weitergehen, folgen",
-     "ipa": "[sɨˈgiɾ]",
+     "pt": "o lugar",
+     "de": "der Platz, der Sitzplatz",
+     "ipa": "[luˈgaɾ]",
      "audio": "v2408"
     },
     {
-     "pt": "atravessar",
-     "de": "überqueren",
-     "ipa": "[ɐtɾɐvɨˈsaɾ]",
+     "pt": "demorar",
+     "de": "dauern",
+     "ipa": "[dɨmuˈɾaɾ]",
      "audio": "v2409"
     },
     {
-     "pt": "a praça",
-     "de": "der Platz",
-     "ipa": "[ˈpɾasɐ]",
+     "pt": "poder",
+     "de": "können, dürfen",
+     "ipa": "[puˈdeɾ]",
      "audio": "v2410"
     },
     {
-     "pt": "a paragem",
-     "de": "die Haltestelle",
-     "ipa": "[pɐˈɾaʒɐ̃j̃]",
+     "pt": "querer",
+     "de": "wollen",
+     "ipa": "[kɨˈɾeɾ]",
      "audio": "v2411"
     },
     {
-     "pt": "a pé",
-     "de": "zu Fuß",
-     "ipa": "[ɐ ˈpɛ]",
+     "pt": "o / a principiante",
+     "de": "der Anfänger / die Anfängerin",
+     "ipa": "[pɾĩsiˈpjɐ̃tɨ]",
      "audio": "v2412"
     }
    ]
   },
   {
    "type": "note",
-   "title": "3 · Dica do Vasco: Die höfliche Befehlsform",
-   "html": "<i>(Sprachnachricht, 8:35 Uhr:)</i> Ihr habt sie schon ein paarmal gesehen: <i>Diz-me! · Lê! · Reservem! · Tragam!</i> Heute lernt ihr, wie man sie <b>selbst</b> baut – und zwar die höfliche Form, die euch jeder Portugiese auf der Straße sagt.<br><br><b>Das Rezept (Sie-Form):</b> Nimm den Stamm und tausch die Endung:<br>• <b>-ar</b>-Verben → <b>-e</b>: <i>virar → <b>Vire</b> à esquerda. · atravessar → <b>Atravesse</b> a praça. · falar → <b>Fale</b> devagar.</i><br>• <b>-er / -ir</b>-Verben → <b>-a</b>: <i>seguir → <b>Siga</b> em frente. · beber → <b>Beba</b> água.</i> (Bei -ir-Verben wie <i>seguir</i> geht man von der eu-Form aus: <i>sigo → Siga</i>.)<br>• Mehrere Personen (ihr/Sie alle): <b>-em / -am</b>: <i><b>Virem</b> à direita. · <b>Sigam</b> em frente.</i><br><br><b>Merkhilfe:</b> Die Endungen sind „vertauscht“ – -ar-Verben kriegen ein <b>e</b>, die anderen ein <b>a</b>.<br><br><b>Und unter Freunden (du)?</b> Da ist die Befehlsform einfach die <b>ele/ela-Form</b> des Präsens: <i>Vira! · Segue! · Fala! · Olha!</i> – deshalb sagt Ana ständig <i>Olha, …</i><br><br><b>Desculpe</b> ist selbst so eine Form (von <i>desculpar</i>, entschuldigen): <i>Desculp<b>e</b></i> zu Fremden, <i>Desculp<b>a</b></i> zu Freunden. Boa onda!"
+   "title": "3 · Dica do Vasco: poder & querer – und wie man fährt",
+   "html": "<i>(Diesmal keine Sprachnachricht – Vasco steht am Strand:)</i> Olá, malta! Endlich live. Zwei Verben, die ihr ab heute ständig braucht – beide unregelmäßig, beide mit Grundform dahinter:<br><br><b>poder</b> (können, dürfen): <i>eu <b>posso</b> · tu <b>podes</b> · ele/ela/você <b>pode</b> · nós <b>podemos</b> · eles/vocês <b>podem</b></i><br><b>querer</b> (wollen): <i>eu <b>quero</b> · tu <b>queres</b> · ele/ela/você <b>quer</b> · nós <b>queremos</b> · eles/vocês <b>querem</b></i><br><br><i><b>Posso</b> abrir a janela?</i> – Darf ich…? · <i><b>Podes</b> ajudar-me?</i> – Kannst du mir helfen? · <i><b>Pode</b> repetir?</i> – Können Sie…? · <i><b>Queres</b> a prancha grande?</i><br>Ihr kennt schon <i>Queria…</i> – das ist die höfliche Form von <i>querer</i>: „ich hätte gern“.<br><br><b>Womit fährt man?</b> Mit <b>de</b> – ohne Artikel: <i>ir <b>de</b> autocarro · <b>de</b> comboio · <b>de</b> carro · <b>de</b> bicicleta · <b>de</b> barco · <b>de</b> avião.</i> Eine Ausnahme: <i>ir <b>a</b> pé</i>.<br><br><b>Wie lange dauert es?</b> <i>Quanto tempo demora? – Demora uma hora.</i><br><br>Und jetzt: Fatos an, pranchas hoch. Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Drei Dinge, die dir auf der Straße wirklich passieren: Erstens sagt man <b>„Não é longe“</b> – auch wenn es zwanzig Minuten sind. Zweitens beschreiben Portugiesen den Weg mit <i>sempre em frente</i> („immer geradeaus“) und einer Handbewegung, die alles erklärt. Drittens: <i>esquerda</i> klingt wie <b>„schkérda“</b> – das e am Anfang ist fast weg, das s wird zum sch. Übe es dreimal, dann versteht dich auch der Busfahrer."
+   "html": "Das wichtigste Wort heute ist <b>Posso?</b> – allein, mit Fragezeichen. Portugiesen sagen es beim Reinkommen, beim Hinsetzen, beim Greifen nach dem Brotkorb. Die Antwort ist fast immer ein doppeltes <b>„Pode, pode.“</b> Und <i>quer</i>? Klingt wie <b>„kär“</b>, ganz kurz – <i>Quer um café?</i> ist die Frage, die du in Portugal am häufigsten hören wirst. <i>Quero!</i> ist die richtige Antwort."
   },
   {
    "type": "reading",
-   "title": "4 · Lesen: Desculpe, onde é…?",
-   "hint": "Selbst erschlossen: até à = bis zu · a ponte = die Brücke · depois da ponte = nach der Brücke · ter razão = recht haben · Corram! = Lauft! (correr, Befehlsform für „ihr“) · o senhor = der Herr.",
+   "title": "4a · Lesen: No autocarro",
+   "hint": "Selbst erschlossen: Para onde…? = Wohin…? · atrás = hinten · sentar-se = sich setzen (reflexiv wie levantar-se) · Acordem-me! = Weckt mich! (Befehlsform + me = mich/mir – die kleinen Wörter kommen morgen).",
    "lines": [
     {
-     "who": "Marie",
-     "pt": "Desculpe, onde é a estação de autocarros?",
+     "who": "Motorista",
+     "pt": "Bilhetes, se faz favor. Para onde vão?",
      "audio": "d2401"
     },
     {
-     "who": "Senhor",
-     "pt": "A estação? Não é longe. Siga em frente até à praça.",
+     "who": "Marie",
+     "pt": "Três para Sagres. Quanto tempo demora a viagem?",
      "audio": "d2402"
     },
     {
-     "who": "Marie",
-     "pt": "Até à praça… sim.",
+     "who": "Motorista",
+     "pt": "Uma hora. Podem sentar-se atrás.",
      "audio": "d2403"
     },
     {
-     "who": "Senhor",
-     "pt": "Na praça, vire à esquerda. Depois atravesse a ponte.",
+     "who": "Ana",
+     "pt": "Posso abrir a janela?",
      "audio": "d2404"
     },
     {
-     "who": "Marie",
-     "pt": "A ponte? Há uma ponte?",
+     "who": "Motorista",
+     "pt": "Pode, pode.",
      "audio": "d2405"
     },
     {
-     "who": "Senhor",
-     "pt": "Há. Depois da ponte, a estação fica à direita. Cinco minutos a pé.",
+     "who": "João",
+     "pt": "Eu quero dormir. Acordem-me em Sagres.",
      "audio": "d2406"
-    },
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "title": "4b · Lesen: Praia da Mareta, dez e meia",
+   "hint": "Selbst erschlossen: de pé = im Stehen · a resposta = die Antwort · a malta = die Leute (Anrede) · a prancha = das Surfbrett (Tag 8).",
+   "lines": [
     {
-     "who": "Marie",
-     "pt": "Muito obrigada!",
+     "who": "Vasco",
+     "pt": "Marie! Ana! E o João… está a dormir de pé?",
      "audio": "d2407"
     },
     {
-     "who": "Senhor",
-     "pt": "De nada. Vão para Sagres?",
+     "who": "Marie",
+     "pt": "Olá, Vasco! Finalmente! Podemos surfar hoje?",
      "audio": "d2408"
     },
     {
-     "who": "João",
-     "pt": "Vamos. O autocarro é às nove e um quarto.",
+     "who": "Vasco",
+     "pt": "Podem. O mar está bom. Queres a prancha grande ou a pequena?",
      "audio": "d2409"
     },
     {
-     "who": "Senhor",
-     "pt": "Então não sigam em frente. Corram!",
+     "who": "Marie",
+     "pt": "Quero a grande. Sou principiante.",
      "audio": "d2410"
     },
     {
-     "who": "Ana",
-     "pt": "Ele tem razão. São nove e cinco!",
+     "who": "Vasco",
+     "pt": "Boa resposta. Vamos, malta. Boa onda!",
      "audio": "d2411"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · Die Befehlsform bilden (Sie)",
+   "title": "5a · poder und querer",
    "items": [
     {
-     "q": "abbiegen → ___ à esquerda.",
-     "a": "Vire"
+     "q": "Eu ___ (poder) abrir a janela?",
+     "a": "posso"
     },
     {
-     "q": "weitergehen → ___ em frente.",
-     "a": "Siga"
+     "q": "Tu ___ (querer) dormir?",
+     "a": "queres"
     },
     {
-     "q": "überqueren → ___ a praça.",
-     "a": "Atravesse"
+     "q": "Nós ___ (poder) surfar hoje.",
+     "a": "podemos"
     },
     {
-     "q": "entschuldigen → ___!",
-     "a": "Desculpe"
+     "q": "Eles ___ (querer) ir a pé.",
+     "a": "querem"
     },
     {
-     "q": "sprechen (langsam, bitte) → ___ devagar, se faz favor.",
-     "a": "Fale"
+     "q": "O João ___ (poder) dormir no autocarro.",
+     "a": "pode"
+    },
+    {
+     "q": "A Marie ___ (querer) a prancha grande.",
+     "a": "quer"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · Sie-Form → du-Form",
+   "title": "5b · de oder a? (Verkehrsmittel)",
    "items": [
     {
-     "q": "Vire à direita. → (du) ___ à direita.",
-     "a": "Vira"
+     "q": "mit dem Bus: ___ autocarro",
+     "a": "de"
     },
     {
-     "q": "Siga em frente. → (du) ___ em frente.",
-     "a": "Segue"
+     "q": "zu Fuß: ___ pé",
+     "a": "a"
     },
     {
-     "q": "Desculpe. → (du) ___.",
-     "a": "Desculpa"
+     "q": "mit dem Zug: ___ comboio",
+     "a": "de"
     },
     {
-     "q": "Fale devagar. → (du) ___ devagar.",
-     "a": "Fala"
+     "q": "mit dem Fahrrad: ___ bicicleta",
+     "a": "de"
+    },
+    {
+     "q": "mit dem Flugzeug: ___ avião",
+     "a": "de"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Wo ist es?",
+   "title": "5c · Posso? Podes? Pode?",
    "items": [
     {
-     "q": "Der Laden ist links: A loja fica ___.",
-     "a": "à esquerda"
+     "q": "Darf ich mich setzen? → ___ sentar-me?",
+     "a": "Posso"
     },
     {
-     "q": "Das Café ist geradeaus: O café é ___.",
-     "a": "em frente"
+     "q": "Kannst du (du-Form) mir helfen? → ___ ajudar-me?",
+     "a": "Podes"
     },
     {
-     "q": "Der Strand ist nah: A praia é ___.",
-     "a": "perto"
+     "q": "Können Sie das wiederholen? → ___ repetir?",
+     "a": "Pode"
     },
     {
-     "q": "Der Bahnhof ist weit: A estação é ___.",
-     "a": "longe"
-    },
-    {
-     "q": "Fünf Minuten zu Fuß: cinco minutos ___",
-     "a": "a pé"
+     "q": "Dürfen wir hier surfen? → ___ surfar aqui?",
+     "a": "Podemos"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zu den Dialogen)",
    "items": [
     {
-     "q": "A estação de autocarros é longe.",
-     "a": "Falsch – „Não é longe“, fünf Minuten zu Fuß."
+     "q": "A viagem de Lagos a Sagres demora duas horas.",
+     "a": "Falsch – eine Stunde."
     },
     {
-     "q": "Na praça, a Marie vira à direita.",
-     "a": "Falsch – links („vire à esquerda“). Rechts liegt erst der Busbahnhof nach der Brücke."
+     "q": "O João quer dormir no autocarro.",
+     "a": "Richtig – „Acordem-me em Sagres.“"
     },
     {
-     "q": "O autocarro para Sagres é às nove e um quarto.",
-     "a": "Richtig – und es ist schon fünf nach neun. Corram!"
+     "q": "A Marie quer a prancha pequena.",
+     "a": "Falsch – die große, sie ist Anfängerin. Vasco: „Boa resposta.“"
     }
    ]
   },
@@ -272,53 +283,53 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Entschuldigen Sie, wo ist der Strand? → ___",
-     "a": "Desculpe, onde é a praia?"
+     "q": "Wie lange dauert die Reise? → ___",
+     "a": "Quanto tempo demora a viagem?"
     },
     {
-     "q": "Gehen Sie geradeaus. → ___",
-     "a": "Siga em frente."
+     "q": "Wir fahren mit dem Bus nach Sagres. → ___",
+     "a": "Vamos de autocarro para Sagres."
     },
     {
-     "q": "Biegen Sie rechts ab. → ___",
-     "a": "Vire à direita."
+     "q": "Ich will das große Brett. → ___",
+     "a": "Quero a prancha grande."
     },
     {
-     "q": "Es ist nicht weit. → ___",
-     "a": "Não é longe."
+     "q": "Darf ich das Fenster öffnen? → ___",
+     "a": "Posso abrir a janela?"
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: O caminho para casa",
-   "html": "Beschreib jemandem den Weg von deiner Haustür zum nächsten Supermarkt – laut, mit der Hand in der Luft: <i>Siga em frente… vire à esquerda… atravesse a rua… fica à direita.</i><br><br>Dann die Frage, die du ab jetzt überall stellen kannst, dreimal, mit „schkérda“-Ohr: <i>Desculpe, onde é a estação? Onde é a praia? Onde é a casa de banho?</i>"
+   "title": "6 · Sprechen: Como é que vais?",
+   "html": "Wie kommst du zur Arbeit, zur Uni, zum Strand? Drei Sätze laut: <i>Vou de… Vou a pé… Demora…</i><br><br>Dann die Höflichkeits-Runde: Stell drei Fragen mit <i>Posso…?</i> und beantworte sie selbst mit <i>Pode, pode.</i><br><br>Und zum Schluss laut, mit Vascos Ruhe: <i>Quero a prancha grande. Sou principiante.</i> Das ist kein Geständnis – das ist der richtige Anfang."
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: Cinco minutos a pé",
+   "title": "7 · Kleine Geschichte: A primeira onda",
    "audio": "s24",
-   "text": "Nove e seis. Três sacos, três pessoas, uma ponte.<br>— Corram! — grita a Ana.<br>A Marie corre. A Ana corre. O João corre dez metros, para, e diz:<br>— Eu não corro com pão.<br>— Então dá-me o pão!<br>A Ana leva o pão. O João corre. Atravessam a praça, viram à esquerda, atravessam a ponte. As laranjas saltam dentro do saco como bolas.<br>Nove e treze. A estação. Um autocarro azul com a porta aberta e um motorista com cara de quem tem tempo.<br>— Sagres? — pergunta a Marie, sem ar.<br>— Sagres. Mas calma, menina. Este autocarro sai às nove e meia. O das nove e um quarto é o de Lagos para Lagos.<br>Silêncio.<br>— Isso existe? — pergunta o João.<br>— Não. Estou a brincar. Entrem.<br>A Ana senta-se, fecha os olhos e diz para ninguém:<br>— Odeio o sentido de humor deste país.<br>Mas está a sorrir. Todos estão. Em quinze minutos, o autocarro parte para o fim do mundo.",
-   "gloss": "Neu erschließen: gritar = schreien · parar = stehenbleiben · dá-me = gib mir · saltar = hüpfen · a bola = der Ball · o motorista = der Fahrer (morgen Vokabel) · existir = existieren · azul = blau · aberto, aberta = offen · com cara de quem tem tempo = mit einem Gesicht, das Zeit hat · sem ar = außer Atem · a menina = das Mädchen, „junge Frau“ · sair = losfahren, hinausgehen · Estou a brincar = ich mach nur Spaß · Entrem! = Steigt ein! · odiar = hassen · o sentido de humor = der Humor · o país = das Land · sorrir = lächeln · o fim do mundo = das Ende der Welt (so nennt man Sagres)",
+   "text": "Praia da Mareta, dez e meia. O mar é azul, o vento é fraco e o Tomás já está na areia há uma hora — de fato de surf, com uma prancha maior do que ele.<br>— Vasco! Eles chegaram! — grita.<br>A primeira aula não é no mar. É na areia. O Vasco explica devagar: deitar na prancha, remar, e depois, num só movimento, levantar.<br>— Um, dois, três. De pé!<br>Na areia, a Marie consegue. Na água, não.<br>Cai à esquerda. Cai à direita. Cai para a frente, o que o Vasco diz que é «raro e interessante».<br>— Não penses — diz ele. — O corpo sabe.<br>Onda número catorze. A Marie rema, sente a onda por baixo da prancha, empurra… e está de pé. Três segundos. Talvez dois.<br>Mas está de pé, em Sagres, dentro do Atlântico, e a Ana grita da areia como se fosse uma final de futebol.<br>O Vasco não grita. Levanta o polegar e diz só:<br>— Isso.",
+   "gloss": "Neu erschließen: já está na areia há uma hora = ist schon seit einer Stunde am Strand · maior do que = größer als · Eles chegaram! = Sie sind da! (Perfekt – Tag 26) · deitar = sich hinlegen · remar = paddeln · num só movimento = in einer einzigen Bewegung · levantar = aufstehen · conseguir = schaffen · De pé! = Aufstehen! (wörtlich: auf die Füße) · raro = selten · Não penses = denk nicht nach · o corpo = der Körper · por baixo de = unter · empurrar = drücken, abstoßen · talvez = vielleicht · como se fosse = als wäre es · o polegar = der Daumen",
    "questions": [
     {
-     "q": "O João corre até à estação com o pão.",
-     "a": "Falsch – nach zehn Metern bleibt er stehen („Eu não corro com pão“). Ana nimmt es ihm ab."
+     "q": "A primeira aula é dentro de água.",
+     "a": "Falsch – am Strand, auf dem Sand („A primeira aula não é no mar. É na areia.“)."
     },
     {
-     "q": "O autocarro para Sagres sai às nove e um quarto.",
-     "a": "Falsch – um halb zehn. Der Fahrer hat sie nur veräppelt („Estou a brincar“)."
+     "q": "A Marie consegue na onda número catorze.",
+     "a": "Richtig – drei Sekunden, vielleicht zwei. Aber sie steht."
     },
     {
-     "q": "No fim, todos estão a sorrir.",
-     "a": "Richtig – auch Ana, obwohl sie den Humor „dieses Landes“ angeblich hasst."
+     "q": "O Vasco grita muito.",
+     "a": "Falsch – er hebt nur den Daumen und sagt „Isso.“ Ana schreit dafür wie beim Fußballfinale."
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Du kannst jetzt nach dem Weg fragen, eine Wegbeschreibung verstehen und die <b>höfliche Befehlsform</b> selbst bilden (<i>Vire! Siga! Desculpe!</i>). Der Bus fährt um halb zehn. Morgen: <b>De autocarro para Sagres</b> – Verkehrsmittel, <i>poder</i> und <i>querer</i>… und um zehn Uhr steht jemand am Strand."
+   "html": "Du kannst jetzt sagen, womit du fährst (<b>de autocarro, a pé</b>), höflich fragen (<b>Posso…? Pode…?</b>) und Wünsche äußern (<b>quero, queres, quer</b>). Marie hat ihre erste Welle gestanden. Heute Abend gibt es dafür Fisch am Hafen: <b>No restaurante</b> – bestellen wie eine Portugiesin, und die kleinen Wörter <i>me</i> und <i>lhe</i>."
   }
  ]
 }

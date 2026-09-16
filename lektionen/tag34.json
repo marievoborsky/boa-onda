@@ -1,272 +1,292 @@
 {
  "id": "tag34",
- "title": "No Porto é melhor",
- "subtitle": "Staffel 2 · Woche 5 · Tag 34 · Vergleichen · mais … do que, tão … como · ca. 30 Min.",
+ "title": "O plano",
+ "subtitle": "Staffel 2 · Woche 5 · Tag 34 · Über die Zukunft reden · ir + Infinitiv, futuro · Hörverstehen · ca. 30 Min.",
  "sections": [
   {
    "type": "exercise",
    "title": "1 · Aufwärmen (von Tag 33)",
    "items": [
     {
-     "q": "Ich sehe ihn: Vejo-___.",
-     "a": "o"
+     "q": "Lissabon ist größer als Porto: Lisboa é ___ ___ o Porto.",
+     "a": "maior / do que"
     },
     {
-     "q": "Ich sehe sie (die Sardinen) nicht: Não ___ vejo.",
-     "a": "as"
+     "q": "so nett wie: ___ simpático ___",
+     "a": "tão / como"
     },
     {
-     "q": "Ich werde ihn (den Basilikum) kaufen: Vou ___.",
-     "a": "comprá-lo"
+     "q": "Ich stimme zu: ___",
+     "a": "Concordo."
     },
     {
-     "q": "Mitternacht: a ___",
-     "a": "meia-noite"
+     "q": "kleiner (EP): ",
+     "opts": [
+      "mais pequeno",
+      "mais grande"
+     ],
+     "a": "mais pequeno"
     }
    ]
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: Comparar (14)",
+   "title": "2 · Neue Wörter: O futuro (14)",
    "items": [
     {
-     "pt": "melhor",
-     "de": "besser",
-     "ipa": "[mɨˈʎɔɾ]",
+     "pt": "o futuro",
+     "de": "die Zukunft",
+     "ipa": "[fuˈtuɾu]",
      "audio": "v3401"
     },
     {
-     "pt": "pior",
-     "de": "schlechter",
-     "ipa": "[piˈɔɾ]",
+     "pt": "o plano",
+     "de": "der Plan",
+     "ipa": "[ˈplɐnu]",
      "audio": "v3402"
     },
     {
-     "pt": "maior",
-     "de": "größer",
-     "ipa": "[mɐˈjɔɾ]",
+     "pt": "a decisão",
+     "de": "die Entscheidung",
+     "ipa": "[dɨsiˈzɐ̃w̃]",
      "audio": "v3403"
     },
     {
-     "pt": "mais pequeno / mais pequena",
-     "de": "kleiner (EP!)",
-     "ipa": "[majʃ pɨˈkenu / pɨˈkenɐ]",
+     "pt": "decidir",
+     "de": "entscheiden",
+     "ipa": "[dɨsiˈdiɾ]",
      "audio": "v3404"
     },
     {
-     "pt": "mais … do que",
-     "de": "mehr … als",
-     "ipa": "[majʃ … du kɨ]",
+     "pt": "se calhar",
+     "de": "vielleicht (EP, gesprochen)",
+     "ipa": "[sɨ kɐˈʎaɾ]",
      "audio": "v3405"
     },
     {
-     "pt": "menos … do que",
-     "de": "weniger … als",
-     "ipa": "[ˈmenuʃ … du kɨ]",
+     "pt": "provavelmente",
+     "de": "wahrscheinlich",
+     "ipa": "[pɾuvavɛɫˈmẽtɨ]",
      "audio": "v3406"
     },
     {
-     "pt": "tão … como",
-     "de": "so … wie",
-     "ipa": "[tɐ̃w̃ … ˈkomu]",
+     "pt": "de certeza",
+     "de": "ganz sicher",
+     "ipa": "[dɨ sɨɾˈtezɐ]",
      "audio": "v3407"
     },
     {
-     "pt": "a opinião",
-     "de": "die Meinung",
-     "ipa": "[ɔpiˈnjɐ̃w̃]",
+     "pt": "ajudar",
+     "de": "helfen",
+     "ipa": "[ɐʒuˈdaɾ]",
      "audio": "v3408"
     },
     {
-     "pt": "concordar (com)",
-     "de": "zustimmen",
-     "ipa": "[kõkuɾˈdaɾ]",
+     "pt": "a época alta",
+     "de": "die Hochsaison",
+     "ipa": "[ˈɛpukɐ ˈaɫtɐ]",
      "audio": "v3409"
     },
     {
-     "pt": "discordar (de)",
-     "de": "widersprechen, anderer Meinung sein",
-     "ipa": "[diʃkuɾˈdaɾ]",
+     "pt": "o emprego",
+     "de": "der Job, die Stelle",
+     "ipa": "[ẽˈpɾegu]",
      "audio": "v3410"
     },
     {
-     "pt": "a francesinha",
-     "de": "Portos Sandwich mit Fleisch, Käse und Sauce",
-     "ipa": "[fɾɐ̃sɨˈziɲɐ]",
+     "pt": "a candidatura",
+     "de": "die Bewerbung",
+     "ipa": "[kɐ̃didɐˈtuɾɐ]",
      "audio": "v3411"
     },
     {
-     "pt": "o bacalhau",
-     "de": "der Stockfisch",
-     "ipa": "[bɐkɐˈʎaw]",
+     "pt": "a vaga",
+     "de": "der freie Platz, die freie Stelle",
+     "ipa": "[ˈvagɐ]",
      "audio": "v3412"
     },
     {
-     "pt": "a discussão",
-     "de": "die Diskussion, der Streit",
-     "ipa": "[diʃkuˈsɐ̃w̃]",
+     "pt": "a universidade",
+     "de": "die Universität",
+     "ipa": "[univɨɾsiˈdadɨ]",
      "audio": "v3413"
     },
     {
-     "pt": "barulhento / barulhenta",
-     "de": "laut",
-     "ipa": "[bɐɾuˈʎẽtu / bɐɾuˈʎẽtɐ]",
+     "pt": "mudar-se (para)",
+     "de": "umziehen (nach)",
+     "ipa": "[muˈdaɾsɨ]",
      "audio": "v3414"
     }
    ]
   },
   {
    "type": "note",
-   "title": "3 · Dica do Vasco: Vergleichen",
-   "html": "<i>(Sprachnachricht:)</i> Wer in Portugal mit Leuten aus Porto und Lissabon am Tisch sitzt, braucht heute nur eine Sache: <b>vergleichen</b>.<br><br><b>mehr / weniger … als:</b> <i>mais … <b>do que</b></i> · <i>menos … <b>do que</b></i><br><i>Lisboa é <b>mais</b> grande <b>do que</b> o Porto? – Nein, dafür gibt es ein Wort: <b>maior</b>.</i><br><br><b>Vier Vergleiche haben eigene Wörter</b> (wie im Deutschen „besser“, nicht „guter“):<br><i>bom → <b>melhor</b> · mau → <b>pior</b> · grande → <b>maior</b> · pequeno → <b>mais pequeno</b></i><br>Ja, „mais pequeno“ – in Portugal sagt man das so. <i>menor</i> gibt es auch, aber eher für Mengen und Abstraktes.<br><br><b>so … wie:</b> <i><b>tão</b> simpático <b>como</b></i> – <i>As pessoas do Porto são <b>tão</b> simpáticas <b>como</b> as de Lisboa.</i><br>Mit Nomen: <i><b>tanto</b> peixe <b>como</b> carne</i>.<br><br><b>Meinung sagen:</b> <i><b>Acho que</b>… · <b>Na minha opinião</b>… · <b>Concordo</b> com a Ana. · <b>Discordo</b>. · <b>Tens razão</b>.</i><br><br>Und wenn es ernst wird: <i>Eu prefiro Sagres.</i> Boa onda!"
+   "title": "3 · Dica do Vasco: Was sein wird",
+   "html": "<i>(Sprachnachricht – noch ahnt Vasco nichts:)</i> Über die Zukunft redet man in Portugal fast immer so, wie ihr es schon könnt: <b>ir + Grundform</b>. <i><b>Vou</b> ajudar. <b>Vais</b> ver. <b>Vamos</b> contar ao João.</i> Das ist die gesprochene Zukunft, und sie reicht für neunzig Prozent des Lebens.<br><br>Die anderen zehn Prozent sind das <b>futuro simples</b> – schriftlich, förmlich, in Wettervorhersagen, oder für Vermutungen. Ihr müsst es <b>erkennen</b>, nicht bilden: Grundform + <b>-ei, -ás, -á, -emos, -ão</b>.<br><i>ser<b>á</b></i> = es wird sein · <i>ter<b>emos</b></i> = wir werden haben · <i>far<b>ei</b></i> = ich werde tun (fazer verkürzt zu far-) · <i>dir<b>á</b></i> = er wird sagen.<br><i>„<b>Será</b> difícil.“ – „<b>Teremos</b> sol amanhã.“</i><br><br><b>Sicher, wahrscheinlich, vielleicht:</b><br><i><b>de certeza</b></i> – ganz sicher · <i><b>provavelmente</b></i> – wahrscheinlich · <i><b>se calhar</b></i> – vielleicht (gesprochen!) · <i><b>talvez</b></i> – vielleicht (eher schriftlich; zieht eine Verbform nach sich, die in Woche 7 kommt – bis dahin lieber <i>se calhar</i>).<br><br><b>Pläne machen:</b> <i>Decidi… · Vou… · Mudo-me em setembro.</i> (Präsens für Festes!) Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Die Rivalität Porto–Lissabon ist ernst und gleichzeitig ein Witz, den beide Seiten pflegen. Die aus Porto heißen <b>tripeiros</b> (nach den Kutteln, die sie angeblich essen), die aus Lissabon <b>alfacinhas</b> („Salatköpfchen“). Mein Satz kennst du: <i>No Porto é melhor!</i> Die Lisboeter antworten mit einem müden Lächeln. Und die <b>francesinha</b>? Ein Sandwich mit Steak, Wurst, Schinken, Käse überbacken und Biersauce. Man isst sie einmal und redet ein Jahr davon. <b>do que</b> spricht sich „du kö“, ganz kurz."
+   "html": "<b>Se calhar</b> ist das portugiesischste „vielleicht“, das es gibt – wörtlich „wenn es sich fügt“. Portugiesen sagen es zehnmal am Tag: <i>Se calhar vou. Se calhar não. Se calhar chove.</i> Ausgesprochen „sö kal-JÁR“. <i>Talvez</i> klingt dagegen wie aus dem Buch. Und die Frage, die man stellt, wenn jemand etwas Großes ankündigt: <b>Falas a sério?</b> – „Ist das dein Ernst?“ Antwort: <i>A sério.</i> Ganz ernst."
   },
   {
    "type": "reading",
-   "title": "4 · Lesen: Ao almoço",
-   "hint": "Selbst erschlossen: o bacalhau à Brás = Stockfisch mit Ei und Kartoffelstroh (Lissabonner Klassiker) · o país = das Land · eu sou suspeito = ich bin befangen · achar = finden, meinen · Diz. = Sag es. · pensava = ich dachte · Isso é verdade = das stimmt · tens de = du musst · preferir = vorziehen (eu prefiro) · o / a diplomata.",
+   "title": "4 · Lesen: A chamada",
+   "hint": "Selbst erschlossen: Se preciso? = Ob ich brauche? · o aluno = der Schüler · Falas a sério? = Ist das dein Ernst? · a carrinha = der Van · Recebi = ich habe bekommen (receber) · Mudo-me = ich ziehe um · chorar = weinen · a notícia = die Nachricht · vai dormir com a notícia = wird bei der Nachricht einschlafen.",
    "lines": [
     {
-     "who": "João",
-     "pt": "A francesinha é boa. Mas o bacalhau à Brás de Lisboa é melhor.",
+     "who": "Vasco",
+     "pt": "Marie? És tu? Estás em Portugal?!",
      "audio": "d3401"
     },
     {
-     "who": "Ana",
-     "pt": "Melhor?! A francesinha é o melhor prato do país.",
+     "who": "Marie",
+     "pt": "Estou no Porto desde sexta. Vasco, tenho uma pergunta. Precisas de ajuda na escola este verão?",
      "audio": "d3402"
     },
     {
-     "who": "Pai",
-     "pt": "Concordo com a Ana. Mas eu sou suspeito.",
+     "who": "Vasco",
+     "pt": "Se preciso? A época alta começa em julho e eu tenho duas pessoas para vinte alunos por dia.",
      "audio": "d3403"
     },
     {
      "who": "Marie",
-     "pt": "Eu acho as duas cidades bonitas. Lisboa é maior, o Porto é mais…",
+     "pt": "Então vou ajudar. Chego em agosto, com o João. Posso ficar até setembro.",
      "audio": "d3404"
     },
     {
-     "who": "Ana",
-     "pt": "Mais bonito. Diz. Mais bonito.",
+     "who": "Vasco",
+     "pt": "Falas a sério? Vais viver em Sagres?",
      "audio": "d3405"
     },
     {
      "who": "Marie",
-     "pt": "Mais pequeno. E mais barulhento do que eu pensava.",
+     "pt": "Vou. Já decidi. Se calhar vou dormir na tua carrinha, mas vou.",
      "audio": "d3406"
     },
     {
-     "who": "João",
-     "pt": "E mais frio. E chove mais do que em Lisboa.",
+     "who": "Vasco",
+     "pt": "Vais dormir numa cama, como uma pessoa normal. Isto vai ser um verão incrível.",
      "audio": "d3407"
     },
     {
-     "who": "Pai",
-     "pt": "Mas as pessoas são mais simpáticas.",
+     "who": "Ana",
+     "pt": "Marie? Com quem é que estás a falar?",
      "audio": "d3408"
     },
     {
-     "who": "João",
-     "pt": "Isso é verdade. Tão simpáticas como as de Lisboa. Quase.",
+     "who": "Marie",
+     "pt": "Com o Vasco. Ana… vou trabalhar em Sagres. O verão inteiro.",
      "audio": "d3409"
     },
     {
      "who": "Ana",
-     "pt": "Marie, tu tens de decidir. Porto ou Lisboa?",
+     "pt": "O QUÊ? Então eu também tenho uma novidade. Recebi a resposta de Coimbra. Tenho vaga. Mudo-me em setembro.",
      "audio": "d3410"
     },
     {
      "who": "Marie",
-     "pt": "Eu? Eu prefiro Sagres.",
+     "pt": "Coimbra?! Ana!",
      "audio": "d3411"
     },
     {
-     "who": "Pai",
-     "pt": "Resposta de diplomata. Come mais bacalhau.",
+     "who": "Ana",
+     "pt": "Provavelmente vou chorar. Mas primeiro vamos contar ao João. Ele vai dormir com a notícia.",
      "audio": "d3412"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · mais / menos … do que",
+   "title": "5a · ir + Grundform",
    "items": [
     {
-     "q": "O Porto é ___ pequeno ___ Lisboa.",
-     "a": "mais / do que"
+     "q": "Eu ___ ajudar na escola. (ir)",
+     "a": "vou"
     },
     {
-     "q": "Lisboa é ___ (größer) ___ o Porto.",
-     "a": "maior / do que"
+     "q": "Tu ___ viver em Sagres?",
+     "a": "vais"
     },
     {
-     "q": "No Porto chove ___ (mehr) ___ em Lisboa.",
-     "a": "mais / do que"
+     "q": "Nós ___ contar ao João.",
+     "a": "vamos"
     },
     {
-     "q": "Em Sagres há ___ (weniger) pessoas ___ no Porto.",
-     "a": "menos / do que"
+     "q": "A Ana ___ mudar-se para Coimbra.",
+     "a": "vai"
+    },
+    {
+     "q": "Eles ___ dormir na carrinha.",
+     "a": "vão"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · tão … como",
+   "title": "5b · Futuro erkennen: Was heißt das? (antippen)",
    "items": [
     {
-     "q": "As pessoas do Porto são ___ simpáticas ___ as de Lisboa.",
-     "a": "tão / como"
+     "q": "„Será difícil.“",
+     "opts": [
+      "Es wird schwierig sein.",
+      "Es war schwierig."
+     ],
+     "a": "Es wird schwierig sein. – ser + á"
     },
     {
-     "q": "O João é ___ alto ___ o Vasco.",
-     "a": "tão / como"
+     "q": "„Vais ver, vai correr bem.“",
+     "opts": [
+      "Du wirst sehen, es wird gut gehen.",
+      "Du hast gesehen, es ging gut."
+     ],
+     "a": "Du wirst sehen, es wird gut gehen. – ir + Grundform"
     },
     {
-     "q": "A Marie fala ___ bem ___ a Ana? Quase.",
-     "a": "tão / como"
+     "q": "„Farei tudo.“",
+     "opts": [
+      "Ich werde alles tun.",
+      "Ich tat alles."
+     ],
+     "a": "Ich werde alles tun. – fazer → far- + ei"
+    },
+    {
+     "q": "„Teremos sol amanhã.“",
+     "opts": [
+      "Wir werden morgen Sonne haben.",
+      "Wir hatten gestern Sonne."
+     ],
+     "a": "Wir werden morgen Sonne haben. – ter + emos"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Welches Wort? (antippen)",
+   "title": "5c · Wie sicher? (antippen)",
    "items": [
     {
-     "q": "Este café é ___ do que aquele. (besser)",
+     "q": "Vielleicht schlafe ich im Van. → ___ vou dormir na carrinha.",
      "opts": [
-      "melhor",
-      "mais bom"
+      "Se calhar",
+      "De certeza"
      ],
-     "a": "melhor – „mais bom“ gibt es nicht"
+     "a": "Se calhar – vielleicht"
     },
     {
-     "q": "Hamburgo é ___ do que o Porto. (größer)",
+     "q": "Ganz sicher komme ich zurück. → Volto ___.",
      "opts": [
-      "maior",
-      "mais grande"
+      "de certeza",
+      "se calhar"
      ],
-     "a": "maior – eigenes Wort"
+     "a": "de certeza – ganz sicher"
     },
     {
-     "q": "O Tomás é ___ do que a Ana. (kleiner)",
+     "q": "Wahrscheinlich weine ich. → ___ vou chorar.",
      "opts": [
-      "mais pequeno",
-      "menos grande"
+      "Provavelmente",
+      "De certeza"
      ],
-     "a": "mais pequeno – in Portugal die übliche Form („menor“ geht auch, eher für Mengen)"
-    },
-    {
-     "q": "O tempo hoje está ___ do que ontem. (schlechter)",
-     "opts": [
-      "pior",
-      "mais mau"
-     ],
-     "a": "pior – eigenes Wort"
+     "a": "Provavelmente – wahrscheinlich"
     }
    ]
   },
@@ -275,16 +295,16 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "O pai da Ana concorda com o João.",
-     "a": "Falsch – er stimmt Ana zu (und gibt zu, befangen zu sein)."
+     "q": "O Vasco tem pessoas suficientes na escola.",
+     "a": "Falsch – zwei Leute für zwanzig Schüler am Tag. Er braucht Hilfe."
     },
     {
-     "q": "Segundo o João, no Porto chove mais do que em Lisboa.",
-     "a": "Richtig – und es ist kälter."
+     "q": "A Marie vai ficar em Sagres até setembro.",
+     "a": "Richtig – ab August, „Já decidi.“"
     },
     {
-     "q": "A Marie decide: Porto.",
-     "a": "Falsch – „Eu prefiro Sagres.“ Antwort einer Diplomatin."
+     "q": "A Ana muda-se para Coimbra em julho.",
+     "a": "Falsch – im September. Sie hat den Studienplatz gerade bekommen."
     }
    ]
   },
@@ -293,52 +313,57 @@
    "title": "5e · Satz bauen",
    "items": [
     {
-     "q": "Ich stimme Ana zu.",
-     "satz": "Concordo com a Ana.",
-     "a": "Concordo com a Ana."
+     "q": "Ich werde den ganzen Sommer in Sagres arbeiten.",
+     "satz": "Vou trabalhar em Sagres o verão inteiro.",
+     "a": "Vou trabalhar em Sagres o verão inteiro."
     },
     {
-     "q": "Lissabon ist größer als Porto.",
-     "satz": "Lisboa é maior do que o Porto.",
-     "a": "Lisboa é maior do que o Porto."
+     "q": "Ich ziehe im September um.",
+     "satz": "Mudo-me em setembro.",
+     "a": "Mudo-me em setembro."
     },
     {
-     "q": "Ich ziehe Sagres vor.",
-     "satz": "Eu prefiro Sagres.",
-     "a": "Eu prefiro Sagres."
+     "q": "Ist das dein Ernst?",
+     "satz": "Falas a sério?",
+     "a": "Falas a sério?"
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: A tua cidade e o Porto",
-   "html": "Vergleiche deine Stadt mit Porto in sechs Sätzen: <i>A minha cidade é maior / mais pequena do que o Porto. É tão bonita como… Chove mais / menos… As pessoas são…</i><br><br>Dann Meinung, laut und entschieden: <i>Na minha opinião, … Concordo. Discordo. Tens razão.</i> Und zum Schluss Anas Satz, mit ihrem Stolz: <i>No Porto é melhor!</i>"
+   "title": "6 · Sprechen: Os teus planos",
+   "html": "Deine Pläne für den nächsten Sommer in sechs Sätzen: dreimal <i>vou + Grundform</i>, einmal <i>se calhar</i>, einmal <i>de certeza</i>, einmal <i>provavelmente</i>. <i>Este verão vou… Se calhar… De certeza que… Provavelmente…</i><br><br>Dann Vascos Reaktion, mit seiner Überraschung: <i>Falas a sério? Isto vai ser um verão incrível.</i>"
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: A ponte",
+   "title": "7 · Hörverstehen: Duas novidades",
    "audio": "s34",
-   "text": "Depois do almoço, a discussão continua na rua. O João defende Lisboa, a Ana defende o Porto, o pai defende o bacalhau, e o Tomás defende Sagres, porque o Vasco vive lá.<br>— Sagres não é uma cidade — diz a Ana.<br>— Por isso é melhor — diz o Tomás.<br>Sobem até à Ponte D. Luís. Do tabuleiro de cima vê-se tudo: o rio, os barcos, as casas de Gaia, as pessoas pequenas lá em baixo. O vento é forte. A Marie segura o cabelo com as duas mãos.<br>— Em Hamburgo há mais pontes do que em Veneza — diz.<br>— Isso é verdade? — pergunta o João.<br>— Dizem que sim. Nunca contei.<br>— Mas nenhuma é tão bonita como esta — diz a Ana, sem olhar para a ponte. Olha para o telemóvel. Está calada há dez minutos, o que não é normal.<br>— Estás bem? — pergunta a Marie, baixinho.<br>— Estou. Estou à espera de uma resposta.<br>— De quem?<br>— Amanhã conto. Se a resposta for boa.<br>O João, que ouviu tudo, não diz nada. O Tomás, que não ouviu nada, aponta para o rio:<br>— Ali! Um surfista!<br>Não é um surfista. É um homem num barco pequeno, a pescar. Mas ninguém o corrige. É um dia bonito demais para isso.",
-   "gloss": "Neu erschließen: defender = verteidigen · o tabuleiro de cima = das obere Deck (der Brücke) · Gaia = Vila Nova de Gaia, die Stadt gegenüber · segurar = festhalten · Veneza = Venedig · Dizem que sim = man sagt es · nenhuma = keine · calado, calada = still, schweigsam · Se a resposta for boa = wenn die Antwort gut ist (eine Form für später!) · apontar = zeigen auf · pescar = angeln · corrigir = korrigieren · demais = zu (sehr)",
+   "listen": true,
+   "text": "O João está no sofá da avó, com os olhos fechados, quando a Ana e a Marie entram na sala.<br>— João. Acorda. Temos duas novidades.<br>— Estou a ouvir. De olhos fechados ouve-se melhor.<br>— Eu vou para Coimbra em setembro — diz a Ana. — Tenho vaga na universidade.<br>O João abre um olho.<br>— E eu vou trabalhar em Sagres — diz a Marie. — Na escola do Vasco. Até setembro.<br>O João abre o outro olho. Senta-se. Durante dez segundos não diz nada, o que para o João é muito tempo.<br>— Então ninguém fica em Lisboa.<br>— Tu ficas — diz a Ana.<br>— Eu não fico. Eu também tenho uma novidade.<br>As duas olham para ele.<br>— O meu tio deu-me a carrinha. A velha. A que a Ana odeia.<br>— Aquela carrinha não anda — diz a Ana.<br>— Anda. Devagar, mas anda. Em agosto levo-vos para o sul. Coimbra primeiro, para a Ana ver a universidade. Depois o Alentejo. Depois Sagres.<br>— Isso não é um plano — diz a Marie. — Isso é uma viagem.<br>— É a mesma coisa — diz o João, e fecha os olhos outra vez. — Acordem-me em agosto.<br>Lá fora, no quintal, o Tomás lança um martelo de plástico ao ar e apanha-o. Ele vai a Sagres de certeza. Ainda não sabe como. Mas vai.",
+   "gloss": "Erst hören (zweimal!), dann die Fragen – und erst danach den Text lesen. Neu erschließen: Acorda! = Wach auf! · ouve-se melhor = man hört besser · o tio = der Onkel · odiar = hassen · não anda = fährt nicht · levo-vos = ich bringe euch · ao ar = in die Luft · apanha-o = fängt ihn",
    "questions": [
     {
-     "q": "O Tomás defende Sagres porque o Vasco vive lá.",
-     "a": "Richtig – und weil Sagres keine Stadt ist, ist es „por isso“ besser."
+     "q": "O João ouve as novidades de olhos fechados.",
+     "a": "Richtig – „De olhos fechados ouve-se melhor.“"
     },
     {
-     "q": "A Ana está muito faladora na ponte.",
-     "a": "Falsch – sie schweigt seit zehn Minuten und wartet auf eine Antwort. Das ist nicht normal."
+     "q": "O João vai ficar em Lisboa o verão inteiro.",
+     "a": "Falsch – er hat den alten Van vom Onkel bekommen und bringt alle im August in den Süden."
     },
     {
-     "q": "O Tomás vê um surfista no rio.",
-     "a": "Falsch – einen Mann in einem kleinen Boot beim Angeln. Aber niemand korrigiert ihn."
+     "q": "A viagem vai ser: Coimbra, depois o Alentejo, depois Sagres.",
+     "a": "Richtig – erst Ana die Universität zeigen, dann durchs Alentejo nach Sagres."
+    },
+    {
+     "q": "O Tomás já sabe como vai a Sagres.",
+     "a": "Falsch – „Ainda não sabe como. Mas vai.“"
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Du kannst jetzt vergleichen (<b>mais … do que, tão … como, melhor, maior, mais pequeno</b>) und deine Meinung sagen. Ana wartet auf eine Antwort, Marie hütet ein Geheimnis – morgen platzen beide: <b>O plano</b>, und wie man über die Zukunft spricht."
+   "html": "Du kannst jetzt über die Zukunft reden (<b>vou + Grundform</b>), das <b>futuro</b> erkennen (<i>será, teremos</i>) und sagen, wie sicher du bist (<b>se calhar, provavelmente, de certeza</b>). Und du hast zum ersten Mal eine Geschichte <b>nur mit den Ohren</b> verstanden. Morgen: <b>Revisão IV</b>, der Wochentest – dann geht es nach Coimbra."
   }
  ]
 }

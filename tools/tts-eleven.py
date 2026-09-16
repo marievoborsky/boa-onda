@@ -27,7 +27,7 @@ def collect():
     s = open(os.path.join(BASE, 'data.js')).read()
     for w in json.loads(s[s.index('['):s.rindex(']')+1]):
         add(w['id'], w.get('say') or w['pt'], 'marie', PREV)
-    for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', 'tag*.json'))):
+    for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', '*.json'))):
         L = json.load(open(f))
         for sec in L['sections']:
             if sec['type'] == 'reading':
@@ -45,12 +45,12 @@ def collect():
     # die Marie-Stimme spricht EP-Auslaute bei Einzelwörtern unsauber („adeus"
     # ohne End-[ʃ]). Einzelwörter generiert tts-tok-google.py (Google TTS).
     # Tag-8-Sagres aus dem Arbeitsblatt (Marie & Vasco)
-    html = open(os.path.join(BASE, '..', 'arbeitsblaetter', 'tag-08-sagres.html')).read()
+    html = open(os.path.join(BASE, '..', 'arbeitsblaetter', 'sagres-bonus.html')).read()
     lines = re.findall(r'<span class="who">([^<]+):</span>\s*([^<]+)</p>', html)[:12]
     for i, (who, pt) in enumerate(lines, 1):
-        add(f'd08{i:02d}', pt.strip(), WHO2FIG.get(who.strip().lower(), 'marie'))
+        add(f'db{i:02d}', pt.strip(), WHO2FIG.get(who.strip().lower(), 'marie'))
     story = re.search(r'Kleine Geschichte: O fim do mundo.*?<div class="dialog">(.*?)</div>', html, re.S).group(1)
-    add('s08', re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', story)).strip(), 'marie')
+    add('sb', re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', story)).strip(), 'marie')
     return items
 
 def synth(item, dest):

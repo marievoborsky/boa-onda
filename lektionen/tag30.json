@@ -1,298 +1,267 @@
 {
  "id": "tag30",
- "title": "Outra vez Portugal",
- "subtitle": "Staffel 2 · Woche 5 · Tag 30 · Wiedersehen · há, desde, durante · ca. 30 Min.",
+ "title": "Quando era pequena",
+ "subtitle": "Staffel 2 · Woche 5 · Tag 30 · Wie es früher war · Imperfekt · ca. 30 Min.",
  "sections": [
   {
-   "type": "note",
-   "title": "Bem-vinda de volta – so läuft Staffel 2",
-   "html": "Ein Jahr ist vergangen. Marie kommt für einen ganzen Sommer zurück – mit einem Plan, den sie noch niemandem verraten hat. Ab jetzt lernst du <b>A2</b>: erzählen, wie es früher war, vergleichen, Probleme lösen, Pläne machen. Die Lektionen sind etwas länger (14 Wörter, längere Geschichten), und es gibt neue Übungsformen: <b>Auswahl-Knöpfe</b> (z. B. „Perfekt oder Imperfekt?“) und <b>Satz bauen</b> (Wörter in die richtige Reihenfolge tippen). Alles aus Staffel 1 bleibt im Caderno – die A2-Wörter bekommen ihre eigene Zeile."
-  },
-  {
    "type": "exercise",
-   "title": "1 · Aufwärmen (aus Staffel 1)",
+   "title": "1 · Aufwärmen (von Tag 29)",
    "items": [
     {
-     "q": "Was hast du gestern gemacht? → O que é que ___ ontem?",
-     "a": "fizeste"
+     "q": "Ich bin vor einem Jahr angekommen: Cheguei ___ um ano.",
+     "a": "há"
     },
     {
-     "q": "Ich hatte Angst, aber ich habe es geschafft: ___ medo, mas ___.",
-     "a": "Tive / consegui"
+     "q": "Seit März: ___ março",
+     "a": "desde"
     },
     {
-     "q": "Wir sind nach Sagres gefahren: ___ a Sagres.",
-     "a": "Fomos"
+     "q": "Ich habe euch vermisst: Tive ___ vossas.",
+     "a": "saudades"
     },
     {
-     "q": "Es war unglaublich: ___ incrível.",
-     "a": "Foi"
+     "q": "Wir sind mit dem Auto gekommen: ___ de carro. (vir)",
+     "a": "Viemos"
     }
    ]
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: A chegada (14)",
+   "title": "2 · Neue Wörter: Antigamente (14)",
    "items": [
     {
-     "pt": "o aeroporto",
-     "de": "der Flughafen",
-     "ipa": "[aɛɾuˈpoɾtu]",
+     "pt": "antigamente",
+     "de": "früher",
+     "ipa": "[ɐ̃tigɐˈmẽtɨ]",
      "audio": "v3001"
     },
     {
-     "pt": "o voo",
-     "de": "der Flug",
-     "ipa": "[ˈvou]",
+     "pt": "a infância",
+     "de": "die Kindheit",
+     "ipa": "[ĩˈfɐ̃sjɐ]",
      "audio": "v3002"
     },
     {
-     "pt": "a chegada",
-     "de": "die Ankunft",
-     "ipa": "[ʃɨˈgadɐ]",
+     "pt": "brincar",
+     "de": "spielen (als Kind)",
+     "ipa": "[bɾĩˈkaɾ]",
      "audio": "v3003"
     },
     {
-     "pt": "a mala",
-     "de": "der Koffer, die Tasche",
-     "ipa": "[ˈmalɐ]",
+     "pt": "a escola",
+     "de": "die Schule",
+     "ipa": "[ɨʃˈkɔlɐ]",
      "audio": "v3004"
     },
     {
-     "pt": "ter saudades (de)",
-     "de": "vermissen, Sehnsucht haben (nach)",
-     "ipa": "[teɾ sawˈdadɨʃ]",
+     "pt": "o bairro",
+     "de": "das Viertel",
+     "ipa": "[ˈbajʁu]",
      "audio": "v3005"
     },
     {
-     "pt": "abraçar",
-     "de": "umarmen",
-     "ipa": "[ɐbɾɐˈsaɾ]",
+     "pt": "viver",
+     "de": "leben, wohnen",
+     "ipa": "[viˈveɾ]",
      "audio": "v3006"
     },
     {
-     "pt": "há + Zeit",
-     "de": "vor (Vergangenheit) / seit (mit Präsens)",
-     "ipa": "[a]",
+     "pt": "lembrar-se de",
+     "de": "sich erinnern an",
+     "ipa": "[lẽˈbɾaɾsɨ dɨ]",
      "audio": "v3007"
     },
     {
-     "pt": "desde",
-     "de": "seit (Zeitpunkt)",
-     "ipa": "[ˈdeʒdɨ]",
+     "pt": "costumar",
+     "de": "pflegen zu, gewöhnlich tun",
+     "ipa": "[kuʃtuˈmaɾ]",
      "audio": "v3008"
     },
     {
-     "pt": "durante",
-     "de": "während, … lang",
-     "ipa": "[duˈɾɐ̃tɨ]",
+     "pt": "diferente",
+     "de": "anders, verschieden",
+     "ipa": "[difɨˈɾẽtɨ]",
      "audio": "v3009"
     },
     {
-     "pt": "o ano",
-     "de": "das Jahr",
-     "ipa": "[ˈɐnu]",
+     "pt": "igual",
+     "de": "gleich",
+     "ipa": "[iˈgwaɫ]",
      "audio": "v3010"
     },
     {
-     "pt": "mudar",
-     "de": "sich verändern, wechseln",
-     "ipa": "[muˈdaɾ]",
+     "pt": "o quintal",
+     "de": "der Hinterhof, der Garten hinterm Haus",
+     "ipa": "[kĩˈtaɫ]",
      "audio": "v3011"
     },
     {
-     "pt": "crescer",
-     "de": "wachsen",
-     "ipa": "[kɾɨʃˈseɾ]",
+     "pt": "o vizinho / a vizinha",
+     "de": "der Nachbar / die Nachbarin",
+     "ipa": "[viˈziɲu / viˈziɲɐ]",
      "audio": "v3012"
     },
     {
-     "pt": "a novidade",
-     "de": "die Neuigkeit",
-     "ipa": "[nuviˈdadɨ]",
+     "pt": "sonhar (com)",
+     "de": "träumen (von)",
+     "ipa": "[suˈɲaɾ]",
      "audio": "v3013"
     },
     {
-     "pt": "inteiro / inteira",
-     "de": "ganz (o verão inteiro = der ganze Sommer)",
-     "ipa": "[ĩˈtɐjɾu / ĩˈtɐjɾɐ]",
+     "pt": "naquele tempo",
+     "de": "damals, zu jener Zeit",
+     "ipa": "[nɐˈkelɨ ˈtẽpu]",
      "audio": "v3014"
     }
    ]
   },
   {
    "type": "note",
-   "title": "3 · Dica do Vasco: Vor, seit, während",
-   "html": "<i>(Sprachnachricht aus Sagres:)</i> Bem-vinda de volta, Marie! Bevor ihr im Norden Bacalhau esst, drei kleine Wörter, mit denen ihr über Zeit redet:<br><br><b>há + Zeitspanne</b> = <b>vor</b>: <i>Cheguei <b>há</b> um ano.</i> – Ich bin vor einem Jahr angekommen.<br>Mit <b>Präsens</b> heißt dasselbe <b>seit</b>: <i>Estou aqui <b>há</b> dois dias.</i> – Ich bin seit zwei Tagen hier.<br><b>desde + Zeitpunkt</b> = <b>seit</b> (ab wann): <i><b>Desde</b> março. · <b>Desde</b> ontem. · <b>Desde</b> quando?</i><br><b>durante + Dauer</b> = <b>während, … lang</b>: <i>Falámos <b>durante</b> três horas.</i><br><br><b>Und das Perfekt</b> kennt ihr – hier drei Unregelmäßige, die ihr diese Woche braucht:<br><b>vir</b> (kommen): <i>vim · vieste · veio · viemos · vieram</i><br><b>ver</b> (sehen): <i>vi · viste · viu · vimos · viram</i><br><b>dizer</b> (sagen): <i>disse · disseste · disse · dissemos · disseram</i><br><br>Und jetzt: Umarmt die Avó von mir. Boa onda!"
+   "title": "3 · Dica do Vasco: Das Imperfekt – wie es war",
+   "html": "<i>(Sprachnachricht:)</i> Ihr kennt das Perfekt: <i>Cheguei. Comi. Fui.</i> – was passiert ist, Punkt. Heute kommt die zweite Vergangenheit, das <b>Imperfekt</b> (<i>pretérito imperfeito</i>): wie etwas <b>war</b>, was man <b>früher immer</b> tat, der <b>Hintergrund</b>.<br><br><b>-ar</b> (brincar): <i>brinc<b>ava</b> · brinc<b>avas</b> · brinc<b>ava</b> · brinc<b>ávamos</b> · brinc<b>avam</b></i><br><b>-er / -ir</b> (viver, ir): <i>viv<b>ia</b> · viv<b>ias</b> · viv<b>ia</b> · viv<b>íamos</b> · viv<b>iam</b></i> – und <i>ir</i> geht genauso: <i>ia, ias, ia, íamos, iam</i>.<br><br><b>Nur drei Unregelmäßige</b>, die ihr wirklich braucht:<br><b>ser</b>: <i>era · eras · era · éramos · eram</i> – <i>Eu <b>era</b> pequena.</i><br><b>ter</b>: <i>tinha · tinhas · tinha · tínhamos · tinham</i> – <i><b>Tinha</b> oito anos.</i><br><b>haver</b>: <i><b>havia</b></i> = es gab – <i>Não <b>havia</b> carros.</i><br><br><b>Wann Imperfekt?</b><br>1. Früher, gewöhnlich, immer: <i>Antigamente <b>vivíamos</b> aqui.</i><br>2. Zustand, Beschreibung: <i>A rua <b>era</b> diferente. <b>Tinha</b> medo do mar.</i><br>3. Alter und Uhrzeit in der Vergangenheit: <i><b>Tinha</b> dez anos. <b>Eram</b> oito horas.</i><br><br><b>costumar + Grundform</b> = pflegte zu: <i><b>Costumávamos</b> ir à praia.</i> – Wir gingen immer an den Strand. Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "<b>Saudade</b> ist das Wort, das Portugiesen für unübersetzbar halten – Sehnsucht, Vermissen und ein bisschen Melancholie in einem. In Portugal sagt man es fast immer im <b>Plural</b>: <i>Tenho saudades tuas</i> (ich vermisse dich), <i>tenho saudades vossas</i> (euch), <i>tenho saudades do mar</i>. Ausgesprochen <b>„ssau-dádsch“</b> – das End-s ist wieder das EP-„sch“. Und der Satz, mit dem man sich nach langer Zeit begrüßt: <b>Há quanto tempo!</b> – wörtlich „seit wie viel Zeit!“, gemeint: „Lang ist’s her!“"
+   "html": "Die nós-Formen des Imperfekts haben einen <b>Akzent</b>, und der ist kein Schmuck: <i>brinc<b>á</b>vamos</i> [bɾĩˈkavɐmuʃ], <i>viv<b>í</b>amos</i>, <i><b>é</b>ramos</i> – die Betonung liegt auf der drittletzten Silbe, und alles danach wird verschluckt: „brinKÁvamusch“. Und der Satz, mit dem in Portugal jede Familiengeschichte beginnt: <b>Quando eu era pequeno…</b> / <b>pequena…</b> – „Als ich klein war“. Danach kann man eine Stunde weiterreden. Die Avó beweist es gleich."
   },
   {
    "type": "reading",
-   "title": "4 · Lesen: No aeroporto do Porto",
-   "hint": "Selbst erschlossen: Há quanto tempo! = Lang ist’s her! · tantas = so viele · vossas = von euch (eure) · o centímetro · Vês? = Siehst du? (ver) · o senhor ao meu lado = der Herr neben mir · Bem-vinda = Willkommen (zu einer Frau) · estou com ele = ich habe es gerade · Sabe, sabe. = Er weiß es sehr wohl. · fez = hat gemacht (fazer).",
+   "title": "4 · Lesen: As fotografias antigas",
+   "hint": "Selbst erschlossen: Esta sou eu = das bin ich · havia = es gab (haver) · uns com os outros = miteinander · por mensagem = per Nachricht · a senhora = Sie (höflich, zu einer älteren Frau) · Tu é que… = DU warst es, die … · a frase mais portuguesa que já ouvi = der portugiesischste Satz, den ich je gehört habe.",
    "lines": [
     {
-     "who": "Ana",
-     "pt": "MARIE! Há quanto tempo!",
+     "who": "Avó",
+     "pt": "Olha, Marie. Esta sou eu. Tinha oito anos.",
      "audio": "d3001"
     },
     {
      "who": "Marie",
-     "pt": "Um ano. Um ano inteiro! Tive tantas saudades vossas.",
+     "pt": "Não acredito! Era tão pequena!",
      "audio": "d3002"
     },
     {
-     "who": "Tomás",
-     "pt": "Eu cresci dez centímetros. Vês?",
+     "who": "Avó",
+     "pt": "Antigamente vivíamos aqui, neste bairro. Mas a rua era diferente. Não havia carros.",
      "audio": "d3003"
     },
     {
      "who": "Marie",
-     "pt": "Vejo. E surfas melhor do que eu, já sei.",
+     "pt": "E o que é que fazia, quando era pequena?",
      "audio": "d3004"
     },
     {
-     "who": "Tomás",
-     "pt": "Muito melhor.",
+     "who": "Avó",
+     "pt": "Brincava na rua o dia todo. Ia à escola de manhã e à tarde ajudava a minha mãe.",
      "audio": "d3005"
     },
     {
-     "who": "Ana",
-     "pt": "Como foi o voo?",
+     "who": "João",
+     "pt": "A minha avó diz o mesmo. Acho que todas as avós brincavam na rua.",
      "audio": "d3006"
     },
     {
-     "who": "Marie",
-     "pt": "Foi bom, mas durante três horas o senhor ao meu lado falou do tempo em Hamburgo.",
+     "who": "Avó",
+     "pt": "E não tínhamos telemóveis, João. Falávamos uns com os outros.",
      "audio": "d3007"
     },
     {
-     "who": "Ana",
-     "pt": "Bem-vinda a Portugal. Aqui também falamos do tempo.",
+     "who": "João",
+     "pt": "Eu falo. Por mensagem.",
      "audio": "d3008"
     },
     {
-     "who": "Marie",
-     "pt": "Desde quando é que tens carro?",
+     "who": "Avó",
+     "pt": "Lembras-te, Marie, do ano passado? Não percebias nada do que eu dizia.",
      "audio": "d3009"
     },
     {
-     "who": "Ana",
-     "pt": "Desde março. É do meu pai. Ele não sabe que estou com ele.",
+     "who": "Marie",
+     "pt": "Lembro-me. A senhora falava muito rápido.",
      "audio": "d3010"
     },
     {
-     "who": "Tomás",
-     "pt": "Sabe, sabe.",
+     "who": "Avó",
+     "pt": "Eu falava normal. Tu é que ouvias devagar.",
      "audio": "d3011"
     },
     {
-     "who": "Ana",
-     "pt": "Vamos. A avó fez almoço para vinte pessoas. Somos cinco.",
+     "who": "João",
+     "pt": "Isso é a frase mais portuguesa que já ouvi.",
      "audio": "d3012"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · Perfekt-Wiederholung",
+   "title": "5a · Das Imperfekt bilden",
    "items": [
     {
-     "q": "Eu ___ (chegar) ontem.",
-     "a": "cheguei"
+     "q": "Eu ___ (brincar) na rua.",
+     "a": "brincava"
     },
     {
-     "q": "Tu ___ (ver) o Tomás?",
-     "a": "viste"
+     "q": "Tu ___ (viver) no Porto?",
+     "a": "vivias"
     },
     {
-     "q": "A avó ___ (fazer) almoço.",
-     "a": "fez"
+     "q": "Nós ___ (ir) à escola a pé.",
+     "a": "íamos"
     },
     {
-     "q": "Nós ___ (vir) de carro.",
-     "a": "viemos"
+     "q": "Eles ___ (ter) medo do mar.",
+     "a": "tinham"
     },
     {
-     "q": "Eles ___ (ter) saudades.",
-     "a": "tiveram"
+     "q": "A rua ___ (ser) diferente.",
+     "a": "era"
     },
     {
-     "q": "Ela ___ (dizer) olá.",
-     "a": "disse"
+     "q": "Vocês ___ (falar) muito.",
+     "a": "falavam"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · há, desde oder durante?",
+   "title": "5b · era, tinha, havia",
    "items": [
     {
-     "q": "Cheguei ___ um ano.",
-     "a": "há"
+     "q": "Quando eu ___ pequena, ___ medo do mar.",
+     "a": "era / tinha"
     },
     {
-     "q": "Estou em Portugal ___ ontem.",
-     "a": "desde"
+     "q": "Antigamente não ___ carros na rua.",
+     "a": "havia"
     },
     {
-     "q": "Falámos ___ três horas. (drei Stunden lang)",
-     "a": "durante"
+     "q": "___ oito horas da noite.",
+     "a": "Eram"
     },
     {
-     "q": "___ quando é que tens carro?",
-     "a": "Desde"
-    },
-    {
-     "q": "Não vejo a Ana ___ um ano.",
-     "a": "há"
+     "q": "A avó ___ dez anos na fotografia.",
+     "a": "tinha"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Zeitpunkt, Dauer oder Abstand? (antippen)",
-   "intro": "Neue Übungsform: Tipp die richtige Antwort an.",
+   "title": "5c · Satz bauen",
    "items": [
     {
-     "q": "Vivo em Lisboa ___ 2025.",
-     "opts": [
-      "desde",
-      "há",
-      "durante"
-     ],
-     "a": "desde – ein Zeitpunkt, ab dem etwas gilt"
+     "q": "Als ich klein war, spielte ich auf der Straße.",
+     "satz": "Quando era pequena, brincava na rua.",
+     "a": "Quando era pequena, brincava na rua."
     },
     {
-     "q": "Esperei ___ duas horas. (zwei Stunden lang)",
-     "opts": [
-      "durante",
-      "desde",
-      "há"
-     ],
-     "a": "durante – eine Dauer"
+     "q": "Früher gab es keine Handys.",
+     "satz": "Antigamente não havia telemóveis.",
+     "a": "Antigamente não havia telemóveis."
     },
     {
-     "q": "Conheci o João ___ um ano.",
-     "opts": [
-      "há",
-      "desde",
-      "durante"
-     ],
-     "a": "há – ein Abstand zurück: vor einem Jahr"
-    },
-    {
-     "q": "Estou aqui ___ dois dias.",
-     "opts": [
-      "há",
-      "desde",
-      "durante"
-     ],
-     "a": "há – mit Präsens: seit zwei Tagen (Zeitspanne bis jetzt)"
+     "q": "Erinnerst du dich an letztes Jahr?",
+     "satz": "Lembras-te do ano passado?",
+     "a": "Lembras-te do ano passado?"
     }
    ]
   },
@@ -301,71 +270,71 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "O Tomás cresceu dez centímetros.",
-     "a": "Richtig – und er surft jetzt „muito melhor“."
+     "q": "Na fotografia, a avó tinha dez anos.",
+     "a": "Falsch – acht."
     },
     {
-     "q": "O voo foi mau.",
-     "a": "Falsch – gut, nur der Sitznachbar redete drei Stunden übers Wetter in Hamburg."
+     "q": "Antigamente havia muitos carros na rua.",
+     "a": "Falsch – keine. Die Kinder spielten den ganzen Tag auf der Straße."
     },
     {
-     "q": "O carro é da Ana.",
-     "a": "Falsch – von ihrem Vater, der angeblich nichts davon weiß."
+     "q": "A avó diz que falava muito rápido.",
+     "a": "Falsch – „Eu falava normal. Tu é que ouvias devagar.“"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Satz bauen",
-   "intro": "Neue Übungsform: Tipp die Wörter in der richtigen Reihenfolge an, dann „Prüfen“.",
+   "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Ich habe euch so vermisst.",
-     "satz": "Tive tantas saudades vossas.",
-     "a": "Tive tantas saudades vossas."
+     "q": "Ich wohnte in Hamburg. → ___",
+     "a": "Vivia em Hamburgo. / Morava em Hamburgo."
     },
     {
-     "q": "Seit wann hast du ein Auto?",
-     "satz": "Desde quando é que tens carro?",
-     "a": "Desde quando é que tens carro?"
+     "q": "Wir gingen jeden Tag zur Schule. → ___",
+     "a": "Íamos à escola todos os dias."
     },
     {
-     "q": "Ich bin vor einem Jahr angekommen.",
-     "satz": "Cheguei há um ano.",
-     "a": "Cheguei há um ano."
+     "q": "Sie war acht (Jahre alt). → ___",
+     "a": "Tinha oito anos."
+    },
+    {
+     "q": "Die Straße war anders. → ___",
+     "a": "A rua era diferente."
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: Há quanto tempo!",
-   "html": "Stell dir vor, du triffst Ana nach einem Jahr. Sag ihr in sechs Sätzen, was seitdem passiert ist – im Perfekt, mit <i>há</i>, <i>desde</i> und <i>durante</i>: <i>Há um ano voltei para Hamburgo. Desde setembro trabalho em… Durante o inverno estudei português todos os dias…</i><br><br>Und zum Aufwärmen der Gefühle, laut und mit „sch“: <i>Tive tantas saudades vossas!</i>"
+   "title": "6 · Sprechen: A tua infância",
+   "html": "Deine Kindheit in sechs Sätzen, alle im Imperfekt: <i>Quando era pequena, vivia em… Brincava… Ia à escola… Tinha medo de… Costumava… Sonhava com…</i><br><br>Dann die Akzent-Übung, dreimal laut: <i>brincávamos, vivíamos, éramos</i> – Betonung vorne, Rest verschlucken."
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: A casa cheia",
+   "title": "7 · Kleine Geschichte: O quintal",
    "audio": "s30",
-   "text": "A casa da avó cheira a bacalhau e a pão quente. Está tudo igual: a mesa grande, as fotografias na parede, o gato no sofá. Só a Marie mudou.<br>— Estás mais magra — diz a avó, e põe-lhe mais comida no prato.<br>— Estou igual, avó.<br>— Mais magra. Come.<br>A avó fala mais devagar do que há um ano. Ou a Marie percebe mais depressa. Provavelmente as duas coisas.<br>Às cinco da tarde chega o João, de comboio, com uma mala pequena e o mesmo cabelo de sempre.<br>— Vieste de Lisboa só para o jantar? — pergunta a Marie.<br>— Vim para o São João. O jantar é um bónus.<br>Durante o jantar, todos falam ao mesmo tempo. O Tomás conta que apanhou uma onda de dois metros. A Ana diz que foi um metro. O pai diz que o Porto vai ganhar o campeonato. A avó diz que ninguém come.<br>A Marie ouve tudo, percebe quase tudo, e não diz nada sobre o seu plano. Ainda não.<br>À noite, no quarto pequeno com a janela para o rio, o telemóvel apita. É uma mensagem do Vasco para o grupo:<br>«Alguém sabe se a alemã volta este ano? A prancha grande está à espera.»<br>A Marie sorri e não responde. Amanhã. Ou depois de amanhã.",
-   "gloss": "Neu erschließen: cheirar a = riechen nach · a parede = die Wand · o gato = die Katze · magro, magra = dünn · põe-lhe = legt ihr (pôr) · depressa = schnell · o bónus (EP-Schreibweise!) = der Bonus · ganhar o campeonato = die Meisterschaft gewinnen · provavelmente = wahrscheinlich · ninguém = niemand · ainda não = noch nicht · a alemã = die Deutsche · à espera = wartet",
+   "text": "À noite, no quintal da avó, a Marie conta a sua infância. Em português. Devagar, mas conta.<br>— Quando era pequena, vivia perto do rio. Não era o mar, mas eu achava que era. Todos os domingos íamos ao porto ver os navios grandes. Eu tinha medo dos navios e adorava os navios ao mesmo tempo.<br>— Isso é normal — diz o João. — Eu tinha medo do elétrico e ia de elétrico todos os dias.<br>— Vi o mar pela primeira vez aos sete anos. Na Dinamarca. Estava frio, chovia, e eu entrei na água com a roupa toda. A minha mãe gritou durante dez minutos.<br>A Ana ri.<br>— E o surf?<br>— O surf veio muito mais tarde. Há um ano. Aqui.<br>A mãe da Ana traz chá e senta-se com eles.<br>— E este verão, Marie? Que planos tens?<br>Silêncio. A Marie olha para o chão.<br>— Tenho um plano — diz. — Mas ainda não é um plano oficial.<br>— Um plano que não é oficial é um segredo — diz o João.<br>— Então é um segredo.<br>O Tomás, que estava a dormir no sofá com o telemóvel na mão, abre um olho.<br>— Eu sei qual é.<br>Não sabe. Mas todos olham para ele, e ele fecha o olho outra vez, muito satisfeito.",
+   "gloss": "Neu erschließen: o navio = das (große) Schiff · ao mesmo tempo = gleichzeitig · a Dinamarca = Dänemark · com a roupa toda = mit allen Kleidern · gritar = schreien · mais tarde = später · trazer = bringen · o chão = der Boden · oficial = offiziell · satisfeito = zufrieden",
    "questions": [
     {
-     "q": "A avó fala mais depressa do que há um ano.",
-     "a": "Falsch – langsamer. Oder Marie versteht schneller. Wahrscheinlich beides."
+     "q": "Quando era pequena, a Marie vivia perto do mar.",
+     "a": "Falsch – am Fluss. Aber sie fand, es sei das Meer."
     },
     {
-     "q": "O João veio ao Porto só para o jantar.",
-     "a": "Falsch – für das São-João-Fest. Das Abendessen ist „ein Bonus“."
+     "q": "A Marie viu o mar pela primeira vez na Dinamarca.",
+     "a": "Richtig – mit sieben, bei Regen, in voller Kleidung ins Wasser."
     },
     {
-     "q": "A Marie responde logo à mensagem do Vasco.",
-     "a": "Falsch – sie lächelt und antwortet nicht. „Amanhã. Ou depois de amanhã.“"
+     "q": "A Marie conta o seu plano à mãe da Ana.",
+     "a": "Falsch – „ainda não é um plano oficial“. Also ein Geheimnis."
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Du kannst jetzt sagen, seit wann, wie lange und vor wie langer Zeit etwas war (<b>há, desde, durante</b>), und du hast das Perfekt wieder im Griff – inklusive <i>vim, vi, disse</i>. Marie hat einen Plan und Vasco eine Frage. Morgen holt die Avó die alten Fotos raus: <b>Quando eu era pequena…</b> – das Imperfekt."
+   "html": "Du kannst jetzt erzählen, wie es <b>früher</b> war: <b>era, tinha, havia</b> und die regelmäßigen Formen auf <b>-ava / -ia</b>. Morgen kommt der Moment, in dem beide Vergangenheiten zusammenarbeiten: Die Avó erzählt, wie sie den Avô kennengelernt hat – <b>Perfekt oder Imperfekt?</b>"
   }
  ]
 }

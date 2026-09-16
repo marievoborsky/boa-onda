@@ -28,7 +28,7 @@ def tok_woerter():
             core = re.sub(r'^[^\wÀ-ÿ]+|[^\wÀ-ÿ]+$', '', w)
             if core and re.search(r'[A-Za-zÀ-ÿ]', core):
                 tok.add(core.lower())
-    for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', 'tag*.json'))):
+    for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', '*.json'))):
         L = json.load(open(f))
         for sec in L['sections']:
             if sec['type'] == 'story':

@@ -1,256 +1,252 @@
 {
  "id": "tag10",
- "title": "Como é ele?",
- "subtitle": "Woche 2 · Tag 10 · Personen beschreiben · ca. 25 Min.",
+ "title": "Gosto disto!",
+ "subtitle": "Woche 2 · Tag 10 · Essen & Trinken · gostar de · ca. 25 Min.",
  "sections": [
   {
    "type": "exercise",
    "title": "1 · Aufwärmen (von Tag 9)",
    "items": [
     {
-     "q": "___ ___ família é grande. (meine)",
+     "q": "A minha irmã é ___ (alto)",
+     "a": "alta"
+    },
+    {
+     "q": "Os meus avós são ___ (simpático)",
+     "a": "simpáticos"
+    },
+    {
+     "q": "„Wie süß!“ auf EP: ___",
+     "a": "Que giro!"
+    },
+    {
+     "q": "___ ___ avó fala rápido. (meine)",
      "a": "A minha"
-    },
-    {
-     "q": "o irmão → os ___",
-     "a": "irmãos"
-    },
-    {
-     "q": "Der Vater meines Vaters ist mein ___ (pt!)",
-     "a": "avô"
-    },
-    {
-     "q": "„Cool“ auf gut Portugiesisch: ___",
-     "a": "fixe"
     }
    ]
   },
   {
    "type": "vocab",
-   "title": "2 · Neue Wörter: Beschreiben (12)",
+   "title": "2 · Neue Wörter: À mesa (12)",
    "items": [
     {
-     "pt": "alto / alta",
-     "de": "groß (Person)",
-     "ipa": "[ˈaɫtu] / [ˈaɫtɐ]",
+     "pt": "o pão",
+     "de": "Brot",
+     "ipa": "[pɐ̃w̃]",
      "audio": "v1001"
     },
     {
-     "pt": "baixo / baixa",
-     "de": "klein (Person)",
-     "ipa": "[ˈbajʃu] / [ˈbajʃɐ]",
+     "pt": "o queijo",
+     "de": "Käse",
+     "ipa": "[ˈkɐjʒu]",
      "audio": "v1002"
     },
     {
-     "pt": "jovem",
-     "de": "jung (m + w gleich!)",
-     "ipa": "[ˈʒɔvɐ̃j̃]",
+     "pt": "o peixe",
+     "de": "Fisch",
+     "ipa": "[ˈpɐjʃ(ɨ)]",
      "audio": "v1003"
     },
     {
-     "pt": "velho / velha",
-     "de": "alt",
-     "ipa": "[ˈvɛʎu] / [ˈvɛʎɐ]",
+     "pt": "a carne",
+     "de": "Fleisch",
+     "ipa": "[ˈkaɾnɨ]",
      "audio": "v1004"
     },
     {
-     "pt": "bonito / bonita",
-     "de": "schön, hübsch",
-     "ipa": "[buˈnitu] / [buˈnitɐ]",
+     "pt": "a fruta",
+     "de": "Obst",
+     "ipa": "[ˈfɾutɐ]",
      "audio": "v1005"
     },
     {
-     "pt": "giro / gira",
-     "de": "süß, cool (typisch EP!)",
-     "ipa": "[ˈʒiɾu] / [ˈʒiɾɐ]",
+     "pt": "o bolo",
+     "de": "Kuchen",
+     "ipa": "[ˈbolu]",
      "audio": "v1006"
     },
     {
-     "pt": "simpático / simpática",
-     "de": "sympathisch, nett",
-     "ipa": "[sĩˈpatiku] / [sĩˈpatikɐ]",
+     "pt": "o sumo",
+     "de": "Saft (EP! Brasilien: suco)",
+     "ipa": "[ˈsumu]",
      "audio": "v1007"
     },
     {
-     "pt": "engraçado / engraçada",
-     "de": "lustig",
-     "ipa": "[ẽɡɾɐˈsadu] / [ẽɡɾɐˈsadɐ]",
+     "pt": "o leite",
+     "de": "Milch",
+     "ipa": "[ˈlɐjtɨ]",
      "audio": "v1008"
     },
     {
-     "pt": "o cabelo",
-     "de": "Haar",
-     "ipa": "[kɐˈbelu]",
+     "pt": "a sopa",
+     "de": "Suppe",
+     "ipa": "[ˈsopɐ]",
      "audio": "v1009"
     },
     {
-     "pt": "os olhos",
-     "de": "die Augen",
-     "ipa": "[ˈɔʎuʃ]",
+     "pt": "o pequeno-almoço",
+     "de": "Frühstück (EP!)",
+     "ipa": "[pɨˈkenu aɫˈmosu]",
      "audio": "v1010"
     },
     {
-     "pt": "castanho / castanha",
-     "de": "braun (Haare/Augen)",
-     "ipa": "[kɐʃˈtɐɲu] / [kɐʃˈtɐɲɐ]",
+     "pt": "o jantar",
+     "de": "Abendessen",
+     "ipa": "[ʒɐ̃ˈtaɾ]",
      "audio": "v1011"
     },
     {
-     "pt": "os óculos",
-     "de": "die Brille",
-     "ipa": "[ˈɔkuluʃ]",
+     "pt": "delicioso / deliciosa",
+     "de": "köstlich",
+     "ipa": "[dɨliˈsjozu] / [dɨliˈsjɔzɐ]",
      "audio": "v1012"
     }
    ]
   },
   {
    "type": "note",
-   "title": "3 · Dica do Vasco: Adjektive passen sich an",
-   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Adjektive sind wie Neoprenanzüge – sie passen sich an, wer sie trägt:<br><br><b>-o / -a:</b> o pai é alt<b>o</b> · a mãe é alt<b>a</b><br><b>-e und Konsonant bleiben gleich:</b> ele é jov<b>em</b> · ela é jov<b>em</b> · o mar é grand<b>e</b><br><b>Plural: +s:</b> os primos são alt<b>os</b> · as primas são alt<b>as</b><br><br><b>Stellung:</b> Das Adjektiv kommt meist NACH dem Nomen: <i>o cabelo castanho, os olhos bonitos</i>.<br><br>Und fürs Aussehen nimmst du <b>ser</b> (Steckbrief!): <i>Ela é alta.</i> – so bleibt es nämlich. Boa onda!"
+   "title": "3 · Dica do Vasco: gostar DE",
+   "html": "<i>(Sprachnachricht aus Sagres:)</i> Olá! Heute das wichtigste Verb für alles, was du magst – und es kommt NIE allein:<br><br><b>gostar + de:</b> <i>Gosto <b>de</b> café. · Gostas <b>de</b> surf? · Ela gosta <b>de</b> música.</i><br><br>Und wenn ein Artikel dazukommt, verschmilzt <b>de</b> – das kennst du schon von <i>do Porto</i>:<br><b>de + o = do</b> → <i>Gosto <b>do</b> pão.</i><br><b>de + a = da</b> → <i>Gosto <b>da</b> sopa.</i><br><b>de + os = dos / de + as = das</b> → <i>Gosto <b>dos</b> bolos. · Gosto <b>das</b> praias.</i><br><br>Ohne Artikel = allgemein (<i>Gosto de café</i> – ich mag Kaffee generell), mit Artikel = etwas Bestimmtes (<i>Gosto do café da avó</i> – DIESEN Kaffee).<br><br>PS – der Lektionstitel: <b>disto</b> = de + isto („von dem hier“). <i>Gosto disto!</i> – Ich mag das hier! Dein erstes Verschmelzungs-Extra. Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "<b>giro / gira</b> ist eines der portugiesischsten Wörter überhaupt: süß, hübsch, cool – <i>Que giro!</i> („Wie cool/süß ist das denn!“) hörst du in Lissabon zwanzig Mal am Tag. In Brasilien bedeutet <i>giro</i> nur „Drehung“ – wer giro sagt, outet sich sofort (positiv!) als EP-Sprecher. Aussprache: <b>„schiru“</b> – das g wie in „Journal“. Und Vorsicht Klassiker: <i>os óculos</i> (Brille) ist im Portugiesischen <b>Plural</b> – „die Brillen“, auch wenn es nur eine ist!"
+   "html": "Drei Essens-Wörter, die dich sofort als EP-Profi zeigen: <b>o pequeno-almoço</b> ist das Frühstück (wörtlich „kleines Mittagessen“ – in Brasilien sagt man <i>café da manhã</i>), <b>o sumo</b> ist der Saft (BR: <i>suco</i>), und den <b>galão</b> (Milchkaffee im Glas) lernst du morgen im Café kennen. Und die schönste Antwort, wenn dir etwas schmeckt, ist kurz: <b>„Gosto!“</b> oder mit Nachdruck <b>„Adoro!“</b> (ich liebe es) – beides mit einem Lächeln, mehr braucht es nicht."
   },
   {
    "type": "reading",
-   "title": "4 · Lesen: Ao almoço",
-   "hint": "Selbst erschlossen: como o pai = wie der Vater · o vosso pai = euer Vater (Vorgriff!) · tão = so · a voz = die Stimme · azuis = blau (Plural von azul) · ter sono = müde sein (wörtl. „Schlaf haben“).",
+   "title": "4 · Lesen: O pequeno-almoço",
+   "hint": "Selbst erschlossen: faz = macht (fazer – Vorgriff!) · o melhor = der/das beste · a cama = das Bett · comer = essen · Espera! = Warte! · conhecer = kennen. Tomás spricht heute mit – er ist 12, Anas Bruder.",
    "lines": [
     {
-     "who": "Marie",
-     "pt": "Ana, o teu irmão é muito engraçado!",
+     "who": "Ana",
+     "pt": "Bom dia! O pequeno-almoço está na mesa. Gostas de queijo, Marie?",
      "audio": "d1001"
     },
     {
-     "who": "Ana",
-     "pt": "O Tomás? Sim! E ele é alto — tem doze anos e é alto!",
+     "who": "Marie",
+     "pt": "Gosto muito! E gosto do pão da tua avó. É delicioso.",
      "audio": "d1002"
     },
     {
-     "who": "João",
-     "pt": "Como o pai. O vosso pai é muito alto.",
+     "who": "Ana",
+     "pt": "A avó faz o melhor pão do Porto. João, gostas de sumo?",
      "audio": "d1003"
     },
     {
-     "who": "Marie",
-     "pt": "E a tua avó é tão querida. Mas fala muito rápido…",
+     "who": "João",
+     "pt": "Gosto… mas agora queria um café. Ou dois.",
      "audio": "d1004"
     },
     {
-     "who": "Ana",
-     "pt": "Eu sei! A minha avó é baixa, mas a voz é grande!",
+     "who": "Marie",
+     "pt": "Tu e o café! Gostas mais do café ou da tua cama?",
      "audio": "d1005"
     },
     {
-     "who": "Marie",
-     "pt": "Tens os olhos da tua mãe. Castanhos e bonitos.",
+     "who": "João",
+     "pt": "Boa pergunta… Gosto dos dois.",
      "audio": "d1006"
     },
     {
      "who": "Ana",
-     "pt": "Obrigada! E tu tens os olhos azuis — muito giros.",
+     "pt": "E o Tomás? Não come. Está no telemóvel.",
      "audio": "d1007"
     },
     {
-     "who": "João",
-     "pt": "E eu? Eu tenho o cabelo bonito, não é?",
+     "who": "Marie",
+     "pt": "Tomás, não gostas do pequeno-almoço?",
      "audio": "d1008"
     },
     {
-     "who": "Ana",
-     "pt": "Tu tens sono, João. Sempre!",
+     "who": "Tomás",
+     "pt": "Gosto! Mas… olha, João. Vídeos de surf. O professor é fixe!",
      "audio": "d1009"
     },
     {
-     "who": "Marie",
-     "pt": "A tua família é muito simpática, Ana.",
+     "who": "João",
+     "pt": "Espera… eu conheço este professor…",
      "audio": "d1010"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5a · Gleiche das Adjektiv an",
+   "title": "5a · de, do, da, dos oder das?",
    "items": [
     {
-     "q": "A Ana é ___ (engraçado)",
-     "a": "engraçada"
+     "q": "Gosto ___ café. (allgemein)",
+     "a": "de"
     },
     {
-     "q": "O Tomás é ___ (alto)",
-     "a": "alto"
+     "q": "Gosto ___ pão da avó. (bestimmt: o pão)",
+     "a": "do"
     },
     {
-     "q": "A avó é ___ (baixo)",
-     "a": "baixa"
+     "q": "Gostas ___ sopa? (a sopa)",
+     "a": "da"
     },
     {
-     "q": "Os pais são ___ (simpático)",
-     "a": "simpáticos"
+     "q": "Ele gosta ___ bolos. (os bolos)",
+     "a": "dos"
     },
     {
-     "q": "As primas são ___ (giro)",
-     "a": "giras"
+     "q": "Gostamos ___ praias do Porto. (as praias)",
+     "a": "das"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · Beschreibe mit ser + Adjektiv",
+   "title": "5b · Antworte über dich (Muster: Gosto de… / Não gosto de…)",
    "items": [
     {
-     "q": "Mein Großvater ist alt. → O meu avô ___ ___.",
-     "a": "é velho"
+     "q": "Gostas de peixe? → ___",
+     "a": "Gosto (muito) de peixe. / Não gosto de peixe."
     },
     {
-     "q": "Deine Mutter ist jung. → A tua mãe ___ ___.",
-     "a": "é jovem"
+     "q": "Gostas de café? → ___",
+     "a": "Gosto de café. / Não gosto de café."
     },
     {
-     "q": "Meine Augen sind braun. → Os meus olhos ___ ___.",
-     "a": "são castanhos"
+     "q": "Gostas do Porto? → ___",
+     "a": "Gosto (muito) do Porto!"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Wer ist es? (aus dem Dialog)",
+   "title": "5c · Was passt? (Mahlzeiten)",
    "items": [
     {
-     "q": "É jovem, alto e muito engraçado: o ___",
-     "a": "Tomás"
+     "q": "Am Morgen: o ___",
+     "a": "pequeno-almoço"
     },
     {
-     "q": "É baixa, fala rápido e é muito querida: a ___",
-     "a": "avó"
+     "q": "Am Mittag: o ___",
+     "a": "almoço"
     },
     {
-     "q": "Tem sono. Sempre: o ___",
-     "a": "João"
-    },
-    {
-     "q": "Tem os olhos azuis: a ___",
-     "a": "Marie"
+     "q": "Am Abend: o ___",
+     "a": "jantar"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch?",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "O pai da Ana é baixo.",
-     "a": "Falsch – er ist groß (alto)."
+     "q": "A Marie gosta do pão da avó.",
+     "a": "Richtig – é delicioso!"
     },
     {
-     "q": "A Ana tem os olhos castanhos, como a mãe.",
-     "a": "Richtig."
+     "q": "O João queria um sumo.",
+     "a": "Falsch – einen Kaffee. Oder zwei."
     },
     {
-     "q": "O João diz que tem o cabelo bonito.",
-     "a": "Richtig – Ana findet: er hat vor allem Schlaf."
+     "q": "O Tomás mostra vídeos de futebol.",
+     "a": "Falsch – vídeos de surf!"
     }
    ]
   },
@@ -259,53 +255,53 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Meine Schwester ist groß und lustig. → ___",
-     "a": "A minha irmã é alta e engraçada."
+     "q": "Ich mag Käse. → ___",
+     "a": "Gosto de queijo."
     },
     {
-     "q": "Deine Augen sind sehr schön. → ___",
-     "a": "Os teus olhos são muito bonitos."
+     "q": "Magst du den Kuchen? → ___",
+     "a": "Gostas do bolo?"
     },
     {
-     "q": "Wie süß! (typisch EP) → ___",
-     "a": "Que giro!"
+     "q": "Das Frühstück ist köstlich. → ___",
+     "a": "O pequeno-almoço é delicioso."
     },
     {
-     "q": "Mein Opa hat eine Brille. → ___",
-     "a": "O meu avô tem óculos."
+     "q": "Ich mag die Strände von Porto. → ___",
+     "a": "Gosto das praias do Porto."
     }
    ]
   },
   {
    "type": "speak",
-   "title": "6 · Sprechen: Beschreib deine Menschen",
-   "html": "Beschreib zwei Menschen aus deinem Leben – je zwei Sätze, laut: <i>A minha mãe é… Tem os olhos… O meu amigo é… Tem o cabelo…</i><br><br>Und einmal ehrlich vor dem Spiegel: <i>Eu sou… e muito giro/gira!</i> Dann aufnehmen und vergleichen."
+   "title": "6 · Sprechen: Deine Speisekarte",
+   "html": "Sag laut, was du magst und was nicht – fünf Sätze mit <i>Gosto de… / Gosto muito de… / Não gosto de… / Adoro…</i> Und einmal ganz konkret mit Verschmelzung: <i>Gosto do/da…</i> über dein Lieblingsessen.<br><br>Dann: aufnehmen, anhören, vergleichen."
   },
   {
    "type": "story",
-   "title": "7 · Kleine Geschichte: O almoço",
+   "title": "7 · Kleine Geschichte: Os vídeos do Vasco",
    "audio": "s10",
-   "text": "Domingo. Almoço na casa da família da Ana — a mesa é grande e a comida é fantástica. O pai da Ana é alto e simpático. A mãe tem os olhos castanhos, como a Ana. O Tomás é jovem e muito engraçado.<br>A avó fala e fala — muito rápido: „EntãoMarieegostasdoPortoéumacidadelindanãoé?“<br>A Marie compreende… uma palavra: Porto.<br>— Avó, mais devagar! — diz a Ana. — A Marie está a aprender!<br>A avó fala devagar: — Gostas… do… Porto?<br>— Sim! O Porto é muito bonito! — diz a Marie.<br>A avó está feliz: — Ela compreende! A alemã é gira!<br>O Tomás pergunta: — João, tu surfas? O Vasco de Sagres é o melhor professor de surf!<br>O João abre os olhos: — Como é que tu sabes do Vasco…?",
-   "gloss": "Neu erschließen: o almoço = das Mittagessen · a comida = das Essen · mais devagar = langsamer · está a aprender = sie lernt gerade (EP-Verlaufsform – Vorgriff!) · perguntar = fragen · saber = wissen · gostas = magst du (gostar – Vorgriff auf morgen!) · linda = wunderschön · abrir os olhos = die Augen öffnen · a mesa = der Tisch · o melhor = der beste. Die Avó-Zeile ohne Leerzeichen ist Absicht: So klingt schnelles Portugiesisch am Anfang! Hör die Geschichte zweimal.",
+   "text": "Segunda-feira de manhã. O último dia no Porto. A avó faz um pequeno-almoço grande: pão, queijo, fruta e bolo. — Comam, comam! — diz a avó.<br>O Tomás mostra o telemóvel: vídeos de surf, ondas grandes, um professor com uma prancha branca.<br>— Este professor é famoso! — diz o Tomás. — Os vídeos dele são muito fixes!<br>O João olha… e abre os olhos: — Não acredito. É o Vasco! O meu amigo Vasco, de Sagres!<br>— O TEU amigo?! — O Tomás está muito feliz. — O teu amigo é o professor dos vídeos?!<br>A Marie pergunta: — O Vasco da mensagem de voz? O professor de surf?<br>— Sim! — diz o João. — E ele diz que as ondas estão perfeitas…<br>A Ana faz um sorriso: — Então… quando é que vamos a Sagres?",
+   "gloss": "Neu erschließen: segunda-feira de manhã = Montagmorgen (Wochentage kommen an Tag 13) · branca = weiß · o último dia = der letzte Tag · Comam! = Esst! (Aufforderung) · mostrar = zeigen · famoso = berühmt · dele = von ihm · Não acredito! = Ich glaub's nicht! · o sorriso = das Lächeln · vamos = wir fahren/gehen (Vorgriff auf ir!). Das Rätsel ist gelöst: Tomás kennt Vasco aus dem Internet – Vascos Surf-Videos sind berühmt!",
    "questions": [
     {
-     "q": "A comida é fantástica.",
-     "a": "Richtig."
+     "q": "O professor dos vídeos é o Vasco.",
+     "a": "Richtig – João traut seinen Augen nicht!"
     },
     {
-     "q": "A Marie compreende a avó imediatamente.",
-     "a": "Falsch – erst als die Avó langsamer spricht."
+     "q": "O Tomás conhece o Vasco pessoalmente (persönlich).",
+     "a": "Falsch – nur aus den Videos."
     },
     {
-     "q": "O Tomás sabe do Vasco.",
-     "a": "Richtig – aber woher?! João ist verwirrt…"
+     "q": "A Ana pergunta: Quando é que vamos a Sagres?",
+     "a": "Richtig – der Trip rückt näher…"
     }
    ]
   },
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Wenn 5a sitzt (alto/alta/altos/altas), hast du das Angleichungs-Muster – es gilt für fast alle Adjektive für immer. Morgen: <b>Essen & Trinken</b> – gostar de! Und die Frage bleibt: Woher kennt Tomás den Vasco…?"
+   "html": "Sitzt <b>gostar de</b> mit do/da/dos/das? Das brauchst du ab jetzt täglich. Morgen wird es praktisch: <b>Im Café bestellen</b> – Queria um galão e um pastel de nata, por favor! Und Sagres… Sagres ruft immer lauter."
   }
  ]
 }
