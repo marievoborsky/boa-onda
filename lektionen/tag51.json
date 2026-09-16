@@ -21,7 +21,7 @@
       "Não olhes para os pés!",
       "Não olha para os pés!"
      ],
-     "a": "Não olhes"
+     "a": "Não olhes para os pés! – Não olhes"
     },
     {
      "q": "Vorsicht! → ___!",
@@ -48,7 +48,7 @@
     {
      "pt": "holandês / holandesa",
      "de": "niederländisch",
-     "ipa": "[ɔlɐ̃ˈdeʃ / ɔlɐ̃ˈdezɐ]",
+     "ipa": "[ulɐ̃ˈdeʃ / ulɐ̃ˈdezɐ]",
      "audio": "v5103"
     },
     {
@@ -78,7 +78,7 @@
     {
      "pt": "brasileiro / brasileira",
      "de": "brasilianisch",
-     "ipa": "[bɾɐziˈlɐjɾu / bɐziˈlɐjɾɐ]",
+     "ipa": "[bɾɐziˈlɐjɾu / bɾɐziˈlɐjɾɐ]",
      "audio": "v5108"
     },
     {
@@ -132,7 +132,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: Uma família alemã",
-   "hint": "Selbst erschlossen: o Senhor Weber = der deutsche Vater · Fala? = Sprechen Sie? · um bocadinho = ein bisschen · a esposa = die Ehefrau · o fato = kurz für fato de surf · M ou L = Größe M oder L · Só isso = nur das · tratar por tu = duzen. Der Sohn (10) spricht in der Geschichte, nicht im Dialog.",
+   "hint": "Selbst erschlossen: o Senhor Weber = der deutsche Vater · Fala? = Sprechen Sie? · um bocadinho = ein bisschen · a esposa = die Ehefrau · o fato = kurz für fato de surf · M ou L = Größe M oder L · Só isso = nur das · tratar por tu = duzen · o que quiser = was Sie wollen (Form für Tag 53). Der Sohn (10) spricht in der Geschichte, nicht im Dialog.",
    "lines": [
     {
      "who": "Marie",
@@ -176,7 +176,7 @@
     },
     {
      "who": "Marie",
-     "pt": "Então três principiantes e uma pessoa com experiência. Que tamanho de fato? M ou L?",
+     "pt": "Então dois principiantes e uma pessoa com experiência. Que tamanho de fato? M ou L?",
      "audio": "d5109"
     },
     {
@@ -248,7 +248,7 @@
       "ohne Pronomen oder o senhor / a senhora",
       "você"
      ],
-     "a": "ohne Pronomen – você klingt in Portugal leicht unhöflich"
+     "a": "ohne Pronomen oder o senhor / a senhora – você klingt in Portugal leicht unhöflich"
     },
     {
      "q": "Das Du anbieten: ",

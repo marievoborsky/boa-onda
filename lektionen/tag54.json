@@ -13,7 +13,7 @@
       "Wenn es sonnig ist, gehen wir an den Strand.",
       "Weil es sonnig war, gingen wir."
      ],
-     "a": "Wenn (Zukunft)"
+     "a": "Wenn es sonnig ist, gehen wir an den Strand. – Wenn (Zukunft)"
     },
     {
      "q": "Glückwunsch! → ___!",
@@ -122,12 +122,12 @@
   {
    "type": "note",
    "title": "3 · Dica do Vasco: Ein Leben erzählen",
-   "html": "<i>(Am Abend, auf der Mauer vor der Schule:)</i> Ihr habt mich vier Wochen lang Grammatik erklären hören. Heute erkläre ich nichts. Heute erzähle ich. Und ihr hört zu – mit allem, was ihr könnt:<br><br><b>Imperfekt</b> für das, was <b>war</b> – der Hintergrund, die Gewohnheit: <i>Eu <b>era</b> advogado. <b>Trabalhava</b> num escritório. <b>Usava</b> gravata.</i><br><b>Perfekt</b> für das, was <b>passierte</b> – der Wendepunkt: <i>Um dia <b>despedi-me</b>. <b>Comprei</b> uma prancha. <b>Vim</b> para Sagres.</i><br><b>Plusquamperfekt</b> für das, was <b>davor</b> war: <i>Nunca <b>tinha surfado</b>. <b>Tinha vivido</b> trinta anos sem ver o mar todos os dias.</i><br><b>Präsens</b> für das, was <b>ist</b>: <i>Hoje <b>tenho</b> uma escola. <b>Não me arrependo</b>.</i><br><b>Futur</b> für das, was <b>kommt</b>: <i><b>Vou ficar</b> aqui. Se calhar para sempre.</i><br><br>Fünf Zeiten in einer Geschichte. Ihr kennt alle. Das ist der ganze Unterschied zwischen A1 und A2: Vor einem Jahr konntet ihr sagen, was ist. Heute könnt ihr sagen, was war, was davor war, was sein wird – und warum. Hört zu. Boa onda."
+   "html": "<i>(Am Abend, auf der Mauer vor der Schule:)</i> Ihr habt mich vier Wochen lang Grammatik erklären hören. Heute erkläre ich nichts. Heute erzähle ich. Und ihr hört zu – mit allem, was ihr könnt:<br><br><b>Imperfekt</b> für das, was <b>war</b> – der Hintergrund, die Gewohnheit: <i>Eu <b>era</b> advogado. <b>Trabalhava</b> num escritório. <b>Usava</b> gravata.</i><br><b>Perfekt</b> für das, was <b>passierte</b> – der Wendepunkt: <i>Um dia <b>despedi-me</b>. <b>Comprei</b> uma prancha. <b>Vim</b> para Sagres.</i><br><b>Plusquamperfekt</b> für das, was <b>davor</b> war: <i>Nunca <b>tinha dado</b> uma aula. <b>Tinha vivido</b> vinte e oito anos longe do mar.</i><br><b>Präsens</b> für das, was <b>ist</b>: <i>Hoje <b>tenho</b> uma escola. <b>Não me arrependo</b>.</i><br><b>Futur</b> für das, was <b>kommt</b>: <i><b>Vou ficar</b> aqui. Se calhar para sempre.</i><br><br>Fünf Zeiten in einer Geschichte. Ihr kennt alle. Das ist der ganze Unterschied zwischen A1 und A2: Vor einem Jahr konntet ihr sagen, was ist. Heute könnt ihr sagen, was war, was davor war, was sein wird – und warum. Hört zu. Boa onda."
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Ein Wort, das du heute hörst und nie mehr vergisst: <b>despedir-se</b>. Es heißt <i>kündigen</i> (<i>despedi-me do escritório</i>) und <i>sich verabschieden</i> (<i>despedi-me da Ana</i>) – als wäre beides dasselbe. Für Portugiesen ist es das oft. Und <b>valer a pena</b> („die Mühe wert sein“) ist der Satz, mit dem sie jede große Entscheidung bewerten: <i>Valeu a pena?</i> – Hat es sich gelohnt? Aussprache: <i>coragem</i> = „kuráschäng“, <i>arrepender-se</i> = „arröpendérssö“."
+   "html": "Ein Wort, das du heute hörst und nie mehr vergisst: <b>despedir-se</b>. Es heißt <i>kündigen</i> (<i>despedi-me do escritório</i>) und <i>sich verabschieden</i> (<i>despedi-me da Ana</i>) – als wäre beides dasselbe. Für Portugiesen ist es das oft. Und <b>valer a pena</b> („die Mühe wert sein“) ist der Satz, mit dem sie jede große Entscheidung bewerten: <i>Valeu a pena?</i> – Hat es sich gelohnt? Aussprache: <i>coragem</i> = „kurásch-ãi“ (nasal am Ende), <i>arrepender-se</i> = „arröpendérssö“."
   },
   {
    "type": "reading",
@@ -317,7 +317,7 @@
     },
     {
      "q": "Ich hatte den Mut nicht. → ___",
-     "a": "Não tinha a coragem. / Não tive coragem."
+     "a": "Não tinha coragem. / Não tive coragem."
     },
     {
      "q": "Das Geld war nach acht Monaten weg. → ___",

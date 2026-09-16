@@ -127,12 +127,12 @@
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "An portugiesischen Stränden hängt eine Fahne: <b>verde</b> = baden erlaubt, <b>amarela</b> = baden mit Vorsicht, <b>vermelha</b> = Baden verboten, <b>xadrez</b> (kariert) = kein Rettungsschwimmer. Der <b>nadador-salvador</b> sitzt auf einem hohen Stuhl und pfeift, wenn du zu weit rausgehst – dann sofort zurück. Und <i>Socorro!</i> spricht man „ssukórru“, mit rollendem rr. Man hofft, es nie zu brauchen."
+   "html": "An portugiesischen Stränden hängt eine Fahne: <b>verde</b> = baden erlaubt, <b>amarela</b> = baden mit Vorsicht, <b>vermelha</b> = Baden verboten, <b>xadrez</b> (kariert) = kein Rettungsschwimmer. Der <b>nadador-salvador</b> sitzt auf einem hohen Stuhl und pfeift, wenn du zu weit rausgehst – dann sofort zurück. Und <i>Socorro!</i> spricht man „ssukórru“, mit kehligem rr wie im Deutschen. Man hofft, es nie zu brauchen."
   },
   {
    "type": "reading",
    "title": "4 · Lesen: Não te mexas",
-   "hint": "Selbst erschlossen: a testa = die Stirn · sangrar = bluten · Não te mexas = beweg dich nicht · a cabeça learned · tonto = benommen · o corte = der Schnitt · a bata learned · fundo = tief · dar pontos = nähen · o centro de saúde = die Gesundheitsstation · tinha batido = hatte gestoßen. Miguel ist der Junge aus Lissabon.",
+   "hint": "Selbst erschlossen: a testa = die Stirn · sangrar = bluten · Não te mexas = beweg dich nicht · tonto = benommen · o corte = der Schnitt · fundo = tief · dar pontos = nähen · o centro de saúde = die Gesundheitsstation · tinha batido = hatte gestoßen. Miguel ist der Junge aus Lissabon.",
    "lines": [
     {
      "who": "Marie",
@@ -236,7 +236,7 @@
       "Ich hatte die Welle gesehen.",
       "Ich habe die Welle gesehen."
      ],
-     "a": "Ich hatte … gesehen – tinha + Partizip = davor"
+     "a": "Ich hatte die Welle gesehen. – tinha + Partizip = davor"
     },
     {
      "q": "„Ele tinha caído antes.“ heißt:",
@@ -244,7 +244,7 @@
       "Er war vorher gefallen.",
       "Er fällt vorher."
      ],
-     "a": "Er war gefallen"
+     "a": "Er war vorher gefallen. – Er war gefallen"
     },
     {
      "q": "„Nós tínhamos dito cuidado.“ heißt:",
@@ -252,7 +252,7 @@
       "Wir hatten Vorsicht gesagt.",
       "Wir sagen Vorsicht."
      ],
-     "a": "Wir hatten gesagt – dito = Partizip von dizer"
+     "a": "Wir hatten Vorsicht gesagt. – dito = Partizip von dizer"
     },
     {
      "q": "Partizip von fazer:",
@@ -334,7 +334,7 @@
    "type": "story",
    "title": "7 · Kleine Geschichte: O penso",
    "audio": "s52",
-   "text": "O centro de saúde de Sagres é uma sala com duas cadeiras, uma enfermeira que conhece toda a gente e um cartaz sobre alforrecas. A enfermeira limpou o corte do Miguel em dois minutos, pôs um penso azul e disse:<br>— Terceiro este mês. Todos da mesma escola. O Vasco devia dar capacetes.<br>— A culpa foi minha — disse o Miguel. — Eu tinha olhado para os pés.<br>— A culpa é sempre dos pés — disse a enfermeira, que claramente já tinha ouvido muitas histórias de surf.<br>No caminho de volta, o Miguel ia calado. A Marie também. Foi ele que falou primeiro.<br>— Ficaste com medo?<br>— Fiquei.<br>— Eu também. Mas depois pensei: a Marie está aqui. E fiquei calmo.<br>A Marie não respondeu logo. Não conseguia.<br>— Quando eu comecei — disse por fim —, o Vasco disse-me uma coisa. Que o mar não é perigoso. O que é perigoso é não olhar para ele.<br>— Eu não olhei.<br>— Hoje não. Amanhã olhas.<br>À noite, na escola, o Vasco escreveu no livro dos acidentes: «Miguel, 19, corte na testa, prancha, sem gravidade. Instrutora: Marie. Reação: correta.» Depois fechou o livro, olhou para a Marie e disse:<br>— Sabes qual foi o meu primeiro acidente como instrutor?<br>— Não.<br>— Um alemão de Hamburgo. Bateu com a prancha no meu nariz. Em 2016. Ainda tenho a marca.<br>— E o que é que fizeste?<br>— Sorri. Como tu hoje. A pessoa primeiro, o nariz depois. — Levantou-se. — Amanhã o Tomás tem a competição. Dorme bem. Vais precisar de voz.",
+   "text": "O centro de saúde de Sagres é uma sala com duas cadeiras, uma enfermeira que conhece toda a gente e um cartaz sobre alforrecas. A enfermeira limpou o corte do Miguel em dois minutos, pôs um penso azul e disse:<br>— Terceiro este mês. Todos da mesma escola. O Vasco devia dar capacetes.<br>— A culpa foi minha — disse o Miguel. — Eu tinha olhado para os pés.<br>— A culpa é sempre dos pés — disse a enfermeira, que claramente já tinha ouvido muitas histórias de surf.<br>No caminho de volta, o Miguel ia calado. A Marie também. Foi ele que falou primeiro.<br>— Ficaste com medo?<br>— Fiquei.<br>— Eu também. Mas depois pensei: a Marie está aqui. E fiquei calmo.<br>A Marie não respondeu logo. Não conseguia.<br>— Quando eu comecei — disse por fim —, o Vasco disse-me uma coisa. Que o mar não é perigoso. O que é perigoso é não olhar para ele.<br>— Eu não olhei.<br>— Hoje não. Amanhã olhas.<br>À noite, na escola, o Vasco escreveu no livro dos acidentes: «Miguel, 19, corte na testa, prancha, sem gravidade. Instrutora: Marie. Reação: correta.» Depois fechou o livro, olhou para a Marie e disse:<br>— Sabes qual foi o meu primeiro acidente como instrutor?<br>— Não.<br>— Um alemão de Hamburgo. Bateu com a prancha no meu nariz. No meu primeiro verão como instrutor. Ainda tenho a marca.<br>— E o que é que fizeste?<br>— Sorri. Como tu hoje. A pessoa primeiro, o nariz depois. — Levantou-se. — Amanhã o Tomás tem a competição. Dorme bem. Vais precisar de voz.",
    "gloss": "Neu erschließen: a enfermeira = die Krankenschwester · o cartaz = das Plakat · a alforreca = die Qualle · o capacete = der Helm · tinha olhado = hatte geschaut · claramente = offensichtlich · por fim = schließlich · o livro dos acidentes = das Unfallbuch · sem gravidade = nicht schlimm · a marca = die Narbe, das Mal · a competição = der Wettbewerb",
    "questions": [
     {
@@ -347,7 +347,7 @@
     },
     {
      "q": "O primeiro acidente do Vasco como instrutor foi com um alemão de Hamburgo.",
-     "a": "Richtig – 2016, Brett gegen die Nase. Die Narbe hat er noch."
+     "a": "Richtig – in seinem ersten Sommer, Brett gegen die Nase. Die Narbe hat er noch."
     }
    ]
   },

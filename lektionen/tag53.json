@@ -206,7 +206,7 @@
       "Wenn es gutes Wetter gibt, gehen wir an den Strand.",
       "Weil es gutes Wetter gab, gingen wir an den Strand."
      ],
-     "a": "Wenn … (Zukunft) – se + futuro do conjuntivo"
+     "a": "Wenn es gutes Wetter gibt, gehen wir an den Strand. – se + futuro do conjuntivo"
     },
     {
      "q": "„Quando chegares, manda uma foto.“ heißt:",
@@ -214,7 +214,7 @@
       "Wenn du ankommst, schick ein Foto.",
       "Als du ankamst, schicktest du ein Foto."
      ],
-     "a": "Wenn/sobald du ankommst"
+     "a": "Wenn du ankommst, schick ein Foto. – Wenn/sobald du ankommst"
     },
     {
      "q": "„Se puderes, vem.“ heißt:",
@@ -222,7 +222,7 @@
       "Wenn du kannst, komm.",
       "Du konntest kommen."
      ],
-     "a": "puder = von poder"
+     "a": "Wenn du kannst, komm. – puder = von poder"
     },
     {
      "q": "„Quando for grande…“ heißt:",
@@ -230,7 +230,7 @@
       "Wenn ich groß bin …",
       "Als ich groß war …"
      ],
-     "a": "for = von ser (Zukunft)"
+     "a": "Wenn ich groß bin … – for = von ser (Zukunft)"
     }
    ]
   },
@@ -339,7 +339,7 @@
    "title": "7 · Kleine Geschichte: A onda do Tomás",
    "audio": "s53",
    "text": "Na primeira bateria o Tomás apanhou uma onda boa e uma má. Na segunda, duas boas. Passou à final com a terceira melhor pontuação. Na areia, a Ana gritou como se fosse a final do campeonato do mundo, e o João filmou a Ana a gritar, porque a Ana a gritar era melhor do que o surf.<br>Na final eram seis. Cinco de Sagres, um do Porto.<br>Nos primeiros dez minutos o Tomás não apanhou nada. Estava nervoso. Olhava para a areia, para a Ana, para o Vasco, para toda a gente menos para o mar. O Vasco não fez um gesto. Só disse, baixinho, para a Marie:<br>— Agora esquece-se de tudo.<br>— O que é que fazemos?<br>— Nada. É dele.<br>Faltavam três minutos. O Tomás estava sentado na prancha, longe, pequeno. E então fez uma coisa que ninguém esperava: virou as costas à praia. Deixou de olhar para as pessoas. Olhou só para o mar.<br>A onda veio. Não era a maior, mas era limpa. O Tomás remou, levantou-se num só movimento, fez uma curva para a esquerda, outra para a direita, e chegou à espuma de pé, com os braços abertos.<br>Terceiro lugar. Atrás de dois miúdos de Sagres que surfam desde os cinco anos.<br>— Terceiro! — gritou a Ana. — TERCEIRO!<br>O Tomás saiu da água, recebeu o prémio (um boné e um vale para gelados), e a primeira coisa que disse não foi «ganhei» nem «perdi». Foi:<br>— Deixei de olhar para vocês. Foi por isso.<br>— Eu sei — disse o Vasco. — Vi.<br>— Foi justo?<br>— Foi justo. Os dois primeiros foram melhores. Para o ano, não.<br>À noite, o Tomás dormiu com o boné na cabeça e o martelo na mão. A Ana mandou o vídeo à avó. A avó viu-o, segundo a Ana, cento e doze vezes.",
-   "gloss": "Neu erschließen: o campeonato do mundo = die Weltmeisterschaft · filmar = filmen · menos = außer · Faltavam três minutos = es fehlten drei Minuten · virar as costas a = den Rücken zukehren · deixar de = aufhören zu · limpo = sauber (Welle) · o boné = die Kappe · o vale = der Gutschein · Foi por isso = deshalb · segundo a Ana = laut Ana",
+   "gloss": "Neu erschließen: como se fosse = als wäre es (Form für später) · o campeonato do mundo = die Weltmeisterschaft · filmar = filmen · menos = außer · Faltavam três minutos = es fehlten drei Minuten · virar as costas a = den Rücken zukehren · deixar de = aufhören zu · limpo = sauber (Welle) · o boné = die Kappe · o vale = der Gutschein · Foi por isso = deshalb · segundo a Ana = laut Ana",
    "questions": [
     {
      "q": "O Tomás passou à final com a melhor pontuação.",

@@ -6,7 +6,7 @@
   {
    "type": "note",
    "title": "So geht's",
-   "html": "Der Abschlusstest von Staffel 2 – im Format der portugiesischen A2-Prüfung <b>CIPLE</b>: Lesen, Hören, Schreiben, Grammatik. Erst alles selbst lösen, dann prüfen und Punkte zählen. Es geht nicht um die Note: Wer 40 Punkte schafft, kann sich in Portugal ein Zimmer mieten, zum Arzt gehen, streiten, sich versöhnen und über sein Leben erzählen. Notier dir die Punkte pro Teil."
+   "html": "Der Abschlusstest von Staffel 2 – im Format der portugiesischen A2-Prüfung <b>CIPLE</b>: Lesen, Hören, Schreiben, Sprechen – Grammatik wird dort in den Texten mitgeprüft, hier üben wir sie extra. Erst alles selbst lösen, dann prüfen und Punkte zählen. Es geht nicht um die Note: Wer 40 Punkte schafft, kann sich in Portugal ein Zimmer mieten, zum Arzt gehen, streiten, sich versöhnen und über sein Leben erzählen. Notier dir die Punkte pro Teil."
   },
   {
    "type": "note",
@@ -189,7 +189,7 @@
       "Se fizer sol, vamos.",
       "Se faz sol, vamos."
      ],
-     "a": "Se fizer sol – futuro do conjuntivo"
+     "a": "Se fizer sol, vamos. – futuro do conjuntivo"
     }
    ]
   },
@@ -227,7 +227,7 @@
    "type": "story",
    "title": "F · Lesen: A carta da Marie (8 P.)",
    "audio": "r56",
-   "text": "Sagres, 30 de agosto<br><br>Querida avó,<br>escrevo-lhe em português, como prometi no Porto. Se houver erros, a culpa é da Ana, que não está aqui para corrigir.<br>O verão foi o mais rápido da minha vida. Cheguei há dez dias com uma carrinha que não devia chegar, e desde então dou aulas todas as manhãs a pessoas que caem tanto como eu caía no ano passado. Ontem um alemão de Munique ficou de pé pela primeira vez e gritou tanto que o Vasco pensou que se tinha magoado.<br>O Tomás ficou em terceiro na competição. Foi justo: os dois primeiros são de Sagres e surfam desde bebés. Ele dormiu com o boné. Acho que ainda dorme com o boné.<br>A Ana já está em Coimbra, na república com o Rui e onze colegas. Diz que canta às sextas. Não acredito, mas espero que seja verdade.<br>E eu decidi: fico. No inverno faço um curso em Lisboa, no sofá do João, que é mau. No verão volto para aqui, de vez. Sei que a avó queria que eu voltasse para o Porto. Mas o Porto fica a três horas de comboio, e o São João é em junho, e eu tenho um manjerico na sua varanda que precisa de mim.<br>Obrigada pelo martelo de 1968. Não o levei, como combinámos. Mas levei a história.<br>Um beijinho grande,<br>Marie<br><br>P.S.: A carrinha chegou. Diga à Inês.",
+   "text": "Sagres, 30 de agosto<br><br>Querida avó,<br>escrevo-lhe em português, como a avó pediu. Se houver erros, a culpa é da Ana, que não está aqui para corrigir.<br>O verão foi o mais rápido da minha vida. Cheguei há dez dias com uma carrinha que não devia chegar, e desde então dou aulas todas as manhãs a pessoas que caem tanto como eu caía no ano passado. Na primeira semana, um alemão de Munique ficou de pé pela primeira vez e gritou tanto que o Vasco pensou que se tinha magoado.<br>O Tomás ficou em terceiro na competição. Foi justo: os dois primeiros são de Sagres e surfam desde bebés. Ele dormiu com o boné. Acho que ainda dorme com o boné.<br>A Ana já está em Coimbra, na república com o Rui e onze colegas. Diz que canta às sextas. Não acredito, mas espero que seja verdade.<br>E eu decidi: fico. No inverno faço um curso em Lisboa, no sofá do João, que é mau. No verão volto para aqui, de vez. Sei que a avó queria que eu voltasse para o Porto. Mas o Porto fica a três horas de comboio, e o São João é em junho, e eu tenho um manjerico na sua varanda que precisa de mim.<br>Obrigada pelo martelo de 1968. Não o levei, como combinámos. Mas levei a história.<br>Um beijinho grande,<br>Marie<br><br>P.S.: A carrinha chegou. Diga à Inês.",
    "gloss": "Erst lesen, dann anhören. Neu erschließen: Se houver = wenn es gibt (Zukunft) · desde então = seitdem · desde bebés = seit sie Babys sind · queria que eu voltasse = wollten, dass ich zurückkomme (Form für später) · Diga = Sagen Sie. Richtig oder falsch:",
    "questions": [
     {
