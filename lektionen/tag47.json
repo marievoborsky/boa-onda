@@ -1,0 +1,364 @@
+{
+ "id": "tag47",
+ "title": "À volta da fogueira",
+ "subtitle": "Staffel 2 · Woche 7 · Tag 47 · Erzählen · Perfekt und Imperfekt im Wechsel · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 46)",
+   "items": [
+    {
+     "q": "Hier wird alles repariert: ___ tudo.",
+     "a": "Arranja-se"
+    },
+    {
+     "q": "360 = ___",
+     "a": "trezentos e sessenta"
+    },
+    {
+     "q": "Kann ich mit Karte zahlen? → Aceita ___?",
+     "a": "multibanco"
+    },
+    {
+     "q": "500 Personen: ",
+     "opts": [
+      "quinhentas pessoas",
+      "quinhentos pessoas"
+     ],
+     "a": "quinhentas – weiblich"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: A noite (14)",
+   "items": [
+    {
+     "pt": "a fogueira",
+     "de": "das Lagerfeuer",
+     "ipa": "[fuˈgɐjɾɐ]",
+     "audio": "v4701"
+    },
+    {
+     "pt": "a estrela",
+     "de": "der Stern",
+     "ipa": "[ɨʃˈtɾelɐ]",
+     "audio": "v4702"
+    },
+    {
+     "pt": "a lua",
+     "de": "der Mond",
+     "ipa": "[ˈluɐ]",
+     "audio": "v4703"
+    },
+    {
+     "pt": "a tenda",
+     "de": "das Zelt",
+     "ipa": "[ˈtẽdɐ]",
+     "audio": "v4704"
+    },
+    {
+     "pt": "o saco-cama",
+     "de": "der Schlafsack",
+     "ipa": "[ˈsaku ˈkɐmɐ]",
+     "audio": "v4705"
+    },
+    {
+     "pt": "a lenda",
+     "de": "die Legende",
+     "ipa": "[ˈlẽdɐ]",
+     "audio": "v4706"
+    },
+    {
+     "pt": "primeiro",
+     "de": "zuerst",
+     "ipa": "[pɾiˈmɐjɾu]",
+     "audio": "v4707"
+    },
+    {
+     "pt": "entretanto",
+     "de": "inzwischen, unterdessen",
+     "ipa": "[ẽtɾɨˈtɐ̃tu]",
+     "audio": "v4708"
+    },
+    {
+     "pt": "no fim",
+     "de": "am Ende, schließlich",
+     "ipa": "[nu ˈfĩ]",
+     "audio": "v4709"
+    },
+    {
+     "pt": "o turno",
+     "de": "die Schicht (Arbeit)",
+     "ipa": "[ˈtuɾnu]",
+     "audio": "v4710"
+    },
+    {
+     "pt": "a padaria",
+     "de": "die Bäckerei",
+     "ipa": "[padɐˈɾiɐ]",
+     "audio": "v4711"
+    },
+    {
+     "pt": "a razão",
+     "de": "der Grund",
+     "ipa": "[ʁɐˈzɐ̃w̃]",
+     "audio": "v4712"
+    },
+    {
+     "pt": "a madrugada",
+     "de": "die frühen Morgenstunden",
+     "ipa": "[mɐdɾuˈgadɐ]",
+     "audio": "v4713"
+    },
+    {
+     "pt": "adormecer",
+     "de": "einschlafen",
+     "ipa": "[ɐduɾmɨˈseɾ]",
+     "audio": "v4714"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Eine Geschichte erzählen",
+   "html": "<i>(Sprachnachricht, mit Wind:)</i> Morgen seid ihr hier, und dann will ich die ganze Geschichte hören – die Panne, der Abschleppwagen, Odemira. Also heute: <b>wie man eine Geschichte erzählt</b>, mit allem, was ihr könnt.<br><br><b>Das Gerüst:</b> Perfekt für die Ereignisse (das Foto), Imperfekt für Hintergrund und Zustand (der Film). Ihr kennt das. Neu sind die <b>Wegweiser</b>, die eine Geschichte zusammenhalten:<br><i><b>Primeiro</b>…</i> – zuerst · <i><b>Depois</b>…</i> – dann · <i><b>Entretanto</b>…</i> – inzwischen · <i><b>De repente</b>…</i> – plötzlich · <i><b>Enquanto</b>…</i> – während · <i><b>No fim</b>…</i> – am Ende<br><br><b>Ein Beispiel, ganz kurz:</b> <i><b>Fazia</b> quarenta graus (Film). <b>Primeiro</b> a carrinha <b>fez</b> um barulho (Foto), <b>depois</b> <b>parou</b> (Foto). <b>Enquanto</b> <b>esperávamos</b> (Film), a Marie <b>ligou</b> ao Vasco (Foto). <b>No fim</b> <b>chegou</b> um camião amarelo.</i><br><br><b>Und die Zeitangaben:</b> <i>há duas horas · durante duas horas · desde as quatro · às seis e meia</i> – alles aus Woche 5. Jetzt könnt ihr über alles reden, was passiert ist. Nutzt es. Boa onda."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Portugiesen erzählen Geschichten mit Händen, Pausen und einem Wort, das man nicht übersetzen kann: <b>pá</b>. Es steht am Satzende, bedeutet nichts und alles – „ey“, „Mann“, „weißt du“. <i>Foi incrível, pá.</i> Man sagt es nur unter Freunden. Zweite Sache: <b>entretanto</b> klingt wie „unterdessen“, wird aber oft für „mittlerweile, inzwischen“ benutzt: <i>Entretanto o Tomás adormeceu.</i> Aussprache „entrötántu“. Und wer eine Geschichte zu Ende erzählt hat, sagt: <i>E pronto.</i> – „Und das war’s.“"
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Porque é que estás sempre cansado?",
+   "hint": "Selbst erschlossen: toda a gente = alle · Foi assim que… = So habe ich … · mais ninguém = sonst niemand · onde posso = wo ich kann · a única coisa = das Einzige · perceber de = sich auskennen mit. Tomás schläft schon, mit dem Hammer in der Hand.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "João, posso fazer-te uma pergunta que toda a gente quer fazer há um ano?",
+     "audio": "d4701"
+    },
+    {
+     "who": "João",
+     "pt": "Porque é que estou sempre cansado.",
+     "audio": "d4702"
+    },
+    {
+     "who": "Marie",
+     "pt": "Sim.",
+     "audio": "d4703"
+    },
+    {
+     "who": "João",
+     "pt": "Trabalho numa padaria. A do meu tio. Das quatro da manhã às nove. Desde os dezassete anos.",
+     "audio": "d4704"
+    },
+    {
+     "who": "Ana",
+     "pt": "O QUÊ? Todos os dias?",
+     "audio": "d4705"
+    },
+    {
+     "who": "João",
+     "pt": "Seis dias por semana. Primeiro só ao sábado, depois todos os dias. Foi assim que paguei a universidade. E a carrinha. E os catorze pastéis de nata.",
+     "audio": "d4706"
+    },
+    {
+     "who": "Marie",
+     "pt": "E nunca disseste nada?",
+     "audio": "d4707"
+    },
+    {
+     "who": "João",
+     "pt": "A Inês sabia. Mais ninguém. Não é interessante. Acordo às três e meia, faço pão, vou às aulas, durmo onde posso.",
+     "audio": "d4708"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não é interessante?! É a coisa mais interessante que já disseste!",
+     "audio": "d4709"
+    },
+    {
+     "who": "João",
+     "pt": "Então agora sabem. Entretanto o Tomás adormeceu com o martelo na mão outra vez.",
+     "audio": "d4710"
+    },
+    {
+     "who": "Marie",
+     "pt": "João. O pão que compraste em Lagos, no ano passado. Ainda me lembro.",
+     "audio": "d4711"
+    },
+    {
+     "who": "João",
+     "pt": "Era bom, não era? Eu percebo de pão. É a única coisa de que percebo.",
+     "audio": "d4712"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Wegweiser einsetzen",
+   "items": [
+    {
+     "q": "___ (zuerst) a carrinha fez um barulho.",
+     "a": "Primeiro"
+    },
+    {
+     "q": "___ (dann) parou.",
+     "a": "Depois"
+    },
+    {
+     "q": "___ (während) esperávamos, a Marie ligou ao Vasco.",
+     "a": "Enquanto"
+    },
+    {
+     "q": "___ (inzwischen) o Tomás adormeceu.",
+     "a": "Entretanto"
+    },
+    {
+     "q": "___ (am Ende) chegou um camião amarelo.",
+     "a": "No fim"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Foto oder Film? (antippen)",
+   "items": [
+    {
+     "q": "___ quarenta graus. (fazer)",
+     "opts": [
+      "Fazia",
+      "Fez"
+     ],
+     "a": "Fazia – Hintergrund → Imperfekt"
+    },
+    {
+     "q": "De repente a carrinha ___. (parar)",
+     "opts": [
+      "parou",
+      "parava"
+     ],
+     "a": "parou – Ereignis → Perfekt"
+    },
+    {
+     "q": "Enquanto ___, a Marie ligou ao Vasco. (esperar, nós)",
+     "opts": [
+      "esperávamos",
+      "esperámos"
+     ],
+     "a": "esperávamos – nach enquanto → Imperfekt"
+    },
+    {
+     "q": "No fim ___ um camião. (chegar)",
+     "opts": [
+      "chegou",
+      "chegava"
+     ],
+     "a": "chegou – Ereignis"
+    },
+    {
+     "q": "O João ___ numa padaria desde os dezassete anos. (trabalhar – bis heute)",
+     "opts": [
+      "trabalha",
+      "trabalhou"
+     ],
+     "a": "trabalha – bis heute → Präsens mit desde"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Zuerst fuhren wir, dann blieben wir stehen.",
+     "satz": "Primeiro andámos, depois parámos.",
+     "a": "Primeiro andámos, depois parámos."
+    },
+    {
+     "q": "Ich arbeite in einer Bäckerei, seit ich siebzehn bin.",
+     "satz": "Trabalho numa padaria desde os dezassete anos.",
+     "a": "Trabalho numa padaria desde os dezassete anos."
+    },
+    {
+     "q": "Inzwischen ist Tomás eingeschlafen.",
+     "satz": "Entretanto o Tomás adormeceu.",
+     "a": "Entretanto o Tomás adormeceu."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O João trabalha numa padaria desde os dezassete anos.",
+     "a": "Richtig – von vier bis neun Uhr morgens, sechs Tage die Woche."
+    },
+    {
+     "q": "Toda a gente sabia do trabalho do João.",
+     "a": "Falsch – nur Inês. „Mais ninguém.“"
+    },
+    {
+     "q": "Segundo o João, ele percebe de muitas coisas.",
+     "a": "Falsch – nur von Brot. „É a única coisa de que percebo.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "So habe ich die Universität bezahlt. → ___",
+     "a": "Foi assim que paguei a universidade."
+    },
+    {
+     "q": "Ich schlafe, wo ich kann. → ___",
+     "a": "Durmo onde posso."
+    },
+    {
+     "q": "Ich erinnere mich noch. → ___",
+     "a": "Ainda me lembro."
+    },
+    {
+     "q": "Es war gut, nicht wahr? → ___",
+     "a": "Era bom, não era?"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A história da avaria",
+   "html": "Erzähl die Panne von Tag 45 als Geschichte, laut, mindestens acht Sätze – mit den Wegweisern: <i>Fazia quarenta graus. Primeiro… Depois… Enquanto… De repente… Entretanto… No fim… E pronto.</i><br><br>Dann Joãos Geständnis, müde und ehrlich: <i>Trabalho numa padaria. Desde os dezassete anos.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A lenda da praia",
+   "audio": "s47",
+   "text": "A praia fica a dez minutos de Odemira, numa baía pequena com pedras escuras. O mecânico disse que se podia acampar «se ninguém visse». Ninguém viu.<br>Fizeram a fogueira com madeira que o mar tinha trazido. A Ana montou a tenda em sete minutos, porque a Ana faz tudo em sete minutos quando está contente. O João fez o jantar: pão, queijo, e as últimas sardinhas de lata. O Tomás comeu por dois e adormeceu por três.<br>Depois, com o fogo baixo e o céu cheio de estrelas, a Ana contou uma lenda.<br>— Nesta praia vivia um pescador que não sabia nadar. Todos os dias ia ao mar e todos os dias voltava, porque tinha medo de cair e por isso nunca caía. Um dia, uma tempestade. O barco virou. O pescador caiu à água… e descobriu que sabia nadar. Sempre soube. Só nunca tinha tentado.<br>Silêncio.<br>— E depois? — perguntou a Marie.<br>— Depois nadou até à praia, vendeu o barco e abriu um café. Fim.<br>— Isso não é uma lenda. Inventaste isso agora.<br>— Claro que inventei. Mas é verdade na mesma.<br>A Marie olhou para o fogo. Pensou em Hamburgo, no primeiro «olá», no comboio das seis, na onda número catorze. No pescador que sempre soube nadar.<br>— Vou dormir — disse o João. — Acordo às três e meia. Hábito.<br>— João, estás de férias.<br>— O corpo não sabe.<br>Às quatro da madrugada a Marie acordou com o cheiro de café. O João estava sentado junto ao fogo quase apagado, com a cafeteira, a olhar para o mar que ainda não se via.<br>— Não conseguias dormir?<br>— Consigo. Só não quero. Isto é melhor do que dormir.<br>Ficaram os dois a ver o dia nascer. Não disseram mais nada. Não era preciso.",
+   "gloss": "Neu erschließen: a baía = die Bucht · acampar = zelten · se ninguém visse = wenn niemand es sähe (eine Form für später) · a madeira = das Holz · tinha trazido = angespült hatte · montar = aufbauen · de lata = aus der Dose · o pescador = der Fischer · a tempestade = der Sturm · virar = kentern · sempre soube = er wusste es immer (saber) · tinha tentado = hatte versucht · inventar = erfinden · na mesma = trotzdem · o hábito = die Gewohnheit · o cheiro = der Geruch · a cafeteira = die Kaffeekanne · apagado = erloschen · Não era preciso = es war nicht nötig",
+   "questions": [
+    {
+     "q": "A Ana montou a tenda em sete minutos.",
+     "a": "Richtig – sie macht alles in sieben Minuten, wenn sie zufrieden ist."
+    },
+    {
+     "q": "A lenda da Ana é uma lenda antiga da praia.",
+     "a": "Falsch – sie hat sie gerade erfunden. „Mas é verdade na mesma.“"
+    },
+    {
+     "q": "O João acordou às três e meia porque não conseguia dormir.",
+     "a": "Falsch – Gewohnheit. „Consigo. Só não quero. Isto é melhor do que dormir.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt eine ganze Geschichte erzählen – mit Foto und Film und den Wegweisern <b>primeiro, depois, entretanto, no fim</b>. João hat sein Geheimnis verraten, Ana eine Legende erfunden. Morgen ruft Inês an, und du lernst die Form für Hoffnungen: <b>Espero que cheguem bem.</b>"
+  }
+ ]
+}

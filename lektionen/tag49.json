@@ -1,0 +1,285 @@
+{
+ "id": "tag49",
+ "title": "Revisão VI – Wochentest",
+ "subtitle": "Staffel 2 · Woche 7 · Tag 49 · Mini-Test · 50 Punkte · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen, dann prüfen und Punkte zählen – ohne Nachschauen. Woche 7 war die Woche der Straße: Pronomen nach Präpositionen, Superlativ, Pannen im Perfekt, Schilder mit se, Zahlen bis tausend, Erzählen und der Konjunktiv. Notier dir die Punkte pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Bevor du anfängst: Erzähl dir die Reise von Lissabon bis Sagres in zwei Minuten laut, mit allen Wegweisern (<i>primeiro, depois, entretanto, no fim</i>). Wenn du dabei <i>tivemos de</i>, <i>o mais quente</i> und <i>arranja-se</i> benutzt hast, ist der Test schon halb bestanden. <i>Que corra bem!</i>"
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln aus Woche 7 (10 P.)",
+   "items": [
+    {
+     "q": "der Kofferraum (EP)",
+     "a": "a bagageira"
+    },
+    {
+     "q": "der Führerschein",
+     "a": "a carta de condução"
+    },
+    {
+     "q": "die Korkeiche",
+     "a": "o sobreiro"
+    },
+    {
+     "q": "die Panne",
+     "a": "a avaria"
+    },
+    {
+     "q": "der Abschleppwagen",
+     "a": "o reboque"
+    },
+    {
+     "q": "die Werkstatt",
+     "a": "a oficina"
+    },
+    {
+     "q": "der Kostenvoranschlag",
+     "a": "o orçamento"
+    },
+    {
+     "q": "das Lagerfeuer",
+     "a": "a fogueira"
+    },
+    {
+     "q": "hoffentlich",
+     "a": "oxalá"
+    },
+    {
+     "q": "Viel Glück!",
+     "a": "Boa sorte!"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · mim, ti, comigo, connosco (6 P.)",
+   "items": [
+    {
+     "q": "Kommst du mit mir? → Vens ___?",
+     "a": "comigo"
+    },
+    {
+     "q": "Das ist für dich. → Isto é para ___.",
+     "a": "ti"
+    },
+    {
+     "q": "Ohne mich! → Sem ___!",
+     "a": "mim"
+    },
+    {
+     "q": "Er fährt mit uns. → Ele vai ___.",
+     "a": "connosco"
+    },
+    {
+     "q": "Ich gehe mit dir. → Vou ___.",
+     "a": "contigo"
+    },
+    {
+     "q": "Sie reden von ihr. → Falam ___. (de + ela)",
+     "a": "dela"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Superlativ und -íssimo (6 P.)",
+   "items": [
+    {
+     "q": "der schönste Ort: o sítio ___ ___",
+     "a": "mais bonito"
+    },
+    {
+     "q": "die älteste Carrinha: a carrinha ___ ___",
+     "a": "mais velha"
+    },
+    {
+     "q": "der beste Kuchen: o ___ bolo",
+     "a": "melhor"
+    },
+    {
+     "q": "die größte Stadt: a ___ cidade",
+     "a": "maior"
+    },
+    {
+     "q": "sehr heiß: ___ (quente)",
+     "a": "quentíssimo"
+    },
+    {
+     "q": "sehr teuer: ___ (caro)",
+     "a": "caríssimo"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · poder, conseguir, ter de im Perfekt (6 P.)",
+   "items": [
+    {
+     "q": "Ich konnte nicht: Não ___. (poder)",
+     "a": "pude"
+    },
+    {
+     "q": "Ich habe es geschafft: ___. (conseguir)",
+     "a": "Consegui"
+    },
+    {
+     "q": "Wir mussten anhalten: ___ parar.",
+     "a": "Tivemos de"
+    },
+    {
+     "q": "Er konnte nichts tun: Ele não ___ fazer nada. (poder)",
+     "a": "pôde"
+    },
+    {
+     "q": "Sie haben es geschafft: Eles ___. (conseguir)",
+     "a": "conseguiram"
+    },
+    {
+     "q": "Du musstest warten: ___ esperar. (ter de)",
+     "a": "Tiveste de"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Schilder und Zahlen (7 P.)",
+   "items": [
+    {
+     "q": "Zimmer zu vermieten: ___ quarto.",
+     "a": "Aluga-se"
+    },
+    {
+     "q": "Hier spricht man Englisch: Aqui ___ inglês.",
+     "a": "fala-se"
+    },
+    {
+     "q": "Hier werden keine Reifen verkauft: Não ___ pneus.",
+     "a": "se vendem"
+    },
+    {
+     "q": "280 = ___",
+     "a": "duzentos e oitenta"
+    },
+    {
+     "q": "500 = ___",
+     "a": "quinhentos"
+    },
+    {
+     "q": "900 = ___",
+     "a": "novecentos"
+    },
+    {
+     "q": "200 Frauen: ___ mulheres",
+     "opts": [
+      "duzentas",
+      "duzentos"
+     ],
+     "a": "duzentas – weiblich"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "F · Konjunktiv (6 P.)",
+   "items": [
+    {
+     "q": "Espero que ___ (chegar, vocês) bem.",
+     "a": "cheguem"
+    },
+    {
+     "q": "Talvez ___ (chover).",
+     "a": "chova"
+    },
+    {
+     "q": "Oxalá ___ (fazer) sol.",
+     "a": "faça"
+    },
+    {
+     "q": "Espero que tu ___ (ter) cuidado.",
+     "a": "tenhas"
+    },
+    {
+     "q": "Quero que ___ (estar, tu) bem.",
+     "a": "estejas"
+    },
+    {
+     "q": "Vielleicht kommt er. (se calhar) →",
+     "opts": [
+      "Se calhar ele vem.",
+      "Se calhar ele venha."
+     ],
+     "a": "Se calhar ele vem. – se calhar ohne Konjunktiv"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "G · Lesen: Mensagem do Tomás para a avó (5 P.)",
+   "audio": "r49",
+   "text": "Olá, avó! Chegámos a Sagres. A viagem foi a melhor da minha vida.<br>Primeiro a carrinha avariou no Alentejo, a quarenta graus. Esperámos duas horas na berma. Depois veio um reboque amarelo e eu fui à frente com o senhor do reboque. Ele deixou-me tocar na buzina três vezes.<br>Em Odemira o mecânico arranjou a carrinha e deu-me a bomba de água velha. Vou levá-la para o Porto, para pôr ao lado do martelo.<br>À noite dormimos numa praia, numa tenda. A Ana contou uma lenda que inventou. O João acordou às quatro para fazer café. Ele trabalha numa padaria! Ninguém sabia.<br>Agora estamos em casa do Vasco. A Marie começa a trabalhar amanhã às seis. Eu vou ajudar. O Vasco disse que talvez eu possa dar uma aula aos miúdos pequenos. Espero que sim!<br>Beijinhos, Tomás<br>P.S.: A carrinha chegou. A Inês não acreditava.",
+   "gloss": "Erst lesen, dann anhören. Neu erschließen: a buzina = die Hupe · talvez eu possa = vielleicht darf ich · os miúdos = die Kinder (EP). Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "O Tomás foi à frente no reboque.",
+     "a": "Richtig – und durfte dreimal hupen."
+    },
+    {
+     "q": "O mecânico deu ao Tomás a bomba de água nova.",
+     "a": "Falsch – die alte. Sie kommt neben den Hammer."
+    },
+    {
+     "q": "A Ana contou uma lenda antiga.",
+     "a": "Falsch – eine erfundene."
+    },
+    {
+     "q": "O João acordou às quatro para fazer café.",
+     "a": "Richtig – er arbeitet in einer Bäckerei, niemand wusste es."
+    },
+    {
+     "q": "O Tomás vai talvez dar uma aula aos miúdos pequenos.",
+     "a": "Richtig – Vasco hat es angedeutet. „Espero que sim!“"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "H · Schreiben: A viagem (4 P.)",
+   "html": "Schreib vier Sätze über eine Reise, die schiefging – ohne Spickzettel, 1 Punkt pro korrektem Satz:<br><br>1. Was zuerst passierte (<i>Primeiro…</i>, Perfekt) · 2. Was ihr tun musstet (<i>Tivemos de…</i>) · 3. Ein Superlativ (<i>Foi o dia mais…</i>) · 4. Ein Wunsch für die nächste Reise (<i>Espero que…</i>)<br><br>Muster: <i>Primeiro a carrinha avariou. Tivemos de esperar duas horas. Foi o dia mais quente do ano. Espero que a próxima viagem corra melhor.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (50 Punkte)",
+   "html": "<b>43–50:</b> Fantástico! Du kannst eine Reise planen, überstehen und erzählen – inklusive Panne. Das ist Alltags-Portugiesisch auf A2-Niveau.<br><b>32–42:</b> Muito bem! Schau auf Teil F – der Konjunktiv ist neu und braucht Wiederholung. Lies die Dica von Tag 48 noch einmal und sag zehn Sätze mit <i>espero que</i>.<br><b>unter 32:</b> Woche 7 hatte viel Grammatik. Wiederhole Tag 45 (Perfekt der Modalverben) und Tag 48 (Konjunktiv), dann den Test noch einmal.<br><br>Letzte Woche: <b>Sagres, com responsabilidade</b> – Marie arbeitet in der Surfschule. Anweisungen geben, Kunden aus aller Welt, ein Unfall im Wasser, Vascos Geschichte. Und der Abschlusstest A2."
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: Seis da manhã",
+   "audio": "s49",
+   "text": "Seis da manhã, Praia da Mareta. O mar está liso como uma mesa, o sol ainda não saiu de trás das falésias, e a Marie está à porta da escola com um café na mão e o coração a bater como no primeiro dia de aulas.<br>O Vasco abre a porta às seis em ponto. Não diz bom dia. Diz:<br>— Vinte alunos hoje. Oito principiantes de manhã, doze à tarde. Tu ficas com os principiantes. Eu fico com os outros.<br>— Eu… dou a aula?<br>— Tu dás a aula. Em português. Eu estou ao lado, mas não falo. Se falares tu, aprendem. Se falar eu, olham para mim.<br>— Vasco, eu sou principiante!<br>— Há um ano eras. Este ano caíste catorze vezes na primeira aula e levantaste-te quinze. Isso é tudo o que um principiante precisa de saber. O resto é português.<br>A Marie olha para o mar. Depois para as oito pranchas grandes alinhadas na areia. Depois para o Tomás, que apareceu do nada com o fato de surf já vestido e uma cara de quem vai ajudar quer queiram quer não.<br>— Está bem — diz. — Mas se correr mal…<br>— Se correr mal, corrigimos amanhã. É assim que se aprende. É assim que se ensina.<br>Às oito chegam os oito. Quatro alemães, dois franceses, uma holandesa e um rapaz de Lisboa que tem medo de tudo. A Marie respira fundo, pega numa prancha, põe-na na areia e diz, alto, em português, com o sotaque de Hamburgo que nunca vai perder:<br>— Bom dia. Eu sou a Marie. Hoje vamos aprender a cair.<br>O Vasco, ao lado, não diz nada. Mas sorri. E o Tomás, atrás, bate palmas – e depois lembra-se de que não se bate palmas, e pigarreia.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: liso = glatt · a falésia = die Klippe · bater = schlagen (Herz) · em ponto = pünktlich · ficar com = übernehmen · Se falares tu = wenn du sprichst (Woche 8) · alinhado = aufgereiht · do nada = aus dem Nichts · quer queiram quer não = ob sie wollen oder nicht · Se correr mal = wenn es schiefgeht · corrigir = korrigieren · ensinar = unterrichten · a holandesa = die Niederländerin · respirar fundo = tief durchatmen · o sotaque = der Akzent",
+   "questions": [
+    {
+     "q": "O Vasco dá a aula aos principiantes e a Marie fica ao lado.",
+     "a": "Falsch – umgekehrt. Marie gibt die Stunde, auf Portugiesisch, Vasco steht daneben und schweigt."
+    },
+    {
+     "q": "Na primeira aula deste ano, a Marie caiu catorze vezes e levantou-se quinze.",
+     "a": "Richtig – „Isso é tudo o que um principiante precisa de saber.“"
+    },
+    {
+     "q": "A primeira frase da Marie como professora é «Hoje vamos aprender a surfar».",
+     "a": "Falsch – „Hoje vamos aprender a cair.“ Und Tomás klatscht, bis ihm einfällt, dass man sich räuspert."
+    }
+   ]
+  }
+ ]
+}

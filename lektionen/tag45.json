@@ -1,0 +1,360 @@
+{
+ "id": "tag45",
+ "title": "Avaria",
+ "subtitle": "Staffel 2 · Woche 7 · Tag 45 · Panne · poder, conseguir, ter de im Perfekt · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 44)",
+   "items": [
+    {
+     "q": "der schönste Ort: o sítio ___ ___",
+     "a": "mais bonito"
+    },
+    {
+     "q": "sehr heiß: ___ (quente)",
+     "a": "quentíssimo"
+    },
+    {
+     "q": "der beste Kuchen: o ___ bolo",
+     "a": "melhor"
+    },
+    {
+     "q": "die schlechteste Straße: ",
+     "opts": [
+      "a pior estrada",
+      "a mais má estrada"
+     ],
+     "a": "a pior estrada"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: A avaria (14)",
+   "items": [
+    {
+     "pt": "avariar",
+     "de": "kaputtgehen (Fahrzeug, Gerät)",
+     "ipa": "[ɐvɐɾiˈaɾ]",
+     "audio": "v4501"
+    },
+    {
+     "pt": "a avaria",
+     "de": "die Panne",
+     "ipa": "[ɐvɐˈɾiɐ]",
+     "audio": "v4502"
+    },
+    {
+     "pt": "o pneu",
+     "de": "der Reifen",
+     "ipa": "[pɨˈnew]",
+     "audio": "v4503"
+    },
+    {
+     "pt": "furar",
+     "de": "platzen, ein Loch bekommen (furou um pneu)",
+     "ipa": "[fuˈɾaɾ]",
+     "audio": "v4504"
+    },
+    {
+     "pt": "pegar",
+     "de": "anspringen (Motor); greifen",
+     "ipa": "[pɨˈgaɾ]",
+     "audio": "v4505"
+    },
+    {
+     "pt": "aquecer",
+     "de": "heiß werden, heißlaufen",
+     "ipa": "[ɐkɛˈseɾ]",
+     "audio": "v4506"
+    },
+    {
+     "pt": "o reboque",
+     "de": "der Abschleppwagen",
+     "ipa": "[ʁɨˈbɔkɨ]",
+     "audio": "v4507"
+    },
+    {
+     "pt": "a oficina",
+     "de": "die Werkstatt",
+     "ipa": "[ɔfiˈsinɐ]",
+     "audio": "v4508"
+    },
+    {
+     "pt": "o mecânico",
+     "de": "der Mechaniker",
+     "ipa": "[mɨˈkɐniku]",
+     "audio": "v4509"
+    },
+    {
+     "pt": "o seguro",
+     "de": "die Versicherung",
+     "ipa": "[sɨˈguɾu]",
+     "audio": "v4510"
+    },
+    {
+     "pt": "a berma",
+     "de": "der Seitenstreifen",
+     "ipa": "[ˈbɛɾmɐ]",
+     "audio": "v4511"
+    },
+    {
+     "pt": "o colete",
+     "de": "die Warnweste",
+     "ipa": "[kuˈletɨ]",
+     "audio": "v4512"
+    },
+    {
+     "pt": "o triângulo",
+     "de": "das Warndreieck",
+     "ipa": "[tɾiˈɐ̃gulu]",
+     "audio": "v4513"
+    },
+    {
+     "pt": "ter de",
+     "de": "müssen",
+     "ipa": "[teɾ dɨ]",
+     "audio": "v4514"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Konnte, schaffte, musste",
+   "html": "<i>(Sprachnachricht, mit Lachen:)</i> Die Carrinha des Onkels? Die kenne ich. Sie hatte 2019 hier in Sagres eine Panne. Also heute die Verben, die man bei einer Panne braucht – im <b>Perfekt</b>:<br><br><b>poder</b> (können, dürfen): <i><b>pude</b> · <b>pudeste</b> · <b>pôde</b> · <b>pudemos</b> · <b>puderam</b></i> – <i>Não <b>pude</b> fazer nada.</i><br><b>conseguir</b> (schaffen): regelmäßig! <i><b>consegui</b> · conseguiste · conseguiu · conseguimos · conseguiram</i> – <i>Não <b>consegui</b> renovar o seguro.</i><br><b>ter de</b> (müssen): <i><b>tive de</b> · tiveste de · teve de · tivemos de · tiveram de</i> – <i><b>Tivemos de</b> parar.</i><br><br><b>Der Unterschied</b>: <i>pude</i> = ich konnte (es war möglich/erlaubt) · <i>consegui</i> = ich habe es geschafft (es war schwer) · <i>tive de</i> = ich musste. In Portugal sagt man <b>ter de</b>, nicht „ter que“ – das ist Brasilien.<br><br><b>Was kaputt sein kann:</b> <i>A carrinha não <b>pega</b>. · O motor <b>aqueceu</b>. · <b>Furou</b> um pneu. · Ficámos <b>sem gasóleo</b>. · O motor está a <b>deitar fumo</b>.</i><br><br><b>Und dann:</b> <i>Ligar ao seguro. Pôr o colete. Pôr o triângulo. Esperar na berma.</i> Boa onda – e boa sorte."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "In Portugal ist die <b>Warnweste</b> Pflicht, und zwar so, dass man sie anziehen kann, bevor man aussteigt – also nicht im Kofferraum. Das Warndreieck kommt 30 Meter hinter das Auto. Wer liegen bleibt, ruft die Versicherung: fast alle haben <b>assistência em viagem</b>, den Pannendienst, inklusive. Wer sie nicht verlängert hat, ruft einen <b>reboque</b> und zahlt. Aussprache: <i>pneu</i> = „pnéu“ mit stummem e dazwischen, fast „p-néu“. Und <i>avaria</i> = „avaría“ – das Wort, das man nie sagen will."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Não pega",
+   "hint": "Selbst erschlossen: à primeira = beim ersten Versuch · Saiam! = Raus (mit euch)! · tentar = versuchen · o miúdo = der Junge (EP) · renovar = verlängern · deu-mo = hat sie mir gegeben (deu + me + o = mo, nur zum Wiedererkennen) · em segurança = in Sicherheit · Puseram? = Habt ihr aufgestellt? (pôr). Der Pannendienst ist ein Mann aus Odemira.",
+   "lines": [
+    {
+     "who": "João",
+     "pt": "Não pega. Não pega! Ontem pegou à primeira.",
+     "audio": "d4501"
+    },
+    {
+     "who": "Ana",
+     "pt": "Ontem também estava a fazer um barulho estranho. Eu disse-te.",
+     "audio": "d4502"
+    },
+    {
+     "who": "Marie",
+     "pt": "O motor está a deitar fumo. Saiam todos. Já!",
+     "audio": "d4503"
+    },
+    {
+     "who": "João",
+     "pt": "Calma. Aqueceu. Só aqueceu. Esperamos dez minutos e tentamos outra vez.",
+     "audio": "d4504"
+    },
+    {
+     "who": "Ana",
+     "pt": "Estamos na berma de uma estrada no Alentejo, a quarenta graus, com um miúdo de treze anos. Não vamos esperar. Liga ao seguro.",
+     "audio": "d4505"
+    },
+    {
+     "who": "João",
+     "pt": "… Não consegui renovar o seguro. Tentei, mas o site não funcionava.",
+     "audio": "d4506"
+    },
+    {
+     "who": "Marie",
+     "pt": "João!",
+     "audio": "d4507"
+    },
+    {
+     "who": "João",
+     "pt": "Mas tenho o número de um reboque. O meu tio deu-mo.",
+     "audio": "d4508"
+    },
+    {
+     "who": "Operador",
+     "pt": "Reboques Odemira, boa tarde.",
+     "audio": "d4509"
+    },
+    {
+     "who": "João",
+     "pt": "Boa tarde. Tivemos uma avaria na estrada de Milfontes para a Zambujeira. O motor aqueceu e agora não pega.",
+     "audio": "d4510"
+    },
+    {
+     "who": "Operador",
+     "pt": "Estão em segurança? Puseram o triângulo?",
+     "audio": "d4511"
+    },
+    {
+     "who": "João",
+     "pt": "Sim. Colete, triângulo, e três pessoas zangadas comigo. Podem vir?",
+     "audio": "d4512"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · poder, conseguir, ter de im Perfekt",
+   "items": [
+    {
+     "q": "Eu não ___ (conseguir) renovar o seguro.",
+     "a": "consegui"
+    },
+    {
+     "q": "Nós ___ (ter de) parar.",
+     "a": "tivemos de"
+    },
+    {
+     "q": "Tu ___ (poder) ligar? (Perfekt)",
+     "a": "pudeste"
+    },
+    {
+     "q": "Ele não ___ (poder) fazer nada.",
+     "a": "pôde"
+    },
+    {
+     "q": "Eles ___ (conseguir) chegar a Sagres.",
+     "a": "conseguiram"
+    },
+    {
+     "q": "Eu ___ (ter de) esperar na berma.",
+     "a": "tive de"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Was ist passiert? (antippen)",
+   "items": [
+    {
+     "q": "Der Motor ist heißgelaufen. →",
+     "opts": [
+      "O motor aqueceu.",
+      "O motor arrefeceu."
+     ],
+     "a": "O motor aqueceu. – arrefecer wäre abkühlen"
+    },
+    {
+     "q": "Ein Reifen ist geplatzt. →",
+     "opts": [
+      "Furou um pneu.",
+      "Furou um motor."
+     ],
+     "a": "Furou um pneu."
+    },
+    {
+     "q": "Der Wagen springt nicht an. →",
+     "opts": [
+      "A carrinha não pega.",
+      "A carrinha não pergunta."
+     ],
+     "a": "A carrinha não pega."
+    },
+    {
+     "q": "Wir haben keinen Diesel mehr. →",
+     "opts": [
+      "Ficámos sem gasóleo.",
+      "Ficámos com gasóleo."
+     ],
+     "a": "Ficámos sem gasóleo. – ficar sem = nicht mehr haben"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Wir hatten eine Panne auf der Straße nach Zambujeira.",
+     "satz": "Tivemos uma avaria na estrada para a Zambujeira.",
+     "a": "Tivemos uma avaria na estrada para a Zambujeira."
+    },
+    {
+     "q": "Ich konnte die Versicherung nicht verlängern.",
+     "satz": "Não consegui renovar o seguro.",
+     "a": "Não consegui renovar o seguro."
+    },
+    {
+     "q": "Habt ihr das Warndreieck aufgestellt?",
+     "satz": "Puseram o triângulo?",
+     "a": "Puseram o triângulo?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A carrinha pegou à primeira hoje.",
+     "a": "Falsch – gestern ja, heute nicht. Der Motor ist heißgelaufen."
+    },
+    {
+     "q": "O João renovou o seguro antes da viagem.",
+     "a": "Falsch – er hat es versucht, die Website ging nicht. Dafür hat er die Nummer eines Abschleppdienstes."
+    },
+    {
+     "q": "O grupo pôs o colete e o triângulo.",
+     "a": "Richtig – „Colete, triângulo, e três pessoas zangadas comigo.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Der Wagen springt nicht an. → ___",
+     "a": "A carrinha não pega. / O carro não pega."
+    },
+    {
+     "q": "Wir mussten anhalten. → ___",
+     "a": "Tivemos de parar."
+    },
+    {
+     "q": "Ich habe es nicht geschafft. → ___",
+     "a": "Não consegui."
+    },
+    {
+     "q": "Rufen Sie einen Abschleppwagen? → ___",
+     "a": "Chama um reboque? / Pode chamar um reboque?"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Ligar ao seguro",
+   "html": "Du stehst auf dem Seitenstreifen und rufst an. Sechs Sätze: <i>Boa tarde, tivemos uma avaria… Estamos na estrada de… O motor… Não pega. Pusemos o triângulo. Podem vir?</i><br><br>Dann die drei Verben im Rückblick, laut: <i>Não pude. Não consegui. Tive de esperar.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Quarenta graus",
+   "audio": "s45",
+   "text": "O reboque demorou duas horas. Duas horas na berma, a quarenta graus, com uma garrafa de cinco litros de água que a Inês tinha posto no banco de trás «para o motor, não para vocês». Beberam-na toda. O motor não bebeu nada.<br>O Tomás encontrou o único sobreiro com sombra num raio de um quilómetro e sentou-se debaixo dele com o martelo, como um rei pequeno. A Ana sentou-se ao lado dele e não disse nada durante uma hora, o que para o João foi pior do que qualquer discussão.<br>A Marie ligou ao Vasco.<br>— A carrinha do tio do João? — O Vasco riu tanto que a Marie afastou o telemóvel da orelha. — Já a conheço. Avariou aqui em Sagres em 2019. Na mesma curva onde avaria toda a gente.<br>— Não estamos em Sagres. Estamos no meio do nada.<br>— O meio do nada é o Alentejo inteiro. Onde exatamente?<br>A Marie disse. O Vasco ficou calado dois segundos.<br>— Conheço o homem do reboque. Vou ligar-lhe.<br>Às seis e meia da tarde chegou um camião amarelo, velho como a carrinha, com um homem grande e calmo ao volante.<br>— Vocês são os de Lisboa? O Vasco ligou-me. Disse que eram os amigos dele e que eu não devia rir. — Olhou para a carrinha. — Vou tentar.<br>Riu-se na mesma. Depois prendeu a carrinha ao camião, abriu a porta de trás e disse:<br>— Cabem quatro. O miúdo vai à frente comigo.<br>O Tomás nunca foi tão feliz.",
+   "gloss": "Neu erschließen: tinha posto = hingestellt hatte · beberam-na = sie tranken es · num raio de = im Umkreis von · o rei = der König · afastar = wegnehmen, entfernen · a orelha = das Ohr · toda a gente = alle · no meio do nada = mitten im Nirgendwo · o camião = der Lastwagen · ao volante = am Steuer · não devia rir = solle nicht lachen · prender = befestigen · Cabem quatro = es passen vier rein",
+   "questions": [
+    {
+     "q": "O reboque chegou em dez minutos.",
+     "a": "Falsch – nach zwei Stunden bei vierzig Grad."
+    },
+    {
+     "q": "O Vasco conhece a carrinha.",
+     "a": "Richtig – sie hatte 2019 in Sagres eine Panne, „na mesma curva onde avaria toda a gente“."
+    },
+    {
+     "q": "O Tomás vai à frente no camião do reboque.",
+     "a": "Richtig – „O Tomás nunca foi tão feliz.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt eine Panne beschreiben (<b>não pega, aqueceu, furou</b>) und im Perfekt sagen, was du konntest, geschafft hast und musstest (<b>pude, consegui, tive de</b>). Der Abschleppwagen fährt nach Odemira. Morgen in der Werkstatt: <b>Arranja-se tudo. A questão é o preço.</b> Und Zahlen bis tausend."
+  }
+ ]
+}

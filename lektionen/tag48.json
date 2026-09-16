@@ -1,0 +1,365 @@
+{
+ "id": "tag48",
+ "title": "Espero que cheguem bem",
+ "subtitle": "Staffel 2 · Woche 7 · Tag 48 · Hoffen und wünschen · Konjunktiv nach espero que, talvez · Hörverstehen · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 47)",
+   "items": [
+    {
+     "q": "zuerst / dann / am Ende: ___ / depois / ___",
+     "a": "Primeiro / no fim"
+    },
+    {
+     "q": "Es war vierzig Grad (Hintergrund): ___ quarenta graus.",
+     "opts": [
+      "Fazia",
+      "Fez"
+     ],
+     "a": "Fazia"
+    },
+    {
+     "q": "Inzwischen ist er eingeschlafen: ___ adormeceu.",
+     "a": "Entretanto"
+    },
+    {
+     "q": "die Bäckerei: a ___",
+     "a": "padaria"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Desejos (14)",
+   "items": [
+    {
+     "pt": "esperar que",
+     "de": "hoffen, dass",
+     "ipa": "[ɨʃpɨˈɾaɾ kɨ]",
+     "audio": "v4801"
+    },
+    {
+     "pt": "talvez",
+     "de": "vielleicht (+ Konjunktiv)",
+     "ipa": "[taɫˈveʃ]",
+     "audio": "v4802"
+    },
+    {
+     "pt": "oxalá",
+     "de": "hoffentlich",
+     "ipa": "[ɔʃɐˈla]",
+     "audio": "v4803"
+    },
+    {
+     "pt": "desejar",
+     "de": "wünschen",
+     "ipa": "[dɨzɨˈʒaɾ]",
+     "audio": "v4804"
+    },
+    {
+     "pt": "ter cuidado",
+     "de": "vorsichtig sein, aufpassen",
+     "ipa": "[teɾ kujˈdadu]",
+     "audio": "v4805"
+    },
+    {
+     "pt": "a sorte",
+     "de": "das Glück (Fortune)",
+     "ipa": "[ˈsɔɾtɨ]",
+     "audio": "v4806"
+    },
+    {
+     "pt": "Boa sorte!",
+     "de": "Viel Glück!",
+     "ipa": "[ˈboɐ ˈsɔɾtɨ]",
+     "audio": "v4807"
+    },
+    {
+     "pt": "Que corra bem!",
+     "de": "Viel Erfolg! (wörtl.: Möge es gut laufen)",
+     "ipa": "[kɨ ˈkoʁɐ ˈbɐ̃j̃]",
+     "audio": "v4808"
+    },
+    {
+     "pt": "a preocupação",
+     "de": "die Sorge",
+     "ipa": "[pɾiɔkupɐˈsɐ̃w̃]",
+     "audio": "v4809"
+    },
+    {
+     "pt": "a etapa",
+     "de": "die Etappe",
+     "ipa": "[iˈtapɐ]",
+     "audio": "v4810"
+    },
+    {
+     "pt": "o destino",
+     "de": "das Ziel, das Reiseziel; das Schicksal",
+     "ipa": "[dɨʃˈtinu]",
+     "audio": "v4811"
+    },
+    {
+     "pt": "a despedida",
+     "de": "der Abschied",
+     "ipa": "[dɨʃpɨˈdidɐ]",
+     "audio": "v4812"
+    },
+    {
+     "pt": "o beijinho",
+     "de": "das Küsschen (Gruß)",
+     "ipa": "[bɐjˈʒiɲu]",
+     "audio": "v4813"
+    },
+    {
+     "pt": "cumprir",
+     "de": "halten (ein Versprechen), erfüllen",
+     "ipa": "[kũˈpɾiɾ]",
+     "audio": "v4814"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Ich hoffe, dass ihr ankommt",
+   "html": "<i>(Sprachnachricht:)</i> Heute die Form, mit der Portugiesen hoffen, wünschen und zweifeln – der <b>Konjunktiv</b> (<i>conjuntivo</i>). Klingt groß, ist klein: Ihr kennt ihn schon! Es sind die Formen vom verneinten Befehl aus Woche 6.<br><br><b>Die Form:</b> -ar-Verben bekommen <b>-e</b>, -er/-ir-Verben bekommen <b>-a</b>:<br><i>chegar → que eu chegu<b>e</b>, tu chegu<b>es</b>, ele chegu<b>e</b>, nós chegu<b>emos</b>, eles chegu<b>em</b></i><br><i>partir → que eu part<b>a</b>, tu part<b>as</b>, ele part<b>a</b>, nós part<b>amos</b>, eles part<b>am</b></i><br><b>Die Unregelmäßigen</b> kennt ihr von <i>Não faças!</i>: <i>ser → seja · estar → esteja · ter → tenha · ir → vá · fazer → faça · poder → possa · vir → venha · dar → dê · saber → saiba</i><br><br><b>Wann?</b> Nach Wörtern, die einen Wunsch oder Zweifel ausdrücken:<br><i><b>Espero que</b> cheguem bem.</i> – Ich hoffe, dass ihr gut ankommt.<br><i><b>Talvez</b> a carrinha aguente.</i> – Vielleicht hält der Van durch.<br><i><b>Oxalá</b> faça sol.</i> – Hoffentlich scheint die Sonne.<br><i><b>Quero que</b> tenhas cuidado.</i> – Ich will, dass du aufpasst.<br><br><b>Merkt euch:</b> <i>talvez</i> zieht den Konjunktiv nach sich, <i>se calhar</i> nicht (<i>Se calhar chove. / Talvez chova.</i>) – deshalb sagt man im Gespräch lieber <i>se calhar</i>. Und <i>oxalá</i> kommt aus dem Arabischen, „so Gott will“. Boa onda – und bis morgen. Wirklich morgen."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Zwei Sätze, die du bei jedem Abschied brauchst: <b>Boa sorte!</b> (Viel Glück) und <b>Que corra bem!</b> (Viel Erfolg, wörtlich „möge es gut laufen“ – da steckt schon der Konjunktiv drin). Und am Ende jeder Nachricht unter Freunden: <b>Beijinhos</b> – Küsschen, auch von Männern an Männer, das ist normal. Aussprache: <i>oxalá</i> = „oschalá“, Betonung hinten. <i>Espero que</i> = „schpéru kö“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A chamada da Inês",
+   "hint": "Selbst erschlossen: vivos = am Leben · Já é qualquer coisa = das ist immerhin etwas · aguentar = durchhalten · Passa-me = gib mir (ans Telefon) · Quando chegares = wenn du ankommst (Woche 8) · manda = schick · dever um jantar = ein Abendessen schulden · com sono = müde, schläfrig. Ana ist am Strand mit Tomás – deshalb nur Marie und João am Telefon.",
+   "lines": [
+    {
+     "who": "Inês",
+     "pt": "Está? Marie? Ainda estão vivos?",
+     "audio": "d4801"
+    },
+    {
+     "who": "Marie",
+     "pt": "Estamos. A carrinha está arranjada. Custou trezentos e sessenta.",
+     "audio": "d4802"
+    },
+    {
+     "who": "Inês",
+     "pt": "Eu disse que não chegava a Leiria. Chegou a Odemira. Já é qualquer coisa. E agora?",
+     "audio": "d4803"
+    },
+    {
+     "who": "Marie",
+     "pt": "Agora Sagres. Duas horas, diz o João.",
+     "audio": "d4804"
+    },
+    {
+     "who": "Inês",
+     "pt": "O João diz muita coisa. Espero que cheguem antes da noite. Talvez a carrinha aguente. Oxalá.",
+     "audio": "d4805"
+    },
+    {
+     "who": "João",
+     "pt": "Ouvi isso! A carrinha aguenta!",
+     "audio": "d4806"
+    },
+    {
+     "who": "Inês",
+     "pt": "Espero que sim, irmão. E espero que tenhas cuidado nas curvas. Passa-me a Marie outra vez.",
+     "audio": "d4807"
+    },
+    {
+     "who": "Marie",
+     "pt": "Estou.",
+     "audio": "d4808"
+    },
+    {
+     "who": "Inês",
+     "pt": "Marie, uma coisa. Quando chegares a Sagres, manda uma foto. E diz ao Vasco que a irmã do João pergunta se ele ainda deve um jantar à família.",
+     "audio": "d4809"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ele deve?",
+     "audio": "d4810"
+    },
+    {
+     "who": "Inês",
+     "pt": "Desde 2019. Boa sorte. Que corra bem. E não deixes o João conduzir com sono.",
+     "audio": "d4811"
+    },
+    {
+     "who": "Marie",
+     "pt": "Prometo. Beijinhos, doutora.",
+     "audio": "d4812"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Den Konjunktiv bilden",
+   "items": [
+    {
+     "q": "Espero que a carrinha ___ (chegar).",
+     "a": "chegue"
+    },
+    {
+     "q": "Talvez o João ___ (conduzir) devagar.",
+     "a": "conduza"
+    },
+    {
+     "q": "Oxalá ___ (fazer) sol amanhã.",
+     "a": "faça"
+    },
+    {
+     "q": "Espero que tu ___ (ter) cuidado.",
+     "a": "tenhas"
+    },
+    {
+     "q": "Talvez ele ___ (ir) connosco.",
+     "a": "vá"
+    },
+    {
+     "q": "Espero que ___ (estar, tu) bem.",
+     "a": "estejas"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Konjunktiv oder nicht? (antippen)",
+   "items": [
+    {
+     "q": "Ich hoffe, dass du kommst. →",
+     "opts": [
+      "Espero que venhas.",
+      "Espero que vens."
+     ],
+     "a": "Espero que venhas. – nach espero que: Konjunktiv"
+    },
+    {
+     "q": "Vielleicht regnet es. (talvez) →",
+     "opts": [
+      "Talvez chova.",
+      "Talvez chove."
+     ],
+     "a": "Talvez chova. – talvez zieht den Konjunktiv nach sich"
+    },
+    {
+     "q": "Vielleicht regnet es. (se calhar) →",
+     "opts": [
+      "Se calhar chove.",
+      "Se calhar chova."
+     ],
+     "a": "Se calhar chove. – se calhar bleibt beim normalen Präsens"
+    },
+    {
+     "q": "Hoffentlich! →",
+     "opts": [
+      "Oxalá!",
+      "Talvez!"
+     ],
+     "a": "Oxalá! – hoffentlich"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Ich hoffe, dass ihr vor der Nacht ankommt.",
+     "satz": "Espero que cheguem antes da noite.",
+     "a": "Espero que cheguem antes da noite."
+    },
+    {
+     "q": "Vielleicht hält der Van durch.",
+     "satz": "Talvez a carrinha aguente.",
+     "a": "Talvez a carrinha aguente."
+    },
+    {
+     "q": "Lass João nicht müde fahren.",
+     "satz": "Não deixes o João conduzir com sono.",
+     "a": "Não deixes o João conduzir com sono."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Inês tinha dito que a carrinha não chegava a Leiria.",
+     "a": "Richtig – sie kam bis Odemira. „Já é qualquer coisa.“"
+    },
+    {
+     "q": "Segundo a Inês, o Vasco deve um jantar à família desde 2019.",
+     "a": "Richtig – Marie soll ihn daran erinnern."
+    },
+    {
+     "q": "A Inês diz que o João pode conduzir com sono.",
+     "a": "Falsch – „não deixes o João conduzir com sono“."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Viel Glück! → ___",
+     "a": "Boa sorte!"
+    },
+    {
+     "q": "Ich hoffe, es geht dir gut. → ___",
+     "a": "Espero que estejas bem."
+    },
+    {
+     "q": "Hoffentlich scheint die Sonne. → ___",
+     "a": "Oxalá faça sol."
+    },
+    {
+     "q": "Pass auf dich auf. → ___",
+     "a": "Tem cuidado."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Desejos para a viagem",
+   "html": "Sechs Wünsche für jemanden, der eine Reise macht – jeder mit Konjunktiv: <i>Espero que… Talvez… Oxalá… Quero que… Espero que tenhas… Que corra bem!</i><br><br>Dann Inês’ Abschied, schnell und direkt wie sie: <i>Boa sorte. Que corra bem. E não deixes o João conduzir com sono.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Hörverstehen: A última etapa",
+   "audio": "s48",
+   "listen": true,
+   "text": "A carrinha ficou pronta às cinco, como o mecânico tinha prometido. Custou trezentos e sessenta euros e uma bomba de água velha, que agora viaja no colo do Tomás como um animal de estimação.<br>De Odemira a Sagres são cento e vinte quilómetros. Duas horas para um carro normal. Para a carrinha, o João prometeu três. Ninguém acreditou.<br>A estrada desce pela costa, sempre com o mar à direita. O sol começa a baixar. A Ana dorme, a Marie olha pelo mapa sem olhar para o mapa, e o Tomás conta os quilómetros em voz alta, de dez em dez.<br>— Setenta. Oitenta. Noventa…<br>Em Vila do Bispo, a doze quilómetros do fim, a carrinha faz o barulho. O barulho estranho. Todos ficam calados. O João não trava, não acelera, só fala com ela, baixinho:<br>— Não. Agora não. Mais doze. Só mais doze.<br>A carrinha pensa. E continua.<br>Às sete e vinte da tarde, com o céu cor de laranja e o vento a cheirar a sal, passam a placa: SAGRES. O Tomás grita tanto que a Ana acorda com o martelo na mão.<br>A escola de surf fica na estrada da Mareta, uma casa branca com pranchas à porta e uma bandeira azul. Em frente, com os braços cruzados e um sorriso que se vê de longe, está o Vasco.<br>A carrinha para. O motor faz um último barulho e desliga-se sozinho.<br>— Chegaram — diz o Vasco. — Três horas. Bem calculado, João.<br>— Eu sei de carrinhas.<br>— Tu sabes de pão. — O Vasco olha para a Marie. — Amanhã às seis. Trabalho.<br>— Às seis?<br>— Às seis. A época alta não espera. Bem-vinda a casa, Marie.<br>E a Marie percebe, com a bomba de água do Tomás ao lado, o cheiro do mar e as pernas a tremer da viagem, que desta vez não veio de férias.",
+   "gloss": "Erst hören (zweimal), dann die Fragen, dann lesen. Neu erschließen: tinha prometido = versprochen hatte · o animal de estimação = das Haustier · baixar = sinken · de dez em dez = in Zehnerschritten · Vila do Bispo = letztes Dorf vor Sagres · travar = bremsen · acelerar = Gas geben · a placa = das Ortsschild · a bandeira = die Fahne · de braços cruzados = mit verschränkten Armen · desligar-se = sich ausschalten · calculado = berechnet · Bem-vinda a casa = Willkommen zu Hause · de férias = im Urlaub",
+   "questions": [
+    {
+     "q": "A viagem de Odemira a Sagres demorou duas horas.",
+     "a": "Falsch – drei, wie João versprochen hatte. Vasco: „Bem calculado.“"
+    },
+    {
+     "q": "Em Vila do Bispo a carrinha parou.",
+     "a": "Falsch – sie machte das seltsame Geräusch, aber fuhr weiter. João redete leise mit ihr."
+    },
+    {
+     "q": "O Vasco espera o grupo em frente da escola.",
+     "a": "Richtig – mit verschränkten Armen und einem Lächeln, das man von weitem sieht."
+    },
+    {
+     "q": "A Marie começa a trabalhar amanhã às seis.",
+     "a": "Richtig – „A época alta não espera.“ Diesmal ist sie nicht im Urlaub."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt hoffen, wünschen und zweifeln (<b>espero que, talvez, oxalá</b> + Konjunktiv) – die Form, die jedes „Ich hoffe, dass…“ braucht. Und ihr seid in Sagres. Morgen: <b>Revisão VI</b>, der Wochentest. Danach beginnt die letzte Woche: Marie arbeitet."
+  }
+ ]
+}

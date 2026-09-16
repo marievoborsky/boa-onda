@@ -21,6 +21,13 @@
   "fact": "Der Name „Portugal“ kommt vom römischen Portus Cale – dem heutigen Porto."
  },
  {
+  "id": "coimbra",
+  "title": "Coimbra – die Stadt der Studenten",
+  "meta": "Orte · Anas neue Heimat",
+  "html": "<b>Coimbra</b> liegt am Mondego, genau zwischen Porto und Lissabon – und war im Mittelalter die Hauptstadt Portugals. Heute ist die Stadt vor allem eines: ihre <b>Universität</b>. Gegründet 1290, seit 1537 auf dem Hügel über dem Fluss, seit 2013 UNESCO-Welterbe. Rund 25.000 Studierende auf 140.000 Einwohner – man merkt es an jeder Straßenecke.<br><br>Die Traditionen sind ernst gemeint: Zu Feiern tragen die Studierenden <b>capa e batina</b>, den schwarzen Anzug mit Cape, wie in einem Film aus einem anderen Jahrhundert. Viele wohnen in <b>repúblicas</b>, selbstverwalteten Wohngemeinschaften mit Namen wie „Os Kágados“ und Hausregeln, die älter sind als die Großeltern der Bewohner. Im Mai feiert die Stadt eine Woche lang die <b>Queima das Fitas</b>: Die Abschlussjahrgänge verbrennen die farbigen Bänder ihrer Fakultät, und am Abend davor singen die Männer die <b>Serenata Monumental</b> vor der alten Kathedrale – tausende Zuhörer, kein Applaus, nur Räuspern.<br><br>Der Turm der Universität hat eine Glocke namens <b>Cabra</b>, „die Ziege“, weil sie früher jeden Morgen den Unterricht einläutete und niemand sie leiden konnte. Die Bibliothek <b>Joanina</b> aus dem 18. Jahrhundert gilt als eine der schönsten der Welt – nachts fliegen darin Fledermäuse und fressen die Insekten, die sonst die Bücher fressen würden. Kein Witz.<br><br>Und dann ist da die traurigste Liebesgeschichte des Landes: <b>Inês de Castro</b>, die Geliebte des Kronprinzen Pedro, wurde 1355 in Coimbra auf Befehl des Königs ermordet. Pedro ließ sie später, so erzählt man, als Königin krönen – tot. Die Quinta das Lágrimas, der „Garten der Tränen“, erinnert daran. Unsere Inês hat mit der Geschichte nur den Namen gemeinsam. Sagt sie.",
+  "fact": "<b>Wusstest du?</b> Der <i>Fado de Coimbra</i> ist eine eigene Gattung: nur Männer, nur mit Cape, meist als nächtliches Ständchen. Wer ihn hört, klatscht nicht – man räuspert sich leise. Das Lied, das jeder kennt: <i>Balada da Despedida</i>, das Abschiedslied der Absolventen."
+ },
+ {
   "id": "fado",
   "title": "Fado & Saudade",
   "meta": "Kultur · Musik",

@@ -1,0 +1,364 @@
+{
+ "id": "tag46",
+ "title": "Na oficina",
+ "subtitle": "Staffel 2 · Woche 7 · Tag 46 · Werkstatt · se-Passiv · Zahlen bis 1000 · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 45)",
+   "items": [
+    {
+     "q": "Ich habe es nicht geschafft: Não ___.",
+     "a": "consegui"
+    },
+    {
+     "q": "Wir mussten anhalten: ___ parar.",
+     "a": "Tivemos de"
+    },
+    {
+     "q": "Der Motor ist heißgelaufen: O motor ___.",
+     "a": "aqueceu"
+    },
+    {
+     "q": "müssen (EP): ",
+     "opts": [
+      "ter de",
+      "ter que"
+     ],
+     "a": "ter de – „ter que“ ist Brasilien"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Na oficina (14)",
+   "items": [
+    {
+     "pt": "a peça",
+     "de": "das Ersatzteil",
+     "ipa": "[ˈpɛsɐ]",
+     "audio": "v4601"
+    },
+    {
+     "pt": "o orçamento",
+     "de": "der Kostenvoranschlag; das Budget",
+     "ipa": "[ɔɾsɐˈmẽtu]",
+     "audio": "v4602"
+    },
+    {
+     "pt": "a mão de obra",
+     "de": "der Arbeitslohn",
+     "ipa": "[ˈmɐ̃w̃ dɨ ˈɔbɾɐ]",
+     "audio": "v4603"
+    },
+    {
+     "pt": "a correia",
+     "de": "der Riemen",
+     "ipa": "[kuˈʁɐjɐ]",
+     "audio": "v4604"
+    },
+    {
+     "pt": "a bomba de água",
+     "de": "die Wasserpumpe",
+     "ipa": "[ˈbõbɐ dɨ ˈagwɐ]",
+     "audio": "v4605"
+    },
+    {
+     "pt": "pronto / pronta",
+     "de": "fertig",
+     "ipa": "[ˈpɾõtu / ˈpɾõtɐ]",
+     "audio": "v4606"
+    },
+    {
+     "pt": "a fatura",
+     "de": "die Rechnung (Beleg)",
+     "ipa": "[fɐˈtuɾɐ]",
+     "audio": "v4607"
+    },
+    {
+     "pt": "em dinheiro",
+     "de": "bar",
+     "ipa": "[ɐ̃j̃ diˈɲɐjɾu]",
+     "audio": "v4608"
+    },
+    {
+     "pt": "o multibanco",
+     "de": "die Bankkarte / der Geldautomat (EP)",
+     "ipa": "[muɫtiˈbɐ̃ku]",
+     "audio": "v4609"
+    },
+    {
+     "pt": "o desconto",
+     "de": "der Rabatt",
+     "ipa": "[dɨʃˈkõtu]",
+     "audio": "v4610"
+    },
+    {
+     "pt": "a garantia",
+     "de": "die Garantie",
+     "ipa": "[gɐɾɐ̃ˈtiɐ]",
+     "audio": "v4611"
+    },
+    {
+     "pt": "quinhentos / quinhentas",
+     "de": "fünfhundert",
+     "ipa": "[kiˈɲẽtuʃ / kiˈɲẽtɐʃ]",
+     "audio": "v4612"
+    },
+    {
+     "pt": "mil",
+     "de": "tausend",
+     "ipa": "[miɫ]",
+     "audio": "v4613"
+    },
+    {
+     "pt": "o preço",
+     "de": "der Preis",
+     "ipa": "[ˈpɾesu]",
+     "audio": "v4614"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Hier wird alles repariert",
+   "html": "<i>(Sprachnachricht:)</i> An jeder Werkstatt in Portugal hängt ein Schild: <b>Arranja-se tudo.</b> Das kleine <b>se</b> ist heute das Thema – es macht aus „jemand repariert“ ein „es wird repariert / man repariert“:<br><br><i><b>Fala-se</b> português.</i> – Man spricht Portugiesisch. · <i><b>Aluga-se</b> quarto.</i> – Zimmer zu vermieten. · <i><b>Vende-se</b>.</i> – Zu verkaufen. · <i>Aqui não <b>se fuma</b>.</i> – Hier wird nicht geraucht.<br>Ist das Ding im Plural, geht das Verb mit: <i><b>Arranjam-se</b> carrinhas. · Não <b>se vendem</b> pneus.</i> Nach <i>não</i> springt <i>se</i> nach vorn, wie alle kleinen Wörter.<br><br><b>Die Hunderter:</b> <i>cem (100) · <b>duzentos</b> · <b>trezentos</b> · <b>quatrocentos</b> · <b>quinhentos</b> · <b>seiscentos</b> · <b>setecentos</b> · <b>oitocentos</b> · <b>novecentos</b> · <b>mil</b></i><br>Dazwischen mit <b>e</b>: <i>duzentos <b>e</b> oitenta · trezentos <b>e</b> sessenta e cinco</i>. Und die Hunderter passen sich an: <i>duzent<b>as</b> pessoas · quinhent<b>as</b> palavras</i>. Ab tausend: <i>mil e duzentos</i>.<br><br><b>Beim Bezahlen:</b> <i>Aceita multibanco? · Pago em dinheiro. · Faz desconto? · Dá-me a fatura, se faz favor.</i> Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<b>Multibanco</b> ist in Portugal beides: der Geldautomat an jeder Ecke und die Bankkarte selbst. <i>Aceita multibanco?</i> heißt „Kann ich mit Karte zahlen?“ – und die Antwort ist fast immer ja. Bar zahlen sagt man <i>em dinheiro</i>, nie „em cash“. Und <b>orçamento</b> hat zwei Bedeutungen: der Kostenvoranschlag beim Mechaniker und das Budget, das man danach nicht mehr hat. Aussprache: <i>quinhentos</i> = „kinjéntusch“, <i>mil</i> mit dunklem l: „miu“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Arranja-se tudo",
+   "hint": "Selbst erschlossen: partiu = ist gerissen (partir) · foi-se = ist hin (ir-se) · a questão = die Frage · vale = ist wert (valer) · Beja = Stadt im Alentejo · Se pagarem = wenn ihr zahlt (Form für Woche 8) · o cheque · a promessa = das Versprechen · dividir por = teilen durch · cada = jeder, pro Person · está feito = abgemacht.",
+   "lines": [
+    {
+     "who": "Mecânico",
+     "pt": "Já vi. A correia partiu e a bomba de água foi-se. Por isso aqueceu.",
+     "audio": "d4601"
+    },
+    {
+     "who": "João",
+     "pt": "E arranja-se?",
+     "audio": "d4602"
+    },
+    {
+     "who": "Mecânico",
+     "pt": "Arranja-se tudo. A questão é o preço. A peça custa duzentos e oitenta. Mais a mão de obra, cento e vinte. Quatrocentos.",
+     "audio": "d4603"
+    },
+    {
+     "who": "Ana",
+     "pt": "Quatrocentos euros?! A carrinha não vale quatrocentos euros.",
+     "audio": "d4604"
+    },
+    {
+     "who": "Mecânico",
+     "pt": "A carrinha não. Mas a viagem vale. Aqui não se vendem carrinhas, arranjam-se.",
+     "audio": "d4605"
+    },
+    {
+     "who": "Marie",
+     "pt": "E quanto tempo demora?",
+     "audio": "d4606"
+    },
+    {
+     "who": "Mecânico",
+     "pt": "A peça vem de Beja amanhã de manhã. Fica pronta amanhã à tarde. Se pagarem hoje, faço desconto: trezentos e sessenta.",
+     "audio": "d4607"
+    },
+    {
+     "who": "João",
+     "pt": "Aceita multibanco?",
+     "audio": "d4608"
+    },
+    {
+     "who": "Mecânico",
+     "pt": "Aceita-se tudo menos cheques e promessas.",
+     "audio": "d4609"
+    },
+    {
+     "who": "Marie",
+     "pt": "Dividimos por três. Cento e vinte cada.",
+     "audio": "d4610"
+    },
+    {
+     "who": "Ana",
+     "pt": "Por quatro. O Tomás também paga. Com o dinheiro da avó.",
+     "audio": "d4611"
+    },
+    {
+     "who": "Mecânico",
+     "pt": "Então está feito. Amanhã às cinco. E deixem o miúdo longe da minha oficina, ele quer conduzir o reboque.",
+     "audio": "d4612"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Das se-Passiv",
+   "items": [
+    {
+     "q": "Hier spricht man Portugiesisch: Aqui ___ português.",
+     "a": "fala-se"
+    },
+    {
+     "q": "Zimmer zu vermieten: ___ quarto.",
+     "a": "Aluga-se"
+    },
+    {
+     "q": "Hier wird alles repariert: ___ tudo.",
+     "a": "Arranja-se"
+    },
+    {
+     "q": "Hier werden keine Vans verkauft: Aqui não ___ carrinhas.",
+     "a": "se vendem"
+    },
+    {
+     "q": "Karte wird akzeptiert: ___ multibanco.",
+     "a": "Aceita-se"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Zahlen bis tausend",
+   "items": [
+    {
+     "q": "280 = ___",
+     "a": "duzentos e oitenta"
+    },
+    {
+     "q": "400 = ___",
+     "a": "quatrocentos"
+    },
+    {
+     "q": "360 = ___",
+     "a": "trezentos e sessenta"
+    },
+    {
+     "q": "500 = ___",
+     "a": "quinhentos"
+    },
+    {
+     "q": "750 = ___",
+     "a": "setecentos e cinquenta"
+    },
+    {
+     "q": "1000 = ___",
+     "a": "mil"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Hunderter passen sich an (antippen)",
+   "items": [
+    {
+     "q": "200 Personen → ___ pessoas",
+     "opts": [
+      "duzentas",
+      "duzentos"
+     ],
+     "a": "duzentas – pessoas ist weiblich"
+    },
+    {
+     "q": "500 Euro → ___ euros",
+     "opts": [
+      "quinhentos",
+      "quinhentas"
+     ],
+     "a": "quinhentos – euro ist männlich"
+    },
+    {
+     "q": "365 Tage → trezentos e sessenta e cinco ___",
+     "opts": [
+      "dias",
+      "dia"
+     ],
+     "a": "dias – Plural"
+    },
+    {
+     "q": "1.200 → ",
+     "opts": [
+      "mil e duzentos",
+      "mil duzentos"
+     ],
+     "a": "mil e duzentos – mit e"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A correia partiu e a bomba de água avariou.",
+     "a": "Richtig – deshalb ist der Motor heißgelaufen."
+    },
+    {
+     "q": "Com desconto, a reparação custa quatrocentos euros.",
+     "a": "Falsch – 360 bei Zahlung heute. Ohne Rabatt wären es 400."
+    },
+    {
+     "q": "Dividem o preço por três.",
+     "a": "Falsch – durch vier. Tomás zahlt mit, mit dem Geld der Avó."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Satz bauen",
+   "items": [
+    {
+     "q": "Kann ich mit Karte zahlen?",
+     "satz": "Aceita multibanco?",
+     "a": "Aceita multibanco?"
+    },
+    {
+     "q": "Das Teil kommt morgen früh aus Beja.",
+     "satz": "A peça vem de Beja amanhã de manhã.",
+     "a": "A peça vem de Beja amanhã de manhã."
+    },
+    {
+     "q": "Hier wird alles repariert.",
+     "satz": "Aqui arranja-se tudo.",
+     "a": "Aqui arranja-se tudo."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O orçamento",
+   "html": "Du bist der Mechaniker. Erklär in sechs Sätzen, was kaputt ist und was es kostet – mit Hunderterzahlen: <i>A correia partiu. A peça custa… Mais a mão de obra… Fica pronta… Se pagar hoje, faço desconto: …</i><br><br>Dann die Schilder, die du in Portugal siehst, laut: <i>Vende-se. Aluga-se. Fala-se inglês. Arranja-se tudo.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Uma noite em Odemira",
+   "audio": "s46",
+   "text": "Odemira é uma vila pequena e branca em cima de um rio verde. À noite, na pensão ao lado da oficina, a Ana faz contas outra vez. Faz sempre contas quando está nervosa.<br>— Trezentos e sessenta pela reparação. Quarenta pela pensão. Vinte de gasóleo até Sagres. E o reboque?<br>— O reboque não cobrou nada — diz o João. — O homem disse que era um favor ao Vasco.<br>— O Vasco tem favores em Odemira?<br>— O Vasco tem favores em todo o Alentejo. É a pessoa mais conhecida do sul de Portugal.<br>A Marie está à janela. Lá fora, o Tomás está sentado na porta da oficina fechada a falar com o mecânico, que ficou até tarde. Não se ouve o que dizem, mas o Tomás faz gestos de motor, de correia, de bomba de água. O mecânico ri. Depois dá-lhe uma coisa: uma peça velha, preta, redonda.<br>— O que é que ele lhe deu? — pergunta a Ana.<br>— A bomba de água — diz a Marie. — A velha. Acho que o Tomás vai levá-la para o Porto.<br>— Para quê?<br>— Para mostrar à avó. E para pôr ao lado do martelo.<br>A Ana fecha o caderno das contas.<br>— Trezentos e sessenta euros por uma bomba de água velha e um dia em Odemira. É caríssimo.<br>— É — diz o João. — Mas amanhã à tarde está pronta. E depois de amanhã estamos no mar.<br>— Se a carrinha chegar.<br>— Chega. Agora chega.<br>Ninguém acredita. Mas todos querem acreditar, e às vezes é a mesma coisa.",
+   "gloss": "Neu erschließen: a vila = die Kleinstadt · a pensão = die Pension · fazer contas = rechnen · cobrar = berechnen, verlangen · o favor = der Gefallen · conhecido = bekannt · o gesto = die Geste · redondo = rund · Para quê? = Wozu? · Se a carrinha chegar = wenn der Van ankommt (Woche 8) · acreditar = glauben",
+   "questions": [
+    {
+     "q": "O reboque custou cem euros.",
+     "a": "Falsch – nichts. Ein Gefallen für Vasco, der „favores em todo o Alentejo“ hat."
+    },
+    {
+     "q": "O mecânico dá ao Tomás a bomba de água velha.",
+     "a": "Richtig – für die Avó, neben den Hammer."
+    },
+    {
+     "q": "A Ana tem a certeza de que a carrinha chega a Sagres.",
+     "a": "Falsch – „Se a carrinha chegar.“ Niemand glaubt es, alle wollen es glauben."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt Schilder lesen und bilden (<b>vende-se, arranja-se</b>), bis tausend zählen und eine Rechnung verhandeln. Die Carrinha ist morgen fertig. Heute Abend gibt es ein Feuer am Strand – und João erzählt endlich, warum er immer müde ist."
+  }
+ ]
+}

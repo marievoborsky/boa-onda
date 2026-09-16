@@ -1,0 +1,360 @@
+{
+ "id": "tag43",
+ "title": "A carrinha",
+ "subtitle": "Staffel 2 · Woche 7 · Tag 43 · Abfahrt · comigo, contigo, para mim · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 41 & 42)",
+   "items": [
+    {
+     "q": "Mach dir keine Sorgen: Não te ___.",
+     "a": "preocupes"
+    },
+    {
+     "q": "Sag nichts! → Não ___ nada!",
+     "a": "digas"
+    },
+    {
+     "q": "Ich hoffe … (Konditional, höflich): ",
+     "opts": [
+      "Gostaria de…",
+      "Quero…"
+     ],
+     "a": "Gostaria de… – höflich"
+    },
+    {
+     "q": "Mir tut der Kopf weh: ___ a cabeça.",
+     "a": "Dói-me"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Na estrada (14)",
+   "items": [
+    {
+     "pt": "a bagagem",
+     "de": "das Gepäck",
+     "ipa": "[bɐˈgaʒɐ̃j̃]",
+     "audio": "v4301"
+    },
+    {
+     "pt": "a bagageira",
+     "de": "der Kofferraum (EP!)",
+     "ipa": "[bɐgɐˈʒɐjɾɐ]",
+     "audio": "v4302"
+    },
+    {
+     "pt": "o depósito",
+     "de": "der Tank",
+     "ipa": "[dɨˈpɔzitu]",
+     "audio": "v4303"
+    },
+    {
+     "pt": "o gasóleo",
+     "de": "der Diesel",
+     "ipa": "[gaˈzɔlju]",
+     "audio": "v4304"
+    },
+    {
+     "pt": "a gasolina",
+     "de": "das Benzin",
+     "ipa": "[gɐzuˈlinɐ]",
+     "audio": "v4305"
+    },
+    {
+     "pt": "encher",
+     "de": "füllen, tanken (encher o depósito)",
+     "ipa": "[ẽˈʃeɾ]",
+     "audio": "v4306"
+    },
+    {
+     "pt": "a autoestrada",
+     "de": "die Autobahn",
+     "ipa": "[awtɔɨʃˈtɾadɐ]",
+     "audio": "v4307"
+    },
+    {
+     "pt": "a portagem",
+     "de": "die Maut",
+     "ipa": "[puɾˈtaʒɐ̃j̃]",
+     "audio": "v4308"
+    },
+    {
+     "pt": "conduzir",
+     "de": "fahren (ein Fahrzeug lenken)",
+     "ipa": "[kõduˈziɾ]",
+     "audio": "v4309"
+    },
+    {
+     "pt": "a carta de condução",
+     "de": "der Führerschein",
+     "ipa": "[ˈkaɾtɐ dɨ kõduˈsɐ̃w̃]",
+     "audio": "v4310"
+    },
+    {
+     "pt": "o cinto (de segurança)",
+     "de": "der Sicherheitsgurt",
+     "ipa": "[ˈsĩtu]",
+     "audio": "v4311"
+    },
+    {
+     "pt": "à frente / atrás",
+     "de": "vorne / hinten",
+     "ipa": "[a ˈfɾẽtɨ / ɐˈtɾaʃ]",
+     "audio": "v4312"
+    },
+    {
+     "pt": "a velocidade",
+     "de": "die Geschwindigkeit",
+     "ipa": "[vɨlusiˈdadɨ]",
+     "audio": "v4313"
+    },
+    {
+     "pt": "o mapa",
+     "de": "die Karte (Landkarte)",
+     "ipa": "[ˈmapɐ]",
+     "audio": "v4314"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Mit mir, mit dir, für uns",
+   "html": "<i>(Sprachnachricht:)</i> Ihr habt in Staffel 1 <i>Vens connosco?</i> und <i>Para mim, uma dose de peixe</i> gehört, ohne dass ich es erklärt habe. Heute das ganze System – die Formen, die nach einer <b>Präposition</b> stehen:<br><br><b>Nach para, de, sem, a, por, em:</b> <i>mim · ti · ele / ela · nós · vocês · eles / elas</i><br><i>Isto é <b>para mim</b>. · Gosto <b>de ti</b>. · Não vou <b>sem ti</b>. · Falam <b>de nós</b>.</i><br>Nur <b>mim</b> und <b>ti</b> sind besonders – der Rest sind die normalen Pronomen.<br><br><b>Nach com verschmilzt es:</b> <i><b>comigo</b> · <b>contigo</b> · com ele / com ela · <b>connosco</b> · <b>convosco</b> · com eles / com elas</i><br><i>Vens <b>comigo</b>? · Vou <b>contigo</b>. · Ele vai <b>connosco</b>. · Falo <b>convosco</b> depois.</i><br>(<i>connosco</i> mit zwei n – das ist EP; Brasilien schreibt <i>conosco</i>.)<br><br><b>Merkregel:</b> „mit“ verschmilzt, alle anderen Präpositionen nehmen <i>mim / ti</i>. Und niemals <i>para eu</i> oder <i>com tu</i> – das tut Portugiesen in den Ohren weh.<br><br>Fahrt vorsichtig. Die Carrinha kenne ich. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Auf portugiesischen Straßen gibt es drei Dinge, die Deutsche überraschen: Erstens sind fast alle Autobahnen <b>Mautstraßen</b>, und man zahlt an der Ausfahrt oder per Transponder <b>Via Verde</b>. Zweitens heißt Diesel <b>gasóleo</b>, nicht <i>diesel</i> – wer <i>gasolina</i> tankt, hat ein Problem. Drittens: Portugiesen fahren gern schnell und bremsen spät. Der Satz, den João heute zwölfmal sagt: <b>Cintos!</b> – „Anschnallen!“ Aussprache: <i>comigo</i> = „kumígu“, <i>connosco</i> = „kunóschku“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Quem vem comigo?",
+   "hint": "Selbst erschlossen: pronto, pronta = fertig, bereit · a carta = kurz für carta de condução · a coisa mais alemã = das Deutscheste · Falta alguma coisa? = Fehlt etwas? · vazio = leer · vem ter connosco = kommt zu uns · A esta velocidade = bei diesem Tempo. Tomás sitzt schon hinten und schläft.",
+   "lines": [
+    {
+     "who": "João",
+     "pt": "Bom dia, malta! A carrinha está pronta. Quem vem comigo à frente?",
+     "audio": "d4301"
+    },
+    {
+     "who": "Ana",
+     "pt": "Eu não. Eu vou atrás com o Tomás. Ele dorme melhor comigo.",
+     "audio": "d4302"
+    },
+    {
+     "who": "Marie",
+     "pt": "Então vou eu contigo. Mas conduzes tu. Eu não tenho carta.",
+     "audio": "d4303"
+    },
+    {
+     "who": "João",
+     "pt": "Não tens carta de condução?",
+     "audio": "d4304"
+    },
+    {
+     "who": "Marie",
+     "pt": "Em Hamburgo não preciso. Tenho bicicleta e tenho metro.",
+     "audio": "d4305"
+    },
+    {
+     "who": "Ana",
+     "pt": "Isso é a coisa mais alemã que já ouvi.",
+     "audio": "d4306"
+    },
+    {
+     "who": "João",
+     "pt": "Cintos! A bagagem está toda na bagageira? Falta alguma coisa?",
+     "audio": "d4307"
+    },
+    {
+     "who": "Ana",
+     "pt": "Falta gasolina. O depósito está quase vazio.",
+     "audio": "d4308"
+    },
+    {
+     "who": "João",
+     "pt": "É gasóleo. E enchemos na autoestrada.",
+     "audio": "d4309"
+    },
+    {
+     "who": "Marie",
+     "pt": "A portagem pagamos nós, João. Tu já pagaste a carrinha.",
+     "audio": "d4310"
+    },
+    {
+     "who": "João",
+     "pt": "Combinado. Para mim o café, para vocês as portagens. Vamos. Sagres não vem ter connosco.",
+     "audio": "d4311"
+    },
+    {
+     "who": "Ana",
+     "pt": "A esta velocidade, Sagres vem primeiro.",
+     "audio": "d4312"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · mim, ti, comigo, contigo …",
+   "items": [
+    {
+     "q": "Kommst du mit mir? → Vens ___?",
+     "a": "comigo"
+    },
+    {
+     "q": "Ich gehe mit dir. → Vou ___.",
+     "a": "contigo"
+    },
+    {
+     "q": "Er fährt mit uns. → Ele vai ___.",
+     "a": "connosco"
+    },
+    {
+     "q": "Ich gehe nicht ohne dich. → Não vou sem ___.",
+     "a": "ti"
+    },
+    {
+     "q": "Das ist für mich. → Isto é para ___.",
+     "a": "mim"
+    },
+    {
+     "q": "Sie reden von ihm. → Falam ___. (de + ele)",
+     "a": "dele"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Welche Form? (antippen)",
+   "items": [
+    {
+     "q": "Kommst du mit mir? →",
+     "opts": [
+      "Vens comigo?",
+      "Vens com mim?"
+     ],
+     "a": "Vens comigo? – com + mim = comigo"
+    },
+    {
+     "q": "Das ist für dich. →",
+     "opts": [
+      "Isto é para ti.",
+      "Isto é para tu."
+     ],
+     "a": "Isto é para ti. – nach para: ti"
+    },
+    {
+     "q": "Er fährt mit uns. →",
+     "opts": [
+      "Ele vai connosco.",
+      "Ele vai com nós."
+     ],
+     "a": "Ele vai connosco. – com + nós = connosco"
+    },
+    {
+     "q": "Ohne mich! →",
+     "opts": [
+      "Sem mim!",
+      "Sem eu!"
+     ],
+     "a": "Sem mim! – nach sem: mim"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Ich habe keinen Führerschein.",
+     "satz": "Não tenho carta de condução.",
+     "a": "Não tenho carta de condução."
+    },
+    {
+     "q": "Wer kommt mit mir vorne?",
+     "satz": "Quem vem comigo à frente?",
+     "a": "Quem vem comigo à frente?"
+    },
+    {
+     "q": "Der Tank ist fast leer.",
+     "satz": "O depósito está quase vazio.",
+     "a": "O depósito está quase vazio."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie vai conduzir.",
+     "a": "Falsch – sie hat keinen Führerschein. In Hamburg reichen Fahrrad und U-Bahn."
+    },
+    {
+     "q": "A carrinha anda a gasolina.",
+     "a": "Falsch – Diesel („É gasóleo“). Getankt wird auf der Autobahn."
+    },
+    {
+     "q": "A Marie e a Ana pagam as portagens.",
+     "a": "Richtig – João hat schon den Van bezahlt. Für ihn der Kaffee."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Anschnallen! → ___",
+     "a": "Cintos!"
+    },
+    {
+     "q": "Wir tanken auf der Autobahn. → ___",
+     "a": "Enchemos o depósito na autoestrada."
+    },
+    {
+     "q": "Fährst du? → ___",
+     "a": "Conduzes tu?"
+    },
+    {
+     "q": "Das Gepäck ist im Kofferraum. → ___",
+     "a": "A bagagem está na bagageira."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Uma viagem de carro",
+   "html": "Plan laut eine Fahrt mit Freunden – sechs Sätze mit Präposition + Pronomen: <i>Vens comigo? … vai connosco. Para mim… Sem ti não vou. Falamos de… A bagagem é para…</i><br><br>Dann Joãos Kommando, kurz und laut: <i>Cintos!</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Quilómetro zero",
+   "audio": "s43",
+   "text": "Oito da manhã, Lisboa. A carrinha branca com a porta azul está em frente da casa do João, carregada até ao teto: uma tenda, quatro sacos-cama, duas pranchas emprestadas, uma caixa de pastéis de nata (o João não aprende) e o Tomás, que chegou ontem de comboio do Porto com uma mochila e o martelo de plástico.<br>— O martelo vem connosco? — pergunta a Marie.<br>— O martelo vai a todo o lado — diz a Ana. — Já tentei escondê-lo. Ele encontra-o sempre.<br>O João dá a volta à chave. A carrinha tosse, pensa, e pega.<br>— Ouviram? À primeira!<br>Ninguém responde. Todos estão à espera do segundo barulho, o estranho. Não vem. A carrinha sai da rua a trinta à hora, com a Marie à frente, o mapa no colo, e a Ana atrás, com o Tomás já a dormir no ombro dela.<br>Passam a ponte Vasco da Gama. O Tejo é largo e brilhante e a Marie pensa que há um ano estava do outro lado, num quarto pequeno, sem saber dizer «autoestrada».<br>— Quantos quilómetros até Sagres? — pergunta o João.<br>— Trezentos e vinte.<br>— A esta velocidade?<br>— A esta velocidade, chegamos na quinta-feira.<br>A Ana ri atrás. O Tomás acorda, olha pela janela, vê o rio e diz, ainda meio a dormir:<br>— Já é o mar?<br>— Ainda não.<br>— Avisem-me quando for.<br>E volta a dormir. O João mete a terceira. A carrinha protesta, mas aceita. Quilómetro zero.",
+   "gloss": "Neu erschließen: carregado = beladen · até ao teto = bis unters Dach · a tenda = das Zelt · o saco-cama = der Schlafsack · emprestado = geliehen · não aprende = lernt es nie · a mochila = der Rucksack · esconder = verstecken · dar a volta à chave = den Schlüssel drehen · pegar = anspringen · o colo = der Schoß · o ombro = die Schulter · largo = breit · brilhante = glänzend · quando for = wenn es so weit ist (Woche 8) · meter a terceira = den dritten Gang einlegen · protestar = protestieren",
+   "questions": [
+    {
+     "q": "O Tomás veio de comboio do Porto.",
+     "a": "Richtig – mit Rucksack und dem Plastikhammer, den Ana vergeblich versteckt hat."
+    },
+    {
+     "q": "A carrinha não pega à primeira.",
+     "a": "Falsch – sie springt beim ersten Versuch an. Alle warten trotzdem auf das seltsame Geräusch."
+    },
+    {
+     "q": "A Marie vai à frente com o mapa.",
+     "a": "Richtig – Ana hinten mit Tomás auf der Schulter."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt <b>mit mir, mit dir, für uns, ohne dich</b> sagen (<b>comigo, contigo, para nós, sem ti</b>) und alles rund ums Auto benennen. 320 Kilometer bei dreißig Sachen – morgen der Alentejo: <b>o sítio mais bonito e mais quente de Portugal</b>, der Superlativ."
+  }
+ ]
+}
