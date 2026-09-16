@@ -122,7 +122,7 @@
   {
    "type": "note",
    "title": "3 · Dica do Vasco: Was jemand gesagt hat",
-   "html": "<i>(Diesmal keine Sprachnachricht – Vasco ruft an. Das Gespräch kommt gleich im Dialog. Vorher die Grammatik dazu:)</i><br><br>Wenn ihr weitergebt, was jemand gesagt oder gefragt hat, braucht ihr drei Bausteine:<br><br><b>dizer que</b> = sagen, dass: <i>O Vasco <b>diz que</b> precisa de ajuda. · A Ana <b>disse que</b> ia ao rio.</i><br><b>perguntar se</b> = fragen, ob: <i>O João <b>pergunta se</b> tens tempo. · Ela <b>perguntou se</b> eu estava bem.</i><br><b>pedir para</b> = bitten, zu: <i>A Inês <b>pediu para</b> não tocarmos no esqueleto.</i><br><br><b>Die Zeit verschiebt sich</b> wie im Deutschen nach hinten, wenn das Sagen in der Vergangenheit liegt: <i>„Estou cansado“ → Ele disse que <b>estava</b> cansado.</i> – Präsens wird Imperfekt. <i>„Vou a Sagres“ → Disse que <b>ia</b> a Sagres.</i><br><br><b>Am Telefon:</b> <i><b>Está?</b></i> (so meldet man sich in Portugal – wörtlich „Sind Sie da?“) · <i><b>Quem fala?</b></i> · <i>Posso falar com a Ana?</i> · <i>Quer deixar recado?</i> · <i>Enganou-se no número.</i> · <i>Não tenho rede.</i> · <i>Estou sem bateria.</i><br><br>Und jetzt: Ich rufe an. Atende!"
+   "html": "<i>(Diesmal keine Sprachnachricht – Vasco ruft an. Das Gespräch kommt gleich im Dialog. Vorher die Grammatik dazu:)</i><br><br>Wenn ihr weitergebt, was jemand gesagt oder gefragt hat, braucht ihr drei Bausteine:<br><br><b>dizer que</b> = sagen, dass: <i>O Vasco <b>diz que</b> precisa de ajuda. · A Ana <b>disse que</b> ia ao rio.</i><br><b>perguntar se</b> = fragen, ob: <i>O João <b>pergunta se</b> tens tempo. · Ela <b>perguntou se</b> eu estava bem.</i><br><b>pedir para</b> = bitten, zu: <i>A Inês <b>pediu para</b> não tocarmos no esqueleto.</i> (tocarmos = „dass wir anfassen“ – eine Infinitivform mit Endung, die ihr erst mal nur wiedererkennt)<br><br><b>Die Zeit verschiebt sich</b> wie im Deutschen nach hinten, wenn das Sagen in der Vergangenheit liegt: <i>„Estou cansado“ → Ele disse que <b>estava</b> cansado.</i> – Präsens wird Imperfekt. <i>„Vou a Sagres“ → Disse que <b>ia</b> a Sagres.</i><br><br><b>Am Telefon:</b> <i><b>Está?</b></i> (so meldet man sich in Portugal – wörtlich „Sind Sie da?“) · <i><b>Quem fala?</b></i> · <i>Posso falar com a Ana?</i> · <i>Quer deixar recado?</i> · <i>Enganou-se no número.</i> · <i>Não tenho rede.</i> · <i>Estou sem bateria.</i><br><br>Und jetzt: Ich rufe an. Atende!"
   },
   {
    "type": "note",
@@ -132,7 +132,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: A chamada do Vasco",
-   "hint": "Selbst erschlossen: a pessoa = die Person · a partir de = ab · quinze de julho = 15. Juli · desistir = absagen, aufgeben · Pensa nisso = Denk darüber nach · a proposta = das Angebot · a sério = ernst · Não te oiço = ich höre dich nicht · Depois falamos = wir reden später.",
+   "hint": "Selbst erschlossen: a pessoa = die Person · a partir de = ab · quinze de julho = 15. Juli · desistir = absagen, aufgeben · Pensa nisso = Denk darüber nach · Quem era? = Wer war das? · não faças essa cara = mach nicht dieses Gesicht (verneinter Befehl – morgen) · Não te oiço = ich höre dich nicht.",
    "lines": [
     {
      "who": "Marie",
@@ -309,14 +309,14 @@
    "title": "5e · Satz bauen",
    "items": [
     {
-     "q": "Er sagte, dass er Hilfe braucht.",
-     "satz": "Ele disse que precisa de ajuda.",
-     "a": "Ele disse que precisa de ajuda."
+     "q": "Er sagte, dass er Hilfe brauchte.",
+     "satz": "Ele disse que precisava de ajuda.",
+     "a": "Ele disse que precisava de ajuda."
     },
     {
-     "q": "Sie fragte, ob ich kommen kann.",
-     "satz": "Ela perguntou se eu posso vir.",
-     "a": "Ela perguntou se eu posso vir."
+     "q": "Sie fragte, ob ich kommen könnte.",
+     "satz": "Ela perguntou se eu podia vir.",
+     "a": "Ela perguntou se eu podia vir."
     },
     {
      "q": "Ich gebe dir bis Freitag Bescheid.",
@@ -334,7 +334,7 @@
    "type": "story",
    "title": "7 · Kleine Geschichte: Até sexta",
    "audio": "s40",
-   "text": "A Marie não diz mais nada sobre a chamada. A Ana também não. Mas a casa da Inês fica mais pequena nesse dia.<br>À noite, a Marie liga ao João.<br>— Está?<br>— João, sou eu. Tens um minuto?<br>— Tenho todos os minutos. Estou no sofá. O que é que se passa?<br>A Marie conta: o Vasco, o quinze de julho, a pessoa que desistiu. O João ouve sem interromper, o que é raro.<br>— E o que é que a Ana disse?<br>— Nada. Fez uma cara.<br>— Que cara?<br>— A cara de quem não diz nada.<br>— Essa é a pior cara dela. — Silêncio. — Marie, posso dizer uma coisa?<br>— Diz.<br>— A Ana não está zangada por causa de Sagres. Está zangada porque tu decidiste sozinha. Outra vez. Como no ano passado, quando compraste o bilhete para Hamburgo sem dizer a ninguém.<br>— Eu não decidi nada!<br>— Mas estás a pensar sozinha. Para ela é a mesma coisa.<br>A Marie fica calada. O João espera. Depois diz, mais baixo:<br>— Fala com ela. Antes de sexta. E Marie… quinze de julho ou agosto, a carrinha vai na mesma. Com ou sem ti.<br>— Isso é uma ameaça?<br>— É um recado. Do Sporting. Boa noite.<br>Desliga. A Marie olha para o telemóvel. Depois olha para a porta do quarto onde a Ana já não faz barulho nenhum.",
+   "text": "A Marie não diz mais nada sobre a chamada. A Ana também não. Mas a casa da Inês fica mais pequena nesse dia.<br>À noite, a Marie liga ao João.<br>— Está?<br>— João, sou eu. Tens um minuto?<br>— Tenho todos os minutos. Estou no sofá. O que é que se passa?<br>A Marie conta: o Vasco, o quinze de julho, a pessoa que desistiu. O João ouve sem interromper, o que é raro.<br>— E o que é que a Ana disse?<br>— Nada. Fez uma cara.<br>— Que cara?<br>— A cara de quem não diz nada.<br>— Essa é a pior cara dela. — Silêncio. — Marie, posso dizer uma coisa?<br>— Diz.<br>— A Ana não está zangada por causa de Sagres. Está zangada porque tu decidiste sozinha. Outra vez. Como no ano passado, quando compraste o bilhete para Hamburgo sem dizer a ninguém.<br>— Eu não decidi nada!<br>— Mas estás a pensar sozinha. Para ela é a mesma coisa.<br>A Marie fica calada. O João espera. Depois diz, mais baixo:<br>— Fala com ela. Antes de sexta. E Marie… quinze de julho ou agosto, a carrinha vai na mesma. Com ou sem ti.<br>— Isso é uma ameaça?<br>— É um recado. Boa noite.<br>Desliga. A Marie olha para o telemóvel. Depois olha para o sofá onde a Ana já não faz barulho nenhum.",
    "gloss": "Neu erschließen: fica mais pequena = wird kleiner (Stimmung) · O que é que se passa? = Was ist los? · interromper = unterbrechen · raro = selten · por causa de = wegen · sozinha = allein · o bilhete = das Ticket · a mesma coisa = dasselbe · mais baixo = leiser · na mesma = trotzdem · a ameaça = die Drohung · barulho nenhum = gar kein Geräusch",
    "questions": [
     {
@@ -347,7 +347,7 @@
     },
     {
      "q": "O João diz que a carrinha vai para o sul com ou sem a Marie.",
-     "a": "Richtig – „É um recado. Do Sporting.“"
+     "a": "Richtig – „É um recado.“"
     }
    ]
   },

@@ -133,7 +133,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: A visita",
-   "hint": "Selbst erschlossen: o Senhor Manuel = der Vermieter (o senhor / a senhora = die höfliche Anrede) · com vista para = mit Blick auf · o metro quadrado = der Quadratmeter · incluídas = inklusive · sozinha = allein (Ana ist die Mieterin) · a cama = das Bett · mede = misst (medir) · a alma = die Seele.",
+   "hint": "Selbst erschlossen: o Senhor Manuel = der Vermieter (o senhor / a senhora = die höfliche Anrede) · com vista para = mit Blick auf · incluídas = inklusive · a cama = das Bett.",
    "lines": [
     {
      "who": "Ana",
@@ -256,12 +256,12 @@
      "a": "Quero um café. Vens? – unter Freunden direkt"
     },
     {
-     "q": "Könnten Sie das wiederholen? (kurz, typisch EP): ",
+     "q": "Könnten Sie das wiederholen? (zu einer fremden Person)",
      "opts": [
       "Podia repetir?",
-      "Poderia repetir?"
+      "Podes repetir?"
      ],
-     "a": "Podia repetir? – beides ist richtig, podia ist die gängige Kurzform"
+     "a": "Podia repetir? – höflich; „podes“ ist das Du und passt nur unter Freunden"
     }
    ]
   },
@@ -335,8 +335,8 @@
    "type": "story",
    "title": "7 · Kleine Geschichte: O quarto do Rui",
    "audio": "s37",
-   "text": "À noite, a Ana faz contas na mesa da Inês. Trezentos e cinquenta mais a luz mais a internet mais a caução. O papel fica cheio de números e a Ana fica cheia de dúvidas.<br>— Com a bolsa não chega — diz.<br>— Chega para o rés do chão — diz a Inês.<br>— Eu não quero viver sem sol, Inês. Sou do Porto. Já tenho chuva suficiente na alma.<br>O telemóvel da Marie toca. É o Rui.<br>— Diz à Ana que temos um quarto livre na república. A partir de setembro. A Joana acabou o curso.<br>— Quanto é a renda?<br>— Cento e vinte. Com tudo. Mas há regras: cozinha-se à vez, canta-se à sexta, e ninguém pode dizer mal do Sporting.<br>A Marie repete tudo em voz alta. A Ana deixa cair a caneta.<br>— Cento e vinte?! Com tudo?!<br>— Com tudo. E com onze colegas de casa.<br>— Onze?<br>— Onze — diz a Inês. — E um deles é o Rui. Que canta. Todos os dias.<br>A Ana pensa durante três segundos.<br>— Diz-lhe que gostaria de ver o quarto. Amanhã. Podia ser às dez?<br>— Podia — diz o Rui, que ouviu tudo. — E Ana? Bem-vinda aos Kágados.",
-   "gloss": "Neu erschließen: fazer contas = rechnen · a dúvida = der Zweifel · a bolsa = das Stipendium · não chega = reicht nicht · suficiente = genug · a Joana = eine Mitbewohnerin · acabou o curso = hat das Studium beendet · a regra = die Regel · à vez = abwechselnd · dizer mal de = schlecht reden über · o Sporting = Fußballclub aus Lissabon · a caneta = der Stift · em voz alta = laut",
+   "text": "À noite, a Ana faz contas na mesa da Inês. Trezentos e cinquenta mais a luz mais a internet mais a caução. O papel fica cheio de números e a Ana fica cheia de dúvidas.<br>— Com a bolsa não chega — diz.<br>— Chega para o rés do chão — diz a Inês.<br>— Eu não quero viver sem sol, Inês. Sou do Porto. Já tenho chuva suficiente na alma.<br>O telemóvel da Marie toca. É o Rui.<br>— Diz à Ana que temos um quarto livre na república. A partir de setembro. A Joana acabou o curso.<br>— Quanto é a renda?<br>— Cento e vinte. Com tudo. Mas há regras: cozinha-se à vez, canta-se à sexta, e ninguém pode dizer mal do Sporting.<br>A Marie repete tudo em voz alta. A Ana deixa cair a caneta.<br>— Cento e vinte?! Com tudo?!<br>— Com tudo. E com onze colegas de casa.<br>— Onze?<br>— Onze — diz a Inês. — E um deles é o Rui. Que canta. Todos os dias.<br>A Ana pensa durante três segundos.<br>— Diz-lhe que gostaria de ver o quarto. Amanhã. Podia ser às dez?<br>— Podia — diz o Rui, que ouviu tudo. — E Ana? Bem-vinda aos Kágados. Agora venham ao rio, para festejar. A água do Mondego em julho está quente.<br>Não está. Mas vão na mesma.",
+   "gloss": "Neu erschließen: fazer contas = rechnen · a dúvida = der Zweifel · a bolsa = das Stipendium · não chega = reicht nicht · suficiente = genug · a Joana = eine Mitbewohnerin · acabou o curso = hat das Studium beendet · a regra = die Regel · à vez = abwechselnd · dizer mal de = schlecht reden über · o Sporting = Fußballclub aus Lissabon · a caneta = der Stift · em voz alta = laut · a alma = die Seele · festejar = feiern · na mesma = trotzdem",
    "questions": [
     {
      "q": "A Ana quer viver no rés do chão.",

@@ -101,7 +101,7 @@
     },
     {
      "pt": "a capa",
-     "de": "der Umhang (in Coimbra: die schwarze Studentencape)",
+     "de": "der Umhang (in Coimbra: das schwarze Studenten-Cape)",
      "ipa": "[ˈkapɐ]",
      "audio": "v3612"
     },
@@ -132,7 +132,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: O dia dos alunos novos",
-   "hint": "Selbst erschlossen: o aluno = der Student, Schüler · o Rui = ein Student, der die Neuen herumführt (neue Nebenfigur) · fundada = gegründet · o Património Mundial = das Weltkulturerbe · Cabra = die Ziege (Name der Glocke) · acordar = wecken, aufwachen · a Sé Velha = die alte Kathedrale · hoje à noite = heute Abend.",
+   "hint": "Selbst erschlossen: o aluno = der Student, Schüler · o Rui = ein Student, der die Neuen herumführt (neue Nebenfigur) · fundada = gegründet · as escadas = die Treppe · de que ninguém gosta = die niemand mag (gostar de + que) · Cabra = die Ziege (Name der Glocke) · acordar = wecken, aufwachen · a Sé Velha = die alte Kathedrale · esta semana = diese Woche.",
    "lines": [
     {
      "who": "Rui",
@@ -186,7 +186,7 @@
     },
     {
      "who": "Rui",
-     "pt": "É uma tradição. As repúblicas têm nomes estranhos. Hoje à noite cantamos nas escadas da Sé Velha. Venham.",
+     "pt": "É uma tradição. As repúblicas têm nomes estranhos. Esta semana cantamos nas escadas da Sé Velha. Venham.",
      "audio": "d3611"
     },
     {
@@ -338,7 +338,7 @@
    "gloss": "Neu erschließen: sobe tanto que = so steil ansteigt, dass · parecer = scheinen · a medicina = die Medizin · de onde = von wo · Não toquem em = Fasst … nicht an · o esqueleto = das Skelett · assustar = erschrecken · a visita = der Besuch · estranhamente = merkwürdig · um bocadinho = ein bisschen (EP!) · sério = ernst · daqui a um ano = in einem Jahr · toca = läutet · na mesma = trotzdem",
    "questions": [
     {
-     "q": "A Inês vive num rés do chão com elevador.",
+     "q": "A Inês vive no primeiro andar, com elevador.",
      "a": "Falsch – im dritten Stock ohne Aufzug, in einer steilen Straße."
     },
     {
