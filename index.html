@@ -692,7 +692,10 @@ function goTab(id, ausHistory) {
 }
 
 /* ---------- Lektionen ---------- */
-const WOCHEN = ['Woche 1 · Ich und du', 'Woche 2 · Meine Welt', 'Woche 3 · Mein Alltag', 'Woche 4 · Unterwegs'];
+const WOCHEN = ['Woche 1 · Ich und du', 'Woche 2 · Meine Welt', 'Woche 3 · Mein Alltag', 'Woche 4 · Unterwegs',
+  'Staffel 2 · Woche 5 · Porto, outra vez', 'Woche 6 · Coimbra', 'Woche 7 · A estrada', 'Woche 8 · Sagres, com responsabilidade'];
+// Etappen-Vignetten je Woche (Staffel 2 nutzt vorerst die passenden Bilder aus Staffel 1; Coimbra-Vignette folgt)
+const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'lisboa', 'milfontes', 'sagres'];
 const LESSONS = [
   { id: 'tag01', label: 'Tag 1 · Olá!', sub: 'Begrüßen & sich vorstellen', w: 0 },
   { id: 'tag02', label: 'Tag 2 · De onde és?', sub: 'Herkunft & Nationalitäten', w: 0 },
@@ -723,6 +726,13 @@ const LESSONS = [
   { id: 'tag27', label: 'Tag 27 · O que é que fizeste?', sub: 'Perfekt regelmäßig', w: 3 },
   { id: 'tag28', label: 'Tag 28 · Foi um dia perfeito', sub: 'Perfekt: ser, ir, ter, estar, fazer', w: 3 },
   { id: 'tag29', label: 'Tag 29 · Revisão final', sub: 'Abschlusstest · 50 Punkte', w: 3 },
+  { id: 'tag30', label: 'Tag 30 · Outra vez Portugal', sub: 'Wiedersehen · há, desde, durante', w: 4 },
+  { id: 'tag31', label: 'Tag 31 · Quando era pequena', sub: 'Imperfekt · wie es früher war', w: 4 },
+  { id: 'tag32', label: 'Tag 32 · A avó conta', sub: 'Perfekt oder Imperfekt?', w: 4 },
+  { id: 'tag33', label: 'Tag 33 · São João', sub: 'Das Fest · o, a, os, as', w: 4 },
+  { id: 'tag34', label: 'Tag 34 · No Porto é melhor', sub: 'Vergleichen · mais … do que', w: 4 },
+  { id: 'tag35', label: 'Tag 35 · O plano', sub: 'Zukunft · Hörverstehen', w: 4 },
+  { id: 'tag36', label: 'Tag 36 · Revisão IV', sub: 'Wochentest · 50 Punkte', w: 4 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -731,32 +741,58 @@ const ETAPPEN = [
   { name: 'Milfontes', sub: 'Woche 3 · Mein Alltag', frac: 0.71, offen: false },
   { name: 'Sagres',    sub: 'Woche 4 · Unterwegs',   frac: 0.96, offen: false },
 ];
+/* Zwei Reisen auf derselben Karte: Staffel 1 (Porto→Sagres) und, sobald Lektionen
+   mit w >= 4 existieren, Staffel 2 „A volta" (Flug nach Porto, Coimbra, Alentejo, Sagres). */
+const KARTEN = [
+  { w0: 0, titel: 'A viagem da Marie · Staffel 1 · A1', etappen: ETAPPEN, rechts: [0], teaser: true,
+    rota: 'M 118 16 C 112 60, 120 100, 124 140 C 130 175, 160 175, 158 205 C 155 235, 130 245, 126 285 C 122 320, 130 350, 148 392',
+    seg: [[0.05, 0.34], [0.40, 0.66], [0.71, 0.85], [0.875, 0.955]], extra: '' },
+  { w0: 4, titel: 'A volta · Staffel 2 · A2', rechts: [0, 1], teaser: false,
+    etappen: [
+      { name: 'Porto',    sub: 'Woche 5 · Outra vez',   frac: 0.03 },
+      { name: 'Coimbra',  sub: 'Woche 6 · A universidade', frac: 0.21 },
+      { name: 'Alentejo', sub: 'Woche 7 · A estrada',   frac: 0.78 },
+      { name: 'Sagres',   sub: 'Woche 8 · A escola',    frac: 0.98 }],
+    rota: 'M 118 16 C 125 45, 132 70, 135 95 C 140 130, 175 170, 165 220 C 155 265, 128 280, 124 310 C 120 340, 130 365, 148 392',
+    seg: [[0.03, 0.19], [0.22, 0.50], [0.55, 0.78], [0.80, 0.97]],
+    // Flug Sagres → Porto als gepunkteter Bogen über Land
+    extra: '<path d="M 148 392 C 290 330, 300 60, 122 16" fill="none" stroke="#b3a88e" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 8" opacity=".7"/><text x="262" y="205" text-anchor="middle" fill="#7a6f5a" font-size="7" letter-spacing=".1em" font-family="Roboto Mono, monospace" stroke="#fffdf6" stroke-width="2.5" paint-order="stroke">VOO</text>' },
+];
 function renderKursMap() {
-  const box = document.getElementById('kurs-map');
-  const W = 320, H = 440;
-  const done = LESSONS.filter(l => l.id !== 'tag08' && store.lessons[l.id]).length;
+  const box1 = document.getElementById('kurs-map');
+  renderKursMapFor({ ...KARTEN[0], box: box1, teaser: !LESSONS.some(l => l.w >= 4) });
+  let box2 = document.getElementById('kurs-map2');
+  if (LESSONS.some(l => l.w >= 4)) {
+    if (!box2) { box2 = document.createElement('div'); box2.id = 'kurs-map2'; box2.className = box1.className; box2.style.cssText = box1.style.cssText + '; margin-top:1rem'; box1.after(box2); }
+    renderKursMapFor({ ...KARTEN[1], box: box2 });
+  } else if (box2) box2.remove();
+}
+function renderKursMapFor(cfg) {
+  const box = cfg.box;
+  const done = LESSONS.filter(l => l.w >= cfg.w0 && l.w < cfg.w0 + 4 && l.id !== 'tag08' && store.lessons[l.id]).length;
   const total = 28; // Tag 8 (Sagres-Bonus) steht außerhalb des 28-Tage-Bogens
-  const ROTA = 'M 118 16 C 112 60, 120 100, 124 140 C 130 175, 160 175, 158 205 C 155 235, 130 245, 126 285 C 122 320, 130 350, 148 392';
+  const ROTA = cfg.rota;
   box.innerHTML = `
-    <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 .3rem .5rem">A viagem da Marie · Staffel 1 · A1 · ${done} von ${total} Tagen</div>
+    <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 .3rem .5rem">${cfg.titel} · ${done} von ${total} Tagen</div>
     <svg viewBox="0 0 320 411" style="width:100%; height:auto; display:block; border-radius:12px">
       <image href="karte.png" x="0" y="0" width="320" height="411" preserveAspectRatio="xMidYMid slice"/>
       <path id="km-weg" d="${ROTA}"
         fill="none" stroke="#fffdf6" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="1 9" opacity=".95"/>
       <path id="km-fortschritt" d="${ROTA}"
         fill="none" stroke="var(--clay)" stroke-width="4.5" stroke-linecap="round"/>
+      ${cfg.extra || ''}
       <g id="km-marker"></g>
     </svg>`;
   const svg = box.querySelector('svg');
   const weg = svg.querySelector('#km-weg');
   const fort = svg.querySelector('#km-fortschritt');
   const L = weg.getTotalLength();
-  const SEG = [[0.05, 0.34], [0.40, 0.66], [0.71, 0.85], [0.875, 0.955]];
+  const SEG = cfg.seg, w0 = cfg.w0;
   const wocheOffen = w => LESSONS.some(l => l.w === w);
   const wocheDone = w => Math.min(LESSONS.filter(l => l.w === w && store.lessons[l.id]).length, 7);
-  const dayFrac = (w, k) => SEG[w][0] + (SEG[w][1] - SEG[w][0]) * k / 7;
+  const dayFrac = (w, k) => SEG[w - w0][0] + (SEG[w - w0][1] - SEG[w - w0][0]) * k / 7;
   let doneFrac = 0;
-  for (let w = 0; w < 4; w++) if (wocheDone(w) > 0) doneFrac = dayFrac(w, wocheDone(w));
+  for (let w = w0; w < w0 + 4; w++) if (wocheDone(w) > 0) doneFrac = dayFrac(w, wocheDone(w));
   fort.style.strokeDasharray = (doneFrac * L) + ' ' + L;
   const g = svg.querySelector('#km-marker');
   const NS = 'http://www.w3.org/2000/svg';
@@ -767,7 +803,7 @@ function renderKursMap() {
     return e;
   }
   // Tages-Punkte aller offenen Wochen
-  for (let w = 0; w < 4; w++) {
+  for (let w = w0; w < w0 + 4; w++) {
     if (!wocheOffen(w)) continue;
     for (let i = 0; i < 7; i++) {
       const p = weg.getPointAtLength(dayFrac(w, i + 1) * L);
@@ -777,9 +813,9 @@ function renderKursMap() {
     }
   }
   // Etappen-Stationen
-  ETAPPEN.forEach((e2, i) => {
+  cfg.etappen.forEach((e2, i) => {
     const p = weg.getPointAtLength(e2.frac * L);
-    const erreicht = wocheOffen(i);
+    const erreicht = wocheOffen(w0 + i);
     el('circle', { cx: p.x, cy: p.y, r: 13,
       fill: '#fffdf6', stroke: erreicht ? 'var(--clay)' : '#b3a88e', 'stroke-width': 2,
       opacity: .95 });
@@ -789,7 +825,7 @@ function renderKursMap() {
     } else {
       el('path', { d: `M ${p.x - 4.5} ${p.y + 1} q 2.2 -4.5 4.5 0 q 2.3 4.5 4.5 0`, fill: 'none', stroke: 'var(--clay)', 'stroke-width': 2, 'stroke-linecap': 'round' });
     }
-    const rechts = i === 0;
+    const rechts = cfg.rechts.includes(i);
     const lx = rechts ? p.x + 24 : p.x - 24;
     const anker = rechts ? 'start' : 'end';
     const wName = e2.name.length * 7.1, wSub = e2.sub.length * 4.7;
@@ -806,7 +842,8 @@ function renderKursMap() {
       'font-family': 'Roboto Mono, monospace' });
     t2.textContent = e2.sub;
   });
-  // Staffel-2-Teaser: die Reise geht weiter …
+  // Staffel-2-Teaser: die Reise geht weiter … (nur solange Staffel 2 noch nicht da ist)
+  if (cfg.teaser) {
   const tp = weg.getPointAtLength(0.995 * L);
   const teaser = document.createElementNS(NS, 'path');
   teaser.setAttribute('d', `M ${tp.x} ${tp.y} C ${tp.x + 40} ${tp.y + 10}, ${tp.x + 90} ${tp.y + 6}, ${tp.x + 118} ${tp.y - 2}`);
@@ -828,6 +865,7 @@ function renderKursMap() {
     'font-family': 'Roboto Mono, monospace', stroke: '#fffdf6', 'stroke-width': '2.5',
     'paint-order': 'stroke' });
   tl.textContent = 'STAFFEL 2';
+  }
 
   // Surfbrett-Marker an aktueller Position
   const mp = weg.getPointAtLength(doneFrac * L);
@@ -847,8 +885,10 @@ function renderLessons() {
   const kn = document.getElementById('kurs-naechste');
   if (maxW < 3) {
     kn.style.cssText = 'display:flex; align-items:center; gap:.55rem; opacity:.55';
-    kn.innerHTML = `<img src="etappen/${['porto','lisboa','milfontes','sagres'][maxW + 1]}.png" alt=""
+    kn.innerHTML = `<img src="etappen/${ETAPPE_IMG[maxW + 1]}.png" alt=""
       style="width:38px; height:38px; border-radius:11px; object-fit:cover; filter:grayscale(.4)">${WOCHEN[maxW + 1]} · em breve`;
+  } else if (maxW >= 4) {
+    kn.style.cssText = ''; kn.innerHTML = '';
   } else {
     // Staffel 1 komplett in der Liste: Staffel-2-Teaser statt „nächste Woche"
     kn.style.cssText = 'display:flex; align-items:center; gap:.55rem; opacity:.7';
@@ -861,7 +901,7 @@ function renderLessons() {
       const h = document.createElement('div');
       h.className = 'kurs-head';
       h.style.cssText = 'display:flex; align-items:center; gap:.55rem';
-      h.innerHTML = `<img src="etappen/${['porto','lisboa','milfontes','sagres'][l.w]}.png" alt=""
+      h.innerHTML = `<img src="etappen/${ETAPPE_IMG[l.w]}.png" alt=""
         style="width:38px; height:38px; border-radius:11px; object-fit:cover; box-shadow:0 2px 8px rgba(51,41,74,.15)">${WOCHEN[l.w]}`;
       el.appendChild(h);
     }
@@ -992,12 +1032,19 @@ const TEXTOS = [
   { tag: 'tag27', num: 27, title: 'O caderno, domingo', nivel: 3, story: true },
   { tag: 'tag28', num: 28, title: 'A última página', nivel: 4, story: true },
   { tag: 'tag29', num: 29, title: 'Boa onda', nivel: 4, story: true },
+  { tag: 'tag30', num: 30, title: 'A casa cheia', nivel: 4, story: true },
+  { tag: 'tag31', num: 31, title: 'O quintal', nivel: 4, story: true },
+  { tag: 'tag32', num: 32, title: 'O caderno novo', nivel: 4, story: true },
+  { tag: 'tag33', num: 33, title: 'A noite mais longa do ano', nivel: 5, story: true },
+  { tag: 'tag34', num: 34, title: 'A ponte', nivel: 5, story: true },
+  { tag: 'tag35', num: 35, title: 'Duas novidades', nivel: 5, story: true },
+  { tag: 'tag36', num: 36, title: 'A última noite no Porto', nivel: 5, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');
   el.innerHTML = '';
   TEXTOS.forEach(t => {
-    const dots = [1, 2, 3].map(i => `<span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:${i <= t.nivel ? 'var(--sea)' : '#e8e0d0'}; margin-right:3px"></span>`).join('');
+    const dots = [1, 2, 3, 4, 5].map(i => `<span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:${i <= t.nivel ? 'var(--sea)' : '#e8e0d0'}; margin-right:3px"></span>`).join('');
     const div = document.createElement('div');
     div.className = 'spot';
     div.onclick = () => openTexto(t.tag);
@@ -1203,11 +1250,15 @@ function ladeLVocab() {
 }
 async function renderCaderno() {
   await ladeLVocab();
-  const alle = VOCAB.concat(LVOCAB);
+  // A1-Prozent zählt nur Staffel 1 (w < 4); Staffel-2-Wörter bekommen eine eigene A2-Zeile
+  const alle = VOCAB.concat(LVOCAB.filter(w => w.w < 4));
   const total = alle.length;
   let g = 0, a = 0;
   for (const w of alle) { const b = (store.words[w.id] || { box: 0 }).box; if (b >= 2) g++; else if (b === 1) a++; }
   const pct = Math.round(100 * g / total);
+  const a2 = LVOCAB.filter(w => w.w >= 4);
+  const g2 = a2.filter(w => (store.words[w.id] || { box: 0 }).box >= 2).length;
+  const a2zeile = a2.length ? `<div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.2rem">A2 (Staffel 2): ${g2} von ${a2.length} gelernt</div>` : '';
   document.getElementById('cad-stats').innerHTML = `
     <div class="lsec" style="display:flex; align-items:center; gap:14px; transform:rotate(-.3deg)">
       <div style="text-align:center">
@@ -1217,7 +1268,7 @@ async function renderCaderno() {
       <div style="flex:1">
         <div style="font-weight:600; font-size:.9rem">${g} von ${total} A1-Wellen gestanden</div>
         <div class="bar" style="margin-top:.4rem"><i style="width:${pct}%"></i></div>
-        <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.3rem">${g} gelernt · ${a} in Arbeit · ${total - g - a} neu</div>
+        <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.3rem">${g} gelernt · ${a} in Arbeit · ${total - g - a} neu</div>${a2zeile}
       </div>
     </div>`;
   const F = [['all', 'Alle'], ['gelernt', 'Gelernt'], ['arbeit', 'In Arbeit'], ['neu', 'Neu'],
@@ -1760,9 +1811,13 @@ async function openLesson(id) {
       }
       div.innerHTML += `<div class="hint">Shadowing: Zeile anhören, sofort selbst aufnehmen, beide vergleichen – Melodie imitieren, nicht übersetzen.${sec.hint ? '<br><br>' + sec.hint : ''}</div>`;
     } else if (sec.type === 'story') {
+      // listen: true = Hörverstehen – erst hören und die Fragen beantworten, Text erst auf Tipp
+      const versteckt = sec.listen && sec.audio;
       div.innerHTML = `<h3>${sec.title}</h3>
         ${sec.audio ? `<button class="playbtn" style="margin-bottom:.6rem" onclick="play('${sec.audio}')">${PLAY_SVG}</button>` : ''}
-        <div class="body">${sec.text}</div>
+        ${versteckt ? `<div class="hint" style="margin-bottom:.5rem">Hörverstehen: Hör die Geschichte zweimal, beantworte die Fragen – und erst dann den Text lesen.</div>
+          <button class="reveal" onclick="this.nextElementSibling.style.display='block'; this.remove()">Text anzeigen</button>` : ''}
+        <div class="body" ${versteckt ? 'style="display:none"' : ''}>${sec.text}</div>
         ${sec.gloss ? `<div class="hint">${sec.gloss}</div>` : ''}`;
       for (const it of (sec.questions || [])) {
         const row = document.createElement('div');
@@ -1778,8 +1833,19 @@ async function openLesson(id) {
       for (const it of sec.items) {
         const row = document.createElement('div');
         row.className = 'exitem';
-        const typed = it.q.includes('___');
-        row.innerHTML = `<div class="q">${it.q}</div>` +
+        const typed = it.q.includes('___') && !it.opts && !it.satz;
+        let extra = '';
+        if (it.opts) {
+          // Auswahl (z. B. Zeitform wählen): Antwortknöpfe statt Tippen
+          extra = `<div class="wortchips" style="margin:.4rem 0">${it.opts.map(o => `<button class="wchip" onclick="chooseEx(this)">${o}</button>`).join('')}</div>`;
+        } else if (it.satz) {
+          // Satz bauen: Wörter in die richtige Reihenfolge tippen
+          const toks = shuffle(it.satz.split(/\s+/));
+          extra = `<div class="satzziel wortchips" data-ziel style="min-height:2.2rem; margin:.4rem 0; padding:.3rem; border:1.5px dashed #e0d7c4; border-radius:10px"></div>
+            <div class="wortchips" data-pool>${toks.map(t => `<button class="wchip" onclick="orderTap(this)">${t}</button>`).join('')}</div>
+            <div class="exrow" style="margin-top:.4rem"><button class="reveal" onclick="checkOrder(this.closest('.exitem'))">Prüfen</button></div>`;
+        }
+        row.innerHTML = `<div class="q">${it.q}</div>` + extra +
           (typed ? `<div class="exrow">
             <input class="exin" autocapitalize="off" autocorrect="off" spellcheck="false"
               placeholder="Antwort eintippen …"
@@ -1814,6 +1880,45 @@ function meldung(text) {
   requestAnimationFrame(() => { el.style.opacity = '1'; });
   clearTimeout(el._t);
   el._t = setTimeout(() => { el.style.opacity = '0'; }, 3200);
+}
+
+/* ---------- Auswahl- und Satzbau-Übungen ---------- */
+function chooseEx(btn) {
+  const row = btn.closest('.exitem');
+  if (row.classList.contains('open')) return;
+  const soll = row.querySelector('.a').textContent.split(' – ')[0].trim().toLowerCase();
+  const ok = btn.textContent.trim().toLowerCase() === soll;
+  aktiv(1, ok ? 1 : 0);
+  if (ok) {
+    btn.style.background = 'var(--sea)'; btn.style.color = '#fff';
+    row.classList.add('open', 'exok');
+    row.querySelectorAll('button.reveal').forEach(b => b.remove());
+    row.querySelectorAll('.wchip').forEach(b => { if (b !== btn) b.disabled = true; });
+  } else {
+    btn.style.background = 'var(--clay-soft)';
+    setTimeout(() => { btn.style.background = ''; }, 700);
+  }
+}
+function orderTap(btn) {
+  const row = btn.closest('.exitem');
+  if (row.classList.contains('open')) return;
+  const ziel = row.querySelector('[data-ziel]'), pool = row.querySelector('[data-pool]');
+  (btn.parentElement === pool ? ziel : pool).appendChild(btn);
+}
+function checkOrder(row) {
+  const norm = t => t.toLowerCase().replace(/[.!?,;:«»"]/g, '').replace(/\s+/g, ' ').trim();
+  const ist = norm([...row.querySelectorAll('[data-ziel] .wchip')].map(b => b.textContent).join(' '));
+  const soll = norm(row.querySelector('.a').textContent.split(' / ')[0]);
+  const ok = ist === soll;
+  aktiv(1, ok ? 1 : 0);
+  if (ok) {
+    row.classList.add('open', 'exok');
+    row.querySelectorAll('button.reveal').forEach(b => b.remove());
+    row.querySelectorAll('.wchip').forEach(b => b.disabled = true);
+  } else {
+    const z = row.querySelector('[data-ziel]');
+    z.style.borderColor = 'var(--clay)'; setTimeout(() => { z.style.borderColor = ''; }, 700);
+  }
 }
 
 /* ---------- Lückentext prüfen ---------- */

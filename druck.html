@@ -105,7 +105,8 @@ fetch('lektionen/' + id + '.json', { cache: 'no-cache' }).then(r => r.json()).th
         (sec.intro ? `<div class="hint" style="margin:0 0 .4rem">${sec.intro}</div>` : '') +
         sec.items.map((it, i) => {
           sol.answers.push(it.a);
-          return `<div class="ex"><div class="q">${i + 1}. ${it.q}</div><div class="writeline"></div></div>`;
+          const zusatz = it.opts ? ` <i>(${it.opts.join(' / ')})</i>` : it.satz ? ` <i>[${it.satz.replace(/[.!?]$/, '').split(/\s+/).sort().join(' · ')}]</i>` : '';
+          return `<div class="ex"><div class="q">${i + 1}. ${it.q}${zusatz}</div><div class="writeline"></div></div>`;
         }).join('');
       solutions.push(sol);
     }

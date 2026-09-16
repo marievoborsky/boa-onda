@@ -1,0 +1,301 @@
+{
+ "id": "tag36",
+ "title": "Revisão IV – Wochentest",
+ "subtitle": "Staffel 2 · Woche 5 · Tag 36 · Mini-Test · 50 Punkte · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen (laut oder im Heft), dann prüfen und Punkte zählen – ohne Nachschauen. Der Test zeigt dir, ob die zwei Vergangenheiten sitzen, bevor es nach Coimbra geht. Notier dir die Punkte pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Vor dem Test kein Grammatikbuch, sondern eine <b>Geschichte</b>: Erzähl dir fünf Minuten lang laut, wie dein letztes Wochenende war – erst wie es war (<i>Estava… Fazia… Tinha…</i>), dann was passiert ist (<i>Fui… Comi… Vi…</i>). Wo du zögerst, sitzt die Lücke. Und die Lücke ist fast immer dieselbe: „war das ein Foto oder ein Film?“"
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln aus Woche 5 (10 P.)",
+   "items": [
+    {
+     "q": "vermissen (Sehnsucht haben nach)",
+     "a": "ter saudades (de)"
+    },
+    {
+     "q": "früher",
+     "a": "antigamente"
+    },
+    {
+     "q": "sich erinnern an",
+     "a": "lembrar-se de"
+    },
+    {
+     "q": "plötzlich",
+     "a": "de repente"
+    },
+    {
+     "q": "während",
+     "a": "enquanto"
+    },
+    {
+     "q": "kennenlernen",
+     "a": "conhecer"
+    },
+    {
+     "q": "die Menschenmenge",
+     "a": "a multidão"
+    },
+    {
+     "q": "besser",
+     "a": "melhor"
+    },
+    {
+     "q": "vielleicht (gesprochen, EP)",
+     "a": "se calhar"
+    },
+    {
+     "q": "umziehen (nach)",
+     "a": "mudar-se (para)"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · Perfekt – auch die Unregelmäßigen (6 P.)",
+   "items": [
+    {
+     "q": "Eu ___ de avião. (vir)",
+     "a": "vim"
+    },
+    {
+     "q": "Tu ___ o fogo de artifício? (ver)",
+     "a": "viste"
+    },
+    {
+     "q": "A avó ___ que sim. (dizer)",
+     "a": "disse"
+    },
+    {
+     "q": "Nós ___ até às quatro. (dançar)",
+     "a": "dançámos"
+    },
+    {
+     "q": "O Tomás ___ dez centímetros. (crescer)",
+     "a": "cresceu"
+    },
+    {
+     "q": "Eles ___ na Ribeira. (estar)",
+     "a": "estiveram"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Imperfekt (8 P.)",
+   "items": [
+    {
+     "q": "Quando eu ___ pequena… (ser)",
+     "a": "era"
+    },
+    {
+     "q": "Eu ___ oito anos. (ter)",
+     "a": "tinha"
+    },
+    {
+     "q": "Nós ___ na rua. (brincar)",
+     "a": "brincávamos"
+    },
+    {
+     "q": "Tu ___ no Porto? (viver)",
+     "a": "vivias"
+    },
+    {
+     "q": "Não ___ carros. (haver)",
+     "a": "havia"
+    },
+    {
+     "q": "Eles ___ à escola a pé. (ir)",
+     "a": "iam"
+    },
+    {
+     "q": "___ oito horas. (ser)",
+     "a": "Eram"
+    },
+    {
+     "q": "A avó ___ muito rápido. (falar)",
+     "a": "falava"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · Perfekt oder Imperfekt? (6 P.)",
+   "items": [
+    {
+     "q": "Ontem ___ na Ribeira quando começou o fogo. (estar)",
+     "opts": [
+      "estávamos",
+      "estivemos"
+     ],
+     "a": "estávamos – Hintergrund"
+    },
+    {
+     "q": "De repente ___ um balão. (ver, eu)",
+     "opts": [
+      "vi",
+      "via"
+     ],
+     "a": "vi – Ereignis"
+    },
+    {
+     "q": "Naquela altura a avó ___ dezassete anos. (ter)",
+     "opts": [
+      "tinha",
+      "teve"
+     ],
+     "a": "tinha – Alter"
+    },
+    {
+     "q": "A minha irmã ___ e eu fui. (insistir)",
+     "opts": [
+      "insistiu",
+      "insistia"
+     ],
+     "a": "insistiu – einmalige Handlung"
+    },
+    {
+     "q": "Enquanto ele ___, eu já sabia. (falar)",
+     "opts": [
+      "falava",
+      "falou"
+     ],
+     "a": "falava – enquanto"
+    },
+    {
+     "q": "___ o Vasco há um ano. (conhecer, eu)",
+     "opts": [
+      "Conheci",
+      "Conhecia"
+     ],
+     "a": "Conheci – kennenlernen = Ereignis"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · o, a, os, as (6 P.)",
+   "items": [
+    {
+     "q": "Vejo o Tomás. → Vejo-___.",
+     "a": "o"
+    },
+    {
+     "q": "Não vejo a Ana. → Não ___ vejo.",
+     "a": "a"
+    },
+    {
+     "q": "Comprei os manjericos. → Comprei-___.",
+     "a": "os"
+    },
+    {
+     "q": "Vou comprar a sardinha. → Vou ___.",
+     "a": "comprá-la"
+    },
+    {
+     "q": "Onde encontraste as chaves? → Onde é que ___ encontraste?",
+     "a": "as"
+    },
+    {
+     "q": "Ela viu-me? → Sim, ela ___ viu. (dich)",
+     "a": "te"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "F · Vergleichen (5 P.)",
+   "items": [
+    {
+     "q": "Lisboa é ___ (größer) do que o Porto.",
+     "a": "maior"
+    },
+    {
+     "q": "O Porto é ___ ___ (kleiner, EP) do que Lisboa.",
+     "a": "mais pequeno"
+    },
+    {
+     "q": "A francesinha é ___ (besser) do que o bacalhau? (Meinung)",
+     "a": "melhor"
+    },
+    {
+     "q": "As pessoas são ___ simpáticas ___ as de Lisboa. (so … wie)",
+     "a": "tão / como"
+    },
+    {
+     "q": "No Porto chove ___ do que em Lisboa. (mehr)",
+     "a": "mais"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "G · Lesen: Mensagem da Ana para a Inês (5 P.)",
+   "audio": "r36",
+   "text": "Olá, Inês! Sou eu, a Ana, a irmã do teu irmão preferido. Tenho uma novidade: em setembro mudo-me para Coimbra! Recebi a resposta da universidade ontem. Ainda não acredito.<br>Preciso da tua ajuda. Tu vives lá há dois anos, não é? Como é a cidade? Onde é que os estudantes moram? É mais cara do que o Porto? O João diz que tu conheces toda a gente.<br>Outra coisa: a Marie está cá. Sim, a alemã! Voltou há uma semana e vai trabalhar em Sagres o verão inteiro, na escola do Vasco. Em agosto o João leva-nos para o sul na carrinha velha do tio. Quando eu era pequena, essa carrinha já era velha.<br>Se calhar passamos por Coimbra no caminho. Podemos dormir em tua casa? Só duas noites. Prometo que o João não dorme no teu sofá.<br>Beijinhos, Ana",
+   "gloss": "Erst lesen, dann anhören. Neu erschließen: preferido = Lieblings- · toda a gente = alle · passar por = vorbeikommen in · Beijinhos = Küsschen (Nachrichten-Schluss). Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "A Ana muda-se para Coimbra em setembro.",
+     "a": "Richtig – die Antwort der Uni kam gestern."
+    },
+    {
+     "q": "A Inês vive em Coimbra há dois anos.",
+     "a": "Richtig – seit zwei Jahren."
+    },
+    {
+     "q": "A Marie voltou há um mês.",
+     "a": "Falsch – vor einer Woche."
+    },
+    {
+     "q": "Em agosto, o grupo vai para o sul de comboio.",
+     "a": "Falsch – im alten Van von Joãos Onkel."
+    },
+    {
+     "q": "A Ana quer dormir em casa da Inês durante uma semana.",
+     "a": "Falsch – nur zwei Nächte."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "H · Schreiben: Como era, o que aconteceu (4 P.)",
+   "html": "Schreib vier Sätze über eine Erinnerung – ohne Spickzettel, 1 Punkt pro korrektem Satz:<br><br>1. Wie alt du warst und wo du wohntest (<i>Tinha… Vivia…</i>) · 2. Wie das Wetter war (<i>Fazia… / Chovia…</i>) · 3. Was plötzlich passiert ist (<i>De repente…</i>, Perfekt) · 4. Wie es ausging (Perfekt)<br><br>Muster: <i>Tinha sete anos e vivia em Hamburgo. Chovia. De repente vi o mar. Entrei na água com a roupa toda.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (50 Punkte)",
+   "html": "<b>43–50:</b> Fantástico! Beide Vergangenheiten sitzen, du kannst vergleichen und Pläne machen. Coimbra kann kommen.<br><b>32–42:</b> Muito bem! Schau auf Teil D – Perfekt oder Imperfekt ist die Frage, die dich bis C1 begleitet. Lies die Geschichten von Tag 32 und 33 noch einmal und markiere jede Verbform mit „Foto“ oder „Film“.<br><b>unter 32:</b> Woche 5 war ein großer Schritt (A2 beginnt). Wiederhole Tag 31 und 32, dann den Test noch einmal.<br><br>Nächste Woche: <b>Coimbra</b> – die Universität, eine Wohnung suchen, Inês im Krankenhaus, Fado bei Nacht."
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: A última noite no Porto",
+   "audio": "s36",
+   "text": "A última noite no Porto é quieta. O São João acabou, os martelos estão numa gaveta, o manjerico está na varanda e ainda vive.<br>A avó chama a Marie à cozinha.<br>— Vais para Sagres.<br>— Vou, avó. Em agosto.<br>— E vais falar português o verão todo.<br>— Vou tentar.<br>A avó abre um armário e tira uma caixa. Dentro da caixa está um martelo de plástico, velho, amarelo, com o cabo partido.<br>— Este é de 1968.<br>A Marie não diz nada. Não consegue.<br>— Não é para ti — diz a avó. — É para ficar aqui. Mas queria que o visses. Para saberes que as coisas importantes começam sempre com um martelo na cabeça.<br>— Isso é uma frase muito portuguesa, avó.<br>— Eu sei. Agora vai dormir. Amanhã o comboio é cedo.<br>No quarto, a Ana já está na cama, com o telemóvel.<br>— A Inês respondeu — diz. — Diz que podemos ficar lá. Diz que Coimbra é a cidade mais bonita de Portugal.<br>— Ela é de Lisboa.<br>— Por isso é que é grave.<br>A Marie deita-se. Pela janela vê o rio, escuro, e as luzes de Gaia. Amanhã Lisboa. Em agosto o sul. Fecha os olhos e, pela primeira vez, sonha em português.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: a gaveta = die Schublade · tentar = versuchen · o armário = der Schrank · a caixa = die Schachtel · amarelo = gelb · o cabo partido = der abgebrochene Griff · Não consegue = sie schafft es nicht · queria que o visses = ich wollte, dass du ihn siehst (eine Form für später) · para saberes = damit du weißt · grave = ernst · a luz = das Licht",
+   "questions": [
+    {
+     "q": "A avó dá o martelo de 1968 à Marie.",
+     "a": "Falsch – er bleibt hier. Sie wollte nur, dass Marie ihn sieht."
+    },
+    {
+     "q": "Segundo a Inês, Coimbra é a cidade mais bonita de Portugal.",
+     "a": "Richtig – und weil Inês aus Lissabon ist, ist das „grave“."
+    },
+    {
+     "q": "A Marie sonha em alemão.",
+     "a": "Falsch – zum ersten Mal auf Portugiesisch."
+    }
+   ]
+  }
+ ]
+}
