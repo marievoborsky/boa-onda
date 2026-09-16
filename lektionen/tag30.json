@@ -240,7 +240,7 @@
      "a": "desde"
     },
     {
-     "q": "Falámos ___ três horas.",
+     "q": "Falámos ___ três horas. (drei Stunden lang)",
      "a": "durante"
     },
     {
@@ -268,7 +268,7 @@
      "a": "desde – ein Zeitpunkt, ab dem etwas gilt"
     },
     {
-     "q": "Esperei ___ duas horas.",
+     "q": "Esperei ___ duas horas. (zwei Stunden lang)",
      "opts": [
       "durante",
       "desde",
@@ -345,16 +345,16 @@
    "type": "story",
    "title": "7 · Kleine Geschichte: A casa cheia",
    "audio": "s30",
-   "text": "A casa da avó cheira a bacalhau e a pão quente. Está tudo igual: a mesa grande, as fotografias na parede, o gato no sofá. Só a Marie mudou.<br>— Estás mais magra — diz a avó, e põe-lhe mais comida no prato.<br>— Estou igual, avó.<br>— Mais magra. Come.<br>A avó fala mais devagar do que há um ano. Ou a Marie percebe mais depressa. Provavelmente as duas coisas.<br>Às cinco da tarde chega o João, de comboio, com uma mala pequena e o mesmo cabelo de sempre.<br>— Vieste de Lisboa só para o almoço? — pergunta a Marie.<br>— Vim para o São João. O almoço é um bónus.<br>Durante o jantar, todos falam ao mesmo tempo. O Tomás conta que apanhou uma onda de dois metros. A Ana diz que foi um metro. O pai diz que o Porto vai ganhar o campeonato. A avó diz que ninguém come.<br>A Marie ouve tudo, percebe quase tudo, e não diz nada sobre o seu plano. Ainda não.<br>À noite, no quarto pequeno com a janela para o rio, o telemóvel apita. É uma mensagem do Vasco para o grupo:<br>«Alguém sabe se a alemã volta este ano? A prancha grande está à espera.»<br>A Marie sorri e não responde. Amanhã. Ou depois de amanhã.",
-   "gloss": "Neu erschließen: cheirar a = riechen nach · a parede = die Wand · o gato = die Katze · magro, magra = dünn · põe-lhe = legt ihr (pôr) · depressa = schnell · o bónus (EP-Schreibweise!) = der Bonus · ganhar o campeonato = die Meisterschaft gewinnen · ninguém = niemand · ainda não = noch nicht · a alemã = die Deutsche · à espera = wartet",
+   "text": "A casa da avó cheira a bacalhau e a pão quente. Está tudo igual: a mesa grande, as fotografias na parede, o gato no sofá. Só a Marie mudou.<br>— Estás mais magra — diz a avó, e põe-lhe mais comida no prato.<br>— Estou igual, avó.<br>— Mais magra. Come.<br>A avó fala mais devagar do que há um ano. Ou a Marie percebe mais depressa. Provavelmente as duas coisas.<br>Às cinco da tarde chega o João, de comboio, com uma mala pequena e o mesmo cabelo de sempre.<br>— Vieste de Lisboa só para o jantar? — pergunta a Marie.<br>— Vim para o São João. O jantar é um bónus.<br>Durante o jantar, todos falam ao mesmo tempo. O Tomás conta que apanhou uma onda de dois metros. A Ana diz que foi um metro. O pai diz que o Porto vai ganhar o campeonato. A avó diz que ninguém come.<br>A Marie ouve tudo, percebe quase tudo, e não diz nada sobre o seu plano. Ainda não.<br>À noite, no quarto pequeno com a janela para o rio, o telemóvel apita. É uma mensagem do Vasco para o grupo:<br>«Alguém sabe se a alemã volta este ano? A prancha grande está à espera.»<br>A Marie sorri e não responde. Amanhã. Ou depois de amanhã.",
+   "gloss": "Neu erschließen: cheirar a = riechen nach · a parede = die Wand · o gato = die Katze · magro, magra = dünn · põe-lhe = legt ihr (pôr) · depressa = schnell · o bónus (EP-Schreibweise!) = der Bonus · ganhar o campeonato = die Meisterschaft gewinnen · provavelmente = wahrscheinlich · ninguém = niemand · ainda não = noch nicht · a alemã = die Deutsche · à espera = wartet",
    "questions": [
     {
      "q": "A avó fala mais depressa do que há um ano.",
      "a": "Falsch – langsamer. Oder Marie versteht schneller. Wahrscheinlich beides."
     },
     {
-     "q": "O João veio ao Porto só para o almoço.",
-     "a": "Falsch – für das São-João-Fest. Das Mittagessen ist „ein Bonus“."
+     "q": "O João veio ao Porto só para o jantar.",
+     "a": "Falsch – für das São-João-Fest. Das Abendessen ist „ein Bonus“."
     },
     {
      "q": "A Marie responde logo à mensagem do Vasco.",

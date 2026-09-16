@@ -34,7 +34,7 @@
      "a": "de repente"
     },
     {
-     "q": "während",
+     "q": "während (+ Satz: während er sprach …)",
      "a": "enquanto"
     },
     {
@@ -206,7 +206,7 @@
      "a": "as"
     },
     {
-     "q": "Ela viu-me? → Sim, ela ___ viu. (dich)",
+     "q": "Ela viu-me? → Sim, ela viu-___. (dich)",
      "a": "te"
     }
    ]
@@ -220,7 +220,7 @@
      "a": "maior"
     },
     {
-     "q": "O Porto é ___ ___ (kleiner, EP) do que Lisboa.",
+     "q": "O Porto é ___ (kleiner, EP) do que Lisboa.",
      "a": "mais pequeno"
     },
     {
@@ -241,7 +241,7 @@
    "type": "story",
    "title": "G · Lesen: Mensagem da Ana para a Inês (5 P.)",
    "audio": "r36",
-   "text": "Olá, Inês! Sou eu, a Ana, a irmã do teu irmão preferido. Tenho uma novidade: em setembro mudo-me para Coimbra! Recebi a resposta da universidade ontem. Ainda não acredito.<br>Preciso da tua ajuda. Tu vives lá há dois anos, não é? Como é a cidade? Onde é que os estudantes moram? É mais cara do que o Porto? O João diz que tu conheces toda a gente.<br>Outra coisa: a Marie está cá. Sim, a alemã! Voltou há uma semana e vai trabalhar em Sagres o verão inteiro, na escola do Vasco. Em agosto o João leva-nos para o sul na carrinha velha do tio. Quando eu era pequena, essa carrinha já era velha.<br>Se calhar passamos por Coimbra no caminho. Podemos dormir em tua casa? Só duas noites. Prometo que o João não dorme no teu sofá.<br>Beijinhos, Ana",
+   "text": "Olá, Inês! Sou eu, a Ana, a amiga do teu irmão preferido. Tenho uma novidade: em setembro mudo-me para Coimbra! Recebi a resposta da universidade ontem. Ainda não acredito.<br>Preciso da tua ajuda. Tu vives lá há um ano, não é? Como é a cidade? Onde é que os estudantes moram? É mais cara do que o Porto? O João diz que tu conheces toda a gente.<br>Outra coisa: a Marie está cá. Sim, a alemã! Voltou há uma semana e vai trabalhar em Sagres o verão inteiro, na escola do Vasco. Em agosto o João leva-nos para o sul na carrinha velha do tio. Quando conheci o João, essa carrinha já era velha.<br>Se calhar passamos por Coimbra no caminho. Podemos dormir em tua casa? Só duas noites. Prometo que o João não dorme no teu sofá.<br>Beijinhos, Ana",
    "gloss": "Erst lesen, dann anhören. Neu erschließen: preferido = Lieblings- · toda a gente = alle · passar por = vorbeikommen in · Beijinhos = Küsschen (Nachrichten-Schluss). Richtig oder falsch:",
    "questions": [
     {
@@ -249,8 +249,8 @@
      "a": "Richtig – die Antwort der Uni kam gestern."
     },
     {
-     "q": "A Inês vive em Coimbra há dois anos.",
-     "a": "Richtig – seit zwei Jahren."
+     "q": "A Inês vive em Coimbra há um ano.",
+     "a": "Richtig – seit einem Jahr (vorher war sie Ärztin in Porto)."
     },
     {
      "q": "A Marie voltou há um mês.",
@@ -280,7 +280,7 @@
    "type": "story",
    "title": "Bonus · Kleine Geschichte: A última noite no Porto",
    "audio": "s36",
-   "text": "A última noite no Porto é quieta. O São João acabou, os martelos estão numa gaveta, o manjerico está na varanda e ainda vive.<br>A avó chama a Marie à cozinha.<br>— Vais para Sagres.<br>— Vou, avó. Em agosto.<br>— E vais falar português o verão todo.<br>— Vou tentar.<br>A avó abre um armário e tira uma caixa. Dentro da caixa está um martelo de plástico, velho, amarelo, com o cabo partido.<br>— Este é de 1968.<br>A Marie não diz nada. Não consegue.<br>— Não é para ti — diz a avó. — É para ficar aqui. Mas queria que o visses. Para saberes que as coisas importantes começam sempre com um martelo na cabeça.<br>— Isso é uma frase muito portuguesa, avó.<br>— Eu sei. Agora vai dormir. Amanhã o comboio é cedo.<br>No quarto, a Ana já está na cama, com o telemóvel.<br>— A Inês respondeu — diz. — Diz que podemos ficar lá. Diz que Coimbra é a cidade mais bonita de Portugal.<br>— Ela é de Lisboa.<br>— Por isso é que é grave.<br>A Marie deita-se. Pela janela vê o rio, escuro, e as luzes de Gaia. Amanhã Lisboa. Em agosto o sul. Fecha os olhos e, pela primeira vez, sonha em português.",
+   "text": "A última noite no Porto é quieta. O São João acabou, os martelos estão numa gaveta, o manjerico está na varanda e ainda vive.<br>A avó chama a Marie à cozinha.<br>— Vais para Sagres.<br>— Vou, avó. Em agosto.<br>— E vais falar português o verão todo.<br>— Vou tentar.<br>A avó abre um armário e tira uma caixa. Dentro da caixa está um martelo de plástico, velho, amarelo, com o cabo partido.<br>— Este é de 1968.<br>A Marie não diz nada. Não consegue.<br>— Não é para ti — diz a avó. — É para ficar aqui. Mas queria que o visses. Para saberes que as coisas importantes começam sempre com um martelo na cabeça.<br>— Isso é uma frase muito portuguesa, avó.<br>— Eu sei. Agora vai dormir. Amanhã o comboio é cedo.<br>No quarto, a Ana já está na cama, com o telemóvel.<br>— A Inês respondeu — diz. — Diz que podemos ficar lá. E na semana que vem há um dia para os alunos novos na universidade. Vamos as duas, e tu vens connosco. Diz que Coimbra é a cidade mais bonita de Portugal.<br>— Ela é de Lisboa.<br>— Por isso é que é grave.<br>A Marie deita-se. Pela janela vê o rio, escuro, e as luzes de Gaia. Amanhã Lisboa. Na semana que vem, Coimbra. Em agosto o sul. Fecha os olhos e, pela primeira vez, sonha em português.",
    "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: a gaveta = die Schublade · tentar = versuchen · o armário = der Schrank · a caixa = die Schachtel · amarelo = gelb · o cabo partido = der abgebrochene Griff · Não consegue = sie schafft es nicht · queria que o visses = ich wollte, dass du ihn siehst (eine Form für später) · para saberes = damit du weißt · grave = ernst · a luz = das Licht",
    "questions": [
     {
