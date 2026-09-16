@@ -310,6 +310,9 @@
   .wsworte span.fund { color: var(--sea); text-decoration: line-through; }
   /* iOS zoomt bei Eingabefeldern unter 16px in die Seite – deshalb hier fest 16px */
   .exin, .searchrow input { font-size: 16px; }
+  .artfoto { margin: 0 0 1rem; }
+  .artfoto img { display: block; width: 100%; border-radius: 14px; box-shadow: 0 4px 16px rgba(51,41,74,.14); }
+  .artfoto figcaption { font-size: .66rem; color: var(--ink-soft); margin: .4rem .2rem 0; line-height: 1.4; }
 </style>
 </head>
 <body>
@@ -1326,7 +1329,9 @@ function openArtigo(id) {
   const a = DESCOBRIR.find(x => x.id === id);
   document.getElementById('art-title').textContent = a.title;
   document.getElementById('art-meta').textContent = a.meta;
-  document.getElementById('art-body').innerHTML = a.html;
+  // Foto-Strecke (eigene Aufnahmen) über dem Text
+  const fotos = (a.fotos || []).map(f => `<figure class="artfoto"><img src="${f.src}" alt="" loading="lazy"><figcaption class="mono">${f.cap}</figcaption></figure>`).join('');
+  document.getElementById('art-body').innerHTML = fotos + a.html;
   document.getElementById('art-fact').innerHTML = a.fact;
   show('artigo');
 }
@@ -1722,8 +1727,9 @@ async function openLesson(id) {
     const div = document.createElement('div');
     div.className = 'lsec';
     if (sec.type === 'note' || sec.type === 'speak') {
-      const vasco = sec.title.includes('Dica do Vasco')
-        ? '<img class="avat" src="avatare/vasco.png" alt="" style="width:34px; height:34px; vertical-align:middle; margin-right:.5rem">' : '';
+      const fig = sec.title.includes('Dica do Vasco') ? 'vasco' : sec.title.includes('Dica da Ana') ? 'ana' : '';
+      const vasco = fig
+        ? `<img class="avat" src="avatare/${fig}.png" alt="" style="width:34px; height:34px; vertical-align:middle; margin-right:.5rem">` : '';
       div.innerHTML = `<h3 style="${vasco ? 'display:flex; align-items:center' : ''}">${vasco}${sec.title}</h3><div class="body">${sec.html}</div>`;
       if (sec.type === 'speak') {
         div.innerHTML += `<div class="recrow">${recButtons(id + '-speak')}

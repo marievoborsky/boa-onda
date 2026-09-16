@@ -1,6 +1,6 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v8';
+const SHELL = 'boa-onda-shell-v9';
 const AUDIO = 'boa-onda-audio-v1';
 const LEKTIONEN = Array.from({ length: 29 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`);
 const CORE = [
@@ -13,6 +13,7 @@ const CORE = [
   './fonts/spacegrotesk-e911c2d9.woff2',
   './avatare/marie.png', './avatare/ana.png', './avatare/joao.png', './avatare/vasco.png',
   './etappen/porto.png', './etappen/lisboa.png', './etappen/milfontes.png', './etappen/sagres.png',
+  './fotos/sagres-mareta.webp', './fotos/sagres-baia.webp', './fotos/sagres-vale.webp', './fotos/sagres-por-do-sol.webp', './fotos/sagres-praia.webp', './fotos/sagres-estrada.webp',
   ...LEKTIONEN,
 ];
 

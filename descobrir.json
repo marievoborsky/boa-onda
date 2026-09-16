@@ -53,7 +53,42 @@
   "title": "Surf & Atlântico",
   "meta": "Alltag · Vascos Revier",
   "html": "Portugal ist Europas <b>Surf-Nation Nummer eins</b>. An der Algarve-Südwestspitze liegt <b>Sagres</b> mit seinen Anfänger-Stränden (Martinhal, Tonel, Mareta – kennst du aus der App!). In <b>Nazaré</b> nördlich von Lissabon entstehen im Winter die <b>größten surfbaren Wellen der Welt</b> – der Weltrekord liegt bei über 26 Metern, gesurft am Praia do Norte. <b>Ericeira</b> bei Lissabon ist Europas erstes <i>World Surfing Reserve</i> (seit 2011). Das Wasser bleibt übrigens auch im Sommer frisch (17–20 °C) – deshalb brauchst du in Sagres den <b>fato de surf</b>, den Neoprenanzug. Vasco würde sagen: <i>Boa onda!</i>",
-  "fact": "Die Riesenwellen von Nazaré entstehen durch einen Unterwasser-Canyon, der tiefer ist als der Grand Canyon."
+  "fact": "Die Riesenwellen von Nazaré entstehen durch einen Unterwasser-Canyon, der tiefer ist als der Grand Canyon.",
+  "fotos": [
+   {
+    "src": "fotos/sagres-praia.webp",
+    "cap": "Westküste bei Sagres: der Atlantik kommt hier ungebremst an."
+   },
+   {
+    "src": "fotos/sagres-estrada.webp",
+    "cap": "Der Weg zum Strand – Feldweg, Klippe, Wellen."
+   }
+  ]
+ },
+ {
+  "id": "sagres",
+  "title": "Sagres – o fim do mundo",
+  "meta": "Orte · Vascos Zuhause",
+  "html": "<b>Sagres</b> liegt an der äußersten Südwestspitze Europas – dahinter kommt nur noch Atlantik. Die Portugiesen nannten die Gegend lange <i>o fim do mundo</i>, das Ende der Welt, und wer am <b>Cabo de São Vicente</b> steht, versteht warum: 75 Meter Klippe, ein Leuchtturm, der zu den lichtstärksten Europas gehört, und Wind, der fast immer weht.<br><br>Berühmt wurde der Ort durch <b>Heinrich den Seefahrer</b> (Infante D. Henrique). Der Legende nach gründete er hier im 15. Jahrhundert eine Navigationsschule – historisch belegt ist das nicht, aber die <b>Fortaleza de Sagres</b> auf der Landzunge steht bis heute, mit einer riesigen Windrose aus Stein im Boden.<br><br>Für Surfer ist Sagres ein Geschenk der Geografie: Die Küste knickt hier um 90 Grad. Die <b>Praia da Mareta</b> im Süden liegt geschützt und ist perfekt für Anfänger – deshalb wartet Vasco dort. <b>Tonel</b> und <b>Beliche</b> auf der Westseite bekommen den vollen Swell. Irgendein Strand hat immer die richtige Welle – man muss nur wissen, welcher. Genau das ist der Job eines Surflehrers.<br><br>Der Ort selbst ist klein: ein Hafen (Porto da Baleeira), ein paar Straßen, Surfschulen, Cafés mit Blick aufs Meer. Im Sommer voll, im Winter still. Das Wasser bleibt das ganze Jahr um 17 bis 20 Grad – der <i>fato de surf</i> ist keine Deko.",
+  "fact": "<b>Wusstest du?</b> Sagres ist nach dem Kap <i>Promontorium Sacrum</i> benannt, dem „heiligen Vorgebirge“ der Römer – die glaubten, hier versinke die Sonne abends zischend im Meer.",
+  "fotos": [
+   {
+    "src": "fotos/sagres-mareta.webp",
+    "cap": "Praia da Mareta mit der Fortaleza im Hintergrund – Maries erster Strand."
+   },
+   {
+    "src": "fotos/sagres-baia.webp",
+    "cap": "Eine der Buchten an der Westküste, zwischen Dünen und Hügeln."
+   },
+   {
+    "src": "fotos/sagres-vale.webp",
+    "cap": "Hinter den Klippen: Macchia, Blumen, und dahinter das Meer."
+   },
+   {
+    "src": "fotos/sagres-por-do-sol.webp",
+    "cap": "Sonnenuntergang über dem Atlantik – der Abschluss jeder Surfwoche."
+   }
+  ]
  },
  {
   "id": "niveis",

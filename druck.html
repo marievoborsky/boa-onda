@@ -75,7 +75,7 @@ fetch('lektionen/' + id + '.json', { cache: 'no-cache' }).then(r => r.json()).th
   for (const sec of L.sections) {
     const s = document.createElement('section');
     if (sec.type === 'note' || sec.type === 'speak') {
-      const isTip = /Dica da Liz/.test(sec.title);
+      const isTip = /Dica da Ana/.test(sec.title);
       s.innerHTML = `<h2>${esc(sec.title)}</h2>
         <div class="${isTip ? 'tip' : 'note'}">${sec.html}</div>`;
       if (sec.type === 'speak') s.innerHTML +=
