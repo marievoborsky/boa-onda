@@ -1139,20 +1139,92 @@ function addLessonVocab(L, tag) {
   }
 }
 let VMAP = null;
+/* Gebeugte Formen eines Wörterbuch-Eintrags (grob, aber für A1/A2-Texte ausreichend):
+   Verben → Präsens, Perfekt, Imperfekt, Konjunktiv, Gerundium, Partizip;
+   Nomen/Adjektive → Plural und weibliche Form. Exakte Treffer haben immer Vorrang. */
+function derivados(p) {
+  const out = [];
+  let w = p.replace(/^(o|a|os|as|um|uma)\s+/, '');
+  if (w.includes(' ')) return out;           // Mehrwort-Einträge: nur Einzeltoken (unten)
+  w = w.replace(/-se$/, '');
+  const m = w.match(/^(.+?)(ar|er|ir)$/);
+  if (m && w.length > 3) {
+    const st = m[1], k = m[2];
+    const E = {
+      ar: ['o','as','a','amos','am','ei','aste','ou','ámos','aram','ava','avas','ava','ávamos','avam','e','es','emos','em','ando','ado','ada','ados','adas'],
+      er: ['o','es','e','emos','em','i','este','eu','eram','ia','ias','íamos','iam','a','as','amos','am','endo','ido','ida','idos','idas'],
+      ir: ['o','es','e','imos','em','i','iste','iu','iram','ia','ias','íamos','iam','a','as','amos','am','indo','ido','ida','idos','idas'],
+    }[k];
+    for (const e of E) out.push(st + e);
+    if (k === 'ar' && /[cg]$/.test(st)) { // chegar → cheguei, ficar → fiquei
+      const st2 = st.replace(/c$/, 'qu').replace(/g$/, 'gu');
+      out.push(st2 + 'ei', st2 + 'e', st2 + 'es', st2 + 'emos', st2 + 'em');
+    }
+    return out;
+  }
+  // Nomen / Adjektive
+  if (/ão$/.test(w)) out.push(w.replace(/ão$/, 'ões'), w.replace(/ão$/, 'ãos'), w.replace(/ão$/, 'ã'));
+  else if (/al$/.test(w)) out.push(w.replace(/al$/, 'ais'));
+  else if (/el$/.test(w)) out.push(w.replace(/el$/, 'éis'));
+  else if (/ol$/.test(w)) out.push(w.replace(/ol$/, 'óis'));
+  else if (/m$/.test(w)) out.push(w.replace(/m$/, 'ns'));
+  else if (/[rsz]$/.test(w)) out.push(w + 'es');
+  else out.push(w + 's');
+  if (/o$/.test(w)) out.push(w.replace(/o$/, 'a'), w.replace(/o$/, 'as'));
+  if (/[eê]s$/.test(w)) out.push(w.replace(/ês$/, 'esa'), w.replace(/ês$/, 'esas'), w.replace(/ês$/, 'eses'));
+  return out;
+}
 function vmap() {
   if (VMAP) return VMAP;
   VMAP = {};
   const norm = t => t.toLowerCase().replace(/[?!.,…::]/g, '').trim();
-  for (const w of VOCAB) {
+  const liste = alleWorte();
+  const abgeleitet = [];
+  for (const w of liste) {
     const parts = w.pt.split('/').map(p => norm(p)).filter(Boolean);
     for (const p of parts) {
       if (!VMAP[p]) VMAP[p] = w;
       const toks = p.split(/\s+/);
-      if (toks.length > 1) for (const t of toks) if (!VMAP[t]) VMAP[t] = w;
+      if (toks.length > 1) for (const t of toks) if (t.length > 2 && !VMAP[t]) VMAP[t] = w;
+      for (const d of derivados(p)) abgeleitet.push([d, w]);
     }
+  }
+  // Abgeleitete Formen erst danach, damit sie exakte Einträge nie überschreiben
+  for (const [d, w] of abgeleitet) if (!VMAP[d]) VMAP[d] = w;
+  // Unregelmäßige Verben: häufige Formen auf den Grundform-Eintrag zeigen lassen
+  for (const [inf, formen] of Object.entries(IRREG)) {
+    const e = VMAP[inf]; if (!e) continue;
+    for (const f of formen.split(' ')) if (!VMAP[f]) VMAP[f] = e;
   }
   return VMAP;
 }
+const IRREG = {
+  ser: 'sou és é somos são era eras éramos eram fui foste foi fomos foram seja sejas sejam',
+  estar: 'estou estás está estamos estão estava estavas estávamos estavam estive estiveste esteve estivemos estiveram esteja estejas estejam',
+  ter: 'tenho tens tem temos têm tinha tinhas tínhamos tinham tive tiveste teve tivemos tiveram tenha tenhas tenham tido',
+  ir: 'vou vais vai vamos vão ia ias íamos iam fui foste foi fomos foram vá vás vão ido',
+  fazer: 'faço fazes faz fazemos fazem fazia fazias fazíamos faziam fiz fizeste fez fizemos fizeram faça faças façam feito',
+  dizer: 'digo dizes diz dizemos dizem dizia diziam disse disseste dissemos disseram diga digas digam dito',
+  saber: 'sei sabes sabe sabemos sabem sabia sabiam soube soubeste soubemos souberam saiba saibas',
+  poder: 'posso podes pode podemos podem podia podias podíamos podiam pude pudeste pôde pudemos puderam possa possas possam',
+  querer: 'quero queres quer queremos querem queria querias queríamos queriam quis quiseste quisemos quiseram queira',
+  vir: 'venho vens vem vimos vêm vinha vinhas vínhamos vinham vim vieste veio viemos vieram venha venhas venham vindo',
+  ver: 'vejo vês vê vemos veem via vias víamos viam vi viste viu vimos viram veja vejas vejam visto',
+  dar: 'dou dás dá damos dão dava davas dávamos davam dei deste deu demos deram dê dês deem dado',
+  'pôr': 'ponho pões põe pomos põem punha punham pus puseste pôs pusemos puseram ponha posto',
+  trazer: 'trago trazes traz trazemos trazem trazia traziam trouxe trouxeste trouxemos trouxeram traga tragas',
+  ouvir: 'oiço ouço ouves ouve ouvimos ouvem ouvia ouvi ouviste ouviu ouviram oiça',
+  pedir: 'peço pedes pede pedimos pedem pedia pedi pediste pediu pediram peça',
+  dormir: 'durmo dormes dorme dormimos dormem dormia dormi dormiste dormiu dormiram durma',
+  sair: 'saio sais sai saímos saem saía saí saíste saiu saíram saia',
+  ler: 'leio lês lê lemos leem lia li leste leu leram leia',
+  conhecer: 'conheço conheces conhece conhecemos conhecem conhecia conheci conheceste conheceu conheceram conheça',
+  preferir: 'prefiro preferes prefere preferimos preferem preferi preferiu prefira',
+  sentir: 'sinto sentes sente sentimos sentem sentia senti sentiu sentiram sinta',
+  perder: 'perco perdes perde perdemos perdem perdia perdi perdeste perdeu perderam perca',
+  cair: 'caio cais cai caímos caem caía caí caíste caiu caíram caia',
+  haver: 'há havia houve haja',
+};
 function wordClass(n) {
   const e = vmap()[n];
   if (!e) return '';
@@ -1276,6 +1348,7 @@ function ladeLVocab() {
       } catch (e) { return []; }
     }));
     LVOCAB = listen.flat();
+    VMAP = null;   // Reader-Wörterbuch mit Lektionswörtern neu aufbauen
     return LVOCAB;
   })();
   return LVOCAB_P;
