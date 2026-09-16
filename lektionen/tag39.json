@@ -1,0 +1,361 @@
+{
+ "id": "tag39",
+ "title": "Fado de Coimbra",
+ "subtitle": "Staffel 2 · Woche 6 · Tag 39 · Gefühle · estar, ficar, sentir-se + Adjektiv · Hörverstehen · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 38)",
+   "items": [
+    {
+     "q": "Mir tut der Kopf weh: ___ a cabeça.",
+     "a": "Dói-me"
+    },
+    {
+     "q": "Mir tut der Rücken weh: ___ as costas.",
+     "a": "Doem-me"
+    },
+    {
+     "q": "Ich bin erkältet: Estou ___.",
+     "a": "constipada / constipado"
+    },
+    {
+     "q": "Du solltest schlafen: ___ dormir.",
+     "a": "Deves"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Sentimentos (14)",
+   "items": [
+    {
+     "pt": "triste",
+     "de": "traurig",
+     "ipa": "[ˈtɾiʃtɨ]",
+     "audio": "v3901"
+    },
+    {
+     "pt": "contente",
+     "de": "zufrieden, froh",
+     "ipa": "[kõˈtẽtɨ]",
+     "audio": "v3902"
+    },
+    {
+     "pt": "zangado / zangada",
+     "de": "wütend, sauer",
+     "ipa": "[zɐ̃ˈgadu / zɐ̃ˈgadɐ]",
+     "audio": "v3903"
+    },
+    {
+     "pt": "preocupado / preocupada",
+     "de": "besorgt",
+     "ipa": "[pɾiɔkuˈpadu / pɾiɔkuˈpadɐ]",
+     "audio": "v3904"
+    },
+    {
+     "pt": "emocionado / emocionada",
+     "de": "gerührt, bewegt",
+     "ipa": "[imusjuˈnadu / imusjuˈnadɐ]",
+     "audio": "v3905"
+    },
+    {
+     "pt": "aborrecido / aborrecida",
+     "de": "genervt, gelangweilt",
+     "ipa": "[ɐbuʁɨˈsidu / ɐbuʁɨˈsidɐ]",
+     "audio": "v3906"
+    },
+    {
+     "pt": "calmo / calma",
+     "de": "ruhig",
+     "ipa": "[ˈkaɫmu / ˈkaɫmɐ]",
+     "audio": "v3907"
+    },
+    {
+     "pt": "sentir-se",
+     "de": "sich fühlen",
+     "ipa": "[sẽˈtiɾsɨ]",
+     "audio": "v3908"
+    },
+    {
+     "pt": "ficar + Adjektiv",
+     "de": "werden (fiquei triste = ich wurde traurig)",
+     "ipa": "[fiˈkaɾ]",
+     "audio": "v3909"
+    },
+    {
+     "pt": "a lágrima",
+     "de": "die Träne",
+     "ipa": "[ˈlagɾimɐ]",
+     "audio": "v3910"
+    },
+    {
+     "pt": "rir",
+     "de": "lachen",
+     "ipa": "[ʁiɾ]",
+     "audio": "v3911"
+    },
+    {
+     "pt": "o silêncio",
+     "de": "die Stille",
+     "ipa": "[siˈlẽsju]",
+     "audio": "v3912"
+    },
+    {
+     "pt": "a guitarra portuguesa",
+     "de": "die portugiesische Gitarre (12 Saiten)",
+     "ipa": "[giˈtaʁɐ puɾtuˈgezɐ]",
+     "audio": "v3913"
+    },
+    {
+     "pt": "a serenata",
+     "de": "das Ständchen",
+     "ipa": "[sɨɾɨˈnatɐ]",
+     "audio": "v3914"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Sein, werden, sich fühlen",
+   "html": "<i>(Sprachnachricht, leise:)</i> Über Gefühle redet man auf Portugiesisch mit drei Verben, und der Unterschied ist derselbe wie zwischen einem Foto und einem Film:<br><br><b>estar + Adjektiv</b> = gerade so sein (Zustand): <i><b>Estou</b> triste. · A Ana <b>está</b> nervosa. · <b>Estás</b> zangado comigo?</i><br><b>ficar + Adjektiv</b> = werden (der Moment, in dem sich etwas ändert): <i><b>Fiquei</b> emocionada.</i> – Ich war plötzlich gerührt. · <i>Ele <b>ficou</b> zangado.</i> – Er wurde sauer. · <i><b>Fico</b> contente quando…</i><br><b>sentir-se</b> = sich fühlen: <i><b>Sinto-me</b> bem. · <b>Sentes-te</b> em casa? · Ela <b>sentiu-se</b> só.</i> (sentir ist unregelmäßig in der ich-Form: <i>sinto</i>.)<br><br><b>Die Adjektive passen sich an:</b> <i>Ele está zangad<b>o</b>, ela está zangad<b>a</b>, eles estão zangad<b>os</b>.</i><br><br><b>Und ser?</b> Nur für Charakter, nicht für Momente: <i>A Ana <b>é</b> calma</i> (immer) – <i>A Ana <b>está</b> calma</i> (jetzt gerade, ausnahmsweise). Boa onda."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Der <b>Fado de Coimbra</b> ist nicht der von Lissabon: Hier singen nur Männer, in schwarzer Cape, meist nachts auf Treppen oder unter Fenstern – ursprünglich als <b>serenata</b> für eine Frau. Man klatscht nicht, man <b>räuspert sich</b> leise, als Zeichen der Anerkennung. Die berühmteste Serenade ist die <i>Serenata Monumental</i> im Mai vor der Sé Velha, tausende Menschen, totale Stille. Wer klatscht, ist Tourist. Aussprache: <i>emocionada</i> = „imussiunáda“, und <i>fiquei</i> klingt wie <b>„fikäj“</b>."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Nas escadas da Sé Velha",
+   "hint": "Selbst erschlossen: as escadas = die Treppe · afinar = stimmen (Instrument) · a voz = die Stimme · tremer = zittern · a letra = der Liedtext · a saudade = die Sehnsucht (Tag 29) · pigarrear = sich räuspern · bater palmas = klatschen · ninguém = niemand · Fica calada = Sei still · o lenço = das Taschentuch.",
+   "lines": [
+    {
+     "who": "Rui",
+     "pt": "Sentem-se ali, nas escadas. E não batam palmas no fim. Aqui pigarreia-se.",
+     "audio": "d3901"
+    },
+    {
+     "who": "Ana",
+     "pt": "Estás nervoso?",
+     "audio": "d3902"
+    },
+    {
+     "who": "Rui",
+     "pt": "Estou sempre nervoso antes. Depois fico calmo. É assim.",
+     "audio": "d3903"
+    },
+    {
+     "who": "Marie",
+     "pt": "A guitarra portuguesa tem doze cordas? Parece impossível.",
+     "audio": "d3904"
+    },
+    {
+     "who": "Rui",
+     "pt": "Doze. E chora melhor do que qualquer pessoa. Silêncio agora.",
+     "audio": "d3905"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ana… não percebo a letra. Mas sinto-me estranha.",
+     "audio": "d3906"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não é estranha. É saudade. Fica calada.",
+     "audio": "d3907"
+    },
+    {
+     "who": "Marie",
+     "pt": "Estás a chorar?",
+     "audio": "d3908"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não. Estou emocionada. É diferente. Dá-me o lenço.",
+     "audio": "d3909"
+    },
+    {
+     "who": "Marie",
+     "pt": "Eu também fiquei emocionada. E não sei porquê.",
+     "audio": "d3910"
+    },
+    {
+     "who": "Ana",
+     "pt": "Ninguém sabe porquê. É o fado. Cala-te e pigarreia.",
+     "audio": "d3911"
+    },
+    {
+     "who": "Rui",
+     "pt": "Obrigado. A próxima é para a rapariga do Porto que chorou e diz que não chorou.",
+     "audio": "d3912"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · estar, ficar oder sentir-se?",
+   "items": [
+    {
+     "q": "Ich bin (gerade) traurig: ___ triste.",
+     "a": "Estou"
+    },
+    {
+     "q": "Ich wurde gerührt: ___ emocionada.",
+     "a": "Fiquei"
+    },
+    {
+     "q": "Ich fühle mich gut: ___ bem.",
+     "a": "Sinto-me"
+    },
+    {
+     "q": "Er wurde sauer: Ele ___ zangado.",
+     "a": "ficou"
+    },
+    {
+     "q": "Fühlst du dich zu Hause? → ___ em casa?",
+     "a": "Sentes-te"
+    },
+    {
+     "q": "Sie (Pl.) sind besorgt: Eles ___ preocupados.",
+     "a": "estão"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Foto oder Wechsel? (antippen)",
+   "items": [
+    {
+     "q": "Als ich die Nachricht hörte, ___ ich sauer. (werden)",
+     "opts": [
+      "fiquei",
+      "estava"
+     ],
+     "a": "fiquei – der Moment, in dem sich etwas ändert → ficar"
+    },
+    {
+     "q": "Den ganzen Tag ___ ich müde. (Zustand)",
+     "opts": [
+      "estive",
+      "fiquei"
+     ],
+     "a": "estive – Zustand über eine Zeit → estar"
+    },
+    {
+     "q": "Ana ___ ruhig – das ist ihr Charakter.",
+     "opts": [
+      "é",
+      "está"
+     ],
+     "a": "é – Charakter → ser"
+    },
+    {
+     "q": "Ana ___ ruhig – heute, ausnahmsweise.",
+     "opts": [
+      "está",
+      "é"
+     ],
+     "a": "está – Moment → estar"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Das Adjektiv anpassen",
+   "items": [
+    {
+     "q": "A Ana está ___ (zangado).",
+     "a": "zangada"
+    },
+    {
+     "q": "Os rapazes ficaram ___ (nervoso).",
+     "a": "nervosos"
+    },
+    {
+     "q": "Eu (Marie) sinto-me ___ (preocupado).",
+     "a": "preocupada"
+    },
+    {
+     "q": "Nós (Ana e Marie) ficámos ___ (emocionado).",
+     "a": "emocionadas"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "No Fado de Coimbra bate-se palmas no fim.",
+     "a": "Falsch – man räuspert sich („pigarreia-se“). Klatschen ist für Touristen."
+    },
+    {
+     "q": "O Rui fica calmo depois de começar a cantar.",
+     "a": "Richtig – vorher immer nervös, danach ruhig."
+    },
+    {
+     "q": "A Ana admite que está a chorar.",
+     "a": "Falsch – „Não. Estou emocionada. É diferente.“ Rui widmet ihr trotzdem das nächste Lied."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Satz bauen",
+   "items": [
+    {
+     "q": "Ich wurde gerührt und weiß nicht warum.",
+     "satz": "Fiquei emocionada e não sei porquê.",
+     "a": "Fiquei emocionada e não sei porquê."
+    },
+    {
+     "q": "Bist du sauer auf mich?",
+     "satz": "Estás zangado comigo?",
+     "a": "Estás zangado comigo?"
+    },
+    {
+     "q": "Ich fühle mich hier zu Hause.",
+     "satz": "Sinto-me em casa aqui.",
+     "a": "Sinto-me em casa aqui."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Como te sentes?",
+   "html": "Sechs Sätze über deine Gefühle heute, mit allen drei Verben: <i>Hoje estou… Fiquei… quando… Sinto-me… Normalmente sou… mas hoje estou…</i><br><br>Dann Anas Satz, mit tränenerstickter Würde: <i>Não. Estou emocionada. É diferente.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Hörverstehen: A serenata",
+   "audio": "s39",
+   "listen": true,
+   "text": "Depois do fado, ninguém quer ir para casa. Descem até ao rio em silêncio, os cinco: o Rui com a guitarra às costas, dois colegas da república, a Ana e a Marie. A noite está quente e o Mondego parece parado.<br>— Foi a primeira vez que vi a Ana calada durante vinte minutos — diz a Marie.<br>— Eu estava a ouvir — diz a Ana. — Há uma diferença.<br>Sentam-se na relva junto à ponte. O Rui afina a guitarra e não canta: toca só. Uma melodia lenta, sem letra, que sobe e desce como o rio.<br>A Marie fecha os olhos. Pensa em Hamburgo, no porto, nos navios. Pensa na avó do Porto e no martelo de 1968. Pensa em Sagres e numa prancha grande que está à espera. Sente uma coisa no peito que não tem nome em alemão. Em português tem: saudade. Saudade de coisas que ainda nem aconteceram.<br>Quando o Rui acaba, ninguém bate palmas. A Ana pigarreia. A Marie pigarreia. Os dois colegas pigarreiam. O Rui ri-se.<br>— Aprendem depressa.<br>— Nós somos do Norte — diz a Ana. — Aprendemos tudo depressa. Menos a ficar caladas.<br>No caminho para casa, a Ana dá o braço à Marie.<br>— Sabes o que é que eu senti hoje?<br>— O quê?<br>— Que vou ficar bem aqui. Fiquei calma. Pela primeira vez desde a resposta da universidade.<br>— Eu sei. Eu vi.<br>— Viste?<br>— Não. Mas ouvi. Vinte minutos de silêncio, Ana. Foi o som mais bonito da noite.",
+   "gloss": "Erst hören, dann die Fragen, dann lesen. Neu erschließen: descer = hinuntergehen · às costas = auf dem Rücken · a relva = der Rasen · junto a = neben · lento, lenta = langsam · o peito = die Brust · ainda nem = noch nicht einmal · depressa = schnell · dar o braço = sich unterhaken · o som = der Klang",
+   "questions": [
+    {
+     "q": "Depois do fado, o Rui canta mais uma música junto ao rio.",
+     "a": "Falsch – er spielt nur, ohne Text. Eine langsame Melodie, die wie der Fluss auf und ab geht."
+    },
+    {
+     "q": "A Marie sente saudade de coisas que ainda não aconteceram.",
+     "a": "Richtig – ein Gefühl ohne deutsches Wort: saudade von Sagres und der Prancha, die wartet."
+    },
+    {
+     "q": "A Ana ficou calma pela primeira vez desde a resposta de Coimbra.",
+     "a": "Richtig – „vou ficar bem aqui“."
+    },
+    {
+     "q": "Segundo a Marie, o som mais bonito da noite foi a guitarra.",
+     "a": "Falsch – Anas zwanzig Minuten Schweigen."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt sagen, wie du dich fühlst und wie du dich fühltest: <b>estou, fiquei, sinto-me</b> – plus die Adjektive dazu. Morgen klingelt das Telefon, und in Portugal meldet man sich nicht mit dem Namen, sondern mit <b>Está?</b> Außerdem: sagen, was jemand gesagt hat."
+  }
+ ]
+}

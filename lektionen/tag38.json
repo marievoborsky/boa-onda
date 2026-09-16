@@ -1,0 +1,356 @@
+{
+ "id": "tag38",
+ "title": "Dói-me a garganta",
+ "subtitle": "Staffel 2 · Woche 6 · Tag 38 · Körper & Krankheit · doer, dever · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 37)",
+   "items": [
+    {
+     "q": "Ich würde gern das Zimmer sehen: ___ de ver o quarto.",
+     "a": "Gostaria"
+    },
+    {
+     "q": "Wäre es möglich? → ___ possível?",
+     "a": "Seria"
+    },
+    {
+     "q": "die Miete: a ___",
+     "a": "renda"
+    },
+    {
+     "q": "Könnten Sie wiederholen? (kurz, EP): ",
+     "opts": [
+      "Podia repetir?",
+      "Quer repetir?"
+     ],
+     "a": "Podia repetir?"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: O corpo (14)",
+   "items": [
+    {
+     "pt": "a cabeça",
+     "de": "der Kopf",
+     "ipa": "[kɐˈbesɐ]",
+     "audio": "v3801"
+    },
+    {
+     "pt": "a garganta",
+     "de": "der Hals (innen), die Kehle",
+     "ipa": "[gɐɾˈgɐ̃tɐ]",
+     "audio": "v3802"
+    },
+    {
+     "pt": "o estômago",
+     "de": "der Magen",
+     "ipa": "[ɨʃˈtomɐgu]",
+     "audio": "v3803"
+    },
+    {
+     "pt": "as costas",
+     "de": "der Rücken",
+     "ipa": "[ɐʃ ˈkɔʃtɐʃ]",
+     "audio": "v3804"
+    },
+    {
+     "pt": "o braço",
+     "de": "der Arm",
+     "ipa": "[ˈbɾasu]",
+     "audio": "v3805"
+    },
+    {
+     "pt": "a perna",
+     "de": "das Bein",
+     "ipa": "[ˈpɛɾnɐ]",
+     "audio": "v3806"
+    },
+    {
+     "pt": "doer (dói-me)",
+     "de": "wehtun (mir tut … weh)",
+     "ipa": "[duˈeɾ / ˈdɔjmɨ]",
+     "audio": "v3807"
+    },
+    {
+     "pt": "a febre",
+     "de": "das Fieber",
+     "ipa": "[ˈfɛbɾɨ]",
+     "audio": "v3808"
+    },
+    {
+     "pt": "a tosse",
+     "de": "der Husten",
+     "ipa": "[ˈtɔsɨ]",
+     "audio": "v3809"
+    },
+    {
+     "pt": "constipado / constipada",
+     "de": "erkältet (EP!)",
+     "ipa": "[kõʃtiˈpadu / kõʃtiˈpadɐ]",
+     "audio": "v3810"
+    },
+    {
+     "pt": "a receita",
+     "de": "das Rezept (auch: Kochrezept)",
+     "ipa": "[ʁɨˈsɐjtɐ]",
+     "audio": "v3811"
+    },
+    {
+     "pt": "o comprimido",
+     "de": "die Tablette",
+     "ipa": "[kõpɾiˈmidu]",
+     "audio": "v3812"
+    },
+    {
+     "pt": "a farmácia",
+     "de": "die Apotheke",
+     "ipa": "[fɐɾˈmasjɐ]",
+     "audio": "v3813"
+    },
+    {
+     "pt": "dever",
+     "de": "sollen, müssten (Rat)",
+     "ipa": "[dɨˈveɾ]",
+     "audio": "v3814"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Was wehtut – und was man tun sollte",
+   "html": "<i>(Sprachnachricht, besorgt:)</i> Wer surft, wird auch mal krank – Sonne, kaltes Wasser, Wind. Deshalb heute die Sätze für den Arzt und die Apotheke.<br><br><b>doer</b> = wehtun funktioniert wie im Deutschen „mir tut … weh“: das Körperteil ist das Subjekt, die Person ein Pronomen:<br><i><b>Dói-me</b> a cabeça.</i> – Mir tut der Kopf weh. · <i><b>Dói-te</b> a garganta?</i> – Tut dir der Hals weh? · <i><b>Dói-lhe</b> o estômago.</i> – Ihm/ihr tut der Magen weh.<br>Mehrere Körperteile → Plural: <i><b>Doem-me</b> as costas. <b>Doem-me</b> as pernas.</i><br><br><b>Beschwerden ohne doer:</b> <i>Tenho febre. · Tenho tosse. · Estou constipada. · Estou com dores de cabeça.</i> („constipado“ heißt erkältet – nicht verstopft!)<br><br><b>Ratschläge mit dever</b> = sollen: <i>devo, deves, deve, devemos, devem</i> + Grundform.<br><i><b>Deves</b> descansar.</i> – Du solltest dich ausruhen. Noch weicher im Imperfekt: <i><b>Devias</b> ir ao médico.</i> – Du solltest (eigentlich) zum Arzt.<br><br><b>In der Apotheke:</b> <i>Tem alguma coisa para a garganta? · Preciso de uma receita? · Quantos comprimidos por dia?</i> Boa onda – e melhoras!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<b>Melhoras!</b> ist das Wort, das man jedem Kranken sagt – „gute Besserung“, wörtlich „Verbesserungen“. Antwort: <i>Obrigada!</i> Und ein Wort, das Deutsche immer falsch verstehen: <b>constipado</b> heißt <b>erkältet</b>. Wenn dir jemand sagt <i>Estou constipada</i>, braucht sie ein Taschentuch, sonst nichts. Aussprache-Hinweis: <i>dói</i> ist ein offenes <b>„dój“</b>, <i>doem</i> klingt wie <b>„dóäng“</b> mit Nasal am Ende."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A consulta na cozinha",
+   "hint": "Selbst erschlossen: a consulta = die Untersuchung, der Arzttermin · Abre a boca = Mach den Mund auf · vermelho = rot · a temperatura · trinta e oito e dois = 38,2 · ontem à noite = gestern Abend · o Mondego = der Fluss in Coimbra · isto passa = das geht vorbei · de oito em oito horas = alle acht Stunden · um chá de limão = ein Zitronentee · a bata = der Arztkittel.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Inês… dói-me a garganta. E a cabeça. E acho que tenho febre.",
+     "audio": "d3801"
+    },
+    {
+     "who": "Inês",
+     "pt": "Abre a boca. Diz «aaa».",
+     "audio": "d3802"
+    },
+    {
+     "who": "Marie",
+     "pt": "Aaa.",
+     "audio": "d3803"
+    },
+    {
+     "who": "Inês",
+     "pt": "Está vermelha. Temperatura?",
+     "audio": "d3804"
+    },
+    {
+     "who": "Marie",
+     "pt": "Trinta e oito e dois.",
+     "audio": "d3805"
+    },
+    {
+     "who": "Inês",
+     "pt": "Estás constipada. O que é que fizeste ontem à noite?",
+     "audio": "d3806"
+    },
+    {
+     "who": "Marie",
+     "pt": "Fomos ao rio. O Rui disse que a água do Mondego em julho está quente.",
+     "audio": "d3807"
+    },
+    {
+     "who": "Inês",
+     "pt": "O Rui é de Coimbra. Para ele tudo é quente. Doem-te as costas?",
+     "audio": "d3808"
+    },
+    {
+     "who": "Marie",
+     "pt": "Um bocadinho. E o braço direito, mas isso é do surf do ano passado.",
+     "audio": "d3809"
+    },
+    {
+     "who": "Inês",
+     "pt": "Isto passa em três dias. Deves ficar em casa, beber muita água e dormir. Um comprimido de oito em oito horas para a febre.",
+     "audio": "d3810"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não preciso de receita?",
+     "audio": "d3811"
+    },
+    {
+     "who": "Inês",
+     "pt": "Para um chá de limão não. E Marie: não devias ouvir o Rui. Ele canta bem, mas de medicina não percebe nada.",
+     "audio": "d3812"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · dói-me oder doem-me?",
+   "items": [
+    {
+     "q": "___ a cabeça. (mir)",
+     "a": "Dói-me"
+    },
+    {
+     "q": "___ as costas. (mir)",
+     "a": "Doem-me"
+    },
+    {
+     "q": "___ a garganta? (dir)",
+     "a": "Dói-te"
+    },
+    {
+     "q": "___ as pernas. (ihm)",
+     "a": "Doem-lhe"
+    },
+    {
+     "q": "___ o estômago. (uns)",
+     "a": "Dói-nos"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Beschwerden (antippen)",
+   "items": [
+    {
+     "q": "Ich bin erkältet. →",
+     "opts": [
+      "Estou constipada.",
+      "Estou constipado com o estômago."
+     ],
+     "a": "Estou constipada. – constipado = erkältet"
+    },
+    {
+     "q": "Ich habe Fieber. →",
+     "opts": [
+      "Tenho febre.",
+      "Sou febre."
+     ],
+     "a": "Tenho febre. – Beschwerden hat man (ter)"
+    },
+    {
+     "q": "Mir tut der Rücken weh. →",
+     "opts": [
+      "Doem-me as costas.",
+      "Dói-me as costas."
+     ],
+     "a": "Doem-me as costas. – costas ist Plural"
+    },
+    {
+     "q": "Sie hat Husten. →",
+     "opts": [
+      "Ela tem tosse.",
+      "Ela está tosse."
+     ],
+     "a": "Ela tem tosse."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · dever: Ratschläge",
+   "items": [
+    {
+     "q": "Du solltest dich ausruhen: ___ descansar.",
+     "a": "Deves"
+    },
+    {
+     "q": "Ihr solltet Wasser trinken: ___ beber água.",
+     "a": "Devem"
+    },
+    {
+     "q": "Ich sollte zum Arzt gehen (weich, Imperfekt): ___ ir ao médico.",
+     "a": "Devia"
+    },
+    {
+     "q": "Wir sollten nicht ins Wasser gehen: Não ___ entrar na água.",
+     "a": "devemos"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie tem trinta e sete graus de temperatura.",
+     "a": "Falsch – 38,2. Sie hat Fieber."
+    },
+    {
+     "q": "Segundo a Inês, a Marie deve ficar em casa três dias.",
+     "a": "Richtig – zu Hause bleiben, viel Wasser, schlafen, alle acht Stunden eine Tablette."
+    },
+    {
+     "q": "A Marie precisa de uma receita.",
+     "a": "Falsch – „Para um chá de limão não.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Satz bauen",
+   "items": [
+    {
+     "q": "Mir tut der Hals weh.",
+     "satz": "Dói-me a garganta.",
+     "a": "Dói-me a garganta."
+    },
+    {
+     "q": "Du solltest zu Hause bleiben.",
+     "satz": "Deves ficar em casa.",
+     "a": "Deves ficar em casa."
+    },
+    {
+     "q": "Haben Sie etwas gegen Husten?",
+     "satz": "Tem alguma coisa para a tosse?",
+     "a": "Tem alguma coisa para a tosse?"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Na farmácia",
+   "html": "Du stehst in der Apotheke. Sag in sechs Sätzen, was dir fehlt und was du brauchst: <i>Bom dia. Dói-me… Tenho… Estou constipada. Tem alguma coisa para…? Preciso de receita? Quantos comprimidos por dia?</i><br><br>Dann Inês’ Ratschläge nachsprechen, mit dem offenen „dój“: <i>Deves ficar em casa, beber muita água e dormir.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Três dias",
+   "audio": "s38",
+   "text": "Três dias de cama na sala da Inês, com o Alberto ao lado. Não é o pior sítio do mundo para estar doente.<br>No primeiro dia, a Marie dorme catorze horas. A Ana vai ver o quarto na república e volta com a cara vermelha de felicidade e um contrato de duas páginas escrito à mão, que termina com «e ninguém pode dizer mal do Sporting».<br>— Assinei — diz. — Sou uma Kágada.<br>No segundo dia, a Marie consegue ler. Lê o caderno de Sagres do ano passado, do princípio ao fim. Ri-se dos erros. Há um ano escrevia «eu tenho dezoito anos» com dois erros. Hoje escreve cartas ao senhorio no condicional.<br>No terceiro dia, a Inês chega do hospital às nove da noite, cansada, com a bata ainda no saco, e senta-se na cama da Marie.<br>— Como está a garganta?<br>— Melhor. Obrigada, doutora.<br>— Não me chames doutora. Chama-me Inês. — Faz uma pausa. — O João disse-me uma coisa ao telefone.<br>— O quê?<br>— Que tu és a pessoa mais teimosa que ele conhece. Depois da Ana. Depois de mim.<br>— Isso é um elogio?<br>— Vindo do João, é uma declaração de amor. — A Inês levanta-se. — Amanhã já podes sair. Vamos ouvir o Rui cantar. Leva um casaco. E não te ponhas ao pé do rio.",
+   "gloss": "Neu erschließen: o sítio = der Ort · a felicidade = das Glück · escrito à mão = handgeschrieben · terminar = enden · do princípio ao fim = von Anfang bis Ende · rir-se de = lachen über · a carta = der Brief · a pausa = die Pause · teimoso, teimosa = stur · o elogio = das Kompliment · vindo de = wenn es von … kommt · a declaração de amor = die Liebeserklärung · o casaco = die Jacke · não te ponhas = stell dich nicht (verneinter Befehl – Tag 41) · ao pé de = neben, in der Nähe von",
+   "questions": [
+    {
+     "q": "A Ana assinou o contrato da república.",
+     "a": "Richtig – ein handgeschriebener Zweiseiter, der mit der Sporting-Regel endet. „Sou uma Kágada.“"
+    },
+    {
+     "q": "Há um ano a Marie já escrevia no condicional.",
+     "a": "Falsch – vor einem Jahr schrieb sie „eu tenho dezoito anos“ mit zwei Fehlern."
+    },
+    {
+     "q": "Segundo o João, a Marie é a pessoa mais teimosa que ele conhece.",
+     "a": "Richtig – nach Ana und nach Inês. Und das ist bei João eine Liebeserklärung."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt sagen, was dir wehtut (<b>dói-me, doem-me</b>), was du hast (<b>tenho febre, estou constipada</b>) und was man tun sollte (<b>deves, devias</b>). Marie darf morgen wieder raus – auf die Stufen der Sé Velha, wo Rui singt. Es wird emotional: <b>Fiquei emocionada.</b>"
+  }
+ ]
+}

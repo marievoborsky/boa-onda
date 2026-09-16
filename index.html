@@ -707,8 +707,8 @@ function goTab(id, ausHistory) {
 /* ---------- Lektionen ---------- */
 const WOCHEN = ['Woche 1 · Ich und du', 'Woche 2 · Meine Welt', 'Woche 3 · Mein Alltag', 'Woche 4 · Unterwegs',
   'Staffel 2 · Woche 5 · Porto, outra vez', 'Woche 6 · Coimbra', 'Woche 7 · A estrada', 'Woche 8 · Sagres, com responsabilidade'];
-// Etappen-Vignetten je Woche (Staffel 2 nutzt vorerst die passenden Bilder aus Staffel 1; Coimbra-Vignette folgt)
-const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'lisboa', 'milfontes', 'sagres'];
+// Etappen-Vignetten je Woche (Staffel 2: Porto/Milfontes/Sagres wiederverwendet, Coimbra eigene Vignette)
+const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'coimbra', 'milfontes', 'sagres'];
 const LESSONS = [
   { id: 'tag01', label: 'Tag 1 · Olá!', sub: 'Begrüßen & sich vorstellen', w: 0 },
   { id: 'tag02', label: 'Tag 2 · De onde és?', sub: 'Herkunft & Nationalitäten', w: 0 },
@@ -746,6 +746,13 @@ const LESSONS = [
   { id: 'tag33', label: 'Tag 33 · No Porto é melhor', sub: 'Vergleichen · mais … do que', w: 4 },
   { id: 'tag34', label: 'Tag 34 · O plano', sub: 'Zukunft · Hörverstehen', w: 4 },
   { id: 'tag35', label: 'Tag 35 · Revisão IV', sub: 'Wochentest · 50 Punkte', w: 4 },
+  { id: 'tag36', label: 'Tag 36 · A universidade', sub: 'Coimbra · que, onde, quem', w: 5 },
+  { id: 'tag37', label: 'Tag 37 · Procura-se quarto', sub: 'Wohnung suchen · gostaria, seria', w: 5 },
+  { id: 'tag38', label: 'Tag 38 · Dói-me a garganta', sub: 'Körper & Krankheit · dever', w: 5 },
+  { id: 'tag39', label: 'Tag 39 · Fado de Coimbra', sub: 'Gefühle · estar, ficar, sentir-se', w: 5 },
+  { id: 'tag40', label: 'Tag 40 · Está? Quem fala?', sub: 'Telefonieren · disse que', w: 5 },
+  { id: 'tag41', label: 'Tag 41 · Não te preocupes', sub: 'Streit & Versöhnung · Verbote', w: 5 },
+  { id: 'tag42', label: 'Tag 42 · Revisão V', sub: 'Wochentest · 50 Punkte', w: 5 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -1057,6 +1064,13 @@ const TEXTOS = [
   { tag: 'tag33', num: 33, title: 'A ponte', nivel: 5, story: true },
   { tag: 'tag34', num: 34, title: 'Duas novidades', nivel: 5, story: true },
   { tag: 'tag35', num: 35, title: 'A última noite no Porto', nivel: 5, story: true },
+  { tag: 'tag36', num: 36, title: 'A casa da Inês', nivel: 5, story: true },
+  { tag: 'tag37', num: 37, title: 'O quarto do Rui', nivel: 5, story: true },
+  { tag: 'tag38', num: 38, title: 'Três dias', nivel: 5, story: true },
+  { tag: 'tag39', num: 39, title: 'A serenata', nivel: 5, story: true },
+  { tag: 'tag40', num: 40, title: 'Até sexta', nivel: 5, story: true },
+  { tag: 'tag41', num: 41, title: 'A resposta', nivel: 5, story: true },
+  { tag: 'tag42', num: 42, title: 'A carrinha', nivel: 5, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');

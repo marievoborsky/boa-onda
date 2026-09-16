@@ -1,0 +1,360 @@
+{
+ "id": "tag41",
+ "title": "Não te preocupes",
+ "subtitle": "Staffel 2 · Woche 6 · Tag 41 · Streit und Versöhnung · Verneinter Befehl · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 40)",
+   "items": [
+    {
+     "q": "Er sagte, dass er müde war: Ele disse ___ estava cansado.",
+     "a": "que"
+    },
+    {
+     "q": "Sie fragte, ob ich komme: Ela perguntou ___ eu vinha.",
+     "a": "se"
+    },
+    {
+     "q": "Hallo? (Telefon) → ___?",
+     "a": "Está"
+    },
+    {
+     "q": "«Vou a Sagres.» → Disse que ___ a Sagres.",
+     "opts": [
+      "ia",
+      "vai"
+     ],
+     "a": "ia"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Amizade (14)",
+   "items": [
+    {
+     "pt": "zangar-se (com)",
+     "de": "sich ärgern, sich streiten (mit)",
+     "ipa": "[zɐ̃ˈgaɾsɨ]",
+     "audio": "v4101"
+    },
+    {
+     "pt": "pedir desculpa",
+     "de": "sich entschuldigen",
+     "ipa": "[pɨˈdiɾ dɨʃˈkuɫpɐ]",
+     "audio": "v4102"
+    },
+    {
+     "pt": "a culpa",
+     "de": "die Schuld",
+     "ipa": "[ˈkuɫpɐ]",
+     "audio": "v4103"
+    },
+    {
+     "pt": "preocupar-se (com)",
+     "de": "sich Sorgen machen (um)",
+     "ipa": "[pɾiɔkuˈpaɾsɨ]",
+     "audio": "v4104"
+    },
+    {
+     "pt": "confiar (em)",
+     "de": "vertrauen",
+     "ipa": "[kõfiˈaɾ]",
+     "audio": "v4105"
+    },
+    {
+     "pt": "a amizade",
+     "de": "die Freundschaft",
+     "ipa": "[ɐmiˈzadɨ]",
+     "audio": "v4106"
+    },
+    {
+     "pt": "sincero / sincera",
+     "de": "ehrlich, aufrichtig",
+     "ipa": "[sĩˈsɛɾu / sĩˈsɛɾɐ]",
+     "audio": "v4107"
+    },
+    {
+     "pt": "magoar",
+     "de": "verletzen (Gefühle)",
+     "ipa": "[mɐguˈaɾ]",
+     "audio": "v4108"
+    },
+    {
+     "pt": "fazer as pazes",
+     "de": "sich versöhnen",
+     "ipa": "[fɐˈzeɾ ɐʃ ˈpaʃ]",
+     "audio": "v4109"
+    },
+    {
+     "pt": "o abraço",
+     "de": "die Umarmung",
+     "ipa": "[ɐˈbɾasu]",
+     "audio": "v4110"
+    },
+    {
+     "pt": "Deixa lá!",
+     "de": "Lass gut sein! Schon gut!",
+     "ipa": "[ˈdɐjʃɐ la]",
+     "audio": "v4111"
+    },
+    {
+     "pt": "calar-se",
+     "de": "schweigen, still sein",
+     "ipa": "[kɐˈlaɾsɨ]",
+     "audio": "v4112"
+    },
+    {
+     "pt": "juntos / juntas",
+     "de": "zusammen",
+     "ipa": "[ˈʒũtuʃ / ˈʒũtɐʃ]",
+     "audio": "v4113"
+    },
+    {
+     "pt": "a decisão",
+     "de": "die Entscheidung",
+     "ipa": "[dɨsiˈzɐ̃w̃]",
+     "audio": "v4114"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Mach das nicht!",
+   "html": "<i>(Sprachnachricht:)</i> Ihr kennt den Befehl unter Freunden seit Woche 4: <i>Olha! Vira! Fala!</i> – die ele/ela-Form des Präsens. Heute die andere Hälfte: <b>Mach das NICHT!</b> Und die hat eine Überraschung.<br><br><b>Der verneinte Befehl (du)</b> nimmt <b>nicht</b> die Präsensform, sondern die Form, die ihr vom Sie-Befehl kennt – plus ein <b>-s</b>:<br><i>falar → Não fal<b>es</b>! · comer → Não com<b>as</b>! · abrir → Não abr<b>as</b>!</i><br>Merkhilfe: Sie-Befehl (<i>Fale! Coma!</i>) + s = du-Verbot (<i>Não fales! Não comas!</i>).<br><br><b>Die Unregelmäßigen, die ihr täglich hört:</b><br><i>fazer → Não <b>faças</b> isso! · ir → Não <b>vás</b>! · dizer → Não <b>digas</b> nada! · ser → Não <b>sejas</b> parvo! · estar → Não <b>estejas</b> triste! · dar → Não <b>dês</b>!</i><br><br><b>Mit Pronomen</b> springt es nach vorn (nach <i>não</i>, wie immer): <i>Não <b>te</b> preocupes! · Não <b>te</b> vás embora! · Não <b>me</b> digas!</i><br><br><b>Und für ihr / Sie?</b> Wie der Sie-Befehl, nur verneint: <i>Não falem! · Não se preocupem!</i><br><br>Die drei Sätze, die jede Freundschaft retten: <i>Não te preocupes. · Deixa lá. · Desculpa.</i> Boa onda."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<b>Não te preocupes</b> ist der meistgesagte Trostsatz Portugals – „mach dir keine Sorgen“, ausgesprochen wie <b>„nãu tö priokúpsch“</b>, das e am Ende verschluckt. <b>Deixa lá</b> („lass da“) heißt „schon gut, vergiss es“ und beendet jeden kleinen Streit. Und <b>Não me digas!</b> ist kein Verbot, sondern „Sag bloß!“ – Überraschung. Streiten auf Portugiesisch geht laut und schnell vorbei. Nachtragen ist unportugiesisch."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A discussão",
+   "hint": "Selbst erschlossen: a cara = das Gesicht, die Miene · outra vez = schon wieder · sem avisar = ohne Bescheid zu sagen · o assunto = das Thema · dar-se conta = merken · o mesmo = dasselbe · Não me venhas com… = Komm mir nicht mit … · a verdade = die Wahrheit · o tempo todo = die ganze Zeit.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Então? Já decidiste? Quinze de julho?",
+     "audio": "d4101"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ainda não. Ana, não faças essa cara.",
+     "audio": "d4102"
+    },
+    {
+     "who": "Ana",
+     "pt": "Que cara? Eu não tenho cara nenhuma. Tu é que decides tudo sozinha, outra vez.",
+     "audio": "d4103"
+    },
+    {
+     "who": "Marie",
+     "pt": "Eu não decidi nada! Estou a pensar!",
+     "audio": "d4104"
+    },
+    {
+     "who": "Ana",
+     "pt": "Estás a pensar sozinha. Como no ano passado, quando compraste o bilhete para Hamburgo sem avisar.",
+     "audio": "d4105"
+    },
+    {
+     "who": "Marie",
+     "pt": "E tu? Tu decidiste Coimbra sozinha! Não me disseste nada durante semanas!",
+     "audio": "d4106"
+    },
+    {
+     "who": "Ana",
+     "pt": "Isso é diferente!",
+     "audio": "d4107"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não é. É exatamente igual. Nós as duas fazemos o mesmo.",
+     "audio": "d4108"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não digas isso.",
+     "audio": "d4109"
+    },
+    {
+     "who": "Marie",
+     "pt": "Digo. Porque é verdade. Não te zangues comigo por uma coisa que tu também fazes.",
+     "audio": "d4110"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não estou zangada. Estou… com medo. De ficar aqui sozinha enquanto vocês vão todos para o sul.",
+     "audio": "d4111"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ana. Não sejas parva. Ninguém vai sem ti. Nem eu. Nem a quinze de julho, nem nunca.",
+     "audio": "d4112"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Den verneinten Befehl bilden (du)",
+   "items": [
+    {
+     "q": "Sprich nicht so laut! → Não ___ tão alto! (falar)",
+     "a": "fales"
+    },
+    {
+     "q": "Iss das nicht! → Não ___ isso! (comer)",
+     "a": "comas"
+    },
+    {
+     "q": "Mach das nicht! → Não ___ isso! (fazer)",
+     "a": "faças"
+    },
+    {
+     "q": "Geh nicht! → Não ___! (ir)",
+     "a": "vás"
+    },
+    {
+     "q": "Sag nichts! → Não ___ nada! (dizer)",
+     "a": "digas"
+    },
+    {
+     "q": "Sei nicht albern! → Não ___ parvo! (ser)",
+     "a": "sejas"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Befehl oder Verbot? (antippen)",
+   "items": [
+    {
+     "q": "Schau! →",
+     "opts": [
+      "Olha!",
+      "Não olhes!"
+     ],
+     "a": "Olha! – Befehl = ele/ela-Form"
+    },
+    {
+     "q": "Schau nicht! →",
+     "opts": [
+      "Não olhes!",
+      "Não olha!"
+     ],
+     "a": "Não olhes! – Verbot = Sie-Form + s"
+    },
+    {
+     "q": "Mach dir keine Sorgen! →",
+     "opts": [
+      "Não te preocupes!",
+      "Não preocupa-te!"
+     ],
+     "a": "Não te preocupes! – Pronomen springt nach não nach vorn"
+    },
+    {
+     "q": "Hab keine Angst! (ter) →",
+     "opts": [
+      "Não tenhas medo!",
+      "Não tens medo!"
+     ],
+     "a": "Não tenhas medo! – ter → tenhas"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Mach dir keine Sorgen.",
+     "satz": "Não te preocupes.",
+     "a": "Não te preocupes."
+    },
+    {
+     "q": "Sei nicht sauer auf mich.",
+     "satz": "Não te zangues comigo.",
+     "a": "Não te zangues comigo."
+    },
+    {
+     "q": "Niemand geht ohne dich.",
+     "satz": "Ninguém vai sem ti.",
+     "a": "Ninguém vai sem ti."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Ana diz que a Marie decide tudo sozinha.",
+     "a": "Richtig – „outra vez“, wie letztes Jahr mit dem Ticket nach Hamburg."
+    },
+    {
+     "q": "A Marie diz que a Ana fez o mesmo com Coimbra.",
+     "a": "Richtig – wochenlang nichts gesagt. „Nós as duas fazemos o mesmo.“"
+    },
+    {
+     "q": "A Ana está zangada.",
+     "a": "Falsch – sie hat Angst, allein in Coimbra zu bleiben, während alle in den Süden fahren."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Lass gut sein. → ___",
+     "a": "Deixa lá."
+    },
+    {
+     "q": "Sag mir nicht, was ich tun soll. → ___",
+     "a": "Não me digas o que devo fazer. / Não me digas o que fazer."
+    },
+    {
+     "q": "Vertrau mir. → ___",
+     "a": "Confia em mim."
+    },
+    {
+     "q": "Wir haben uns versöhnt. → ___",
+     "a": "Fizemos as pazes."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Fazer as pazes",
+   "html": "Spiel beide Rollen laut: erst der Vorwurf (<i>Tu é que… outra vez!</i>), dann die Verteidigung (<i>Eu não… Não digas isso!</i>), dann die Versöhnung – drei Sätze: <i>Desculpa. Não te preocupes. Deixa lá.</i><br><br>Zum Schluss Maries Satz, ruhig und bestimmt: <i>Ninguém vai sem ti.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A resposta",
+   "audio": "s41",
+   "text": "Sexta-feira de manhã. A Marie está na varanda da Inês com o telemóvel na mão e o Mondego lá em baixo. Tem de avisar o Vasco. Prometeu.<br>Atrás dela, a Ana faz café e finge que não está a ouvir.<br>— Está? Vasco? Sou eu.<br>— Marie! Então? Quinze de julho?<br>— Não. Agosto. Como combinámos.<br>Silêncio na linha. Depois a voz do Vasco, calma como sempre:<br>— Tens a certeza? Perdes duas semanas de trabalho.<br>— Tenho. Não vou sozinha. Vou com os meus amigos, na carrinha velha do João, pelo Alentejo. Se calhar chegamos com uma semana de atraso porque a carrinha não anda. Mas chegamos juntos.<br>— E a pessoa que desistiu?<br>— Arranjas outra. Tu arranjas sempre.<br>O Vasco ri.<br>— Sabes o que é que eu te disse no ano passado, no Cabo?<br>— Que para mim era só o começo.<br>— Isso. Boa resposta, Marie. Outra vez. Agosto, então. Traz a Ana. Traz o João. Traz o Tomás, que me manda mensagens todos os dias.<br>A Marie desliga. Vira-se. A Ana está à porta da varanda com duas chávenas e a cara de quem ouviu tudo e não vai admitir.<br>— Eu não estava a ouvir.<br>— Eu sei.<br>— Mas obrigada.<br>— Deixa lá.<br>A Ana dá-lhe o café. Depois dá-lhe um abraço, um abraço de Porto, forte e curto, e diz baixinho:<br>— Não voltes a decidir sozinha.<br>— Tu também não.<br>— Combinado.",
+   "gloss": "Neu erschließen: fingir = so tun als ob · a linha = die Leitung · com uma semana de atraso = mit einer Woche Verspätung · arranjar = auftreiben, organisieren · virar-se = sich umdrehen · admitir = zugeben · forte e curto = fest und kurz · Não voltes a… = Tu nicht wieder … · Combinado. = Abgemacht.",
+   "questions": [
+    {
+     "q": "A Marie diz ao Vasco que vai a quinze de julho.",
+     "a": "Falsch – im August, wie vereinbart, mit ihren Freunden im alten Van."
+    },
+    {
+     "q": "O Vasco fica zangado com a resposta.",
+     "a": "Falsch – er lacht: „Boa resposta, Marie. Outra vez.“"
+    },
+    {
+     "q": "A Ana admite que ouviu a chamada.",
+     "a": "Falsch – „Eu não estava a ouvir.“ Aber sie bedankt sich und umarmt Marie: „Não voltes a decidir sozinha.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt verbieten, beruhigen und dich versöhnen: <b>Não faças isso! Não te preocupes. Deixa lá.</b> Marie und Ana haben einen Pakt: keine Alleingänge mehr. Morgen ist der Wochentest – und danach taucht jemand mit einem sehr alten Auto auf."
+  }
+ ]
+}

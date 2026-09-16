@@ -1,8 +1,8 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v11';
+const SHELL = 'boa-onda-shell-v12';
 const AUDIO = 'boa-onda-audio-v1';
-const LEKTIONEN = Array.from({ length: 35 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`).concat(['./lektionen/sagres.json']);
+const LEKTIONEN = Array.from({ length: 42 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`).concat(['./lektionen/sagres.json']);
 const CORE = [
   './index.html', './data.js', './manifest.webmanifest', './descobrir.json',
   './logo.png', './karte.png', './boa-onda-welle.png', './datenschutz.html', './druck.html',
@@ -12,7 +12,7 @@ const CORE = [
   './fonts/spacegrotesk-a57c9413.woff2',
   './fonts/spacegrotesk-e911c2d9.woff2',
   './avatare/marie.png', './avatare/ana.png', './avatare/joao.png', './avatare/vasco.png',
-  './etappen/porto.png', './etappen/lisboa.png', './etappen/milfontes.png', './etappen/sagres.png',
+  './etappen/porto.png', './etappen/lisboa.png', './etappen/milfontes.png', './etappen/sagres.png', './etappen/coimbra.png',
   './fotos/sagres-mareta.webp', './fotos/sagres-baia.webp', './fotos/sagres-vale.webp', './fotos/sagres-por-do-sol.webp', './fotos/sagres-praia.webp', './fotos/sagres-estrada.webp',
   ...LEKTIONEN,
 ];

@@ -1,0 +1,360 @@
+{
+ "id": "tag40",
+ "title": "Está? Quem fala?",
+ "subtitle": "Staffel 2 · Woche 6 · Tag 40 · Telefonieren · Was jemand gesagt hat · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 39)",
+   "items": [
+    {
+     "q": "Ich wurde gerührt: ___ emocionada.",
+     "a": "Fiquei"
+    },
+    {
+     "q": "Ich fühle mich gut: ___ bem.",
+     "a": "Sinto-me"
+    },
+    {
+     "q": "Sie ist sauer (gerade jetzt): Ela ___ zangada.",
+     "opts": [
+      "está",
+      "é"
+     ],
+     "a": "está – Zustand im Moment"
+    },
+    {
+     "q": "die Träne: a ___",
+     "a": "lágrima"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Ao telefone (14)",
+   "items": [
+    {
+     "pt": "Está?",
+     "de": "Hallo? (am Telefon, EP!)",
+     "ipa": "[ɨʃˈta]",
+     "audio": "v4001"
+    },
+    {
+     "pt": "Quem fala?",
+     "de": "Wer spricht? / Wer ist dran?",
+     "ipa": "[kɐ̃j̃ ˈfalɐ]",
+     "audio": "v4002"
+    },
+    {
+     "pt": "ligar (a alguém)",
+     "de": "anrufen",
+     "ipa": "[liˈgaɾ]",
+     "audio": "v4003"
+    },
+    {
+     "pt": "atender",
+     "de": "abnehmen, drangehen",
+     "ipa": "[ɐtẽˈdeɾ]",
+     "audio": "v4004"
+    },
+    {
+     "pt": "desligar",
+     "de": "auflegen",
+     "ipa": "[dɨʒliˈgaɾ]",
+     "audio": "v4005"
+    },
+    {
+     "pt": "o recado",
+     "de": "die Nachricht (mündlich), das Ausrichten",
+     "ipa": "[ʁɨˈkadu]",
+     "audio": "v4006"
+    },
+    {
+     "pt": "marcar",
+     "de": "wählen (Nummer); vereinbaren (Termin)",
+     "ipa": "[mɐɾˈkaɾ]",
+     "audio": "v4007"
+    },
+    {
+     "pt": "enganar-se",
+     "de": "sich irren, sich verwählen",
+     "ipa": "[ẽgɐˈnaɾsɨ]",
+     "audio": "v4008"
+    },
+    {
+     "pt": "a rede",
+     "de": "das Netz, der Empfang",
+     "ipa": "[ˈʁedɨ]",
+     "audio": "v4009"
+    },
+    {
+     "pt": "a bateria",
+     "de": "der Akku",
+     "ipa": "[bɐtɨˈɾiɐ]",
+     "audio": "v4010"
+    },
+    {
+     "pt": "dizer que",
+     "de": "sagen, dass",
+     "ipa": "[diˈzeɾ kɨ]",
+     "audio": "v4011"
+    },
+    {
+     "pt": "perguntar se",
+     "de": "fragen, ob",
+     "ipa": "[pɨɾgũˈtaɾ sɨ]",
+     "audio": "v4012"
+    },
+    {
+     "pt": "combinar",
+     "de": "vereinbaren, abmachen",
+     "ipa": "[kõbiˈnaɾ]",
+     "audio": "v4013"
+    },
+    {
+     "pt": "avisar",
+     "de": "Bescheid geben, warnen",
+     "ipa": "[ɐviˈzaɾ]",
+     "audio": "v4014"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Was jemand gesagt hat",
+   "html": "<i>(Diesmal keine Sprachnachricht – Vasco ruft an. Das Gespräch kommt gleich im Dialog. Vorher die Grammatik dazu:)</i><br><br>Wenn ihr weitergebt, was jemand gesagt oder gefragt hat, braucht ihr drei Bausteine:<br><br><b>dizer que</b> = sagen, dass: <i>O Vasco <b>diz que</b> precisa de ajuda. · A Ana <b>disse que</b> ia ao rio.</i><br><b>perguntar se</b> = fragen, ob: <i>O João <b>pergunta se</b> tens tempo. · Ela <b>perguntou se</b> eu estava bem.</i><br><b>pedir para</b> = bitten, zu: <i>A Inês <b>pediu para</b> não tocarmos no esqueleto.</i><br><br><b>Die Zeit verschiebt sich</b> wie im Deutschen nach hinten, wenn das Sagen in der Vergangenheit liegt: <i>„Estou cansado“ → Ele disse que <b>estava</b> cansado.</i> – Präsens wird Imperfekt. <i>„Vou a Sagres“ → Disse que <b>ia</b> a Sagres.</i><br><br><b>Am Telefon:</b> <i><b>Está?</b></i> (so meldet man sich in Portugal – wörtlich „Sind Sie da?“) · <i><b>Quem fala?</b></i> · <i>Posso falar com a Ana?</i> · <i>Quer deixar recado?</i> · <i>Enganou-se no número.</i> · <i>Não tenho rede.</i> · <i>Estou sem bateria.</i><br><br>Und jetzt: Ich rufe an. Atende!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<b>Está?</b> ist das portugiesische „Hallo?“ am Telefon – nur in Portugal, in Brasilien sagt man <i>alô</i>. Man hört oft <b>Está sim?</b> oder das ganz kurze <b>’tá?</b>. Am anderen Ende antwortet man mit <i>Está, sim. Quem fala?</i> Und wenn die Verbindung schlecht ist: <i>Não te oiço!</i> – „ich hör dich nicht“ (<i>oiço</i> ist die EP-Form von ouvir, in Brasilien <i>ouço</i>). Der Satz, mit dem man aus jedem Gespräch rauskommt: <b>Está bem, depois falamos.</b>"
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A chamada do Vasco",
+   "hint": "Selbst erschlossen: a pessoa = die Person · a partir de = ab · quinze de julho = 15. Juli · desistir = absagen, aufgeben · Pensa nisso = Denk darüber nach · a proposta = das Angebot · a sério = ernst · Não te oiço = ich höre dich nicht · Depois falamos = wir reden später.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Está?",
+     "audio": "d4001"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Marie! Estás em Coimbra? Não te oiço bem.",
+     "audio": "d4002"
+    },
+    {
+     "who": "Marie",
+     "pt": "Estou. A rede aqui é má. Espera… agora?",
+     "audio": "d4003"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Agora sim. Ouve: uma das minhas pessoas desistiu. Preciso de alguém a partir de quinze de julho, não de agosto.",
+     "audio": "d4004"
+    },
+    {
+     "who": "Marie",
+     "pt": "Quinze de julho? Isso é daqui a duas semanas.",
+     "audio": "d4005"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Eu sei. Não tens de responder já. Pensa nisso e avisa-me até sexta.",
+     "audio": "d4006"
+    },
+    {
+     "who": "Marie",
+     "pt": "Está bem. Eu aviso.",
+     "audio": "d4007"
+    },
+    {
+     "who": "Vasco",
+     "pt": "E Marie? A prancha grande está à espera. Boa onda.",
+     "audio": "d4008"
+    },
+    {
+     "who": "Ana",
+     "pt": "Quem era?",
+     "audio": "d4009"
+    },
+    {
+     "who": "Marie",
+     "pt": "O Vasco. Disse que uma pessoa desistiu e perguntou se posso ir a quinze de julho.",
+     "audio": "d4010"
+    },
+    {
+     "who": "Ana",
+     "pt": "A quinze de julho?! E tu, o que é que disseste?",
+     "audio": "d4011"
+    },
+    {
+     "who": "Marie",
+     "pt": "Disse que ia pensar. Ana, não faças essa cara. Ainda não decidi nada.",
+     "audio": "d4012"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · dizer que, perguntar se, pedir para",
+   "items": [
+    {
+     "q": "O Vasco: «Preciso de ajuda.» → O Vasco diz ___ precisa de ajuda.",
+     "a": "que"
+    },
+    {
+     "q": "O João: «Tens tempo?» → O João pergunta ___ tenho tempo.",
+     "a": "se"
+    },
+    {
+     "q": "A Inês: «Não toquem no esqueleto!» → A Inês pediu ___ não tocarmos no esqueleto.",
+     "a": "para"
+    },
+    {
+     "q": "A Ana: «Vou ao rio.» → A Ana disse ___ ia ao rio.",
+     "a": "que"
+    },
+    {
+     "q": "O Rui: «Vens à serenata?» → O Rui perguntou ___ eu ia à serenata.",
+     "a": "se"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Die Zeit verschiebt sich (antippen)",
+   "items": [
+    {
+     "q": "«Estou cansado.» → Ele disse que ___ cansado.",
+     "opts": [
+      "estava",
+      "está"
+     ],
+     "a": "estava – Präsens wird zum Imperfekt, wenn das Sagen vorbei ist"
+    },
+    {
+     "q": "«Vou a Sagres.» → Ela disse que ___ a Sagres.",
+     "opts": [
+      "ia",
+      "vai"
+     ],
+     "a": "ia – ir im Imperfekt"
+    },
+    {
+     "q": "«Tenho febre.» → A Marie disse que ___ febre.",
+     "opts": [
+      "tinha",
+      "tem"
+     ],
+     "a": "tinha"
+    },
+    {
+     "q": "«Precisas de ajuda?» → Ele perguntou se eu ___ de ajuda.",
+     "opts": [
+      "precisava",
+      "preciso"
+     ],
+     "a": "precisava"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Am Telefon",
+   "items": [
+    {
+     "q": "Hallo? (am Telefon, EP) → ___?",
+     "a": "Está"
+    },
+    {
+     "q": "Wer ist dran? → ___?",
+     "a": "Quem fala"
+    },
+    {
+     "q": "Kann ich mit Ana sprechen? → Posso ___ com a Ana?",
+     "a": "falar"
+    },
+    {
+     "q": "Sie haben sich verwählt. → ___-se no número.",
+     "a": "Enganou"
+    },
+    {
+     "q": "Ich habe keinen Empfang. → Não tenho ___.",
+     "a": "rede"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O Vasco precisa de alguém a partir de agosto.",
+     "a": "Falsch – ab dem 15. Juli, weil jemand abgesagt hat."
+    },
+    {
+     "q": "A Marie tem de responder hoje.",
+     "a": "Falsch – bis Freitag. „Pensa nisso e avisa-me.“"
+    },
+    {
+     "q": "A Marie disse ao Vasco que vai a quinze de julho.",
+     "a": "Falsch – sie sagte, sie würde darüber nachdenken. Ana macht trotzdem „diese Miene“."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Satz bauen",
+   "items": [
+    {
+     "q": "Er sagte, dass er Hilfe braucht.",
+     "satz": "Ele disse que precisa de ajuda.",
+     "a": "Ele disse que precisa de ajuda."
+    },
+    {
+     "q": "Sie fragte, ob ich kommen kann.",
+     "satz": "Ela perguntou se eu posso vir.",
+     "a": "Ela perguntou se eu posso vir."
+    },
+    {
+     "q": "Ich gebe dir bis Freitag Bescheid.",
+     "satz": "Aviso-te até sexta.",
+     "a": "Aviso-te até sexta."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O recado",
+   "html": "Jemand hat für deine Mitbewohnerin angerufen. Gib die Nachricht in sechs Sätzen weiter: <i>Ligou o… Disse que… Perguntou se… Pediu para… Disse que ia… Combinámos que…</i><br><br>Dann das Telefon-Ritual, dreimal laut und knapp: <i>Está? – Está, sim. Quem fala?</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Até sexta",
+   "audio": "s40",
+   "text": "A Marie não diz mais nada sobre a chamada. A Ana também não. Mas a casa da Inês fica mais pequena nesse dia.<br>À noite, a Marie liga ao João.<br>— Está?<br>— João, sou eu. Tens um minuto?<br>— Tenho todos os minutos. Estou no sofá. O que é que se passa?<br>A Marie conta: o Vasco, o quinze de julho, a pessoa que desistiu. O João ouve sem interromper, o que é raro.<br>— E o que é que a Ana disse?<br>— Nada. Fez uma cara.<br>— Que cara?<br>— A cara de quem não diz nada.<br>— Essa é a pior cara dela. — Silêncio. — Marie, posso dizer uma coisa?<br>— Diz.<br>— A Ana não está zangada por causa de Sagres. Está zangada porque tu decidiste sozinha. Outra vez. Como no ano passado, quando compraste o bilhete para Hamburgo sem dizer a ninguém.<br>— Eu não decidi nada!<br>— Mas estás a pensar sozinha. Para ela é a mesma coisa.<br>A Marie fica calada. O João espera. Depois diz, mais baixo:<br>— Fala com ela. Antes de sexta. E Marie… quinze de julho ou agosto, a carrinha vai na mesma. Com ou sem ti.<br>— Isso é uma ameaça?<br>— É um recado. Do Sporting. Boa noite.<br>Desliga. A Marie olha para o telemóvel. Depois olha para a porta do quarto onde a Ana já não faz barulho nenhum.",
+   "gloss": "Neu erschließen: fica mais pequena = wird kleiner (Stimmung) · O que é que se passa? = Was ist los? · interromper = unterbrechen · raro = selten · por causa de = wegen · sozinha = allein · o bilhete = das Ticket · a mesma coisa = dasselbe · mais baixo = leiser · na mesma = trotzdem · a ameaça = die Drohung · barulho nenhum = gar kein Geräusch",
+   "questions": [
+    {
+     "q": "A Ana disse à Marie que estava zangada.",
+     "a": "Falsch – sie sagte nichts. Sie machte „a cara de quem não diz nada“."
+    },
+    {
+     "q": "Segundo o João, a Ana está zangada por causa de Sagres.",
+     "a": "Falsch – weil Marie wieder allein entscheidet, wie letztes Jahr mit dem Ticket nach Hamburg."
+    },
+    {
+     "q": "O João diz que a carrinha vai para o sul com ou sem a Marie.",
+     "a": "Richtig – „É um recado. Do Sporting.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt telefonieren (<b>Está? Quem fala?</b>) und weitergeben, was jemand gesagt oder gefragt hat (<b>disse que, perguntou se</b>). Zwischen Marie und Ana liegt etwas Unausgesprochenes. Morgen wird es ausgesprochen – laut. Und du lernst, wie man auf Portugiesisch „Mach das nicht!“ sagt."
+  }
+ ]
+}

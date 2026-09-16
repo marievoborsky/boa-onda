@@ -1,0 +1,360 @@
+{
+ "id": "tag36",
+ "title": "A universidade",
+ "subtitle": "Staffel 2 · Woche 6 · Tag 36 · Coimbra · Relativsätze: que, onde, quem · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 34 & 35)",
+   "items": [
+    {
+     "q": "Ich ziehe im September um: ___ em setembro. (mudar-se)",
+     "a": "Mudo-me"
+    },
+    {
+     "q": "Vielleicht (gesprochen, EP): ",
+     "opts": [
+      "se calhar",
+      "talvez"
+     ],
+     "a": "se calhar – im Gespräch; talvez zieht eine andere Verbform nach sich"
+    },
+    {
+     "q": "Lissabon ist größer als Porto: Lisboa é ___ do que o Porto.",
+     "a": "maior"
+    },
+    {
+     "q": "Wir werden Ana die Universität zeigen: ___ mostrar a universidade à Ana.",
+     "a": "Vamos"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: A universidade (14)",
+   "items": [
+    {
+     "pt": "a faculdade",
+     "de": "die Fakultät",
+     "ipa": "[fɐkuɫˈdadɨ]",
+     "audio": "v3601"
+    },
+    {
+     "pt": "o curso",
+     "de": "der Studiengang, der Kurs",
+     "ipa": "[ˈkuɾsu]",
+     "audio": "v3602"
+    },
+    {
+     "pt": "a matrícula",
+     "de": "die Einschreibung",
+     "ipa": "[mɐˈtɾikulɐ]",
+     "audio": "v3603"
+    },
+    {
+     "pt": "inscrever-se (em)",
+     "de": "sich einschreiben (für)",
+     "ipa": "[ĩʃkɾɨˈveɾsɨ]",
+     "audio": "v3604"
+    },
+    {
+     "pt": "o semestre",
+     "de": "das Semester",
+     "ipa": "[sɨˈmɛʃtɾɨ]",
+     "audio": "v3605"
+    },
+    {
+     "pt": "a biblioteca",
+     "de": "die Bibliothek",
+     "ipa": "[bibliuˈtɛkɐ]",
+     "audio": "v3606"
+    },
+    {
+     "pt": "o edifício",
+     "de": "das Gebäude",
+     "ipa": "[ɨdɨˈfisju]",
+     "audio": "v3607"
+    },
+    {
+     "pt": "antigo / antiga",
+     "de": "alt (Dinge), ehemalig",
+     "ipa": "[ɐ̃ˈtigu / ɐ̃ˈtigɐ]",
+     "audio": "v3608"
+    },
+    {
+     "pt": "a torre",
+     "de": "der Turm",
+     "ipa": "[ˈtoʁɨ]",
+     "audio": "v3609"
+    },
+    {
+     "pt": "o sino",
+     "de": "die Glocke",
+     "ipa": "[ˈsinu]",
+     "audio": "v3610"
+    },
+    {
+     "pt": "a tradição",
+     "de": "die Tradition",
+     "ipa": "[tɾɐdiˈsɐ̃w̃]",
+     "audio": "v3611"
+    },
+    {
+     "pt": "a capa",
+     "de": "der Umhang (in Coimbra: die schwarze Studentencape)",
+     "ipa": "[ˈkapɐ]",
+     "audio": "v3612"
+    },
+    {
+     "pt": "a república",
+     "de": "die Studenten-WG (Coimbra-Tradition; auch: die Republik)",
+     "ipa": "[ʁɨˈpublikɐ]",
+     "audio": "v3613"
+    },
+    {
+     "pt": "o colega / a colega",
+     "de": "der Kommilitone / die Kommilitonin, Kollege",
+     "ipa": "[kuˈlɛgɐ]",
+     "audio": "v3614"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Der, die, das – Relativsätze",
+   "html": "<i>(Sprachnachricht, mit Möwen:)</i> In Coimbra werdet ihr ständig Dinge beschreiben: <i>die Uni, <b>die</b> 1290 gegründet wurde · der Turm, <b>wo</b> die Glocke hängt · das Mädchen, <b>mit dem</b> ich gesprochen habe</i>. Dafür braucht ihr im Portugiesischen nur drei kleine Wörter:<br><br><b>que</b> = der / die / das / den … – für Personen UND Sachen, unveränderlich:<br><i>O rapaz <b>que</b> canta. · A cidade <b>que</b> eu adoro. · Os livros <b>que</b> comprei.</i><br><br><b>onde</b> = wo (Ort):<br><i>A universidade <b>onde</b> a Inês trabalha. · O café <b>onde</b> nos conhecemos.</i><br><br><b>quem</b> = nach einer Präposition, nur für Personen:<br><i>A pessoa <b>com quem</b> falei. · O amigo <b>de quem</b> te falei. · A Inês, <b>a quem</b> devo tudo.</i><br><br><b>o que</b> = was (ohne Bezugswort): <i>Não percebi <b>o que</b> ele disse.</i><br><br>Wichtig: Im Portugiesischen darf <i>que</i> <b>nie weggelassen</b> werden – anders als im Englischen. <i>A cidade que eu adoro</i>, nicht „a cidade eu adoro“. Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Coimbra ist die älteste Universität Portugals (1290) und funktioniert wie ein eigenes Land: Die Studierenden tragen zu Feiern die <b>capa negra</b>, wohnen in <b>repúblicas</b> (selbstverwaltete WGs mit Namen und hundert Jahre alten Regeln) und haben einen Turm mit einer Glocke, die <b>Cabra</b> heißt – „die Ziege“, weil sie früher jeden Morgen alle aus dem Bett meckerte. Und wenn dir jemand sagt, er sei <i>de Coimbra</i>, meint er oft nicht die Stadt, sondern die Uni. Ausspracheteil: <i>que</i> ist ein ganz kurzes <b>„kö“</b>, fast verschluckt: <i>o rapaz que canta</i> = „u rapásch kö kánta“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: O dia dos alunos novos",
+   "hint": "Selbst erschlossen: o aluno = der Student, Schüler · o Rui = ein Student, der die Neuen herumführt (neue Nebenfigur) · fundada = gegründet · o Património Mundial = das Weltkulturerbe · Cabra = die Ziege (Name der Glocke) · acordar = wecken, aufwachen · a Sé Velha = die alte Kathedrale · hoje à noite = heute Abend.",
+   "lines": [
+    {
+     "who": "Rui",
+     "pt": "Bem-vindos! Eu sou o Rui, sou do terceiro ano. Esta é a faculdade onde vocês vão ter aulas.",
+     "audio": "d3601"
+    },
+    {
+     "who": "Ana",
+     "pt": "É o edifício mais antigo que já vi.",
+     "audio": "d3602"
+    },
+    {
+     "who": "Rui",
+     "pt": "A universidade foi fundada em 1290. Aquela torre que vês ali tem um sino que se chama Cabra.",
+     "audio": "d3603"
+    },
+    {
+     "who": "Marie",
+     "pt": "Cabra? Uma cabra?",
+     "audio": "d3604"
+    },
+    {
+     "who": "Rui",
+     "pt": "Porque acordava os estudantes todas as manhãs. Uma tradição de que ninguém gosta.",
+     "audio": "d3605"
+    },
+    {
+     "who": "Ana",
+     "pt": "E a capa? Todos os estudantes usam capa?",
+     "audio": "d3606"
+    },
+    {
+     "who": "Rui",
+     "pt": "Nas festas, sim. É a capa que vês nos fados de Coimbra. Eu canto num grupo.",
+     "audio": "d3607"
+    },
+    {
+     "who": "Marie",
+     "pt": "Tu cantas fado?",
+     "audio": "d3608"
+    },
+    {
+     "who": "Rui",
+     "pt": "Todos os estudantes com quem eu vivo cantam. A nossa república chama-se «Os Kágados».",
+     "audio": "d3609"
+    },
+    {
+     "who": "Ana",
+     "pt": "Kágados? Isso é uma palavra?",
+     "audio": "d3610"
+    },
+    {
+     "who": "Rui",
+     "pt": "É uma tradição. As repúblicas têm nomes estranhos. Hoje à noite cantamos nas escadas da Sé Velha. Venham.",
+     "audio": "d3611"
+    },
+    {
+     "who": "Marie",
+     "pt": "A Ana vem de certeza. Ela já está a olhar para a capa.",
+     "audio": "d3612"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · que, onde oder quem?",
+   "items": [
+    {
+     "q": "A universidade ___ a Inês trabalha é antiga.",
+     "a": "onde"
+    },
+    {
+     "q": "O rapaz ___ canta chama-se Rui.",
+     "a": "que"
+    },
+    {
+     "q": "A pessoa com ___ falei é do terceiro ano.",
+     "a": "quem"
+    },
+    {
+     "q": "Os livros ___ comprei são caros.",
+     "a": "que"
+    },
+    {
+     "q": "O café ___ nos conhecemos fica na Ribeira.",
+     "a": "onde"
+    },
+    {
+     "q": "Não percebi ___ ele disse.",
+     "a": "o que"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Zwei Sätze, ein Satz (antippen)",
+   "items": [
+    {
+     "q": "Aquela é a torre. A torre tem um sino. →",
+     "opts": [
+      "Aquela é a torre que tem um sino.",
+      "Aquela é a torre onde tem um sino."
+     ],
+     "a": "Aquela é a torre que tem um sino. – der Turm ist das Subjekt (der Turm hat …) → que"
+    },
+    {
+     "q": "Esta é a cidade. Eu vivo nesta cidade. →",
+     "opts": [
+      "Esta é a cidade onde eu vivo.",
+      "Esta é a cidade que eu vivo."
+     ],
+     "a": "Esta é a cidade onde eu vivo. – Ort → onde"
+    },
+    {
+     "q": "O Rui é o rapaz. Falei com o rapaz. →",
+     "opts": [
+      "O Rui é o rapaz com quem falei.",
+      "O Rui é o rapaz que falei."
+     ],
+     "a": "O Rui é o rapaz com quem falei. – Präposition + Person → com quem"
+    },
+    {
+     "q": "Perdi as chaves. Comprei as chaves ontem. →",
+     "opts": [
+      "Perdi as chaves que comprei ontem.",
+      "Perdi as chaves quem comprei ontem."
+     ],
+     "a": "Perdi as chaves que comprei ontem. – Sache → que"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Das ist das Gebäude, wo wir Unterricht haben.",
+     "satz": "Este é o edifício onde temos aulas.",
+     "a": "Este é o edifício onde temos aulas."
+    },
+    {
+     "q": "Der Junge, der singt, heißt Rui.",
+     "satz": "O rapaz que canta chama-se Rui.",
+     "a": "O rapaz que canta chama-se Rui."
+    },
+    {
+     "q": "Die Freundin, mit der ich wohne, ist aus Porto.",
+     "satz": "A amiga com quem vivo é do Porto.",
+     "a": "A amiga com quem vivo é do Porto."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A universidade de Coimbra foi fundada em 1290.",
+     "a": "Richtig – die älteste des Landes."
+    },
+    {
+     "q": "O sino chama-se Cabra porque é muito grande.",
+     "a": "Falsch – weil er die Studierenden jeden Morgen weckte. Eine Tradition, „de que ninguém gosta“."
+    },
+    {
+     "q": "O Rui vive numa república que se chama «Os Kágados».",
+     "a": "Richtig – die WGs in Coimbra haben seltsame Namen."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Die Stadt, die ich liebe. → ___",
+     "a": "A cidade que eu adoro. / A cidade que adoro."
+    },
+    {
+     "q": "Das Haus, wo ich wohne. → ___",
+     "a": "A casa onde vivo. / A casa onde eu vivo. / A casa onde moro."
+    },
+    {
+     "q": "Der Freund, von dem ich dir erzählt habe. → ___",
+     "a": "O amigo de quem te falei."
+    },
+    {
+     "q": "Ich weiß nicht, was er will. → ___",
+     "a": "Não sei o que ele quer."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A cidade onde vivo",
+   "html": "Beschreib deine Stadt in sechs Sätzen – jeder mit einem Relativwort: <i>A cidade onde vivo… A rua que… O café onde… A pessoa com quem… O bairro que… O que eu mais gosto é…</i><br><br>Dann Ruis Vorstellung nachsprechen, mit dem kurzen „kö“: <i>Esta é a faculdade onde vocês vão ter aulas.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A casa da Inês",
+   "audio": "s36",
+   "text": "A Inês vive num terceiro andar sem elevador, numa rua que sobe tanto que os carros parecem cansados. A casa é pequena, cheia de livros de medicina, com uma varanda de onde se vê o rio Mondego.<br>— Vocês dormem na sala — diz a Inês, que fala mais depressa do que o João e nunca parece cansada. — Eu saio às sete, volto às oito da noite. Há café na cozinha. Não toquem no meu esqueleto.<br>Há um esqueleto de plástico ao lado do sofá. Chama-se Alberto.<br>— É para estudar — diz a Inês. — E para assustar visitas.<br>À noite, depois do dia na universidade, a Ana está estranhamente calada.<br>— Estás com medo? — pergunta a Marie.<br>— Não. Sim. Um bocadinho. É tudo tão antigo. Tão sério. As pessoas com quem falei hoje sabem coisas que eu não sei.<br>— Há um ano eu não sabia dizer «olá».<br>— Isso é diferente.<br>— Não é. É exatamente igual. Tu vais aprender o que eles sabem. E daqui a um ano vais ser a rapariga que explica tudo aos novos.<br>A Ana olha para o Alberto. O Alberto olha para a Ana.<br>— O esqueleto concorda — diz a Marie.<br>Lá fora, a Cabra toca. São dez da noite, e ninguém em Coimbra precisa de acordar. Mas ela toca na mesma. É a tradição.",
+   "gloss": "Neu erschließen: sobe tanto que = so steil ansteigt, dass · parecer = scheinen · a medicina = die Medizin · de onde = von wo · Não toquem em = Fasst … nicht an · o esqueleto = das Skelett · assustar = erschrecken · a visita = der Besuch · estranhamente = merkwürdig · um bocadinho = ein bisschen (EP!) · sério = ernst · daqui a um ano = in einem Jahr · toca = läutet · na mesma = trotzdem",
+   "questions": [
+    {
+     "q": "A Inês vive num rés do chão com elevador.",
+     "a": "Falsch – im dritten Stock ohne Aufzug, in einer steilen Straße."
+    },
+    {
+     "q": "O esqueleto de plástico chama-se Alberto.",
+     "a": "Richtig – zum Lernen und zum Erschrecken von Besuch."
+    },
+    {
+     "q": "A Ana tem um bocadinho de medo da universidade.",
+     "a": "Richtig – alles ist so alt und ernst. Marie erinnert sie: vor einem Jahr konnte sie selbst nicht „olá“ sagen."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt Dinge und Menschen beschreiben (<b>que, onde, com quem, o que</b>) – das macht deine Sätze doppelt so lang und doppelt so portugiesisch. Morgen geht Ana auf Wohnungssuche, und du lernst die höflichste Form der Sprache: <b>Gostaria de ver o quarto.</b>"
+  }
+ ]
+}

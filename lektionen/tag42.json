@@ -1,0 +1,307 @@
+{
+ "id": "tag42",
+ "title": "Revisão V – Wochentest",
+ "subtitle": "Staffel 2 · Woche 6 · Tag 42 · Mini-Test · 50 Punkte · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen, dann prüfen und Punkte zählen – ohne Nachschauen. Woche 6 war die Woche der Höflichkeit und der Gefühle: Relativsätze, Konditional, Körper, Gefühle, Telefon, Verbote. Notier dir die Punkte pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Ein Test-Trick aus Coimbra: Sprich vorher fünf Minuten mit einer Person, die nicht da ist – dem Vermieter, der Ärztin, der besten Freundin. Höflich, krank, sauer. <i>Gostaria de… Dói-me… Não faças…</i> Wo dir die Form fehlt, steht sie unten. Und dann: <i>Não te preocupes.</i> Es ist nur ein Test."
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln aus Woche 6 (10 P.)",
+   "items": [
+    {
+     "q": "die Miete",
+     "a": "a renda"
+    },
+    {
+     "q": "möbliert (m.)",
+     "a": "mobilado"
+    },
+    {
+     "q": "der Schlüssel",
+     "a": "a chave"
+    },
+    {
+     "q": "erkältet (EP, w.)",
+     "a": "constipada"
+    },
+    {
+     "q": "das Fieber",
+     "a": "a febre"
+    },
+    {
+     "q": "gerührt (w.)",
+     "a": "emocionada"
+    },
+    {
+     "q": "Hallo? (am Telefon, EP)",
+     "a": "Está?"
+    },
+    {
+     "q": "anrufen",
+     "a": "ligar"
+    },
+    {
+     "q": "sich versöhnen",
+     "a": "fazer as pazes"
+    },
+    {
+     "q": "die Freundschaft",
+     "a": "a amizade"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · que, onde, quem (5 P.)",
+   "items": [
+    {
+     "q": "A cidade ___ eu vivo é antiga.",
+     "a": "onde"
+    },
+    {
+     "q": "O rapaz ___ canta chama-se Rui.",
+     "a": "que"
+    },
+    {
+     "q": "A amiga com ___ vivo é do Porto.",
+     "a": "quem"
+    },
+    {
+     "q": "Os livros ___ comprei são caros.",
+     "a": "que"
+    },
+    {
+     "q": "Não sei ___ ele quer.",
+     "a": "o que"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Höflich: der Konditional (5 P.)",
+   "items": [
+    {
+     "q": "Ich würde gern das Zimmer sehen: ___ de ver o quarto.",
+     "a": "Gostaria"
+    },
+    {
+     "q": "Wäre es möglich? → ___ possível?",
+     "a": "Seria"
+    },
+    {
+     "q": "Hätten Sie ein billigeres Zimmer? → ___ um quarto mais barato?",
+     "a": "Teria"
+    },
+    {
+     "q": "Könnten wir morgen antworten? → ___ responder amanhã?",
+     "a": "Poderíamos / Podíamos"
+    },
+    {
+     "q": "Ich würde dasselbe tun: Eu ___ o mesmo. (fazer)",
+     "a": "faria"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · Körper: doer und dever (6 P.)",
+   "items": [
+    {
+     "q": "Mir tut der Kopf weh: ___ a cabeça.",
+     "a": "Dói-me"
+    },
+    {
+     "q": "Mir tun die Beine weh: ___ as pernas.",
+     "a": "Doem-me"
+    },
+    {
+     "q": "Tut dir der Hals weh? → ___ a garganta?",
+     "a": "Dói-te"
+    },
+    {
+     "q": "Ich habe Husten: Tenho ___.",
+     "a": "tosse"
+    },
+    {
+     "q": "Du solltest dich ausruhen: ___ descansar.",
+     "a": "Deves"
+    },
+    {
+     "q": "Ihr solltet zum Arzt gehen: ___ ir ao médico.",
+     "a": "Devem"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Gefühle: estar, ficar, sentir-se (5 P.)",
+   "items": [
+    {
+     "q": "Ich wurde traurig (der Moment): ___ triste.",
+     "opts": [
+      "Fiquei",
+      "Estive"
+     ],
+     "a": "Fiquei – Wechsel → ficar"
+    },
+    {
+     "q": "Sie ist gerade besorgt: Ela ___ preocupada.",
+     "opts": [
+      "está",
+      "é"
+     ],
+     "a": "está"
+    },
+    {
+     "q": "Ich fühle mich gut: ___ bem.",
+     "a": "Sinto-me"
+    },
+    {
+     "q": "Wir (w.) wurden gerührt: Ficámos ___.",
+     "a": "emocionadas"
+    },
+    {
+     "q": "Ana ist ein ruhiger Mensch: A Ana ___ calma.",
+     "opts": [
+      "é",
+      "está"
+     ],
+     "a": "é – Charakter → ser"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "F · Was jemand gesagt hat (5 P.)",
+   "items": [
+    {
+     "q": "«Preciso de ajuda.» → Ele disse ___ precisava de ajuda.",
+     "a": "que"
+    },
+    {
+     "q": "«Tens tempo?» → Ela perguntou ___ eu tinha tempo.",
+     "a": "se"
+    },
+    {
+     "q": "«Estou cansado.» → Disse que ___ cansado.",
+     "opts": [
+      "estava",
+      "está"
+     ],
+     "a": "estava"
+    },
+    {
+     "q": "«Vou ao rio.» → Disse que ___ ao rio.",
+     "opts": [
+      "ia",
+      "vai"
+     ],
+     "a": "ia"
+    },
+    {
+     "q": "«Não toques!» → Pediu ___ eu não tocar.",
+     "a": "para"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "G · Verbote (6 P.)",
+   "items": [
+    {
+     "q": "Sprich nicht! → Não ___! (falar)",
+     "a": "fales"
+    },
+    {
+     "q": "Mach das nicht! → Não ___ isso! (fazer)",
+     "a": "faças"
+    },
+    {
+     "q": "Geh nicht! → Não ___! (ir)",
+     "a": "vás"
+    },
+    {
+     "q": "Sag nichts! → Não ___ nada! (dizer)",
+     "a": "digas"
+    },
+    {
+     "q": "Mach dir keine Sorgen! → Não ___ preocupes!",
+     "a": "te"
+    },
+    {
+     "q": "Sei nicht albern! → Não ___ parvo! (ser)",
+     "a": "sejas"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "H · Lesen: Mensagem do Rui (5 P.)",
+   "audio": "r42",
+   "text": "Olá, Ana! Aqui o Rui, dos Kágados. A Joana já levou as coisas dela, por isso o quarto está livre a partir de um de setembro. Podes vir quando quiseres.<br>Duas coisas antes de chegares: primeiro, o quarto é o mais pequeno da casa, mas é o único com varanda, e da varanda vê-se a torre. Segundo, não tragas muita coisa – o armário é antigo e a porta não fecha bem.<br>Perguntaste-me se há regras para visitas. Há: os amigos podem ficar três noites, e a Marie, que é quase da casa, pode ficar quatro. Diz-lhe que a garganta dela é famosa aqui. O Alberto pergunta por ela.<br>Não te preocupes com a matrícula: a secretaria abre a nove de setembro e eu vou contigo.<br>Até breve. E não digas mal do Sporting, mesmo a brincar.<br>Rui",
+   "gloss": "Erst lesen, dann anhören. Neu erschließen: quando quiseres = wann du willst (eine Form für Woche 7) · o único = der einzige · fechar = schließen · quase da casa = fast eine von uns · perguntar por = fragen nach · a secretaria = das Sekretariat · Até breve = Bis bald · mesmo a brincar = auch im Spaß. Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "O quarto da Ana está livre a partir de um de setembro.",
+     "a": "Richtig – Joana hat ihre Sachen schon geholt."
+    },
+    {
+     "q": "O quarto é o maior da casa.",
+     "a": "Falsch – der kleinste, aber der einzige mit Balkon und Blick auf den Turm."
+    },
+    {
+     "q": "A Ana deve trazer muita coisa.",
+     "a": "Falsch – „não tragas muita coisa“, der Schrank ist alt."
+    },
+    {
+     "q": "A Marie pode ficar quatro noites como visita.",
+     "a": "Richtig – eine Nacht mehr als andere Freunde, weil sie „quase da casa“ ist."
+    },
+    {
+     "q": "A Ana tem de tratar da matrícula sozinha.",
+     "a": "Falsch – Rui geht am 9. September mit."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "I · Schreiben: Uma mensagem (3 P.)",
+   "html": "Schreib drei Sätze an eine Freundin, die krank ist – ohne Spickzettel, 1 Punkt pro korrektem Satz:<br><br>1. Frag, was ihr wehtut (<i>Dói-te…?</i>) · 2. Gib einen Rat mit <i>deves</i> · 3. Beruhige sie mit einem Verbot (<i>Não te preocupes / Não faças…</i>)<br><br>Muster: <i>Dói-te a garganta? Deves ficar em casa e beber chá. Não te preocupes, amanhã ligo-te.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (50 Punkte)",
+   "html": "<b>43–50:</b> Fantástico! Du kannst höflich sein, krank sein, gerührt sein und streiten – auf Portugiesisch. Das ist mehr, als die meisten Touristen nach zehn Jahren können.<br><b>32–42:</b> Muito bem! Schau auf Teil G (Verbote) – die Formen sind neu und brauchen ein paar Tage. Lies Tag 41 noch einmal laut.<br><b>unter 32:</b> Woche 6 hatte viele kleine Formen. Wiederhole Tag 37 (Konditional) und Tag 41 (Verbote), dann den Test noch einmal.<br><br>Nächste Woche: <b>A estrada</b> – mit dem alten Van durchs Alentejo. Es wird holprig."
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: A carrinha",
+   "audio": "s42",
+   "text": "Sábado de manhã, a última manhã em Coimbra. A Marie e a Ana estão na varanda da Inês com café, a ver a rua que sobe. Vão apanhar o comboio das onze para Lisboa.<br>Às dez e meia ouve-se um barulho. Um barulho de motor, mas não de um motor normal: um motor a tossir, a pensar, a tossir outra vez.<br>Uma carrinha branca, velha, com uma porta azul que não é da mesma cor que o resto, sobe a rua muito devagar. Para em frente do prédio. Do lado do condutor sai o João, com óculos de sol e a cara de quem não dormiu.<br>— Bom dia! — grita para a varanda. — Quem quer boleia para Lisboa?<br>— João?! — A Ana quase deixa cair a chávena. — Vieste de Lisboa nisso?<br>— Vim. Duzentos quilómetros. Cinco horas. A carrinha anda, como eu disse.<br>— Cinco horas para duzentos quilómetros não é andar — diz a Inês, que apareceu à porta com a bata. — É arrastar-se.<br>— Arrastou-se até aqui, não arrastou?<br>A Inês desce, dá uma volta à carrinha, olha para o motor, olha para o irmão.<br>— João. Isto não chega ao Alentejo.<br>— Chega.<br>— Isto não chega a Leiria.<br>— A Leiria chega de certeza.<br>A Marie olha para a carrinha, para a porta azul, para o João a sorrir como se tivesse ganho a lotaria. E percebe que agosto não vai ser uma viagem. Vai ser uma aventura. Provavelmente com uma oficina no meio.<br>— Eu vou de carrinha — diz.<br>— Eu também — diz a Ana.<br>A Inês suspira, vai buscar uma garrafa de água de cinco litros e põe-a no banco de trás.<br>— Para o motor. Não para vocês. E liguem-me de Leiria.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: apanhar o comboio = den Zug nehmen · o motor = der Motor · a tossir = hustend · o condutor = der Fahrer · a boleia = die Mitfahrgelegenheit · nisso = in dem Ding · arrastar-se = sich dahinschleppen · dar uma volta a = einmal herumgehen um · Leiria = Stadt zwischen Coimbra und Lissabon · como se tivesse ganho a lotaria = als hätte er im Lotto gewonnen · a aventura = das Abenteuer · a oficina = die Werkstatt · suspirar = seufzen · o banco de trás = die Rückbank",
+   "questions": [
+    {
+     "q": "O João veio de Lisboa de comboio.",
+     "a": "Falsch – mit dem alten Van: 200 Kilometer, fünf Stunden."
+    },
+    {
+     "q": "A Inês acha que a carrinha chega ao Alentejo.",
+     "a": "Falsch – „Isto não chega a Leiria.“ Sie packt fünf Liter Wasser für den Motor ein."
+    },
+    {
+     "q": "A Marie e a Ana decidem ir de carrinha para Lisboa.",
+     "a": "Richtig – und Marie ahnt: August wird kein Trip, sondern ein Abenteuer mit Werkstatt."
+    }
+   ]
+  }
+ ]
+}

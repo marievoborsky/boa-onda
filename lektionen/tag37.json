@@ -1,0 +1,361 @@
+{
+ "id": "tag37",
+ "title": "Procura-se quarto",
+ "subtitle": "Staffel 2 · Woche 6 · Tag 37 · Wohnung suchen · Konditional der Höflichkeit · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 36)",
+   "items": [
+    {
+     "q": "Der Turm, der eine Glocke hat: a torre ___ tem um sino",
+     "a": "que"
+    },
+    {
+     "q": "Die Stadt, wo ich wohne: a cidade ___ vivo",
+     "a": "onde"
+    },
+    {
+     "q": "Die Person, mit der ich gesprochen habe: a pessoa com ___ falei",
+     "a": "quem"
+    },
+    {
+     "q": "Ich weiß nicht, was er sagt: Não sei ___ ele diz.",
+     "opts": [
+      "o que",
+      "que",
+      "onde"
+     ],
+     "a": "o que – „was“ ohne Bezugswort"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Procurar casa (14)",
+   "items": [
+    {
+     "pt": "o anúncio",
+     "de": "die Anzeige",
+     "ipa": "[ɐˈnũsju]",
+     "audio": "v3701"
+    },
+    {
+     "pt": "a renda",
+     "de": "die Miete",
+     "ipa": "[ˈʁẽdɐ]",
+     "audio": "v3702"
+    },
+    {
+     "pt": "o senhorio / a senhoria",
+     "de": "der Vermieter / die Vermieterin",
+     "ipa": "[sɨɲuˈɾiu / sɨɲuˈɾiɐ]",
+     "audio": "v3703"
+    },
+    {
+     "pt": "visitar",
+     "de": "besichtigen, besuchen",
+     "ipa": "[viziˈtaɾ]",
+     "audio": "v3704"
+    },
+    {
+     "pt": "mobilado / mobilada",
+     "de": "möbliert",
+     "ipa": "[mubiˈladu / mubiˈladɐ]",
+     "audio": "v3705"
+    },
+    {
+     "pt": "as despesas",
+     "de": "die Nebenkosten",
+     "ipa": "[dɨʃˈpezɐʃ]",
+     "audio": "v3706"
+    },
+    {
+     "pt": "o contrato",
+     "de": "der Vertrag",
+     "ipa": "[kõˈtɾatu]",
+     "audio": "v3707"
+    },
+    {
+     "pt": "assinar",
+     "de": "unterschreiben",
+     "ipa": "[ɐsiˈnaɾ]",
+     "audio": "v3708"
+    },
+    {
+     "pt": "a caução",
+     "de": "die Kaution",
+     "ipa": "[kawˈsɐ̃w̃]",
+     "audio": "v3709"
+    },
+    {
+     "pt": "a chave",
+     "de": "der Schlüssel",
+     "ipa": "[ˈʃavɨ]",
+     "audio": "v3710"
+    },
+    {
+     "pt": "disponível",
+     "de": "verfügbar, frei",
+     "ipa": "[diʃpuˈnivɛɫ]",
+     "audio": "v3711"
+    },
+    {
+     "pt": "o colega de casa / a colega de casa",
+     "de": "der Mitbewohner / die Mitbewohnerin",
+     "ipa": "[kuˈlɛgɐ dɨ ˈkazɐ]",
+     "audio": "v3712"
+    },
+    {
+     "pt": "o rés do chão",
+     "de": "das Erdgeschoss (EP!)",
+     "ipa": "[ˈʁɛʒ du ˈʃɐ̃w̃]",
+     "audio": "v3713"
+    },
+    {
+     "pt": "luminoso / luminosa",
+     "de": "hell (Raum)",
+     "ipa": "[lumiˈnozu / lumiˈnɔzɐ]",
+     "audio": "v3714"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Ich hätte gern, es wäre, könnten Sie",
+   "html": "<i>(Sprachnachricht:)</i> Ihr kennt <i>Queria um café</i> seit Woche 2 – die höfliche Form von <i>quero</i>. Heute lernt ihr, dass das ein System ist: der <b>Konditional</b>. Er macht aus jedem Wunsch eine Bitte.<br><br><b>Die Form:</b> Grundform + <b>-ia, -ias, -ia, -íamos, -iam</b> – dieselben Endungen wie beim Imperfekt der -er/-ir-Verben, nur an die <b>ganze Grundform</b> gehängt:<br><i>gostar → <b>gostaria</b> · ser → <b>seria</b> · ter → <b>teria</b> · poder → <b>poderia</b></i><br>Drei sind verkürzt: <i>fazer → <b>faria</b> · dizer → <b>diria</b> · trazer → <b>traria</b></i>.<br><br><b>Die Sätze, die ihr braucht:</b><br><i><b>Gostaria de</b> ver o quarto.</i> – Ich würde gern das Zimmer sehen.<br><i><b>Seria</b> possível visitar amanhã?</i> – Wäre es möglich …?<br><i><b>Poderia</b> / <b>Podia</b> repetir?</i> – Könnten Sie wiederholen? (In Portugal nimmt man hier gern das Imperfekt <i>podia</i>: klingt genauso höflich und ist kürzer.)<br><i><b>Teria</b> um quarto mais barato?</i> – Hätten Sie …?<br><br><b>Merkregel:</b> <i>quero</i> = ich will (Kind) · <i>queria</i> = ich hätte gern (Café) · <i>gostaria de</i> = ich würde gern (Vermieter, Chef, Amt). Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Wohnungssuche auf Portugiesisch hat eigene Vokabeln, die in keinem Wörterbuch stehen: <b>T1, T2, T3</b> = Anzahl der Schlafzimmer (T2 = zwei Zimmer plus Wohnzimmer). <b>Rés do chão</b> ist das Erdgeschoss, <b>1.º andar</b> der erste Stock. Und <b>despesas incluídas</b> heißt: Wasser, Strom, Internet drin – frag immer nach, in Portugal ist das nicht selbstverständlich. Aussprache: <i>gostaria</i> = „guschtaría“, mit Betonung auf dem i. Und <i>rés do chão</i> klingt wie <b>„räsch du schãu“</b>."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A visita",
+   "hint": "Selbst erschlossen: o Senhor Manuel = der Vermieter (o senhor / a senhora = die höfliche Anrede) · com vista para = mit Blick auf · o metro quadrado = der Quadratmeter · incluídas = inklusive · sozinha = allein (Ana ist die Mieterin) · a cama = das Bett · mede = misst (medir) · a alma = die Seele.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Bom dia! Vimos o anúncio. Gostaríamos de ver o quarto.",
+     "audio": "d3701"
+    },
+    {
+     "who": "Senhorio",
+     "pt": "Com certeza. Entrem. É o quarto do fundo, com vista para o rio.",
+     "audio": "d3702"
+    },
+    {
+     "who": "Marie",
+     "pt": "É luminoso. E mobilado.",
+     "audio": "d3703"
+    },
+    {
+     "who": "Senhorio",
+     "pt": "Mobilado, sim: cama, mesa, armário. Trezentos e cinquenta euros por mês.",
+     "audio": "d3704"
+    },
+    {
+     "who": "Ana",
+     "pt": "As despesas estão incluídas?",
+     "audio": "d3705"
+    },
+    {
+     "who": "Senhorio",
+     "pt": "A água sim. A luz e a internet não.",
+     "audio": "d3706"
+    },
+    {
+     "who": "Ana",
+     "pt": "E seria possível pagar a caução em setembro?",
+     "audio": "d3707"
+    },
+    {
+     "who": "Senhorio",
+     "pt": "A caução paga-se quando se assina o contrato, menina.",
+     "audio": "d3708"
+    },
+    {
+     "who": "Marie",
+     "pt": "Desculpe, o senhor teria um quarto mais barato?",
+     "audio": "d3709"
+    },
+    {
+     "who": "Senhorio",
+     "pt": "Tenho. No rés do chão. Sem vista, sem sol, duzentos e cinquenta.",
+     "audio": "d3710"
+    },
+    {
+     "who": "Ana",
+     "pt": "Podíamos pensar e responder amanhã?",
+     "audio": "d3711"
+    },
+    {
+     "who": "Senhorio",
+     "pt": "Podem. Mas o quarto com vista tem mais três pessoas interessadas. Coimbra é assim.",
+     "audio": "d3712"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Den Konditional bilden",
+   "items": [
+    {
+     "q": "Eu ___ (gostar) de ver o quarto.",
+     "a": "gostaria"
+    },
+    {
+     "q": "___ (ser) possível visitar amanhã?",
+     "a": "Seria"
+    },
+    {
+     "q": "A senhora ___ (ter) um quarto mais barato?",
+     "a": "teria"
+    },
+    {
+     "q": "Nós ___ (poder) pensar até amanhã?",
+     "a": "poderíamos"
+    },
+    {
+     "q": "Tu ___ (fazer) o mesmo?",
+     "a": "farias"
+    },
+    {
+     "q": "Eles ___ (pagar) a caução em setembro.",
+     "a": "pagariam"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Wie höflich? (antippen)",
+   "items": [
+    {
+     "q": "Zum Vermieter, den du nicht kennst: ",
+     "opts": [
+      "Gostaria de ver o quarto.",
+      "Quero ver o quarto."
+     ],
+     "a": "Gostaria de ver o quarto. – Konditional für Fremde und Ämter"
+    },
+    {
+     "q": "Im Café, zur Bedienung: ",
+     "opts": [
+      "Queria um galão.",
+      "Gostaria de um galão."
+     ],
+     "a": "Queria um galão. – im Café reicht das Imperfekt; gostaria klingt hier übertrieben förmlich"
+    },
+    {
+     "q": "Zur besten Freundin: ",
+     "opts": [
+      "Quero um café. Vens?",
+      "Gostaria de um café. Viria?"
+     ],
+     "a": "Quero um café. Vens? – unter Freunden direkt"
+    },
+    {
+     "q": "Könnten Sie das wiederholen? (kurz, typisch EP): ",
+     "opts": [
+      "Podia repetir?",
+      "Poderia repetir?"
+     ],
+     "a": "Podia repetir? – beides ist richtig, podia ist die gängige Kurzform"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Wir würden gern das Zimmer sehen.",
+     "satz": "Gostaríamos de ver o quarto.",
+     "a": "Gostaríamos de ver o quarto."
+    },
+    {
+     "q": "Sind die Nebenkosten inklusive?",
+     "satz": "As despesas estão incluídas?",
+     "a": "As despesas estão incluídas?"
+    },
+    {
+     "q": "Hätten Sie ein billigeres Zimmer?",
+     "satz": "Teria um quarto mais barato?",
+     "a": "Teria um quarto mais barato?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O quarto com vista custa trezentos e cinquenta euros com todas as despesas.",
+     "a": "Falsch – nur Wasser ist inklusive, Strom und Internet nicht."
+    },
+    {
+     "q": "A caução pode ser paga em setembro.",
+     "a": "Falsch – bei Vertragsunterschrift. „Coimbra é assim.“"
+    },
+    {
+     "q": "O quarto no rés do chão é mais barato, mas não tem vista.",
+     "a": "Richtig – 250 Euro, ohne Aussicht, ohne Sonne."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Ich würde gern die Wohnung sehen. → ___",
+     "a": "Gostaria de ver o apartamento."
+    },
+    {
+     "q": "Wäre es möglich, morgen zu kommen? → ___",
+     "a": "Seria possível vir amanhã?"
+    },
+    {
+     "q": "Wie viel ist die Miete? → ___",
+     "a": "Quanto é a renda? / Quanto custa a renda?"
+    },
+    {
+     "q": "Ist das Zimmer noch frei? → ___",
+     "a": "O quarto ainda está disponível?"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Ao telefone com o senhorio",
+   "html": "Spiel den Anruf bei einem Vermieter laut durch – sechs Sätze, alle höflich: <i>Bom dia, vi o anúncio… Gostaria de… Seria possível…? O quarto é mobilado? As despesas estão incluídas? Quanto é a caução?</i><br><br>Dann der Vergleich in drei Stufen, laut: <i>Quero. Queria. Gostaria de.</i> Hör, wie die Stimme mit jeder Stufe weicher wird."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: O quarto do Rui",
+   "audio": "s37",
+   "text": "À noite, a Ana faz contas na mesa da Inês. Trezentos e cinquenta mais a luz mais a internet mais a caução. O papel fica cheio de números e a Ana fica cheia de dúvidas.<br>— Com a bolsa não chega — diz.<br>— Chega para o rés do chão — diz a Inês.<br>— Eu não quero viver sem sol, Inês. Sou do Porto. Já tenho chuva suficiente na alma.<br>O telemóvel da Marie toca. É o Rui.<br>— Diz à Ana que temos um quarto livre na república. A partir de setembro. A Joana acabou o curso.<br>— Quanto é a renda?<br>— Cento e vinte. Com tudo. Mas há regras: cozinha-se à vez, canta-se à sexta, e ninguém pode dizer mal do Sporting.<br>A Marie repete tudo em voz alta. A Ana deixa cair a caneta.<br>— Cento e vinte?! Com tudo?!<br>— Com tudo. E com onze colegas de casa.<br>— Onze?<br>— Onze — diz a Inês. — E um deles é o Rui. Que canta. Todos os dias.<br>A Ana pensa durante três segundos.<br>— Diz-lhe que gostaria de ver o quarto. Amanhã. Podia ser às dez?<br>— Podia — diz o Rui, que ouviu tudo. — E Ana? Bem-vinda aos Kágados.",
+   "gloss": "Neu erschließen: fazer contas = rechnen · a dúvida = der Zweifel · a bolsa = das Stipendium · não chega = reicht nicht · suficiente = genug · a Joana = eine Mitbewohnerin · acabou o curso = hat das Studium beendet · a regra = die Regel · à vez = abwechselnd · dizer mal de = schlecht reden über · o Sporting = Fußballclub aus Lissabon · a caneta = der Stift · em voz alta = laut",
+   "questions": [
+    {
+     "q": "A Ana quer viver no rés do chão.",
+     "a": "Falsch – ohne Sonne will sie nicht: „Já tenho chuva suficiente na alma.“"
+    },
+    {
+     "q": "O quarto na república custa cento e vinte euros com tudo.",
+     "a": "Richtig – mit Regeln: abwechselnd kochen, freitags singen, nichts gegen Sporting sagen."
+    },
+    {
+     "q": "A Ana vai ver o quarto amanhã às dez.",
+     "a": "Richtig – und Rui hat schon alles mitgehört: „Bem-vinda aos Kágados.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt höflich fragen, wünschen und verhandeln (<b>gostaria de, seria, teria, podia</b>) und eine Wohnungsanzeige verstehen. Morgen wird es körperlich: Marie hat Halsschmerzen, und Inês ist Ärztin – <b>Dói-me a garganta.</b>"
+  }
+ ]
+}
