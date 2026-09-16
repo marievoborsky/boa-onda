@@ -1,0 +1,368 @@
+{
+ "id": "tag55",
+ "title": "A decisão",
+ "subtitle": "Staffel 2 · Woche 8 · Tag 55 · Was war, was ist, was kommt · alle Zeiten · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 54)",
+   "items": [
+    {
+     "q": "Ich war Anwalt (Hintergrund): ___ advogado.",
+     "opts": [
+      "Era",
+      "Fui"
+     ],
+     "a": "Era"
+    },
+    {
+     "q": "Ich habe gekündigt: ___. (despedir-se)",
+     "a": "Despedi-me"
+    },
+    {
+     "q": "Hat es sich gelohnt? → ___ a pena?",
+     "a": "Valeu"
+    },
+    {
+     "q": "Ich hatte nie gesurft: Nunca ___ surfado.",
+     "a": "tinha"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: O futuro (14)",
+   "items": [
+    {
+     "pt": "o sócio / a sócia",
+     "de": "der Geschäftspartner / die Geschäftspartnerin",
+     "ipa": "[ˈsɔsju / ˈsɔsjɐ]",
+     "audio": "v5501"
+    },
+    {
+     "pt": "a proposta",
+     "de": "das Angebot, der Vorschlag",
+     "ipa": "[pɾuˈpɔʃtɐ]",
+     "audio": "v5502"
+    },
+    {
+     "pt": "aceitar",
+     "de": "annehmen",
+     "ipa": "[ɐsɐjˈtaɾ]",
+     "audio": "v5503"
+    },
+    {
+     "pt": "recusar",
+     "de": "ablehnen",
+     "ipa": "[ʁɨkuˈzaɾ]",
+     "audio": "v5504"
+    },
+    {
+     "pt": "regressar",
+     "de": "zurückkehren",
+     "ipa": "[ʁɨgɾɨˈsaɾ]",
+     "audio": "v5505"
+    },
+    {
+     "pt": "o outono",
+     "de": "der Herbst",
+     "ipa": "[oˈtonu]",
+     "audio": "v5506"
+    },
+    {
+     "pt": "a responsabilidade",
+     "de": "die Verantwortung",
+     "ipa": "[ʁɨʃpõsɐbiliˈdadɨ]",
+     "audio": "v5507"
+    },
+    {
+     "pt": "a esperança",
+     "de": "die Hoffnung",
+     "ipa": "[ɨʃpɨˈɾɐ̃sɐ]",
+     "audio": "v5508"
+    },
+    {
+     "pt": "a despedida",
+     "de": "der Abschied",
+     "ipa": "[dɨʃpɨˈdidɐ]",
+     "audio": "v5509"
+    },
+    {
+     "pt": "a promessa",
+     "de": "das Versprechen",
+     "ipa": "[pɾuˈmɛsɐ]",
+     "audio": "v5510"
+    },
+    {
+     "pt": "combinar",
+     "de": "vereinbaren, ausmachen",
+     "ipa": "[kõbiˈnaɾ]",
+     "audio": "v5511"
+    },
+    {
+     "pt": "a bolsa",
+     "de": "das Stipendium; die Tasche",
+     "ipa": "[ˈboɫsɐ]",
+     "audio": "v5512"
+    },
+    {
+     "pt": "a formação",
+     "de": "die Ausbildung",
+     "ipa": "[fuɾmɐˈsɐ̃w̃]",
+     "audio": "v5513"
+    },
+    {
+     "pt": "de vez",
+     "de": "endgültig, für immer",
+     "ipa": "[dɨ ˈveʃ]",
+     "audio": "v5514"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Alle Zeiten auf einen Blick",
+   "html": "<i>(Vor der Schule, am Morgen von Anas Abreise:)</i> Das ist die letzte Grammatik-Dica der Staffel. Keine neue Form – nur die Landkarte von allem, was ihr könnt. Nehmt ein Verb, <i>ficar</i>, und schaut:<br><br><b>Was ist:</b> <i>Fico em Sagres.</i> (Präsens)<br><b>Was gerade passiert:</b> <i>Estou a ficar.</i> (estar a + Grundform)<br><b>Was war:</b> <i>Fiquei um verão.</i> (Perfekt – Foto) · <i>Ficava sempre até setembro.</i> (Imperfekt – Film)<br><b>Was davor war:</b> <i>Nunca tinha ficado.</i> (Plusquamperfekt)<br><b>Was kommt:</b> <i>Vou ficar.</i> (ir + Grundform) · <i>Ficarei.</i> (Futur, förmlich)<br><b>Was sein könnte:</b> <i>Ficaria, se pudesse.</i> (Konditional)<br><b>Was ich hoffe:</b> <i>Espero que fiques.</i> (Konjunktiv)<br><b>Was ich sage:</b> <i>Fica! · Fique! · Fiquem! · Não fiques!</i> (Imperativ)<br><b>Wenn in der Zukunft:</b> <i>Se ficares, ajudo-te.</i> (futuro do conjuntivo – nur erkennen)<br><br>Neun Formen, ein Verb. Vor einem Jahr hattet ihr eine. Und ja, in <i>fiquei / fique / fiques</i> wird das c zu qu – ihr wisst warum. Das ist alles. Der Rest ist Leben. Boa onda."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<b>Combinado?</b> – „Abgemacht?“ – ist das Wort, mit dem Portugiesen jede Verabredung besiegeln, und <b>Combinado.</b> die Antwort. Wer etwas <b>de vez</b> macht, macht es endgültig: <i>mudou-se de vez para Sagres</i>. Und <i>despedida</i> hat in Portugal ein eigenes Ritual: Man sagt zehnmal <i>então adeus</i>, bleibt aber stehen. Ein Abschied unter drei Minuten gilt als unhöflich. Aussprache: <i>esperança</i> = „schpörãnssa“, <i>de vez</i> = „dö vésch“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Duas propostas",
+   "hint": "Selbst erschlossen: a Escola Superior = die Hochschule · o curso de português = der Portugiesischkurs · a carta = der Brief · o inverno learned · faz sentido = ergibt Sinn · Combinado = abgemacht. Ana packt für Coimbra – João bringt sie heute noch zum Zug in Lagos.",
+   "lines": [
+    {
+     "who": "Vasco",
+     "pt": "Marie, antes de a Ana ir: tenho uma proposta. Duas, na verdade.",
+     "audio": "d5501"
+    },
+    {
+     "who": "Marie",
+     "pt": "Duas?",
+     "audio": "d5502"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Primeira: para o ano, na época alta, vens como instrutora a sério. Com salário. Não como ajudante.",
+     "audio": "d5503"
+    },
+    {
+     "who": "Marie",
+     "pt": "Aceito. Já.",
+     "audio": "d5504"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Espera. Segunda: o inverno. Há um curso de português para estrangeiros na universidade, em Lisboa, de outubro a maio. Com bolsa, se tiveres boas notas. A Inês conhece a professora.",
+     "audio": "d5505"
+    },
+    {
+     "who": "Marie",
+     "pt": "A Inês conhece toda a gente.",
+     "audio": "d5506"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Conhece. Se fizeres o curso, em junho falas melhor do que eu. E em julho estás aqui, de vez.",
+     "audio": "d5507"
+    },
+    {
+     "who": "Ana",
+     "pt": "Diz que sim, Marie. Diz que sim, ou eu digo por ti.",
+     "audio": "d5508"
+    },
+    {
+     "who": "Marie",
+     "pt": "E Hamburgo?",
+     "audio": "d5509"
+    },
+    {
+     "who": "Ana",
+     "pt": "Hamburgo não vai a lado nenhum. Hamburgo tem seiscentos anos. Espera mais um.",
+     "audio": "d5510"
+    },
+    {
+     "who": "Marie",
+     "pt": "…Preciso de pensar. Sozinha. Mas só até logo à noite. Prometi.",
+     "audio": "d5511"
+    },
+    {
+     "who": "Ana",
+     "pt": "Combinado. Logo à noite. E Marie – desta vez conta-nos primeiro.",
+     "audio": "d5512"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Alle Zeiten (ficar)",
+   "items": [
+    {
+     "q": "Ich bleibe in Sagres: ___ em Sagres.",
+     "a": "Fico"
+    },
+    {
+     "q": "Ich bin einen Sommer geblieben: ___ um verão.",
+     "a": "Fiquei"
+    },
+    {
+     "q": "Ich blieb immer bis September: ___ sempre até setembro.",
+     "a": "Ficava"
+    },
+    {
+     "q": "Ich werde bleiben: ___ ficar.",
+     "a": "Vou"
+    },
+    {
+     "q": "Ich hoffe, dass du bleibst: Espero que ___.",
+     "a": "fiques"
+    },
+    {
+     "q": "Bleib! (du) → ___!",
+     "a": "Fica"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Was war, was ist, was kommt (antippen)",
+   "items": [
+    {
+     "q": "Vor einem Jahr ___ ich kein Portugiesisch. (saber)",
+     "opts": [
+      "sabia",
+      "sei"
+     ],
+     "a": "sabia – damals, Zustand → Imperfekt"
+    },
+    {
+     "q": "Letzten Samstag ___ ich meine erste Stunde. (dar)",
+     "opts": [
+      "dei",
+      "dava"
+     ],
+     "a": "dei – Ereignis → Perfekt"
+    },
+    {
+     "q": "Jetzt ___ ich jeden Tag Unterricht. (dar)",
+     "opts": [
+      "dou",
+      "dei"
+     ],
+     "a": "dou – Präsens"
+    },
+    {
+     "q": "Nächstes Jahr ___ als Lehrerin zurück. (vir)",
+     "opts": [
+      "vou vir",
+      "vim"
+     ],
+     "a": "vou vir – Zukunft"
+    },
+    {
+     "q": "Ich hoffe, dass es sich lohnt. (valer)",
+     "opts": [
+      "Espero que valha a pena.",
+      "Espero que vale a pena."
+     ],
+     "a": "valha – Konjunktiv nach espero que"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Nächstes Jahr kommst du als richtige Lehrerin.",
+     "satz": "Para o ano vens como instrutora a sério.",
+     "a": "Para o ano vens como instrutora a sério."
+    },
+    {
+     "q": "Ich muss allein nachdenken.",
+     "satz": "Preciso de pensar sozinha.",
+     "a": "Preciso de pensar sozinha."
+    },
+    {
+     "q": "Diesmal erzähl es uns zuerst.",
+     "satz": "Desta vez conta-nos primeiro.",
+     "a": "Desta vez conta-nos primeiro."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O Vasco propõe à Marie voltar para o ano como ajudante.",
+     "a": "Falsch – als richtige Lehrerin, mit Gehalt."
+    },
+    {
+     "q": "O curso de português é em Sagres, no inverno.",
+     "a": "Falsch – in Lissabon, an der Universität, Oktober bis Mai, mit Stipendium bei guten Noten."
+    },
+    {
+     "q": "A Marie aceita as duas propostas logo.",
+     "a": "Falsch – die erste sofort, für die zweite will sie bis zum Abend nachdenken. Allein, aber nicht heimlich."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Ich nehme an. → ___",
+     "a": "Aceito."
+    },
+    {
+     "q": "Ich brauche Zeit zum Nachdenken. → ___",
+     "a": "Preciso de tempo para pensar."
+    },
+    {
+     "q": "Hamburg läuft nicht weg. → ___",
+     "a": "Hamburgo não vai a lado nenhum."
+    },
+    {
+     "q": "Abgemacht. → ___",
+     "a": "Combinado."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A tua decisão",
+   "html": "Stell dir vor, du bist Marie. Sag laut, was du entscheidest, in zehn Sätzen – Vergangenheit, Gegenwart, Zukunft: <i>Há um ano cheguei… Este verão… Hoje… Para o ano vou… Espero que…</i><br><br>Dann Anas Satz, streng und liebevoll: <i>Desta vez conta-nos primeiro.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A resposta da Marie",
+   "audio": "s55",
+   "text": "A Ana partiu às cinco, no comboio de Lagos, com uma mala pequena, o martelo do Tomás emprestado «para dar sorte» e a cara de quem vai chorar em Tunes. O João levou-a à estação na carrinha. A carrinha pegou à primeira, o que a Ana considerou um sinal.<br>— Liga-me quando chegares — disse à Marie, à porta do comboio.<br>— Ligo. E Ana… obrigada. Por tudo. Pelo ano passado. Por este.<br>— Deixa lá. — E depois, porque é a Ana: — No Porto era melhor. Mas aqui também não foi mau.<br>À noite, a Marie sentou-se no muro da escola com o telemóvel e o caderno. Tinha pensado o dia inteiro. Tinha feito listas. Tinha ligado à mãe, em Hamburgo, que disse: «Tu já sabes o que queres. Só queres que eu diga que sim.» E disse que sim.<br>Escreveu no grupo:<br>«Vou fazer o curso em Lisboa. De outubro a maio. Vou viver com o João, que diz que tem um sofá. Em junho venho para Sagres, de vez. Se a bolsa não vier, trabalho na padaria do tio do João às quatro da manhã. Ele diz que preciso de aprender a fazer pão. Digo isto primeiro a vocês, como prometi. Depois digo ao Vasco. Depois digo a Hamburgo.»<br>A resposta da Ana chegou em quatro segundos, de Tunes:<br>«EU SABIA.»<br>A do João em dez:<br>«O sofá é mau. Mas o pão é bom.»<br>A do Tomás em vinte, do quarto ao lado:<br>«Posso ir a Lisboa nas férias do Natal?»<br>E a do Vasco, que não estava no grupo, mas ao lado dela no muro, sem telemóvel, a olhar para o farol:<br>— Boa resposta, Marie.<br>— Tu nem leste.<br>— Não preciso. Vi a tua cara. É a cara do miúdo na praia.",
+   "gloss": "Neu erschließen: dar sorte = Glück bringen · Tunes = Bahnhof, wo man umsteigt · considerar = betrachten als · o sinal = das Zeichen · Por tudo = für alles · o dia inteiro = den ganzen Tag · a mãe = die Mutter · Digo isto primeiro a vocês = das sage ich zuerst euch · as férias do Natal = die Weihnachtsferien · nem leste = du hast es nicht mal gelesen",
+   "questions": [
+    {
+     "q": "A Ana levou o martelo do Tomás para Coimbra.",
+     "a": "Richtig – geliehen, „para dar sorte“."
+    },
+    {
+     "q": "A mãe da Marie disse que não.",
+     "a": "Falsch – „Tu já sabes o que queres. Só queres que eu diga que sim.“ Und sie sagte ja."
+    },
+    {
+     "q": "A Marie contou a decisão primeiro ao Vasco.",
+     "a": "Falsch – zuerst der Gruppe, wie versprochen. Vasco saß daneben und hat es an ihrem Gesicht gesehen."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du hast heute alle Zeiten an einem Verb gesehen – neun Formen, die du vor einem Jahr nicht hattest. Marie bleibt: Kurs in Lissabon im Winter, Sagres im Sommer. Morgen der <b>Abschlusstest A2</b> – und danach ein letzter Abend am Cabo de São Vicente."
+  }
+ ]
+}

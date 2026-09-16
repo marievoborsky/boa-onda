@@ -1,0 +1,369 @@
+{
+ "id": "tag54",
+ "title": "A história do Vasco",
+ "subtitle": "Staffel 2 · Woche 8 · Tag 54 · Ein Leben erzählen · Hörverstehen · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 53)",
+   "items": [
+    {
+     "q": "„Se fizer sol, vamos à praia.“ heißt:",
+     "opts": [
+      "Wenn es sonnig ist, gehen wir an den Strand.",
+      "Weil es sonnig war, gingen wir."
+     ],
+     "a": "Wenn (Zukunft)"
+    },
+    {
+     "q": "Glückwunsch! → ___!",
+     "a": "Parabéns"
+    },
+    {
+     "q": "Es war fair: Foi ___.",
+     "a": "justo"
+    },
+    {
+     "q": "fizer kommt von: ___",
+     "a": "fazer"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Uma vida (14)",
+   "items": [
+    {
+     "pt": "o advogado / a advogada",
+     "de": "der Anwalt / die Anwältin",
+     "ipa": "[ɐdvuˈgadu / ɐdvuˈgadɐ]",
+     "audio": "v5401"
+    },
+    {
+     "pt": "o escritório",
+     "de": "das Büro",
+     "ipa": "[ɨʃkɾiˈtɔɾju]",
+     "audio": "v5402"
+    },
+    {
+     "pt": "a gravata",
+     "de": "die Krawatte",
+     "ipa": "[gɾɐˈvatɐ]",
+     "audio": "v5403"
+    },
+    {
+     "pt": "mudar de vida",
+     "de": "sein Leben ändern",
+     "ipa": "[muˈdaɾ dɨ ˈvidɐ]",
+     "audio": "v5404"
+    },
+    {
+     "pt": "a coragem",
+     "de": "der Mut",
+     "ipa": "[kuˈɾaʒɐ̃j̃]",
+     "audio": "v5405"
+    },
+    {
+     "pt": "arrepender-se (de)",
+     "de": "bereuen",
+     "ipa": "[ɐʁɨpẽˈdeɾsɨ]",
+     "audio": "v5406"
+    },
+    {
+     "pt": "o risco",
+     "de": "das Risiko",
+     "ipa": "[ˈʁiʃku]",
+     "audio": "v5407"
+    },
+    {
+     "pt": "valer a pena",
+     "de": "sich lohnen",
+     "ipa": "[vɐˈleɾ ɐ ˈpenɐ]",
+     "audio": "v5408"
+    },
+    {
+     "pt": "a liberdade",
+     "de": "die Freiheit",
+     "ipa": "[libɨɾˈdadɨ]",
+     "audio": "v5409"
+    },
+    {
+     "pt": "a paixão",
+     "de": "die Leidenschaft",
+     "ipa": "[pajˈʃɐ̃w̃]",
+     "audio": "v5410"
+    },
+    {
+     "pt": "o salário",
+     "de": "das Gehalt",
+     "ipa": "[sɐˈlaɾju]",
+     "audio": "v5411"
+    },
+    {
+     "pt": "despedir-se",
+     "de": "kündigen; sich verabschieden",
+     "ipa": "[dɨʃpɨˈdiɾsɨ]",
+     "audio": "v5412"
+    },
+    {
+     "pt": "a escolha",
+     "de": "die Wahl, die Entscheidung",
+     "ipa": "[ɨʃˈkoʎɐ]",
+     "audio": "v5413"
+    },
+    {
+     "pt": "o percurso",
+     "de": "der Weg, der Werdegang",
+     "ipa": "[pɨɾˈkuɾsu]",
+     "audio": "v5414"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Ein Leben erzählen",
+   "html": "<i>(Am Abend, auf der Mauer vor der Schule:)</i> Ihr habt mich vier Wochen lang Grammatik erklären hören. Heute erkläre ich nichts. Heute erzähle ich. Und ihr hört zu – mit allem, was ihr könnt:<br><br><b>Imperfekt</b> für das, was <b>war</b> – der Hintergrund, die Gewohnheit: <i>Eu <b>era</b> advogado. <b>Trabalhava</b> num escritório. <b>Usava</b> gravata.</i><br><b>Perfekt</b> für das, was <b>passierte</b> – der Wendepunkt: <i>Um dia <b>despedi-me</b>. <b>Comprei</b> uma prancha. <b>Vim</b> para Sagres.</i><br><b>Plusquamperfekt</b> für das, was <b>davor</b> war: <i>Nunca <b>tinha surfado</b>. <b>Tinha vivido</b> trinta anos sem ver o mar todos os dias.</i><br><b>Präsens</b> für das, was <b>ist</b>: <i>Hoje <b>tenho</b> uma escola. <b>Não me arrependo</b>.</i><br><b>Futur</b> für das, was <b>kommt</b>: <i><b>Vou ficar</b> aqui. Se calhar para sempre.</i><br><br>Fünf Zeiten in einer Geschichte. Ihr kennt alle. Das ist der ganze Unterschied zwischen A1 und A2: Vor einem Jahr konntet ihr sagen, was ist. Heute könnt ihr sagen, was war, was davor war, was sein wird – und warum. Hört zu. Boa onda."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Ein Wort, das du heute hörst und nie mehr vergisst: <b>despedir-se</b>. Es heißt <i>kündigen</i> (<i>despedi-me do escritório</i>) und <i>sich verabschieden</i> (<i>despedi-me da Ana</i>) – als wäre beides dasselbe. Für Portugiesen ist es das oft. Und <b>valer a pena</b> („die Mühe wert sein“) ist der Satz, mit dem sie jede große Entscheidung bewerten: <i>Valeu a pena?</i> – Hat es sich gelohnt? Aussprache: <i>coragem</i> = „kuráschäng“, <i>arrepender-se</i> = „arröpendérssö“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Porque é que ficaste?",
+   "hint": "Selbst erschlossen: Valeu a pena? = Hat es sich gelohnt? · o sócio = der Geschäftspartner · Nem uma vez = kein einziges Mal · o fato = hier: der Anzug · a pasta = die Aktentasche. Ana und Tomás sind beim Abendessen bei Vascos Mutter – deshalb hier nur Marie, João und Vasco.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Vasco, posso fazer-te a pergunta que o Tomás faz todos os dias?",
+     "audio": "d5401"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Porque é que fiquei em Sagres.",
+     "audio": "d5402"
+    },
+    {
+     "who": "Marie",
+     "pt": "Sim.",
+     "audio": "d5403"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Eu era advogado. Em Lisboa. Tinha vinte e oito anos, um escritório com vista, um salário bom e uma gravata para cada dia da semana.",
+     "audio": "d5404"
+    },
+    {
+     "who": "João",
+     "pt": "Tu? Advogado?",
+     "audio": "d5405"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Três anos. Bons anos, até. Mas todas as sextas-feiras vinha para aqui, surfava dois dias e, ao domingo à noite, no carro, chorava.",
+     "audio": "d5406"
+    },
+    {
+     "who": "Marie",
+     "pt": "Choravas?",
+     "audio": "d5407"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Um bocadinho. Sem música. Durante três anos. Um dia, numa segunda-feira, fui ao escritório, tirei a gravata, pu-la na mesa do meu chefe e despedi-me. Nunca tinha feito nada tão estúpido. Nem nada tão certo.",
+     "audio": "d5408"
+    },
+    {
+     "who": "João",
+     "pt": "E o dinheiro?",
+     "audio": "d5409"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Acabou em oito meses. Depois dei aulas de surf para um sócio que me pagava mal. Depois abri a escola. Depois vieram vocês.",
+     "audio": "d5410"
+    },
+    {
+     "who": "Marie",
+     "pt": "E arrependeste-te? Alguma vez?",
+     "audio": "d5411"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Nem uma vez. Tenho menos dinheiro e mais vida. A conta dá.",
+     "audio": "d5412"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Welche Zeit? (antippen)",
+   "items": [
+    {
+     "q": "Eu ___ advogado em Lisboa. (Hintergrund, drei Jahre lang)",
+     "opts": [
+      "era",
+      "fui"
+     ],
+     "a": "era – Zustand über eine Zeit → Imperfekt"
+    },
+    {
+     "q": "Um dia ___ a gravata e despedi-me. (Wendepunkt)",
+     "opts": [
+      "tirei",
+      "tirava"
+     ],
+     "a": "tirei – Ereignis → Perfekt"
+    },
+    {
+     "q": "Nunca ___ nada tão estúpido. (davor, nie zuvor)",
+     "opts": [
+      "tinha feito",
+      "fiz"
+     ],
+     "a": "tinha feito – davor → Plusquamperfekt"
+    },
+    {
+     "q": "Hoje ___ uma escola. (jetzt)",
+     "opts": [
+      "tenho",
+      "tive"
+     ],
+     "a": "tenho – Präsens"
+    },
+    {
+     "q": "___ ficar aqui, se calhar para sempre. (Zukunft)",
+     "opts": [
+      "Vou",
+      "Fui"
+     ],
+     "a": "Vou – ir + Grundform"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Ein Leben in fünf Sätzen",
+   "items": [
+    {
+     "q": "Ich war Anwalt: ___ advogado. (ser)",
+     "a": "Era"
+    },
+    {
+     "q": "Ich habe gekündigt: ___. (despedir-se)",
+     "a": "Despedi-me"
+    },
+    {
+     "q": "Ich hatte nie gesurft: Nunca ___ surfado.",
+     "a": "tinha"
+    },
+    {
+     "q": "Ich bereue es nicht: Não ___. (arrepender-se)",
+     "a": "me arrependo"
+    },
+    {
+     "q": "Es hat sich gelohnt: ___ a pena.",
+     "a": "Valeu"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Ich hatte weniger Geld und mehr Leben.",
+     "satz": "Tinha menos dinheiro e mais vida.",
+     "a": "Tinha menos dinheiro e mais vida."
+    },
+    {
+     "q": "Hat es sich gelohnt?",
+     "satz": "Valeu a pena?",
+     "a": "Valeu a pena?"
+    },
+    {
+     "q": "Ich habe es nie bereut.",
+     "satz": "Nunca me arrependi.",
+     "a": "Nunca me arrependi."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O Vasco era médico em Lisboa.",
+     "a": "Falsch – Anwalt, drei Jahre, mit Büro und Krawatte für jeden Tag."
+    },
+    {
+     "q": "O Vasco chorava no carro ao domingo à noite.",
+     "a": "Richtig – drei Jahre lang, ohne Musik."
+    },
+    {
+     "q": "O Vasco arrepende-se às vezes.",
+     "a": "Falsch – „Nem uma vez. Tenho menos dinheiro e mais vida. A conta dá.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Er hat sein Leben geändert. → ___",
+     "a": "Ele mudou de vida."
+    },
+    {
+     "q": "Ich hatte den Mut nicht. → ___",
+     "a": "Não tinha a coragem. / Não tive coragem."
+    },
+    {
+     "q": "Das Geld war nach acht Monaten weg. → ___",
+     "a": "O dinheiro acabou em oito meses."
+    },
+    {
+     "q": "Die Rechnung geht auf. → ___",
+     "a": "A conta dá."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A tua história",
+   "html": "Erzähl dein eigenes Leben in zehn Sätzen – mit allen fünf Zeiten: <i>Quando era pequena… Depois… Um dia… Nunca tinha… Hoje… Vou…</i> Nimm dich auf und hör, wie die Zeiten wechseln.<br><br>Dann Vascos Satz, ruhig: <i>Tenho menos dinheiro e mais vida. A conta dá.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Hörverstehen: O domingo à noite",
+   "audio": "s54",
+   "listen": true,
+   "text": "O Vasco não contou tudo no muro da escola. O resto contou à Marie mais tarde, quando o João já tinha ido dormir e só ficaram os dois, com o farol a piscar ao longe.<br>— A gravata na mesa do chefe é a parte bonita. A parte feia foi o ano a seguir.<br>Tinha vindo para Sagres com um carro, uma prancha e três mil euros. Alugou um quarto por cima de um café. De manhã surfava, à tarde procurava trabalho, à noite contava o dinheiro. Em fevereiro, com o mar a quatro metros e o vento a cem à hora, o dinheiro acabou.<br>— Liguei ao meu antigo chefe. Ele disse: «Volta. O escritório está à tua espera.» E eu disse que sim. Comprei o bilhete de comboio. Sexta-feira de manhã, às seis.<br>— E?<br>— E na quinta-feira à noite fui à praia despedir-me. Estava um mar horrível. Havia um miúdo na água, sozinho, com uma prancha grande demais, a cair e a cair. Fiquei a ver. Ele caiu trinta vezes. Na trigésima primeira, ficou de pé. E olhou para a praia à procura de alguém que tivesse visto.<br>— E tu tinhas visto.<br>— Eu tinha visto. Fiz assim. — O Vasco levantou o polegar. — Ele levantou os braços. E eu percebi que não conseguia ir para Lisboa. Não porque não quisesse. Porque não conseguia.<br>— Rasgaste o bilhete?<br>— Devolvi-o. Dão o dinheiro de volta se for com antecedência. Sou advogado, Marie. Sei essas coisas.<br>Riram os dois, baixinho, para não acordar ninguém.<br>— E o miúdo?<br>— Nunca soube quem era. Nunca mais o vi. Mas dou-lhe uma aula grátis todos os dias, na cabeça. — Fez uma pausa. — Por isso é que te dei os principiantes. Não foi por causa do teu português. Foi por causa da onda número catorze. Uma pessoa que se levanta pela décima quinta vez sabe uma coisa que os outros não sabem. Sabe o que é que o miúdo procurava na praia.",
+   "gloss": "Erst hören (zweimal), dann die Fragen, dann lesen. Neu erschließen: o muro = die Mauer · a parte feia = der hässliche Teil · o ano a seguir = das Jahr danach · por cima de = über · a cem à hora = mit hundert Sachen · o antigo chefe = der frühere Chef · horrível = furchtbar · grande demais = zu groß · na trigésima primeira = beim einunddreißigsten Mal · que tivesse visto = der es gesehen hätte (Form für später) · o polegar = der Daumen · não quisesse = nicht wollte (Form für später) · rasgar = zerreißen · devolver = zurückgeben · com antecedência = im Voraus · grátis = gratis",
+   "questions": [
+    {
+     "q": "O Vasco ficou em Sagres porque tinha muito dinheiro.",
+     "a": "Falsch – im Februar war das Geld weg. Er hatte schon ein Zugticket nach Lissabon."
+    },
+    {
+     "q": "Na quinta-feira à noite, o Vasco viu um miúdo ficar de pé pela primeira vez.",
+     "a": "Richtig – nach dreißig Stürzen. Der Junge suchte am Strand jemanden, der es gesehen hatte."
+    },
+    {
+     "q": "O Vasco rasgou o bilhete de comboio.",
+     "a": "Falsch – er hat es zurückgegeben. „Sou advogado. Sei essas coisas.“"
+    },
+    {
+     "q": "O Vasco deu os principiantes à Marie por causa do português dela.",
+     "a": "Falsch – wegen der Welle Nummer vierzehn. Wer sich zum fünfzehnten Mal aufrichtet, weiß, was der Junge am Strand suchte."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du hast heute eine ganze Lebensgeschichte verstanden – mit fünf Zeiten. Vasco war Anwalt und blieb wegen eines Jungen, den er nie wiedersah. Morgen ist Anas letzter Tag in Sagres, und Marie muss entscheiden, was nach dem Sommer kommt: <b>A decisão.</b>"
+  }
+ ]
+}

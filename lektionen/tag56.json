@@ -1,0 +1,333 @@
+{
+ "id": "tag56",
+ "title": "Exame final A2",
+ "subtitle": "Staffel 2 · Woche 8 · Tag 56 · Abschlusstest · 60 Punkte · ca. 50 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Der Abschlusstest von Staffel 2 – im Format der portugiesischen A2-Prüfung <b>CIPLE</b>: Lesen, Hören, Schreiben, Grammatik. Erst alles selbst lösen, dann prüfen und Punkte zählen. Es geht nicht um die Note: Wer 40 Punkte schafft, kann sich in Portugal ein Zimmer mieten, zum Arzt gehen, streiten, sich versöhnen und über sein Leben erzählen. Notier dir die Punkte pro Teil."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Zum letzten Mal ein Tipp vor dem Test: Sprich die Antworten <b>laut</b>, auch die Lücken. Portugiesisch ist eine Sprache, die man mit dem Mund lernt, nicht mit den Augen. Und danach: <i>Vai à praia.</i> Egal, welcher Strand. Egal, welches Land. Es gibt immer eine Welle."
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln aus Staffel 2 (10 P.)",
+   "items": [
+    {
+     "q": "vermissen",
+     "a": "ter saudades (de)"
+    },
+    {
+     "q": "früher",
+     "a": "antigamente"
+    },
+    {
+     "q": "die Miete",
+     "a": "a renda"
+    },
+    {
+     "q": "erkältet (EP, w.)",
+     "a": "constipada"
+    },
+    {
+     "q": "Hallo? (am Telefon, EP)",
+     "a": "Está?"
+    },
+    {
+     "q": "sich versöhnen",
+     "a": "fazer as pazes"
+    },
+    {
+     "q": "die Panne",
+     "a": "a avaria"
+    },
+    {
+     "q": "hoffentlich",
+     "a": "oxalá"
+    },
+    {
+     "q": "stolz (w.)",
+     "a": "orgulhosa"
+    },
+    {
+     "q": "bereuen",
+     "a": "arrepender-se (de)"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · Perfekt und Imperfekt (10 P.)",
+   "items": [
+    {
+     "q": "Quando eu ___ pequena, vivia no Porto. (ser)",
+     "a": "era"
+    },
+    {
+     "q": "Ontem ___ uma onda grande. (apanhar, eu)",
+     "a": "apanhei"
+    },
+    {
+     "q": "Nós ___ na rua todos os dias. (brincar)",
+     "a": "brincávamos"
+    },
+    {
+     "q": "Ele ___ dezassete anos. (ter – Alter)",
+     "a": "tinha"
+    },
+    {
+     "q": "De repente a carrinha ___. (parar)",
+     "a": "parou"
+    },
+    {
+     "q": "Não ___ renovar o seguro. (conseguir, eu)",
+     "a": "consegui"
+    },
+    {
+     "q": "Nós ___ de esperar duas horas. (ter de)",
+     "a": "tivemos"
+    },
+    {
+     "q": "Enquanto ele ___, eu já sabia. (falar)",
+     "opts": [
+      "falava",
+      "falou"
+     ],
+     "a": "falava"
+    },
+    {
+     "q": "Nunca ___ nada tão estúpido. (davor: fazer, eu)",
+     "opts": [
+      "tinha feito",
+      "fiz"
+     ],
+     "a": "tinha feito – Plusquamperfekt"
+    },
+    {
+     "q": "Eu ___ de avião. (vir)",
+     "a": "vim"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Pronomen (6 P.)",
+   "items": [
+    {
+     "q": "Vejo o Tomás. → Vejo-___.",
+     "a": "o"
+    },
+    {
+     "q": "Não vejo a Ana. → Não ___ vejo.",
+     "a": "a"
+    },
+    {
+     "q": "Bringen Sie mir die Speisekarte: Traga-___ a ementa.",
+     "a": "me"
+    },
+    {
+     "q": "Kommst du mit mir? → Vens ___?",
+     "a": "comigo"
+    },
+    {
+     "q": "Das ist für dich: Isto é para ___.",
+     "a": "ti"
+    },
+    {
+     "q": "Mir tut der Rücken weh: ___ as costas.",
+     "a": "Doem-me"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · Konditional, Konjunktiv, Imperativ (10 P.)",
+   "items": [
+    {
+     "q": "Ich würde gern das Zimmer sehen: ___ de ver o quarto.",
+     "a": "Gostaria"
+    },
+    {
+     "q": "Wäre es möglich? → ___ possível?",
+     "a": "Seria"
+    },
+    {
+     "q": "Ich hoffe, dass du kommst: Espero que ___. (vir)",
+     "a": "venhas"
+    },
+    {
+     "q": "Vielleicht regnet es (talvez): Talvez ___. (chover)",
+     "a": "chova"
+    },
+    {
+     "q": "Hoffentlich scheint die Sonne: Oxalá ___ sol. (fazer)",
+     "a": "faça"
+    },
+    {
+     "q": "Paddelt! (ihr) → ___!",
+     "a": "Remem"
+    },
+    {
+     "q": "Stehen Sie auf! → ___!",
+     "a": "Levante-se"
+    },
+    {
+     "q": "Mach das nicht! (du) → Não ___ isso!",
+     "a": "faças"
+    },
+    {
+     "q": "Mach dir keine Sorgen: Não te ___.",
+     "a": "preocupes"
+    },
+    {
+     "q": "Wenn es sonnig ist, gehen wir (Zukunft): ",
+     "opts": [
+      "Se fizer sol, vamos.",
+      "Se faz sol, vamos."
+     ],
+     "a": "Se fizer sol – futuro do conjuntivo"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Vergleichen, Superlativ, Zahlen (6 P.)",
+   "items": [
+    {
+     "q": "Lissabon ist größer als Porto: Lisboa é ___ do que o Porto.",
+     "a": "maior"
+    },
+    {
+     "q": "so nett wie: ___ simpático ___",
+     "a": "tão / como"
+    },
+    {
+     "q": "der schönste Ort: o sítio ___ ___",
+     "a": "mais bonito"
+    },
+    {
+     "q": "sehr heiß: ___ (quente)",
+     "a": "quentíssimo"
+    },
+    {
+     "q": "360 = ___",
+     "a": "trezentos e sessenta"
+    },
+    {
+     "q": "Hier wird alles repariert: ___ tudo.",
+     "a": "Arranja-se"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "F · Lesen: A carta da Marie (8 P.)",
+   "audio": "r56",
+   "text": "Sagres, 30 de agosto<br><br>Querida avó,<br>escrevo-lhe em português, como prometi no Porto. Se houver erros, a culpa é da Ana, que não está aqui para corrigir.<br>O verão foi o mais rápido da minha vida. Cheguei há dez dias com uma carrinha que não devia chegar, e desde então dou aulas todas as manhãs a pessoas que caem tanto como eu caía no ano passado. Ontem um alemão de Munique ficou de pé pela primeira vez e gritou tanto que o Vasco pensou que se tinha magoado.<br>O Tomás ficou em terceiro na competição. Foi justo: os dois primeiros são de Sagres e surfam desde bebés. Ele dormiu com o boné. Acho que ainda dorme com o boné.<br>A Ana já está em Coimbra, na república com o Rui e onze colegas. Diz que canta às sextas. Não acredito, mas espero que seja verdade.<br>E eu decidi: fico. No inverno faço um curso em Lisboa, no sofá do João, que é mau. No verão volto para aqui, de vez. Sei que a avó queria que eu voltasse para o Porto. Mas o Porto fica a três horas de comboio, e o São João é em junho, e eu tenho um manjerico na sua varanda que precisa de mim.<br>Obrigada pelo martelo de 1968. Não o levei, como combinámos. Mas levei a história.<br>Um beijinho grande,<br>Marie<br><br>P.S.: A carrinha chegou. Diga à Inês.",
+   "gloss": "Erst lesen, dann anhören. Neu erschließen: Se houver = wenn es gibt (Zukunft) · desde então = seitdem · desde bebés = seit sie Babys sind · queria que eu voltasse = wollten, dass ich zurückkomme (Form für später) · Diga = Sagen Sie. Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "A Marie escreve a carta em alemão.",
+     "a": "Falsch – auf Portugiesisch, wie in Porto versprochen. Fehler gehen auf Anas Konto."
+    },
+    {
+     "q": "A Marie chegou a Sagres há dez dias.",
+     "a": "Richtig – mit einem Van, der eigentlich nicht ankommen sollte."
+    },
+    {
+     "q": "O alemão de Munique magoou-se.",
+     "a": "Falsch – er stand zum ersten Mal und schrie so laut, dass Vasco es dachte."
+    },
+    {
+     "q": "O Tomás ganhou a competição.",
+     "a": "Falsch – Dritter, und das war fair."
+    },
+    {
+     "q": "A Ana vive em Coimbra com onze colegas.",
+     "a": "Richtig – in der república mit Rui."
+    },
+    {
+     "q": "No inverno, a Marie vai fazer um curso em Lisboa.",
+     "a": "Richtig – auf Joãos schlechtem Sofa."
+    },
+    {
+     "q": "A avó queria que a Marie voltasse para Hamburgo.",
+     "a": "Falsch – nach Porto."
+    },
+    {
+     "q": "A Marie levou o martelo de 1968 para Sagres.",
+     "a": "Falsch – nur die Geschichte, wie abgemacht."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "G · Hören: A última noite (6 P.)",
+   "audio": "s56h",
+   "listen": true,
+   "text": "Na última noite de agosto, o grupo que ainda está em Sagres sobe ao Cabo de São Vicente: o Vasco, o João, o Tomás, a Marie. E o Miguel, o rapaz de Lisboa que tinha medo de tudo, que ficou mais uma semana e agora só tem medo de algumas coisas.<br>O sol desce devagar. O vento é forte. O farol ainda está apagado.<br>— No ano passado estávamos aqui — diz o João. — Com a Ana. E a mãe dela.<br>— E eu escrevi «eu volto» — diz a Marie.<br>— E voltaste.<br>— Voltei. E vou voltar outra vez. E outra.<br>O Tomás está sentado na pedra mais alta, com o boné e a bomba de água. Olha para o mar como quem já sabe o que quer. Tem treze anos. Sabe.<br>— Vasco — diz. — Para o ano quero ser ajudante. Como a Marie.<br>— Para o ano tens catorze.<br>— A Marie tinha dezoito no primeiro dia e não sabia dizer nada. Eu já sei dizer tudo.<br>O Vasco olha para a Marie. A Marie olha para o Tomás. E diz-lhe a frase que lhe disseram a ela, neste sítio, há um ano e uma vida:<br>— Aqui é o fim do mundo, Tomás. Mas para ti foi só o começo.<br>O farol acende-se. Ninguém diz mais nada. Não é preciso.",
+   "gloss": "Erst hören, dann die Fragen (1 Punkt pro Frage), dann lesen. Neu erschließen: apagado = aus (Licht) · descer = sinken · como quem = wie jemand, der · uma vida = ein Leben",
+   "questions": [
+    {
+     "q": "O Miguel foi para Lisboa depois do acidente.",
+     "a": "Falsch – er blieb eine Woche länger und hat jetzt nur noch vor manchen Dingen Angst."
+    },
+    {
+     "q": "A Ana está no Cabo com o grupo.",
+     "a": "Falsch – sie ist schon in Coimbra. João erinnert an letztes Jahr, als sie dabei war."
+    },
+    {
+     "q": "A Marie escreveu «eu volto» no ano passado.",
+     "a": "Richtig – und sie ist zurückgekommen."
+    },
+    {
+     "q": "O Tomás quer ser ajudante para o ano.",
+     "a": "Richtig – mit vierzehn. „Eu já sei dizer tudo.“"
+    },
+    {
+     "q": "O Vasco diz ao Tomás a frase do começo.",
+     "a": "Falsch – Marie sagt sie: „Para ti foi só o começo.“"
+    },
+    {
+     "q": "No fim, o farol está apagado.",
+     "a": "Falsch – er geht an. Und niemand sagt mehr etwas."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "H · Schreiben: Uma carta (5 P.)",
+   "html": "Schreib einen kurzen Brief an jemanden in Portugal – fünf Sätze, 1 Punkt pro korrektem Satz:<br><br>1. Wie es dir geht (Präsens) · 2. Was du diesen Sommer gemacht hast (Perfekt) · 3. Wie es früher war (Imperfekt) · 4. Was du vorhast (ir + Grundform) · 5. Ein Wunsch mit <i>espero que</i><br><br>Muster: <i>Estou bem. Este verão aprendi a surfar. Antigamente tinha medo do mar. Para o ano vou voltar. Espero que estejas bem.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (60 Punkte)",
+   "html": "<b>52–60:</b> Parabéns – das ist A2 mit Reserve. Du kannst dich in Portugal um alles kümmern, was ein Alltag verlangt, und du kannst erzählen. Wenn du es offiziell willst: Das <b>CIPLE</b> wird an vielen Orten angeboten, auch in Deutschland – du bist bereit.<br><b>40–51:</b> Muito bem! Schau auf Teil D – Konjunktiv und Imperativ sind die Formen, die am meisten Wiederholung brauchen. Ein Tipp: Sag jeden Tag drei Sätze mit <i>espero que</i>.<br><b>unter 40:</b> Staffel 2 war ein großer Schritt. Wiederhole die Wochentests (Tag 35, 42, 49) und dann diesen Test noch einmal – die zweite Runde ist immer besser.<br><br><b>Und jetzt?</b> Deine Vokabeln bleiben im Caderno, die Wackler auf der Hoje-Seite, die Geschichten in Textos. Staffel 3 ist nicht geplant – aber Marie kommt im Juni nach Sagres zurück, und wer weiß. Bis dahin: <b>Boa onda.</b>"
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: Junho",
+   "audio": "s56",
+   "text": "Junho, ein Jahr später. Nein – wir erzählen es auf Portugiesisch, wie es sich gehört:<br><br>Junho. Praia da Mareta, seis da manhã. O mar está liso, o sol ainda está atrás das falésias, e à porta da escola de surf estão duas pessoas com café na mão.<br>Uma tem trinta e dois anos, cabelo com sal e uma cicatriz no nariz. A outra tem vinte anos, sotaque de Hamburgo e um contrato de instrutora assinado ontem à noite.<br>— Vinte alunos hoje — diz o Vasco. — Dez principiantes de manhã. São teus.<br>— Já sei.<br>— Um deles é alemão. Diz que fala português.<br>— Já sei o que isso quer dizer.<br>Às oito chegam os dez. Entre eles, um miúdo de catorze anos com um boné velho e uma prancha grande demais, que não é aluno: é ajudante. Chegou ontem do Porto, de comboio, com uma mochila, uma bomba de água e um martelo de plástico.<br>— Tomás — diz a Marie. — Deita, rema, de pé. Sabes o que fazer?<br>— Sei.<br>— Então mostra-lhes. Em português.<br>O Tomás deita-se na prancha, na areia, e dez adultos de cinco países deitam-se ao lado dele. A Marie olha para o mar. Depois para o Vasco, que faz o gesto do polegar sem dizer nada. Depois para o telemóvel, onde há uma mensagem da Ana, de Coimbra, das cinco e meia da manhã, porque a Ana canta às sextas e depois não dorme:<br>«Primeiro dia? Não te esqueças: no Porto é melhor. Mas aí também não é mau. Boa onda.»<br>A Marie guarda o telemóvel. Respira fundo. E diz, alto, com o sotaque que nunca vai perder:<br>— Bom dia. Eu sou a Marie. Hoje vamos aprender a cair.<br><br>Fim da Staffel 2.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: como se gehört – hier ausnahmsweise ein deutscher Einstieg · a cicatriz = die Narbe · assinado = unterschrieben · o que isso quer dizer = was das bedeutet · entre eles = unter ihnen · Não te esqueças = vergiss nicht · aí = dort (bei dir)",
+   "questions": [
+    {
+     "q": "Um ano depois, a Marie é instrutora com contrato.",
+     "a": "Richtig – gestern Abend unterschrieben."
+    },
+    {
+     "q": "O Tomás vem a Sagres como aluno.",
+     "a": "Falsch – als Helfer, mit vierzehn, mit Kappe, Wasserpumpe und Hammer."
+    },
+    {
+     "q": "A primeira frase da Marie mudou.",
+     "a": "Falsch – „Bom dia. Eu sou a Marie. Hoje vamos aprender a cair.“ Wie am ersten Tag."
+    }
+   ]
+  }
+ ]
+}

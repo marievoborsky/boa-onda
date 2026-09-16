@@ -42,7 +42,7 @@
     {
      "pt": "talvez",
      "de": "vielleicht (+ Konjunktiv)",
-     "ipa": "[taɫˈveʃ]",
+     "ipa": "[tɐɫˈveʃ]",
      "audio": "v4802"
     },
     {
@@ -127,7 +127,7 @@
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Zwei Sätze, die du bei jedem Abschied brauchst: <b>Boa sorte!</b> (Viel Glück) und <b>Que corra bem!</b> (Viel Erfolg, wörtlich „möge es gut laufen“ – da steckt schon der Konjunktiv drin). Und am Ende jeder Nachricht unter Freunden: <b>Beijinhos</b> – Küsschen, auch von Männern an Männer, das ist normal. Aussprache: <i>oxalá</i> = „oschalá“, Betonung hinten. <i>Espero que</i> = „schpéru kö“."
+   "html": "Zwei Sätze, die du bei jedem Abschied brauchst: <b>Boa sorte!</b> (Viel Glück) und <b>Que corra bem!</b> (Viel Erfolg, wörtlich „möge es gut laufen“ – da steckt schon der Konjunktiv drin). Und am Ende jeder Nachricht unter Freunden: <b>Beijinhos</b> – Küsschen, unter Freundinnen und von Frau zu Mann; Männer untereinander schreiben eher <i>Abraço</i>. Aussprache: <i>oxalá</i> = „oschalá“, Betonung hinten. <i>Espero que</i> = „schpéru kö“."
   },
   {
    "type": "reading",
@@ -151,7 +151,7 @@
     },
     {
      "who": "Marie",
-     "pt": "Agora Sagres. Duas horas, diz o João.",
+     "pt": "Agora Sagres. Três horas, diz o João.",
      "audio": "d4804"
     },
     {
@@ -290,7 +290,7 @@
    "title": "5d · Richtig oder falsch? (zum Dialog)",
    "items": [
     {
-     "q": "A Inês tinha dito que a carrinha não chegava a Leiria.",
+     "q": "A Inês disse que a carrinha não chegava a Leiria.",
      "a": "Richtig – sie kam bis Odemira. „Já é qualquer coisa.“"
     },
     {
@@ -335,12 +335,12 @@
    "title": "7 · Hörverstehen: A última etapa",
    "audio": "s48",
    "listen": true,
-   "text": "A carrinha ficou pronta às cinco, como o mecânico tinha prometido. Custou trezentos e sessenta euros e uma bomba de água velha, que agora viaja no colo do Tomás como um animal de estimação.<br>De Odemira a Sagres são cento e vinte quilómetros. Duas horas para um carro normal. Para a carrinha, o João prometeu três. Ninguém acreditou.<br>A estrada desce pela costa, sempre com o mar à direita. O sol começa a baixar. A Ana dorme, a Marie olha pelo mapa sem olhar para o mapa, e o Tomás conta os quilómetros em voz alta, de dez em dez.<br>— Setenta. Oitenta. Noventa…<br>Em Vila do Bispo, a doze quilómetros do fim, a carrinha faz o barulho. O barulho estranho. Todos ficam calados. O João não trava, não acelera, só fala com ela, baixinho:<br>— Não. Agora não. Mais doze. Só mais doze.<br>A carrinha pensa. E continua.<br>Às sete e vinte da tarde, com o céu cor de laranja e o vento a cheirar a sal, passam a placa: SAGRES. O Tomás grita tanto que a Ana acorda com o martelo na mão.<br>A escola de surf fica na estrada da Mareta, uma casa branca com pranchas à porta e uma bandeira azul. Em frente, com os braços cruzados e um sorriso que se vê de longe, está o Vasco.<br>A carrinha para. O motor faz um último barulho e desliga-se sozinho.<br>— Chegaram — diz o Vasco. — Três horas. Bem calculado, João.<br>— Eu sei de carrinhas.<br>— Tu sabes de pão. — O Vasco olha para a Marie. — Amanhã às seis. Trabalho.<br>— Às seis?<br>— Às seis. A época alta não espera. Bem-vinda a casa, Marie.<br>E a Marie percebe, com a bomba de água do Tomás ao lado, o cheiro do mar e as pernas a tremer da viagem, que desta vez não veio de férias.",
+   "text": "A carrinha ficou pronta às cinco, como o mecânico tinha prometido. Custou trezentos e sessenta euros e uma bomba de água velha, que agora viaja no colo do Tomás como um animal de estimação.<br>De Odemira a Sagres são cento e vinte quilómetros. Duas horas para um carro normal. Para a carrinha, o João prometeu três. Ninguém acreditou.<br>A estrada desce pela costa, sempre com o mar à direita. O sol começa a baixar. A Ana dorme, a Marie olha para o mapa sem o ver, e o Tomás conta os quilómetros em voz alta, de dez em dez.<br>— Setenta. Oitenta. Noventa…<br>Em Vila do Bispo, a nove quilómetros do fim, a carrinha faz o barulho. O barulho estranho. Todos ficam calados. O João não trava, não acelera, só fala com ela, baixinho:<br>— Não. Agora não. Mais nove. Só mais nove.<br>A carrinha pensa. E continua.<br>Às oito e vinte da noite, com o céu cor de laranja e o vento a cheirar a sal, passam a placa: SAGRES. O Tomás grita tanto que a Ana acorda com o martelo na mão.<br>A escola de surf fica na estrada da Mareta, uma casa branca com pranchas à porta e uma bandeira azul. Em frente, com os braços cruzados e um sorriso que se vê de longe, está o Vasco.<br>A carrinha para. O motor faz um último barulho e desliga-se sozinho.<br>— Chegaram — diz o Vasco. — Três horas e vinte. Bem calculado, João.<br>— Eu sei de carrinhas.<br>— A carrinha é que sabe de ti. — O Vasco olha para a Marie. — Amanhã às seis. Trabalho.<br>— Às seis?<br>— Às seis. A época alta não espera. Bem-vinda a casa, Marie.<br>E a Marie percebe, com a bomba de água do Tomás ao lado, o cheiro do mar e as pernas a tremer da viagem, que desta vez não veio de férias.",
    "gloss": "Erst hören (zweimal), dann die Fragen, dann lesen. Neu erschließen: tinha prometido = versprochen hatte · o animal de estimação = das Haustier · baixar = sinken · de dez em dez = in Zehnerschritten · Vila do Bispo = letztes Dorf vor Sagres · travar = bremsen · acelerar = Gas geben · a placa = das Ortsschild · a bandeira = die Fahne · de braços cruzados = mit verschränkten Armen · desligar-se = sich ausschalten · calculado = berechnet · Bem-vinda a casa = Willkommen zu Hause · de férias = im Urlaub",
    "questions": [
     {
      "q": "A viagem de Odemira a Sagres demorou duas horas.",
-     "a": "Falsch – drei, wie João versprochen hatte. Vasco: „Bem calculado.“"
+     "a": "Falsch – drei Stunden zwanzig, fast wie João versprochen hatte. Vasco: „Bem calculado.“"
     },
     {
      "q": "Em Vila do Bispo a carrinha parou.",

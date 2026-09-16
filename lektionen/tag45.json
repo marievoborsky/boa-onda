@@ -66,7 +66,7 @@
     {
      "pt": "aquecer",
      "de": "heiß werden, heißlaufen",
-     "ipa": "[ɐkɛˈseɾ]",
+     "ipa": "[ɐkɨˈseɾ]",
      "audio": "v4506"
     },
     {
@@ -122,7 +122,7 @@
   {
    "type": "note",
    "title": "3 · Dica do Vasco: Konnte, schaffte, musste",
-   "html": "<i>(Sprachnachricht, mit Lachen:)</i> Die Carrinha des Onkels? Die kenne ich. Sie hatte 2019 hier in Sagres eine Panne. Also heute die Verben, die man bei einer Panne braucht – im <b>Perfekt</b>:<br><br><b>poder</b> (können, dürfen): <i><b>pude</b> · <b>pudeste</b> · <b>pôde</b> · <b>pudemos</b> · <b>puderam</b></i> – <i>Não <b>pude</b> fazer nada.</i><br><b>conseguir</b> (schaffen): regelmäßig! <i><b>consegui</b> · conseguiste · conseguiu · conseguimos · conseguiram</i> – <i>Não <b>consegui</b> renovar o seguro.</i><br><b>ter de</b> (müssen): <i><b>tive de</b> · tiveste de · teve de · tivemos de · tiveram de</i> – <i><b>Tivemos de</b> parar.</i><br><br><b>Der Unterschied</b>: <i>pude</i> = ich konnte (es war möglich/erlaubt) · <i>consegui</i> = ich habe es geschafft (es war schwer) · <i>tive de</i> = ich musste. In Portugal sagt man <b>ter de</b>, nicht „ter que“ – das ist Brasilien.<br><br><b>Was kaputt sein kann:</b> <i>A carrinha não <b>pega</b>. · O motor <b>aqueceu</b>. · <b>Furou</b> um pneu. · Ficámos <b>sem gasóleo</b>. · O motor está a <b>deitar fumo</b>.</i><br><br><b>Und dann:</b> <i>Ligar ao seguro. Pôr o colete. Pôr o triângulo. Esperar na berma.</i> Boa onda – e boa sorte."
+   "html": "<i>(Sprachnachricht, mit Lachen:)</i> Die Carrinha des Onkels? Die kenne ich. Sie hatte 2019 hier in Sagres eine Panne. Also heute die Verben, die man bei einer Panne braucht – im <b>Perfekt</b>:<br><br><b>poder</b> (können, dürfen): <i><b>pude</b> · <b>pudeste</b> · <b>pôde</b> · <b>pudemos</b> · <b>puderam</b></i> – <i>Não <b>pude</b> fazer nada.</i><br><b>conseguir</b> (schaffen): regelmäßig! <i><b>consegui</b> · conseguiste · conseguiu · conseguimos · conseguiram</i> – <i>Não <b>consegui</b> renovar o seguro.</i><br><b>ter de</b> (müssen): <i><b>tive de</b> · tiveste de · teve de · tivemos de · tiveram de</i> – <i><b>Tivemos de</b> parar.</i><br><br><b>Der Unterschied</b>: <i>pude</i> = ich konnte (es war möglich/erlaubt) · <i>consegui</i> = ich habe es geschafft (es war schwer) · <i>tive de</i> = ich musste. <b>ter de</b> ist im EP die Standardform; <i>ter que</i> hört man auch, gilt aber als salopper.<br><br><b>Was kaputt sein kann:</b> <i>A carrinha não <b>pega</b>. · O motor <b>aqueceu</b>. · <b>Furou</b> um pneu. · Ficámos <b>sem gasóleo</b>. · O motor está a <b>deitar fumo</b>.</i><br><br><b>Und dann:</b> <i>Ligar à assistência em viagem. Pôr o colete. Pôr o triângulo. Esperar na berma.</i> Boa onda – e boa sorte."
   },
   {
    "type": "note",
@@ -132,7 +132,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: Não pega",
-   "hint": "Selbst erschlossen: à primeira = beim ersten Versuch · Saiam! = Raus (mit euch)! · tentar = versuchen · o miúdo = der Junge (EP) · renovar = verlängern · deu-mo = hat sie mir gegeben (deu + me + o = mo, nur zum Wiedererkennen) · em segurança = in Sicherheit · Puseram? = Habt ihr aufgestellt? (pôr). Der Pannendienst ist ein Mann aus Odemira.",
+   "hint": "Selbst erschlossen: à primeira = beim ersten Versuch · Saiam! = Raus (mit euch)! · tentar = versuchen · o miúdo = der Junge (EP) · renovar = verlängern · a assistência em viagem = der Pannendienst (der Versicherung) · deu-mo = hat sie mir gegeben (deu + me + o = mo, nur zum Wiedererkennen) · em segurança = in Sicherheit · Puseram? = Habt ihr aufgestellt? (pôr). Der Pannendienst ist ein Mann aus Odemira.",
    "lines": [
     {
      "who": "João",
@@ -156,12 +156,12 @@
     },
     {
      "who": "Ana",
-     "pt": "Estamos na berma de uma estrada no Alentejo, a quarenta graus, com um miúdo de treze anos. Não vamos esperar. Liga ao seguro.",
+     "pt": "Estamos na berma de uma estrada no Alentejo, a quarenta graus, com um miúdo de treze anos. Não vamos esperar. Liga à assistência.",
      "audio": "d4505"
     },
     {
      "who": "João",
-     "pt": "… Não consegui renovar o seguro. Tentei, mas o site não funcionava.",
+     "pt": "… Não consegui renovar a assistência em viagem. Tentei, mas o site não funcionava.",
      "audio": "d4506"
     },
     {
@@ -201,7 +201,7 @@
    "title": "5a · poder, conseguir, ter de im Perfekt",
    "items": [
     {
-     "q": "Eu não ___ (conseguir) renovar o seguro.",
+     "q": "Eu não ___ (conseguir) renovar a assistência.",
      "a": "consegui"
     },
     {
@@ -274,9 +274,9 @@
      "a": "Tivemos uma avaria na estrada para a Zambujeira."
     },
     {
-     "q": "Ich konnte die Versicherung nicht verlängern.",
-     "satz": "Não consegui renovar o seguro.",
-     "a": "Não consegui renovar o seguro."
+     "q": "Ich konnte den Pannendienst nicht verlängern.",
+     "satz": "Não consegui renovar a assistência em viagem.",
+     "a": "Não consegui renovar a assistência em viagem."
     },
     {
      "q": "Habt ihr das Warndreieck aufgestellt?",
@@ -294,7 +294,7 @@
      "a": "Falsch – gestern ja, heute nicht. Der Motor ist heißgelaufen."
     },
     {
-     "q": "O João renovou o seguro antes da viagem.",
+     "q": "O João renovou a assistência em viagem antes da viagem.",
      "a": "Falsch – er hat es versucht, die Website ging nicht. Dafür hat er die Nummer eines Abschleppdienstes."
     },
     {

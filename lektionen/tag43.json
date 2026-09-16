@@ -16,7 +16,7 @@
      "a": "digas"
     },
     {
-     "q": "Ich hoffe … (Konditional, höflich): ",
+     "q": "Ich würde gern … (höflich, Konditional): ",
      "opts": [
       "Gostaria de…",
       "Quero…"
@@ -54,7 +54,7 @@
     {
      "pt": "o gasóleo",
      "de": "der Diesel",
-     "ipa": "[gaˈzɔlju]",
+     "ipa": "[gɐˈzɔlju]",
      "audio": "v4304"
     },
     {
@@ -181,7 +181,7 @@
     },
     {
      "who": "Marie",
-     "pt": "A portagem pagamos nós, João. Tu já pagaste a carrinha.",
+     "pt": "A portagem pagamos nós, João. Tu já trazes a carrinha e conduzes.",
      "audio": "d4310"
     },
     {
@@ -299,7 +299,7 @@
     },
     {
      "q": "A Marie e a Ana pagam as portagens.",
-     "a": "Richtig – João hat schon den Van bezahlt. Für ihn der Kaffee."
+     "a": "Richtig – João bringt den Van und fährt. Für ihn der Kaffee."
     }
    ]
   },

@@ -1,0 +1,356 @@
+{
+ "id": "tag51",
+ "title": "Clientes do mundo inteiro",
+ "subtitle": "Staffel 2 · Woche 8 · Tag 51 · Nationalitäten · Höflich mit Fremden · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 50)",
+   "items": [
+    {
+     "q": "Paddelt! (ihr) → ___!",
+     "a": "Remem"
+    },
+    {
+     "q": "Steh auf! (du) → ___!",
+     "a": "Levanta-te"
+    },
+    {
+     "q": "Schau nicht auf die Füße! (du) →",
+     "opts": [
+      "Não olhes para os pés!",
+      "Não olha para os pés!"
+     ],
+     "a": "Não olhes"
+    },
+    {
+     "q": "Vorsicht! → ___!",
+     "a": "Cuidado"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: De onde é? (14)",
+   "items": [
+    {
+     "pt": "o / a cliente",
+     "de": "der Kunde / die Kundin",
+     "ipa": "[kliˈẽtɨ]",
+     "audio": "v5101"
+    },
+    {
+     "pt": "francês / francesa",
+     "de": "französisch, Franzose / Französin",
+     "ipa": "[fɾɐ̃ˈseʃ / fɾɐ̃ˈsezɐ]",
+     "audio": "v5102"
+    },
+    {
+     "pt": "holandês / holandesa",
+     "de": "niederländisch",
+     "ipa": "[ɔlɐ̃ˈdeʃ / ɔlɐ̃ˈdezɐ]",
+     "audio": "v5103"
+    },
+    {
+     "pt": "espanhol / espanhola",
+     "de": "spanisch",
+     "ipa": "[ɨʃpɐˈɲɔɫ / ɨʃpɐˈɲɔlɐ]",
+     "audio": "v5104"
+    },
+    {
+     "pt": "italiano / italiana",
+     "de": "italienisch",
+     "ipa": "[itɐliˈɐnu / itɐliˈɐnɐ]",
+     "audio": "v5105"
+    },
+    {
+     "pt": "suíço / suíça",
+     "de": "schweizerisch",
+     "ipa": "[ˈswisu / ˈswisɐ]",
+     "audio": "v5106"
+    },
+    {
+     "pt": "austríaco / austríaca",
+     "de": "österreichisch",
+     "ipa": "[awʃˈtɾiɐku / awʃˈtɾiɐkɐ]",
+     "audio": "v5107"
+    },
+    {
+     "pt": "brasileiro / brasileira",
+     "de": "brasilianisch",
+     "ipa": "[bɾɐziˈlɐjɾu / bɐziˈlɐjɾɐ]",
+     "audio": "v5108"
+    },
+    {
+     "pt": "o horário",
+     "de": "der Zeitplan, die Öffnungszeiten",
+     "ipa": "[ɔˈɾaɾju]",
+     "audio": "v5109"
+    },
+    {
+     "pt": "a reserva",
+     "de": "die Reservierung",
+     "ipa": "[ʁɨˈzɛɾvɐ]",
+     "audio": "v5110"
+    },
+    {
+     "pt": "incluído / incluída",
+     "de": "inklusive",
+     "ipa": "[ĩkluˈidu / ĩkluˈidɐ]",
+     "audio": "v5111"
+    },
+    {
+     "pt": "o tamanho",
+     "de": "die Größe",
+     "ipa": "[tɐˈmɐɲu]",
+     "audio": "v5112"
+    },
+    {
+     "pt": "a experiência",
+     "de": "die Erfahrung",
+     "ipa": "[ɨʃpɨɾiˈẽsjɐ]",
+     "audio": "v5113"
+    },
+    {
+     "pt": "tratar por tu / por você",
+     "de": "duzen / siezen",
+     "ipa": "[tɾɐˈtaɾ puɾ tu]",
+     "audio": "v5114"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Sie oder du?",
+   "html": "<i>(Am Empfang der Schule, zwischen zwei Gruppen:)</i> Mit Kunden redet man anders als mit Freunden. Die Regeln sind einfach, aber Deutsche machen sie oft falsch:<br><br><b>Erwachsene Fremde: Sie</b> – das heißt in Portugal <b>nicht</b> „você“ sagen, sondern die <b>3. Person ohne Pronomen</b> oder mit <i>o senhor / a senhora</i>:<br><i>De onde <b>é</b>? · Já <b>surfou</b>? · <b>Quer</b> uma prancha maior? · <b>A senhora</b> tem reserva?</i><br>(„Você“ hört man in Portugal als leicht unhöflich – lieber weglassen.)<br><br><b>Kinder, Jugendliche, Leute in deinem Alter am Strand: du</b> – <i>De onde <b>és</b>? Já <b>surfaste</b>?</i> Nach der ersten Stunde bietet man oft das Du an: <i>Podemos tratar-nos por tu?</i><br><br><b>Nationalitäten</b> richten sich nach der Person: <i>Ele é alem<b>ão</b>, ela é alem<b>ã</b>, eles são alem<b>ães</b>. · francês / francesa / franceses · espanhol / espanhola / espanhóis</i>.<br><br><b>Die fünf Fragen am Empfang:</b> <i>Tem reserva? · De onde é? · Já tem experiência? · Que tamanho de fato? · Fala inglês ou prefere português?</i> Boa onda!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Die Portugiesen haben für Nachbarn Spitznamen: Spanier heißen liebevoll-spöttisch <i>nuestros hermanos</i>, und der Satz <b>De Espanha, nem bom vento nem bom casamento</b> („aus Spanien weder guter Wind noch gute Ehe“) ist ein Sprichwort, kein Ernst. Deutsche gelten als pünktlich und blass, Brasilianer als laut und herzlich. Und wenn ein Kunde <i>obrigado</i> sagt, obwohl sie eine Frau ist: nicht korrigieren beim ersten Mal. Beim zweiten Mal freundlich: <i>obrigada – com a!</i> Aussprache: <i>suíço</i> = „ssuíssu“, <i>holandês</i> = „ulandésch“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Uma família alemã",
+   "hint": "Selbst erschlossen: o Senhor Weber = der deutsche Vater · Fala? = Sprechen Sie? · um bocadinho = ein bisschen · a esposa = die Ehefrau · o fato = kurz für fato de surf · M ou L = Größe M oder L · Só isso = nur das · tratar por tu = duzen. Der Sohn (10) spricht in der Geschichte, nicht im Dialog.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Bom dia! Têm reserva?",
+     "audio": "d5101"
+    },
+    {
+     "who": "Weber",
+     "pt": "Sim. Weber. Duas pessoas e um miúdo. Eu falo português!",
+     "audio": "d5102"
+    },
+    {
+     "who": "Marie",
+     "pt": "Fala? Ótimo. De onde são?",
+     "audio": "d5103"
+    },
+    {
+     "who": "Weber",
+     "pt": "Alemanha. Munique. Obrigado, cerveja, bom dia.",
+     "audio": "d5104"
+    },
+    {
+     "who": "Marie",
+     "pt": "…Isso é um bom começo. Eu sou de Hamburgo. Podemos falar alemão, se preferir.",
+     "audio": "d5105"
+    },
+    {
+     "who": "Weber",
+     "pt": "Não, não! Português! Estamos em Portugal!",
+     "audio": "d5106"
+    },
+    {
+     "who": "Marie",
+     "pt": "Com certeza. Já têm experiência de surf?",
+     "audio": "d5107"
+    },
+    {
+     "who": "Weber",
+     "pt": "A minha esposa sim. Eu não. O miúdo diz que sim, mas não é verdade.",
+     "audio": "d5108"
+    },
+    {
+     "who": "Marie",
+     "pt": "Então três principiantes e uma pessoa com experiência. Que tamanho de fato? M ou L?",
+     "audio": "d5109"
+    },
+    {
+     "who": "Weber",
+     "pt": "L. Para mim. Para a esposa… pergunte à esposa.",
+     "audio": "d5110"
+    },
+    {
+     "who": "Marie",
+     "pt": "Pergunto. As pranchas e os fatos estão incluídos. A aula começa às dez. Só isso: na água, posso tratá-los por tu? É mais rápido quando grito.",
+     "audio": "d5111"
+    },
+    {
+     "who": "Weber",
+     "pt": "Pode gritar o que quiser. Em português.",
+     "audio": "d5112"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Nationalitäten anpassen",
+   "items": [
+    {
+     "q": "Ele é ___ (alemão). Ela é ___.",
+     "a": "alemão / alemã"
+    },
+    {
+     "q": "Ele é ___ (francês). Elas são ___.",
+     "a": "francês / francesas"
+    },
+    {
+     "q": "Ela é ___ (espanhol).",
+     "a": "espanhola"
+    },
+    {
+     "q": "Eles são ___ (holandês).",
+     "a": "holandeses"
+    },
+    {
+     "q": "Ela é ___ (suíço).",
+     "a": "suíça"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Du oder Sie? (antippen)",
+   "items": [
+    {
+     "q": "Zu einem erwachsenen Kunden, erste Stunde: Woher kommen Sie? →",
+     "opts": [
+      "De onde é?",
+      "De onde és?"
+     ],
+     "a": "De onde é? – 3. Person ohne Pronomen = Sie"
+    },
+    {
+     "q": "Zu einem zehnjährigen Schüler: Hast du schon gesurft? →",
+     "opts": [
+      "Já surfaste?",
+      "Já surfou?"
+     ],
+     "a": "Já surfaste? – Kinder immer du"
+    },
+    {
+     "q": "„Sie“ in Portugal – am besten: ",
+     "opts": [
+      "ohne Pronomen oder o senhor / a senhora",
+      "você"
+     ],
+     "a": "ohne Pronomen – você klingt in Portugal leicht unhöflich"
+    },
+    {
+     "q": "Das Du anbieten: ",
+     "opts": [
+      "Podemos tratar-nos por tu?",
+      "Podemos falar tu?"
+     ],
+     "a": "Podemos tratar-nos por tu?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Haben Sie eine Reservierung?",
+     "satz": "Tem reserva?",
+     "a": "Tem reserva?"
+    },
+    {
+     "q": "Die Bretter und Anzüge sind inklusive.",
+     "satz": "As pranchas e os fatos estão incluídos.",
+     "a": "As pranchas e os fatos estão incluídos."
+    },
+    {
+     "q": "Können wir uns duzen?",
+     "satz": "Podemos tratar-nos por tu?",
+     "a": "Podemos tratar-nos por tu?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O Senhor Weber fala bem português.",
+     "a": "Falsch – drei Wörter: obrigado, cerveja, bom dia. Aber er will Portugiesisch sprechen."
+    },
+    {
+     "q": "A esposa do Senhor Weber já tem experiência de surf.",
+     "a": "Richtig – der Sohn behauptet es nur."
+    },
+    {
+     "q": "A Marie vai tratar a família por tu na água.",
+     "a": "Richtig – „É mais rápido quando grito.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Woher kommen Sie? → ___",
+     "a": "De onde é? / De onde são?"
+    },
+    {
+     "q": "Sprechen Sie Englisch? → ___",
+     "a": "Fala inglês?"
+    },
+    {
+     "q": "Welche Größe? → ___",
+     "a": "Que tamanho?"
+    },
+    {
+     "q": "Der Kurs beginnt um zehn. → ___",
+     "a": "A aula começa às dez."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Ao balcão",
+   "html": "Du stehst am Empfang der Surfschule. Empfang einen Kunden in sechs Sätzen, alle in der Sie-Form ohne Pronomen: <i>Bom dia, tem reserva? De onde é? Já tem experiência? Que tamanho…? A aula começa… Pode esperar ali.</i><br><br>Dann dasselbe zu einem Kind, du-Form – hör, wie sich nur die Verbendung ändert."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Obrigado, cerveja, bom dia",
+   "audio": "s51",
+   "text": "A família Weber foi a melhor e a pior aula da semana.<br>A melhor, porque a mãe, que já surfava, ficou de pé na primeira onda e gritou em alemão uma coisa que fez rir toda a praia. A pior, porque o pai queria fazer tudo em português e não sabia dizer nada em português.<br>— Rema! — gritava a Marie.<br>— Rema! — repetia o Senhor Weber, muito contente, sem remar.<br>— Não, o senhor tem de… — e depois, desistindo: — Herr Weber, paddeln!<br>— Nein! Português!<br>Ficou de pé à sétima tentativa. Foi o homem mais feliz de Sagres.<br>O filho, que tinha dito que já sabia surfar, não sabia. Mas era o único da família que percebia a Marie, porque tinha dez anos e as crianças percebem tudo.<br>— A tua professora é alemã? — perguntou o Tomás ao miúdo, na areia, em português.<br>— É de Hamburgo — respondeu o miúdo, em português também, com sotaque bávaro.<br>— E tu percebes o que ela diz?<br>— Mais ou menos. Ela diz «rema» e eu remo. É fácil.<br>À tarde o Senhor Weber pagou, deu uma gorjeta enorme e disse à Marie a frase mais longa do dia:<br>— A senhora… professora… muito boa. Obrigado. Cerveja?<br>— Obrigada — disse a Marie. — Com a. Mas obrigada.<br>O Senhor Weber pensou durante três segundos.<br>— Obrigada — repetiu, apontando para ela. — Obrigado — apontando para si. — Percebi!<br>Percebeu. E na saída ainda disse «bom dia», às cinco da tarde, com a convicção de um homem que aprendeu três palavras e as usa todas.",
+   "gloss": "Neu erschließen: desistindo = aufgebend · à sétima tentativa = beim siebten Versuch · tinha dito = gesagt hatte · bávaro = bayerisch · mais ou menos = mehr oder weniger · a gorjeta = das Trinkgeld · enorme = riesig · apontar para = zeigen auf · para si = auf sich selbst · a convicção = die Überzeugung",
+   "questions": [
+    {
+     "q": "A mãe da família Weber ficou de pé na primeira onda.",
+     "a": "Richtig – sie surfte schon. Der Vater brauchte sieben Versuche."
+    },
+    {
+     "q": "O Senhor Weber aceitou falar alemão com a Marie.",
+     "a": "Falsch – „Nein! Português!“"
+    },
+    {
+     "q": "No fim, o Senhor Weber percebeu a diferença entre obrigado e obrigada.",
+     "a": "Richtig – nach drei Sekunden Nachdenken. Und „bom dia“ um fünf Uhr nachmittags."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt Kunden empfangen, siezen ohne „você“, duzen anbieten und Nationalitäten anpassen. Morgen wird es ernst: Ein Schüler verletzt sich im Wasser, und du musst wissen, was zu tun ist. <b>Socorro!</b> – und eine neue Zeitform nur zum Verstehen."
+  }
+ ]
+}

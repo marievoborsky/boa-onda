@@ -1,0 +1,360 @@
+{
+ "id": "tag52",
+ "title": "Socorro!",
+ "subtitle": "Staffel 2 · Woche 8 · Tag 52 · Ein Unfall im Wasser · Erste Hilfe · Plusquamperfekt zum Verstehen · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 51)",
+   "items": [
+    {
+     "q": "Woher kommen Sie? → De onde ___?",
+     "a": "é"
+    },
+    {
+     "q": "Sie (w.) ist Französin: Ela é ___.",
+     "a": "francesa"
+    },
+    {
+     "q": "„Sie“ in Portugal: ",
+     "opts": [
+      "ohne Pronomen",
+      "você"
+     ],
+     "a": "ohne Pronomen"
+    },
+    {
+     "q": "Können wir uns duzen? → Podemos tratar-nos por ___?",
+     "a": "tu"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Primeiros socorros (14)",
+   "items": [
+    {
+     "pt": "Socorro!",
+     "de": "Hilfe!",
+     "ipa": "[suˈkoʁu]",
+     "audio": "v5201"
+    },
+    {
+     "pt": "magoar-se",
+     "de": "sich verletzen",
+     "ipa": "[mɐguˈaɾsɨ]",
+     "audio": "v5202"
+    },
+    {
+     "pt": "cortar-se",
+     "de": "sich schneiden",
+     "ipa": "[kuɾˈtaɾsɨ]",
+     "audio": "v5203"
+    },
+    {
+     "pt": "a ferida",
+     "de": "die Wunde",
+     "ipa": "[fɨˈɾidɐ]",
+     "audio": "v5204"
+    },
+    {
+     "pt": "o sangue",
+     "de": "das Blut",
+     "ipa": "[ˈsɐ̃gɨ]",
+     "audio": "v5205"
+    },
+    {
+     "pt": "bater (em)",
+     "de": "stoßen, schlagen (gegen)",
+     "ipa": "[bɐˈteɾ]",
+     "audio": "v5206"
+    },
+    {
+     "pt": "o penso",
+     "de": "das Pflaster",
+     "ipa": "[ˈpẽsu]",
+     "audio": "v5207"
+    },
+    {
+     "pt": "os primeiros socorros",
+     "de": "die Erste Hilfe",
+     "ipa": "[pɾiˈmɐjɾuʃ suˈkoʁuʃ]",
+     "audio": "v5208"
+    },
+    {
+     "pt": "o nadador-salvador",
+     "de": "der Rettungsschwimmer",
+     "ipa": "[nɐdɐˈdoɾ saɫvɐˈdoɾ]",
+     "audio": "v5209"
+    },
+    {
+     "pt": "a ambulância",
+     "de": "der Krankenwagen",
+     "ipa": "[ɐ̃buˈlɐ̃sjɐ]",
+     "audio": "v5210"
+    },
+    {
+     "pt": "respirar",
+     "de": "atmen",
+     "ipa": "[ʁɨʃpiˈɾaɾ]",
+     "audio": "v5211"
+    },
+    {
+     "pt": "o susto",
+     "de": "der Schreck",
+     "ipa": "[ˈsuʃtu]",
+     "audio": "v5212"
+    },
+    {
+     "pt": "acalmar",
+     "de": "beruhigen",
+     "ipa": "[ɐkaɫˈmaɾ]",
+     "audio": "v5213"
+    },
+    {
+     "pt": "grave",
+     "de": "schlimm, ernst",
+     "ipa": "[ˈgɾavɨ]",
+     "audio": "v5214"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Was passiert war",
+   "html": "<i>(Nach dem Mittag, ruhig, aber ernst:)</i> Heute zwei Dinge. Erstens die Sätze, die man im Ernstfall braucht – laut und ohne Grammatik:<br><i><b>Socorro!</b> · <b>Chamem o nadador-salvador!</b> · <b>Liguem para o 112!</b> · <b>Está a sangrar.</b> · <b>Consegues respirar?</b> · <b>Não te mexas.</b> · <b>Calma, não é grave.</b></i><br>112 ist in ganz Europa die Notrufnummer, auch hier.<br><br>Zweitens eine Zeitform, die ihr <b>nur verstehen</b> müsst, wenn jemand erzählt, was <b>vorher</b> passiert war – das <b>Plusquamperfekt</b>:<br><b>tinha + Partizip</b>: <i>Ele <b>tinha caído</b> antes de bater na prancha.</i> – Er war gefallen, bevor er … · <i>Eu já <b>tinha visto</b> a onda.</i> – Ich hatte die Welle schon gesehen. · <i>Nós <b>tínhamos dito</b> «cuidado».</i><br>Partizip: -ar → -ado, -er/-ir → -ido; unregelmäßig: <i>feito, dito, visto, posto, vindo, aberto, escrito</i>.<br>Ihr habt es in den Geschichten schon oft gelesen (<i>tinha visto, tinha prometido</i>). Jetzt hat es einen Namen.<br><br><b>Und das Wichtigste bei einem Unfall:</b> Erst der Mensch, dann das Brett, dann die Erklärung. Boa onda."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "An portugiesischen Stränden hängt eine Fahne: <b>verde</b> = baden erlaubt, <b>amarela</b> = baden mit Vorsicht, <b>vermelha</b> = Baden verboten, <b>xadrez</b> (kariert) = kein Rettungsschwimmer. Der <b>nadador-salvador</b> sitzt auf einem hohen Stuhl und pfeift, wenn du zu weit rausgehst – dann sofort zurück. Und <i>Socorro!</i> spricht man „ssukórru“, mit rollendem rr. Man hofft, es nie zu brauchen."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Não te mexas",
+   "hint": "Selbst erschlossen: a testa = die Stirn · sangrar = bluten · Não te mexas = beweg dich nicht · a cabeça learned · tonto = benommen · o corte = der Schnitt · a bata learned · fundo = tief · dar pontos = nähen · o centro de saúde = die Gesundheitsstation · tinha batido = hatte gestoßen. Miguel ist der Junge aus Lissabon.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Miguel! MIGUEL! Vasco, ele bateu com a cabeça na prancha!",
+     "audio": "d5201"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Já vi. Tira-o da água. Devagar. Eu vou buscar a mala dos primeiros socorros.",
+     "audio": "d5202"
+    },
+    {
+     "who": "Marie",
+     "pt": "Miguel, consegues ouvir-me? Olha para mim. Não te mexas.",
+     "audio": "d5203"
+    },
+    {
+     "who": "Miguel",
+     "pt": "Estou bem. Estou bem. Está a sangrar?",
+     "audio": "d5204"
+    },
+    {
+     "who": "Marie",
+     "pt": "Um bocadinho. Na testa. Respira. Sentes-te tonto?",
+     "audio": "d5205"
+    },
+    {
+     "who": "Miguel",
+     "pt": "Um bocadinho. A onda… eu tinha visto a onda. Mas a prancha veio de lado.",
+     "audio": "d5206"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Deixa-me ver. É um corte pequeno. Não é fundo. Não precisa de pontos.",
+     "audio": "d5207"
+    },
+    {
+     "who": "Miguel",
+     "pt": "Não vou ao hospital?",
+     "audio": "d5208"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Vais ao centro de saúde, para limpar e pôr um penso. E hoje já não surfas.",
+     "audio": "d5209"
+    },
+    {
+     "who": "Miguel",
+     "pt": "Mas eu tinha finalmente ficado de pé!",
+     "audio": "d5210"
+    },
+    {
+     "who": "Marie",
+     "pt": "Eu sei. Eu vi. Amanhã ficas outra vez. Hoje descansas.",
+     "audio": "d5211"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Boa reação, Marie. Rápida e calma. É assim que se faz.",
+     "audio": "d5212"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Im Ernstfall",
+   "items": [
+    {
+     "q": "Hilfe! → ___!",
+     "a": "Socorro"
+    },
+    {
+     "q": "Ruft den Rettungsschwimmer! → Chamem o ___!",
+     "a": "nadador-salvador"
+    },
+    {
+     "q": "Es blutet. → Está a ___.",
+     "a": "sangrar"
+    },
+    {
+     "q": "Kannst du atmen? → Consegues ___?",
+     "a": "respirar"
+    },
+    {
+     "q": "Beweg dich nicht. → Não te ___.",
+     "a": "mexas"
+    },
+    {
+     "q": "Ruhig, es ist nicht schlimm. → Calma, não é ___.",
+     "a": "grave"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Plusquamperfekt verstehen (antippen)",
+   "items": [
+    {
+     "q": "„Eu tinha visto a onda.“ heißt:",
+     "opts": [
+      "Ich hatte die Welle gesehen.",
+      "Ich habe die Welle gesehen."
+     ],
+     "a": "Ich hatte … gesehen – tinha + Partizip = davor"
+    },
+    {
+     "q": "„Ele tinha caído antes.“ heißt:",
+     "opts": [
+      "Er war vorher gefallen.",
+      "Er fällt vorher."
+     ],
+     "a": "Er war gefallen"
+    },
+    {
+     "q": "„Nós tínhamos dito cuidado.“ heißt:",
+     "opts": [
+      "Wir hatten Vorsicht gesagt.",
+      "Wir sagen Vorsicht."
+     ],
+     "a": "Wir hatten gesagt – dito = Partizip von dizer"
+    },
+    {
+     "q": "Partizip von fazer:",
+     "opts": [
+      "feito",
+      "fazido"
+     ],
+     "a": "feito – unregelmäßig"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Er ist mit dem Kopf gegen das Brett gestoßen.",
+     "satz": "Ele bateu com a cabeça na prancha.",
+     "a": "Ele bateu com a cabeça na prancha."
+    },
+    {
+     "q": "Es ist ein kleiner Schnitt, nicht tief.",
+     "satz": "É um corte pequeno, não é fundo.",
+     "a": "É um corte pequeno, não é fundo."
+    },
+    {
+     "q": "Heute surfst du nicht mehr.",
+     "satz": "Hoje já não surfas.",
+     "a": "Hoje já não surfas."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O Miguel bateu com a cabeça numa pedra.",
+     "a": "Falsch – gegen das Brett, das von der Seite kam."
+    },
+    {
+     "q": "O corte precisa de pontos.",
+     "a": "Falsch – klein und nicht tief. Reinigen und Pflaster im centro de saúde."
+    },
+    {
+     "q": "O Vasco diz que a Marie reagiu bem.",
+     "a": "Richtig – „Rápida e calma. É assim que se faz.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Ruft den Krankenwagen! → ___",
+     "a": "Chamem a ambulância!"
+    },
+    {
+     "q": "Ich habe mich geschnitten. → ___",
+     "a": "Cortei-me."
+    },
+    {
+     "q": "Es war nur ein Schreck. → ___",
+     "a": "Foi só um susto."
+    },
+    {
+     "q": "Brauchst du ein Pflaster? → ___",
+     "a": "Precisas de um penso?"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O que aconteceu?",
+   "html": "Erzähl den Unfall in sechs Sätzen – Perfekt für das, was passierte, und einmal Plusquamperfekt für das Davor: <i>O Miguel tinha visto a onda… mas a prancha veio de lado. Bateu… Tirei-o da água… Não era grave…</i><br><br>Dann die Notfallsätze, laut und klar: <i>Socorro! Chamem o nadador-salvador! Não te mexas!</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: O penso",
+   "audio": "s52",
+   "text": "O centro de saúde de Sagres é uma sala com duas cadeiras, uma enfermeira que conhece toda a gente e um cartaz sobre alforrecas. A enfermeira limpou o corte do Miguel em dois minutos, pôs um penso azul e disse:<br>— Terceiro este mês. Todos da mesma escola. O Vasco devia dar capacetes.<br>— A culpa foi minha — disse o Miguel. — Eu tinha olhado para os pés.<br>— A culpa é sempre dos pés — disse a enfermeira, que claramente já tinha ouvido muitas histórias de surf.<br>No caminho de volta, o Miguel ia calado. A Marie também. Foi ele que falou primeiro.<br>— Ficaste com medo?<br>— Fiquei.<br>— Eu também. Mas depois pensei: a Marie está aqui. E fiquei calmo.<br>A Marie não respondeu logo. Não conseguia.<br>— Quando eu comecei — disse por fim —, o Vasco disse-me uma coisa. Que o mar não é perigoso. O que é perigoso é não olhar para ele.<br>— Eu não olhei.<br>— Hoje não. Amanhã olhas.<br>À noite, na escola, o Vasco escreveu no livro dos acidentes: «Miguel, 19, corte na testa, prancha, sem gravidade. Instrutora: Marie. Reação: correta.» Depois fechou o livro, olhou para a Marie e disse:<br>— Sabes qual foi o meu primeiro acidente como instrutor?<br>— Não.<br>— Um alemão de Hamburgo. Bateu com a prancha no meu nariz. Em 2016. Ainda tenho a marca.<br>— E o que é que fizeste?<br>— Sorri. Como tu hoje. A pessoa primeiro, o nariz depois. — Levantou-se. — Amanhã o Tomás tem a competição. Dorme bem. Vais precisar de voz.",
+   "gloss": "Neu erschließen: a enfermeira = die Krankenschwester · o cartaz = das Plakat · a alforreca = die Qualle · o capacete = der Helm · tinha olhado = hatte geschaut · claramente = offensichtlich · por fim = schließlich · o livro dos acidentes = das Unfallbuch · sem gravidade = nicht schlimm · a marca = die Narbe, das Mal · a competição = der Wettbewerb",
+   "questions": [
+    {
+     "q": "A enfermeira diz que é o primeiro acidente da escola este mês.",
+     "a": "Falsch – der dritte. „O Vasco devia dar capacetes.“"
+    },
+    {
+     "q": "O Miguel ficou calmo porque a Marie estava lá.",
+     "a": "Richtig – „a Marie está aqui. E fiquei calmo.“"
+    },
+    {
+     "q": "O primeiro acidente do Vasco como instrutor foi com um alemão de Hamburgo.",
+     "a": "Richtig – 2016, Brett gegen die Nase. Die Narbe hat er noch."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kennst jetzt die Sätze für den Ernstfall (<b>Socorro! Não te mexas. Não é grave.</b>) und verstehst das <b>Plusquamperfekt</b> (<i>tinha visto</i>). Miguel hat ein blaues Pflaster, Marie den Respekt von Vasco. Morgen: <b>Tomás’ Wettkampf</b> – und die Zeitform, die Portugiesen für „wenn“ und „sobald“ benutzen."
+  }
+ ]
+}

@@ -122,12 +122,12 @@
   {
    "type": "note",
    "title": "3 · Dica do Vasco: Der Schönste, der Heißeste, der Älteste",
-   "html": "<i>(Sprachnachricht:)</i> Ihr könnt seit Woche 5 vergleichen: <i>mais bonito do que</i>. Heute die Steigerung ganz nach oben – der <b>Superlativ</b>:<br><br><b>o / a mais + Adjektiv</b> (+ de …): <i>o sítio <b>mais bonito</b> de Portugal · a carrinha <b>mais velha</b> da Europa · o dia <b>mais quente</b> do ano</i><br>Mit <b>menos</b> genauso: <i>a estrada <b>menos</b> perigosa</i>.<br><br><b>Die vier Sonderformen</b> kennt ihr schon: <i>o <b>melhor</b> bolo · o <b>pior</b> dia · a <b>maior</b> cidade · o <b>mais pequeno</b> quarto</i>.<br><br><b>Und dann gibt es -íssimo</b> = „sehr, extrem“ – ohne Vergleich, nur Gefühl: <i>lind<b>íssimo</b> · quent<b>íssimo</b> · car<b>íssimo</b> · barat<b>íssimo</b></i>. Man hängt es an den Stamm; kleine Rechtschreibfalle: <i>fresco → fresqu<b>íssimo</b></i>, <i>rico → riqu<b>íssimo</b></i> (das c wird zu qu, damit es hart bleibt).<br><br><b>Beim Erzählen</b> beschreibt ihr das Wetter und die Landschaft im <b>Imperfekt</b> – das ist der Film im Hintergrund: <i>Fazia um calor terrível. A estrada era estreita. Não havia sombra.</i> Boa onda!"
+   "html": "<i>(Sprachnachricht:)</i> Ihr könnt seit Woche 5 vergleichen: <i>mais bonito do que</i>. Heute die Steigerung ganz nach oben – der <b>Superlativ</b>:<br><br><b>o / a mais + Adjektiv</b> (+ de …): <i>o sítio <b>mais bonito</b> de Portugal · a carrinha <b>mais velha</b> da Europa · o dia <b>mais quente</b> do ano</i><br>Mit <b>menos</b> genauso: <i>a estrada <b>menos</b> perigosa</i>.<br><br><b>Die vier Sonderformen</b> kennt ihr schon: <i>o <b>melhor</b> bolo · o <b>pior</b> dia · a <b>maior</b> cidade · o quarto <b>mais pequeno</b></i>.<br><br><b>Und dann gibt es -íssimo</b> = „sehr, extrem“ – ohne Vergleich, nur Gefühl: <i>lind<b>íssimo</b> · quent<b>íssimo</b> · car<b>íssimo</b> · barat<b>íssimo</b></i>. Man hängt es an den Stamm; kleine Rechtschreibfalle: <i>fresco → fresqu<b>íssimo</b></i>, <i>rico → riqu<b>íssimo</b></i> (das c wird zu qu, damit es hart bleibt).<br><br><b>Beim Erzählen</b> beschreibt ihr das Wetter und die Landschaft im <b>Imperfekt</b> – das ist der Film im Hintergrund: <i>Fazia um calor terrível. A estrada era estreita. Não havia sombra.</i> Boa onda!"
   },
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Der <b>Alentejo</b> („jenseits des Tejo“) ist ein Drittel Portugals und hat weniger Einwohner als Lissabon. Weite Ebenen, <b>Korkeichen</b> mit rot geschälten Stämmen (Portugal liefert die Hälfte des Korks der Welt), weiße Dörfer mit blauen Rändern, 40 Grad im August. Die Menschen dort reden langsam, singen mehrstimmig (<i>cante alentejano</i>, UNESCO) und haben die besten Süßspeisen des Landes – <b>sericaia</b> mit Pflaume ist eine davon. Aussprache: <i>quentíssimo</i> = „kentíssimu“, Betonung auf dem í. Und <i>Alentejo</i> = „alentéschu“."
+   "html": "Der <b>Alentejo</b> („jenseits des Tejo“) ist ein Drittel Portugals und hat weniger Einwohner als der Großraum Lissabon. Weite Ebenen, <b>Korkeichen</b> mit rot geschälten Stämmen (Portugal liefert die Hälfte des Korks der Welt), weiße Dörfer mit blauen Rändern, 40 Grad im August. Die Menschen dort reden langsam, singen mehrstimmig (<i>cante alentejano</i>, UNESCO) und haben die besten Süßspeisen des Landes – <b>sericaia</b> mit Pflaume ist eine davon. Aussprache: <i>quentíssimo</i> = „kentíssimu“, Betonung auf dem í. Und <i>Alentejo</i> = „alentéschu“."
   },
   {
    "type": "reading",
@@ -201,16 +201,16 @@
    "title": "5a · Der Superlativ",
    "items": [
     {
-     "q": "Sagres é ___ (das schönste) sítio de Portugal.",
-     "a": "o mais bonito"
+     "q": "Sagres é o sítio ___ (der schönste) de Portugal.",
+     "a": "mais bonito"
     },
     {
-     "q": "É ___ (die älteste) carrinha da Europa.",
-     "a": "a mais velha"
+     "q": "É a carrinha ___ (die älteste) da Europa.",
+     "a": "mais velha"
     },
     {
-     "q": "O Alentejo é ___ (der heißeste) sítio do país.",
-     "a": "o mais quente"
+     "q": "O Alentejo é o sítio ___ (der heißeste) do país.",
+     "a": "mais quente"
     },
     {
      "q": "É ___ (der beste) bolo da casa.",
@@ -262,7 +262,7 @@
       "O Alentejo é mais quente do que Lisboa.",
       "O Alentejo é o mais quente de Lisboa."
      ],
-     "a": "mais … do que – ein Vergleich zwischen zwei"
+     "a": "O Alentejo é mais quente do que Lisboa. – mais … do que: ein Vergleich zwischen zwei"
     },
     {
      "q": "Der Alentejo ist der heißeste Ort des Landes. →",
@@ -270,7 +270,7 @@
       "O Alentejo é o sítio mais quente do país.",
       "O Alentejo é o sítio mais quente do que o país."
      ],
-     "a": "o mais … do – Superlativ, das Höchste in einer Gruppe"
+     "a": "O Alentejo é o sítio mais quente do país. – o mais … do: Superlativ, das Höchste in einer Gruppe"
     },
     {
      "q": "Das ist sehr teuer (ohne Vergleich). →",
@@ -278,7 +278,7 @@
       "É caríssimo.",
       "É o mais caro."
      ],
-     "a": "caríssimo – Gefühl, kein Vergleich"
+     "a": "É caríssimo. – Gefühl, kein Vergleich"
     },
     {
      "q": "Das ist das teuerste Zimmer. →",
@@ -286,7 +286,7 @@
       "É o quarto mais caro.",
       "É o quarto caríssimo."
      ],
-     "a": "o mais caro – Superlativ"
+     "a": "É o quarto mais caro. – Superlativ"
     }
    ]
   },
@@ -339,7 +339,7 @@
    "title": "7 · Kleine Geschichte: A estrada mais bonita",
    "audio": "s44",
    "text": "O empregado tinha razão nas duas coisas. A estrada era péssima, e era a mais bonita que a Marie já tinha visto.<br>Fazia um calor branco. O céu não tinha uma nuvem, a planície não tinha uma sombra, e os sobreiros, com os troncos vermelhos e nus, pareciam soldados cansados. De vez em quando passava uma aldeia: casas brancas, uma igreja, um velho sentado à porta a olhar para a carrinha como se fosse um animal raro. Provavelmente era.<br>O Tomás contava sobreiros. Chegou aos duzentos e desistiu.<br>— Porque é que os troncos são vermelhos? — perguntou.<br>— Porque tiram a cortiça — disse o João. — De nove em nove anos. A árvore não morre.<br>— Como é que sabes?<br>— Trabalho com pão. Sei coisas.<br>Ninguém percebeu a resposta, mas ninguém perguntou mais.<br>Às cinco da tarde a estrada desceu, fez a última curva, e de repente o Tomás gritou tão alto que o João travou:<br>— O MAR!<br>Lá em baixo, entre duas colinas, estava Vila Nova de Milfontes: um rio largo, uma praia, casas brancas, e o Atlântico, azul-escuro, a fazer ondas pequenas.<br>— Já é o mar? — perguntou o Tomás, desta vez a sério.<br>— Já é — disse a Marie.<br>Ninguém disse mais nada durante um minuto. A carrinha também não. Foi o minuto mais silencioso da viagem, e o mais bonito.",
-   "gloss": "Neu erschließen: tinha visto = gesehen hatte (Woche 8) · péssimo = miserabel · o tronco = der Stamm · nu = nackt · o soldado = der Soldat · de vez em quando = ab und zu · raro = selten · desistir = aufgeben · tirar = abnehmen, ernten · de nove em nove anos = alle neun Jahre · travar = bremsen · a colina = der Hügel · azul-escuro = dunkelblau · a sério = im Ernst · silencioso = still",
+   "gloss": "Neu erschließen: tinha visto = gesehen hatte (Woche 8) · péssimo = miserabel · o tronco = der Stamm · nu = nackt · o soldado = der Soldat · de vez em quando = ab und zu · como se fosse = als wäre es (eine Form für später) · raro = selten · desistir = aufgeben · tirar = abnehmen, ernten · de nove em nove anos = alle neun Jahre · travar = bremsen · a colina = der Hügel · azul-escuro = dunkelblau · a sério = im Ernst · silencioso = still",
    "questions": [
     {
      "q": "A estrada para Milfontes era boa e bonita.",

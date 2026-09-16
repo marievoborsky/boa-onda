@@ -1,0 +1,360 @@
+{
+ "id": "tag50",
+ "title": "A primeira aula",
+ "subtitle": "Staffel 2 · Woche 8 · Tag 50 · Anweisungen geben · Imperativ du / Sie / ihr · ca. 30 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 48 & 49)",
+   "items": [
+    {
+     "q": "Ich hoffe, dass ihr gut ankommt: Espero que ___ bem. (chegar)",
+     "a": "cheguem"
+    },
+    {
+     "q": "Vielleicht regnet es (talvez): ",
+     "opts": [
+      "Talvez chova.",
+      "Talvez chove."
+     ],
+     "a": "Talvez chova."
+    },
+    {
+     "q": "Wir mussten anhalten: ___ parar.",
+     "a": "Tivemos de"
+    },
+    {
+     "q": "Viel Erfolg! → Que ___ bem!",
+     "a": "corra"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Na escola de surf (14)",
+   "items": [
+    {
+     "pt": "o aluno / a aluna",
+     "de": "der Schüler / die Schülerin",
+     "ipa": "[ɐˈlunu / ɐˈlunɐ]",
+     "audio": "v5001"
+    },
+    {
+     "pt": "o instrutor / a instrutora",
+     "de": "der Lehrer / die Lehrerin (Sport)",
+     "ipa": "[ĩʃtɾuˈtoɾ / ĩʃtɾuˈtoɾɐ]",
+     "audio": "v5002"
+    },
+    {
+     "pt": "explicar",
+     "de": "erklären",
+     "ipa": "[ɨʃpliˈkaɾ]",
+     "audio": "v5003"
+    },
+    {
+     "pt": "repetir",
+     "de": "wiederholen",
+     "ipa": "[ʁɨpɨˈtiɾ]",
+     "audio": "v5004"
+    },
+    {
+     "pt": "a regra",
+     "de": "die Regel",
+     "ipa": "[ˈʁɛgɾɐ]",
+     "audio": "v5005"
+    },
+    {
+     "pt": "a segurança",
+     "de": "die Sicherheit",
+     "ipa": "[sɨguˈɾɐ̃sɐ]",
+     "audio": "v5006"
+    },
+    {
+     "pt": "deitar-se",
+     "de": "sich hinlegen",
+     "ipa": "[dɐjˈtaɾsɨ]",
+     "audio": "v5007"
+    },
+    {
+     "pt": "remar",
+     "de": "paddeln",
+     "ipa": "[ʁɨˈmaɾ]",
+     "audio": "v5008"
+    },
+    {
+     "pt": "o equilíbrio",
+     "de": "das Gleichgewicht",
+     "ipa": "[ikiˈlibɾju]",
+     "audio": "v5009"
+    },
+    {
+     "pt": "a espuma",
+     "de": "der Schaum, das Weißwasser",
+     "ipa": "[ɨʃˈpumɐ]",
+     "audio": "v5010"
+    },
+    {
+     "pt": "a corrente",
+     "de": "die Strömung",
+     "ipa": "[kuˈʁẽtɨ]",
+     "audio": "v5011"
+    },
+    {
+     "pt": "Cuidado!",
+     "de": "Vorsicht!",
+     "ipa": "[kujˈdadu]",
+     "audio": "v5012"
+    },
+    {
+     "pt": "devagar / depressa",
+     "de": "langsam / schnell",
+     "ipa": "[dɨvɐˈgaɾ / dɨˈpɾɛsɐ]",
+     "audio": "v5013"
+    },
+    {
+     "pt": "outra vez",
+     "de": "noch einmal",
+     "ipa": "[ˈotɾɐ ˈveʃ]",
+     "audio": "v5014"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do Vasco: Befehle für alle",
+   "html": "<i>(Diesmal live, am Strand, mit acht Anfängern im Rücken:)</i> Marie, du gibst heute die Stunde. Dafür brauchst du den <b>Imperativ in allen drei Formen</b> – und du kennst schon alle Teile:<br><br><b>du</b> (ein Freund, ein Kind): ele/ela-Form des Präsens → <i><b>Rema!</b> · <b>Levanta-te!</b> · <b>Olha</b> para a onda!</i><br><b>Sie</b> (ein Erwachsener, den du siezt): die Konjunktiv-Form → <i><b>Reme!</b> · <b>Levante-se!</b> · <b>Olhe</b> para a onda!</i><br><b>ihr</b> (die ganze Gruppe): Konjunktiv im Plural → <i><b>Remem!</b> · <b>Levantem-se!</b> · <b>Olhem</b> para a onda!</i><br><br><b>Verneint</b> immer Konjunktiv, Pronomen nach vorn: <i>Não <b>te</b> levantes! · Não <b>se</b> levante! · Não <b>se</b> levantem!</i><br><br><b>Die Unregelmäßigen, die du im Wasser brauchst:</b> <i>ir → Vai! / Vá! / Vão! · vir → Vem! / Venha! / Venham! · fazer → Faz! / Faça! / Façam! · ter → Tem cuidado! / Tenha! / Tenham!</i><br><br><b>Und der Ton:</b> kurz, laut, freundlich. <i>Deita-te. Rema. Rema! Agora – de pé! Boa!</i> Am Strand siezt man Erwachsene bei der ersten Stunde und duzt ab der zweiten. Kinder immer du. Boa onda – jetzt du."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "Ein Surfkurs in Portugal läuft in vier Wörtern ab: <b>Deita! Rema! De pé! Boa!</b> Das letzte ist das wichtigste – <i>Boa!</i> heißt „gut so!“, und Portugiesen sagen es zu jedem, der es versucht, egal ob er steht oder fällt. Zwei Warnungen, die du kennen musst: <b>Cuidado!</b> (Vorsicht) und <b>Corrente!</b> – wenn ein Instruktor das ruft, sofort raus aus dem Wasser. Aussprache: <i>devagar</i> = „dövagár“, <i>depressa</i> = „döpréssa“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Deita, rema, de pé",
+   "hint": "Selbst erschlossen: o Miguel = der Junge aus Lissabon, der vor allem Angst hat · ao lado = daneben · a barriga = der Bauch · as mãos = die Hände · agarrar = festhalten · aguentar = aushalten · o joelho = das Knie · Boa! = Gut so! · Não faz mal = macht nichts. Vasco steht daneben und schweigt.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Bom dia a todos. Primeiro na areia. Deitem-se na prancha, com a barriga para baixo.",
+     "audio": "d5001"
+    },
+    {
+     "who": "Miguel",
+     "pt": "Assim?",
+     "audio": "d5002"
+    },
+    {
+     "who": "Marie",
+     "pt": "Assim. Agora remem. Devagar. As mãos entram na água aqui, ao lado.",
+     "audio": "d5003"
+    },
+    {
+     "who": "Miguel",
+     "pt": "E se vier uma onda grande?",
+     "audio": "d5004"
+    },
+    {
+     "who": "Marie",
+     "pt": "Hoje não vêm ondas grandes. E se vier, agarra a prancha e aguenta. A prancha é tua amiga.",
+     "audio": "d5005"
+    },
+    {
+     "who": "Miguel",
+     "pt": "A prancha não me conhece.",
+     "audio": "d5006"
+    },
+    {
+     "who": "Marie",
+     "pt": "Vai conhecer. Agora: mãos ao lado do peito, um joelho à frente, e de pé. Um, dois, três – de pé!",
+     "audio": "d5007"
+    },
+    {
+     "who": "Miguel",
+     "pt": "Caí.",
+     "audio": "d5008"
+    },
+    {
+     "who": "Marie",
+     "pt": "Na areia? Isso é novo. Outra vez. Não olhes para os pés. Olha para a frente.",
+     "audio": "d5009"
+    },
+    {
+     "who": "Miguel",
+     "pt": "De pé!",
+     "audio": "d5010"
+    },
+    {
+     "who": "Marie",
+     "pt": "Boa! Viste? Repete dez vezes. Depois vamos à água. Miguel, não faças essa cara. Eu caí catorze vezes no primeiro dia.",
+     "audio": "d5011"
+    },
+    {
+     "who": "Miguel",
+     "pt": "Catorze? Então eu vou cair vinte.",
+     "audio": "d5012"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Imperativ: du, Sie, ihr",
+   "items": [
+    {
+     "q": "Paddle! (du) → ___!",
+     "a": "Rema"
+    },
+    {
+     "q": "Paddeln Sie! → ___!",
+     "a": "Reme"
+    },
+    {
+     "q": "Paddelt! (ihr) → ___!",
+     "a": "Remem"
+    },
+    {
+     "q": "Steh auf! (du, levantar-se) → ___!",
+     "a": "Levanta-te"
+    },
+    {
+     "q": "Stehen Sie auf! → ___!",
+     "a": "Levante-se"
+    },
+    {
+     "q": "Steht auf! (ihr) → ___!",
+     "a": "Levantem-se"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Verneint (antippen)",
+   "items": [
+    {
+     "q": "Schau nicht auf die Füße! (du) →",
+     "opts": [
+      "Não olhes para os pés!",
+      "Não olha para os pés!"
+     ],
+     "a": "Não olhes – verneint: Konjunktiv"
+    },
+    {
+     "q": "Stehen Sie nicht auf! →",
+     "opts": [
+      "Não se levante!",
+      "Não levante-se!"
+     ],
+     "a": "Não se levante! – Pronomen springt nach não nach vorn"
+    },
+    {
+     "q": "Habt keine Angst! (ihr) →",
+     "opts": [
+      "Não tenham medo!",
+      "Não têm medo!"
+     ],
+     "a": "Não tenham medo! – ter → tenham"
+    },
+    {
+     "q": "Geh nicht ins Wasser! (du) →",
+     "opts": [
+      "Não vás para a água!",
+      "Não vai para a água!"
+     ],
+     "a": "Não vás! – ir → vás"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Legt euch auf das Brett.",
+     "satz": "Deitem-se na prancha.",
+     "a": "Deitem-se na prancha."
+    },
+    {
+     "q": "Schau nach vorn, nicht auf die Füße.",
+     "satz": "Olha para a frente, não para os pés.",
+     "a": "Olha para a frente, não para os pés."
+    },
+    {
+     "q": "Das Brett ist deine Freundin.",
+     "satz": "A prancha é tua amiga.",
+     "a": "A prancha é tua amiga."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A primeira parte da aula é dentro de água.",
+     "a": "Falsch – zuerst auf dem Sand, wie bei Marie vor einem Jahr."
+    },
+    {
+     "q": "O Miguel cai na areia.",
+     "a": "Richtig – „Isso é novo.“"
+    },
+    {
+     "q": "A Marie diz que caiu catorze vezes no primeiro dia.",
+     "a": "Richtig – Miguel will zwanzigmal fallen."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Vorsicht, Strömung! → ___",
+     "a": "Cuidado, corrente!"
+    },
+    {
+     "q": "Noch einmal, langsam. → ___",
+     "a": "Outra vez, devagar."
+    },
+    {
+     "q": "Wiederholen Sie bitte. → ___",
+     "a": "Repita, se faz favor. / Repita, por favor."
+    },
+    {
+     "q": "Kommt her! (ihr) → ___",
+     "a": "Venham cá!"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A tua aula",
+   "html": "Du bist die Instruktorin. Gib einer Gruppe acht Anweisungen, laut und kurz, ihr-Form: <i>Deitem-se… Remem… Olhem para a frente… Não olhem para os pés… De pé! … Não tenham medo… Outra vez… Boa!</i><br><br>Dann dieselbe Stunde für ein einzelnes Kind, du-Form: <i>Deita-te. Rema. Levanta-te. Boa!</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Vinte vezes",
+   "audio": "s50",
+   "text": "O Miguel caiu vinte e três vezes. Contou. Depois parou de contar, porque na vez vinte e quatro ficou de pé.<br>Não foi bonito. Ficou de pé como quem se levanta de uma cadeira com medo, com os braços abertos e a boca aberta, durante dois segundos e meio. Mas ficou. E a espuma levou-o até à areia, e ele saiu da água a gritar coisas que a Marie não percebeu e que provavelmente não eram português.<br>— Viste? VISTE?<br>— Vi.<br>— Ficaste com medo de eu cair?<br>— Fiquei com medo de tu não te levantares.<br>Ao meio-dia, com os oito alunos a comerem sandes à sombra da escola, o Vasco sentou-se ao lado da Marie.<br>— Então?<br>— Doem-me as pernas. E a garganta, de gritar «rema».<br>— E?<br>— E foi a melhor manhã da minha vida.<br>O Vasco assentiu, como se já soubesse.<br>— Amanhã tens um grupo de alemães. Uma família. O pai diz que fala português.<br>— E fala?<br>— Fala «obrigado» e «cerveja». Vais precisar das duas línguas.<br>— Vasco… porque é que me deste os principiantes? Tu explicas melhor.<br>— Eu explico melhor. Tu percebes melhor. Tu ainda te lembras de como é não saber. Eu já não. — Levantou-se. — Isso é a coisa mais importante que um instrutor pode ter. Não a percas.<br>A Marie ficou sentada, com a sandes na mão, a ver o Miguel, na areia, a deitar-se e a levantar-se sozinho, outra vez e outra vez, sem ninguém a mandar.",
+   "gloss": "Neu erschließen: parar de = aufhören zu · como quem = wie jemand, der · de braços abertos = mit offenen Armen · levou-o = trug ihn · assentir = nicken · como se já soubesse = als wüsste er es schon · Não a percas = verlier sie nicht (perder, verneinter Befehl) · mandar = befehlen",
+   "questions": [
+    {
+     "q": "O Miguel ficou de pé na vez vinte e quatro.",
+     "a": "Richtig – nicht schön, aber zweieinhalb Sekunden lang."
+    },
+    {
+     "q": "A Marie teve medo de o Miguel cair.",
+     "a": "Falsch – Angst, dass er nicht wieder aufsteht."
+    },
+    {
+     "q": "Segundo o Vasco, a Marie explica melhor do que ele.",
+     "a": "Falsch – er erklärt besser, sie versteht besser: Sie weiß noch, wie es ist, nichts zu können."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt Anweisungen geben – an einen Freund, an einen Fremden, an eine Gruppe (<b>Rema! Reme! Remem!</b>) und alles verneinen. Marie hat ihre erste Stunde gegeben. Morgen kommt eine deutsche Familie: <b>Kunden aus aller Welt</b>, und die Frage, wann man siezt."
+  }
+ ]
+}
