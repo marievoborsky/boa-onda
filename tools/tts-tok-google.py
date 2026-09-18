@@ -26,7 +26,8 @@ def tok_woerter():
         text = re.sub(r'<[^>]+>', ' ', text)
         for w in text.split():
             core = re.sub(r'^[^\wÀ-ÿ]+|[^\wÀ-ÿ]+$', '', w)
-            if core and re.search(r'[A-Za-zÀ-ÿ]', core):
+            # Länge begrenzen: die absichtlich zusammengeschriebene Avó-Zeile (Tag 9) ist kein Wort
+            if core and len(core) <= 25 and re.search(r'[A-Za-zÀ-ÿ]', core):
                 tok.add(core.lower())
     for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', '*.json'))):
         L = json.load(open(f))
