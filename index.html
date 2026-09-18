@@ -931,17 +931,21 @@ function renderLessons() {
       el.appendChild(h);
     }
     const isDone = !!store.lessons[l.id];
+    const zu = gesperrt(l.id);
     let right = '';
-    if (isDone) right = `<div style="width:26px; height:26px; border-radius:50%; background:var(--sea-pale); color:#0b6c5f; display:flex; align-items:center; justify-content:center; flex:none">${CHECK_SVG}</div>`;
+    if (zu) right = `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-deep); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>`;
+    else if (isDone) right = `<div style="width:26px; height:26px; border-radius:50%; background:var(--sea-pale); color:#0b6c5f; display:flex; align-items:center; justify-content:center; flex:none">${CHECK_SVG}</div>`;
     else if (l === next) right = '<div class="mono" style="font-size:.58rem; letter-spacing:.12em; text-transform:uppercase; background:var(--clay); color:#fff; border-radius:999px; padding:.3rem .6rem; flex:none">Heute</div>';
     const div = document.createElement('div');
     div.className = 'spot';
     div.onclick = () => openLesson(l.id);
+    if (zu) div.style.opacity = '.72';
+    const probe = GRATIS.includes(l.id) && !istPremium() ? ' · gratis zum Ausprobieren' : '';
     div.innerHTML = `
       <div class="icon">${l.bonus ? 'B' : 'L' + lessonNum(l)}</div>
       <div class="info">
         <div class="name">${l.label}</div>
-        <div class="theme">${l.sub}</div>
+        <div class="theme">${l.sub}${probe}</div>
       </div>${right}`;
     el.appendChild(div);
   });
@@ -1080,17 +1084,20 @@ function renderTextos() {
     const div = document.createElement('div');
     div.className = 'spot';
     div.onclick = () => openTexto(t.tag);
+    const zu = gesperrt(t.tag);
+    if (zu) div.style.opacity = '.72';
     div.innerHTML = `
       <div class="icon">T${t.num}</div>
       <div class="info">
         <div class="name">${t.title}</div>
         <div class="theme">${t.num === 'B' ? 'Bonus' : 'Tag ' + t.num} · Nível ${t.nivel} <span style="margin-left:.4rem">${dots}</span></div>
-      </div>`;
+      </div>${zu ? `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-deep); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>` : ''}`;
     el.appendChild(div);
   });
 }
 let ltAudio = null;
 async function openTexto(tag) {
+  if (gesperrt(tag)) { zeigePaywall(); return; }
   const T = TEXTOS.find(t => t.tag === tag);
   let L;
   try { L = await ladeJSON('lektionen/' + tag + '.json'); }
@@ -1305,7 +1312,7 @@ async function ladeJSON(pfad) {
   return daten;
 }
 function resetStore() {
-  if (!confirm('Wirklich alles zurücksetzen? Lektionen, Vokabelstand und Streak werden gelöscht.')) return;
+  if (!confirm('Wirklich alles zurücksetzen? Lektionen, Vokabelstand und Streak werden gelöscht. Ein eingelöster Code für Staffel 2 muss danach neu eingegeben werden.')) return;
   try { localStorage.removeItem('ep-sagres'); localStorage.removeItem('ep-sagres-kaputt'); } catch (e) {}
   location.reload();
 }
@@ -1341,7 +1348,7 @@ function ladeLVocab() {
             // sonst zwei Karten für dasselbe Wort und verzerrte A1-Prozente.
             const k = it.pt.trim().toLowerCase();
             if (VOCAB.some(v => v.pt.trim().toLowerCase() === k)) continue;
-            if (it.audio) raus.push({ id: it.audio, pt: it.pt, ipa: it.ipa, de: it.de, w: l.w, tag: l.label.split(' ·')[0] });
+            if (it.audio) raus.push({ id: it.audio, pt: it.pt, ipa: it.ipa, de: it.de, w: l.w, lid: l.id, tag: l.label.split(' ·')[0] });
           }
         }
         return raus;
@@ -1361,7 +1368,7 @@ async function renderCaderno() {
   let g = 0, a = 0;
   for (const w of alle) { const b = (store.words[w.id] || { box: 0 }).box; if (b >= 2) g++; else if (b === 1) a++; }
   const pct = Math.round(100 * g / total);
-  const a2 = LVOCAB.filter(w => w.w >= 4);
+  const a2 = lvocabFrei().filter(w => w.w >= 4);
   const g2 = a2.filter(w => (store.words[w.id] || { box: 0 }).box >= 2).length;
   const a2zeile = a2.length ? `<div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.2rem">A2 (Staffel 2): ${g2} von ${a2.length} gelernt</div>` : '';
   document.getElementById('cad-stats').innerHTML = `
@@ -1380,7 +1387,7 @@ async function renderCaderno() {
     ['wackler', 'Wackler' + (Object.keys(store.fehler).length ? ' · ' + wacklerListe().length : '')]];
   document.getElementById('cad-chips').innerHTML = F.map(([k, l]) =>
     `<button class="chip ${cadFilter === k ? 'on' : ''}" onclick="cadFilter='${k}'; renderCaderno()">${l}</button>`).join('');
-  const wochen = [...new Set(LESSONS.map(l => l.w))];
+  const wochen = [...new Set(LESSONS.filter(l => !gesperrt(l.id)).map(l => l.w))];
   document.getElementById('cad-spots').innerHTML =
     `<button class="chip ${cadSpot === 'all' ? 'on' : ''}" onclick="cadSpot='all'; renderCaderno()">Alle</button>` +
     wochen.map(w =>
@@ -1394,8 +1401,8 @@ function surfCad() { startLearn(cadSpot === 'all' ? 'mix' : cadSpot); }
 function renderCadList() {
   const q = (document.getElementById('cad-q').value || '').toLowerCase();
   const woche = cadSpot.startsWith('w') && cadSpot.length === 2 ? +cadSpot[1] : null;
-  const basis = woche !== null ? (LVOCAB || []).filter(x => x.w === woche)
-    : cadSpot === 'all' ? VOCAB.concat(LVOCAB || []) : VOCAB;
+  const basis = woche !== null ? lvocabFrei().filter(x => x.w === woche)
+    : cadSpot === 'all' ? VOCAB.concat(lvocabFrei()) : VOCAB;
   const ws = basis.filter(w => {
     if (woche === null && cadSpot !== 'all' && w.block !== cadSpot) return false;
     const b = (store.words[w.id] || { box: 0 }).box;
@@ -1853,6 +1860,7 @@ function renderBlaetter() {
     a.style.textDecoration = 'none';
     a.style.color = 'inherit';
     a.href = 'druck.html?id=' + l.id;
+    if (gesperrt(l.id)) { a.href = '#'; a.style.opacity = '.72'; a.onclick = e => { e.preventDefault(); zeigePaywall(); }; }
     a.innerHTML = `
       <div class="icon">B${i + 1}</div>
       <div class="info">
@@ -1864,6 +1872,7 @@ function renderBlaetter() {
   });
 }
 async function openLesson(id) {
+  if (gesperrt(id)) { zeigePaywall(); return; }
   let L;
   show('lesson');
   try { L = await ladeJSON('lektionen/' + id + '.json'); }
@@ -1921,7 +1930,7 @@ async function openLesson(id) {
       div.innerHTML = `<h3>${sec.title}</h3>
         ${sec.audio ? `<button class="playbtn" style="margin-bottom:.6rem" onclick="play('${sec.audio}')">${PLAY_SVG}</button>` : ''}
         ${versteckt ? `<div class="hint" style="margin-bottom:.5rem">Hörverstehen: Hör die Geschichte zweimal, beantworte die Fragen – und erst dann den Text lesen.</div>
-          <button class="reveal" onclick="this.nextElementSibling.style.display='block'; this.remove()">Text anzeigen</button>` : ''}
+          <button onclick="this.nextElementSibling.style.display='block'; this.remove()" style="border:none; background:var(--lav-pale); color:var(--lav-deep); border-radius:999px; padding:.5rem 1rem; font-family:inherit; font-size:.8rem; font-weight:600; cursor:pointer; min-height:44px; margin-bottom:.6rem">Text anzeigen</button>` : ''}
         <div class="body" ${versteckt ? 'style="display:none"' : ''}>${sec.text}</div>
         ${sec.gloss ? `<div class="hint">${sec.gloss}</div>` : ''}`;
       for (const it of (sec.questions || [])) {
@@ -2026,6 +2035,94 @@ function checkOrder(row) {
   }
 }
 
+/* ==================== STAFFEL 2: KAUFSCHRANKE ====================
+   Staffel 2 (w >= 4) ist kostenpflichtig; Tag 29 ist die freie Probelektion.
+   Freigeschaltet wird per Code (Tester, Marie) – die Store-Kasse (Play Billing /
+   Apple IAP) hängt sich später in kaufen() ein.
+   EHRLICH: Das ist eine Sperre in der Oberfläche, kein Kopierschutz. Die Lektions-
+   dateien liegen weiter öffentlich auf dem Server; echten Schutz gibt es erst mit
+   einer Server-Komponente, die Kaufbelege prüft (siehe STAFFEL2.md). */
+const GRATIS = ['tag29'];
+const CODE_HASHES = [
+  '2a057e1a539d9108817d6849b30ef90bfc6d03f60323e9bc9872b6d01a15b370',
+  '5691b04b806aa42e4463045aeb5d87041b122bcee4f2aa0faa1c88f41fe9b755',
+  '66e530f8ee60722ebafe0397102c8c5ec6710aaaef7afb0a4f904842ca7df34b',
+  '8896a7006b88f283ea92a77b8209337289fe7bfb2314cac3843d6f13a33f7fc5',
+  'e5a38231954cb4bb639eec127f2b01c15690a2848baefe1fe3e77b229387c5f2',
+  '49cb2c3ffb294f98d974c83747a5c62add316a922db0746ab5ea013efd3047e1',
+  'b70b95c4f0a28d617daacec7c7188f47bdfb0ad055d20630b62e908af06c2845',
+  '8c69bd67f8c33889d19c2014c5651e7f26d31b39611f1f4f7dd3db14c27647bb',
+  '3f0f5ab49474c2a66931f00b8eff2d9606a7f8292d47d716354d57ea20728461',
+  '5348ae5959171c3d5b171f0cc04baf625f700e5a5e8263ee2cdb420e9b32f11a',
+  '9e6138b0dd2b16b4f346847621601d5251ffa28b07d7ae77bc02a9a1bd15d61d',
+  'a8ecb03d2ca751f1fffb5f0f9aa69a2ec9c87ddc78fa072e9a8c8e92c457cfef',
+  '6c67e778182c0d6c5330520b005cf383b751822289531983c97e09cc093c4174',
+  '9a2bc96e0545f1b9ce9271ac3986f4cb62d76f891ac726443f20fcad1a531769',
+  'ca273259b53ee876193a67ffa9a0ef6581a5106e8af803dbd080b8dceabee2c7',
+  'f59eac1d1fb7d3a686711dcc05184a3a875694b0f33a36e370a2bada0dfdb405'
+];
+function istPremium() { return !!(store.premium && store.premium.seit); }
+function gesperrt(id) {
+  const l = LESSONS.find(x => x.id === id);
+  return !!l && l.w >= 4 && !GRATIS.includes(id) && !istPremium();
+}
+function lvocabFrei() { return (LVOCAB || []).filter(w => !gesperrt(w.lid)); }
+const SCHLOSS_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
+function zeigePaywall() {
+  let el = document.getElementById('paywall');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'paywall';
+    el.style.cssText = 'position:fixed; inset:0; z-index:80; background:rgba(51,41,74,.45); display:flex; align-items:flex-end; justify-content:center';
+    el.onclick = e => { if (e.target === el) schliessePaywall(); };
+    el.innerHTML = `
+      <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
+        <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft)">Staffel 2 · A2</div>
+        <div style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">A volta</div>
+        <div style="font-size:.9rem; font-weight:400; line-height:1.55; margin-bottom:.9rem">Ein Jahr später: Marie kommt für einen ganzen Sommer zurück. Porto, Coimbra, mit dem alten Van durchs Alentejo – und Sagres, diesmal als Surflehrerin.</div>
+        <div class="mono" style="font-size:.74rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">28 Lektionen auf Niveau A2<br>Imperfekt, Pronomen, Konjunktiv, Erzählen<br>Hörverstehen und neue Übungsformen<br>Abschlusstest im Format der CIPLE-Prüfung</div>
+        <button class="mixbtn" style="margin:0 0 .5rem; transform:none" onclick="kaufen()">Staffel 2 freischalten</button>
+        <div class="mono" style="font-size:.62rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Einmalkauf, kein Abo · Tag 29 ist gratis zum Ausprobieren</div>
+        <div style="display:flex; gap:.5rem">
+          <input id="pw-code" class="exin" placeholder="Code einlösen …" autocapitalize="characters" autocorrect="off" spellcheck="false"
+            onkeydown="if (event.key === 'Enter') codeEinloesen()">
+          <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-deep); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
+        </div>
+        <button onclick="schliessePaywall()" class="mono" style="display:block; margin:1rem auto 0; border:none; background:none; color:var(--ink-soft); font-size:.72rem; letter-spacing:.1em; text-transform:uppercase; cursor:pointer; min-height:44px; padding:0 1rem">Später</button>
+      </div>`;
+    document.body.appendChild(el);
+  }
+  el.style.display = 'flex';
+  const inp = document.getElementById('pw-code'); if (inp) inp.value = '';
+}
+function schliessePaywall() { const el = document.getElementById('paywall'); if (el) el.style.display = 'none'; }
+function kaufen() {
+  // Hier hängt sich später die Store-Kasse ein (Play Billing über die Digital Goods API,
+  // auf iOS StoreKit über die native Hülle). Bis zur Store-Version gibt es nur Codes.
+  meldung('Der Kauf kommt mit der Store-Version. Hast du einen Code? Dann unten einlösen.');
+}
+async function codeEinloesen() {
+  const inp = document.getElementById('pw-code');
+  const code = (inp.value || '').trim().toUpperCase().replace(/\s+/g, '');
+  if (!code) { inp.focus(); return; }
+  let hex = '';
+  try {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(code));
+    hex = [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
+  } catch (e) { meldung('Der Code kann auf diesem Gerät nicht geprüft werden.'); return; }
+  if (!CODE_HASHES.includes(hex)) {
+    inp.classList.add('exfehl'); setTimeout(() => inp.classList.remove('exfehl'), 700);
+    meldung('Dieser Code ist nicht gültig.');
+    return;
+  }
+  store.premium = { seit: today(), art: 'code' };
+  save();
+  VMAP = null;               // Reader-Wörterbuch mit den neuen Wörtern neu bauen
+  schliessePaywall();
+  meldung('Staffel 2 ist freigeschaltet. Boa onda!');
+  goTab('kurs');
+}
+
 /* ---------- Lückentext prüfen ---------- */
 function checkEx(row) {
   const inp = row.querySelector('.exin');
@@ -2068,7 +2165,7 @@ let queue = [], idx = 0, total = 0, flipped = false, correct = 0, curBlock = 'mi
 
 /* Alle lernbaren Wörter: Kernwortschatz + Lektionsvokabeln (LVOCAB).
    Ohne das erreichte gut ein Drittel der Wörter nie eine Übung. */
-function alleWorte() { return LVOCAB ? VOCAB.concat(LVOCAB) : VOCAB; }
+function alleWorte() { return LVOCAB ? VOCAB.concat(lvocabFrei()) : VOCAB; }
 /* Ein Filter, zwei Taxonomien: Themen-Blöcke (Kernwortschatz) und
    Wochen (Lektionswörter, Feld w). 'wackler' zieht das Fehlerarchiv. */
 function filterPool(block) {

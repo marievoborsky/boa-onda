@@ -63,9 +63,21 @@
 <footer>Boa Onda · Arbeitsblatt zum Ausdrucken · Lösungen auf der letzten Seite</footer>
 <script>
 const id = new URLSearchParams(location.search).get('id') || 'tag01';
+// Staffel 2 (ab Tag 30; Tag 29 ist die Probelektion) nur mit Freischaltung – gleiche Regel wie in der App
+const tagNr = +((id.match(/^tag(\d+)$/) || [])[1] || 0);
+let frei = true;
+if (tagNr >= 30) {
+  try { const st = JSON.parse(localStorage.getItem('ep-sagres') || '{}'); frei = !!(st.premium && st.premium.seit); } catch (e) { frei = false; }
+}
+if (!frei) {
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('title').textContent = 'Staffel 2';
+    document.getElementById('sub').textContent = 'Dieses Arbeitsblatt gehört zu Staffel 2. Schalte sie in der App frei, dann kannst du es hier drucken.';
+  });
+}
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 
-fetch('lektionen/' + id + '.json', { cache: 'no-cache' }).then(r => r.json()).then(L => {
+if (frei) fetch('lektionen/' + id + '.json', { cache: 'no-cache' }).then(r => r.json()).then(L => {
   document.title = 'Arbeitsblatt – ' + L.title;
   document.getElementById('title').textContent = L.title;
   document.getElementById('sub').textContent = L.subtitle;
