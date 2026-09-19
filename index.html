@@ -1945,7 +1945,7 @@ async function openLesson(id) {
       for (const ln of sec.lines) {
         const row = document.createElement('div');
         row.className = 'dline';
-        const fig = { ana: 'ana', marie: 'marie', 'joão': 'joao', vasco: 'vasco', martim: 'martim' }[ln.who.trim().toLowerCase()];
+        const fig = { ana: 'ana', marie: 'marie', 'joão': 'joao', vasco: 'vasco', martim: 'martim', tiago: 'tiago', 'inês': 'ines', 'avó': 'carolina' }[ln.who.trim().toLowerCase()];
         row.innerHTML = `${fig ? `<img class="avat" src="avatare/${fig}.png" alt="">` : ''}<span class="who">${ln.who}</span>
           <span class="dpt" onclick="play('${ln.audio}')">${ln.pt}</span>
           ${recButtons(ln.audio)}`;
