@@ -68,7 +68,7 @@
      "a": "onde"
     },
     {
-     "q": "O rapaz ___ canta chama-se Rui.",
+     "q": "O rapaz ___ canta chama-se Tiago.",
      "a": "que"
     },
     {
@@ -245,9 +245,9 @@
   },
   {
    "type": "story",
-   "title": "H · Lesen: Mensagem do Rui (5 P.)",
+   "title": "H · Lesen: Mensagem do Tiago (5 P.)",
    "audio": "r42",
-   "text": "Olá, Ana! Aqui o Rui, dos Kágados. A Joana já levou as coisas dela, por isso o quarto está livre a partir de um de setembro. Podes vir quando quiseres.<br>Duas coisas antes de chegares: primeiro, o quarto é o mais pequeno da casa, mas é o único com varanda, e da varanda vê-se a torre. Segundo, não tragas muita coisa – o armário é antigo e a porta não fecha bem.<br>Perguntaste-me se há regras para visitas. Há: os amigos podem ficar três noites, e a Marie, que é quase da casa, pode ficar quatro. Diz-lhe que a garganta dela é famosa aqui.<br>Não te preocupes com a matrícula: a secretaria abre a nove de setembro e eu vou contigo.<br>Até breve. E não digas mal do Sporting, mesmo a brincar.<br>Rui",
+   "text": "Olá, Ana! Aqui o Tiago, dos Kágados. A Joana já levou as coisas dela, por isso o quarto está livre a partir de um de setembro. Podes vir quando quiseres.<br>Duas coisas antes de chegares: primeiro, o quarto é o mais pequeno da casa, mas é o único com varanda, e da varanda vê-se a torre. Segundo, não tragas muita coisa – o armário é antigo e a porta não fecha bem.<br>Perguntaste-me se há regras para visitas. Há: os amigos podem ficar três noites, e a Marie, que é quase da casa, pode ficar quatro. Diz-lhe que a garganta dela é famosa aqui.<br>Não te preocupes com a matrícula: a secretaria abre a nove de setembro e eu vou contigo.<br>Até breve. E não digas mal do Sporting, mesmo a brincar.<br>Tiago",
    "gloss": "Erst lesen, dann anhören. Neu erschließen: quando quiseres = wann du willst (eine Form für Woche 8) · não tragas = bring nicht (trazer) · antes de chegares = bevor du ankommst · o único = der einzige · fechar = schließen · quase da casa = fast eine von uns · perguntar por = fragen nach · a secretaria = das Sekretariat · Até breve = Bis bald · mesmo a brincar = auch im Spaß. Richtig oder falsch:",
    "questions": [
     {
@@ -268,7 +268,7 @@
     },
     {
      "q": "A Ana tem de tratar da matrícula sozinha.",
-     "a": "Falsch – Rui geht am 9. September mit."
+     "a": "Falsch – Tiago geht am 9. September mit."
     }
    ]
   },

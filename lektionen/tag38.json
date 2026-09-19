@@ -166,12 +166,12 @@
     },
     {
      "who": "Marie",
-     "pt": "Fomos ao rio. O Rui disse que a água do Mondego em julho está quente.",
+     "pt": "Fomos ao rio. O Tiago disse que a água do Mondego em julho está quente.",
      "audio": "d3807"
     },
     {
      "who": "Inês",
-     "pt": "O Rui é de Coimbra. Para ele tudo é quente. Doem-te as costas?",
+     "pt": "O Tiago é de Coimbra. Para ele tudo é quente. Doem-te as costas?",
      "audio": "d3808"
     },
     {
@@ -191,7 +191,7 @@
     },
     {
      "who": "Inês",
-     "pt": "Para um chá de limão não. E Marie: não devias ouvir o Rui. Ele canta bem, mas de medicina não percebe nada.",
+     "pt": "Para um chá de limão não. E Marie: não devias ouvir o Tiago. Ele canta bem, mas de medicina não percebe nada.",
      "audio": "d3812"
     }
    ]
@@ -330,7 +330,7 @@
    "type": "story",
    "title": "7 · Kleine Geschichte: Três dias",
    "audio": "s38",
-   "text": "Três dias de cama na sala da Inês, com o Alberto ao lado. Não é o pior sítio do mundo para estar doente.<br>No primeiro dia, a Marie dorme catorze horas. A Ana vai ver o quarto na república e volta com a cara vermelha de felicidade e um contrato de duas páginas escrito à mão, que termina com «e ninguém pode dizer mal do Sporting».<br>— Assinei — diz. — Sou uma Kágada.<br>No segundo dia, a Marie consegue ler. Lê o caderno de Sagres do ano passado, do princípio ao fim. Ri-se dos erros. Há um ano escrevia «eu sou dezoito ano» – dois erros numa frase de quatro palavras. Hoje escreve cartas ao senhorio no condicional.<br>No terceiro dia, a Inês chega do hospital às nove da noite, cansada, com a bata ainda no saco, e senta-se na cama da Marie.<br>— Como está a garganta?<br>— Melhor. Obrigada, doutora.<br>— Não me chames doutora. Chama-me Inês. — Faz uma pausa. — Duas noites, disse a Ana. Vão ser oito.<br>— Eu sei. Desculpa.<br>— Não peças desculpa. Gosto de ter a casa cheia. — Outra pausa. — O João disse-me uma coisa ao telefone.<br>— O quê?<br>— Que tu és a pessoa mais teimosa que ele conhece. Depois da Ana. Depois de mim.<br>— Isso é um elogio?<br>— Vindo do João, é uma declaração de amor. — A Inês levanta-se. — Amanhã já podes sair. Vais ouvir o Rui cantar. Leva um casaco. E não te ponhas ao pé do rio.",
+   "text": "Três dias de cama na sala da Inês, com o Alberto ao lado. Não é o pior sítio do mundo para estar doente.<br>No primeiro dia, a Marie dorme catorze horas. A Ana vai ver o quarto na república e volta com a cara vermelha de felicidade e um contrato de duas páginas escrito à mão, que termina com «e ninguém pode dizer mal do Sporting».<br>— Assinei — diz. — Sou uma Kágada.<br>No segundo dia, a Marie consegue ler. Lê o caderno de Sagres do ano passado, do princípio ao fim. Ri-se dos erros. Há um ano escrevia «eu sou dezoito ano» – dois erros numa frase de quatro palavras. Hoje escreve cartas ao senhorio no condicional.<br>No terceiro dia, a Inês chega do hospital às nove da noite, cansada, com a bata ainda no saco, e senta-se na cama da Marie.<br>— Como está a garganta?<br>— Melhor. Obrigada, doutora.<br>— Não me chames doutora. Chama-me Inês. — Faz uma pausa. — Duas noites, disse a Ana. Vão ser oito.<br>— Eu sei. Desculpa.<br>— Não peças desculpa. Gosto de ter a casa cheia. — Outra pausa. — O João disse-me uma coisa ao telefone.<br>— O quê?<br>— Que tu és a pessoa mais teimosa que ele conhece. Depois da Ana. Depois de mim.<br>— Isso é um elogio?<br>— Vindo do João, é uma declaração de amor. — A Inês levanta-se. — Amanhã já podes sair. Vais ouvir o Tiago cantar. Leva um casaco. E não te ponhas ao pé do rio.",
    "gloss": "Neu erschließen: a bata = der Arztkittel · Não me chames = Nenn mich nicht (verneinter Befehl – Tag 41) · Não peças desculpa = Entschuldige dich nicht · o sítio = der Ort · a felicidade = das Glück · escrito à mão = handgeschrieben · terminar = enden · do princípio ao fim = von Anfang bis Ende · rir-se de = lachen über · a carta = der Brief · a pausa = die Pause · teimoso, teimosa = stur · o elogio = das Kompliment · vindo de = wenn es von … kommt · a declaração de amor = die Liebeserklärung · o casaco = die Jacke · não te ponhas = stell dich nicht (verneinter Befehl – Tag 41) · ao pé de = neben, in der Nähe von",
    "questions": [
     {
@@ -350,7 +350,7 @@
   {
    "type": "note",
    "title": "Selbstcheck",
-   "html": "Du kannst jetzt sagen, was dir wehtut (<b>dói-me, doem-me</b>), was du hast (<b>tenho febre, estou constipada</b>) und was man tun sollte (<b>deves, devias</b>). Marie darf morgen wieder raus – auf die Stufen der Sé Velha, wo Rui singt. Es wird emotional: <b>Fiquei emocionada.</b>"
+   "html": "Du kannst jetzt sagen, was dir wehtut (<b>dói-me, doem-me</b>), was du hast (<b>tenho febre, estou constipada</b>) und was man tun sollte (<b>deves, devias</b>). Marie darf morgen wieder raus – auf die Stufen der Sé Velha, wo Tiago singt. Es wird emotional: <b>Fiquei emocionada.</b>"
   }
  ]
 }

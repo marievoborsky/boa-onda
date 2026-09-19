@@ -110,7 +110,7 @@
    "type": "story",
    "title": "4 · Lesen: Dein erster Text (kein Dialog!)",
    "audio": "r06",
-   "text": "A Sofia é portuguesa e tem vinte e nove anos. É professora e mora no Porto. Fala português, inglês e um pouco de alemão. O irmão da Sofia, o Rui, é estudante e estuda em Coimbra. Ele tem vinte anos e fala inglês muito bem. A Sofia trabalha muito, mas está feliz — o trabalho é fantástico e o Porto é a cidade da Sofia.",
+   "text": "A Sofia é portuguesa e tem vinte e nove anos. É professora e mora no Porto. Fala português, inglês e um pouco de alemão. O irmão da Sofia, o Tiago, é estudante e estuda em Coimbra. Ele tem vinte anos e fala inglês muito bem. A Sofia trabalha muito, mas está feliz — o trabalho é fantástico e o Porto é a cidade da Sofia.",
    "gloss": "Neu erschließen: vinte e nove = 29 (Zahlen über 20 baut man mit „e\": zwanzig und neun!) · da Sofia = von Sofia (o irmão da Sofia = Sofias Bruder).",
    "questions": [
     {
@@ -122,8 +122,8 @@
      "a": "Fala português, inglês e um pouco de alemão."
     },
     {
-     "q": "Quantos anos é que o Rui tem?",
-     "a": "(O Rui) tem vinte anos."
+     "q": "Quantos anos é que o Tiago tem?",
+     "a": "(O Tiago) tem vinte anos."
     }
    ]
   },
@@ -166,7 +166,7 @@
      "a": "falas"
     },
     {
-     "q": "O Rui ___ estudante e ___ em Coimbra.",
+     "q": "O Tiago ___ estudante e ___ em Coimbra.",
      "a": "é / estuda"
     },
     {

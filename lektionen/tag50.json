@@ -132,7 +132,7 @@
   {
    "type": "reading",
    "title": "4 · Lesen: Deita, rema, de pé",
-   "hint": "Selbst erschlossen: o Miguel = der Junge aus Lissabon, der vor allem Angst hat · ao lado = daneben · a barriga = der Bauch · as mãos = die Hände · agarrar = festhalten · aguentar = aushalten · o joelho = das Knie · se vier = wenn … kommt (Form für Tag 53) · Boa! = Gut so! · Não faz mal = macht nichts. Vasco steht daneben und schweigt.",
+   "hint": "Selbst erschlossen: o Martim = der Junge aus Lissabon, der vor allem Angst hat · ao lado = daneben · a barriga = der Bauch · as mãos = die Hände · agarrar = festhalten · aguentar = aushalten · o joelho = das Knie · se vier = wenn … kommt (Form für Tag 53) · Boa! = Gut so! · Não faz mal = macht nichts. Vasco steht daneben und schweigt.",
    "lines": [
     {
      "who": "Marie",
@@ -140,7 +140,7 @@
      "audio": "d5001"
     },
     {
-     "who": "Miguel",
+     "who": "Martim",
      "pt": "Assim?",
      "audio": "d5002"
     },
@@ -150,7 +150,7 @@
      "audio": "d5003"
     },
     {
-     "who": "Miguel",
+     "who": "Martim",
      "pt": "E se vier uma onda grande?",
      "audio": "d5004"
     },
@@ -160,7 +160,7 @@
      "audio": "d5005"
     },
     {
-     "who": "Miguel",
+     "who": "Martim",
      "pt": "A prancha não me conhece.",
      "audio": "d5006"
     },
@@ -170,7 +170,7 @@
      "audio": "d5007"
     },
     {
-     "who": "Miguel",
+     "who": "Martim",
      "pt": "Caí.",
      "audio": "d5008"
     },
@@ -180,17 +180,17 @@
      "audio": "d5009"
     },
     {
-     "who": "Miguel",
+     "who": "Martim",
      "pt": "De pé!",
      "audio": "d5010"
     },
     {
      "who": "Marie",
-     "pt": "Boa! Viste? Repete dez vezes. Depois vamos à água. Miguel, não faças essa cara. Eu caí catorze vezes no primeiro dia.",
+     "pt": "Boa! Viste? Repete dez vezes. Depois vamos à água. Martim, não faças essa cara. Eu caí catorze vezes no primeiro dia.",
      "audio": "d5011"
     },
     {
-     "who": "Miguel",
+     "who": "Martim",
      "pt": "Catorze? Então eu vou cair vinte.",
      "audio": "d5012"
     }
@@ -294,12 +294,12 @@
      "a": "Falsch – zuerst auf dem Sand, wie bei Marie vor einem Jahr."
     },
     {
-     "q": "O Miguel cai na areia.",
+     "q": "O Martim cai na areia.",
      "a": "Richtig – „Isso é novo.“"
     },
     {
      "q": "A Marie diz que caiu catorze vezes no primeiro dia.",
-     "a": "Richtig – Miguel will zwanzigmal fallen."
+     "a": "Richtig – Martim will zwanzigmal fallen."
     }
    ]
   },
@@ -334,15 +334,15 @@
    "type": "story",
    "title": "7 · Kleine Geschichte: Vinte vezes",
    "audio": "s50",
-   "text": "O Miguel caiu vinte e três vezes. Contou. Depois parou de contar, porque na vez vinte e quatro ficou de pé.<br>Não foi bonito. Ficou de pé como quem se levanta de uma cadeira com medo, com os braços abertos e a boca aberta, durante dois segundos e meio. Mas ficou. E a espuma levou-o até à areia, e ele saiu da água a gritar coisas que a Marie não percebeu e que provavelmente não eram português.<br>— Viste? VISTE?<br>— Vi.<br>— Ficaste com medo de eu cair?<br>— Fiquei com medo de tu não te levantares.<br>Ao meio-dia, com os oito alunos a comerem sandes à sombra da escola, o Vasco sentou-se ao lado da Marie.<br>— Então?<br>— Doem-me as pernas. E a garganta, de gritar «rema».<br>— E?<br>— E foi a melhor manhã da minha vida.<br>O Vasco assentiu, como se já soubesse.<br>— Amanhã tens um grupo de alemães. Uma família. O pai diz que fala português.<br>— E fala?<br>— Fala «obrigado» e «cerveja». Vais precisar das duas línguas.<br>— Vasco… porque é que me deste os principiantes? Tu explicas melhor.<br>— Eu explico melhor. Tu percebes melhor. Tu ainda te lembras de como é não saber. Eu já não. — Levantou-se. — Isso é a coisa mais importante que um instrutor pode ter. Não a percas.<br>A Marie ficou sentada, com a sandes na mão, a ver o Miguel, na areia, a deitar-se e a levantar-se sozinho, outra vez e outra vez, sem ninguém a mandar.",
+   "text": "O Martim caiu vinte e três vezes. Contou. Depois parou de contar, porque na vez vinte e quatro ficou de pé.<br>Não foi bonito. Ficou de pé como quem se levanta de uma cadeira com medo, com os braços abertos e a boca aberta, durante dois segundos e meio. Mas ficou. E a espuma levou-o até à areia, e ele saiu da água a gritar coisas que a Marie não percebeu e que provavelmente não eram português.<br>— Viste? VISTE?<br>— Vi.<br>— Ficaste com medo de eu cair?<br>— Fiquei com medo de tu não te levantares.<br>Ao meio-dia, com os oito alunos a comerem sandes à sombra da escola, o Vasco sentou-se ao lado da Marie.<br>— Então?<br>— Doem-me as pernas. E a garganta, de gritar «rema».<br>— E?<br>— E foi a melhor manhã da minha vida.<br>O Vasco assentiu, como se já soubesse.<br>— Amanhã tens um grupo de alemães. Uma família. O pai diz que fala português.<br>— E fala?<br>— Fala «obrigado» e «cerveja». Vais precisar das duas línguas.<br>— Vasco… porque é que me deste os principiantes? Tu explicas melhor.<br>— Eu explico melhor. Tu percebes melhor. Tu ainda te lembras de como é não saber. Eu já não. — Levantou-se. — Isso é a coisa mais importante que um instrutor pode ter. Não a percas.<br>A Marie ficou sentada, com a sandes na mão, a ver o Martim, na areia, a deitar-se e a levantar-se sozinho, outra vez e outra vez, sem ninguém a mandar.",
    "gloss": "Neu erschließen: parar de = aufhören zu · como quem = wie jemand, der · com os braços abertos = mit offenen Armen · levou-o = trug ihn · assentir = nicken · como se já soubesse = als wüsste er es schon · Não a percas = verlier sie nicht (perder, verneinter Befehl) · mandar = befehlen",
    "questions": [
     {
-     "q": "O Miguel ficou de pé na vez vinte e quatro.",
+     "q": "O Martim ficou de pé na vez vinte e quatro.",
      "a": "Richtig – nicht schön, aber zweieinhalb Sekunden lang."
     },
     {
-     "q": "A Marie teve medo de o Miguel cair.",
+     "q": "A Marie teve medo de o Martim cair.",
      "a": "Falsch – Angst, dass er nicht wieder aufsteht."
     },
     {

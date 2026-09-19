@@ -131,7 +131,7 @@
    "hint": "Selbst erschlossen: as escadas = die Treppe · não batam palmas = klatscht nicht (verneinter Befehl – Tag 41) · a letra = der Liedtext · a saudade = die Sehnsucht (Tag 29) · pigarrear = sich räuspern · bater palmas = klatschen · ninguém = niemand · Fica calada = Sei still · o lenço = das Taschentuch.",
    "lines": [
     {
-     "who": "Rui",
+     "who": "Tiago",
      "pt": "Sentem-se ali, nas escadas. E não batam palmas no fim. Aqui pigarreia-se.",
      "audio": "d3901"
     },
@@ -141,7 +141,7 @@
      "audio": "d3902"
     },
     {
-     "who": "Rui",
+     "who": "Tiago",
      "pt": "Estou sempre nervoso antes. Depois fico calmo. É assim.",
      "audio": "d3903"
     },
@@ -151,7 +151,7 @@
      "audio": "d3904"
     },
     {
-     "who": "Rui",
+     "who": "Tiago",
      "pt": "Doze. E chora melhor do que qualquer pessoa. Silêncio agora.",
      "audio": "d3905"
     },
@@ -186,7 +186,7 @@
      "audio": "d3911"
     },
     {
-     "who": "Rui",
+     "who": "Tiago",
      "pt": "Obrigado. A próxima é para a rapariga do Porto que chorou e diz que não chorou.",
      "audio": "d3912"
     }
@@ -291,12 +291,12 @@
      "a": "Falsch – man räuspert sich („pigarreia-se“). Klatschen ist für Touristen."
     },
     {
-     "q": "O Rui fica calmo depois de começar a cantar.",
+     "q": "O Tiago fica calmo depois de começar a cantar.",
      "a": "Richtig – vorher immer nervös, danach ruhig."
     },
     {
      "q": "A Ana admite que está a chorar.",
-     "a": "Falsch – „Não. Estou emocionada. É diferente.“ Rui widmet ihr trotzdem das nächste Lied."
+     "a": "Falsch – „Não. Estou emocionada. É diferente.“ Tiago widmet ihr trotzdem das nächste Lied."
     }
    ]
   },
@@ -331,11 +331,11 @@
    "title": "7 · Hörverstehen: A serenata",
    "audio": "s39",
    "listen": true,
-   "text": "Depois do fado, ninguém quer ir para casa. Descem até ao rio em silêncio, os cinco: o Rui com a guitarra às costas, dois colegas da república, a Ana e a Marie. A noite está quente e o Mondego parece parado.<br>— Foi a primeira vez que vi a Ana calada durante vinte minutos — diz a Marie.<br>— Eu estava a ouvir — diz a Ana. — Há uma diferença.<br>Sentam-se na relva junto à ponte. O Rui afina a guitarra e não canta: toca só. Uma melodia lenta, sem letra, que sobe e desce como o rio.<br>A Marie fecha os olhos. Pensa em Hamburgo, no porto, nos navios. Pensa na avó do Porto e no martelo de 1968. Pensa em Sagres e numa prancha grande que está à espera. Sente uma coisa no peito que não tem nome em alemão. Em português tem: saudade. Saudade de coisas que ainda nem aconteceram.<br>Quando o Rui acaba, ninguém bate palmas. A Ana pigarreia. A Marie pigarreia. Os dois colegas pigarreiam. O Rui ri-se.<br>— Aprendem depressa.<br>— Nós somos do Norte — diz a Ana. — Aprendemos tudo depressa. Menos a ficar caladas.<br>No caminho para casa, a Ana dá o braço à Marie.<br>— Sabes o que é que eu senti hoje?<br>— O quê?<br>— Que vou ficar bem aqui. Fiquei calma. Pela primeira vez desde a resposta da universidade.<br>— Eu sei. Eu vi.<br>— Viste?<br>— Não. Mas ouvi. Vinte minutos de silêncio, Ana. Foi o som mais bonito da noite.",
+   "text": "Depois do fado, ninguém quer ir para casa. Descem até ao rio em silêncio, os cinco: o Tiago com a guitarra às costas, dois colegas da república, a Ana e a Marie. A noite está quente e o Mondego parece parado.<br>— Foi a primeira vez que vi a Ana calada durante vinte minutos — diz a Marie.<br>— Eu estava a ouvir — diz a Ana. — Há uma diferença.<br>Sentam-se na relva junto à ponte. O Tiago afina a guitarra e não canta: toca só. Uma melodia lenta, sem letra, que sobe e desce como o rio.<br>A Marie fecha os olhos. Pensa em Hamburgo, no porto, nos navios. Pensa na avó do Porto e no martelo de 1968. Pensa em Sagres e numa prancha grande que está à espera. Sente uma coisa no peito que não tem nome em alemão. Em português tem: saudade. Saudade de coisas que ainda nem aconteceram.<br>Quando o Tiago acaba, ninguém bate palmas. A Ana pigarreia. A Marie pigarreia. Os dois colegas pigarreiam. O Tiago ri-se.<br>— Aprendem depressa.<br>— Nós somos do Norte — diz a Ana. — Aprendemos tudo depressa. Menos a ficar caladas.<br>No caminho para casa, a Ana dá o braço à Marie.<br>— Sabes o que é que eu senti hoje?<br>— O quê?<br>— Que vou ficar bem aqui. Fiquei calma. Pela primeira vez desde a resposta da universidade.<br>— Eu sei. Eu vi.<br>— Viste?<br>— Não. Mas ouvi. Vinte minutos de silêncio, Ana. Foi o som mais bonito da noite.",
    "gloss": "Erst hören, dann die Fragen, dann lesen. Neu erschließen: descer = hinuntergehen · afinar = stimmen (Instrument) · às costas = auf dem Rücken · a relva = der Rasen · junto a = neben · lento, lenta = langsam · o peito = die Brust · ainda nem = noch nicht einmal · depressa = schnell · dar o braço = sich unterhaken · o som = der Klang",
    "questions": [
     {
-     "q": "Depois do fado, o Rui canta mais uma música junto ao rio.",
+     "q": "Depois do fado, o Tiago canta mais uma música junto ao rio.",
      "a": "Falsch – er spielt nur, ohne Text. Eine langsame Melodie, die wie der Fluss auf und ab geht."
     },
     {

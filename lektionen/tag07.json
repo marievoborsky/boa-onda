@@ -147,17 +147,17 @@
   },
   {
    "type": "story",
-   "title": "E · Lesen: O Tiago (5 P.)",
+   "title": "E · Lesen: O Diogo (5 P.)",
    "audio": "r07",
-   "text": "Olá! Eu sou o Tiago e tenho dezoito anos. Sou português, de Faro, mas agora estudo em Lisboa. Falo português, espanhol e um pouco de inglês. Hoje estou um pouco cansado, mas estou muito feliz: a minha amiga Clara está cá em Lisboa! A Clara é espanhola, de Madrid, e tem dezanove anos. Ela fala espanhol e português muito bem — e agora estuda alemão. Porquê? É uma pergunta para a Clara!",
+   "text": "Olá! Eu sou o Diogo e tenho dezoito anos. Sou português, de Faro, mas agora estudo em Lisboa. Falo português, espanhol e um pouco de inglês. Hoje estou um pouco cansado, mas estou muito feliz: a minha amiga Clara está cá em Lisboa! A Clara é espanhola, de Madrid, e tem dezanove anos. Ela fala espanhol e português muito bem — e agora estuda alemão. Porquê? É uma pergunta para a Clara!",
    "gloss": "Erst lesen, dann anhören. Richtig oder falsch:",
    "questions": [
     {
-     "q": "O Tiago é de Lisboa.",
+     "q": "O Diogo é de Lisboa.",
      "a": "Falsch – aus Faro, er studiert nur in Lissabon."
     },
     {
-     "q": "O Tiago fala três línguas.",
+     "q": "O Diogo fala três línguas.",
      "a": "Richtig – português, espanhol, inglês."
     },
     {
@@ -169,7 +169,7 @@
      "a": "Richtig."
     },
     {
-     "q": "O Tiago está triste.",
+     "q": "O Diogo está triste.",
      "a": "Falsch – müde, aber sehr glücklich."
     }
    ]
@@ -179,8 +179,8 @@
    "title": "F · Fragen bilden – mit „é que\"! (4 P.)",
    "items": [
     {
-     "q": "Du willst wissen, woher Tiago ist:",
-     "a": "De onde é que és? / De onde é que o Tiago é?"
+     "q": "Du willst wissen, woher Diogo ist:",
+     "a": "De onde é que és? / De onde é que o Diogo é?"
     },
     {
      "q": "…wie alt Clara ist:",

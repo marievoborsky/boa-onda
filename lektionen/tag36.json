@@ -132,11 +132,11 @@
   {
    "type": "reading",
    "title": "4 · Lesen: O dia dos alunos novos",
-   "hint": "Selbst erschlossen: o aluno = der Student, Schüler · o Rui = ein Student, der die Neuen herumführt (neue Nebenfigur) · fundada = gegründet · as escadas = die Treppe · de que ninguém gosta = die niemand mag (gostar de + que) · Cabra = die Ziege (Name der Glocke) · acordar = wecken, aufwachen · a Sé Velha = die alte Kathedrale · esta semana = diese Woche.",
+   "hint": "Selbst erschlossen: o aluno = der Student, Schüler · o Tiago = ein Student, der die Neuen herumführt (neue Nebenfigur) · fundada = gegründet · as escadas = die Treppe · de que ninguém gosta = die niemand mag (gostar de + que) · Cabra = die Ziege (Name der Glocke) · acordar = wecken, aufwachen · a Sé Velha = die alte Kathedrale · esta semana = diese Woche.",
    "lines": [
     {
-     "who": "Rui",
-     "pt": "Bem-vindos! Eu sou o Rui, sou do terceiro ano. Esta é a faculdade onde vocês vão ter aulas.",
+     "who": "Tiago",
+     "pt": "Bem-vindos! Eu sou o Tiago, sou do terceiro ano. Esta é a faculdade onde vocês vão ter aulas.",
      "audio": "d3601"
     },
     {
@@ -145,7 +145,7 @@
      "audio": "d3602"
     },
     {
-     "who": "Rui",
+     "who": "Tiago",
      "pt": "A universidade foi fundada em 1290. Aquela torre que vês ali tem um sino que se chama Cabra.",
      "audio": "d3603"
     },
@@ -155,7 +155,7 @@
      "audio": "d3604"
     },
     {
-     "who": "Rui",
+     "who": "Tiago",
      "pt": "Porque acordava os estudantes todas as manhãs. Uma tradição de que ninguém gosta.",
      "audio": "d3605"
     },
@@ -165,7 +165,7 @@
      "audio": "d3606"
     },
     {
-     "who": "Rui",
+     "who": "Tiago",
      "pt": "Nas festas, sim. É a capa que vês nos fados de Coimbra. Eu canto num grupo.",
      "audio": "d3607"
     },
@@ -175,7 +175,7 @@
      "audio": "d3608"
     },
     {
-     "who": "Rui",
+     "who": "Tiago",
      "pt": "Todos os estudantes com quem eu vivo cantam. A nossa república chama-se «Os Kágados».",
      "audio": "d3609"
     },
@@ -185,7 +185,7 @@
      "audio": "d3610"
     },
     {
-     "who": "Rui",
+     "who": "Tiago",
      "pt": "É uma tradição. As repúblicas têm nomes estranhos. Esta semana cantamos nas escadas da Sé Velha. Venham.",
      "audio": "d3611"
     },
@@ -205,7 +205,7 @@
      "a": "onde"
     },
     {
-     "q": "O rapaz ___ canta chama-se Rui.",
+     "q": "O rapaz ___ canta chama-se Tiago.",
      "a": "que"
     },
     {
@@ -247,12 +247,12 @@
      "a": "Esta é a cidade onde eu vivo. – Ort → onde"
     },
     {
-     "q": "O Rui é o rapaz. Falei com o rapaz. →",
+     "q": "O Tiago é o rapaz. Falei com o rapaz. →",
      "opts": [
-      "O Rui é o rapaz com quem falei.",
-      "O Rui é o rapaz que falei."
+      "O Tiago é o rapaz com quem falei.",
+      "O Tiago é o rapaz que falei."
      ],
-     "a": "O Rui é o rapaz com quem falei. – Präposition + Person → com quem"
+     "a": "O Tiago é o rapaz com quem falei. – Präposition + Person → com quem"
     },
     {
      "q": "Perdi as chaves. Comprei as chaves ontem. →",
@@ -274,9 +274,9 @@
      "a": "Este é o edifício onde temos aulas."
     },
     {
-     "q": "Der Junge, der singt, heißt Rui.",
-     "satz": "O rapaz que canta chama-se Rui.",
-     "a": "O rapaz que canta chama-se Rui."
+     "q": "Der Junge, der singt, heißt Tiago.",
+     "satz": "O rapaz que canta chama-se Tiago.",
+     "a": "O rapaz que canta chama-se Tiago."
     },
     {
      "q": "Die Freundin, mit der ich wohne, ist aus Porto.",
@@ -298,7 +298,7 @@
      "a": "Falsch – weil er die Studierenden jeden Morgen weckte. Eine Tradition, „de que ninguém gosta“."
     },
     {
-     "q": "O Rui vive numa república que se chama «Os Kágados».",
+     "q": "O Tiago vive numa república que se chama «Os Kágados».",
      "a": "Richtig – die WGs in Coimbra haben seltsame Namen."
     }
    ]
