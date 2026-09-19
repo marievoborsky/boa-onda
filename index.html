@@ -708,7 +708,7 @@ function goTab(id, ausHistory) {
 const WOCHEN = ['Woche 1 · Ich und du', 'Woche 2 · Meine Welt', 'Woche 3 · Mein Alltag', 'Woche 4 · Unterwegs',
   'Staffel 2 · Woche 5 · Porto, outra vez', 'Woche 6 · Coimbra', 'Woche 7 · A estrada', 'Woche 8 · Sagres, com responsabilidade'];
 // Etappen-Vignetten je Woche (Staffel 2: Porto/Milfontes/Sagres wiederverwendet, Coimbra eigene Vignette)
-const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'coimbra', 'milfontes', 'sagres'];
+const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'coimbra', 'alentejo', 'sagres'];
 const LESSONS = [
   { id: 'tag01', label: 'Tag 1 · Olá!', sub: 'Begrüßen & sich vorstellen', w: 0 },
   { id: 'tag02', label: 'Tag 2 · De onde és?', sub: 'Herkunft & Nationalitäten', w: 0 },
@@ -779,18 +779,18 @@ const ETAPPEN = [
    mit w >= 4 existieren, Staffel 2 „A volta" (Flug nach Porto, Coimbra, Alentejo, Sagres). */
 const KARTEN = [
   { w0: 0, titel: 'A viagem da Marie · Staffel 1 · A1', etappen: ETAPPEN, rechts: [0], teaser: true,
-    rota: 'M 118 16 C 112 60, 120 100, 124 140 C 130 175, 160 175, 158 205 C 155 235, 130 245, 126 285 C 122 320, 130 350, 148 392',
+    rota: 'M 176 16 C 178 40, 186 70, 184 95 C 182 125, 172 150, 166 172 C 158 200, 134 212, 131 240 C 129 262, 150 280, 162 296 C 174 312, 166 335, 170 355 C 173 372, 168 385, 163 394',
     seg: [[0.05, 0.34], [0.40, 0.66], [0.71, 0.85], [0.875, 0.955]], extra: '' },
-  { w0: 4, titel: 'A volta · Staffel 2 · A2', rechts: [0, 1], teaser: false,
+  { w0: 4, titel: 'A volta · Staffel 2 · A2', rechts: [0], teaser: false,
     etappen: [
       { name: 'Porto',    sub: 'Woche 5 · Outra vez',   frac: 0.03 },
       { name: 'Coimbra',  sub: 'Woche 6 · A universidade', frac: 0.21 },
       { name: 'Alentejo', sub: 'Woche 7 · A estrada',   frac: 0.78 },
       { name: 'Sagres',   sub: 'Woche 8 · A escola',    frac: 0.98 }],
-    rota: 'M 118 16 C 125 45, 132 70, 135 95 C 140 130, 175 170, 165 220 C 155 265, 128 280, 124 310 C 120 340, 130 365, 148 392',
+    rota: 'M 176 16 C 190 35, 224 55, 238 88 C 250 118, 254 152, 244 188 C 233 228, 202 270, 193 305 C 186 340, 180 370, 163 394',
     seg: [[0.03, 0.19], [0.22, 0.50], [0.55, 0.78], [0.80, 0.97]],
     // Flug Sagres → Porto als gepunkteter Bogen über Land
-    extra: '<path d="M 148 392 C 290 330, 300 60, 122 16" fill="none" stroke="#b3a88e" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 8" opacity=".7"/><text x="262" y="205" text-anchor="middle" fill="#7a6f5a" font-size="7" letter-spacing=".1em" font-family="Roboto Mono, monospace" stroke="#fffdf6" stroke-width="2.5" paint-order="stroke">VOO</text>' },
+    extra: '<path d="M 163 394 C 310 340, 318 70, 180 16" fill="none" stroke="#b3a88e" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 8" opacity=".7"/><text x="300" y="205" text-anchor="middle" fill="#7a6f5a" font-size="7" letter-spacing=".1em" font-family="Roboto Mono, monospace" stroke="#fffdf6" stroke-width="2.5" paint-order="stroke">VOO</text>' },
 ];
 function renderKursMap() {
   const box1 = document.getElementById('kurs-map');
