@@ -861,15 +861,10 @@ function renderKursMapFor(cfg) {
   cfg.etappen.forEach((e2, i) => {
     const p = weg.getPointAtLength(e2.frac * L);
     const erreicht = wocheOffen(w0 + i);
-    tupfer(p.x, p.y, 13.5, { fill: '#fbf3e1', stroke: erreicht ? '#c4553a' : '#8a7a86', 'stroke-width': 2.4 });
-    if (!erreicht) {
-      el('rect', { x: p.x - 3.5, y: p.y - 2.5, width: 7, height: 6, rx: 1.2, fill: 'none', stroke: '#9a8d72', 'stroke-width': 1.4 });
-      el('path', { d: `M ${p.x - 2.2} ${p.y - 2.5} v -1.6 a 2.2 2.2 0 0 1 4.4 0 v 1.6`, fill: 'none', stroke: '#9a8d72', 'stroke-width': 1.4 });
-    } else {
-      el('path', { d: `M ${p.x - 5} ${p.y + 1} q 2.5 -5 5 0 q 2.5 5 5 0`, fill: 'none', stroke: '#c4553a', 'stroke-width': 2.4, 'stroke-linecap': 'round', filter: 'url(#km-pinsel)' });
-    }
+    // Station = ein deckender Gouache-Tupfer (kein Weiß, kein Symbol); noch gesperrte Wochen blasser
+    tupfer(p.x, p.y, 7.5, { fill: '#4a2f4a', opacity: erreicht ? 1 : .42 });
     const rechts = cfg.rechts.includes(i);
-    const lx = rechts ? p.x + 24 : p.x - 24;
+    const lx = rechts ? p.x + 18 : p.x - 18;
     const anker = rechts ? 'start' : 'end';
     const wName = e2.name.length * 7.1, wSub = e2.sub.length * 4.7;
     const wChip = Math.max(wName, wSub) + 14;
