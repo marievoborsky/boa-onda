@@ -818,7 +818,7 @@ function renderKursMapFor(cfg) {
       </defs>
       <image href="karte.png" x="0" y="0" width="320" height="411" preserveAspectRatio="xMidYMid slice"/>
       <path id="km-weg" d="${ROTA}" filter="url(#km-pinsel)"
-        fill="none" stroke="#fbf3e1" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="4 7" opacity=".9"/>
+        fill="none" stroke="#c4553a" stroke-width="3.6" stroke-linecap="round" opacity=".5"/>
       <path id="km-fortschritt" d="${ROTA}" filter="url(#km-pinsel)"
         fill="none" stroke="#c4553a" stroke-width="5" stroke-linecap="round"/>
       ${cfg.extra || ''}
@@ -856,17 +856,6 @@ function renderKursMapFor(cfg) {
     let d = 'M ' + m(pts[n - 1], pts[0]).join(' ');
     for (let i = 0; i < n; i++) d += ` Q ${pts[i].join(' ')} ${m(pts[i], pts[(i + 1) % n]).join(' ')}`;
     return el('path', { d: d + ' Z', filter: 'url(#km-pinsel)', ...attrs });
-  }
-  // Tages-Punkte aller offenen Wochen
-  for (let w = w0; w < w0 + 4; w++) {
-    if (!wocheOffen(w)) continue;
-    for (let i = 0; i < 7; i++) {
-      const p = weg.getPointAtLength(dayFrac(w, i + 1) * L);
-      const fertig = i < wocheDone(w);
-      tupfer(p.x, p.y, fertig ? 4.6 : 4.2, fertig
-        ? { fill: '#c4553a', stroke: '#fbf3e1', 'stroke-width': 1.3 }
-        : { fill: '#fbf3e1', stroke: '#5a3a52', 'stroke-width': 1, 'stroke-opacity': .45 });
-    }
   }
   // Etappen-Stationen
   cfg.etappen.forEach((e2, i) => {
