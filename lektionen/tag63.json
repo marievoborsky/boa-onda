@@ -1,0 +1,311 @@
+{
+ "id": "tag63",
+ "title": "Revisão VII – Wochentest",
+ "subtitle": "Staffel 3 · Woche 9 · Tag 63 · Mini-Test · 50 Punkte · ca. 40 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen, dann prüfen und Punkte zählen – ohne Nachschauen. Woche 9 war die Woche des Ankommens: ein schlechtes Sofa und das <i>perfeito composto</i>, ein Amt voller Konjunktive, die Bäckerei um vier mit dem <i>infinitivo pessoal</i>, der erste Kurstag (<i>quero que, não acho que</i>), ein Streiktag mit dem <i>futuro do conjuntivo</i> und ein Regensonntag mit <i>embora</i> und <i>mesmo que</i>. Notier dir die Punkte pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> Bevor du anfängst: Erzähl dir Maries erste Lissabon-Woche laut, in zwei Minuten – Sofa, Amt, Bäckerei, Kurs, Streik, Regen. Wenn dabei <i>tenho dormido mal</i>, <i>é preciso que traga</i>, <i>antes de saíres</i>, <i>se houver greve</i> und <i>embora esteja cansada</i> vorkommen, ist der Test schon halb bestanden. Ich würde dir gern sagen, dass er in Porto leichter wäre. <i>No Porto é melhor</i>, aber der Test ist derselbe. <i>Que corra bem!</i>"
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln aus Woche 9 (10 P.)",
+   "items": [
+    {
+     "q": "die Treppe",
+     "a": "as escadas"
+    },
+    {
+     "q": "die Wartenummer",
+     "a": "a senha"
+    },
+    {
+     "q": "ausfüllen (ein Formular)",
+     "a": "preencher"
+    },
+    {
+     "q": "der Teig",
+     "a": "a massa"
+    },
+    {
+     "q": "knusprig (männliche Form)",
+     "a": "estaladiço"
+    },
+    {
+     "q": "der Akzent (beim Sprechen)",
+     "a": "o sotaque"
+    },
+    {
+     "q": "der Streik",
+     "a": "a greve"
+    },
+    {
+     "q": "die Abkürzung (Weg)",
+     "a": "o atalho"
+    },
+    {
+     "q": "aufgeben",
+     "a": "desistir (de)"
+    },
+    {
+     "q": "der Regenschirm",
+     "a": "o guarda-chuva"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · Tenho feito – perfeito composto (6 P.)",
+   "items": [
+    {
+     "q": "Marie schläft in letzter Zeit wenig: Ultimamente a Marie ___ pouco. (dormir)",
+     "a": "tem dormido"
+    },
+    {
+     "q": "Was treibst du so in letzter Zeit? O que é que ___? (tu, fazer)",
+     "a": "tens feito"
+    },
+    {
+     "q": "Seit wir da sind, essen wir jeden Tag Brot: Desde que chegámos, ___ pão todos os dias. (nós, comer)",
+     "a": "temos comido"
+    },
+    {
+     "q": "Dona Lurdes beschwert sich dauernd: A Dona Lurdes ___ queixado do barulho. (ter + se)",
+     "a": "tem-se"
+    },
+    {
+     "q": "No sábado o tio Zé ___ o primeiro ordenado à Marie.",
+     "opts": [
+      "deu",
+      "tem dado"
+     ],
+     "a": "deu – no sábado: einmal, abgeschlossen → simples"
+    },
+    {
+     "q": "Desde que trabalha na padaria, a Marie ___ às três e quarenta.",
+     "opts": [
+      "acordou",
+      "tem acordado"
+     ],
+     "a": "tem acordado – seitdem immer wieder, bis jetzt → composto"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · É preciso que … – Konjunktiv (7 P.)",
+   "items": [
+    {
+     "q": "É necessário que a Marie ___ duas testemunhas. (levar)",
+     "a": "leve"
+    },
+    {
+     "q": "Convém que (tu) ___ cedo à Loja do Cidadão. (ir)",
+     "a": "vás"
+    },
+    {
+     "q": "É preciso que (nós) ___ o passaporte. (trazer)",
+     "a": "tragamos"
+    },
+    {
+     "q": "A professora quer que a Noor ___ mais devagar. (falar)",
+     "a": "fale"
+    },
+    {
+     "q": "Peço-lhe que ___ a frase. (a senhora, repetir)",
+     "a": "repita"
+    },
+    {
+     "q": "Acho que a turma ___ simpática.",
+     "opts": [
+      "seja",
+      "é"
+     ],
+     "a": "é – bejahtes acho que → Indikativ"
+    },
+    {
+     "q": "Não acho que o sofá do João ___ bom.",
+     "opts": [
+      "é",
+      "seja"
+     ],
+     "a": "seja – verneinte Meinung → Konjunktiv"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · Infinitivo pessoal (6 P.)",
+   "items": [
+    {
+     "q": "Lava as mãos antes de ___ na massa. (tocar, tu)",
+     "a": "tocares"
+    },
+    {
+     "q": "O tio Zé acende o forno cedo para ___ pão quente às seis. (ter, nós)",
+     "a": "termos"
+    },
+    {
+     "q": "Depois de os fregueses ___, a Marie tira o avental. (sair)",
+     "a": "saírem"
+    },
+    {
+     "q": "É melhor ___ o guarda-chuva, Marie. (levar, tu)",
+     "a": "levares"
+    },
+    {
+     "q": "É preciso ___ às quatro. (tu)",
+     "opts": [
+      "chegues",
+      "chegares"
+     ],
+     "a": "chegares – ohne que → infinitivo pessoal; mit que: é preciso que chegues"
+    },
+    {
+     "q": "A Marie veste-se às escuras antes de ___ de casa. (sie selbst geht)",
+     "opts": [
+      "sair",
+      "saírem"
+     ],
+     "a": "sair – gleiches Subjekt (a Marie), 3. Person Singular: keine Endung"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Se houver, quando chegares – futuro do conjuntivo (6 P.)",
+   "items": [
+    {
+     "q": "Se ___ greve amanhã, vou a pé. (haver)",
+     "a": "houver"
+    },
+    {
+     "q": "Quando (tu) ___ ao Rossio, liga-me. (chegar)",
+     "a": "chegares"
+    },
+    {
+     "q": "Assim que (eu) ___, carrego o passe. (poder)",
+     "a": "puder"
+    },
+    {
+     "q": "Enquanto ___ a chover, ficamos no café. (estar)",
+     "a": "estiver"
+    },
+    {
+     "q": "Quando ___ greve, a Marie vai sempre a pé. (Gewohnheit)",
+     "opts": [
+      "houver",
+      "há"
+     ],
+     "a": "há – Gewohnheit, keine Zukunft → Indikativ"
+    },
+    {
+     "q": "Wenn du willst, zeige ich dir die Stadt.",
+     "satz": "Se quiseres, mostro-te a cidade.",
+     "a": "Se quiseres, mostro-te a cidade."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "F · Embora, para que, mesmo que (5 P.)",
+   "items": [
+    {
+     "q": "Embora a Marie ___ cansada, vai à aula. (estar)",
+     "a": "esteja"
+    },
+    {
+     "q": "Mesmo que ___ a semana toda, a senhora sobe a rua. (chover)",
+     "a": "chova"
+    },
+    {
+     "q": "O João esvaziou metade do armário para que a Marie ___ espaço. (ter)",
+     "a": "tenha"
+    },
+    {
+     "q": "Tenho dúvidas, ___ fico em Lisboa.",
+     "opts": [
+      "embora",
+      "mas"
+     ],
+     "a": "mas – fico ist Indikativ; mit embora hieße es: Embora tenha dúvidas, fico."
+    },
+    {
+     "q": "Obwohl es schwer ist, gebe ich nicht auf.",
+     "satz": "Embora seja difícil, não desisto.",
+     "a": "Embora seja difícil, não desisto."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "G · Lesen: Mensagem da Noor (6 P.)",
+   "audio": "r63",
+   "text": "Olá, Marie! Aviso já: estou a escrever com o corretor automático ligado, por isso hoje não vais encontrar erros. Aproveita, porque na segunda-feira volto a falar sem ele.<br>Ultimamente tenho pensado muito no nosso negócio. Tu tens corrigido os meus erros todos os dias, mas eu ainda não te empurrei para a rua. Por isso tenho uma proposta: amanhã, às quatro da tarde, há um grupo de conversa num café do Príncipe Real. São quase só portugueses, falam depressa e ninguém espera por ninguém. Quero que venhas comigo. Não acho que seja fácil, mas acho que é exatamente aquilo de que precisas.<br>É preciso que leves o caderno, para apontares as palavras novas, e convém que durmas a sesta antes de saíres de casa: eu sei a que horas te levantas. Se houver greve outra vez, vamos a pé, tu já conheces o caminho. Quando chegares ao Rossio, liga-me, para que eu te vá buscar à estação.<br>Embora a professora Helena diga que eu devo olhar para os dois lados, amanhã nenhuma de nós olha. E mesmo que faças vinte erros, não faz mal. Eu faço trinta por dia e ainda cá estou.<br>Responde assim que puderes. E traz pão, se sobrar algum!<br>Beijinhos, Noor",
+   "gloss": "Erst lesen, dann anhören. Neu erschließen: o corretor automático = die Autokorrektur · aproveitar = ausnutzen, genießen · a proposta = der Vorschlag · o grupo de conversa = die Konversationsgruppe · apontar = hier: notieren · dormir a sesta = Mittagsschlaf halten · ir buscar = abholen · sobrar = übrig bleiben. Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "A Noor escreveu esta mensagem sem corretor automático.",
+     "a": "Falsch – mit. Deshalb gibt es heute keine Fehler; am Montag spricht sie wieder ohne."
+    },
+    {
+     "q": "A Noor quer que a Marie vá com ela a um grupo de conversa.",
+     "a": "Richtig – morgen um vier, in einem Café im Príncipe Real. „Quero que venhas comigo.“"
+    },
+    {
+     "q": "A Noor acha que vai ser fácil para a Marie.",
+     "a": "Falsch – „Não acho que seja fácil“, aber genau das, was Marie braucht."
+    },
+    {
+     "q": "Convém que a Marie durma a sesta antes de sair de casa.",
+     "a": "Richtig – Noor weiß, wann Marie aufsteht."
+    },
+    {
+     "q": "Se houver greve outra vez, as duas ficam em casa.",
+     "a": "Falsch – dann gehen sie zu Fuß. Marie kennt den Weg ja schon."
+    },
+    {
+     "q": "Quando chegar ao Rossio, a Marie deve ligar à Noor.",
+     "a": "Richtig – „para que eu te vá buscar à estação“."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "H · Schreiben: A minha semana (4 P.)",
+   "html": "Schreib fünf Sätze über deine eigene Woche – ohne Spickzettel, jeder Satz mit einer anderen Struktur aus Woche 9. 1 Punkt pro korrektem Satz, höchstens 4: Einen Fehler hast du frei.<br><br>1. Was du in letzter Zeit immer wieder tust (<i>Ultimamente tenho…</i>) · 2. Was nötig ist (<i>É preciso que eu…</i> / <i>Convém que…</i>) · 3. Ein infinitivo pessoal mit eigenem Subjekt (<i>Antes de os meus colegas chegarem, …</i> / <i>É melhor tu…</i>) · 4. Ein Plan für die Zukunft (<i>Se tiver tempo, …</i> / <i>Quando chegar a casa, …</i>) · 5. Ein Trotzdem (<i>Embora esteja…</i> / <i>Mesmo que…</i>)<br><br>Muster: <i>Ultimamente tenho trabalhado muito. É preciso que eu descanse mais. Ligo à minha mãe antes de ela se deitar. Se tiver tempo no sábado, vou ao mercado. Embora esteja cansada, não desisto.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (50 Punkte)",
+   "html": "<b>43–50:</b> Fantástico! Du bist in Lissabon angekommen – mit Amt, Bäckerei, Streik und Regen. Vier neue Konjunktiv-Auslöser, zwei neue Verbformen: Das ist solides B1.<br><b>33–42:</b> Muito bem! Schau, wo die Punkte fehlen: Teil B → Tag 57 (Signalwörter <i>ultimamente</i> ↔ <i>ontem</i>) · Teil C → Dica von Tag 58 und Tag 60 (<i>acho que é</i> ↔ <i>não acho que seja</i>) · Teil D → Tag 59 · Teil E → die Liste der Unregelmäßigen von Tag 61 (<i>houver, puder, estiver, quiser</i>) · Teil F → Tag 62. Sag zu dem schwächsten Teil zehn eigene Sätze laut.<br><b>unter 33:</b> Woche 9 hatte sehr viel Grammatik auf einmal. Wiederhole zuerst Tag 58 (Bildung des Konjunktivs – darauf bauen Tag 60 und 62 auf), dann Tag 59 und Tag 61 nebeneinander, weil sich die Formen so ähnlich sehen. Danach den Test noch einmal. <i>Cansada é bom.</i><br><br>Nächste Woche: <b>O curso</b> – Marie muss im Kurs Stellung beziehen: Meinungen und Diskussion, Gefühle mit Konjunktiv, Relativsätze, Zeitungssprache und ein Referat vor Professora Helena."
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: O primeiro ordenado",
+   "audio": "s63",
+   "text": "No sábado, às dez, a Marie tirou o avental. Tinha sido a primeira semana inteira na padaria: seis manhãs, seis vezes o despertador às três e quarenta, seis vezes «Dia» na carrinha branca. Ainda lhe doíam os braços, mas agora já conhecia todos os sítios que doíam.<br>O primeiro pão dela tinha ficado torto. O de sexta-feira, menos torto. Dos outros, o tio Zé nunca disse nada. Mudava-lhe a posição dos dedos, voltava ao fado e punha os pães da Marie no canto do tabuleiro, longe dos fregueses.<br>Depois de a última freguesa sair, ele foi à gaveta do balcão e tirou de lá um envelope branco. Na frente estava escrito «Marie», a lápis, na letra de quem escreve pouco.<br>— O teu ordenado.<br>A Marie pegou no envelope com as duas mãos, como quem pega num pão quente. Nunca ninguém lhe tinha pago por amassar pão às quatro da manhã.<br>— Obrigada, tio Zé.<br>Ele não respondeu. Foi lá dentro e voltou com um saco de papel. A Marie conhecia aquele saco: no primeiro dia tinha levado nele um pão com cara de quem caiu pelas escadas.<br>Abriu-o. Lá dentro estava um pão dourado, estaladiço, alto dos dois lados, igual aos outros. Ela procurou o defeito e não o encontrou.<br>— Este é meu?<br>— É o primeiro que não ficou torto.<br>A Marie quis dizer qualquer coisa importante, sobre o esforço, o cansaço e um domingo de chuva. Em vez disso perguntou:<br>— Então este já se pode pôr à venda?<br>— O primeiro leva-se para casa.<br>No elétrico vinte e oito, ela não adormeceu. Levava o envelope no bolso e o pão ao colo, como quem leva um bebé.<br>O João apareceu na cozinha às onze e um quarto e olhou para o pão durante muito tempo.<br>— Não está torto.<br>— Eu sei.<br>— Compraste-o?<br>— Fui eu que o fiz.<br>Ele cortou uma fatia, pôs-lhe manteiga e provou.<br>— Está direito — disse, de boca cheia. — Mas tenho saudades do outro. Tinha mais personalidade.<br>Só então a Marie abriu o envelope. Lá dentro estavam as notas, contadas, e um papel pequeno, também a lápis: «Segunda, às quatro.» Para o tio Zé, aquilo era um contrato.<br>Ela foi buscar o caderno, abriu-o na lista de domingo e escreveu à direita: «Um pão direito.» Seis a cinco.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: o ordenado = der Lohn, das Gehalt · a gaveta = die Schublade · o envelope = der Umschlag · a lápis = mit Bleistift · a letra = die Handschrift · o defeito = der Makel, der Fehler · pôr à venda = zum Verkauf anbieten · ao colo = auf dem Schoß · direito = gerade (Gegenteil von torto) · a personalidade = die Persönlichkeit · as notas = hier: die Geldscheine · o contrato = der Vertrag",
+   "questions": [
+    {
+     "q": "O tio Zé deu o ordenado à Marie num envelope com o nome dela escrito a lápis.",
+     "a": "Richtig – „na letra de quem escreve pouco“. Dazu genau zwei Wörter: „O teu ordenado.“"
+    },
+    {
+     "q": "O pão que a Marie levou para casa no sábado estava torto como o primeiro.",
+     "a": "Falsch – „É o primeiro que não ficou torto.“ João vermisst trotzdem das schiefe: Es hatte mehr Persönlichkeit."
+    },
+    {
+     "q": "No envelope havia também um papel: «Segunda, às quatro.»",
+     "a": "Richtig – für Tio Zé ist das ein Vertrag. Und in Maries Liste steht es jetzt sechs zu fünf fürs Bleiben."
+    }
+   ]
+  }
+ ]
+}

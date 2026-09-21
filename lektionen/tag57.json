@@ -1,0 +1,395 @@
+{
+ "id": "tag57",
+ "title": "O sofá do João",
+ "subtitle": "Staffel 3 · Woche 9 · Tag 57 · Einzug in Graça · pretérito perfeito composto · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 55 & 56)",
+   "items": [
+    {
+     "q": "Ich hoffe, dass du bleibst: Espero que ___. (ficar)",
+     "a": "fiques"
+    },
+    {
+     "q": "No verão passado, eu ___ aulas todas as manhãs. (dar – Gewohnheit)",
+     "opts": [
+      "dava",
+      "dei"
+     ],
+     "a": "dava – Gewohnheit in der Vergangenheit → Imperfekt"
+    },
+    {
+     "q": "Vielleicht ist das Sofa schlecht: Talvez o sofá ___ mau. (ser)",
+     "a": "seja"
+    },
+    {
+     "q": "Erzähl es uns zuerst! (du) → ___ primeiro.",
+     "a": "Conta-nos"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Viver a dois (16)",
+   "items": [
+    {
+     "pt": "o andar",
+     "de": "das Stockwerk",
+     "ipa": "[ɐ̃ˈdaɾ]",
+     "audio": "v5701"
+    },
+    {
+     "pt": "o elevador",
+     "de": "der Aufzug",
+     "ipa": "[ilɨvɐˈdoɾ]",
+     "audio": "v5702"
+    },
+    {
+     "pt": "as escadas",
+     "de": "die Treppe",
+     "ipa": "[ɨʃˈkadɐʃ]",
+     "audio": "v5703"
+    },
+    {
+     "pt": "o degrau",
+     "de": "die Stufe",
+     "ipa": "[dɨˈgɾaw]",
+     "audio": "v5704"
+    },
+    {
+     "pt": "o telhado",
+     "de": "das Dach",
+     "ipa": "[tɨˈʎadu]",
+     "audio": "v5705"
+    },
+    {
+     "pt": "a almofada",
+     "de": "das Kissen",
+     "ipa": "[aɫmuˈfadɐ]",
+     "audio": "v5706"
+    },
+    {
+     "pt": "a manta",
+     "de": "die (Woll-)Decke",
+     "ipa": "[ˈmɐ̃tɐ]",
+     "audio": "v5707"
+    },
+    {
+     "pt": "a mola",
+     "de": "die Sprungfeder; die Wäscheklammer",
+     "ipa": "[ˈmɔlɐ]",
+     "audio": "v5708"
+    },
+    {
+     "pt": "dividir",
+     "de": "teilen, aufteilen",
+     "ipa": "[dɨviˈdiɾ]",
+     "audio": "v5709"
+    },
+    {
+     "pt": "a loiça",
+     "de": "das Geschirr",
+     "ipa": "[ˈlojsɐ]",
+     "audio": "v5710"
+    },
+    {
+     "pt": "o lixo",
+     "de": "der Müll",
+     "ipa": "[ˈliʃu]",
+     "audio": "v5711"
+    },
+    {
+     "pt": "arrumar",
+     "de": "aufräumen",
+     "ipa": "[ɐʁuˈmaɾ]",
+     "audio": "v5712"
+    },
+    {
+     "pt": "o barulho",
+     "de": "der Lärm",
+     "ipa": "[bɐˈɾuʎu]",
+     "audio": "v5713"
+    },
+    {
+     "pt": "queixar-se (de)",
+     "de": "sich beschweren (über)",
+     "ipa": "[kɐjˈʃaɾsɨ]",
+     "audio": "v5714"
+    },
+    {
+     "pt": "ultimamente",
+     "de": "in letzter Zeit",
+     "ipa": "[uɫtimɐˈmẽtɨ]",
+     "audio": "v5715"
+    },
+    {
+     "pt": "habituar-se (a)",
+     "de": "sich gewöhnen (an)",
+     "ipa": "[ɐbiˈtwaɾsɨ]",
+     "audio": "v5716"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do João: Tenho dormido mal",
+   "html": "<i>(João, im Pyjama, mit galão, kurz vor zwölf:)</i> Der Vasco ist in Sagres, also erkläre jetzt ich. Kurz, ich bin müde. Es gibt eine Zeit, die aussieht wie euer deutsches Perfekt und etwas ganz anderes bedeutet: das <b>pretérito perfeito composto</b>.<br><br><b>Bildung:</b> <i>ter</i> im Präsens + Partizip. Das Partizip bleibt immer gleich (auf -o):<br><i>tenho · tens · tem · temos · têm</i> + <i>trabalh<b>ado</b></i> (-ar → -ado) · <i>com<b>ido</b>, dorm<b>ido</b></i> (-er/-ir → -ido)<br>Die unregelmäßigen Partizipien kennt ihr schon vom Plusquamperfekt: <i>feito, dito, visto, escrito, posto, aberto, vindo</i>.<br><br><b>Bedeutung:</b> Etwas passiert <b>in letzter Zeit immer wieder oder andauernd – und es reicht bis jetzt</b>. Auf Deutsch nehmt ihr dafür meistens das Präsens mit „in letzter Zeit“ oder „zurzeit“:<br><i>Ultimamente <b>tenho dormido</b> mal.</i> – In letzter Zeit schlafe ich schlecht.<br><i><b>Tens trabalhado</b> muito.</i> – Du arbeitest zurzeit viel.<br><i><b>Tem chovido</b> muito nos últimos dias.</i> – Es regnet seit Tagen viel.<br><i>Desde que cheguei, <b>tenho comido</b> pão todos os dias.</i> – Seit ich da bin, esse ich jeden Tag Brot.<br><i>O que é que <b>tens feito</b>?</i> – Was treibst du so in letzter Zeit?<br><i>A vizinha <b>tem-se queixado</b>.</i> – Die Nachbarin beschwert sich dauernd. (Das Pronomen hängt an <i>ter</i>, nicht am Partizip.)<br><br><b>Signalwörter:</b> <i>ultimamente · nos últimos dias · nas últimas semanas · desde que cheguei · este mês</i>.<br><br><b>Der typische Fehler:</b> Deutsches „ich habe gearbeitet“ ist fast immer das <b>einfache</b> Perfekt. Einmal, fertig, vorbei → <i>simples</i>:<br><i>Ontem <b>trabalhei</b> muito.</i> (nicht: <i>ontem tenho trabalhado</i>)<br><i>Já <b>comi</b>.</i> (nicht: <i>já tenho comido</i>)<br><i><b>Vi</b> o filme.</i> = Ich habe den Film gesehen. · <i><b>Tenho visto</b> muitos filmes.</i> = Ich schaue in letzter Zeit viele Filme.<br><br>Faustregel: Steht <i>ontem</i>, <i>no sábado</i>, <i>há dois dias</i> oder <i>já</i> im Satz → simples. Steht <i>ultimamente</i> im Satz → composto. So. Jetzt gehe ich wieder ins Bett."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> Wenn dich in Portugal jemand nach ein paar Wochen wiedersieht, fragt er nicht „Wie geht’s?“, sondern <b>Então, o que é que tens feito?</b> Die richtige Antwort ist kein Lebenslauf, sondern ein Satz mit <i>ter</i>: <i>Tenho estudado muito. · Tenho andado ocupada.</i> (<i>andar ocupada</i> = viel um die Ohren haben.) Und zu den vier Stockwerken ohne Aufzug sagt dir jeder Lissabonner dasselbe: <b>Habituas-te.</b> Stimmt nicht, aber es ist nett gemeint. Aussprache: <i>ultimamente</i> = „ultimaméntö“, <i>barulho</i> = „barúlju“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: As regras da casa",
+   "hint": "Selbst erschlossen: o prédio = das (Wohn-)Haus · pôr-se em bicos de pés = sich auf die Zehenspitzen stellen · a confusão = das Durcheinander · pareces cansado = du siehst müde aus · a culpa não é de… = schuld ist nicht … · o primo = der Cousin · cá = hier (bei uns) · reclamar = sich beschweren · nada de barulho = kein Lärm · assustar = erschrecken, Angst machen. Der 30. September, halb vier am Nachmittag: Marie ist gerade mit dem Koffer oben angekommen.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Quatro andares sem elevador, João. Não me disseste nada!",
+     "audio": "d5701"
+    },
+    {
+     "who": "João",
+     "pt": "Disse que a vista era boa. Anda ver: da janela da cozinha vê-se o Tejo.",
+     "audio": "d5702"
+    },
+    {
+     "who": "Marie",
+     "pt": "Onde? Só vejo telhados.",
+     "audio": "d5703"
+    },
+    {
+     "who": "João",
+     "pt": "Ali, entre aqueles dois prédios. Tens de te pôr em bicos de pés.",
+     "audio": "d5704"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ah. Sim. Um bocadinho de Tejo. E a casa… está sempre assim?",
+     "audio": "d5705"
+    },
+    {
+     "who": "João",
+     "pt": "Desculpa a confusão. Ultimamente tenho trabalhado muito para a faculdade e não tenho arrumado nada.",
+     "audio": "d5706"
+    },
+    {
+     "who": "Marie",
+     "pt": "Pareces cansado. Tens dormido bem?",
+     "audio": "d5707"
+    },
+    {
+     "who": "João",
+     "pt": "Tenho dormido mal, mas a culpa não é do sofá. Eu durmo no quarto. O sofá é para ti.",
+     "audio": "d5708"
+    },
+    {
+     "who": "Marie",
+     "pt": "E é assim tão mau?",
+     "audio": "d5709"
+    },
+    {
+     "who": "João",
+     "pt": "O meu primo tem ficado cá às sextas-feiras e tem-se queixado muito das costas. Mas ele queixa-se de tudo. Uma pessoa habitua-se.",
+     "audio": "d5710"
+    },
+    {
+     "who": "Marie",
+     "pt": "Está bem. E regras? Há regras da casa?",
+     "audio": "d5711"
+    },
+    {
+     "who": "João",
+     "pt": "Três. Quem cozinha não lava a loiça. O lixo desce todas as noites, uma vez tu, uma vez eu. E depois das onze, nada de barulho: a vizinha do terceiro tem reclamado.",
+     "audio": "d5712"
+    },
+    {
+     "who": "Marie",
+     "pt": "Combinado. Desde agosto que tenho pensado neste dia, sabes? Nem o sofá me assusta.",
+     "audio": "d5713"
+    },
+    {
+     "who": "João",
+     "pt": "Diz-me isso amanhã de manhã.",
+     "audio": "d5714"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · ter + Partizip: Bilde die Form",
+   "items": [
+    {
+     "q": "In letzter Zeit schlafe ich schlecht: Ultimamente ___ mal. (dormir)",
+     "a": "tenho dormido"
+    },
+    {
+     "q": "Du arbeitest zurzeit viel: ___ muito ultimamente. (trabalhar)",
+     "a": "Tens trabalhado"
+    },
+    {
+     "q": "Es regnet seit Tagen viel: Nos últimos dias ___ muito. (chover)",
+     "a": "tem chovido"
+    },
+    {
+     "q": "Was treibst du so? O que é que ___? (tu, fazer)",
+     "a": "tens feito"
+    },
+    {
+     "q": "Seit ich da bin, esse ich viel Brot: Desde que cheguei, ___ muito pão. (comer)",
+     "a": "tenho comido"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Composto ou simples? (antippen)",
+   "items": [
+    {
+     "q": "Ontem ___ até às duas da manhã.",
+     "opts": [
+      "trabalhei",
+      "tenho trabalhado"
+     ],
+     "a": "trabalhei – ontem: einmal, abgeschlossen → simples"
+    },
+    {
+     "q": "Ultimamente ___ muito pouco.",
+     "opts": [
+      "tenho dormido",
+      "dormi"
+     ],
+     "a": "tenho dormido – ultimamente: wiederholt, bis jetzt → composto"
+    },
+    {
+     "q": "Já ___ o lixo? – Sim, há cinco minutos.",
+     "opts": [
+      "levaste",
+      "tens levado"
+     ],
+     "a": "levaste – eine einzelne, erledigte Handlung → simples"
+    },
+    {
+     "q": "Desde que a Marie chegou, o João ___ mais cedo.",
+     "opts": [
+      "tem acordado",
+      "acordou"
+     ],
+     "a": "tem acordado – seitdem immer wieder → composto"
+    },
+    {
+     "q": "„Ich habe den Film gesehen.“ heißt:",
+     "opts": [
+      "Vi o filme.",
+      "Tenho visto o filme."
+     ],
+     "a": "Vi o filme. – deutsches Perfekt = fast immer perfeito simples"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "In letzter Zeit schlafe ich sehr schlecht.",
+     "satz": "Ultimamente tenho dormido muito mal.",
+     "a": "Ultimamente tenho dormido muito mal."
+    },
+    {
+     "q": "Die Nachbarin beschwert sich dauernd über den Lärm.",
+     "satz": "A vizinha tem-se queixado do barulho.",
+     "a": "A vizinha tem-se queixado do barulho."
+    },
+    {
+     "q": "Wer kocht, spült nicht das Geschirr.",
+     "satz": "Quem cozinha não lava a loiça.",
+     "a": "Quem cozinha não lava a loiça."
+    },
+    {
+     "q": "Wir teilen uns die Miete und den Müll.",
+     "satz": "Dividimos a renda e o lixo.",
+     "a": "Dividimos a renda e o lixo."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O João tem dormido bem ultimamente.",
+     "a": "Falsch – er schläft schlecht. Am Sofa liegt es nicht: Er schläft im Zimmer."
+    },
+    {
+     "q": "Da janela da cozinha vê-se um bocadinho do Tejo.",
+     "a": "Richtig – zwischen zwei Häusern, und nur auf Zehenspitzen."
+    },
+    {
+     "q": "Quem cozinha também lava a loiça.",
+     "a": "Falsch – Regel eins: „Quem cozinha não lava a loiça.“"
+    },
+    {
+     "q": "A vizinha do terceiro andar tem reclamado do barulho.",
+     "a": "Richtig – deshalb gilt nach elf: nada de barulho."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Was hast du in letzter Zeit so gemacht? → ___",
+     "a": "O que é que tens feito (ultimamente)? / O que tens feito (ultimamente)?"
+    },
+    {
+     "q": "Ich habe in den letzten Tagen viel an dich gedacht. → ___",
+     "a": "Tenho pensado muito em ti nos últimos dias. / Nos últimos dias tenho pensado muito em ti."
+    },
+    {
+     "q": "Gestern habe ich die Wohnung aufgeräumt. → ___",
+     "a": "Ontem arrumei a casa. / Arrumei a casa ontem. / Ontem arrumei o apartamento."
+    },
+    {
+     "q": "Ich wohne in einem vierten Stock ohne Aufzug. → ___",
+     "a": "Moro num quarto andar sem elevador. / Vivo num quarto andar sem elevador."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O que é que tens feito?",
+   "html": "Ana ruft aus Coimbra an und fragt: <i>Então, o que é que tens feito?</i> Antworte laut in sechs bis acht Sätzen – was du <b>in letzter Zeit</b> immer wieder tust, mit <i>ter</i> + Partizip: <i>Ultimamente tenho… · Nas últimas semanas tenho… · Não tenho… · Desde que comecei este curso, tenho…</i><br><br>Bau mindestens einen Satz mit einem einmaligen Ereignis ein, damit du den Unterschied hörst: <i>Ontem fui… · No sábado vi…</i> Nimm dich auf.<br><br>Dann Joãos Satz, verschlafen: <i>O sofá é mau. Mas uma pessoa habitua-se.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: O quarto andar",
+   "audio": "s57",
+   "text": "A Marie chegou a Lisboa no dia 30 de setembro, às três da tarde, com uma mala de vinte e três quilos, uma mochila e um pão preto de Hamburgo para o João, que ainda não sabia que não gosta de pão preto.<br>A Graça fica no alto de uma colina. A Marie só percebeu isso a meio da subida.<br>O prédio do João é cor-de-rosa, tem azulejos partidos à entrada e uma porta que só abre com o ombro. Elevador não há. Nunca houve. A Marie contou os degraus: setenta e dois. No terceiro abriu-se uma porta, e uma senhora pequena, de bata às flores, olhou para a mala, depois para a Marie.<br>— É para o quarto?<br>— É. Sou a Marie. Vou morar com o João.<br>— Hum — disse a senhora. — Ele tem feito muito barulho ultimamente. Diga-lhe que a Dona Lurdes ouve tudo.<br>O João abriu a porta de pijama. Eram três e meia da tarde.<br>— Chegaste! Tenho estado à tua espera.<br>— A dormir?<br>— À espera. Deitado.<br>A casa tem um quarto, uma sala, uma casa de banho e uma cozinha onde cabem duas pessoas magras. Da janela da cozinha, em bicos de pés, entre dois telhados, vê-se um bocadinho de Tejo do tamanho de um selo. O João mostrou-o como quem mostra um palácio.<br>Depois mostrou o sofá. O sofá é castanho, tem três almofadas e uma mola que sai exatamente no sítio onde uma pessoa tem as costas. O João comprou-o por vinte euros a um colega que ficou muito contente.<br>— É mau — disse o João. — Eu avisei.<br>— Avisaste.<br>A Marie sentou-se. A mola disse qualquer coisa.<br>Às quatro da manhã ainda estava acordada. A mola também. Levantou-se, foi à cozinha, pôs-se em bicos de pés e ficou a ver o selo de Tejo, preto, com a luz de um barco a passar devagar. Voltou para a sala, deitou-se de lado, com os joelhos dobrados e a manta até ao nariz, e a mola, por alguma razão, calou-se.<br>Às onze e um quarto, o João apareceu com um galão na mão e o bigode despenteado.<br>— Dormiste?<br>— Um bocadinho. De lado.<br>— O meu primo demorou três semanas a descobrir o lado — disse o João, com respeito. — Tu demoraste uma noite. Vais longe nesta cidade.",
+   "gloss": "Neu erschließen: a colina = der Hügel · a meio da subida = auf halber Höhe · partido = kaputt, zerbrochen · o ombro = die Schulter · a bata = die Kittelschürze · o quarto = hier doppeldeutig: das Zimmer / der vierte (Stock) · caber = hineinpassen · o selo = die Briefmarke · de lado = auf der Seite · dobrado = angewinkelt · calar-se = verstummen · despenteado = ungekämmt",
+   "questions": [
+    {
+     "q": "O prédio do João tem elevador desde o ano passado.",
+     "a": "Falsch – „Elevador não há. Nunca houve.“ Zweiundsiebzig Stufen."
+    },
+    {
+     "q": "A Dona Lurdes diz que o João tem feito muito barulho ultimamente.",
+     "a": "Richtig – und dass sie alles hört."
+    },
+    {
+     "q": "A Marie dormiu muito bem a noite inteira.",
+     "a": "Falsch – um vier war sie noch wach. Erst auf der Seite, mit angewinkelten Knien, gab die Feder Ruhe."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt sagen, was in letzter Zeit immer wieder passiert – <i>tenho dormido mal, tens trabalhado muito</i> – und du weißt, dass das deutsche Perfekt fast immer das <i>perfeito simples</i> ist. Du kannst Hausregeln aushandeln und eine Wohnung beschreiben. Morgen braucht Marie eine Steuernummer und zieht in der Loja do Cidadão eine Nummer: <b>Senha B 247.</b>"
+  }
+ ]
+}

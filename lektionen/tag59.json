@@ -1,0 +1,394 @@
+{
+ "id": "tag59",
+ "title": "A padaria às quatro",
+ "subtitle": "Staffel 3 · Woche 9 · Tag 59 · Erste Schicht in der Bäckerei · infinitivo pessoal · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 58)",
+   "items": [
+    {
+     "q": "É preciso que tu ___ o formulário. (trazer)",
+     "a": "tragas"
+    },
+    {
+     "q": "Convém que a Marie ___ cedo. (chegar)",
+     "opts": [
+      "chegue",
+      "chega"
+     ],
+     "a": "chegue – nach convém que steht der Konjunktiv; g wird vor e zu gu"
+    },
+    {
+     "q": "Ich schlafe in letzter Zeit schlecht: Ultimamente ___ dormido mal.",
+     "a": "tenho"
+    },
+    {
+     "q": "„Tenho trabalhado muito.“ heißt:",
+     "opts": [
+      "Ich arbeite in letzter Zeit viel.",
+      "Ich habe gestern viel gearbeitet."
+     ],
+     "a": "Ich arbeite in letzter Zeit viel. – wiederholt bis heute, kein deutsches Perfekt"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Na padaria (16)",
+   "items": [
+    {
+     "pt": "a massa",
+     "de": "der Teig",
+     "ipa": "[ˈmasɐ]",
+     "audio": "v5901"
+    },
+    {
+     "pt": "a farinha",
+     "de": "das Mehl",
+     "ipa": "[fɐˈɾiɲɐ]",
+     "audio": "v5902"
+    },
+    {
+     "pt": "o fermento",
+     "de": "die Hefe",
+     "ipa": "[fɨɾˈmẽtu]",
+     "audio": "v5903"
+    },
+    {
+     "pt": "amassar",
+     "de": "kneten",
+     "ipa": "[ɐmɐˈsaɾ]",
+     "audio": "v5904"
+    },
+    {
+     "pt": "o forno",
+     "de": "der Ofen",
+     "ipa": "[ˈfoɾnu]",
+     "audio": "v5905"
+    },
+    {
+     "pt": "a fornada",
+     "de": "der Schub, die Ofenladung",
+     "ipa": "[fuɾˈnadɐ]",
+     "audio": "v5906"
+    },
+    {
+     "pt": "o tabuleiro",
+     "de": "das Backblech; das Tablett",
+     "ipa": "[tɐbuˈlɐjɾu]",
+     "audio": "v5907"
+    },
+    {
+     "pt": "a balança",
+     "de": "die Waage",
+     "ipa": "[bɐˈlɐ̃sɐ]",
+     "audio": "v5908"
+    },
+    {
+     "pt": "o avental",
+     "de": "die Schürze",
+     "ipa": "[ɐvẽˈtaɫ]",
+     "audio": "v5909"
+    },
+    {
+     "pt": "o padeiro / a padeira",
+     "de": "der Bäcker / die Bäckerin",
+     "ipa": "[paˈdɐjɾu / paˈdɐjɾɐ]",
+     "audio": "v5910"
+    },
+    {
+     "pt": "a carcaça",
+     "de": "das Brötchen (in Lissabon)",
+     "ipa": "[kɐɾˈkasɐ]",
+     "audio": "v5911"
+    },
+    {
+     "pt": "o pão de Mafra",
+     "de": "das Mafra-Brot (rustikales Weizenbrot mit viel Kruste)",
+     "ipa": "[ˈpɐ̃w̃ dɨ ˈmafɾɐ]",
+     "audio": "v5912"
+    },
+    {
+     "pt": "a broa",
+     "de": "das Maisbrot",
+     "ipa": "[ˈbɾoɐ]",
+     "audio": "v5913"
+    },
+    {
+     "pt": "a côdea",
+     "de": "die Kruste, die Brotrinde",
+     "ipa": "[ˈkodjɐ]",
+     "audio": "v5914"
+    },
+    {
+     "pt": "o freguês / a freguesa",
+     "de": "der Stammkunde / die Stammkundin",
+     "ipa": "[fɾɛˈgeʃ / fɾɛˈgezɐ]",
+     "audio": "v5915"
+    },
+    {
+     "pt": "estaladiço",
+     "de": "knusprig",
+     "ipa": "[ɨʃtɐlɐˈdisu]",
+     "audio": "v5916"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica do João: Der Infinitiv mit Endung",
+   "html": "<i>(João, kurz nach elf, im Schlafanzug, mit Milchkaffee:)</i> Mein Onkel redet wenig, aber wenn er redet, benutzt er eine Form, die es fast nur im Portugiesischen gibt: den <b>infinitivo pessoal</b> – einen Infinitiv mit Personalendung. Es ist die bequemste Form der ganzen Sprache. Deshalb mag ich sie.<br><br><b>Bildung:</b> ganzer Infinitiv + Endung. Immer regelmäßig, auch bei <i>ser, ir, ter, fazer</i>.<br>eu <b>chegar</b> · tu <b>chegares</b> · ele / ela / o senhor <b>chegar</b> · nós <b>chegarmos</b> · eles / vocês <b>chegarem</b><br>genauso: <i>fazer – fazeres – fazermos – fazerem</i> · <i>ir – ires – irmos – irem</i> · <i>sair – saíres – sairmos – saírem</i><br><br><b>Wann?</b> Wenn nach einer <b>Präposition</b> oder einem unpersönlichen Ausdruck ein Verb mit <b>eigenem Subjekt</b> kommt:<br><b>para:</b> <i>Acordo cedo para <b>fazermos</b> o pão juntos.</i> (damit wir …)<br><b>antes de:</b> <i>Apaga a luz antes de <b>saíres</b>.</i><br><b>depois de:</b> <i>Depois de os fregueses <b>chegarem</b>, não há tempo para nada.</i><br><b>sem:</b> <i>Saíste sem me <b>dizeres</b> nada.</i><br><b>até · ao:</b> <i>Fica aqui até eu <b>voltar</b>.</i> · <i>Ao <b>entrares</b>, lava as mãos.</i> (= sobald du hereinkommst)<br><b>é melhor · é difícil:</b> <i>É melhor <b>levares</b> um casaco.</i> · <i>É difícil <b>acordarmos</b> às quatro.</i><br><br><b>Und é preciso?</b> Bei Tag 58 hieß es: <i>É preciso <b>que chegues</b> às quatro.</i> Dasselbe, kürzer: <i>É preciso <b>chegares</b> às quatro.</i> Mit <i>que</i> → Konjunktiv, ohne <i>que</i> → infinitivo pessoal. Beides ist richtig; im Alltag gewinnt fast immer die kurze Form.<br><br><b>Typischer Fehler:</b> Deutschsprachige übersetzen „bevor du gehst“ Wort für Wort: <i>antes de tu sais</i>. Falsch – nach einer Präposition steht nie eine Präsensform. Richtig: <i>antes de <b>saíres</b></i>. In der 1. und 3. Person Singular sieht die Form aus wie der normale Infinitiv; dann hilft das Pronomen: <i>até <b>eu</b> voltar</i>. Und bleibt das Subjekt gleich, reicht der einfache Infinitiv: <i>Bebo um café antes de sair.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> Pass auf, was du über die Theke rufst. Das kleine weiße Brötchen heißt in Lissabon <b>carcaça</b> oder <b>papo-seco</b>, in Porto <b>molete</b>. Wer in Lissabon <i>um molete</i> bestellt, wird angeschaut wie ein Tourist – ich weiß das, ich habe es ein Jahr lang absichtlich gemacht. <i>No Porto é melhor</i>, natürlich. Aussprache: <i>carcaça</i> = „karkássa“, <i>freguês</i> = „fregésch“, <i>estaladiço</i> = „schtaladíssu“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A primeira fornada",
+   "hint": "Selbst erschlossen: pesar = wiegen · juntar = dazugeben · é comigo = das ist meine Sache · com força = mit Kraft · liso / lisa = glatt · crescer = wachsen; hier: aufgehen (Teig) · de quem trabalha = dem, der arbeitet. Vier Uhr früh in Campo de Ourique. Tio Zé duzt Marie; sie sagt „tio Zé“ und „o senhor“ mit der 3. Person.",
+   "lines": [
+    {
+     "who": "Tio Zé",
+     "pt": "Lava as mãos antes de começares. O avental está ali.",
+     "audio": "d5901"
+    },
+    {
+     "who": "Marie",
+     "pt": "Já está. O que é que eu faço primeiro, tio Zé?",
+     "audio": "d5902"
+    },
+    {
+     "who": "Tio Zé",
+     "pt": "Pesas a farinha. Dez quilos. A balança é aquela.",
+     "audio": "d5903"
+    },
+    {
+     "who": "Marie",
+     "pt": "Dez quilos… E depois de pesar a farinha, junto o fermento?",
+     "audio": "d5904"
+    },
+    {
+     "who": "Tio Zé",
+     "pt": "Primeiro a água. O fermento é comigo, até aprenderes.",
+     "audio": "d5905"
+    },
+    {
+     "who": "Marie",
+     "pt": "Está bem. É melhor o senhor mostrar-me como se amassa. Nunca fiz pão na vida.",
+     "audio": "d5906"
+    },
+    {
+     "who": "Tio Zé",
+     "pt": "Assim. Com força. A massa tem de ficar lisa.",
+     "audio": "d5907"
+    },
+    {
+     "who": "Marie",
+     "pt": "A que horas é que abrimos a loja?",
+     "audio": "d5908"
+    },
+    {
+     "who": "Tio Zé",
+     "pt": "Às seis. Para os fregueses levarem pão quente, a primeira fornada tem de sair às cinco e meia.",
+     "audio": "d5909"
+    },
+    {
+     "who": "Marie",
+     "pt": "Às cinco e meia? Mas a massa ainda tem de crescer!",
+     "audio": "d5910"
+    },
+    {
+     "who": "Tio Zé",
+     "pt": "Então não pares. O pão não espera por ninguém.",
+     "audio": "d5911"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não paro. Mas, tio Zé… é possível eu comer uma carcaça antes de os fregueses chegarem? Ainda não tomei o pequeno-almoço.",
+     "audio": "d5912"
+    },
+    {
+     "who": "Tio Zé",
+     "pt": "A primeira é sempre de quem trabalha. Come.",
+     "audio": "d5913"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Infinitivo pessoal: a forma certa",
+   "items": [
+    {
+     "q": "Lava as mãos antes de ___. (começar, tu)",
+     "a": "começares"
+    },
+    {
+     "q": "Acordo às três e quarenta para ___ o pão juntos. (fazer, nós)",
+     "a": "fazermos"
+    },
+    {
+     "q": "A fornada tem de sair antes de os fregueses ___. (chegar)",
+     "a": "chegarem"
+    },
+    {
+     "q": "É melhor ___ um casaco, Marie. (levar, tu)",
+     "a": "levares"
+    },
+    {
+     "q": "Não saias sem ___ o forno. (desligar, tu)",
+     "a": "desligares"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Com «que» ou sem «que»? (antippen)",
+   "items": [
+    {
+     "q": "É preciso ___ às quatro. (tu)",
+     "opts": [
+      "chegares",
+      "chegues"
+     ],
+     "a": "chegares – ohne que → infinitivo pessoal"
+    },
+    {
+     "q": "É preciso que ___ às quatro. (tu)",
+     "opts": [
+      "chegares",
+      "chegues"
+     ],
+     "a": "chegues – mit que → Konjunktiv"
+    },
+    {
+     "q": "Bevor du gehst, mach das Licht aus.",
+     "opts": [
+      "Antes de tu sais, apaga a luz.",
+      "Antes de saíres, apaga a luz."
+     ],
+     "a": "Antes de saíres, apaga a luz. – nach einer Präposition steht nie eine Präsensform"
+    },
+    {
+     "q": "Depois de ___ o pão, abrimos a loja. (nós)",
+     "opts": [
+      "fazermos",
+      "fazemos"
+     ],
+     "a": "fazermos – depois de + infinitivo pessoal"
+    },
+    {
+     "q": "Bebo um café antes de ___. (ich selbst gehe)",
+     "opts": [
+      "saíres",
+      "sair"
+     ],
+     "a": "sair – gleiches Subjekt (eu): keine Endung"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Wasch dir die Hände, bevor du anfängst.",
+     "satz": "Lava as mãos antes de começares.",
+     "a": "Lava as mãos antes de começares."
+    },
+    {
+     "q": "Es ist besser, wenn du die Schürze anziehst.",
+     "satz": "É melhor pores o avental.",
+     "a": "É melhor pores o avental."
+    },
+    {
+     "q": "Das Brot wartet auf niemanden.",
+     "satz": "O pão não espera por ninguém.",
+     "a": "O pão não espera por ninguém."
+    },
+    {
+     "q": "Bleib hier, bis wir zurückkommen.",
+     "satz": "Fica aqui até voltarmos.",
+     "a": "Fica aqui até voltarmos."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie tem de pesar dez quilos de farinha.",
+     "a": "Richtig – „Pesas a farinha. Dez quilos.“"
+    },
+    {
+     "q": "O tio Zé deixa a Marie juntar o fermento sozinha.",
+     "a": "Falsch – „O fermento é comigo, até aprenderes.“ Die Hefe bleibt vorerst seine Sache."
+    },
+    {
+     "q": "A padaria abre às cinco e meia.",
+     "a": "Falsch – sie öffnet um sechs. Um halb sechs muss die erste fornada aus dem Ofen."
+    },
+    {
+     "q": "A Marie já tinha feito pão em Hamburgo.",
+     "a": "Falsch – „Nunca fiz pão na vida.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "der Teig und der Ofen → ___",
+     "a": "a massa e o forno"
+    },
+    {
+     "q": "Das Brot ist knusprig. → ___",
+     "a": "O pão está estaladiço. / O pão é estaladiço."
+    },
+    {
+     "q": "Es ist besser, wenn wir früh anfangen. → ___",
+     "a": "É melhor começarmos cedo. / É melhor que comecemos cedo."
+    },
+    {
+     "q": "Ruf mich an, bevor du gehst. → ___",
+     "a": "Liga-me antes de saíres. / Telefona-me antes de saíres. / Liga-me antes de ires embora."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Instruções para o João",
+   "html": "Es ist zehn vor vier, du gehst zur Arbeit, João schläft bis elf. Sprich ihm eine Sprachnachricht auf: sechs Anweisungen für den Tag, jede mit einem infinitivo pessoal. Sprich langsam und achte auf die Endung <i>-es</i>, die in Lissabon fast nur ein „sch“ ist.<br><br>Anfänge: <i>Antes de saíres, … · Depois de tomares o pequeno-almoço, … · É melhor levares … · Não saias sem … · Para jantarmos juntos, é preciso … · Liga-me ao …</i><br><br>Dann der Satz von Tio Zé, trocken und ohne Ausrufezeichen: <i>O pão não espera por ninguém.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: O pão não espera",
+   "audio": "s59",
+   "text": "No dia dois de outubro, o despertador tocou às três e quarenta. A Marie tinha dormido quatro horas no sofá, que continuava mau. Vestiu-se às escuras para não acordar o João, o que era desnecessário: desde que deixou a padaria, o João não acorda com nada antes das onze.<br>O tio Zé tinha combinado tudo com o sobrinho, não com ela: «Às dez para as quatro, à porta.» Às dez para as quatro, a carrinha branca estava à porta, com o motor ligado.<br>— Bom dia, tio Zé.<br>— Dia.<br>Foi a conversa toda até Campo de Ourique. Ele assobiava um fado, baixinho, sempre o mesmo. Lisboa estava vazia e amarela, com os semáforos a mudar de cor para ninguém.<br>Na padaria, ela pesou a farinha e amassou. A massa colava-se às mãos. Ao fim de dez minutos doíam-lhe os braços. Ao fim de vinte, doíam-lhe sítios que ela não conhecia. O tio Zé fazia quatro pães enquanto ela fazia um. Às vezes parava de assobiar, mudava-lhe a posição dos dedos sem dizer nada e voltava ao fado. Quando ela parou para olhar para o relógio, ele disse a frase mais comprida da manhã:<br>— O pão não espera por ninguém.<br>Às cinco e meia saiu a primeira fornada: trinta pães dourados, todos iguais. E um, no canto do tabuleiro, torto, alto de um lado e baixo do outro, com cara de quem tinha caído pelas escadas.<br>— Esse é o meu — disse a Marie.<br>— Vê-se — disse o tio Zé.<br>Às seis abriram a porta. A primeira freguesa pediu seis carcaças e olhou para a Marie por cima dos óculos.<br>— É nova?<br>— É alemã — disse o tio Zé, como quem explica tudo.<br>Às dez, a Marie tirou o avental. O tio Zé deu-lhe um saco de papel. Lá dentro estava o pão torto.<br>— Ninguém o quis?<br>— Não o pus à venda. O primeiro leva-se para casa.<br>Ela voltou no elétrico vinte e oito, de Campo de Ourique à Graça, e adormeceu duas vezes de pé. O João apareceu na cozinha às onze e dez e olhou para o pão.<br>— Está torto.<br>— Eu sei.<br>Cortou uma fatia, pôs-lhe manteiga e provou.<br>— Está torto — repetiu, de boca cheia —, mas é pão.<br>A Marie não respondeu. Já estava a dormir no sofá, que pela primeira vez não lhe pareceu mau.",
+   "gloss": "Neu erschließen: o despertador = der Wecker · às escuras = im Dunkeln · o sobrinho = der Neffe · assobiar = pfeifen · o semáforo = die Ampel · colar-se = kleben bleiben · torto = schief · pôr à venda = zum Verkauf anbieten · a fatia = die Scheibe · de boca cheia = mit vollem Mund",
+   "questions": [
+    {
+     "q": "O tio Zé e a Marie conversaram muito na carrinha.",
+     "a": "Falsch – „Bom dia, tio Zé.“ – „Dia.“ Das war das ganze Gespräch bis Campo de Ourique; er pfiff Fado."
+    },
+    {
+     "q": "O pão da Marie saiu do forno igual aos outros.",
+     "a": "Falsch – es war schief, auf einer Seite hoch, auf der anderen niedrig. „Vê-se“, sagte Tio Zé."
+    },
+    {
+     "q": "O tio Zé não pôs o pão torto à venda.",
+     "a": "Richtig – „O primeiro leva-se para casa.“ João aß es um zehn nach elf mit Butter."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt mit dem <b>infinitivo pessoal</b> Sätze kurz halten – <i>antes de saíres, para fazermos, é melhor levares</i> – und weißt, wann stattdessen <i>que</i> + Konjunktiv steht. Du kennst die Wörter für Teig, Ofen und Kruste und bestellst in Lissabon eine <i>carcaça</i>, kein <i>molete</i>. Morgen sitzt Marie zum ersten Mal im Kurs an der Faculdade de Letras, Professora Helena korrigiert jeden Nasal – und Marie ist plötzlich nicht mehr die Beste: <b>Primeiro dia de aulas.</b>"
+  }
+ ]
+}

@@ -1,0 +1,395 @@
+{
+ "id": "tag60",
+ "title": "Primeiro dia de aulas",
+ "subtitle": "Staffel 3 · Woche 9 · Tag 60 · Erster Kurstag an der Uni · quero que / não acho que + conjuntivo · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 59)",
+   "items": [
+    {
+     "q": "Liga-me depois de ___ a casa. (chegar, tu)",
+     "a": "chegares"
+    },
+    {
+     "q": "É melhor ___ cedo. (sair, nós)",
+     "a": "sairmos"
+    },
+    {
+     "q": "É preciso que chegues às quatro. = É preciso ___ às quatro.",
+     "opts": [
+      "chegas",
+      "chegares"
+     ],
+     "a": "chegares – ohne que → infinitivo pessoal"
+    },
+    {
+     "q": "der Teig: a ___",
+     "a": "massa"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Na aula (16)",
+   "items": [
+    {
+     "pt": "a turma",
+     "de": "die Klasse, die Kursgruppe",
+     "ipa": "[ˈtuɾmɐ]",
+     "audio": "v6001"
+    },
+    {
+     "pt": "o nível",
+     "de": "das Niveau, die Stufe",
+     "ipa": "[ˈnivɛɫ]",
+     "audio": "v6002"
+    },
+    {
+     "pt": "a apresentação",
+     "de": "die Vorstellung; das Referat",
+     "ipa": "[ɐpɾɨzẽtɐˈsɐ̃w̃]",
+     "audio": "v6003"
+    },
+    {
+     "pt": "o sotaque",
+     "de": "der Akzent (beim Sprechen)",
+     "ipa": "[suˈtakɨ]",
+     "audio": "v6004"
+    },
+    {
+     "pt": "a pronúncia",
+     "de": "die Aussprache",
+     "ipa": "[pɾuˈnũsjɐ]",
+     "audio": "v6005"
+    },
+    {
+     "pt": "o som",
+     "de": "der Laut, der Klang",
+     "ipa": "[ˈsõ]",
+     "audio": "v6006"
+    },
+    {
+     "pt": "o erro",
+     "de": "der Fehler",
+     "ipa": "[ˈeʁu]",
+     "audio": "v6007"
+    },
+    {
+     "pt": "enganar-se",
+     "de": "sich irren, sich vertun",
+     "ipa": "[ẽgɐˈnaɾsɨ]",
+     "audio": "v6008"
+    },
+    {
+     "pt": "corrigir",
+     "de": "korrigieren, verbessern",
+     "ipa": "[kuʁiˈʒiɾ]",
+     "audio": "v6009"
+    },
+    {
+     "pt": "melhorar",
+     "de": "besser werden; verbessern",
+     "ipa": "[mɨʎuˈɾaɾ]",
+     "audio": "v6010"
+    },
+    {
+     "pt": "o significado",
+     "de": "die Bedeutung",
+     "ipa": "[signifiˈkadu]",
+     "audio": "v6011"
+    },
+    {
+     "pt": "tirar dúvidas",
+     "de": "Fragen klären, nachfragen",
+     "ipa": "[tiˈɾaɾ ˈduvidɐʃ]",
+     "audio": "v6012"
+    },
+    {
+     "pt": "o trabalho de casa",
+     "de": "die Hausaufgabe",
+     "ipa": "[tɾɐˈbaʎu dɨ ˈkazɐ]",
+     "audio": "v6013"
+    },
+    {
+     "pt": "a nota",
+     "de": "die Note; die Notiz",
+     "ipa": "[ˈnɔtɐ]",
+     "audio": "v6014"
+    },
+    {
+     "pt": "sugerir",
+     "de": "vorschlagen",
+     "ipa": "[suʒɨˈɾiɾ]",
+     "audio": "v6015"
+    },
+    {
+     "pt": "duvidar (de)",
+     "de": "zweifeln (an), bezweifeln",
+     "ipa": "[duviˈdaɾ]",
+     "audio": "v6016"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Helena: Wollen, bitten, meinen",
+   "html": "<i>(Professora Helena, am Whiteboard, die Brille um den Hals:)</i> Sie kennen den Konjunktiv schon nach <i>espero que</i> und <i>é preciso que</i>. Heute kommt die Regel dahinter. Ich möchte, dass Sie sie verstehen, nicht auswendig lernen – und schon dieser Satz braucht auf Portugiesisch den Konjunktiv.<br><br><b>1 · Wollen, bitten, vorschlagen.</b> Wenn jemand will, dass <b>ein anderer</b> etwas tut, steht nach <i>que</i> der Konjunktiv:<br><i><b>Quero que</b> fales mais devagar.</i><br><i><b>Peço-lhe que</b> repita a frase.</i><br><i><b>Sugiro que</b> façam uma lista dos erros.</i><br><i><b>Prefiro que</b> me tratem por Helena.</i><br><i>A professora <b>pede que</b> cheguemos a horas.</i><br>Achtung bei der 1. Person: <i>pedir → peço</i>, <i>sugerir → sugiro</i>, <i>preferir → prefiro</i>. Gleiches Subjekt? Dann genügt der Infinitiv: <i>Quero <b>falar</b> melhor.</i><br><br><b>2 · Meinen und zweifeln.</b><br><i>Acho que · Penso que · Tenho a certeza de que</i> + <b>Indikativ</b> – ich halte es für wahr: <i>Acho que o português <b>é</b> difícil.</i><br><i>Não acho que · Não penso que · Duvido que</i> + <b>Konjunktiv</b> – ich halte es nicht für sicher: <i>Não acho que o português <b>seja</b> difícil.</i> · <i>Duvido que ele <b>tenha</b> razão.</i><br><br><b>Bildung</b> wie bei Tag 58: 1. Person Präsens, <i>-o</i> weg, Vokal tauschen – <i>falar → fale</i>, <i>repetir → repito → repita</i>, <i>corrigir → corrijo → corrija</i>; unregelmäßig <i>seja, tenha, vá, faça, diga, saiba</i>.<br><br><b>Typischer Fehler:</b> Im Deutschen steht nach „ich will, dass“ der Indikativ, also sagen Deutschsprachige <i>Quero que tu fazes</i>. Im Portugiesischen geht das nie: <i>Quero que tu <b>faças</b>.</i> Und umgekehrt, bitte: nach bejahtem <i>acho que</i> <b>kein</b> Konjunktiv. <i>Acho que seja</i> höre ich jede Woche, und jede Woche korrigiere ich es."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> In der Schule sagen hier alle <b>stôra</b> und <b>stôr</b> – das ist <i>senhora doutora</i> und <i>senhor doutor</i>, zusammengenuschelt. An der Uni sagst du einfach <b>professora</b>, ohne Nachnamen: <i>Professora, posso tirar uma dúvida?</i> Und <b>tirar dúvidas</b> heißt nicht zweifeln, sondern so lange nachfragen, bis es klar ist; vor den Prüfungen gibt es dafür eigene <i>aulas de dúvidas</i>. Aussprache: <i>sotaque</i> = „sutáke“, <i>pronúncia</i> = „prunúnssja“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: A Marie é de onde?",
+   "hint": "Selbst erschlossen: um de cada vez = einer nach dem anderen · o pau = der Stock · pelo nariz = durch die Nase · o ouvido = das Gehör · a falta de hábito = die fehlende Gewohnheit · ficar calada = still bleiben, schweigen. Die Professora siezt ohne você: mit „a Marie“ und der 3. Person.",
+   "lines": [
+    {
+     "who": "Professora",
+     "pt": "Bom dia a todos. Chamo-me Helena e vou ser a vossa professora até maio. Quero que se apresentem, um de cada vez. Começamos por aqui. A Marie é de onde?",
+     "audio": "d6001"
+    },
+    {
+     "who": "Marie",
+     "pt": "Sou de Hamburgo, na Alemanha. Tenho dezanove anos e moro em Lisboa desde o dia trinta de setembro.",
+     "audio": "d6002"
+    },
+    {
+     "who": "Professora",
+     "pt": "Muito bem. E porque é que a Marie está a aprender português?",
+     "audio": "d6003"
+    },
+    {
+     "who": "Marie",
+     "pt": "Porque no verão trabalho numa escola de surf, em Sagres. E porque os meus amigos querem que eu fale como eles.",
+     "audio": "d6004"
+    },
+    {
+     "who": "Professora",
+     "pt": "E a Marie acha que já fala como eles?",
+     "audio": "d6005"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não. Não acho que fale bem. Acho que tenho um sotaque muito alemão.",
+     "audio": "d6006"
+    },
+    {
+     "who": "Professora",
+     "pt": "Sotaque não é erro. Mas peço-lhe que repita uma palavra: pão.",
+     "audio": "d6007"
+    },
+    {
+     "who": "Marie",
+     "pt": "Pau.",
+     "audio": "d6008"
+    },
+    {
+     "who": "Professora",
+     "pt": "Isso é um pau, não se come. Quero que o som saia pelo nariz: pão. Outra vez.",
+     "audio": "d6009"
+    },
+    {
+     "who": "Marie",
+     "pt": "Pão. Trabalho numa padaria, professora. Digo esta palavra cem vezes por dia.",
+     "audio": "d6010"
+    },
+    {
+     "who": "Professora",
+     "pt": "Então sugiro que a diga bem cem vezes por dia. Agora: mãe.",
+     "audio": "d6011"
+    },
+    {
+     "who": "Marie",
+     "pt": "Mãe.",
+     "audio": "d6012"
+    },
+    {
+     "who": "Professora",
+     "pt": "Melhor. Não acho que seja um problema de ouvido, é falta de hábito. Nesta sala quero que faça erros. Só não quero que fique calada. Combinado?",
+     "audio": "d6013"
+    },
+    {
+     "who": "Marie",
+     "pt": "Combinado, professora.",
+     "audio": "d6014"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Querer, pedir, sugerir: a forma certa",
+   "items": [
+    {
+     "q": "Quero que tu ___ mais devagar. (falar)",
+     "a": "fales"
+    },
+    {
+     "q": "A professora pede que nós ___ a frase. (repetir)",
+     "a": "repitamos"
+    },
+    {
+     "q": "Sugiro que vocês ___ uma lista dos erros. (fazer)",
+     "a": "façam"
+    },
+    {
+     "q": "Os meus amigos querem que eu ___ como eles. (falar)",
+     "a": "fale"
+    },
+    {
+     "q": "Ich bitte Sie, das Wort zu wiederholen: ___ que repita a palavra. (pedir + lhe)",
+     "a": "Peço-lhe"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Indicativo ou conjuntivo? (antippen)",
+   "items": [
+    {
+     "q": "Acho que o português ___ difícil.",
+     "opts": [
+      "é",
+      "seja"
+     ],
+     "a": "é – acho que: ich halte es für wahr → Indikativ"
+    },
+    {
+     "q": "Não acho que o português ___ difícil.",
+     "opts": [
+      "é",
+      "seja"
+     ],
+     "a": "seja – verneinte Meinung → Konjunktiv"
+    },
+    {
+     "q": "Duvido que ela ___ razão.",
+     "opts": [
+      "tem",
+      "tenha"
+     ],
+     "a": "tenha – Zweifel → Konjunktiv"
+    },
+    {
+     "q": "Penso que a turma ___ simpática.",
+     "opts": [
+      "seja",
+      "é"
+     ],
+     "a": "é – penso que → Indikativ"
+    },
+    {
+     "q": "Ich will besser sprechen.",
+     "opts": [
+      "Quero falar melhor.",
+      "Quero que eu fale melhor."
+     ],
+     "a": "Quero falar melhor. – gleiches Subjekt → Infinitiv, kein que"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Ich will, dass du mich korrigierst.",
+     "satz": "Quero que me corrijas.",
+     "a": "Quero que me corrijas."
+    },
+    {
+     "q": "Ich glaube nicht, dass es ein Fehler ist.",
+     "satz": "Não acho que seja um erro.",
+     "a": "Não acho que seja um erro."
+    },
+    {
+     "q": "Die Lehrerin bittet, dass wir früh kommen.",
+     "satz": "A professora pede que cheguemos cedo.",
+     "a": "A professora pede que cheguemos cedo."
+    },
+    {
+     "q": "Ich schlage vor, dass ihr die Hausaufgabe macht.",
+     "satz": "Sugiro que façam o trabalho de casa.",
+     "a": "Sugiro que façam o trabalho de casa."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie mora em Lisboa desde o dia trinta de setembro.",
+     "a": "Richtig – und sie ist neunzehn und aus Hamburg."
+    },
+    {
+     "q": "A Marie acha que já fala como os amigos.",
+     "a": "Falsch – „Não acho que fale bem. Acho que tenho um sotaque muito alemão.“"
+    },
+    {
+     "q": "A professora diz que o sotaque é um erro.",
+     "a": "Falsch – „Sotaque não é erro.“ Der fehlende Nasal in pão aber schon: pau ist ein Stock."
+    },
+    {
+     "q": "A professora quer que a Marie faça erros.",
+     "a": "Richtig – Fehler sind erwünscht. Nur schweigen soll sie nicht: „Só não quero que fique calada.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "der Akzent und die Aussprache → ___",
+     "a": "o sotaque e a pronúncia"
+    },
+    {
+     "q": "Ich bezweifle, dass es wahr ist. → ___",
+     "a": "Duvido que seja verdade. / Duvido que isso seja verdade."
+    },
+    {
+     "q": "Können Sie den Satz wiederholen? → ___",
+     "a": "Pode repetir a frase? / Podia repetir a frase? / Importa-se de repetir a frase?"
+    },
+    {
+     "q": "Ich will, dass ihr Fehler macht. → ___",
+     "a": "Quero que (vocês) façam erros. / Quero que (vocês) deem erros. / Quero que (vocês) cometam erros."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A tua apresentação",
+   "html": "Du sitzt in der Vorstellungsrunde, Professora Helena schaut dich an. Stell dich in sieben Sätzen vor: woher du kommst, seit wann du Portugiesisch lernst und warum. Baue einen Satz mit <i>acho que</i> (Indikativ), einen mit <i>não acho que</i> (Konjunktiv) und einen mit <i>quero que</i> ein. Nimm dich auf und hör nach, ob der Konjunktiv wirklich da ist.<br><br>Anfänge: <i>Chamo-me … e sou de … · Estou a aprender português porque … · Acho que a minha pronúncia é … · Não acho que o português seja … · Quero que os meus amigos me …</i><br><br>Dann die Nasale, dreimal, durch die Nase: <i>pão</i> (nicht <i>pau</i>) · <i>mãe</i> · <i>mão</i> (nicht <i>mau</i>)."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A professora Helena",
+   "audio": "s60",
+   "text": "A sala do curso, na Faculdade de Letras, tem catorze cadeiras, um quadro branco e uma janela que não fecha bem. Na primeira aula havia doze alunos de nove países. A Marie sentou-se na segunda fila, com um caderno novo e a certeza tranquila de quem passou um verão inteiro a dar aulas de surf em português.<br>A certeza durou onze minutos.<br>A professora Helena tem quarenta e cinco anos, os óculos pendurados ao pescoço e um ouvido que não perdoa. Ouve um nasal mal feito do outro lado do corredor. Corrige toda a gente, sempre, com um sorriso, e ninguém fica ofendido, o que é talvez o seu maior talento.<br>Ao lado da Marie sentou-se uma rapariga de casaco amarelo.<br>— Chamo-me Noor, sou de Roterdão, tenho vinte e quatro anos e falo mais depressa do que penso, já sei, toda a gente me diz — disse ela, de uma vez, sem respirar.<br>A turma riu-se. A professora também.<br>Depois vieram as perguntas. A Noor respondia antes de a professora acabar de perguntar. Respondia em frases compridas, com três erros cada uma, e não parava para os contar. A Marie respondia devagar, em frases curtas e certas, e quando acabava, a conversa já ia noutro sítio.<br>— A Marie fala bem — disse a professora no fim da aula. — Mas fala como quem atravessa a rua: olha para os dois lados antes de cada palavra. Quero que atravesse sem olhar. Aqui não passam carros.<br>E, para a Noor:<br>— A Noor atravessa sempre sem olhar. Sugiro que olhe, de vez em quando.<br>No intervalo, as duas foram buscar café à máquina do corredor.<br>— Tu não fazes erros — disse a Noor. — Irrita-me um bocado.<br>— Tu não tens medo — disse a Marie. — Irrita-me muito.<br>A Noor riu-se e estendeu-lhe a mão.<br>— Proponho um negócio. Tu corriges-me os erros, eu empurro-te para a rua.<br>— Combinado.<br>À noite, a Marie escreveu no caderno: «Hoje não fui a melhor. Não acho que seja mau. Acho que é para isso que cá estou.» Depois foi para a casa de banho e disse «pão» ao espelho, vinte vezes, pelo nariz, até o João bater à porta.<br>— Estás a falar com quem?<br>— Com o pão.<br>O João pensou um momento.<br>— E ele responde?<br>— Ainda não. Mas já me percebe.",
+   "gloss": "Neu erschließen: a certeza = die Gewissheit · pendurado ao pescoço = um den Hals gehängt · não perdoa = verzeiht nichts · ofendido = beleidigt · atravessar = überqueren · o intervalo = die Pause · irritar = ärgern · o negócio = das Geschäft, der Deal · empurrar = schubsen · o espelho = der Spiegel",
+   "questions": [
+    {
+     "q": "A Noor fala devagar e quase sem erros.",
+     "a": "Falsch – sie antwortet, bevor die Frage zu Ende ist, in langen Sätzen mit je drei Fehlern."
+    },
+    {
+     "q": "A professora quer que a Marie fale sem pensar tanto.",
+     "a": "Richtig – „Quero que atravesse sem olhar. Aqui não passam carros.“"
+    },
+    {
+     "q": "A Marie acha que é mau não ser a melhor da turma.",
+     "a": "Falsch – „Não acho que seja mau. Acho que é para isso que cá estou.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt sagen, was du von anderen willst – <i>quero que, peço que, sugiro que</i> + Konjunktiv – und deine Meinung sicher oder zweifelnd äußern: <i>acho que é</i>, aber <i>não acho que seja</i>. Du kannst dich in einem Kurs vorstellen und weißt, warum <i>pau</i> kein Brot ist. Morgen streikt die Metro, und Marie läuft mit Martim zu Fuß quer durch Lissabon: <b>Há greve.</b>"
+  }
+ ]
+}

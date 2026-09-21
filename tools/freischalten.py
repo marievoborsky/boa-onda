@@ -9,6 +9,7 @@ Voraussetzung: die Lektions-JSONs liegen in lektionen/ UND die Audios existieren
   python3 tools/freischalten.py 7      # Woche 7 (tag43–49)
   python3 tools/freischalten.py 8      # Woche 8 (tag50–56)
   python3 tools/freischalten.py 7 8    # beide
+  python3 tools/freischalten.py 9      # Staffel 3, Woche 9 (tag57–63)
 """
 import json, os, re, subprocess, sys
 
@@ -34,6 +35,16 @@ WOCHEN = {
         56: ('Exame final A2', 'Abschlusstest · 60 Punkte')},
         'textos': {50: 'Vinte vezes', 51: 'Obrigado, cerveja, bom dia', 52: 'O penso', 53: 'A onda do Tomás',
                    54: 'O domingo à noite', 55: 'A resposta da Marie', 56: 'Junho'}},
+    9: {'w': 8, 'tage': range(57, 64), 'labels': {
+        57: ('O sofá do João', 'tenho dormido · perfeito composto'),
+        58: ('Senha B 247', 'é preciso que · Konjunktiv'),
+        59: ('A padaria às quatro', 'infinitivo pessoal'),
+        60: ('Primeiro dia de aulas', 'quero que · não acho que'),
+        61: ('Há greve', 'se houver, quando chegares'),
+        62: ('Saudades de Sagres', 'embora, para que · Hörverstehen'),
+        63: ('Revisão VII', 'Wochentest · 50 Punkte')},
+        'textos': {57: 'O quarto andar', 58: 'Falta um papel', 59: 'O pão não espera', 60: 'A professora Helena',
+                   61: 'Sete colinas', 62: 'Chuva em Lisboa', 63: 'O primeiro ordenado'}},
 }
 
 def audio_fehlt(tage):

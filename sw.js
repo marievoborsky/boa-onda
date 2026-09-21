@@ -1,8 +1,8 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v26';
+const SHELL = 'boa-onda-shell-v27';
 const AUDIO = 'boa-onda-audio-v1';
-const LEKTIONEN = Array.from({ length: 56 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`).concat(['./lektionen/sagres.json']);
+const LEKTIONEN = Array.from({ length: 63 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`).concat(['./lektionen/sagres.json']);
 const CORE = [
   './index.html', './data.js', './manifest.webmanifest', './descobrir.json',
   './logo.png', './karte.png', './boa-onda-welle.png', './datenschutz.html', './druck.html',

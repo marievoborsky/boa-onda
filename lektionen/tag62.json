@@ -1,0 +1,412 @@
+{
+ "id": "tag62",
+ "title": "Saudades de Sagres",
+ "subtitle": "Staffel 3 · Woche 9 · Tag 62 · Zweifel, Regen und ein Anruf · embora, mesmo que, para que, antes que + conjuntivo · Hörverstehen · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 61)",
+   "items": [
+    {
+     "q": "Quando (tu) ___ a casa, liga-me. (chegar)",
+     "a": "chegares"
+    },
+    {
+     "q": "Se ___ greve amanhã, vou a pé.",
+     "opts": [
+      "houver",
+      "há"
+     ],
+     "a": "houver – se + Zukunft → futuro do conjuntivo"
+    },
+    {
+     "q": "eles puderam → assim que eu ___ (poder)",
+     "a": "puder"
+    },
+    {
+     "q": "„Enquanto estiver a chover, fico em casa.“ heißt:",
+     "opts": [
+      "Solange es regnet, bleibe ich zu Hause.",
+      "Während es regnete, blieb ich zu Hause."
+     ],
+     "a": "Solange es regnet, bleibe ich zu Hause. – estiver zeigt in die Zukunft"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Dúvidas e chuva (16)",
+   "items": [
+    {
+     "pt": "o cansaço",
+     "de": "die Müdigkeit, die Erschöpfung",
+     "ipa": "[kɐ̃ˈsasu]",
+     "audio": "v6201"
+    },
+    {
+     "pt": "a dúvida",
+     "de": "der Zweifel",
+     "ipa": "[ˈduvidɐ]",
+     "audio": "v6202"
+    },
+    {
+     "pt": "desistir (de)",
+     "de": "aufgeben",
+     "ipa": "[dɨziʃˈtiɾ]",
+     "audio": "v6203"
+    },
+    {
+     "pt": "aguentar",
+     "de": "aushalten, durchhalten",
+     "ipa": "[ɐgwẽˈtaɾ]",
+     "audio": "v6204"
+    },
+    {
+     "pt": "o esforço",
+     "de": "die Anstrengung, die Mühe",
+     "ipa": "[ɨʃˈfoɾsu]",
+     "audio": "v6205"
+    },
+    {
+     "pt": "o desânimo",
+     "de": "die Mutlosigkeit",
+     "ipa": "[dɨˈzɐnimu]",
+     "audio": "v6206"
+    },
+    {
+     "pt": "sentir falta de",
+     "de": "vermissen",
+     "ipa": "[sẽˈtiɾ ˈfaɫtɐ dɨ]",
+     "audio": "v6207"
+    },
+    {
+     "pt": "desabafar",
+     "de": "sich aussprechen, sein Herz ausschütten",
+     "ipa": "[dɨzɐbɐˈfaɾ]",
+     "audio": "v6208"
+    },
+    {
+     "pt": "o conselho",
+     "de": "der Rat, der Ratschlag",
+     "ipa": "[kõˈsɐʎu]",
+     "audio": "v6209"
+    },
+    {
+     "pt": "chover a potes",
+     "de": "in Strömen regnen",
+     "ipa": "[ʃuˈveɾ ɐ ˈpɔtɨʃ]",
+     "audio": "v6210"
+    },
+    {
+     "pt": "o guarda-chuva",
+     "de": "der Regenschirm",
+     "ipa": "[ˌgwaɾdɐ ˈʃuvɐ]",
+     "audio": "v6211"
+    },
+    {
+     "pt": "a poça",
+     "de": "die Pfütze",
+     "ipa": "[ˈpɔsɐ]",
+     "audio": "v6212"
+    },
+    {
+     "pt": "secar",
+     "de": "trocknen",
+     "ipa": "[sɨˈkaɾ]",
+     "audio": "v6213"
+    },
+    {
+     "pt": "o aquecedor",
+     "de": "das Heizgerät, der Heizlüfter",
+     "ipa": "[ɐkɛsɨˈdoɾ]",
+     "audio": "v6214"
+    },
+    {
+     "pt": "esvaziar",
+     "de": "leeren, leer räumen",
+     "ipa": "[ɨʒvɐˈzjaɾ]",
+     "audio": "v6215"
+    },
+    {
+     "pt": "húmido / húmida",
+     "de": "feucht",
+     "ipa": "[ˈumidu / ˈumidɐ]",
+     "audio": "v6216"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Helena: Konjunktionen, die den conjuntivo verlangen",
+   "html": "<i>(Freitag, letzte Viertelstunde, am Whiteboard:)</i> Bis jetzt hing der conjuntivo an einem Verb: <i>quero que, é preciso que, não acho que</i>. Heute hängt er an einem kleinen Wort. Diese Konjunktionen verlangen <b>immer</b> den conjuntivo (für Gegenwart und Zukunft: den presente) – auch wenn die Sache völlig wahr ist:<br><br><b>embora</b> (obwohl) · <b>mesmo que</b> (selbst wenn) · <b>para que</b> (damit) · <b>antes que</b> (bevor) · <b>sem que</b> (ohne dass) · <b>até que</b> (bis)<br><br><i><b>Embora esteja</b> cansada, vou à aula.</i> – Obwohl ich müde bin …<br><i><b>Mesmo que chova</b>, saio de casa.</i> – Selbst wenn es regnet …<br><i>Falo devagar <b>para que</b> vocês <b>percebam</b>.</i> – … damit ihr versteht.<br><i>Fecha a janela <b>antes que comece</b> a chover.</i> – … bevor es anfängt zu regnen.<br><i>Ela sai de casa <b>sem que</b> o João <b>acorde</b>.</i> – … ohne dass João aufwacht.<br><i>Fico aqui <b>até que pare</b> de chover.</i> – … bis es aufhört.<br><br><b>mas ↔ embora:</b> Beide sagen dasselbe, aber <i>mas</i> steht mit Indikativ, <i>embora</i> mit conjuntivo: <i>Estou cansada, <b>mas</b> vou.</i> = <i><b>Embora esteja</b> cansada, vou.</i> Das ist der typische Fehler Deutschsprachiger: „obwohl ich müde <b>bin</b>“ ist im Deutschen Indikativ, also schreiben Sie <i>embora estou</i>. Falsch. Richtig: <i>embora <b>esteja</b>.</i> Sempre. (Und nicht verwechseln mit <i>ir-se embora</i> = weggehen: <i>Vou-me embora.</i>)<br><br><b>para ↔ para que:</b> Bei <b>gleichem Subjekt</b> nur der Infinitiv: <i>Estudo <b>para passar</b>. · Estudamos <b>para passarmos</b>.</i> – nie <i>para que eu passe</i>. Bei <b>verschiedenem Subjekt</b> haben Sie zwei richtige Wege: im Alltag den infinitivo pessoal von Tag 59 – <i>Explico outra vez <b>para tu perceberes</b></i> –, etwas förmlicher, vor allem in geschriebenen Texten, <i><b>para que</b> tu <b>percebas</b></i>. Genauso: <i>antes de saíres</i> ↔ <i>antes que saias</i> · <i>sem dizeres nada</i> ↔ <i>sem que digas nada</i> · <i>até chegares</i> ↔ <i>até que chegues</i>.<br><br>Die Formen kennen Sie seit Tag 58: <i>-ar → -e, -er/-ir → -a; esteja, seja, tenha, vá, faça, venha, diga</i>. E agora, embora seja sexta-feira: trabalho de casa."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> Willkommen im portugiesischen Winter: Hier ist es drinnen kälter als draußen. Zentralheizung gibt es fast nirgends, dafür einen <b>aquecedor</b>, eine <b>manta</b> und den Satz <i>Está um frio de rachar</i>. Wenn es richtig schüttet, <b>chove a potes</b> – es regnet „in Töpfen“. Und <b>desabafar</b> ist das schönste Verb für Sonntage: alles rauslassen, ohne dass der andere etwas lösen muss. <i>Liga-me quando quiseres desabafar. No Porto chove mais, eu tenho prática.</i> Aussprache: <i>cansaço</i> = „kãssássu“, <i>aguentar</i> = „agwentár“ (das u wird gesprochen)."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Cansada é bom",
+   "hint": "Selbst erschlossen: Estou? = Hallo? (am Telefon) · precisava de = ich müsste mal … (höflich) · ficar pior = sich schlechter fühlen · não chega = es reicht nicht · o / a surfista = der Surfer / die Surferin · acabar por parar = am Ende doch aufhören · tirar do sítio = von der Stelle nehmen. Sonntagvormittag in Graça; João schläft, Marie telefoniert leise am Fenster.",
+   "lines": [
+    {
+     "who": "Vasco",
+     "pt": "Estou? Marie? Está tudo bem?",
+     "audio": "d6201"
+    },
+    {
+     "who": "Marie",
+     "pt": "Está. Não. Não sei. Está a chover a potes, o João está a dormir e eu precisava de desabafar.",
+     "audio": "d6202"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Então desabafa. Tenho tempo. Aqui está sol, mas não te digo mais nada, para que não fiques pior.",
+     "audio": "d6203"
+    },
+    {
+     "who": "Marie",
+     "pt": "Levanto-me às três e quarenta para a padaria, ao meio-dia tenho aulas, à noite estudo. Embora durma pouco, aguento. Mas hoje acordei e pensei: porque é que eu estou aqui?",
+     "audio": "d6204"
+    },
+    {
+     "who": "Vasco",
+     "pt": "E o que é que respondeste?",
+     "audio": "d6205"
+    },
+    {
+     "who": "Marie",
+     "pt": "Nada. No curso já não sou a melhor. A bolsa ainda não chegou. Sinto falta do mar, de vocês, de Sagres. Mesmo que estude todos os dias, acho que não chega.",
+     "audio": "d6206"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Estás cansada.",
+     "audio": "d6207"
+    },
+    {
+     "who": "Marie",
+     "pt": "Estou muito cansada.",
+     "audio": "d6208"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Cansada é bom. Cansada quer dizer que estás a fazer alguma coisa.",
+     "audio": "d6209"
+    },
+    {
+     "who": "Marie",
+     "pt": "Isso é um conselho de advogado ou de surfista?",
+     "audio": "d6210"
+    },
+    {
+     "who": "Vasco",
+     "pt": "De quem já quis desistir num domingo de chuva. Ouve: não decidas nada antes que pare de chover. É uma regra.",
+     "audio": "d6211"
+    },
+    {
+     "who": "Marie",
+     "pt": "E se não parar?",
+     "audio": "d6212"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Acaba sempre por parar. E mesmo que demore, Sagres fica aqui até que tu venhas. Ninguém tira o farol do sítio. Boa onda, Marie.",
+     "audio": "d6213"
+    },
+    {
+     "who": "Marie",
+     "pt": "Obrigada, Vasco. Embora fales pouco, ajudas sempre.",
+     "audio": "d6214"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Conjuntivo nach der Konjunktion",
+   "items": [
+    {
+     "q": "Embora (eu) ___ cansada, vou à aula. (estar)",
+     "a": "esteja"
+    },
+    {
+     "q": "Mesmo que ___, saio de casa. (chover)",
+     "a": "chova"
+    },
+    {
+     "q": "Falo devagar para que tu ___. (perceber)",
+     "a": "percebas"
+    },
+    {
+     "q": "Fecha a janela antes que ___ a chover. (começar)",
+     "a": "comece"
+    },
+    {
+     "q": "Fico em casa até que ___ de chover. (parar)",
+     "a": "pare"
+    },
+    {
+     "q": "A Marie sai de casa sem que o João ___. (acordar)",
+     "a": "acorde"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · mas ou embora? para ou para que? (antippen)",
+   "items": [
+    {
+     "q": "___ esteja a chover, vou à padaria.",
+     "opts": [
+      "Embora",
+      "Mas"
+     ],
+     "a": "Embora – esteja ist conjuntivo, also embora"
+    },
+    {
+     "q": "Estou cansada, ___ não desisto.",
+     "opts": [
+      "mas",
+      "embora"
+     ],
+     "a": "mas – desisto ist Indikativ"
+    },
+    {
+     "q": "Estudo todos os dias ___ passar no exame.",
+     "opts": [
+      "para",
+      "para que"
+     ],
+     "a": "para – gleiches Subjekt → Infinitiv"
+    },
+    {
+     "q": "O João esvaziou metade do armário ___ a Marie tenha espaço.",
+     "opts": [
+      "para que",
+      "para"
+     ],
+     "a": "para que – anderes Subjekt und conjuntivo (tenha); mit Infinitiv wäre es: para a Marie ter espaço"
+    },
+    {
+     "q": "Embora a Noor ___ depressa, faz muitos erros.",
+     "opts": [
+      "fale",
+      "fala"
+     ],
+     "a": "fale – nach embora immer conjuntivo, auch wenn es stimmt"
+    },
+    {
+     "q": "Liga-me antes de ___.",
+     "opts": [
+      "saíres",
+      "saias"
+     ],
+     "a": "saíres – antes de + infinitivo pessoal; antes que + conjuntivo (antes que saias)"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Obwohl es regnet, gehe ich aus dem Haus.",
+     "satz": "Embora chova, saio de casa.",
+     "a": "Embora chova, saio de casa."
+    },
+    {
+     "q": "Selbst wenn es dauert, gebe ich nicht auf.",
+     "satz": "Mesmo que demore, não desisto.",
+     "a": "Mesmo que demore, não desisto."
+    },
+    {
+     "q": "Entscheide nichts, bevor es aufhört zu regnen.",
+     "satz": "Não decidas nada antes que pare de chover.",
+     "a": "Não decidas nada antes que pare de chover."
+    },
+    {
+     "q": "Ich vermisse das Meer.",
+     "satz": "Sinto falta do mar.",
+     "a": "Sinto falta do mar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "Em Sagres também está a chover.",
+     "a": "Falsch – dort scheint die Sonne. Vasco sagt es nur kurz, „para que não fiques pior“."
+    },
+    {
+     "q": "O Vasco acha que estar cansada é um mau sinal.",
+     "a": "Falsch – „Cansada é bom. Cansada quer dizer que estás a fazer alguma coisa.“"
+    },
+    {
+     "q": "O Vasco também já quis desistir num domingo de chuva.",
+     "a": "Richtig – daher seine Regel: nichts entscheiden, bevor es aufhört zu regnen."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Obwohl ich müde bin, halte ich durch. → ___",
+     "a": "Embora esteja cansada, aguento. / Embora esteja cansado, aguento."
+    },
+    {
+     "q": "Ich erkläre es noch einmal, damit du es verstehst. → ___",
+     "a": "Explico outra vez para que (tu) percebas. / Explico outra vez para (tu) perceberes."
+    },
+    {
+     "q": "Es regnet in Strömen. → ___",
+     "a": "Está a chover a potes. / Chove a potes."
+    },
+    {
+     "q": "Es lohnt sich, selbst wenn es schwer ist. → ___",
+     "a": "Vale a pena, mesmo que seja difícil."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Embora esteja cansada",
+   "html": "Denk an etwas, das dich gerade Kraft kostet – der Kurs, die Arbeit, das Portugiesische. Sprich sechs Sätze laut, in denen ein Zweifel und ein Trotzdem stecken: <i>Embora esteja cansada, … · Mesmo que seja difícil, … · Estudo todos os dias para … · Escrevo tudo no caderno para que … · Não desisto antes que … · Fico até que …</i><br><br>Sag dann denselben Gedanken zweimal, einmal mit <i>mas</i>, einmal mit <i>embora</i>, und hör auf das Verb: <i>Tenho dúvidas, mas fico. – Embora tenha dúvidas, fico.</i><br><br>Zum Schluss Vascos Satz, langsam, ohne Betonung – so wie er ihn sagt: <i>Cansada é bom. Cansada quer dizer que estás a fazer alguma coisa.</i> (Als Mann: <i>Cansado é bom.</i>)"
+  },
+  {
+   "type": "story",
+   "title": "7 · Hörverstehen: Chuva em Lisboa",
+   "audio": "s62",
+   "listen": true,
+   "text": "Ao domingo a padaria do tio Zé está fechada, mas a Marie acordou às três e meia na mesma, sem despertador. Chovia. Não era chuva de Hamburgo, fina e paciente. Era chuva de Lisboa: caía toda de uma vez em cima do telhado.<br>Às nove ainda chovia. O João dormia no quarto, com a porta aberta e um pé fora da cama. Na sala, o sofá era mau como sempre. O aquecedor, pequeno, aquecia um metro quadrado e mais nada. A Marie sentou-se dentro desse metro quadrado, com uma manta pelos ombros e o caderno nos joelhos, e fez uma lista. À esquerda: «Razões para desistir». À direita: «Razões para ficar».<br>À esquerda escreveu depressa. As três e quarenta da manhã. A bolsa, que não chega por causa de um papel. A Noor, que fala mais depressa do que eu, embora faça mais erros. A roupa, que não seca há cinco dias. O mar, a trezentos quilómetros.<br>À direita não escreveu nada durante muito tempo.<br>Às dez ligou ao Vasco, que disse pouco, como sempre. Depois foi à janela. Lá em baixo, a rua era um rio pequeno com poças grandes. Uma senhora subia a calçada com dois sacos e um guarda-chuva partido, devagar, sem parar, como quem faz aquilo há cinquenta anos.<br>«Mesmo que chova a semana toda», pensou a Marie, «aquela senhora vai subir esta rua amanhã.»<br>Voltou para o metro quadrado e escreveu à direita:<br>«O pão de sexta-feira, que ficou menos torto do que o de quinta.»<br>«A professora Helena disse-me “muito bem”. Uma vez.»<br>«Do miradouro vê-se de onde eu vim.»<br>«Cansada quer dizer que estou a fazer alguma coisa.»<br>Contou. Cinco contra quatro. Ganhava a esquerda.<br>Às onze o João apareceu na sala, de olhos fechados, com o cabelo maior do que a cabeça.<br>— Está a chover?<br>— Desde as três e meia.<br>— Hum. — Olhou para o caderno, sem ler. — Ontem esvaziei metade do armário. Para que não vivas dentro da mala até maio. Esqueci-me de te dizer.<br>E voltou para a cama.<br>A Marie escreveu à direita: «Metade de um armário.» Cinco a cinco. Fechou o caderno. Fora de casa, um empate é um bom resultado.<br>Depois abriu a mala e começou a arrumar a roupa no armário. Ainda estava húmida.",
+   "gloss": "Erst hören (zweimal), dann die Fragen, dann lesen. Neu erschließen: na mesma = trotzdem · o despertador = der Wecker · o metro quadrado = der Quadratmeter · a razão = der Grund · partido = kaputt · torto = schief · o empate = das Unentschieden · fora de casa = auswärts; weg von zu Hause · arrumar = einräumen",
+   "questions": [
+    {
+     "q": "Ao domingo a Marie dorme até tarde, porque a padaria está fechada.",
+     "a": "Falsch – sie wacht trotzdem um halb vier auf, ohne Wecker."
+    },
+    {
+     "q": "A Marie escreveu primeiro as razões para ficar.",
+     "a": "Falsch – die linke Spalte („Razões para desistir“) ging schnell, rechts stand lange nichts."
+    },
+    {
+     "q": "O João esvaziou metade do armário para a Marie.",
+     "a": "Richtig – „Para que não vivas dentro da mala até maio.“ Und er hat vergessen, es ihr zu sagen."
+    },
+    {
+     "q": "No fim, a esquerda ganhou por cinco a quatro.",
+     "a": "Falsch – mit dem halben Schrank steht es fünf zu fünf. „Fora de casa, um empate é um bom resultado.“ Sie räumt die Kleider ein."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt Zweifel und Trotzdem ausdrücken: <b>embora, mesmo que, para que, antes que, sem que, até que</b> + conjuntivo – und du weißt, wann stattdessen <i>mas</i> oder <i>para</i> + Infinitiv steht. Du hast außerdem eine ganze Geschichte nur über das Ohr verstanden. Marie bleibt, der Schrank ist halb voll. Morgen, Tag 63: der Wochentest <b>Revisão VII</b> – 50 Punkte über alles aus Woche 9, mit einer Nachricht von Noor und einem Bonus aus der Bäckerei."
+  }
+ ]
+}

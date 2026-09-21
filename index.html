@@ -706,9 +706,10 @@ function goTab(id, ausHistory) {
 
 /* ---------- Lektionen ---------- */
 const WOCHEN = ['Woche 1 · Ich und du', 'Woche 2 · Meine Welt', 'Woche 3 · Mein Alltag', 'Woche 4 · Unterwegs',
-  'Staffel 2 · Woche 5 · Porto, outra vez', 'Woche 6 · Coimbra', 'Woche 7 · A estrada', 'Woche 8 · Sagres, com responsabilidade'];
+  'Staffel 2 · Woche 5 · Porto, outra vez', 'Woche 6 · Coimbra', 'Woche 7 · A estrada', 'Woche 8 · Sagres, com responsabilidade',
+  'Staffel 3 · Woche 9 · Lisboa, outubro'];
 // Etappen-Vignetten je Woche (Staffel 2: Porto/Milfontes/Sagres wiederverwendet, Coimbra eigene Vignette)
-const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'coimbra', 'alentejo', 'sagres'];
+const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'coimbra', 'alentejo', 'sagres', 'lisboa'];
 const LESSONS = [
   { id: 'tag01', label: 'Tag 1 · Olá!', sub: 'Begrüßen & sich vorstellen', w: 0 },
   { id: 'tag02', label: 'Tag 2 · De onde és?', sub: 'Herkunft & Nationalitäten', w: 0 },
@@ -767,6 +768,13 @@ const LESSONS = [
   { id: 'tag54', label: 'Tag 54 · A história do Vasco', sub: 'Alle Zeiten · Hörverstehen', w: 7 },
   { id: 'tag55', label: 'Tag 55 · A decisão', sub: 'Zeiten-Übersicht · Angebote', w: 7 },
   { id: 'tag56', label: 'Tag 56 · Exame final A2', sub: 'Abschlusstest · 60 Punkte', w: 7 },
+  { id: 'tag57', label: 'Tag 57 · O sofá do João', sub: 'tenho dormido · perfeito composto', w: 8 },
+  { id: 'tag58', label: 'Tag 58 · Senha B 247', sub: 'é preciso que · Konjunktiv', w: 8 },
+  { id: 'tag59', label: 'Tag 59 · A padaria às quatro', sub: 'infinitivo pessoal', w: 8 },
+  { id: 'tag60', label: 'Tag 60 · Primeiro dia de aulas', sub: 'quero que · não acho que', w: 8 },
+  { id: 'tag61', label: 'Tag 61 · Há greve', sub: 'se houver, quando chegares', w: 8 },
+  { id: 'tag62', label: 'Tag 62 · Saudades de Sagres', sub: 'embora, para que · Hörverstehen', w: 8 },
+  { id: 'tag63', label: 'Tag 63 · Revisão VII', sub: 'Wochentest · 50 Punkte', w: 8 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -1108,6 +1116,13 @@ const TEXTOS = [
   { tag: 'tag54', num: 54, title: 'O domingo à noite', nivel: 5, story: true },
   { tag: 'tag55', num: 55, title: 'A resposta da Marie', nivel: 5, story: true },
   { tag: 'tag56', num: 56, title: 'Junho', nivel: 5, story: true },
+  { tag: 'tag57', num: 57, title: 'O quarto andar', nivel: 5, story: true },
+  { tag: 'tag58', num: 58, title: 'Falta um papel', nivel: 5, story: true },
+  { tag: 'tag59', num: 59, title: 'O pão não espera', nivel: 5, story: true },
+  { tag: 'tag60', num: 60, title: 'A professora Helena', nivel: 5, story: true },
+  { tag: 'tag61', num: 61, title: 'Sete colinas', nivel: 5, story: true },
+  { tag: 'tag62', num: 62, title: 'Chuva em Lisboa', nivel: 5, story: true },
+  { tag: 'tag63', num: 63, title: 'O primeiro ordenado', nivel: 5, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');
@@ -1401,9 +1416,12 @@ async function renderCaderno() {
   let g = 0, a = 0;
   for (const w of alle) { const b = (store.words[w.id] || { box: 0 }).box; if (b >= 2) g++; else if (b === 1) a++; }
   const pct = Math.round(100 * g / total);
-  const a2 = lvocabFrei().filter(w => w.w >= 4);
+  const a2 = lvocabFrei().filter(w => w.w >= 4 && w.w < 8);
+  const b1 = lvocabFrei().filter(w => w.w >= 8);
+  const gb1 = b1.filter(w => (store.words[w.id] || { box: 0 }).box >= 2).length;
   const g2 = a2.filter(w => (store.words[w.id] || { box: 0 }).box >= 2).length;
-  const a2zeile = a2.length ? `<div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.2rem">A2 (Staffel 2): ${g2} von ${a2.length} gelernt</div>` : '';
+  const a2zeile = (a2.length ? `<div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.2rem">A2 (Staffel 2): ${g2} von ${a2.length} gelernt</div>` : '')
+    + (b1.length ? `<div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.2rem">B1 (Staffel 3): ${gb1} von ${b1.length} gelernt</div>` : '');
   document.getElementById('cad-stats').innerHTML = `
     <div class="lsec" style="display:flex; align-items:center; gap:14px; transform:rotate(-.3deg)">
       <div style="text-align:center">
@@ -1925,7 +1943,7 @@ async function openLesson(id) {
     const div = document.createElement('div');
     div.className = 'lsec';
     if (sec.type === 'note' || sec.type === 'speak') {
-      const fig = sec.title.includes('Dica do Vasco') ? 'vasco' : sec.title.includes('Dica da Ana') ? 'ana' : '';
+      const fig = sec.title.includes('Dica do Vasco') ? 'vasco' : sec.title.includes('Dica da Ana') ? 'ana' : sec.title.includes('Dica do João') ? 'joao' : '';
       const vasco = fig
         ? `<img class="avat" src="avatare/${fig}.png" alt="" style="width:34px; height:34px; vertical-align:middle; margin-right:.5rem">` : '';
       div.innerHTML = `<h3 style="${vasco ? 'display:flex; align-items:center' : ''}">${vasco}${sec.title}</h3><div class="body">${sec.html}</div>`;
@@ -2113,7 +2131,7 @@ function zeigePaywall() {
         <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft)">Staffel 2 · A2</div>
         <div style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">A volta</div>
         <div style="font-size:.9rem; font-weight:400; line-height:1.55; margin-bottom:.9rem">Ein Jahr später: Marie kommt für einen ganzen Sommer zurück. Porto, Coimbra, mit dem alten Van durchs Alentejo – und Sagres, diesmal als Surflehrerin.</div>
-        <div class="mono" style="font-size:.74rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">28 Lektionen auf Niveau A2<br>Imperfekt, Pronomen, Konjunktiv, Erzählen<br>Hörverstehen und neue Übungsformen<br>Abschlusstest im Format der CIPLE-Prüfung</div>
+        <div class="mono" style="font-size:.74rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">28 Lektionen auf Niveau A2 – und Staffel 3 (B1, Lissabon), die gerade wächst<br>Imperfekt, Pronomen, Konjunktiv, Erzählen<br>Hörverstehen und neue Übungsformen<br>Abschlusstest im Format der CIPLE-Prüfung</div>
         <button class="mixbtn" style="margin:0 0 .5rem; transform:none" onclick="kaufen()">Staffel 2 freischalten</button>
         <div class="mono" style="font-size:.62rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Einmalkauf, kein Abo · Tag 29 ist gratis zum Ausprobieren</div>
         <div style="display:flex; gap:.5rem">
@@ -2161,7 +2179,8 @@ function checkEx(row) {
   const inp = row.querySelector('.exin');
   // trim VOR der Satzzeichen-Regel: „Gosto de café. / Gosto do café.“ – die erste
   // Alternative endete sonst auf „. “ und wurde nie akzeptiert.
-  const norm = t => t.toLowerCase().replace(/\s+/g, ' ').trim().replace(/[.!?,;:]+$/, '').trim();
+  // Kommas mitten im Satz zählen nicht: „Se chover fico em casa“ = „Se chover, fico em casa“
+  const norm = t => t.toLowerCase().replace(/,/g, ' ').replace(/\s+/g, ' ').trim().replace(/[.!?;:]+$/, '').trim();
   const ohneAkzent = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   // Klammern = optional: „Gosto (muito) de peixe.“ gilt mit und ohne „muito“
   const roh = row.querySelector('.a').textContent;
