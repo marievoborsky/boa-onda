@@ -43,7 +43,7 @@ WOCHEN = {
         61: ('Há greve', 'se houver, quando chegares'),
         62: ('Saudades de Sagres', 'embora, para que · Hörverstehen'),
         63: ('Revisão VII', 'Wochentest · 50 Punkte')},
-        'textos': {57: 'O quarto andar', 58: 'Falta um papel', 59: 'O pão não espera', 60: 'A professora Helena',
+        'textos': {57: 'O quarto andar', 58: 'Falta um papel', 59: 'O pão não espera', 60: 'A professora Teresa',
                    61: 'Sete colinas', 62: 'Chuva em Lisboa', 63: 'O primeiro ordenado'}},
 }
 

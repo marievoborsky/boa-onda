@@ -1132,7 +1132,7 @@ const TEXTOS = [
   { tag: 'tag57', num: 57, title: 'O quarto andar', nivel: 5, story: true },
   { tag: 'tag58', num: 58, title: 'Falta um papel', nivel: 5, story: true },
   { tag: 'tag59', num: 59, title: 'O pão não espera', nivel: 5, story: true },
-  { tag: 'tag60', num: 60, title: 'A professora Helena', nivel: 5, story: true },
+  { tag: 'tag60', num: 60, title: 'A professora Teresa', nivel: 5, story: true },
   { tag: 'tag61', num: 61, title: 'Sete colinas', nivel: 5, story: true },
   { tag: 'tag62', num: 62, title: 'Chuva em Lisboa', nivel: 5, story: true },
   { tag: 'tag63', num: 63, title: 'O primeiro ordenado', nivel: 5, story: true },
@@ -1981,7 +1981,7 @@ async function openLesson(id) {
       for (const ln of sec.lines) {
         const row = document.createElement('div');
         row.className = 'dline';
-        const fig = { ana: 'ana', marie: 'marie', 'joão': 'joao', vasco: 'vasco', martim: 'martim', tiago: 'tiago', 'inês': 'ines', 'avó': 'carolina', 'tio zé': 'tio', professora: 'professora' }[ln.who.trim().toLowerCase()];
+        const fig = { ana: 'ana', marie: 'marie', 'joão': 'joao', vasco: 'vasco', martim: 'martim', tiago: 'tiago', 'inês': 'ines', 'avó': 'carolina', 'tio tó': 'tio', 'tio zé': 'tio', professora: 'professora' }[ln.who.trim().toLowerCase()];
         row.innerHTML = `${fig ? `<img class="avat" src="avatare/${fig}.png" alt="">` : ''}<span class="who">${ln.who}</span>
           <span class="dpt" onclick="play('${ln.audio}')">${ln.pt}</span>
           ${recButtons(ln.audio)}`;
