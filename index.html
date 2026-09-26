@@ -798,16 +798,29 @@ const KARTEN = [
     rota: 'M 176 16 C 186 40, 198 65, 199 95 C 199 125, 190 150, 184 172 C 176 200, 156 215, 152 240 C 150 262, 166 280, 176 296 C 186 312, 180 335, 181 355 C 181 372, 174 385, 163 394',
     seg: [[0.03, 0.19], [0.22, 0.50], [0.55, 0.78], [0.80, 0.97]],
     // Flug Sagres → Porto als gepunkteter Bogen über Land
-    extra: '<path d="M 163 394 C 310 340, 318 70, 180 16" fill="none" stroke="#5a3a52" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="3 8" opacity=".45" filter="url(#km-pinsel)"/><text x="300" y="205" text-anchor="middle" fill="#7a6f5a" font-size="7" letter-spacing=".1em" font-family="Roboto Mono, monospace" stroke="#fffdf6" stroke-width="2.5" paint-order="stroke">VOO</text>' },
+    extra: '' },
+  { w0: 8, titel: 'Um ano em Lisboa · Staffel 3 · B1', rechts: [2, 3], teaser: false, img: 'karte-lisboa.png',
+    etappen: [
+      { name: 'Graça',      sub: 'Woche 9 · Lisboa, outubro', frac: 0.03 },
+      { name: 'Cidade Universitária', sub: 'Woche 10 · O curso', frac: 0.36 },
+      { name: 'Campo de Ourique', sub: 'Woche 11 · Inverno', frac: 0.66 },
+      { name: 'Cais do Sodré', sub: 'Woche 12 · Primavera', frac: 0.97 }],
+    rota: 'M 257 159 C 245 128, 215 100, 185 92 C 140 96, 90 140, 68 191 C 55 225, 90 265, 130 290 C 150 302, 175 308, 186 312',
+    seg: [[0.03, 0.30], [0.34, 0.62], [0.66, 0.93], [0.95, 0.99]], extra: '' },
 ];
 function renderKursMap() {
+  // eine Karte pro Staffel, sobald deren erste Woche in LESSONS steht
   const box1 = document.getElementById('kurs-map');
   renderKursMapFor({ ...KARTEN[0], box: box1, teaser: !LESSONS.some(l => l.w >= 4) });
-  let box2 = document.getElementById('kurs-map2');
-  if (LESSONS.some(l => l.w >= 4)) {
-    if (!box2) { box2 = document.createElement('div'); box2.id = 'kurs-map2'; box2.className = box1.className; box2.style.cssText = box1.style.cssText + '; margin-top:1rem'; box1.after(box2); }
-    renderKursMapFor({ ...KARTEN[1], box: box2 });
-  } else if (box2) box2.remove();
+  let vorher = box1;
+  KARTEN.slice(1).forEach((k, i) => {
+    let box = document.getElementById('kurs-map' + (i + 2));
+    if (LESSONS.some(l => l.w >= k.w0)) {
+      if (!box) { box = document.createElement('div'); box.id = 'kurs-map' + (i + 2); box.className = box1.className; box.style.cssText = box1.style.cssText + '; margin-top:1rem'; vorher.after(box); }
+      renderKursMapFor({ ...k, box });
+      vorher = box;
+    } else if (box) box.remove();
+  });
 }
 function renderKursMapFor(cfg) {
   const box = cfg.box;
@@ -824,7 +837,7 @@ function renderKursMapFor(cfg) {
           <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G"/>
         </filter>
       </defs>
-      <image href="karte.png" x="0" y="0" width="320" height="411" preserveAspectRatio="xMidYMid slice"/>
+      <image href="${cfg.img || 'karte.png'}" x="0" y="0" width="320" height="411" preserveAspectRatio="xMidYMid slice"/>
       <path id="km-weg" d="${ROTA}" filter="url(#km-pinsel)"
         fill="none" stroke="#c4553a" stroke-width="3.6" stroke-linecap="round" opacity=".5"/>
       <path id="km-fortschritt" d="${ROTA}" filter="url(#km-pinsel)"
@@ -1968,7 +1981,7 @@ async function openLesson(id) {
       for (const ln of sec.lines) {
         const row = document.createElement('div');
         row.className = 'dline';
-        const fig = { ana: 'ana', marie: 'marie', 'joão': 'joao', vasco: 'vasco', martim: 'martim', tiago: 'tiago', 'inês': 'ines', 'avó': 'carolina' }[ln.who.trim().toLowerCase()];
+        const fig = { ana: 'ana', marie: 'marie', 'joão': 'joao', vasco: 'vasco', martim: 'martim', tiago: 'tiago', 'inês': 'ines', 'avó': 'carolina', 'tio zé': 'tio', professora: 'professora' }[ln.who.trim().toLowerCase()];
         row.innerHTML = `${fig ? `<img class="avat" src="avatare/${fig}.png" alt="">` : ''}<span class="who">${ln.who}</span>
           <span class="dpt" onclick="play('${ln.audio}')">${ln.pt}</span>
           ${recButtons(ln.audio)}`;
