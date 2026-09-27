@@ -1,18 +1,20 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v33';
+const SHELL = 'boa-onda-shell-v34';
 const AUDIO = 'boa-onda-audio-v1';
-const LEKTIONEN = Array.from({ length: 63 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`).concat(['./lektionen/sagres.json']);
+// Vorab nur der Vokabel-Index und die erste Woche; jede weitere Lektion landet beim
+// ersten Öffnen im Cache (siehe fetch: Netz zuerst, Antwort wird gespeichert).
+const LEKTIONEN = ['./lektionen/index.json'].concat(Array.from({ length: 7 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`));
 const CORE = [
   './index.html', './data.js', './manifest.webmanifest', './descobrir.json',
-  './logo.png', './karte.png', './karte-lisboa.png', './boa-onda-welle.png', './datenschutz.html', './druck.html',
+  './logo.webp', './karte.webp', './karte-lisboa.webp', './boa-onda-welle.webp', './datenschutz.html', './druck.html',
   './fonts/fonts.css',
   './fonts/robotomono-af121f2f.woff2',
   './fonts/robotomono-fe832705.woff2',
   './fonts/spacegrotesk-a57c9413.woff2',
   './fonts/spacegrotesk-e911c2d9.woff2',
-  './avatare/marie.png', './avatare/ana.png', './avatare/joao.png', './avatare/vasco.png', './avatare/martim.png', './avatare/tiago.png', './avatare/ines.png', './avatare/carolina.png', './avatare/tio.png', './avatare/professora.png',
-  './etappen/porto.png', './etappen/lisboa.png', './etappen/milfontes.png', './etappen/sagres.png', './etappen/coimbra.png', './etappen/alentejo.png',
+  './avatare/marie.webp', './avatare/ana.webp', './avatare/joao.webp', './avatare/vasco.webp', './avatare/martim.webp', './avatare/tiago.webp', './avatare/ines.webp', './avatare/carolina.webp', './avatare/tio.webp', './avatare/professora.webp',
+  './etappen/porto.webp', './etappen/lisboa.webp', './etappen/milfontes.webp', './etappen/sagres.webp', './etappen/coimbra.webp', './etappen/alentejo.webp',
   './fotos/sagres-mareta.webp', './fotos/sagres-baia.webp', './fotos/sagres-vale.webp', './fotos/sagres-praia.webp', './fotos/sagres-falesia.webp', './fotos/sagres-estrada.webp',
   ...LEKTIONEN,
 ];
@@ -59,7 +61,9 @@ self.addEventListener('fetch', e => {
       }))
     ));
   } else {
-    // Rest: Netz zuerst (damit Updates ankommen), sonst Cache
+    // Rest: Netz zuerst (damit Updates ankommen), sonst Cache. Jede erfolgreiche Antwort
+    // wird gespeichert – so sind einmal geöffnete Lektionen und Texte auch offline da.
+    const istDaten = /\.json$/.test(url.pathname);
     e.respondWith(
       netzMitTimeout(e.request, 2500).then(res => {
         if (cachebar(res)) {
@@ -68,7 +72,9 @@ self.addEventListener('fetch', e => {
         }
         return res;
       }).catch(() => caches.match(e.request, { ignoreSearch: true }).then(hit => hit ||
-        caches.match('./index.html')))
+        // Daten, die nie geladen wurden, bekommen kein index.html untergeschoben (die App
+        // zeigt dann „Bist du offline?" mit Nochmal-Knopf); Navigationen fallen auf die Shell
+        (istDaten ? Response.error() : caches.match('./index.html'))))
     );
   }
 });

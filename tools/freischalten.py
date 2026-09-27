@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Schaltet vorbereitete Wochen frei: trägt LESSONS/TEXTOS-Einträge in index.html ein,
-erhöht den Precache im sw.js und erzeugt die Arbeitsblätter.
+erhöht die Version im sw.js, baut lektionen/index.json neu und erzeugt die Arbeitsblätter.
 
 Voraussetzung: die Lektions-JSONs liegen in lektionen/ UND die Audios existieren
 (vorher `python3 tools/tts-eleven.py` und `python3 tools/tts-tok-google.py`).
@@ -76,14 +76,15 @@ def main():
         s = s[:m.end()] + tex + s[m.end():]
         print(f'Woche {wk} registriert (tag{cfg["tage"][0]:02d}–tag{cfg["tage"][-1]:02d}).')
     open(p, 'w', encoding='utf-8').write(s)
-    # Service Worker: Precache-Länge + Version
+    # Service Worker: nur die Version (vorab gecacht werden nur index.json und Woche 1;
+    # weitere Lektionen kommen beim ersten Öffnen in den Cache)
     sw = os.path.join(BASE, 'sw.js'); w = open(sw, encoding='utf-8').read()
-    maxtag = max(WOCHEN[wk]['tage'][-1] for wk in wochen)
-    w = re.sub(r"Array\.from\(\{ length: \d+ \}", f"Array.from({{ length: {maxtag} }}", w)
     w = re.sub(r"boa-onda-shell-v(\d+)", lambda m: f"boa-onda-shell-v{int(m.group(1)) + 1}", w)
     open(sw, 'w', encoding='utf-8').write(w)
+    # Vokabel-Index neu bauen – die App liest beim Start nur lektionen/index.json
+    subprocess.run([sys.executable, os.path.join(BASE, 'tools', 'vokabel-index.py')], check=True)
     subprocess.run([sys.executable, os.path.join(BASE, '..', 'arbeitsblaetter', 'generieren.py')], check=True)
-    print('sw.js gebumpt, Arbeitsblätter erzeugt. Jetzt: Smoke-Test, commit, push.')
+    print('sw.js gebumpt, Vokabel-Index und Arbeitsblätter erzeugt. Jetzt: Smoke-Test, commit, push.')
 
 if __name__ == '__main__':
     main()

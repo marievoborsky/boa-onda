@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Boa Onda – Europäisches Portugiesisch lernen</title>
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#f4eee2">
+<meta name="theme-color" content="#f4eee2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1f1930" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -14,20 +16,59 @@
 <link rel="icon" href="icons/icon-192.png">
 <link href="fonts/fonts.css" rel="stylesheet">
 <style>
-  /* Typo-System: Fancy nur für große Überschriften · Roboto Mono Light für Dünnes · Space Grotesk für Dickeres */
+  /* Typo-System: Fancy nur für große Überschriften · Roboto Mono Light für Dünnes · Space Grotesk für Dickeres
+     Paket C: Untergrenze für lesbaren Text 12 px (.75rem), Tap-Ziele 44 px, Kontraste ≥ 4,5:1 (gemessen),
+     Farb-Tokens getrennt nach Fläche (--clay, --lav-deep, --sea bleiben) und Text (--*-text auf Karte, --*-ink auf Pastell). */
   :root {
+    color-scheme: light dark;
     --paper: #f4eee2;        /* warmes Papier */
     --card: #fffdf6;         /* Karten-Weiß */
     --ink: #33294a;          /* tiefes Pflaume-Blau */
-    --ink-soft: #6a6180;
-    --lav: #b9a7e6;          /* Lavendel */
-    --lav-deep: #7f6ec2;
+    --ink-soft: #5c5372;     /* vorher #6a6180 (4,2:1 auf Sand) – jetzt ≥ 5:1 auf Papier, Karte, Sand */
+    --line: var(--line);         /* Balken-Hintergrund, Rahmen, Punkte */
+    --line-soft: var(--line-soft);    /* Trennlinien in Listen */
+    --lav: #b9a7e6;          /* Lavendel (Blobs) */
+    --lav-deep: #6c5cb5;     /* Fläche mit weißer Schrift (vorher #7f6ec2, 4,3:1) */
+    --lav-text: #6c5cb5;     /* Lavendel-Schrift auf Karte */
+    --lav-ink: #5a4a9c;      /* Lavendel-Schrift auf --lav-pale */
     --lav-pale: #e6dff5;
-    --sea: #3fbfae;          /* Türkis */
+    --sea: #3fbfae;          /* Türkis – nur Flächen, Balken, Punkte */
     --sea-pale: #cdeae4;
-    --clay: #d9502e;         /* Klippen-Rot / Terracotta */
+    --sea-ink: var(--sea-ink);      /* Türkis-Schrift (Zähler, Prozent, Prüfen) */
+    --on-sea: #26203a;       /* Schrift auf --sea (Weiß hätte 2,3:1) */
+    --clay: #c94726;         /* Klippen-Rot / Terracotta – Flächen (vorher #d9502e, Weiß darauf 4,1:1) */
+    --clay-text: #c94726;    /* Terracotta-Schrift auf Karte */
+    --clay-ink: #9e3818;     /* Terracotta-Schrift auf --clay-soft */
     --clay-soft: #f3cdb9;
     --sand: #ecd9b4;
+    --sand-ink: #7a5d12;
+    --scrim: rgba(51,41,74,.45);
+    --card-2: #fffdf6;       /* Knöpfe/Chips, die selbst auf einer Karte liegen (dunkel: eine Stufe heller) */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #1f1930;      /* dunkles Aubergine */
+      --card: #2c2541;       /* Karten etwas heller als der Grund */
+      --ink: #f0e8dc;        /* Sand-Ton als Schrift */
+      --ink-soft: #b8afc8;
+      --line: #463c5e;
+      --line-soft: #3d3454;
+      --lav: #6a5aa6;
+      --lav-pale: #3b3160;
+      --lav-text: #c3b5f0;
+      --lav-ink: #d5caf5;
+      --sea-pale: #1e4744;
+      --sea-ink: #86dfd0;
+      --clay-soft: #4d2a20;
+      --clay-text: #f2a184;
+      --clay-ink: #f2a184;
+      --sand: #4a3d2a;
+      --sand-ink: #e9c98a;
+      --scrim: rgba(0,0,0,.6);
+      --card-2: #3b3254;
+    }
+    body::after { mix-blend-mode: screen; opacity: .18; }
+    .sun { opacity: .28; } .wave1 { opacity: .16; } .wave2 { opacity: .14; } .cliff { opacity: .22; }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
   body {
@@ -36,6 +77,15 @@
     position: relative; overflow-x: hidden;
   }
   .mono { font-family: "Roboto Mono", monospace; font-weight: 300; }
+  /* Kicker: kleine Mono-Versalzeile (mind. 12 px) */
+  .kicker { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+    clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+  /* Sichtbarer Tastatur-Fokus */
+  :focus-visible { outline: 2px solid var(--clay); outline-offset: 2px; }
+  .tabbar button:focus-visible, .wtok:focus-visible, .memcard:focus-visible, .wsc:focus-visible { outline-offset: -2px; }
+  [role="button"] { cursor: pointer; }
   /* Risograph-Körnung */
   body::after {
     content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 5;
@@ -58,26 +108,33 @@
 
   .wrap { max-width: 480px; margin: 0 auto; position: relative; z-index: 1;
     padding: calc(1.4rem + env(safe-area-inset-top)) 1.2rem calc(6.5rem + env(safe-area-inset-bottom)); }
+  /* Tablet / Landscape: etwas breiter, aber Karten und Landkarte nicht riesig */
+  @media (min-width: 768px) {
+    .wrap, .tabbar { max-width: 600px; }
+    .kmap { max-width: 440px; margin-left: auto; margin-right: auto; }
+    .wpop { max-width: 568px; }
+  }
 
   /* ---------- Header ---------- */
   header { position: relative; margin-bottom: .2rem; }
-  /* Logo = gerenderte Solvent-Wortmarke (logo.png) – funktioniert auf jedem Gerät */
+  header h1 { margin: 0; line-height: 0; }
+  /* Logo = gerenderte Solvent-Wortmarke (logo.webp) – funktioniert auf jedem Gerät */
   .logo-img { display: block; width: min(82vw, 380px); height: auto;
     margin-top: 2.4rem; }
   .streak { position: absolute; top: 0; right: 0;
     background: var(--card); border-radius: 999px; padding: .3rem .8rem;
-    font-size: .85rem; font-weight: 700; color: var(--clay);
+    font-size: .85rem; font-weight: 700; color: var(--clay-text);
     box-shadow: 0 2px 10px rgba(51,41,74,.12); transform: rotate(2deg); }
   .tagline { font-family: "Roboto Mono", monospace; font-weight: 300;
-    font-size: .72rem; letter-spacing: .22em; text-transform: uppercase;
+    font-size: .75rem; letter-spacing: .2em; text-transform: uppercase;
     color: var(--ink-soft); margin-bottom: 1.4rem; }
 
   /* ---------- Spot-Liste ---------- */
   .spot {
     background: var(--card); border-radius: 14px; padding: .95rem 1rem;
     margin-bottom: .75rem; display: flex; align-items: center; gap: .9rem;
-    cursor: pointer; transition: transform .12s ease;
-    box-shadow: 0 3px 14px rgba(51,41,74,.1);
+    cursor: pointer; transition: transform .12s ease; min-height: 44px;
+    box-shadow: 0 3px 14px rgba(51,41,74,.1); width: 100%; text-align: left;
   }
   .spot:nth-child(odd)  { transform: rotate(.45deg); }
   .spot:nth-child(even) { transform: rotate(-.45deg); }
@@ -94,12 +151,16 @@
   .spot .name { font-weight: 600; font-size: .98rem; }
   .spot .theme { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .75rem; color: var(--ink-soft); }
-  .bar { height: 5px; background: #e8e0d0; border-radius: 3px; margin-top: .45rem; overflow: hidden; }
+  .bar { height: 5px; background: var(--line); border-radius: 3px; margin-top: .45rem; overflow: hidden; }
   .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--sea), var(--lav-deep)); border-radius: 3px; }
-  .spot .pct { font-size: .78rem; font-weight: 700; color: var(--sea); white-space: nowrap; }
+  .spot .pct { font-size: .8rem; font-weight: 700; color: var(--sea-ink); white-space: nowrap; }
+  /* Dica do dia: ruhige Notiz, nicht antippbar – ohne Schatten, ohne Neigung */
+  .spot.dica-note { cursor: default; box-shadow: none; transform: none; background: transparent;
+    border: 1.5px dashed var(--line); }
+  .spot.dica-note:active { transform: none; }
   .mixbtn {
     width: 100%; border: none; border-radius: 14px; padding: 1.05rem;
-    background: var(--clay); color: #fff8f2; font-size: 1rem; font-weight: 800;
+    background: var(--clay); color: #fff; font-size: 1rem; font-weight: 800;
     font-family: inherit; cursor: pointer; margin: .2rem 0 1.2rem;
     letter-spacing: .02em; transform: rotate(-.5deg);
     box-shadow: 0 6px 18px rgba(217,80,46,.35);
@@ -107,11 +168,11 @@
 
   /* ---------- Karte (Lernen) ---------- */
   .session { display: none; }
-  .topbar { display: flex; align-items: center; gap: .8rem; margin-bottom: 1.2rem; }
+  .topbar { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem; margin-bottom: 1.2rem; }
   .back { background: none; border: none; color: var(--ink); font-size: 1.5rem; cursor: pointer;
     font-family: inherit; min-width: 44px; min-height: 44px; margin-left: -.6rem;
     display: flex; align-items: center; justify-content: center; }
-  .sbar { flex: 1; height: 6px; background: #e8e0d0; border-radius: 4px; overflow: hidden; }
+  .sbar { flex: 1; height: 6px; background: var(--line); border-radius: 4px; overflow: hidden; }
   .sbar i { display: block; height: 100%; background: var(--sea); border-radius: 4px; transition: width .3s; }
   .card {
     background: var(--card); color: var(--ink); border-radius: 20px;
@@ -121,15 +182,15 @@
     box-shadow: 0 12px 34px rgba(51,41,74,.16);
   }
   .card .word { font-family: "Roboto Mono", monospace; font-weight: 300;
-    font-size: 1.75rem; line-height: 1.25; letter-spacing: -.02em; }
+    font-size: 1.75rem; line-height: 1.25; letter-spacing: -.02em; overflow-wrap: anywhere; }
   .card .ipa { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .95rem; color: var(--ink-soft); }
-  .card .de { font-size: 1.25rem; font-weight: 600; color: var(--lav-deep); }
+  .card .de { font-size: 1.25rem; font-weight: 600; color: var(--lav-text); }
   .card .hintline { font-family: "Roboto Mono", monospace; font-weight: 300;
-    font-size: .74rem; color: #b3aa9b; position: absolute; bottom: 1rem; left: 0; right: 0; }
+    font-size: .75rem; color: var(--ink-soft); position: absolute; bottom: 1rem; left: 0; right: 0; }
   .audiobtn {
-    border: none; background: var(--sea); color: #fff; border-radius: 50%;
-    width: 3.2rem; height: 3.2rem; font-size: 1.3rem; cursor: pointer;
+    border: none; background: var(--sea); color: var(--on-sea); border-radius: 50%;
+    width: 3.2rem; height: 3.2rem; min-width: 44px; min-height: 44px; font-size: 1.3rem; cursor: pointer;
     margin: 0 auto; display: block; box-shadow: 0 4px 12px rgba(63,191,174,.4);
   }
   .actions { display: flex; gap: .7rem; margin-top: 1.2rem; }
@@ -142,85 +203,89 @@
 
   /* ---------- Quiz ---------- */
   .qword { font-family: "Roboto Mono", monospace; font-weight: 300;
-    font-size: 1.55rem; text-align: center; margin: 1.4rem 0; }
+    font-size: 1.55rem; text-align: center; margin: 1.4rem 0; overflow-wrap: anywhere; }
   .qipa { font-family: "Roboto Mono", monospace; font-weight: 300;
     text-align: center; color: var(--ink-soft); margin: -1rem 0 1.4rem; }
   .opt {
     width: 100%; text-align: left; border: none; background: var(--card);
     color: var(--ink); border-radius: 12px; padding: .95rem 1rem;
     margin-bottom: .6rem; font-size: 1rem; font-family: inherit; font-weight: 600;
-    cursor: pointer; box-shadow: 0 2px 10px rgba(51,41,74,.09);
+    cursor: pointer; box-shadow: 0 2px 10px rgba(51,41,74,.09); min-height: 44px;
   }
   .opt:nth-child(odd)  { transform: rotate(.3deg); }
   .opt:nth-child(even) { transform: rotate(-.3deg); }
-  .opt.right { background: var(--sea); color: #fff; }
+  .opt.right { background: var(--sea); color: var(--on-sea); }
   .opt.wrong { background: var(--clay); color: #fff; }
 
   /* ---------- Ende ---------- */
   .done { text-align: center; padding: 3rem 0; display: none; position: relative; z-index: 1; }
   .done .big { font-size: 4rem; }
-  .done h2 { font-weight: 800; font-size: 1.9rem; margin: .8rem 0 .4rem; color: var(--ink); }
+  .done h1, .done h2 { font-weight: 800; font-size: 1.9rem; margin: .8rem 0 .4rem; color: var(--ink); }
   .done p { color: var(--ink-soft); margin-bottom: 1.6rem; }
 
   .footer-note { font-family: "Roboto Mono", monospace; font-weight: 300;
-    text-align: center; font-size: .72rem; color: var(--ink-soft); margin-top: 1.6rem; }
+    text-align: center; font-size: .75rem; color: var(--ink-soft); margin-top: 1.6rem; }
 
   /* ---------- Lektionen ---------- */
-  .kurs-head { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .72rem;
-    letter-spacing: .2em; text-transform: uppercase; color: var(--ink-soft);
+  .kurs-head { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem;
+    letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft);
     margin: 1.4rem 0 .6rem .2rem; }
   .ltitle { font-weight: 700; font-size: 1.5rem; line-height: 1.15;
-    color: var(--ink); letter-spacing: -.01em; }
-  .lsub { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .74rem;
+    color: var(--ink); letter-spacing: -.01em; min-width: 0; overflow-wrap: break-word; }
+  .lsub { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem;
     color: var(--ink-soft); margin: -.6rem 0 1.2rem 2.3rem; }
   .printlink { margin-left: auto; flex: none; align-self: flex-start;
-    font-family: "Roboto Mono", monospace; font-size: .72rem; font-weight: 400;
+    font-family: "Roboto Mono", monospace; font-size: .75rem; font-weight: 400;
     color: var(--ink-soft); text-decoration: none; background: var(--card);
-    border-radius: 999px; padding: .35rem .75rem;
+    border-radius: 999px; padding: .35rem .8rem; min-height: 44px; display: inline-flex; align-items: center; gap: .3rem;
     box-shadow: 0 2px 8px rgba(51,41,74,.1); white-space: nowrap; }
   .lsec { background: var(--card); border-radius: 16px; padding: 1.1rem 1.1rem 1.2rem;
-    margin-bottom: .9rem; box-shadow: 0 3px 14px rgba(51,41,74,.09); }
-  .lsec h3 { font-size: .95rem; font-weight: 700; margin-bottom: .6rem; }
-  .lsec .body { font-size: .92rem; line-height: 1.55; }
+    margin-bottom: .9rem; box-shadow: 0 3px 14px rgba(51,41,74,.09); overflow-wrap: anywhere; }
+  .spot, .card, .excard, .wpop { overflow-wrap: anywhere; }
+  .lsec h3 { font-size: 1rem; font-weight: 700; margin-bottom: .6rem; }
+  .lsec .body { font-size: 1rem; line-height: 1.55; }
   .lsec .hint { font-family: "Roboto Mono", monospace; font-weight: 300;
-    font-size: .76rem; color: var(--ink-soft); margin-top: .7rem; line-height: 1.5; }
+    font-size: .8rem; color: var(--ink-soft); margin-top: .7rem; line-height: 1.5; }
   .vrow { display: flex; align-items: center; gap: .7rem; padding: .45rem 0;
-    border-bottom: 1px solid #efe8da; }
+    border-bottom: 1px solid var(--line-soft); }
   .vrow:last-child { border-bottom: none; }
-  .vrow .pt { font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .95rem; }
+  .vrow .pt { font-family: "Roboto Mono", monospace; font-weight: 400; font-size: 1rem; }
   .vrow .vipa { font-family: "Roboto Mono", monospace; font-weight: 300;
-    font-size: .74rem; color: var(--ink-soft); }
-  .vrow .vde { margin-left: auto; text-align: right; font-size: .85rem;
-    color: var(--lav-deep); font-weight: 600; max-width: 45%; }
-  .playbtn { border: none; background: var(--sea-pale); color: var(--ocean, #0b4f6c);
-    border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .35rem; margin: -.35rem; cursor: pointer;
-    display: flex; align-items: center; justify-content: center; }
-  .dline { display: flex; gap: .55rem; align-items: center; padding: .3rem 0; }
+    font-size: .75rem; color: var(--ink-soft); }
+  .vrow > div { min-width: 0; overflow-wrap: anywhere; }
+  .vrow .vde { margin-left: auto; text-align: right; font-size: .9rem;
+    color: var(--lav-text); font-weight: 600; max-width: 45%; flex: none; }
+  /* Runde Knöpfe: sichtbar 2 rem, Tap-Fläche 2,8 rem = 44,8 px (Padding zählt zur Fläche, Rand negativ) */
+  .playbtn { border: none; background: var(--sea-pale); color: var(--sea-ink);
+    border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .4rem; margin: -.4rem; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; background-clip: content-box; }
+  .dline { display: flex; gap: .55rem; align-items: center; padding: .15rem 0; min-height: 44px; }
   .avat { width: 28px; height: 28px; border-radius: 50%; object-fit: cover;
     object-position: top; flex: none; box-shadow: 0 1px 4px rgba(51,41,74,.2); }
   .dline .who { font-family: "Roboto Mono", monospace; font-weight: 400;
-    font-size: .74rem; color: var(--clay); min-width: 3.2rem; }
-  .dline .dpt { font-size: .95rem; cursor: pointer; flex: 1; }
-  .recbtn { border: none; background: var(--clay-soft); color: var(--clay);
-    border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .35rem; margin: -.35rem; cursor: pointer;
-    display: flex; align-items: center; justify-content: center; }
+    font-size: .75rem; color: var(--clay-text); min-width: 3.2rem; }
+  .dline .dpt { font-size: 1rem; cursor: pointer; flex: 1; min-width: 0; text-align: left; line-height: 1.4;
+    background: none; border: none; font-family: inherit; color: inherit; padding: .55rem 0; min-height: 44px; }
+  .recbtn { border: none; background: var(--clay-soft); color: var(--clay-ink);
+    border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .4rem; margin: -.4rem; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; background-clip: content-box; }
   .recbtn.rec { background: var(--clay); color: #fff; animation: recpulse 1s infinite; }
-  .recbtn.err { background: #ddd6c8; color: #9a9184; }
+  .recbtn.err { background: var(--line); color: var(--ink-soft); }
   @keyframes recpulse { 50% { transform: scale(1.18); } }
-  .myplay { border: none; background: var(--lav-pale); color: var(--lav-deep);
-    border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .35rem; margin: -.35rem; cursor: pointer;
-    display: none; align-items: center; justify-content: center; }
+  .myplay { border: none; background: var(--lav-pale); color: var(--lav-ink);
+    border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .4rem; margin: -.4rem; cursor: pointer;
+    display: none; align-items: center; justify-content: center; background-clip: content-box; }
   .recrow { display: flex; gap: .6rem; align-items: center; margin-top: .9rem; }
   .recrow .hint { margin-top: 0; flex: 1; }
-  .exitem { padding: .5rem 0; border-bottom: 1px solid #efe8da; }
+  .exitem { padding: .5rem 0; border-bottom: 1px solid var(--line-soft); }
   .exitem:last-child { border-bottom: none; }
-  .exitem .q { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .9rem; }
-  .exitem .a { display: none; margin-top: .35rem; font-size: .9rem;
-    color: #0b6c5f; font-weight: 600; }
+  .exitem .q { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: 1rem; line-height: 1.5; }
+  .exitem .a { display: none; margin-top: .35rem; font-size: .95rem;
+    color: var(--sea-ink); font-weight: 600; }
   .exitem.open .a { display: block; }
-  .reveal { border: none; background: var(--lav-pale); color: var(--lav-deep);
-    font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .74rem;
-    border-radius: 999px; padding: .55rem 1rem; min-height: 38px; cursor: pointer; margin-top: .35rem; }
+  .reveal { border: none; background: var(--lav-pale); color: var(--lav-ink);
+    font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .8rem;
+    border-radius: 999px; padding: .55rem 1rem; min-height: 44px; cursor: pointer; margin-top: .35rem; }
 
   /* ---------- Tab-Leiste & Bereiche ---------- */
   .tabbar { position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
@@ -230,141 +295,167 @@
     border-radius: 16px 16px 0 0; }
   .tabbar button { flex: 1; border: none; background: none; cursor: pointer;
     display: flex; flex-direction: column; align-items: center; justify-content: center;
-    gap: 3px; min-height: 52px; color: var(--ink-soft);
-    font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .56rem;
-    letter-spacing: .12em; text-transform: uppercase; }
-  .tabbar button.on { color: var(--clay); font-weight: 400; }
+    gap: 3px; min-height: 56px; min-width: 44px; color: var(--ink-soft);
+    font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem;
+    letter-spacing: .05em; text-transform: uppercase; padding: 0 2px; }
+  .tabbar button.on { color: var(--clay-text); font-weight: 400; }
   .tabbar button .tico { width: 34px; height: 26px; display: flex; align-items: center;
     justify-content: center; border-radius: 58% 42% 52% 48% / 48% 55% 45% 52%; }
   .tabbar button.on .tico { background: var(--clay-soft); }
   .chips { display: flex; gap: .45rem; overflow-x: auto; padding-bottom: .35rem;
-    margin-bottom: .5rem; scrollbar-width: none; }
-  .chip { border: none; border-radius: 999px; padding: .45rem .85rem; font-size: .72rem;
+    margin-bottom: .5rem; scrollbar-width: none; align-items: center; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chiplabel { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--ink-soft); flex: none; padding-right: .2rem; min-width: 3.4rem; }
+  .chip { border: none; border-radius: 999px; padding: .55rem .95rem; font-size: .8rem; min-height: 44px;
     font-weight: 600; font-family: "Space Grotesk", sans-serif; white-space: nowrap;
     background: var(--card); color: var(--ink-soft);
     box-shadow: 0 2px 8px rgba(51,41,74,.08); cursor: pointer; flex: none; }
   .chip.on { background: var(--clay); color: #fff; }
   .searchrow { display: flex; align-items: center; gap: .5rem; background: var(--card);
-    border-radius: 12px; padding: .6rem .8rem; box-shadow: 0 2px 10px rgba(51,41,74,.08);
-    margin-bottom: .8rem; color: var(--ink-soft); }
-  .searchrow input { border: none; outline: none; background: none; flex: 1;
+    border-radius: 12px; padding: .1rem .8rem; box-shadow: 0 2px 10px rgba(51,41,74,.08);
+    margin-bottom: .8rem; color: var(--ink-soft); min-height: 44px; }
+  .searchrow input { border: none; outline: none; background: none; flex: 1; min-width: 0; min-height: 44px;
     font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .85rem; color: var(--ink); }
+  .boxhint { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem; color: var(--ink-soft);
+    line-height: 1.5; margin: -.2rem .2rem .8rem; }
   .cadbox { background: var(--card); border-radius: 16px; padding: .3rem .9rem;
     box-shadow: 0 3px 14px rgba(51,41,74,.09); }
-  .boxdots span { display: inline-block; width: 5px; height: 5px; border-radius: 50%;
-    background: #e8e0d0; margin-left: 2px; }
+  .boxdots span { display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--line); margin-left: 2px; }
   .boxdots span.f { background: var(--sea); }
-  .wtok { display: inline; padding: 1px 2px; border-radius: 5px; }
-  .wtok.wnew { background: var(--sand); cursor: pointer; }
-  .wtok.wlearn { background: var(--lav-pale); cursor: pointer; }
-  .wtok.wsel { background: var(--sea); color: #fff; }
+  /* Reader-Wörter: Tap-Höhe 44 px über Zeilenhöhe + transparenten Rand, Markierung bleibt schlank */
+  .wtok { display: inline-block; padding: 1px 3px; border-radius: 5px; line-height: 1.7;
+    border-top: 8px solid transparent; border-bottom: 8px solid transparent; background-clip: padding-box; }
+  .wtok.wnew { background-color: var(--sand); cursor: pointer; }
+  .wtok.wlearn { background-color: var(--lav-pale); cursor: pointer; }
+  .wtok.wsel { background-color: var(--sea); color: var(--on-sea); }
   .wpop { position: fixed; left: 50%; transform: translateX(-50%); bottom: 16px;
     width: calc(100% - 2rem); max-width: 448px; background: var(--card);
     border-radius: 14px; box-shadow: 0 8px 24px rgba(51,41,74,.22);
     padding: .8rem .9rem; display: none; z-index: 9; }
-  .legend { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .62rem;
-    color: var(--ink-soft); display: flex; gap: .9rem; margin-top: .8rem; }
+  .wpop .chip { min-height: 44px; }
+  .legend { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem;
+    color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: .5rem .9rem; margin-top: .8rem; }
   .legend i { display: inline-block; width: 9px; height: 9px; border-radius: 3px; margin-right: 4px; }
-  .exrow { display: flex; gap: .4rem; margin-top: .4rem; }
-  .exin { flex: 1; min-width: 0; border: 1.5px solid #e0d7c4; border-radius: 10px;
+  .exrow { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .4rem; }
+  .exin { flex: 1 1 10rem; min-width: 0; max-width: 100%; border: 1.5px solid var(--line); border-radius: 10px;
     padding: .5rem .7rem; font-family: "Roboto Mono", monospace; font-weight: 300;
-    font-size: .9rem; background: var(--card); color: var(--ink); outline: none; }
+    font-size: .9rem; background: var(--card); color: var(--ink); outline: none; min-height: 44px; }
   .exin:focus { border-color: var(--sea); }
   .exitem.exok .exin { border-color: var(--sea); background: var(--sea-pale); }
   .exfehl { border-color: var(--clay) !important; animation: shake .3s; }
   @keyframes shake { 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
   .jcard { background: var(--card); border-radius: 16px; padding: .95rem .85rem;
     box-shadow: 0 3px 14px rgba(51,41,74,.1); cursor: pointer; display: flex;
-    flex-direction: column; gap: .45rem; }
+    flex-direction: column; gap: .45rem; min-height: 44px; }
   .jcard .jic { width: 42px; height: 42px; display: flex; align-items: center;
     justify-content: center; border-radius: 58% 42% 52% 48% / 48% 55% 45% 52%; }
   .jcard .jn { font-weight: 700; font-size: .95rem; }
   .jcard .jd { font-family: "Roboto Mono", monospace; font-weight: 300;
-    font-size: .68rem; color: var(--ink-soft); line-height: 1.45; }
+    font-size: .75rem; color: var(--ink-soft); line-height: 1.45; }
   .memgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem; }
   .memcard { aspect-ratio: 1; border: none; border-radius: 12px; background: var(--lav-pale);
-    font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .72rem;
-    color: transparent; cursor: pointer; padding: .2rem; word-break: break-word;
+    font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .75rem;
+    color: transparent; cursor: pointer; padding: .2rem; word-break: break-word; min-height: 44px;
     box-shadow: 0 2px 8px rgba(51,41,74,.08); transition: background .15s; }
   .memcard.auf { background: var(--card); color: var(--ink); }
-  .memcard.weg { background: var(--sea); color: #fff; cursor: default; }
-  .wortchips { display: flex; flex-wrap: wrap; gap: .45rem; }
-  .wchip { border: none; border-radius: 10px; padding: .5rem .7rem;
-    font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .88rem;
-    background: var(--card); color: var(--ink); cursor: pointer;
+  .memcard.weg { background: var(--sea); color: var(--on-sea); cursor: default; }
+  .wortchips { display: flex; flex-wrap: wrap; gap: .45rem; max-width: 100%; }
+  .wchip { border: none; border-radius: 10px; padding: .5rem .75rem; min-height: 44px; min-width: 44px;
+    font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .9rem;
+    background: var(--card-2); color: var(--ink); cursor: pointer; overflow-wrap: anywhere;
     box-shadow: 0 2px 8px rgba(51,41,74,.09); }
   .satzziel { min-height: 3rem; background: var(--card); border-radius: 12px;
     padding: .55rem .6rem; margin-bottom: .7rem; display: flex; flex-wrap: wrap;
-    gap: .45rem; box-shadow: inset 0 0 0 1.5px #e8dfcb; }
+    gap: .45rem; box-shadow: inset 0 0 0 1.5px var(--line); }
   .satzziel.ok { box-shadow: inset 0 0 0 2px var(--sea); }
   .satzziel.fehl { box-shadow: inset 0 0 0 2px var(--clay); }
   .satzziel .wchip { background: var(--sea-pale); }
-  .wsgrid { display: grid; grid-template-columns: repeat(8, 1fr); gap: 3px; }
+  /* Caça-palavras: 7 Spalten, damit jede Zelle bei 390 px Breite ≥ 44 px misst */
+  .wsgrid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
   .wsc { aspect-ratio: 1; border: none; border-radius: 7px; background: var(--card);
-    font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .8rem;
+    font-family: "Roboto Mono", monospace; font-weight: 400; font-size: .85rem;
     color: var(--ink); cursor: pointer; box-shadow: 0 1px 4px rgba(51,41,74,.07);
     padding: 0; }
   .wsc.start { background: var(--lav-pale); }
-  .wsc.fund { background: var(--sea); color: #fff; }
+  .wsc.fund { background: var(--sea); color: var(--on-sea); }
   .wsworte { display: flex; flex-wrap: wrap; gap: .4rem .8rem; margin-top: .7rem; }
-  .wsworte span { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .78rem; }
-  .wsworte span.fund { color: var(--sea); text-decoration: line-through; }
+  .wsworte span { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .8rem; }
+  .wsworte span.fund { color: var(--sea-ink); text-decoration: line-through; }
   /* ---------- Paket B: Feedback, Wiederholung, Tests ---------- */
   .exitem .a .asol { display: block; }
-  .exitem .a .awarum { display: block; font-weight: 400; color: var(--ink-soft); font-size: .84rem; margin-top: .2rem; line-height: 1.5; }
-  .exitem .exstatus { font-size: .68rem; color: var(--ink-soft); margin-top: .35rem; line-height: 1.45; }
+  .exitem .a .awarum { display: block; font-weight: 400; color: var(--ink-soft); font-size: .85rem; margin-top: .2rem; line-height: 1.5; }
+  .exitem .exstatus { font-size: .75rem; color: var(--ink-soft); margin-top: .35rem; line-height: 1.45; }
   .exitem .exstatus:empty { display: none; }
-  .exitem.exfinal .a .asol { color: var(--clay); }
+  .exitem.exfinal .a .asol { color: var(--clay-text); }
   .exitem.exfinal .exin { border-color: var(--clay-soft); }
   .exitem.exok.exspaet .exin { border-color: var(--lav); background: var(--lav-pale); }
-  .exitem.exok.exspaet .a .asol { color: var(--lav-deep); }
-  .reveal.pruef { background: var(--sea-pale); color: #0b6c5f; }
-  .wchip.right { background: var(--sea); color: #fff; }
-  .wchip.wrong { background: var(--clay-soft); color: var(--clay); }
+  .exitem.exok.exspaet .a .asol { color: var(--lav-text); }
+  .reveal.pruef { background: var(--sea-pale); color: var(--sea-ink); }
+  .wchip.right { background: var(--sea); color: var(--on-sea); }
+  .wchip.wrong { background: var(--clay-soft); color: var(--clay-ink); }
   .wchip:disabled { opacity: .5; cursor: default; }
   .wchip.right:disabled, .wchip.wrong:disabled { opacity: 1; }
-  .selfchk { border: 1.5px solid #e0d7c4; background: var(--card); border-radius: 999px; padding: .4rem .8rem;
-    font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .74rem; color: var(--ink-soft);
-    min-height: 36px; margin-top: .45rem; margin-right: .4rem; display: inline-flex; gap: .35rem; align-items: center; cursor: pointer; }
-  .selfchk.on { background: var(--sea-pale); border-color: var(--sea); color: #0b6c5f; }
-  .punkte { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .74rem; color: var(--ink-soft);
-    margin-top: .8rem; padding-top: .55rem; border-top: 1px dashed #e8dfcb; display: flex; justify-content: space-between; align-items: center; gap: .6rem; }
+  .selfchk { border: 1.5px solid var(--line); background: var(--card); border-radius: 999px; padding: .4rem .85rem;
+    font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .8rem; color: var(--ink-soft);
+    min-height: 44px; margin-top: .45rem; margin-right: .4rem; display: inline-flex; gap: .35rem; align-items: center; cursor: pointer; }
+  .selfchk.on { background: var(--sea-pale); border-color: var(--sea); color: var(--sea-ink); }
+  .punkte { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem; color: var(--ink-soft);
+    margin-top: .8rem; padding-top: .55rem; border-top: 1px dashed var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .6rem; }
   .punkte b { font-weight: 400; color: var(--ink); }
   .ptchips { display: flex; flex-wrap: wrap; gap: .3rem; justify-content: flex-end; }
-  .ptchip { border: 1.5px solid #e0d7c4; background: var(--card); color: var(--ink-soft); border-radius: 999px;
-    min-width: 34px; height: 34px; font-family: "Roboto Mono", monospace; font-size: .78rem; cursor: pointer; }
-  .ptchip.on { background: var(--sea-pale); border-color: var(--sea); color: #0b6c5f; }
+  .ptchip { border: 1.5px solid var(--line); background: var(--card); color: var(--ink-soft); border-radius: 999px;
+    min-width: 44px; height: 44px; font-family: "Roboto Mono", monospace; font-size: .8rem; cursor: pointer; }
+  .ptchip.on { background: var(--sea-pale); border-color: var(--sea); color: var(--sea-ink); }
   .testbar { position: sticky; top: calc(.4rem + env(safe-area-inset-top)); z-index: 6; background: var(--ink); color: var(--paper);
-    border-radius: 999px; padding: .5rem 1rem; font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .76rem;
+    border-radius: 999px; padding: .5rem 1rem; font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .8rem;
     display: flex; justify-content: space-between; align-items: center; margin: 0 0 .9rem; box-shadow: 0 6px 18px rgba(51,41,74,.22); }
   .testbar b { font-weight: 400; font-size: .9rem; }
   .stufe { display: inline-block; width: 100%; padding: .3rem .5rem; margin: .08rem -.5rem; border-radius: 8px; }
-  .stufe.on { background: var(--sea-pale); color: #0b6c5f; font-weight: 600; }
+  .stufe.on { background: var(--sea-pale); color: var(--sea-ink); font-weight: 600; }
   .ziel { display: flex; align-items: center; gap: .8rem; background: var(--card); border-radius: 14px; padding: .55rem .9rem;
     margin-bottom: .9rem; box-shadow: 0 3px 14px rgba(51,41,74,.08); transform: rotate(.3deg); }
   .ziel.ok { background: var(--sea-pale); }
   .ziel svg { flex: none; }
-  .ziel .zname { font-weight: 600; font-size: .88rem; }
-  .ziel .zsub { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .68rem; color: var(--ink-soft); margin-top: .1rem; }
+  .ziel .zname { font-weight: 600; font-size: .9rem; }
+  .ziel .zsub { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem; color: var(--ink-soft); margin-top: .1rem; }
   .excard { background: var(--card); border-radius: 20px; padding: 1.3rem 1.2rem 1.2rem; text-align: left;
     box-shadow: 0 12px 34px rgba(51,41,74,.16); transform: rotate(-.4deg); border-bottom: none; }
   .excard .q { font-size: 1.02rem; line-height: 1.5; }
-  .excard .exlabel { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .62rem; letter-spacing: .16em;
+  .excard .exlabel { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem; letter-spacing: .12em;
     text-transform: uppercase; color: var(--ink-soft); margin-bottom: .6rem; }
-  .gram .gtext { font-size: .88rem; line-height: 1.55; color: var(--ink); margin-top: .3rem; }
+  .gram .gtext { font-size: .95rem; line-height: 1.55; color: var(--ink); margin-top: .3rem; }
   .gram .gbtns { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .8rem; }
-  .recword { border: none; background: var(--clay-soft); color: var(--clay); border-radius: 999px; padding: .55rem 1rem;
-    min-height: 40px; font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .78rem; cursor: pointer;
+  .recword { border: none; background: var(--clay-soft); color: var(--clay-ink); border-radius: 999px; padding: .55rem 1rem;
+    min-height: 44px; font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .8rem; cursor: pointer;
     display: inline-flex; align-items: center; gap: .4rem; }
   .recword.rec { background: var(--clay); color: #fff; animation: recpulse 1s infinite; }
-  .recword.err { background: #ddd6c8; color: #9a9184; }
-  .speakchk { display: none; gap: .2rem; margin-top: .5rem; align-items: center; }
+  .recword.err { background: var(--line); color: var(--ink-soft); }
+  .speakchk { display: none; gap: .2rem; margin-top: .5rem; align-items: center; flex-wrap: wrap; }
   .speakchk .hint { margin: 0 .5rem 0 0; }
   /* iOS zoomt bei Eingabefeldern unter 16px in die Seite – deshalb hier fest 16px */
   .exin, .searchrow input { font-size: 16px; }
   .artfoto { margin: 0 0 1rem; }
   .artfoto img { display: block; width: 100%; border-radius: 14px; box-shadow: 0 4px 16px rgba(51,41,74,.14); }
-  .artfoto figcaption { font-size: .66rem; color: var(--ink-soft); margin: .4rem .2rem 0; line-height: 1.4; }
+  .artfoto figcaption { font-size: .75rem; color: var(--ink-soft); margin: .4rem .2rem 0; line-height: 1.4; }
+  /* ---------- Paket C: Kurs-Struktur ---------- */
+  .kmap { padding: .9rem .6rem .5rem; transform: rotate(-.3deg); }
+  .staffelrow { display: flex; align-items: center; gap: .7rem; width: 100%; text-align: left;
+    background: var(--card); border: none; border-radius: 14px; padding: .7rem .9rem; margin-bottom: .6rem; min-height: 44px;
+    box-shadow: 0 3px 14px rgba(51,41,74,.08); cursor: pointer; font-family: inherit; color: var(--ink); }
+  .staffelrow .stname { font-weight: 600; font-size: .95rem; flex: 1; min-width: 0; }
+  .staffelrow .stnum { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .8rem; color: var(--sea-ink); white-space: nowrap; }
+  .wochekopf { display: flex; align-items: center; gap: .55rem; width: 100%; text-align: left; background: none; border: none;
+    font: inherit; color: var(--ink-soft); cursor: pointer; padding: .3rem .2rem; min-height: 44px; margin: .9rem 0 .4rem; }
+  .wochekopf .wname { flex: 1; min-width: 0; font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem;
+    letter-spacing: .12em; text-transform: uppercase; }
+  .wochekopf .wnum { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .8rem; white-space: nowrap; }
+  .wochekopf.akt .wname, .wochekopf.akt .wnum { color: var(--ink); }
+  .chev { width: 20px; height: 20px; flex: none; transition: transform .15s; color: var(--ink-soft); }
+  .zu .chev { transform: rotate(-90deg); }
+  .woche-body { padding-top: .2rem; }
+  .woche-body.zu { display: none; }
 </style>
 </head>
 <body>
@@ -377,7 +468,7 @@
   <!-- ========== HOJE ========== -->
   <div id="home">
     <header>
-      <img class="logo-img" src="logo.png" alt="Boa Onda.">
+      <h1><img class="logo-img" src="logo.webp" alt="Boa Onda"></h1>
       <div class="streak" id="streak">0 Tage</div>
     </header>
     <div class="tagline">Europäisches Portugiesisch</div>
@@ -389,17 +480,17 @@
 
   <!-- ========== KURS ========== -->
   <div class="session" id="kurs">
-    <div class="ltitle" style="display:flex; align-items:center; gap:.5rem">Kurs
-      <span class="mono" style="font-size:.6rem; font-weight:400; letter-spacing:.1em; background:var(--sea-pale); color:#0b6c5f; border-radius:999px; padding:.25rem .6rem">NIVEAU A1</span></div>
-    <div class="lsub" style="margin: .2rem 0 1rem .2rem">Staffel 1 · A viagem até Sagres</div>
-    <div class="lsec" id="kurs-map" style="padding:.9rem .6rem .5rem; transform:rotate(-.3deg)"></div>
+    <h1 class="ltitle" style="display:flex; align-items:center; gap:.5rem">Kurs
+      <span class="mono" id="kurs-niveau" style="font-size:.75rem; font-weight:400; letter-spacing:.1em; background:var(--sea-pale); color:var(--sea-ink); border-radius:999px; padding:.25rem .6rem">NIVEAU A1</span></h1>
+    <div class="lsub" id="kurs-sub" style="margin: .2rem 0 1rem .2rem">Staffel 1 · A viagem até Sagres</div>
+    <div id="kurs-map"></div>
     <div id="lessons"></div>
     <div class="kurs-head" id="kurs-naechste" style="opacity:.7"></div>
   </div>
 
   <!-- ========== TEXTOS ========== -->
   <div class="session" id="textos">
-    <div class="ltitle">Texte</div>
+    <h1 class="ltitle">Texte</h1>
     <div class="lsub" style="margin: .2rem 0 1rem .2rem"><i>textos</i> · Ein Text pro Lektion, jeden Tag etwas schwerer.<br>Wörter antippen zum Nachschlagen.</div>
     <div id="textos-list"></div>
   </div>
@@ -407,41 +498,43 @@
   <!-- ========== LEITURA ========== -->
   <div class="session" id="leitura">
     <div class="topbar">
-      <button class="back" onclick="goTab('textos')">←</button>
-      <div class="ltitle" id="lt-title" style="flex:1"></div>
+      <button class="back" onclick="goTab('textos')" aria-label="Zurück zu den Texten">←</button>
+      <h1 class="ltitle" id="lt-title" lang="pt" style="flex:1"></h1>
       <button class="audiobtn" id="lt-audio" style="margin:0; width:2.6rem; height:2.6rem; flex:none; display:none" onclick="play(ltAudio)" aria-label="Text anhören"></button>
     </div>
     <div class="lsub" id="lt-sub" style="margin-left:2.3rem"></div>
-    <div class="lsec" id="lt-text" style="font-size:1.05rem; line-height:1.85"></div>
+    <div class="lsec" id="lt-text" lang="pt" style="font-size:1.05rem; line-height:1.7"></div>
     <div class="legend"><span><i style="background:var(--sand)"></i>neu</span><span><i style="background:var(--lav-pale)"></i>lerne ich</span><span><i style="background:var(--sea)"></i>angetippt</span></div>
   </div>
 
   <!-- ========== CADERNO ========== -->
   <div class="session" id="caderno">
-    <div class="ltitle">Heft</div>
+    <h1 class="ltitle">Heft</h1>
     <div class="lsub" style="margin: .2rem 0 1rem .2rem"><i>caderno</i> · Dein Vokabelheft</div>
     <div id="cad-stats"></div>
-    <div class="chips" id="cad-chips"></div>
-    <div class="chips" id="cad-spots"></div>
-    <div class="searchrow" id="cad-search"><input id="cad-q" placeholder="Wort suchen …" oninput="renderCadList()"></div>
+    <div class="chips" id="cad-chips" role="group" aria-label="Lernstand"></div>
+    <div class="chips" id="cad-wochen" role="group" aria-label="Woche"></div>
+    <div class="chips" id="cad-spots" role="group" aria-label="Thema"></div>
+    <div class="searchrow" id="cad-search"><input id="cad-q" placeholder="Wort suchen …" aria-label="Wort suchen" oninput="renderCadList()"></div>
+    <div class="boxhint">Die Punkte hinter jedem Wort zeigen die Wiederholungsstufe: kein Punkt = neu · 1 = gerade gelernt · 4 = sitzt (kommt erst nach drei Wochen wieder).</div>
     <button class="mixbtn" id="cad-surf" style="display:none" onclick="surfCad()">Diese Wellen surfen</button>
     <div class="cadbox" id="cad-list"></div>
   </div>
 
   <!-- ========== MAIS ========== -->
   <div class="session" id="mais">
-    <div class="ltitle">Mehr</div>
+    <h1 class="ltitle">Mehr</h1>
     <div class="lsub" style="margin: .2rem 0 1rem .2rem"><i>mais</i> · Nachschlagen, üben, ausdrucken</div>
     <div id="mais-list"></div>
-    <a href="datenschutz.html" class="mono" style="display:block; text-align:center; margin-top:1.6rem; font-size:.62rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); text-decoration:none">Datenschutz</a>
-    <a href="#" onclick="resetStore(); return false" class="mono" style="display:block; text-align:center; margin-top:.8rem; font-size:.62rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); text-decoration:none">Fortschritt zurücksetzen</a>
+    <a href="datenschutz.html" class="kicker" style="display:flex; align-items:center; justify-content:center; min-height:44px; margin-top:1rem; text-decoration:none">Datenschutz</a>
+    <a href="#" onclick="resetStore(); return false" class="kicker" style="display:flex; align-items:center; justify-content:center; min-height:44px; text-decoration:none">Fortschritt zurücksetzen</a>
   </div>
 
   <!-- ========== DESCOBRIR (Landeskunde) ========== -->
   <div class="session" id="descobrir">
     <div class="topbar">
-      <button class="back" onclick="goTab('mais')">←</button>
-      <div class="ltitle">Descobrir</div>
+      <button class="back" onclick="goTab('mais')" aria-label="Zurück">←</button>
+      <h1 class="ltitle">Descobrir</h1>
     </div>
     <div class="lsub">Portugal kennenlernen – Land, Kultur, Alltag</div>
     <div id="descobrir-list"></div>
@@ -450,22 +543,22 @@
   <!-- ========== ARTIGO (Landeskunde-Artikel) ========== -->
   <div class="session" id="artigo">
     <div class="topbar">
-      <button class="back" onclick="show('descobrir')">←</button>
-      <div class="ltitle" id="art-title" style="flex:1"></div>
+      <button class="back" onclick="show('descobrir')" aria-label="Zurück zu Descobrir">←</button>
+      <h1 class="ltitle" id="art-title" style="flex:1"></h1>
     </div>
     <div class="lsub" id="art-meta" style="margin-left:2.3rem"></div>
-    <div class="lsec"><div class="body" id="art-body" style="font-size:.95rem; line-height:1.6"></div></div>
+    <div class="lsec"><div class="body" id="art-body" style="line-height:1.6"></div></div>
     <div class="lsec" style="border:1.5px dashed var(--sea); background:var(--card)">
-      <h3 style="color:var(--sea)">Sabias que…?</h3>
-      <div class="body" id="art-fact" style="font-size:.92rem"></div>
+      <h3 style="color:var(--sea-ink)">Sabias que…?</h3>
+      <div class="body" id="art-fact"></div>
     </div>
   </div>
 
   <!-- ========== FORTSCHRITT ========== -->
   <div class="session" id="fortschritt">
     <div class="topbar">
-      <button class="back" onclick="goTab('mais')">←</button>
-      <div class="ltitle">Fortschritt</div>
+      <button class="back" onclick="goTab('mais')" aria-label="Zurück">←</button>
+      <h1 class="ltitle">Fortschritt</h1>
     </div>
     <div class="lsub">Deine Wochen, Wörter und Wackler</div>
     <div id="fort-body"></div>
@@ -474,8 +567,8 @@
   <!-- ========== JOGOS ========== -->
   <div class="session" id="jogos">
     <div class="topbar">
-      <button class="back" onclick="goTab('mais')">←</button>
-      <div class="ltitle">Jogos</div>
+      <button class="back" onclick="goTab('mais')" aria-label="Zurück">←</button>
+      <h1 class="ltitle">Jogos</h1>
     </div>
     <div class="lsub">Kleine Spiele – immer mit deinen Wörtern</div>
     <div id="jogos-list" style="display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:.7rem"></div>
@@ -484,9 +577,9 @@
   <!-- ========== EIN SPIEL ========== -->
   <div class="session" id="jogo">
     <div class="topbar">
-      <button class="back" onclick="goTab('jogos')">←</button>
-      <div class="ltitle" id="jogo-title" style="flex:1"></div>
-      <div class="mono" id="jogo-score" style="font-size:.72rem; color:var(--ink-soft)"></div>
+      <button class="back" onclick="goTab('jogos')" aria-label="Zurück zu den Spielen">←</button>
+      <h1 class="ltitle" id="jogo-title" style="flex:1"></h1>
+      <div class="mono" id="jogo-score" style="font-size:.8rem; color:var(--ink-soft)" aria-live="polite"></div>
     </div>
     <div id="jogo-body"></div>
   </div>
@@ -494,8 +587,8 @@
   <!-- ========== ARBEITSBLÄTTER ========== -->
   <div class="session" id="blaetter">
     <div class="topbar">
-      <button class="back" onclick="goTab('mais')">←</button>
-      <div class="ltitle">Arbeitsblätter</div>
+      <button class="back" onclick="goTab('mais')" aria-label="Zurück">←</button>
+      <h1 class="ltitle">Arbeitsblätter</h1>
     </div>
     <div class="lsub">Immer synchron mit den Lektionen · Lösungen auf der letzten Seite</div>
     <div id="blaetter-list"></div>
@@ -504,11 +597,12 @@
   <!-- ========== LERN-SESSION ========== -->
   <div class="session" id="learn">
     <div class="topbar">
-      <button class="back" onclick="goHome()">←</button>
-      <div class="sbar"><i id="learnbar"></i></div>
+      <button class="back" onclick="goHome()" aria-label="Abbrechen, zurück zu Heute">←</button>
+      <div class="sbar" role="progressbar" aria-label="Fortschritt der Runde"><i id="learnbar"></i></div>
     </div>
-    <div class="card" id="card" onclick="flipCard()">
-      <div class="word" id="c-pt"></div>
+    <h1 class="sr-only">Wiederholung</h1>
+    <div class="card" id="card" onclick="flipCard()" role="button" tabindex="0" aria-label="Karte umdrehen">
+      <div class="word" id="c-pt" lang="pt"></div>
       <div class="ipa" id="c-ipa"></div>
       <button class="audiobtn" id="c-audio" onclick="event.stopPropagation(); playCurrent()" aria-label="Anhören"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" stroke="none"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
       <div class="de" id="c-de" style="display:none"></div>
@@ -524,9 +618,9 @@
   <!-- ========== LEKTION ========== -->
   <div class="session" id="lesson">
     <div class="topbar">
-      <button class="back" onclick="goTab('kurs')">←</button>
-      <div class="ltitle" id="l-title"></div>
-      <a class="printlink" id="l-print" href="#" title="Arbeitsblatt drucken"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg> Blatt</a>
+      <button class="back" onclick="goTab('kurs')" aria-label="Zurück zum Kurs">←</button>
+      <h1 class="ltitle" id="l-title"></h1>
+      <a class="printlink" id="l-print" href="#" title="Arbeitsblatt drucken" aria-label="Arbeitsblatt drucken"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg> Blatt</a>
     </div>
     <div class="lsub" id="l-sub"></div>
     <div id="l-body"></div>
@@ -536,9 +630,10 @@
   <!-- ========== QUIZ ========== -->
   <div class="session" id="quiz">
     <div class="topbar">
-      <button class="back" onclick="goHome()">←</button>
-      <div class="sbar"><i id="quizbar"></i></div>
+      <button class="back" onclick="goHome()" aria-label="Abbrechen, zurück zu Heute">←</button>
+      <div class="sbar" role="progressbar" aria-label="Fortschritt des Quiz"><i id="quizbar"></i></div>
     </div>
+    <h1 class="sr-only">Quiz</h1>
     <div class="qword" id="q-word"></div>
     <div class="qipa" id="q-ipa"></div>
     <div id="q-opts"></div>
@@ -546,15 +641,15 @@
 
   <!-- ========== FERTIG ========== -->
   <div class="done" id="done">
-    <img src="boa-onda-welle.png" alt="" style="width:min(72vw, 310px); border-radius:18px; box-shadow:0 8px 26px rgba(51,41,74,.18); transform:rotate(-.8deg); margin-bottom:.6rem">
-    <h2 id="done-title">Boa onda!</h2>
+    <img src="boa-onda-welle.webp" alt="" style="width:min(72vw, 310px); border-radius:18px; box-shadow:0 8px 26px rgba(51,41,74,.18); transform:rotate(-.8deg); margin-bottom:.6rem">
+    <h1 id="done-title">Boa onda!</h1>
     <p id="done-text"></p>
     <button class="mixbtn" onclick="goHome()">Zurück zum Strand</button>
   </div>
 
 </div>
 
-<nav class="tabbar" id="tabbar"></nav>
+<nav class="tabbar" id="tabbar" aria-label="Bereiche"></nav>
 <div class="wpop" id="wpop"></div>
 
 <script src="data.js"></script>
@@ -599,6 +694,7 @@ function ladeStore() {
   if (!s.uebungen || typeof s.uebungen !== 'object') s.uebungen = {};
   if (!s.tests || typeof s.tests !== 'object') s.tests = {};
   if (!s.sprechen || typeof s.sprechen !== 'object') s.sprechen = {};
+  if (!s.ui || typeof s.ui !== 'object') s.ui = {};          // Auf-/Zugeklappt im Kurs (Staffeln, Wochen)
   // Umnummerierung 17.09.2026: alter Tag 8 (Sagres) = Bonus, tag09..36 -> tag08..35, Wort-IDs analog
   if (!s.v2) {
     const key = k => {
@@ -625,7 +721,7 @@ function ladeStore() {
   return s;
 }
 function leererStore() {
-  return { words: {}, lessons: {}, streak: { last: '', count: 0 }, fehler: {}, tage: {}, uebungen: {}, tests: {}, sprechen: {}, v2: true, v4: true };
+  return { words: {}, lessons: {}, streak: { last: '', count: 0 }, fehler: {}, tage: {}, uebungen: {}, tests: {}, sprechen: {}, ui: {}, v2: true, v4: true };
 }
 let store = ladeStore();
 function save() { try { localStorage.setItem('ep-sagres', JSON.stringify(store)); } catch (e) {} }
@@ -705,24 +801,27 @@ function zielRingHTML() {
   let sub;
   if (z.erreicht) sub = z.lek ? 'Lektion gemacht' + (z.karten ? ` · ${z.karten} Karten` : '') : `${z.karten} Karten`;
   else sub = z.karten ? `${z.karten} von ${ZIEL_KARTEN} Karten` : 'Noch nichts – fang klein an';
-  const haken = z.erreicht ? '<polyline points="15 22.5 20 27.5 29.5 16.5" fill="none" stroke="#0b6c5f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>' : '';
+  const haken = z.erreicht ? '<polyline points="15 22.5 20 27.5 29.5 16.5" fill="none" style="stroke:var(--sea-ink)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>' : '';
   return `<div class="ziel${z.erreicht ? ' ok' : ''}" id="ziel">
     <svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true">
-      <circle cx="22" cy="22" r="${r}" fill="none" stroke="#e8e0d0" stroke-width="4"/>
+      <circle cx="22" cy="22" r="${r}" fill="none" style="stroke:var(--line)" stroke-width="4"/>
       <circle cx="22" cy="22" r="${r}" fill="none" stroke="var(--sea)" stroke-width="4" stroke-linecap="round"
         stroke-dasharray="${U.toFixed(1)}" stroke-dashoffset="${(U * (1 - z.anteil)).toFixed(1)}" transform="rotate(-90 22 22)"/>${haken}
     </svg>
     <div><div class="zname">${name}</div><div class="zsub">${sub}</div></div></div>`;
 }
-/* Grammatik-Karte des Tages: eine Dica (Vasco, João, Professora) aus einer abgeschlossenen Lektion, rotierend nach Kalendertag */
+/* Grammatik-Karte des Tages: eine Dica (Vasco, João, Professora) aus einer abgeschlossenen Lektion, rotierend nach Kalendertag.
+   Quelle ist der Vokabel-Index (Titel + Klartext-Anfang), die Lektion selbst wird erst beim Öffnen geladen. */
 function dicaDesTages() {
   const kand = [];
   for (const l of LESSONS) {
     if (!store.lessons[l.id] || gesperrt(l.id)) continue;
+    const ix = LINDEX && LINDEX[l.id];
+    if (ix) { for (const d of ix.dicas || []) kand.push({ l, sec: { title: d.title, text: d.text }, i: d.i }); continue; }
     const L = JSON_CACHE['lektionen/' + l.id + '.json'];
     if (!L) continue;
     L.sections.forEach((sec, i) => {
-      if (sec.type === 'note' && /Dica d[oa] (Vasco|João|Professora)/.test(sec.title || '')) kand.push({ l, sec, i });
+      if (sec.type === 'note' && /Dica d[oa] (Vasco|João|Professora)/.test(sec.title || '')) kand.push({ l, sec: { title: sec.title, text: htmlZuText(sec.html) }, i });
     });
   }
   if (!kand.length) return null;
@@ -740,14 +839,14 @@ function grammatikKarte() {
   if (!g) return null;
   const fig = g.sec.title.includes('Vasco') ? 'vasco' : g.sec.title.includes('João') ? 'joao' : 'professora';
   const titel = g.sec.title.replace(/^\d+[a-z]? · /, '');
-  let text = htmlZuText(g.sec.html);
+  let text = g.sec.text || '';
   if (text.length > 240) { text = text.slice(0, 240); text = text.slice(0, Math.max(120, text.lastIndexOf(' '))) + ' …'; }
   const div = document.createElement('div');
   div.className = 'lsec gram';
   div.style.transform = 'rotate(-.3deg)';
   div.innerHTML = `
-    <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:.5rem">Grammatik-Karte des Tages · ${g.l.label.split(' · ')[0]}</div>
-    <h3 style="display:flex; align-items:center"><img class="avat" src="avatare/${fig}.png" alt="" style="width:34px; height:34px; margin-right:.5rem"><span id="gram-titel"></span></h3>
+    <div class="kicker" style="margin-bottom:.5rem">Grammatik-Karte des Tages · ${g.l.label.split(' · ')[0]}</div>
+    <h3 style="display:flex; align-items:center"><img class="avat" src="avatare/${fig}.webp" alt="" style="width:34px; height:34px; margin-right:.5rem"><span id="gram-titel"></span></h3>
     <div class="gtext" id="gram-text"></div>
     <div class="gbtns">
       <button class="reveal" onclick="openLesson('${g.l.id}', ${g.i})">Ganz lesen</button>
@@ -768,13 +867,13 @@ function renderHome() {
   const uLabel = `${Math.min(nU, 3)} ${nU === 1 ? 'Übung' : 'Übungen'}`;
   const label = n && nU ? `${wLabel} · ${uLabel}` : n ? `${wLabel} wiederholen` : `${uLabel} wiederholen`;
   const wdhBtn = `<button class="mixbtn" onclick="startLearn('mix')">${label}</button>`
-    + (n > 10 ? `<div class="mono" style="text-align:center; font-size:.68rem; color:var(--ink-soft); margin:-.2rem 0 .8rem">${n} Wörter warten insgesamt · eine Runde sind 10</div>` : '');
+    + (n > 10 ? `<div class="mono" style="text-align:center; font-size:.75rem; color:var(--ink-soft); margin:-.2rem 0 .8rem">${n} Wörter warten insgesamt · eine Runde sind 10</div>` : '');
   main.innerHTML = '';
   if (done === 0) {
     // Erststart: erst erklären, dann Tag 1 – kein Vokabel-Mix aus späteren Wochen
     main.innerHTML = `
       <div class="lsec" style="transform:rotate(-.3deg); margin-bottom:1rem">
-        <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:.6rem">Bem-vinda · Willkommen</div>
+        <div class="kicker" style="margin-bottom:.6rem">Bem-vinda · Willkommen</div>
         <div class="body" style="display:flex; flex-direction:column; gap:.6rem">
           <p><b>Was ist Boa Onda?</b> Marie reist von Porto nach Sagres – und du lernst mit ihr europäisches Portugiesisch, Tag für Tag.</p>
           <p><b>Wie ein Tag aussieht:</b> eine Lektion, etwa 20 Minuten. Danach wiederholst du die Wörter, bis sie sitzen.</p>
@@ -786,7 +885,7 @@ function renderHome() {
     // Alle Lektionen fertig – kein Verweis auf eine Lektion, die es nicht gibt
     main.innerHTML = zielRingHTML() + `
       <div class="lsec" style="transform:rotate(-.3deg); margin-bottom:1rem">
-        <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:.4rem">${done} von ${LESSONS.length} Lektionen</div>
+        <div class="kicker" style="margin-bottom:.4rem">${done} von ${LESSONS.length} Lektionen</div>
         <div style="font-size:1.2rem; font-weight:700; margin-bottom:.4rem">Alle Lektionen geschafft</div>
         <div class="body">Du bist auf dem neuesten Stand – neue Wochen erscheinen automatisch. Bis dahin halten die Wiederholungen deine Wörter frisch.</div>
       </div>
@@ -800,9 +899,7 @@ function renderHome() {
     if (n || nU) {
       // Erst wiederholen, dann weiter im Kurs (Kachel mit Fortschritt)
       main.innerHTML = zielRingHTML() + wdhBtn + '<div class="kurs-head">Weiter im Kurs</div>';
-      const div = document.createElement('div');
-      div.className = 'spot';
-      div.onclick = () => openLesson(next.id);
+      const div = kachel('spot', () => openLesson(next.id));
       if (zu) div.style.opacity = '.85';
       div.innerHTML = `
         <div class="icon">${next.bonus ? 'B' : 'L' + lessonNum(next)}</div>
@@ -811,12 +908,12 @@ function renderHome() {
           <div class="theme">${zu ? 'Staffel 2 freischalten' : next.sub}</div>
           <div class="bar"><i style="width:${Math.round(100 * done / LESSONS.length)}%"></i></div>
         </div>
-        ${zu ? `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-deep); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>`
+        ${zu ? `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-ink); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>`
              : `<div class="pct">${done}/${LESSONS.length}</div>`}`;
       main.appendChild(div);
     } else {
       main.innerHTML = zielRingHTML() + lekBtn + `
-        <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin:-.7rem 0 1.2rem .3rem">${zu ? next.label + ' · Staffel 2' : next.sub} · ${done} von ${LESSONS.length} Lektionen</div>`;
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin:-.7rem 0 1.2rem .3rem">${zu ? next.label + ' · Staffel 2' : next.sub} · ${done} von ${LESSONS.length} Lektionen</div>`;
     }
   }
   const tx = TEXTOS[Math.min(LESSONS.indexOf(next || LESSONS[LESSONS.length - 1]), TEXTOS.length - 1)];
@@ -828,37 +925,74 @@ function renderHome() {
   // Meine Wackler: Wörter, bei denen schon einmal ein Fehler passiert ist
   const wack = wacklerListe();
   if (wack.length) {
-    const wv = document.createElement('div');
-    wv.className = 'spot';
-    wv.onclick = () => startLearn('wackler');
+    const wv = kachel('spot', () => startLearn('wackler'));
     wv.innerHTML = `
-      <div class="icon" style="background:var(--clay-soft); color:var(--clay)">W</div>
+      <div class="icon" style="background:var(--clay-soft); color:var(--clay-ink)">W</div>
       <div class="info">
         <div class="name">Meine Wackler · ${wack.length} ${wack.length === 1 ? 'Wort' : 'Wörter'}</div>
         <div class="theme">Wo es zuletzt gehakt hat – gezielt wiederholen</div>
       </div>`;
     ex.appendChild(wv);
   }
-  const t = document.createElement('div');
-  t.className = 'spot';
-  t.onclick = () => openTexto(tx.tag);
+  const t = kachel('spot', () => openTexto(tx.tag));
   t.innerHTML = `
     <div class="icon">T${tx.num}</div>
     <div class="info">
-      <div class="name">Texto do dia · ${tx.title}</div>
-      <div class="theme">${tx.num === 'B' ? 'Bonus' : 'Tag ' + tx.num} · Nível ${tx.nivel} · Wörter antippen</div>
+      <div class="name">Texto do dia · <span lang="pt">${tx.title}</span></div>
+      <div class="theme">${tx.num === 'B' ? 'Bonus' : 'Tag ' + tx.num} · Stufe ${tx.nivel} · Wörter antippen</div>
     </div>`;
   ex.appendChild(t);
+  // Dica do dia: ruhige Notiz, bewusst nicht antippbar (kein Schatten, keine Rolle)
   const d = document.createElement('div');
-  d.className = 'spot';
-  d.style.cursor = 'default';
+  d.className = 'spot dica-note';
   d.innerHTML = `
     <div class="icon">D</div>
     <div class="info">
       <div class="theme">Dica do dia</div>
-      <div class="name" style="font-size:.86rem; font-weight:500">${DICAS[new Date().getDate() % DICAS.length]}</div>
+      <div class="name" style="font-size:.9rem; font-weight:500">${DICAS[new Date().getDate() % DICAS.length]}</div>
     </div>`;
   ex.appendChild(d);
+}
+/* Antippbare Kachel: per Tastatur erreichbar (Enter/Leertaste über den zentralen keydown-Delegaten) */
+function kachel(cls, onclick) {
+  const div = document.createElement('div');
+  div.className = cls;
+  div.setAttribute('role', 'button');
+  div.tabIndex = 0;
+  div.onclick = onclick;
+  return div;
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    if (dialogOffen('paywall')) { schliessePaywall(); return; }
+    if (dialogOffen('abschluss')) { abschlussZumKurs(); return; }
+    return;
+  }
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  const t = e.target;
+  if (!t || t.tagName === 'BUTTON' || t.tagName === 'A' || t.tagName === 'INPUT' || t.tagName === 'TEXTAREA') return;
+  if (t.getAttribute('role') !== 'button') return;
+  e.preventDefault();
+  t.click();
+});
+function dialogOffen(id) { const el = document.getElementById(id); return !!el && el.style.display !== 'none' && el.style.display !== ''; }
+/* Bottom-Sheet als Dialog: Fokus hinein, beim Schließen zurück */
+let dialogVorher = null;
+function dialogOeffnen(el, titelId) {
+  const sheet = el.firstElementChild;
+  sheet.setAttribute('role', 'dialog'); sheet.setAttribute('aria-modal', 'true');
+  if (titelId) sheet.setAttribute('aria-labelledby', titelId);
+  sheet.tabIndex = -1;
+  dialogVorher = document.activeElement;
+  el.style.display = 'flex';
+  const erst = sheet.querySelector('button, input');
+  setTimeout(() => (erst || sheet).focus(), 30);
+}
+function dialogSchliessen(el) {
+  if (!el) return;
+  el.style.display = 'none';
+  if (dialogVorher && dialogVorher.focus && document.contains(dialogVorher)) { try { dialogVorher.focus(); } catch (e) {} }
+  dialogVorher = null;
 }
 const TABVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'jogos', 'jogo', 'fortschritt'];
 const ALLVIEWS = ['home', 'kurs', 'textos', 'caderno', 'mais', 'blaetter', 'descobrir', 'artigo', 'jogos', 'jogo', 'fortschritt', 'leitura', 'learn', 'quiz', 'done', 'lesson'];
@@ -904,6 +1038,13 @@ function goTab(id, ausHistory) {
   else if (id === 'jogos') renderJogos();
   else if (id === 'fortschritt') renderFortschritt();
   show(id, ausHistory);
+  if (id === 'kurs') scrollZurAktuellenLektion();
+}
+/* Kurs: zur aktuellen Lektion scrollen statt an den Seitenanfang (Karte) */
+function scrollZurAktuellenLektion() {
+  const next = naechsteLektion();
+  const ziel = next && document.getElementById('lek-' + next.id);
+  if (ziel) setTimeout(() => ziel.scrollIntoView({ block: 'center' }), 60);
 }
 
 /* ---------- Lektionen ---------- */
@@ -1001,7 +1142,7 @@ const KARTEN = [
     seg: [[0.03, 0.19], [0.22, 0.50], [0.55, 0.78], [0.80, 0.97]],
     // Flug Sagres → Porto als gepunkteter Bogen über Land
     extra: '' },
-  { w0: 8, titel: 'Um ano em Lisboa · Staffel 3 · B1', rechts: [2, 3], teaser: false, img: 'karte-lisboa.png',
+  { w0: 8, titel: 'Um ano em Lisboa · Staffel 3 · B1', rechts: [2, 3], teaser: false, img: 'karte-lisboa.webp',
     etappen: [
       { name: 'Graça',      sub: 'Woche 9 · Lisboa, outubro', frac: 0.03 },
       { name: 'Cidade Universitária', sub: 'Woche 10 · O curso', frac: 0.36 },
@@ -1010,28 +1151,56 @@ const KARTEN = [
     rota: 'M 257 159 C 245 128, 215 100, 185 92 C 140 96, 90 140, 68 191 C 55 225, 90 265, 130 290 C 150 302, 175 308, 186 312',
     seg: [[0.03, 0.30], [0.34, 0.62], [0.66, 0.93], [0.95, 0.99]], extra: '' },
 ];
+/* Staffel, in der die aktuelle Lektion liegt (0 = Staffel 1 …) */
+function aktuelleStaffel() {
+  const next = naechsteLektion() || LESSONS[LESSONS.length - 1];
+  return Math.max(0, Math.min(KARTEN.length - 1, Math.floor(next.w / 4)));
+}
+const NIVEAU = ['A1', 'A2', 'B1'];
+const CHEV_SVG = '<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>';
 function renderKursMap() {
-  // eine Karte pro Staffel, sobald deren erste Woche in LESSONS steht
-  const box1 = document.getElementById('kurs-map');
-  renderKursMapFor({ ...KARTEN[0], box: box1, teaser: !LESSONS.some(l => l.w >= 4) });
-  let vorher = box1;
-  KARTEN.slice(1).forEach((k, i) => {
-    let box = document.getElementById('kurs-map' + (i + 2));
-    if (LESSONS.some(l => l.w >= k.w0)) {
-      if (!box) { box = document.createElement('div'); box.id = 'kurs-map' + (i + 2); box.className = box1.className; box.style.cssText = box1.style.cssText + '; margin-top:1rem'; vorher.after(box); }
-      renderKursMapFor({ ...k, box });
-      vorher = box;
-    } else if (box) box.remove();
+  // eine Karte pro Staffel, sobald deren erste Woche in LESSONS steht – offen ist nur die Staffel
+  // mit der aktuellen Lektion, die anderen sind schmale Zeilen zum Aufklappen (Zustand in store.ui)
+  const wrap = document.getElementById('kurs-map');
+  wrap.innerHTML = '';
+  const akt = aktuelleStaffel();
+  const offen = store.ui.staffeln || {};
+  KARTEN.forEach((k, i) => {
+    if (!LESSONS.some(l => l.w >= k.w0)) return;
+    const done = LESSONS.filter(l => l.w >= k.w0 && l.w < k.w0 + 4 && !l.bonus && store.lessons[l.id]).length;
+    const auf = offen[i] !== undefined ? !!offen[i] : i === akt;
+    if (auf) {
+      const box = document.createElement('div');
+      box.className = 'lsec kmap';
+      box.id = 'kurs-map' + (i + 1);
+      wrap.appendChild(box);
+      renderKursMapFor({ ...k, box, done, teaser: k.teaser && !LESSONS.some(l => l.w >= 4), idx: i });
+    } else {
+      const row = document.createElement('button');
+      row.type = 'button';
+      row.className = 'staffelrow zu';
+      row.setAttribute('aria-expanded', 'false');
+      row.innerHTML = `<span class="stname">${k.titel.replace(/ · (A1|A2|B1)$/, '')}</span><span class="stnum">${done}/28</span>${CHEV_SVG}`;
+      row.onclick = () => { store.ui.staffeln = { ...(store.ui.staffeln || {}), [i]: true }; save(); renderKursMap(); };
+      wrap.appendChild(row);
+    }
   });
+  // Kopfzeile: Niveau und Staffel-Titel folgen der aktuellen Staffel
+  const kn = document.getElementById('kurs-niveau'), ks = document.getElementById('kurs-sub');
+  if (kn) kn.textContent = 'NIVEAU ' + NIVEAU[akt];
+  if (ks) ks.textContent = KARTEN[akt].titel.replace(/ · (A1|A2|B1)$/, '');
 }
 function renderKursMapFor(cfg) {
   const box = cfg.box;
-  const done = LESSONS.filter(l => l.w >= cfg.w0 && l.w < cfg.w0 + 4 && !l.bonus && store.lessons[l.id]).length;
+  const done = cfg.done;
   const total = 28; // der Sagres-Bonus steht außerhalb des 28-Tage-Bogens
   const ROTA = cfg.rota;
+  // Kopfzeile ist zugleich der Zuklapp-Knopf, sobald es mehrere Staffeln gibt
+  const mehrere = KARTEN.filter(k => LESSONS.some(l => l.w >= k.w0)).length > 1;
   box.innerHTML = `
-    <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 .3rem .5rem">${cfg.titel} · ${done} von ${total} Tagen</div>
-    <svg viewBox="0 0 320 411" style="width:100%; height:auto; display:block; border-radius:12px">
+    <button type="button" class="wochekopf" style="margin:0 0 .3rem; padding:.2rem .5rem${mehrere ? '' : '; cursor:default'}" aria-expanded="true"${mehrere ? '' : ' disabled'}>
+      <span class="wname">${cfg.titel}</span><span class="wnum">${done} von ${total} Tagen</span>${mehrere ? CHEV_SVG : ''}</button>
+    <svg class="kmsvg" viewBox="0 0 320 411" style="width:100%; height:auto; display:block; border-radius:12px" role="img" aria-label="${cfg.titel}: Reisekarte, ${done} von ${total} Tagen geschafft">
       <defs>
         <!-- Gouache-Look: raue, leicht ausgefranste Kanten wie ein trockener Pinsel -->
         <filter id="km-pinsel" x="-20%" y="-20%" width="140%" height="140%">
@@ -1039,7 +1208,7 @@ function renderKursMapFor(cfg) {
           <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G"/>
         </filter>
       </defs>
-      <image href="${cfg.img || 'karte.png'}" x="0" y="0" width="320" height="411" preserveAspectRatio="xMidYMid slice"/>
+      <image href="${cfg.img || 'karte.webp'}" x="0" y="0" width="320" height="411" preserveAspectRatio="xMidYMid slice"/>
       <path id="km-weg" d="${ROTA}" filter="url(#km-pinsel)"
         fill="none" stroke="#c4553a" stroke-width="3.6" stroke-linecap="round" opacity=".5"/>
       <path id="km-fortschritt" d="${ROTA}" filter="url(#km-pinsel)"
@@ -1047,7 +1216,8 @@ function renderKursMapFor(cfg) {
       ${cfg.extra || ''}
       <g id="km-marker"></g>
     </svg>`;
-  const svg = box.querySelector('svg');
+  if (mehrere) box.querySelector('.wochekopf').onclick = () => { store.ui.staffeln = { ...(store.ui.staffeln || {}), [cfg.idx]: false }; save(); renderKursMap(); };
+  const svg = box.querySelector('svg.kmsvg');
   const weg = svg.querySelector('#km-weg');
   const fort = svg.querySelector('#km-fortschritt');
   const L = weg.getTotalLength();
@@ -1089,18 +1259,21 @@ function renderKursMapFor(cfg) {
     const rechts = cfg.rechts.includes(i);
     const lx = rechts ? p.x + 18 : p.x - 18;
     const anker = rechts ? 'start' : 'end';
-    const wName = e2.name.length * 7.1, wSub = e2.sub.length * 4.7;
+    // Beschriftung mindestens 12 px (viewBox 320 ≈ 330–440 px Anzeige); Unterzeile nur „Woche N",
+    // das Thema steht im Wochenkopf der Liste. Chip-Farbe ist fest hell, deshalb feste dunkle Schrift.
+    const sub = e2.sub.split(' · ')[0];
+    const wName = e2.name.length * 7.4, wSub = sub.length * 7.5;
     const wChip = Math.max(wName, wSub) + 14;
-    el('rect', { x: rechts ? lx - 7 : lx - wChip + 7, y: p.y - 10,
-      width: wChip, height: 28, rx: 7, fill: '#fbf3e1', opacity: .94, filter: 'url(#km-pinsel)' });
+    el('rect', { x: rechts ? lx - 7 : lx - wChip + 7, y: p.y - 12,
+      width: wChip, height: 33, rx: 7, fill: '#fbf3e1', opacity: .94, filter: 'url(#km-pinsel)' });
     const t = el('text', { x: lx, y: p.y + 1, 'text-anchor': anker,
-      fill: 'var(--ink)', 'font-size': '11.5', 'font-weight': '700',
+      fill: '#33294a', 'font-size': '12', 'font-weight': '700',
       'font-family': 'Space Grotesk, sans-serif' });
     t.textContent = e2.name;
-    const t2 = el('text', { x: lx, y: p.y + 13, 'text-anchor': anker,
-      fill: 'var(--ink-soft)', 'font-size': '7.5', 'letter-spacing': '.05em',
+    const t2 = el('text', { x: lx, y: p.y + 15, 'text-anchor': anker,
+      fill: '#5c5372', 'font-size': '12', 'letter-spacing': '.03em',
       'font-family': 'Roboto Mono, monospace' });
-    t2.textContent = e2.sub;
+    t2.textContent = sub;
   });
   // Staffel-2-Teaser: die Reise geht weiter … (nur solange Staffel 2 noch nicht da ist)
   if (cfg.teaser) {
@@ -1117,11 +1290,11 @@ function renderKursMapFor(cfg) {
   el('circle', { cx: tp.x + 128, cy: tp.y - 3, r: 11, fill: '#fffdf6', opacity: .85,
     stroke: '#b3a88e', 'stroke-width': 1.6, 'stroke-dasharray': '3 3' });
   const tq = el('text', { x: tp.x + 128, y: tp.y + 1, 'text-anchor': 'middle',
-    fill: 'var(--ink-soft)', 'font-size': '12', 'font-weight': '700',
+    fill: '#5c5372', 'font-size': '12', 'font-weight': '700',
     'font-family': 'Space Grotesk, sans-serif' });
   tq.textContent = '?';
   const tl = el('text', { x: tp.x + 128, y: tp.y - 20, 'text-anchor': 'middle',
-    fill: 'var(--ink-soft)', 'font-size': '7', 'letter-spacing': '.1em',
+    fill: '#5c5372', 'font-size': '12', 'letter-spacing': '.06em',
     'font-family': 'Roboto Mono, monospace', stroke: '#fffdf6', 'stroke-width': '2.5',
     'paint-order': 'stroke' });
   tl.textContent = 'STAFFEL 2';
@@ -1152,7 +1325,7 @@ function renderLessons() {
   const kn = document.getElementById('kurs-naechste');
   if (maxW < 3) {
     kn.style.cssText = 'display:flex; align-items:center; gap:.55rem; opacity:.55';
-    kn.innerHTML = `<img src="etappen/${ETAPPE_IMG[maxW + 1]}.png" alt=""
+    kn.innerHTML = `<img src="etappen/${ETAPPE_IMG[maxW + 1]}.webp" alt=""
       style="width:38px; height:38px; border-radius:11px; object-fit:cover; filter:grayscale(.4)">${WOCHEN[maxW + 1]} · em breve`;
   } else if (maxW >= 4) {
     kn.style.cssText = ''; kn.innerHTML = '';
@@ -1160,33 +1333,47 @@ function renderLessons() {
     // Staffel 1 komplett in der Liste: Staffel-2-Teaser statt „nächste Woche"
     kn.style.cssText = 'display:flex; align-items:center; gap:.55rem; opacity:.7';
     kn.innerHTML = `<div class="mono" style="width:38px; height:38px; border-radius:11px; background:var(--lav-pale); color:var(--ink-soft); display:flex; align-items:center; justify-content:center; font-size:.9rem; flex:none">?</div>
-      <div><div>Staffel 2 · A volta · A2</div><div class="mono" style="font-size:.62rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); margin-top:.15rem">in Arbeit · erscheint automatisch in der App</div></div>`;
+      <div><div>Staffel 2 · A volta · A2</div><div class="mono" style="font-size:.75rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); margin-top:.15rem">in Arbeit · erscheint automatisch in der App</div></div>`;
   }
+  // Wochen einklappbar: abgeschlossene und noch nicht erreichte Wochen zu, die aktuelle offen;
+  // ein Tipp auf den Wochenkopf merkt sich den Zustand (store.ui.wochen)
+  const aktW = next ? next.w : Math.max(...LESSONS.map(l => l.w));
+  const uiW = store.ui.wochen || {};
+  let body = null;
   LESSONS.forEach((l, i) => {
     if (l.w !== letzteWoche) {
       letzteWoche = l.w;
-      const h = document.createElement('div');
-      h.className = 'kurs-head';
-      h.style.cssText = 'display:flex; align-items:center; gap:.55rem';
-      h.innerHTML = `<img src="etappen/${ETAPPE_IMG[l.w]}.png" alt=""
-        style="width:38px; height:38px; border-radius:11px; object-fit:cover; box-shadow:0 2px 8px rgba(51,41,74,.15)">${WOCHEN[l.w]}`;
+      const inWoche = LESSONS.filter(x => x.w === l.w);
+      const fertig = inWoche.filter(x => store.lessons[x.id]).length;
+      const auf = uiW[l.w] !== undefined ? !!uiW[l.w] : l.w === aktW;
+      const h = document.createElement('button');
+      h.type = 'button';
+      h.className = 'wochekopf' + (auf ? '' : ' zu') + (l.w === aktW ? ' akt' : '');
+      h.setAttribute('aria-expanded', auf ? 'true' : 'false');
+      h.setAttribute('aria-controls', 'woche-' + l.w);
+      h.innerHTML = `<img src="etappen/${ETAPPE_IMG[l.w]}.webp" alt=""
+        style="width:38px; height:38px; border-radius:11px; object-fit:cover; box-shadow:0 2px 8px rgba(51,41,74,.15); flex:none">
+        <span class="wname">${WOCHEN[l.w]}</span><span class="wnum">${fertig}/${inWoche.length}</span>${CHEV_SVG}`;
+      h.onclick = () => { store.ui.wochen = { ...(store.ui.wochen || {}), [l.w]: !auf }; save(); renderLessons(); };
       el.appendChild(h);
+      body = document.createElement('div');
+      body.className = 'woche-body' + (auf ? '' : ' zu');
+      body.id = 'woche-' + l.w;
+      el.appendChild(body);
     }
     const isDone = !!store.lessons[l.id];
     const zu = gesperrt(l.id);
     let right = '';
-    if (zu) right = `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-deep); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>`;
+    if (zu) right = `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-ink); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>`;
     else if (isDone) {
       const tst = store.tests[l.id];
-      right = (tst ? `<div class="mono" style="font-size:.68rem; color:#0b6c5f; white-space:nowrap">${tst.punkte}/${tst.max}</div>` : '')
-        + `<div style="width:26px; height:26px; border-radius:50%; background:var(--sea-pale); color:#0b6c5f; display:flex; align-items:center; justify-content:center; flex:none">${CHECK_SVG}</div>`;
+      right = (tst ? `<div class="mono" style="font-size:.75rem; color:var(--sea-ink); white-space:nowrap">${tst.punkte}/${tst.max}</div>` : '')
+        + `<div style="width:26px; height:26px; border-radius:50%; background:var(--sea-pale); color:var(--sea-ink); display:flex; align-items:center; justify-content:center; flex:none">${CHECK_SVG}</div>`;
     }
-    else if (l === next) right = '<div class="mono" style="font-size:.58rem; letter-spacing:.12em; text-transform:uppercase; background:var(--clay); color:#fff; border-radius:999px; padding:.3rem .6rem; flex:none">Heute</div>';
-    const div = document.createElement('div');
-    div.className = 'spot';
+    else if (l === next) right = '<div class="mono" style="font-size:.75rem; letter-spacing:.12em; text-transform:uppercase; background:var(--clay); color:#fff; border-radius:999px; padding:.3rem .6rem; flex:none">Heute</div>';
+    const div = kachel('spot', () => openLesson(l.id));
     div.id = 'lek-' + l.id;
-    div.onclick = () => openLesson(l.id);
-    if (zu) div.style.opacity = '.72';
+    if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', l.label + ' – gesperrt, Staffel 2 freischalten'); }
     const probe = GRATIS.includes(l.id) && !istPremium() ? ' · gratis zum Ausprobieren' : '';
     div.innerHTML = `
       <div class="icon">${l.bonus ? 'B' : 'L' + lessonNum(l)}</div>
@@ -1194,7 +1381,7 @@ function renderLessons() {
         <div class="name">${l.label}</div>
         <div class="theme">${l.sub}${probe}</div>
       </div>${right}`;
-    el.appendChild(div);
+    body.appendChild(div);
   });
 }
 let curLesson = null;
@@ -1246,33 +1433,29 @@ function zeigeAbschluss(l, neue, test) {
   if (!el) {
     el = document.createElement('div');
     el.id = 'abschluss';
-    el.style.cssText = 'position:fixed; inset:0; z-index:80; background:rgba(51,41,74,.45); display:flex; align-items:flex-end; justify-content:center';
+    el.style.cssText = 'position:fixed; inset:0; z-index:80; background:var(--scrim); display:flex; align-items:flex-end; justify-content:center';
     el.onclick = e => { if (e.target === el) abschlussZumKurs(); };
     document.body.appendChild(el);
   }
   el.innerHTML = `
     <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
       <div style="display:flex; align-items:center; gap:.9rem; margin-bottom:.9rem">
-        <img src="etappen/${ETAPPE_IMG[l.w]}.png" alt="" style="width:64px; height:64px; border-radius:16px; object-fit:cover; box-shadow:0 3px 10px rgba(51,41,74,.18); transform:rotate(-2deg); flex:none">
+        <img src="etappen/${ETAPPE_IMG[l.w]}.webp" alt="" style="width:64px; height:64px; border-radius:16px; object-fit:cover; box-shadow:0 3px 10px rgba(51,41,74,.18); transform:rotate(-2deg); flex:none">
         <div>
-          <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft)">${l.label}</div>
-          <div style="font-size:1.5rem; font-weight:700; line-height:1.15; margin-top:.15rem">${titel}</div>
+          <div class="kicker">${l.label}</div>
+          <h2 id="abschluss-titel" style="font-size:1.5rem; font-weight:700; line-height:1.15; margin-top:.15rem">${titel}</h2>
         </div>
       </div>
-      <div class="mono" style="font-size:.76rem; line-height:1.7; color:var(--ink); margin-bottom:1.1rem">${test ? `<b style="font-weight:400; color:#0b6c5f">Revisão: ${test.punkte} / ${test.max} Punkte</b><br>` : ''}${lektionGeloest} ${lektionGeloest === 1 ? 'Übung' : 'Übungen'} gelöst · ${neue} ${neue === 1 ? 'neues Wort' : 'neue Wörter'} in deinem Heft<br>${zeile2}</div>
+      <div class="mono" style="font-size:.76rem; line-height:1.7; color:var(--ink); margin-bottom:1.1rem">${test ? `<b style="font-weight:400; color:var(--sea-ink)">Revisão: ${test.punkte} / ${test.max} Punkte</b><br>` : ''}${lektionGeloest} ${lektionGeloest === 1 ? 'Übung' : 'Übungen'} gelöst · ${neue} ${neue === 1 ? 'neues Wort' : 'neue Wörter'} in deinem Heft<br>${zeile2}</div>
       <button class="mixbtn" style="margin:0 0 .6rem; transform:none" onclick="abschlussZumKurs()">Zum Kurs</button>
       ${next ? `<button class="mixbtn" style="margin:0; transform:none; background:var(--lav-deep); box-shadow:0 6px 18px rgba(127,110,194,.3)" onclick="abschlussWeiter('${next.id}')">${weiter}</button>` : ''}
     </div>`;
-  el.style.display = 'flex';
+  dialogOeffnen(el, 'abschluss-titel');
 }
-function schliesseAbschluss() { const el = document.getElementById('abschluss'); if (el) el.style.display = 'none'; }
+function schliesseAbschluss() { dialogSchliessen(document.getElementById('abschluss')); }
 function abschlussZumKurs() {
   schliesseAbschluss();
-  goTab('kurs');
-  // zur aktuellen Lektion scrollen statt an den Seitenanfang (drei Karten)
-  const next = naechsteLektion();
-  const ziel = next && document.getElementById('lek-' + next.id);
-  if (ziel) setTimeout(() => ziel.scrollIntoView({ block: 'center' }), 60);
+  goTab('kurs');   // scrollt zur aktuellen Lektion
 }
 function abschlussWeiter(id) {
   schliesseAbschluss();
@@ -1343,8 +1526,8 @@ function playMine(key) {
 }
 function recButtons(key) {
   const da = recordings[key] ? ' style="display:flex"' : '';
-  return `<button class="recbtn" onclick="toggleRec('${key}', this)" title="Aufnehmen – nochmal tippen zum Stoppen">${MIC_SVG}</button>
-    <button class="myplay" id="my-${key}"${da} onclick="playMine('${key}')" title="Meine Aufnahme anhören">${PLAY_SVG}</button>`;
+  return `<button class="recbtn" onclick="toggleRec('${key}', this)" title="Aufnehmen – nochmal tippen zum Stoppen" aria-label="Aufnehmen">${MIC_SVG}</button>
+    <button class="myplay" id="my-${key}"${da} onclick="playMine('${key}')" title="Meine Aufnahme anhören" aria-label="Meine Aufnahme anhören">${PLAY_SVG}</button>`;
 }
 
 /* ---------- Tab-Leiste ---------- */
@@ -1360,7 +1543,7 @@ function renderTabbar(active) {
   const act = ['blaetter', 'descobrir', 'artigo', 'jogos', 'jogo'].includes(active) ? 'mais' : active;
   const defs = [['home', 'Heute'], ['kurs', 'Kurs'], ['textos', 'Texte'], ['caderno', 'Heft'], ['mais', 'Mehr']];
   document.getElementById('tabbar').innerHTML = defs.map(([k, l]) =>
-    `<button class="${k === act ? 'on' : ''}" onclick="goTab('${k}')"><span class="tico">${TAB_SVG[k]}</span>${l}</button>`).join('');
+    `<button type="button" class="${k === act ? 'on' : ''}"${k === act ? ' aria-current="page"' : ''} onclick="goTab('${k}')"><span class="tico" aria-hidden="true">${TAB_SVG[k]}</span>${l}</button>`).join('');
 }
 
 /* ---------- Textos (Lesetexte, LingQ-Stil) ---------- */
@@ -1434,18 +1617,16 @@ function renderTextos() {
   const el = document.getElementById('textos-list');
   el.innerHTML = '';
   TEXTOS.forEach(t => {
-    const dots = [1, 2, 3, 4, 5].map(i => `<span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:${i <= t.nivel ? 'var(--sea)' : '#e8e0d0'}; margin-right:3px"></span>`).join('');
-    const div = document.createElement('div');
-    div.className = 'spot';
-    div.onclick = () => openTexto(t.tag);
+    const dots = [1, 2, 3, 4, 5].map(i => `<span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:${i <= t.nivel ? 'var(--sea)' : 'var(--line)'}; margin-right:3px"></span>`).join('');
+    const div = kachel('spot', () => openTexto(t.tag));
     const zu = gesperrt(t.tag);
-    if (zu) div.style.opacity = '.72';
+    if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', t.title + ' – gesperrt, Staffel 2 freischalten'); }
     div.innerHTML = `
       <div class="icon">T${t.num}</div>
       <div class="info">
-        <div class="name">${t.title}</div>
-        <div class="theme">${t.num === 'B' ? 'Bonus' : 'Tag ' + t.num} · Nível ${t.nivel} <span style="margin-left:.4rem">${dots}</span></div>
-      </div>${zu ? `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-deep); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>` : ''}`;
+        <div class="name" lang="pt">${t.title}</div>
+        <div class="theme">${t.num === 'B' ? 'Bonus' : 'Tag ' + t.num} · Stufe ${t.nivel} von 5 <span style="margin-left:.4rem" aria-hidden="true">${dots}</span></div>
+      </div>${zu ? `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-ink); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>` : ''}`;
     el.appendChild(div);
   });
 }
@@ -1469,13 +1650,13 @@ async function openTexto(tag) {
     audio = sec.audio || null;
   } else {
     const r = L.sections.find(x => x.type === 'reading');
-    html = r.lines.map(ln => `<span class="mono" style="font-weight:400; font-size:.72rem; color:var(--clay)">${ln.who}:</span> ` + tokenizeLine(ln.pt)).join('<br>');
+    html = r.lines.map(ln => `<span class="mono" style="font-weight:400; font-size:.75rem; color:var(--clay-text)">${ln.who}:</span> ` + tokenizeLine(ln.pt)).join('<br>');
   }
   ltAudio = audio;
   document.getElementById('lt-audio').style.display = audio ? 'flex' : 'none';
   document.getElementById('lt-audio').innerHTML = PLAY_SVG;
   document.getElementById('lt-title').textContent = T.title;
-  document.getElementById('lt-sub').textContent = `Tag ${T.num} · Nível ${T.nivel} · Wörter antippen zum Nachschlagen`;
+  document.getElementById('lt-sub').textContent = `${T.num === 'B' ? 'Bonus' : 'Tag ' + T.num} · Stufe ${T.nivel} von 5 · Wörter antippen zum Nachschlagen`;
   document.getElementById('lt-text').innerHTML = html;
   show('leitura');
 }
@@ -1615,18 +1796,18 @@ function tapWord(el) {
   if (e) {
     pop.innerHTML = `
       <div style="display:flex; align-items:center; gap:.7rem">
-        <button class="playbtn" onclick="playTok('${n}')">${PLAY_SVG}</button>
+        <button class="playbtn" aria-label="Anhören" onclick="playTok('${n}')">${PLAY_SVG}</button>
         <div style="flex:1; min-width:0">
-          <div class="mono" style="font-size:.95rem; font-weight:400">${e.pt}</div>
-          <div class="mono" style="font-size:.72rem; color:var(--ink-soft)">${e.ipa} · ${e.de}</div>
+          <div class="mono" lang="pt" style="font-size:.95rem; font-weight:400">${e.pt}</div>
+          <div class="mono" style="font-size:.75rem; color:var(--ink-soft)">${e.ipa} · ${e.de}</div>
         </div>
-        <button class="chip" style="background:var(--lav-pale); color:var(--lav-deep)" onclick="markWord('${e.id}', 1)">Lernen</button>
-        <button class="chip" style="background:var(--sea); color:#fff" onclick="markWord('${e.id}', 2)">Kenne ich</button>
+        <button class="chip" style="background:var(--lav-pale); color:var(--lav-ink)" onclick="markWord('${e.id}', 1)">Lernen</button>
+        <button class="chip" style="background:var(--sea); color:var(--on-sea)" onclick="markWord('${e.id}', 2)">Kenne ich</button>
       </div>`;
   } else {
     pop.innerHTML = `
       <div style="display:flex; align-items:center; gap:.7rem">
-        <button class="playbtn" onclick="playTok('${n}')">${PLAY_SVG}</button>
+        <button class="playbtn" aria-label="Anhören" onclick="playTok('${n}')">${PLAY_SVG}</button>
         <div class="mono" style="font-size:.8rem; color:var(--ink-soft); flex:1"><b style="color:var(--ink)">${n}</b> – noch nicht im Heft, kommt in einer späteren Lektion.</div>
       </div>`;
   }
@@ -1687,24 +1868,30 @@ function ladefehler(elId, text, retryFn) {
 
 let LVOCAB = null;   // Lektionswörter (mit Wochen-Zuordnung)
 let LVOCAB_P = null; // laufendes Laden – verhindert halbgefüllte Zwischenstände
+let LINDEX = null;   // lektionen/index.json: Vokabeln + Dicas aller Lektionen (tools/vokabel-index.py)
 const KERN_LID = {}; // Kernwort-ID → erste Lektion, in der das Wort gelernt wird
 function ladeLVocab() {
   if (LVOCAB) return Promise.resolve(LVOCAB);
   if (LVOCAB_P) return LVOCAB_P;
   LVOCAB_P = (async () => {
+    // Ein Request statt 64: der generierte Index. Fehlt eine Lektion darin (noch nicht neu
+    // gebaut), wird nur diese eine Lektionsdatei nachgeladen.
+    try { LINDEX = (await ladeJSON('lektionen/index.json')).lektionen || {}; } catch (e) { LINDEX = {}; }
     const listen = await Promise.all(LESSONS.map(async l => {
       try {
-        const L = await ladeJSON('lektionen/' + l.id + '.json');
+        let items = LINDEX[l.id] && LINDEX[l.id].vocab;
+        if (!items) {
+          const L = await ladeJSON('lektionen/' + l.id + '.json');
+          items = [];
+          for (const sec of L.sections) if (sec.type === 'vocab') items.push(...sec.items);
+        }
         const raus = [], kern = [];
-        for (const sec of L.sections) {
-          if (sec.type !== 'vocab') continue;
-          for (const it of sec.items) {
-            // Wörter, die schon im Kernwortschatz stehen, nicht doppelt anlegen –
-            // sonst zwei Karten für dasselbe Wort und verzerrte A1-Prozente.
-            const kid = vocabAudioId(it.pt);
-            if (kid) { kern.push(kid); continue; }
-            if (it.audio) raus.push({ id: it.audio, pt: it.pt, ipa: it.ipa, de: it.de, w: l.w, lid: l.id, tag: l.label.split(' ·')[0] });
-          }
+        for (const it of items) {
+          // Wörter, die schon im Kernwortschatz stehen, nicht doppelt anlegen –
+          // sonst zwei Karten für dasselbe Wort und verzerrte A1-Prozente.
+          const kid = vocabAudioId(it.pt);
+          if (kid) { kern.push(kid); continue; }
+          if (it.audio) raus.push({ id: it.audio, pt: it.pt, ipa: it.ipa, de: it.de, w: l.w, lid: l.id, tag: l.label.split(' ·')[0] });
         }
         return { raus, kern, lid: l.id };
       } catch (e) { return { raus: [], kern: [], lid: l.id }; }
@@ -1729,31 +1916,34 @@ async function renderCaderno() {
   const b1 = lvocabFrei().filter(w => w.w >= 8);
   const gb1 = b1.filter(w => (store.words[w.id] || { box: 0 }).box >= 2).length;
   const g2 = a2.filter(w => (store.words[w.id] || { box: 0 }).box >= 2).length;
-  const a2zeile = (a2.length ? `<div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.2rem">A2 (Staffel 2): ${g2} von ${a2.length} gelernt</div>` : '')
-    + (b1.length ? `<div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.2rem">B1 (Staffel 3): ${gb1} von ${b1.length} gelernt</div>` : '');
+  const a2zeile = (a2.length ? `<div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin-top:.2rem">A2 (Staffel 2): ${g2} von ${a2.length} gelernt</div>` : '')
+    + (b1.length ? `<div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin-top:.2rem">B1 (Staffel 3): ${gb1} von ${b1.length} gelernt</div>` : '');
   document.getElementById('cad-stats').innerHTML = `
     <div class="lsec" style="display:flex; align-items:center; gap:14px; transform:rotate(-.3deg)">
       <div style="text-align:center">
-        <div style="font-size:1.9rem; font-weight:700; color:var(--sea); line-height:1">${pct}%</div>
-        <div class="mono" style="font-size:.58rem; letter-spacing:.1em; color:var(--ink-soft); margin-top:.2rem">VON A1</div>
+        <div style="font-size:1.9rem; font-weight:700; color:var(--sea-ink); line-height:1">${pct}%</div>
+        <div class="mono" style="font-size:.75rem; letter-spacing:.1em; color:var(--ink-soft); margin-top:.2rem">VON A1</div>
       </div>
       <div style="flex:1">
         <div style="font-weight:600; font-size:.9rem">${g} von ${total} A1-Wellen gestanden</div>
         <div class="bar" style="margin-top:.4rem"><i style="width:${pct}%"></i></div>
-        <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.3rem">${g} gelernt · ${a} in Arbeit · ${total - g - a} neu</div>${a2zeile}
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin-top:.3rem">${g} gelernt · ${a} in Arbeit · ${total - g - a} neu</div>${a2zeile}
       </div>
     </div>` + uebungsKachel();
   const F = [['all', 'Alle'], ['gelernt', 'Gelernt'], ['arbeit', 'In Arbeit'], ['neu', 'Neu'],
     ['wackler', 'Wackler' + (Object.keys(store.fehler).length ? ' · ' + wacklerListe().length : '')]];
-  document.getElementById('cad-chips').innerHTML = F.map(([k, l]) =>
-    `<button class="chip ${cadFilter === k ? 'on' : ''}" onclick="cadFilter='${k}'; renderCaderno()">${l}</button>`).join('');
-  const wochen = [...new Set(LESSONS.filter(l => !gesperrt(l.id)).map(l => l.w))];
-  document.getElementById('cad-spots').innerHTML =
-    `<button class="chip ${cadSpot === 'all' ? 'on' : ''}" onclick="cadSpot='all'; renderCaderno()">Alle</button>` +
-    wochen.map(w =>
-      `<button class="chip ${cadSpot === 'w' + w ? 'on' : ''}" onclick="cadSpot='w${w}'; renderCaderno()">Woche ${w + 1}</button>`).join('') +
-    Object.entries(SPOTS).map(([k, sp]) =>
-      `<button class="chip ${cadSpot === k ? 'on' : ''}" onclick="cadSpot='${k}'; renderCaderno()">${sp.theme}</button>`).join('');
+  const chip = (on, act, label) => `<button type="button" class="chip${on ? ' on' : ''}" aria-pressed="${on}" onclick="${act}; renderCaderno()">${label}</button>`;
+  document.getElementById('cad-chips').innerHTML = F.map(([k, l]) => chip(cadFilter === k, `cadFilter='${k}'`, l)).join('');
+  // Zwei Reihen: Woche (nur Wochen, die komplett frei sind – gesperrte Staffeln erscheinen gar nicht) und Thema.
+  // Es gilt immer nur ein Filter; „Alle" der anderen Reihe zeigt an, dass dort nichts eingegrenzt ist.
+  const wochen = [...new Set(LESSONS.filter(l => l.w < 4 || istPremium()).map(l => l.w))];
+  const istWoche = /^w\d$/.test(cadSpot), istThema = cadSpot !== 'all' && !istWoche;
+  document.getElementById('cad-wochen').innerHTML = '<span class="chiplabel">Woche</span>' +
+    chip(!istWoche, "cadSpot='all'", 'Alle') +
+    wochen.map(w => chip(cadSpot === 'w' + w, `cadSpot='w${w}'`, 'Woche ' + (w + 1))).join('');
+  document.getElementById('cad-spots').innerHTML = '<span class="chiplabel">Thema</span>' +
+    chip(!istThema, "cadSpot='all'", 'Alle') +
+    Object.entries(SPOTS).map(([k, sp]) => chip(cadSpot === k, `cadSpot='${k}'`, sp.theme)).join('');
   document.getElementById('cad-surf').style.display = cadSpot === 'all' ? 'none' : 'block';
   renderCadList();
 }
@@ -1763,8 +1953,8 @@ function uebungsKachel() {
   const offen = uebungenOffen();
   if (!offen.length) return '';
   const nU = uebungenFaellig().length;
-  return `<div class="spot" style="margin-top:.75rem${nU ? '' : '; cursor:default'}" ${nU ? `onclick="startLearn('uebungen')"` : ''}>
-      <div class="icon" style="background:var(--sea-pale); color:#0b6c5f">Ü</div>
+  return `<div class="spot${nU ? '' : ' dica-note'}" style="margin-top:.75rem" ${nU ? `role="button" tabindex="0" onclick="startLearn('uebungen')"` : ''}>
+      <div class="icon" style="background:var(--sea-pale); color:var(--sea-ink)">Ü</div>
       <div class="info">
         <div class="name">Übungen zum Wiederholen: ${nU}</div>
         <div class="theme">${nU ? 'Lücken, Auswahl und Sätze, bei denen es gehakt hat – jetzt üben' : `${offen.length} in der Wiederholung · gerade keine fällig`}</div>
@@ -1793,8 +1983,8 @@ function renderCadList() {
     const row = document.createElement('div');
     row.className = 'vrow';
     row.innerHTML = `
-      <button class="playbtn" onclick="play('${w.id}')">${PLAY_SVG}</button>
-      <div><div class="pt">${w.pt}</div><div class="vipa">${w.ipa}${w.tag ? ' · ' + w.tag : ''}</div></div>
+      <button class="playbtn" aria-label="Anhören" onclick="play('${w.id}')">${PLAY_SVG}</button>
+      <div><div class="pt" lang="pt">${w.pt}</div><div class="vipa">${w.ipa}${w.tag ? ' · ' + w.tag : ''}</div></div>
       <div class="vde">${w.de}<div style="margin-top:2px">${dots}</div></div>`;
     el.appendChild(row);
   }
@@ -1820,8 +2010,7 @@ function renderMais() {
   const el = document.getElementById('mais-list');
   el.innerHTML = '';
   for (const [ic, title, sub, action] of items) {
-    const div = document.createElement('div');
-    div.className = 'spot';
+    const div = kachel('spot', null);
     div.setAttribute('onclick', action);
     div.innerHTML = `
       <div class="icon">${MAIS_SVG[ic]}</div>
@@ -1844,9 +2033,7 @@ async function renderDescobrir() {
   const el = document.getElementById('descobrir-list');
   el.innerHTML = '';
   DESCOBRIR.forEach((a, i) => {
-    const div = document.createElement('div');
-    div.className = 'spot';
-    div.onclick = () => openArtigo(a.id);
+    const div = kachel('spot', () => openArtigo(a.id));
     div.innerHTML = `
       <div class="icon">${String(i + 1).padStart(2, '0')}</div>
       <div class="info">
@@ -1868,10 +2055,10 @@ function openArtigo(id) {
 }
 /* ==================== JOGOS ==================== */
 const JOGOS = [
-  { key: 'memoria', name: 'Memória', desc: 'Paare finden: Wort und Übersetzung', ic: 'cards', bg: 'var(--lav-pale)', fg: 'var(--lav-deep)' },
-  { key: 'ondas', name: 'Ondas', desc: 'Wörter in die richtige Satz-Reihenfolge tippen', ic: 'shuffle', bg: 'var(--sea-pale)', fg: '#0b6c5f' },
-  { key: 'escuta', name: 'Escuta!', desc: 'Hören und das richtige Wort tippen', ic: 'phones', bg: 'var(--clay-soft)', fg: 'var(--clay)' },
-  { key: 'caca', name: 'Caça-palavras', desc: 'Finde die versteckten Wörter im Gitter', ic: 'grid', bg: 'var(--sand)', fg: '#8a6d1f' },
+  { key: 'memoria', name: 'Memória', desc: 'Paare finden: Wort und Übersetzung', ic: 'cards', bg: 'var(--lav-pale)', fg: 'var(--lav-ink)' },
+  { key: 'ondas', name: 'Ondas', desc: 'Wörter in die richtige Satz-Reihenfolge tippen', ic: 'shuffle', bg: 'var(--sea-pale)', fg: 'var(--sea-ink)' },
+  { key: 'escuta', name: 'Escuta!', desc: 'Hören und das richtige Wort tippen', ic: 'phones', bg: 'var(--clay-soft)', fg: 'var(--clay-ink)' },
+  { key: 'caca', name: 'Caça-palavras', desc: 'Finde die versteckten Wörter im Gitter', ic: 'grid', bg: 'var(--sand)', fg: 'var(--sand-ink)' },
 ];
 const JOGO_SVG = {
   cards: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="12" height="14" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg>',
@@ -1908,9 +2095,9 @@ async function renderFortschritt() {
     const heute = t.d === today();
     return `<div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:.3rem">
       <div style="width:100%; max-width:14px; height:${h}px; border-radius:4px; overflow:hidden; display:flex; flex-direction:column;
-        background:${wert(t) ? 'var(--sea)' : '#e8e0d0'}; ${heute ? 'outline:2px solid var(--clay); outline-offset:1px' : ''}">
+        background:${wert(t) ? 'var(--sea)' : 'var(--line)'}; ${heute ? 'outline:2px solid var(--clay); outline-offset:1px' : ''}">
         <div style="height:${hl}px; background:var(--lav-deep)"></div></div>
-      <div class="mono" style="font-size:.5rem; color:var(--ink-soft)">${WT[new Date(t.d + 'T12:00').getDay()]}</div>
+      <div class="mono" style="font-size:.75rem; color:var(--ink-soft)">${WT[new Date(t.d + 'T12:00').getDay()]}</div>
     </div>`;
   }).join('');
   const summe = tage.reduce((a, t) => a + t.k, 0);
@@ -1920,7 +2107,7 @@ async function renderFortschritt() {
   const kachel = (gross, klein) =>
     `<div style="flex:1; background:var(--card); border-radius:16px; padding:.9rem .6rem; text-align:center">
       <div style="font-size:1.5rem; font-weight:700">${gross}</div>
-      <div class="mono" style="font-size:.56rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft); margin-top:.15rem">${klein}</div>
+      <div class="mono" style="font-size:.75rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft); margin-top:.15rem">${klein}</div>
     </div>`;
 
   el.innerHTML = `
@@ -1932,7 +2119,7 @@ async function renderFortschritt() {
     <div class="lsec">
       <h3>Die letzten 14 Tage</h3>
       <div style="display:flex; gap:.25rem; align-items:flex-end; height:70px; margin:.9rem 0 .3rem">${balken}</div>
-      <div class="mono" style="font-size:.62rem; color:var(--ink-soft)">
+      <div class="mono" style="font-size:.75rem; color:var(--ink-soft)">
         <span style="display:inline-block; width:8px; height:8px; border-radius:2px; background:var(--lav-deep); vertical-align:-1px"></span> ${lekSumme} ${lekSumme === 1 ? 'Lektion' : 'Lektionen'}
         · <span style="display:inline-block; width:8px; height:8px; border-radius:2px; background:var(--sea); vertical-align:-1px"></span> ${summe} Karten
         · an ${aktiveTage} ${aktiveTage === 1 ? 'Tag' : 'Tagen'}
@@ -1941,7 +2128,7 @@ async function renderFortschritt() {
     <div class="lsec">
       <h3>Wortschatz</h3>
       <div class="bar" style="margin:.7rem 0 .6rem"><i style="width:${pct}%"></i></div>
-      <div class="mono" style="font-size:.68rem; line-height:1.7; color:var(--ink-soft)">
+      <div class="mono" style="font-size:.75rem; line-height:1.7; color:var(--ink-soft)">
         ${gelernt} gelernt · ${arbeit} in Arbeit · ${alle.length - gelernt - arbeit} neu<br>
         insgesamt ${alle.length} Wörter (Kern + alle Lektionen)
       </div>
@@ -1950,14 +2137,14 @@ async function renderFortschritt() {
   const w = document.createElement('div');
   w.className = 'lsec';
   w.innerHTML = `<h3>Meine Wackler</h3>
-    <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin:.5rem 0 .8rem">
+    <div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin:.5rem 0 .8rem">
       ${wack.length ? wack.length + (wack.length === 1 ? ' Wort hat' : ' Wörter haben') + ' zuletzt gehakt.'
                     : 'Noch keine Wackler – oder alle schon wieder sicher.'}
     </div>`;
   if (wack.length) {
     const liste = document.createElement('div');
     liste.className = 'mono';
-    liste.style.cssText = 'font-size:.72rem; line-height:1.9; margin-bottom:.9rem';
+    liste.style.cssText = 'font-size:.75rem; line-height:1.9; margin-bottom:.9rem';
     liste.textContent = wack.slice(0, 12).map(x => x.pt).join(' · ');
     w.appendChild(liste);
     const b = document.createElement('button');
@@ -1971,13 +2158,13 @@ async function renderFortschritt() {
   const faellig = uebungenFaellig().length;
   const u = document.createElement('div');
   u.className = 'mono';
-  u.style.cssText = 'font-size:.68rem; color:var(--ink-soft); margin:1rem 0 .5rem; padding-top:.8rem; border-top:1px dashed #e8dfcb';
+  u.style.cssText = 'font-size:.75rem; color:var(--ink-soft); margin:1rem 0 .5rem; padding-top:.8rem; border-top:1px dashed var(--line)';
   u.innerHTML = `<b style="font-weight:400; color:var(--ink)">Übungen</b> · ${offen.length ? `${offen.length} in der Wiederholung, ${faellig} fällig` : 'noch keine – Fehler in Lücken, Auswahl und Sätzen landen hier.'}`;
   w.appendChild(u);
   if (offen.length) {
     const liste = document.createElement('div');
     liste.className = 'mono';
-    liste.style.cssText = 'font-size:.72rem; line-height:1.9; margin-bottom:.9rem';
+    liste.style.cssText = 'font-size:.75rem; line-height:1.9; margin-bottom:.9rem';
     liste.innerHTML = offen.slice(0, 8).map(x => {
       const l = LESSONS.find(y => y.id === x.lid);
       return `<div style="display:flex; gap:.5rem"><span style="color:var(--ink-soft); flex:none">${l ? l.label.split(' · ')[0] : x.lid}</span><span style="flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap">${x.q || ''}</span><span style="color:var(--ink-soft); flex:none">${x.fehl}×</span></div>`;
@@ -1999,9 +2186,7 @@ function renderJogos() {
   const el = document.getElementById('jogos-list');
   el.innerHTML = '';
   for (const j of JOGOS) {
-    const d = document.createElement('div');
-    d.className = 'jcard';
-    d.onclick = () => startJogo(j.key);
+    const d = kachel('jcard', () => startJogo(j.key));
     d.innerHTML = `<div class="jic" style="background:${j.bg}; color:${j.fg}">${JOGO_SVG[j.ic]}</div>
       <div class="jn">${j.name}</div><div class="jd">${j.desc}</div>`;
     el.appendChild(d);
@@ -2086,7 +2271,7 @@ GAMES.escuta = function () {
     const optionen = shuffle([w].concat(shuffle(VOCAB.filter(x => x.id !== w.id)).slice(0, 3)));
     document.getElementById('jogo-score').textContent = (i + 1) + ' / ' + runden.length;
     body.innerHTML = `<div class="hint" style="margin:0 0 .8rem">Hör zu und tippe, was du hörst.</div>
-      <button class="audiobtn" id="esc-play" style="margin:0 auto 1rem"></button><div id="esc-opts"></div>`;
+      <button class="audiobtn" id="esc-play" style="margin:0 auto 1rem" aria-label="Noch einmal anhören"></button><div id="esc-opts"></div>`;
     const pb = body.querySelector('#esc-play');
     pb.innerHTML = PLAY_SVG;
     pb.onclick = () => play(w.id);
@@ -2176,7 +2361,7 @@ GAMES.ondas = async function () {
 /* ---------- Caça-palavras ---------- */
 GAMES.caca = function () {
   const body = document.getElementById('jogo-body');
-  const N = 8;
+  const N = 7;   // 7 Spalten: jede Zelle bei 390 px Breite ≥ 44 px
   const worte = spielWorte(30, true).filter(w => w.pt.length <= N).slice(0, 6);
   const G = Array.from({ length: N }, () => Array(N).fill(''));
   const platziert = [];
@@ -2269,7 +2454,7 @@ function renderBlaetter() {
         <div class="name">${l.label}</div>
         <div class="theme">${l.sub}</div>
       </div>
-      <div style="width:40px; height:40px; border-radius:50%; background:var(--clay-soft); color:var(--clay); display:flex; align-items:center; justify-content:center; flex:none">${PRINT_SVG}</div>`;
+      <div style="width:40px; height:40px; border-radius:50%; background:var(--clay-soft); color:var(--clay-ink); display:flex; align-items:center; justify-content:center; flex:none">${PRINT_SVG}</div>`;
     el.appendChild(a);
   });
 }
@@ -2312,7 +2497,7 @@ async function openLesson(id, scrollSec) {
     if (sec.type === 'note' || sec.type === 'speak') {
       const fig = sec.title.includes('Dica do Vasco') ? 'vasco' : sec.title.includes('Dica da Ana') ? 'ana' : sec.title.includes('Dica do João') ? 'joao' : sec.title.includes('Dica da Professora') ? 'professora' : '';
       const vasco = fig
-        ? `<img class="avat" src="avatare/${fig}.png" alt="" style="width:34px; height:34px; vertical-align:middle; margin-right:.5rem">` : '';
+        ? `<img class="avat" src="avatare/${fig}.webp" alt="" style="width:34px; height:34px; vertical-align:middle; margin-right:.5rem">` : '';
       const istAusw = testInfo && sec.type === 'note' && /Auswertung/.test(sec.title || '');
       if (istAusw) testInfo.auswHtml = sec.html;
       div.innerHTML = `<h3 style="${vasco ? 'display:flex; align-items:center' : ''}">${vasco}${sec.title}</h3><div class="body"${istAusw ? ' id="ausw-body"' : ''}>${sec.html}</div>`;
@@ -2323,9 +2508,9 @@ async function openLesson(id, scrollSec) {
         const haken = store.sprechen[id];
         div.innerHTML += `<div class="recrow" style="flex-wrap:wrap">
             ${kann ? `<button class="recword" onclick="toggleRec('${key}', this)">${MIC_SVG} ${recordings[key] ? 'Noch einmal' : 'Aufnehmen'}</button>` : ''}
-            ${sec.audio ? `<button class="playbtn" onclick="play('${sec.audio}')" title="Beispiel anhören">${PLAY_SVG}</button>` : ''}
-            <button class="myplay" id="my-${key}"${da} onclick="playMine('${key}')" title="Meine Aufnahme anhören">${PLAY_SVG}</button>
-            <span class="hint" style="flex:1; min-width:11rem">${kann ? 'Bis zu 20 Sekunden. Danach anhören: Klingt es schon portugiesisch?' : 'Sprich deine Sätze laut – aufnehmen kann dieser Browser leider nicht.'}</span>
+            ${sec.audio ? `<button class="playbtn" aria-label="Anhören" onclick="play('${sec.audio}')" title="Beispiel anhören">${PLAY_SVG}</button>` : ''}
+            <button class="myplay" id="my-${key}"${da} onclick="playMine('${key}')" title="Meine Aufnahme anhören" aria-label="Meine Aufnahme anhören">${PLAY_SVG}</button>
+            <span class="hint" style="flex:1; min-width:min(11rem, 100%)">${kann ? 'Bis zu 20 Sekunden. Danach anhören: Klingt es schon portugiesisch?' : 'Sprich deine Sätze laut – aufnehmen kann dieser Browser leider nicht.'}</span>
           </div>
           <div class="speakchk" id="chk-${key}" style="display:${recordings[key] || haken ? 'flex' : 'none'}">
             <span class="hint">Mein Eindruck:</span>
@@ -2345,9 +2530,9 @@ async function openLesson(id, scrollSec) {
         const row = document.createElement('div');
         row.className = 'vrow';
         row.innerHTML = `
-          ${aid ? `<button class="playbtn" onclick="play('${aid}')">${PLAY_SVG}</button>` : ''}
-          <div><div class="pt">${it.pt}</div><div class="vipa">${it.ipa}</div></div>
-          <div class="vde">${it.de}</div>`;
+          ${aid ? `<button class="playbtn" aria-label="Anhören" onclick="play('${aid}')">${PLAY_SVG}</button>` : ''}
+          <div><div class="pt" lang="pt">${it.pt}</div><div class="vipa">${it.ipa}</div></div>
+          <div class="vde">${it.de || ''}</div>`;
         div.appendChild(row);
       }
     } else if (sec.type === 'reading') {
@@ -2356,8 +2541,8 @@ async function openLesson(id, scrollSec) {
         const row = document.createElement('div');
         row.className = 'dline';
         const fig = { ana: 'ana', marie: 'marie', 'joão': 'joao', vasco: 'vasco', martim: 'martim', tiago: 'tiago', 'inês': 'ines', 'avó': 'carolina', 'tio tó': 'tio', 'tio zé': 'tio', professora: 'professora' }[ln.who.trim().toLowerCase()];
-        row.innerHTML = `${fig ? `<img class="avat" src="avatare/${fig}.png" alt="">` : ''}<span class="who">${ln.who}</span>
-          <span class="dpt" onclick="play('${ln.audio}')">${ln.pt}</span>
+        row.innerHTML = `${fig ? `<img class="avat" src="avatare/${fig}.webp" alt="">` : ''}<span class="who">${ln.who}</span>
+          <button class="dpt" lang="pt" onclick="play('${ln.audio}')">${ln.pt}</button>
           ${recButtons(ln.audio)}`;
         div.appendChild(row);
       }
@@ -2366,13 +2551,13 @@ async function openLesson(id, scrollSec) {
       // listen: true = Hörverstehen – erst hören und die Fragen beantworten, Text erst auf Tipp
       const versteckt = sec.listen && sec.audio;
       div.innerHTML = `<h3>${sec.title}</h3>
-        ${sec.audio ? `<button class="playbtn" style="margin-bottom:.6rem" onclick="play('${sec.audio}')">${PLAY_SVG}</button>` : ''}
+        ${sec.audio ? `<button class="playbtn" aria-label="Anhören" style="margin-bottom:.6rem" onclick="play('${sec.audio}')">${PLAY_SVG}</button>` : ''}
         ${versteckt ? `<div class="hint" style="margin-bottom:.5rem">Hörverstehen: Hör die Geschichte zweimal, beantworte die Fragen – und erst dann den Text lesen.</div>
           <div style="display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:.6rem">
             <button class="reveal pruef" style="margin:0; min-height:44px" onclick="play('${sec.audio}', 0.8)">Noch einmal langsamer hören</button>
             <button class="reveal" style="margin:0; min-height:44px" onclick="this.parentElement.nextElementSibling.style.display='block'; this.remove()">Text anzeigen</button>
           </div>` : ''}
-        <div ${versteckt ? 'style="display:none"' : ''}><div class="body">${sec.text}</div>
+        <div ${versteckt ? 'style="display:none"' : ''}><div class="body" lang="pt">${sec.text}</div>
         ${sec.gloss ? `<div class="hint">${sec.gloss}</div>` : ''}</div>`;
       (sec.questions || []).forEach((it, k) => div.appendChild(exRow(it, '', { test: !!punkte, pts: 1 })));
       if (punkte) div.innerHTML += punkteZeile(si, punkte.max);
@@ -2423,8 +2608,8 @@ function exRow(it, key, ctx) {
   } else if (it.satz) {
     // Satz bauen: Wörter in die richtige Reihenfolge tippen
     const toks = shuffle(it.satz.split(/\s+/));
-    extra = `<div class="satzziel wortchips" data-ziel style="min-height:2.2rem; margin:.4rem 0; padding:.3rem; border:1.5px dashed #e0d7c4; border-radius:10px"></div>
-      <div class="wortchips" data-pool>${toks.map(t => `<button class="wchip" onclick="orderTap(this)">${t}</button>`).join('')}</div>
+    extra = `<div class="satzziel wortchips" data-ziel style="min-height:2.2rem; margin:.4rem 0; padding:.3rem; border:1.5px dashed var(--line); border-radius:10px"></div>
+      <div class="wortchips" data-pool lang="pt">${toks.map(t => `<button class="wchip" onclick="orderTap(this)">${t}</button>`).join('')}</div>
       <div class="exrow" style="margin-top:.4rem"><button class="reveal pruef" onclick="checkOrder(this.closest('.exitem'))">Prüfen</button></div>`;
   } else if (typed) {
     extra = `<div class="exrow">
@@ -2563,7 +2748,7 @@ function auswertungMarkieren(x) {
     if (x !== null) an = m ? (x >= +m[1] && x <= +m[2]) : (x < +u[1]);
     return `<span class="stufe${an ? ' on' : ''}">${z}</span>`;
   }).join('<br>');
-  el.innerHTML = (x !== null ? `<div class="mono" style="font-size:.74rem; color:#0b6c5f; margin-bottom:.5rem">Dein Ergebnis: ${x} / ${testInfo.max} Punkte</div>` : '') + html;
+  el.innerHTML = (x !== null ? `<div class="mono" style="font-size:.75rem; color:var(--sea-ink); margin-bottom:.5rem">Dein Ergebnis: ${x} / ${testInfo.max} Punkte</div>` : '') + html;
 }
 
 /* ---------- Übungs-Wiederholung (Leitner für Lücken, Auswahl, Sätze) ----------
@@ -2737,30 +2922,30 @@ function zeigePaywall() {
   if (!el) {
     el = document.createElement('div');
     el.id = 'paywall';
-    el.style.cssText = 'position:fixed; inset:0; z-index:80; background:rgba(51,41,74,.45); display:flex; align-items:flex-end; justify-content:center';
+    el.style.cssText = 'position:fixed; inset:0; z-index:80; background:var(--scrim); display:flex; align-items:flex-end; justify-content:center';
     el.onclick = e => { if (e.target === el) schliessePaywall(); };
     el.innerHTML = `
       <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
-        <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft)">Staffel 2 · A2</div>
-        <div style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">A volta</div>
+        <div class="kicker">Staffel 2 · A2</div>
+        <h2 id="paywall-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">A volta</h2>
         <div style="font-size:.9rem; font-weight:400; line-height:1.55; margin-bottom:.9rem">Ein Jahr später: Marie kommt für einen ganzen Sommer zurück. Porto, Coimbra, mit dem alten Van durchs Alentejo – und Sagres, diesmal als Surflehrerin.</div>
-        <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:.3rem">Was du bekommst</div>
-        <div class="mono" style="font-size:.74rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">28 Lektionen A2 – und Staffel 3 (B1, Lissabon) im Aufbau<br>alle Audios mit echten Stimmen<br>Arbeitsblätter zum Drucken</div>
+        <div class="kicker" style="margin-bottom:.3rem">Was du bekommst</div>
+        <div class="mono" style="font-size:.75rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">28 Lektionen A2 – und Staffel 3 (B1, Lissabon) im Aufbau<br>alle Audios mit echten Stimmen<br>Arbeitsblätter zum Drucken</div>
         <button class="mixbtn" style="margin:0 0 .5rem; transform:none" onclick="kaufen()">Staffel 2 freischalten</button>
-        <div class="mono" style="font-size:.62rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Einmalkauf, kein Abo · Tag 29 ist gratis zum Ausprobieren</div>
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Einmalkauf, kein Abo · Tag 29 ist gratis zum Ausprobieren</div>
         <div style="display:flex; gap:.5rem">
           <input id="pw-code" class="exin" placeholder="Code einlösen …" autocapitalize="characters" autocorrect="off" spellcheck="false"
             onkeydown="if (event.key === 'Enter') codeEinloesen()">
-          <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-deep); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
+          <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
         </div>
-        <button onclick="schliessePaywall()" class="mono" style="display:block; margin:1rem auto 0; border:none; background:none; color:var(--ink-soft); font-size:.72rem; letter-spacing:.1em; text-transform:uppercase; cursor:pointer; min-height:44px; padding:0 1rem">Später</button>
+        <button onclick="schliessePaywall()" class="kicker" style="display:block; margin:1rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem">Später</button>
       </div>`;
     document.body.appendChild(el);
   }
-  el.style.display = 'flex';
   const inp = document.getElementById('pw-code'); if (inp) inp.value = '';
+  dialogOeffnen(el, 'paywall-titel');
 }
-function schliessePaywall() { const el = document.getElementById('paywall'); if (el) el.style.display = 'none'; }
+function schliessePaywall() { dialogSchliessen(document.getElementById('paywall')); }
 function kaufen() {
   // Hier hängt sich später die Store-Kasse ein (Play Billing über die Digital Goods API,
   // auf iOS StoreKit über die native Hülle). Bis zur Store-Version gibt es nur Codes.
@@ -2863,6 +3048,11 @@ function fokusNaechste(inp) {
 
 /* ---------- Audio ---------- */
 let audio = new Audio();
+// Ohne Netz und ohne Cache bleibt ein Audio stumm – dann kurz sagen, warum
+audio.addEventListener('error', () => {
+  meldung(navigator.onLine === false ? 'Audio ist offline noch nicht geladen – beim nächsten Mal mit Netz einmal abspielen.'
+                                     : 'Audio konnte nicht geladen werden.');
+});
 function play(id, rate) {
   audio.src = 'audio/' + id + '.m4a';
   audio.defaultPlaybackRate = rate || 1; audio.playbackRate = rate || 1;
@@ -3039,6 +3229,7 @@ function showQuestion() {
   const w = qQueue[qIdx];
   const ptToDe = Math.random() < 0.6;
   document.getElementById('q-word').textContent = ptToDe ? w.pt : w.de;
+  document.getElementById('q-word').lang = ptToDe ? 'pt' : 'de';
   document.getElementById('q-ipa').textContent = ptToDe ? w.ipa : '';
   document.getElementById('quizbar').style.width = (100 * qIdx / qQueue.length) + '%';
   if (ptToDe) play(w.id);
