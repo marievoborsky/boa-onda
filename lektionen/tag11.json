@@ -203,7 +203,7 @@
    "items": [
     {
      "q": "„Mais alguma coisa?“ – du willst nichts mehr: ___",
-     "a": "Não, obrigada. (als Mann: obrigado)"
+     "a": "Não, obrigada. / Não, obrigado. (als Mann)"
     },
     {
      "q": "„Mais alguma coisa?“ – du willst noch einen Kuchen: ___",
@@ -211,7 +211,7 @@
     },
     {
      "q": "„O que desejam?“ – bestell irgendwas Portugiesisches: ___",
-     "a": "Queria uma bica / um galão / um pastel de nata, se faz favor."
+     "a": "Queria uma bica, se faz favor. / Queria um galão, se faz favor. / Queria um pastel de nata, se faz favor."
     }
    ]
   },
