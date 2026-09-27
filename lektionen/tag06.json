@@ -8,15 +8,20 @@
    "title": "1 · Aufwärmen",
    "items": [
     {
-     "q": "Frage mit „é que\": (de onde / tu / ser)?",
+     "q": "Woher bist du? (mit „é que“)",
+     "satz": "De onde é que és?",
      "a": "De onde é que és?"
     },
     {
-     "q": "Ela é / está portuguesa, mas hoje é / está triste.",
-     "a": "é / está"
+     "q": "Ela ___ portuguesa, mas hoje ___ triste.",
+     "opts": [
+      "é / está",
+      "está / é"
+     ],
+     "a": "é / está – Nationalität = ser, heute traurig = estar"
     },
     {
-     "q": "17 =",
+     "q": "17 = ___",
      "a": "dezassete"
     }
    ]
@@ -132,23 +137,28 @@
    "title": "5a · Konjugiere",
    "items": [
     {
-     "q": "eu (morar) →",
+     "q": "eu (morar) → ___",
      "a": "moro"
     },
     {
-     "q": "tu (falar) →",
+     "q": "tu (falar) → ___",
      "a": "falas"
     },
     {
      "q": "ela (trabalhar) →",
-     "a": "trabalha"
+     "opts": [
+      "trabalha",
+      "trabalhas",
+      "trabalho"
+     ],
+     "a": "trabalha – ela → -a"
     },
     {
-     "q": "eu (estudar) →",
+     "q": "eu (estudar) → ___",
      "a": "estudo"
     },
     {
-     "q": "tu (morar) →",
+     "q": "tu (morar) → ___",
      "a": "moras"
     }
    ]
@@ -163,7 +173,12 @@
     },
     {
      "q": "Tu ___ inglês?",
-     "a": "falas"
+     "opts": [
+      "falas",
+      "fala",
+      "falo"
+     ],
+     "a": "falas – tu → -as"
     },
     {
      "q": "O Tiago ___ estudante e ___ em Coimbra.",
@@ -177,18 +192,21 @@
   },
   {
    "type": "exercise",
-   "title": "5c · Übersetze",
+   "title": "5c · Übersetze (Satz bauen)",
    "items": [
     {
      "q": "Ich wohne in Deutschland und spreche Deutsch.",
+     "satz": "Moro na Alemanha e falo alemão.",
      "a": "Moro na Alemanha e falo alemão."
     },
     {
-     "q": "Sprichst du Portugiesisch? – Ein bisschen!",
-     "a": "Falas português? – Um pouco!"
+     "q": "Sprichst du Portugiesisch? Ein bisschen!",
+     "satz": "Falas português? Um pouco!",
+     "a": "Falas português? Um pouco!"
     },
     {
      "q": "Sie ist Ärztin und arbeitet viel.",
+     "satz": "Ela é médica e trabalha muito.",
      "a": "Ela é médica e trabalha muito."
     }
    ]

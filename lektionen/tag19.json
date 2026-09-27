@@ -12,7 +12,8 @@
      "a": "vou estudar"
     },
     {
-     "q": "Wir werden die Tickets buchen: ___",
+     "q": "Wir werden die Tickets buchen.",
+     "satz": "Vamos reservar os bilhetes.",
      "a": "Vamos reservar os bilhetes."
     },
     {
@@ -184,7 +185,12 @@
     },
     {
      "q": "No prédio da Ana ___ elevador. (kein!)",
-     "a": "não há"
+     "opts": [
+      "não há",
+      "não tem",
+      "há não"
+     ],
+     "a": "não há – es gibt kein; „tem“ für „es gibt“ ist brasilianisch"
     },
     {
      "q": "___ casa de banho no comboio?",
@@ -214,7 +220,12 @@
     },
     {
      "q": "longe ___ praias (as praias)",
-     "a": "das"
+     "opts": [
+      "das",
+      "dos",
+      "da"
+     ],
+     "a": "das – de + as"
     }
    ]
   },
@@ -232,7 +243,12 @@
     },
     {
      "q": "Onde é que ___ a estação?",
-     "a": "fica"
+     "opts": [
+      "fica",
+      "ficam",
+      "fico"
+     ],
+     "a": "fica – a estação → 3. Person Singular"
     },
     {
      "q": "Nós ___ no hostel duas noites.",
@@ -242,40 +258,56 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "O apartamento da Ana fica perto da escola.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – weit weg von der Schule, nah am Miradouro."
     },
     {
      "q": "Não há elevador no prédio.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – vierter Stock, zu Fuß."
     },
     {
      "q": "Debaixo da cama da Ana há três pranchas.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – und ab nächster Woche werden sie endlich benutzt."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Übersetze",
+   "title": "5e · Übersetze (Satz bauen)",
    "items": [
     {
-     "q": "Wo liegt der Bahnhof? → ___",
+     "q": "Wo liegt der Bahnhof?",
+     "satz": "Onde é que fica a estação?",
      "a": "Onde é que fica a estação?"
     },
     {
-     "q": "Es gibt kein Bad. → ___",
+     "q": "Es gibt kein Bad.",
+     "satz": "Não há casa de banho.",
      "a": "Não há casa de banho."
     },
     {
-     "q": "Das Buch liegt auf dem Tisch. → ___",
+     "q": "Das Buch liegt auf dem Tisch.",
+     "satz": "O livro está em cima da mesa.",
      "a": "O livro está em cima da mesa."
     },
     {
-     "q": "Heute bleibe ich zu Hause. → ___",
+     "q": "Heute bleibe ich zu Hause.",
+     "satz": "Hoje fico em casa.",
      "a": "Hoje fico em casa."
     }
    ]

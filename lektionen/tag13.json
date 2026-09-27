@@ -20,7 +20,8 @@
      "a": "no"
     },
     {
-     "q": "„Das macht drei Euro fünfzig“: ___",
+     "q": "Das macht drei Euro fünfzig.",
+     "satz": "São três euros e cinquenta.",
      "a": "São três euros e cinquenta."
     }
    ]
@@ -189,7 +190,12 @@
     },
     {
      "q": "Samstag = ___",
-     "a": "sábado / o sábado"
+     "opts": [
+      "sábado",
+      "sétima-feira",
+      "sexta-feira"
+     ],
+     "a": "sábado – kein -feira-Tag; sexta-feira = Freitag"
     },
     {
      "q": "Sonntag = ___",
@@ -210,8 +216,13 @@
      "a": "São sete horas. / São sete."
     },
     {
-     "q": "1:00 → ___",
-     "a": "É uma hora. / É uma."
+     "q": "1:00 →",
+     "opts": [
+      "É uma hora.",
+      "São uma hora.",
+      "É um hora."
+     ],
+     "a": "É uma hora. – Singular bei 1 Uhr, hora ist weiblich"
     },
     {
      "q": "12:00 (mittags) → ___",
@@ -222,8 +233,13 @@
      "a": "São duas e meia."
     },
     {
-     "q": "12:30 → ___ (Liz-Falle!)",
-     "a": "É meio-dia e meia."
+     "q": "12:30 → (Liz-Falle!)",
+     "opts": [
+      "É meio-dia e meia.",
+      "É meio-dia e meio.",
+      "São meio-dia e meia."
+     ],
+     "a": "É meio-dia e meia. – meia (hora) ist weiblich, meio-dia Singular"
     }
    ]
   },
@@ -237,7 +253,12 @@
     },
     {
      "q": "___ sábado",
-     "a": "no"
+     "opts": [
+      "no",
+      "na",
+      "em"
+     ],
+     "a": "no – o sábado ist männlich"
     },
     {
      "q": "___ sexta-feira",
@@ -251,18 +272,30 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A chamada com o Vasco é às sete.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "O grupo vai a Sagres no sábado.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – dieses Wochenende nicht, die Wellen sind zu groß."
     },
     {
      "q": "O Vasco diz quando vão.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – „Eu digo quando.“"
     }
    ]
@@ -272,16 +305,19 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Wie spät ist es? → ___",
+     "q": "Wie spät ist es?",
+     "satz": "Que horas são?",
      "a": "Que horas são?"
     },
     {
-     "q": "Es ist halb drei. → ___",
+     "q": "Es ist halb drei.",
+     "satz": "São duas e meia.",
      "a": "São duas e meia."
     },
     {
-     "q": "Am Montag habe ich Unterricht. → ___",
-     "a": "Na segunda(-feira) tenho aulas. / Na segunda tenho aula."
+     "q": "Am Montag habe ich Unterricht.",
+     "satz": "Na segunda-feira tenho aulas.",
+     "a": "Na segunda-feira tenho aulas."
     },
     {
      "q": "Bis Samstag! → ___",

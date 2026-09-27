@@ -16,8 +16,9 @@
      "a": "nos"
     },
     {
-     "q": "Für mich, den gegrillten Fisch: ___, o peixe grelhado.",
-     "a": "Para mim"
+     "q": "Für mich, den gegrillten Fisch.",
+     "satz": "Para mim, o peixe grelhado.",
+     "a": "Para mim, o peixe grelhado."
     },
     {
      "q": "Ich bestelle eine Suppe: Eu ___ uma sopa.",
@@ -198,7 +199,12 @@
     },
     {
      "q": "Nós ___ (jantar) no porto.",
-     "a": "jantámos"
+     "opts": [
+      "jantámos",
+      "jantamos",
+      "jantaram"
+     ],
+     "a": "jantámos – Perfekt nós mit Akzent (EP); jantamos = Präsens"
     },
     {
      "q": "Eles ___ (descansar) na praia.",
@@ -224,7 +230,12 @@
     },
     {
      "q": "Nós ___ (beber) um galão.",
-     "a": "bebemos"
+     "opts": [
+      "bebemos",
+      "bebémos",
+      "bebimos"
+     ],
+     "a": "bebemos – -er: Perfekt nós ohne Akzent"
     },
     {
      "q": "Eles ___ (partir) às seis.",
@@ -246,7 +257,12 @@
     },
     {
      "q": "Hoje ___ (comer, eu) peixe.",
-     "a": "como"
+     "opts": [
+      "como",
+      "comi",
+      "comes"
+     ],
+     "a": "como – hoje = Präsens, eu → como"
     },
     {
      "q": "A semana passada ___ (estudar, nós) muito.",
@@ -264,18 +280,30 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie apanhou três ondas grandes.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – eine große und zwei kleine. „As pequenas também contam.“"
     },
     {
      "q": "O João dormiu na areia.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – Vasco hat es gesehen. João nennt es „descansar com os olhos fechados“."
     },
     {
      "q": "A Marie tirou cinco fotografias.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – fünfzig."
     }
    ]
@@ -293,12 +321,18 @@
      "a": "Comemos peixe."
     },
     {
-     "q": "Hast du gut geschlafen? → ___",
-     "a": "Dormiste bem?"
+     "q": "Hast du gut geschlafen? →",
+     "opts": [
+      "Dormiste bem?",
+      "Dormiu bem?",
+      "Dormes bem?"
+     ],
+     "a": "Dormiste bem? – du-Form Perfekt: -iste; dormiu = Sie/er/sie"
     },
     {
-     "q": "Sie haben am Strand ausgeruht. → ___",
-     "a": "Eles descansaram na praia. / Descansaram na praia."
+     "q": "Sie haben am Strand ausgeruht.",
+     "satz": "Eles descansaram na praia.",
+     "a": "Eles descansaram na praia."
     }
    ]
   },

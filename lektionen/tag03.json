@@ -21,7 +21,12 @@
     },
     {
      "q": "Von Tag 1: „Sehr erfreut\" heißt…",
-     "a": "Muito prazer"
+     "opts": [
+      "Muito prazer",
+      "Muito bem",
+      "Muito obrigada"
+     ],
+     "a": "Muito prazer – Sehr erfreut; muito bem = sehr gut"
     }
    ]
   },
@@ -174,58 +179,91 @@
     },
     {
      "q": "Como ___ tu hoje?",
-     "a": "estás"
+     "opts": [
+      "estás",
+      "és",
+      "está"
+     ],
+     "a": "estás – tu → estás; Befinden = estar"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · ser oder estar? (Die Schlüsselübung!)",
+   "title": "5b · ser oder estar? (Die Schlüsselübung! · antippen)",
    "items": [
     {
-     "q": "Eu sou / estou alemã.",
-     "a": "sou (Nationalität = Steckbrief)"
+     "q": "Eu ___ alemã.",
+     "opts": [
+      "sou",
+      "estou"
+     ],
+     "a": "sou – Nationalität = Steckbrief"
     },
     {
-     "q": "Eu sou / estou doente.",
-     "a": "estou (Zustand)"
+     "q": "Eu ___ doente.",
+     "opts": [
+      "estou",
+      "sou"
+     ],
+     "a": "estou – Zustand"
     },
     {
-     "q": "Ela é / está do Porto.",
-     "a": "é (Herkunft)"
+     "q": "Ela ___ do Porto.",
+     "opts": [
+      "é",
+      "está"
+     ],
+     "a": "é – Herkunft"
     },
     {
-     "q": "Ela é / está em casa.",
-     "a": "está (Ort gerade jetzt)"
+     "q": "Ela ___ em casa.",
+     "opts": [
+      "está",
+      "é"
+     ],
+     "a": "está – Ort gerade jetzt"
     },
     {
-     "q": "Tu és / estás feliz hoje?",
-     "a": "estás (Befinden)"
+     "q": "Tu ___ feliz hoje?",
+     "opts": [
+      "estás",
+      "és"
+     ],
+     "a": "estás – Befinden"
     },
     {
-     "q": "Tu és / estás a Marie?",
-     "a": "és (Identität)"
+     "q": "Tu ___ a Marie?",
+     "opts": [
+      "és",
+      "estás"
+     ],
+     "a": "és – Identität"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Übersetze",
+   "title": "5c · Übersetze (Satz bauen)",
    "items": [
     {
      "q": "Hallo, alles gut?",
+     "satz": "Olá, tudo bem?",
      "a": "Olá, tudo bem?"
     },
     {
      "q": "Ich bin ein bisschen müde. (als Frau)",
+     "satz": "Estou um pouco cansada.",
      "a": "Estou um pouco cansada."
     },
     {
      "q": "Er ist heute zu Hause.",
-     "a": "Ele está em casa hoje. / Hoje ele está em casa."
+     "satz": "Ele está em casa hoje.",
+     "a": "Ele está em casa hoje."
     },
     {
      "q": "Sie ist Portugiesin, aber sie ist jetzt in Berlin.",
+     "satz": "Ela é portuguesa, mas agora está em Berlim.",
      "a": "Ela é portuguesa, mas agora está em Berlim."
     }
    ]

@@ -6,11 +6,16 @@
   {
    "type": "exercise",
    "title": "1 · Aufwärmen: Von gestern",
-   "intro": "Ohne nachzuschauen! Erst antworten, dann aufdecken.",
+   "intro": "Ohne nachzuschauen! Erst antworten, dann prüfen.",
    "items": [
     {
      "q": "Es ist 15 Uhr, du triffst eine Nachbarin:",
-     "a": "Boa tarde!"
+     "opts": [
+      "Boa tarde!",
+      "Bom dia!",
+      "Boa noite!"
+     ],
+     "a": "Boa tarde! – nachmittags"
     },
     {
      "q": "Eu ___ a Marie. (sein)",
@@ -22,7 +27,11 @@
     },
     {
      "q": "„danke\" – als Frau sagst du:",
-     "a": "obrigada"
+     "opts": [
+      "obrigada",
+      "obrigado"
+     ],
+     "a": "obrigada – Frauen sagen obrigada, Männer obrigado"
     }
    ]
   },
@@ -161,7 +170,12 @@
     },
     {
      "q": "Vocês ___ de Portugal?",
-     "a": "são"
+     "opts": [
+      "são",
+      "é",
+      "somos"
+     ],
+     "a": "são – vocês → são (wie eles)"
     },
     {
      "q": "Eu ___ da Alemanha.",
@@ -187,7 +201,12 @@
     },
     {
      "q": "A Marie é ___. (deutsch)",
-     "a": "alemã"
+     "opts": [
+      "alemã",
+      "alemão",
+      "alemana"
+     ],
+     "a": "alemã – weiblich; alemana ist Spanisch"
     },
     {
      "q": "A Ana é ___. (portugiesisch)",
@@ -209,7 +228,12 @@
     },
     {
      "q": "És ___ Lisboa?",
-     "a": "de (Lisboa hat keinen Artikel)"
+     "opts": [
+      "de",
+      "da",
+      "do"
+     ],
+     "a": "de – Lisboa hat keinen Artikel"
     },
     {
      "q": "Ele é ___ Porto.",
@@ -223,18 +247,30 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "O João é de Lisboa.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – geboren und aufgewachsen!"
     },
     {
      "q": "A Marie não é inglesa.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – sie ist Deutsche."
     },
     {
      "q": "O João é o amigo da Ana.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – „Este é o João, o meu amigo.“"
     }
    ]

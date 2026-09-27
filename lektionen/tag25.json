@@ -16,7 +16,8 @@
      "a": "de"
     },
     {
-     "q": "Wie viel kostet das hier? → ___",
+     "q": "Wie viel kostet das hier?",
+     "satz": "Quanto custa isto?",
      "a": "Quanto custa isto?"
     },
     {
@@ -193,7 +194,12 @@
     },
     {
      "q": "Ich empfehle Ihnen den Fisch: Recomendo-___ o peixe.",
-     "a": "lhe"
+     "opts": [
+      "lhe",
+      "te",
+      "o"
+     ],
+     "a": "lhe – Ihnen (Sie-Form) = lhe"
     },
     {
      "q": "Sie bringt ihm den Wein: Ela traz-___ o vinho.",
@@ -219,7 +225,12 @@
     },
     {
      "q": "Ela paga-te o café. → Ela nunca ___ paga o café.",
-     "a": "te"
+     "opts": [
+      "te",
+      "ti",
+      "tu"
+     ],
+     "a": "te – Objektpronomen te, nach nunca vor dem Verb"
     }
    ]
   },
@@ -241,7 +252,11 @@
     },
     {
      "q": "Das Fleisch ist gegrillt: A carne é ___.",
-     "a": "grelhada"
+     "opts": [
+      "grelhada",
+      "grelhado"
+     ],
+     "a": "grelhada – a carne ist weiblich"
     },
     {
      "q": "Ich bestelle (pedir): Eu ___ a dourada.",
@@ -251,40 +266,56 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie pede carne.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – Dorade und vorher eine Suppe. Das Steak nimmt João."
     },
     {
      "q": "O João bebe vinho.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – Orangensaft, morgen gibt es mehr Wellen."
     },
     {
      "q": "A Ana paga o jantar.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – weil Marie ihre erste Welle gestanden hat."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Übersetze",
+   "title": "5e · Übersetze (Satz bauen)",
    "items": [
     {
-     "q": "Einen Tisch für zwei, bitte. → ___",
-     "a": "Uma mesa para dois, se faz favor. / Mesa para dois, se faz favor."
+     "q": "Einen Tisch für zwei, bitte.",
+     "satz": "Uma mesa para dois, se faz favor.",
+     "a": "Uma mesa para dois, se faz favor."
     },
     {
-     "q": "Können Sie mir die Speisekarte bringen? → ___",
+     "q": "Können Sie mir die Speisekarte bringen?",
+     "satz": "Pode trazer-me a ementa?",
      "a": "Pode trazer-me a ementa?"
     },
     {
-     "q": "Für mich, den Fisch. → ___",
+     "q": "Für mich, den Fisch.",
+     "satz": "Para mim, o peixe.",
      "a": "Para mim, o peixe."
     },
     {
-     "q": "Die Rechnung, bitte. → ___",
+     "q": "Die Rechnung, bitte.",
+     "satz": "A conta, se faz favor.",
      "a": "A conta, se faz favor."
     }
    ]

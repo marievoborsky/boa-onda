@@ -218,7 +218,7 @@
   .exitem .a { display: none; margin-top: .35rem; font-size: .9rem;
     color: #0b6c5f; font-weight: 600; }
   .exitem.open .a { display: block; }
-  .exitem .reveal { border: none; background: var(--lav-pale); color: var(--lav-deep);
+  .reveal { border: none; background: var(--lav-pale); color: var(--lav-deep);
     font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .74rem;
     border-radius: 999px; padding: .55rem 1rem; min-height: 38px; cursor: pointer; margin-top: .35rem; }
 
@@ -309,6 +309,57 @@
   .wsworte { display: flex; flex-wrap: wrap; gap: .4rem .8rem; margin-top: .7rem; }
   .wsworte span { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .78rem; }
   .wsworte span.fund { color: var(--sea); text-decoration: line-through; }
+  /* ---------- Paket B: Feedback, Wiederholung, Tests ---------- */
+  .exitem .a .asol { display: block; }
+  .exitem .a .awarum { display: block; font-weight: 400; color: var(--ink-soft); font-size: .84rem; margin-top: .2rem; line-height: 1.5; }
+  .exitem .exstatus { font-size: .68rem; color: var(--ink-soft); margin-top: .35rem; line-height: 1.45; }
+  .exitem .exstatus:empty { display: none; }
+  .exitem.exfinal .a .asol { color: var(--clay); }
+  .exitem.exfinal .exin { border-color: var(--clay-soft); }
+  .exitem.exok.exspaet .exin { border-color: var(--lav); background: var(--lav-pale); }
+  .exitem.exok.exspaet .a .asol { color: var(--lav-deep); }
+  .reveal.pruef { background: var(--sea-pale); color: #0b6c5f; }
+  .wchip.right { background: var(--sea); color: #fff; }
+  .wchip.wrong { background: var(--clay-soft); color: var(--clay); }
+  .wchip:disabled { opacity: .5; cursor: default; }
+  .wchip.right:disabled, .wchip.wrong:disabled { opacity: 1; }
+  .selfchk { border: 1.5px solid #e0d7c4; background: var(--card); border-radius: 999px; padding: .4rem .8rem;
+    font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .74rem; color: var(--ink-soft);
+    min-height: 36px; margin-top: .45rem; margin-right: .4rem; display: inline-flex; gap: .35rem; align-items: center; cursor: pointer; }
+  .selfchk.on { background: var(--sea-pale); border-color: var(--sea); color: #0b6c5f; }
+  .punkte { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .74rem; color: var(--ink-soft);
+    margin-top: .8rem; padding-top: .55rem; border-top: 1px dashed #e8dfcb; display: flex; justify-content: space-between; align-items: center; gap: .6rem; }
+  .punkte b { font-weight: 400; color: var(--ink); }
+  .ptchips { display: flex; flex-wrap: wrap; gap: .3rem; justify-content: flex-end; }
+  .ptchip { border: 1.5px solid #e0d7c4; background: var(--card); color: var(--ink-soft); border-radius: 999px;
+    min-width: 34px; height: 34px; font-family: "Roboto Mono", monospace; font-size: .78rem; cursor: pointer; }
+  .ptchip.on { background: var(--sea-pale); border-color: var(--sea); color: #0b6c5f; }
+  .testbar { position: sticky; top: calc(.4rem + env(safe-area-inset-top)); z-index: 6; background: var(--ink); color: var(--paper);
+    border-radius: 999px; padding: .5rem 1rem; font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .76rem;
+    display: flex; justify-content: space-between; align-items: center; margin: 0 0 .9rem; box-shadow: 0 6px 18px rgba(51,41,74,.22); }
+  .testbar b { font-weight: 400; font-size: .9rem; }
+  .stufe { display: inline-block; width: 100%; padding: .3rem .5rem; margin: .08rem -.5rem; border-radius: 8px; }
+  .stufe.on { background: var(--sea-pale); color: #0b6c5f; font-weight: 600; }
+  .ziel { display: flex; align-items: center; gap: .8rem; background: var(--card); border-radius: 14px; padding: .55rem .9rem;
+    margin-bottom: .9rem; box-shadow: 0 3px 14px rgba(51,41,74,.08); transform: rotate(.3deg); }
+  .ziel.ok { background: var(--sea-pale); }
+  .ziel svg { flex: none; }
+  .ziel .zname { font-weight: 600; font-size: .88rem; }
+  .ziel .zsub { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .68rem; color: var(--ink-soft); margin-top: .1rem; }
+  .excard { background: var(--card); border-radius: 20px; padding: 1.3rem 1.2rem 1.2rem; text-align: left;
+    box-shadow: 0 12px 34px rgba(51,41,74,.16); transform: rotate(-.4deg); border-bottom: none; }
+  .excard .q { font-size: 1.02rem; line-height: 1.5; }
+  .excard .exlabel { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .62rem; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--ink-soft); margin-bottom: .6rem; }
+  .gram .gtext { font-size: .88rem; line-height: 1.55; color: var(--ink); margin-top: .3rem; }
+  .gram .gbtns { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .8rem; }
+  .recword { border: none; background: var(--clay-soft); color: var(--clay); border-radius: 999px; padding: .55rem 1rem;
+    min-height: 40px; font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .78rem; cursor: pointer;
+    display: inline-flex; align-items: center; gap: .4rem; }
+  .recword.rec { background: var(--clay); color: #fff; animation: recpulse 1s infinite; }
+  .recword.err { background: #ddd6c8; color: #9a9184; }
+  .speakchk { display: none; gap: .2rem; margin-top: .5rem; align-items: center; }
+  .speakchk .hint { margin: 0 .5rem 0 0; }
   /* iOS zoomt bei Eingabefeldern unter 16px in die Seite – deshalb hier fest 16px */
   .exin, .searchrow input { font-size: 16px; }
   .artfoto { margin: 0 0 1rem; }
@@ -463,6 +514,7 @@
       <div class="de" id="c-de" style="display:none"></div>
       <div class="hintline" id="c-hint">Antippen zum Umdrehen</div>
     </div>
+    <div id="excard" style="display:none"></div>
     <div class="actions" id="learnactions">
       <button class="again" onclick="answer(false)">Nochmal</button>
       <button class="good" onclick="answer(true)">Kann ich</button>
@@ -544,6 +596,9 @@ function ladeStore() {
   if (typeof s.streak.last !== 'string') s.streak.last = '';
   if (!s.fehler || typeof s.fehler !== 'object') s.fehler = {};
   if (!s.tage || typeof s.tage !== 'object') s.tage = {};
+  if (!s.uebungen || typeof s.uebungen !== 'object') s.uebungen = {};
+  if (!s.tests || typeof s.tests !== 'object') s.tests = {};
+  if (!s.sprechen || typeof s.sprechen !== 'object') s.sprechen = {};
   // Umnummerierung 17.09.2026: alter Tag 8 (Sagres) = Bonus, tag09..36 -> tag08..35, Wort-IDs analog
   if (!s.v2) {
     const key = k => {
@@ -557,10 +612,20 @@ function ladeStore() {
     s.v2 = true;
     try { localStorage.setItem('ep-sagres', JSON.stringify(s)); } catch (e) {}
   }
+  // Einmalig (Paket B): abgeschlossene Lektionen als Tages-Aktivität nachtragen (für Tagesziel und 14-Tage-Balken)
+  if (!s.v4) {
+    for (const d of Object.values(s.lessons)) {
+      if (typeof d !== 'string' || !/^\d{4}-\d\d-\d\d$/.test(d)) continue;
+      const t = s.tage[d] || (s.tage[d] = { karten: 0, richtig: 0 });
+      t.lektionen = (t.lektionen || 0) + 1;
+    }
+    s.v4 = true;
+    try { localStorage.setItem('ep-sagres', JSON.stringify(s)); } catch (e) {}
+  }
   return s;
 }
 function leererStore() {
-  return { words: {}, lessons: {}, streak: { last: '', count: 0 }, fehler: {}, tage: {} };
+  return { words: {}, lessons: {}, streak: { last: '', count: 0 }, fehler: {}, tage: {}, uebungen: {}, tests: {}, sprechen: {}, v2: true, v4: true };
 }
 let store = ladeStore();
 function save() { try { localStorage.setItem('ep-sagres', JSON.stringify(store)); } catch (e) {} }
@@ -569,18 +634,40 @@ function today(d) {
   const x = d || new Date();
   return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`;
 }
-/* Streak zählt echte Aktivität (Karte beantwortet / Lektion / Übung), nicht das
-   bloße Öffnen der App. aktiv() wird von den Lernpfaden aufgerufen. */
+/* Tages-Aktivität: karten (Lern-Session), uebungen/geloest (in Lektionen), lektionen (abgeschlossen).
+   Tagesziel = 1 Lektion oder 10 Karten. Der Streak zählt genau dann, wenn das Tagesziel
+   erreicht ist oder mindestens eine Übung in einer Lektion gelöst wurde – nie fürs bloße Öffnen. */
+const ZIEL_KARTEN = 10;
+function tagHeute() { const t = today(); return store.tage[t] || (store.tage[t] = { karten: 0, richtig: 0 }); }
 function aktiv(karten, richtig) {
-  const t = today();
-  const tag = store.tage[t] || (store.tage[t] = { karten: 0, richtig: 0 });
+  const tag = tagHeute();
   tag.karten += karten || 0; tag.richtig += richtig || 0;
-  if (store.streak.last !== t) {
-    const gestern = today(new Date(Date.now() - 864e5));
-    store.streak.count = (store.streak.last === gestern) ? store.streak.count + 1 : 1;
-    store.streak.last = t;
-  }
-  save(); zeigeStreak();
+  streakPruefen(); save(); zeigeStreak();
+}
+function aktivUebung(ok, erst) {
+  const tag = tagHeute();
+  tag.uebungen = (tag.uebungen || 0) + 1;
+  if (ok && erst) tag.geloest = (tag.geloest || 0) + 1;
+  streakPruefen(); save(); zeigeStreak();
+}
+function aktivLektion() {
+  const tag = tagHeute();
+  tag.lektionen = (tag.lektionen || 0) + 1;
+  streakPruefen(); save(); zeigeStreak();
+}
+function tagesziel() {
+  const tag = store.tage[today()] || {};
+  const lek = tag.lektionen || 0, karten = tag.karten || 0;
+  const anteil = Math.min(1, Math.max(lek >= 1 ? 1 : 0, karten / ZIEL_KARTEN));
+  return { lek, karten, erreicht: anteil >= 1, anteil };
+}
+function streakPruefen() {
+  const t = today(), tag = store.tage[t] || {};
+  if (!(tagesziel().erreicht || (tag.geloest || 0) >= 1)) return;
+  if (store.streak.last === t) return;
+  const gestern = today(new Date(Date.now() - 864e5));
+  store.streak.count = (store.streak.last === gestern) ? store.streak.count + 1 : 1;
+  store.streak.last = t;
 }
 function streakAktuell() {
   const t = today(), gestern = today(new Date(Date.now() - 864e5));
@@ -611,14 +698,77 @@ function lernstand() {
   return st;
 }
 function naechsteLektion() { return LESSONS.find(l => !store.lessons[l.id]) || null; }
+/* Tagesziel-Ring: eine Lektion oder zehn Karten */
+function zielRingHTML() {
+  const z = tagesziel(), r = 17, U = 2 * Math.PI * r;
+  const name = z.erreicht ? 'Tagesziel geschafft' : `Heute: 1 Lektion oder ${ZIEL_KARTEN} Karten`;
+  let sub;
+  if (z.erreicht) sub = z.lek ? 'Lektion gemacht' + (z.karten ? ` · ${z.karten} Karten` : '') : `${z.karten} Karten`;
+  else sub = z.karten ? `${z.karten} von ${ZIEL_KARTEN} Karten` : 'Noch nichts – fang klein an';
+  const haken = z.erreicht ? '<polyline points="15 22.5 20 27.5 29.5 16.5" fill="none" stroke="#0b6c5f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>' : '';
+  return `<div class="ziel${z.erreicht ? ' ok' : ''}" id="ziel">
+    <svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true">
+      <circle cx="22" cy="22" r="${r}" fill="none" stroke="#e8e0d0" stroke-width="4"/>
+      <circle cx="22" cy="22" r="${r}" fill="none" stroke="var(--sea)" stroke-width="4" stroke-linecap="round"
+        stroke-dasharray="${U.toFixed(1)}" stroke-dashoffset="${(U * (1 - z.anteil)).toFixed(1)}" transform="rotate(-90 22 22)"/>${haken}
+    </svg>
+    <div><div class="zname">${name}</div><div class="zsub">${sub}</div></div></div>`;
+}
+/* Grammatik-Karte des Tages: eine Dica (Vasco, João, Professora) aus einer abgeschlossenen Lektion, rotierend nach Kalendertag */
+function dicaDesTages() {
+  const kand = [];
+  for (const l of LESSONS) {
+    if (!store.lessons[l.id] || gesperrt(l.id)) continue;
+    const L = JSON_CACHE['lektionen/' + l.id + '.json'];
+    if (!L) continue;
+    L.sections.forEach((sec, i) => {
+      if (sec.type === 'note' && /Dica d[oa] (Vasco|João|Professora)/.test(sec.title || '')) kand.push({ l, sec, i });
+    });
+  }
+  if (!kand.length) return null;
+  const d = new Date();
+  const tagImJahr = Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 864e5);
+  return kand[tagImJahr % kand.length];
+}
+function htmlZuText(html) {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = (html || '').replace(/<br\s*\/?>/gi, ' ');
+  return (tmp.textContent || '').replace(/\s+/g, ' ').trim();
+}
+function grammatikKarte() {
+  const g = dicaDesTages();
+  if (!g) return null;
+  const fig = g.sec.title.includes('Vasco') ? 'vasco' : g.sec.title.includes('João') ? 'joao' : 'professora';
+  const titel = g.sec.title.replace(/^\d+[a-z]? · /, '');
+  let text = htmlZuText(g.sec.html);
+  if (text.length > 240) { text = text.slice(0, 240); text = text.slice(0, Math.max(120, text.lastIndexOf(' '))) + ' …'; }
+  const div = document.createElement('div');
+  div.className = 'lsec gram';
+  div.style.transform = 'rotate(-.3deg)';
+  div.innerHTML = `
+    <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:.5rem">Grammatik-Karte des Tages · ${g.l.label.split(' · ')[0]}</div>
+    <h3 style="display:flex; align-items:center"><img class="avat" src="avatare/${fig}.png" alt="" style="width:34px; height:34px; margin-right:.5rem"><span id="gram-titel"></span></h3>
+    <div class="gtext" id="gram-text"></div>
+    <div class="gbtns">
+      <button class="reveal" onclick="openLesson('${g.l.id}', ${g.i})">Ganz lesen</button>
+      <button class="reveal pruef" onclick="startLearn('dica', '${g.l.id}')">2 Übungen dazu</button>
+    </div>`;
+  div.querySelector('#gram-titel').textContent = titel;
+  div.querySelector('#gram-text').textContent = text;
+  return div;
+}
 function renderHome() {
   const main = document.getElementById('hoje-main');
   const next = naechsteLektion();
   const done = LESSONS.filter(l => store.lessons[l.id]).length;
   const n = wiederholCount();
-  // eine Runde sind 10 Karten; bei mehr offenen Wörtern steht die Gesamtzahl klein darunter
-  const wdhBtn = `<button class="mixbtn" onclick="startLearn('mix')">${Math.min(n, 10)} ${n === 1 ? 'Wort' : 'Wörter'} wiederholen</button>`
-    + (n > 10 ? `<div class="mono" style="text-align:center; font-size:.68rem; color:var(--ink-soft); margin:-.2rem 0 .8rem">${n} warten insgesamt · eine Runde sind 10</div>` : '');
+  const nU = uebungenFaellig().length;
+  // eine Runde sind 10 Karten (+ bis zu 3 fällige Übungen); bei mehr offenen Wörtern steht die Gesamtzahl klein darunter
+  const wLabel = `${Math.min(n, 10)} ${n === 1 ? 'Wort' : 'Wörter'}`;
+  const uLabel = `${Math.min(nU, 3)} ${nU === 1 ? 'Übung' : 'Übungen'}`;
+  const label = n && nU ? `${wLabel} · ${uLabel}` : n ? `${wLabel} wiederholen` : `${uLabel} wiederholen`;
+  const wdhBtn = `<button class="mixbtn" onclick="startLearn('mix')">${label}</button>`
+    + (n > 10 ? `<div class="mono" style="text-align:center; font-size:.68rem; color:var(--ink-soft); margin:-.2rem 0 .8rem">${n} Wörter warten insgesamt · eine Runde sind 10</div>` : '');
   main.innerHTML = '';
   if (done === 0) {
     // Erststart: erst erklären, dann Tag 1 – kein Vokabel-Mix aus späteren Wochen
@@ -634,22 +784,22 @@ function renderHome() {
       <button class="mixbtn" onclick="openLesson('tag01')">Tag 1 starten</button>`;
   } else if (!next) {
     // Alle Lektionen fertig – kein Verweis auf eine Lektion, die es nicht gibt
-    main.innerHTML = `
+    main.innerHTML = zielRingHTML() + `
       <div class="lsec" style="transform:rotate(-.3deg); margin-bottom:1rem">
         <div class="mono" style="font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:.4rem">${done} von ${LESSONS.length} Lektionen</div>
         <div style="font-size:1.2rem; font-weight:700; margin-bottom:.4rem">Alle Lektionen geschafft</div>
         <div class="body">Du bist auf dem neuesten Stand – neue Wochen erscheinen automatisch. Bis dahin halten die Wiederholungen deine Wörter frisch.</div>
       </div>
-      ${n ? wdhBtn : `<button class="mixbtn" onclick="startLearn('mix')">Wörter wiederholen</button>`}`;
+      ${(n || nU) ? wdhBtn : `<button class="mixbtn" onclick="startLearn('mix')">Wörter wiederholen</button>`}`;
   } else {
     const zu = gesperrt(next.id);
     const schloss = `<span style="display:inline-flex; width:22px; height:22px; border-radius:50%; background:rgba(255,248,242,.25); align-items:center; justify-content:center; vertical-align:-5px; margin-right:.45rem">${SCHLOSS_SVG}</span>`;
     const lekBtn = zu
       ? `<button class="mixbtn" onclick="zeigePaywall()">${schloss}Staffel 2 freischalten</button>`
       : `<button class="mixbtn" onclick="openLesson('${next.id}')">Weiter: ${next.label}</button>`;
-    if (n) {
+    if (n || nU) {
       // Erst wiederholen, dann weiter im Kurs (Kachel mit Fortschritt)
-      main.innerHTML = wdhBtn + '<div class="kurs-head">Weiter im Kurs</div>';
+      main.innerHTML = zielRingHTML() + wdhBtn + '<div class="kurs-head">Weiter im Kurs</div>';
       const div = document.createElement('div');
       div.className = 'spot';
       div.onclick = () => openLesson(next.id);
@@ -665,13 +815,16 @@ function renderHome() {
              : `<div class="pct">${done}/${LESSONS.length}</div>`}`;
       main.appendChild(div);
     } else {
-      main.innerHTML = lekBtn + `
+      main.innerHTML = zielRingHTML() + lekBtn + `
         <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin:-.7rem 0 1.2rem .3rem">${zu ? next.label + ' · Staffel 2' : next.sub} · ${done} von ${LESSONS.length} Lektionen</div>`;
     }
   }
   const tx = TEXTOS[Math.min(LESSONS.indexOf(next || LESSONS[LESSONS.length - 1]), TEXTOS.length - 1)];
   const ex = document.getElementById('hoje-extra');
   ex.innerHTML = '';
+  // Grammatik-Karte des Tages (erst, wenn eine Lektion abgeschlossen ist)
+  const gk = grammatikKarte();
+  if (gk) ex.appendChild(gk);
   // Meine Wackler: Wörter, bei denen schon einmal ein Fehler passiert ist
   const wack = wacklerListe();
   if (wack.length) {
@@ -1023,7 +1176,11 @@ function renderLessons() {
     const zu = gesperrt(l.id);
     let right = '';
     if (zu) right = `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-deep); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>`;
-    else if (isDone) right = `<div style="width:26px; height:26px; border-radius:50%; background:var(--sea-pale); color:#0b6c5f; display:flex; align-items:center; justify-content:center; flex:none">${CHECK_SVG}</div>`;
+    else if (isDone) {
+      const tst = store.tests[l.id];
+      right = (tst ? `<div class="mono" style="font-size:.68rem; color:#0b6c5f; white-space:nowrap">${tst.punkte}/${tst.max}</div>` : '')
+        + `<div style="width:26px; height:26px; border-radius:50%; background:var(--sea-pale); color:#0b6c5f; display:flex; align-items:center; justify-content:center; flex:none">${CHECK_SVG}</div>`;
+    }
     else if (l === next) right = '<div class="mono" style="font-size:.58rem; letter-spacing:.12em; text-transform:uppercase; background:var(--clay); color:#fff; border-radius:999px; padding:.3rem .6rem; flex:none">Heute</div>';
     const div = document.createElement('div');
     div.className = 'spot';
@@ -1064,13 +1221,20 @@ function finishLesson() {
   if (L) for (const id of lektionsWortIds(L))
     if (!store.words[id]) { store.words[id] = { box: 0, due: morgen, neu: true }; neue++; }
   store.lessons[curLesson] = today();
+  // Wochentest: Punkte festhalten
+  let test = null;
+  if (testInfo && testInfo.lid === curLesson) {
+    testAuswertung();
+    test = { punkte: testInfo.punkte || 0, max: testInfo.max, datum: today() };
+    store.tests[curLesson] = test;
+  }
   save();
-  // Streak nur, wenn in der Lektion wirklich etwas gelöst/versucht wurde
-  if (lektionAktiv > 0) aktiv(0, 0);
-  else meldung('Abgehakt. Für den Streak zählt eine gelöste Übung.');
-  zeigeAbschluss(l, neue);
+  // Tagesziel/Streak nur, wenn in der Lektion wirklich etwas versucht wurde
+  if (lektionAktiv > 0) aktivLektion();
+  else meldung('Abgehakt. Für Tagesziel und Streak zählt eine gelöste Übung.');
+  zeigeAbschluss(l, neue, test);
 }
-function zeigeAbschluss(l, neue) {
+function zeigeAbschluss(l, neue, test) {
   const i = LESSONS.indexOf(l), next = LESSONS[i + 1] || null;
   const titel = l.bonus ? 'Bonus geschafft' : `Tag ${lessonNum(l)} geschafft`;
   const wochenende = next && !l.bonus && (next.w !== l.w || next.bonus);
@@ -1095,7 +1259,7 @@ function zeigeAbschluss(l, neue) {
           <div style="font-size:1.5rem; font-weight:700; line-height:1.15; margin-top:.15rem">${titel}</div>
         </div>
       </div>
-      <div class="mono" style="font-size:.76rem; line-height:1.7; color:var(--ink); margin-bottom:1.1rem">${lektionGeloest} ${lektionGeloest === 1 ? 'Übung' : 'Übungen'} gelöst · ${neue} ${neue === 1 ? 'neues Wort' : 'neue Wörter'} in deinem Heft<br>${zeile2}</div>
+      <div class="mono" style="font-size:.76rem; line-height:1.7; color:var(--ink); margin-bottom:1.1rem">${test ? `<b style="font-weight:400; color:#0b6c5f">Revisão: ${test.punkte} / ${test.max} Punkte</b><br>` : ''}${lektionGeloest} ${lektionGeloest === 1 ? 'Übung' : 'Übungen'} gelöst · ${neue} ${neue === 1 ? 'neues Wort' : 'neue Wörter'} in deinem Heft<br>${zeile2}</div>
       <button class="mixbtn" style="margin:0 0 .6rem; transform:none" onclick="abschlussZumKurs()">Zum Kurs</button>
       ${next ? `<button class="mixbtn" style="margin:0; transform:none; background:var(--lav-deep); box-shadow:0 6px 18px rgba(127,110,194,.3)" onclick="abschlussWeiter('${next.id}')">${weiter}</button>` : ''}
     </div>`;
@@ -1141,16 +1305,19 @@ async function toggleRec(key, btn) {
   }
   micBusy = false;
   btn.classList.remove('err'); btn.title = 'Aufnehmen – nochmal tippen zum Stoppen';
+  recLabel(btn, 'Stopp');
   const chunks = [];
   mediaRec = new MediaRecorder(micStream);
   mediaRec.ondataavailable = e => chunks.push(e.data);
   mediaRec.onstop = () => {
-    btn.classList.remove('rec');
+    btn.classList.remove('rec'); recLabel(btn, 'Noch einmal');
     const blob = new Blob(chunks, { type: mediaRec.mimeType || 'audio/mp4' });
     if (recordings[key]) URL.revokeObjectURL(recordings[key]);
     recordings[key] = URL.createObjectURL(blob);
     const pb = document.getElementById('my-' + key);
     if (pb) pb.style.display = 'flex';
+    const chk = document.getElementById('chk-' + key);
+    if (chk) chk.style.display = 'flex';
     // Mikrofon freigeben – sonst bleibt die Aufnahme-Anzeige des Handys an
     if (micStream) { micStream.getTracks().forEach(t => t.stop()); micStream = null; }
   };
@@ -1158,11 +1325,18 @@ async function toggleRec(key, btn) {
   const rec = mediaRec;   // Timer an DIESE Aufnahme binden, nicht an eine spätere
   try { rec.start(); }
   catch (e) {
-    btn.classList.remove('rec'); meldung('Aufnahme konnte nicht gestartet werden.');
+    btn.classList.remove('rec'); recLabel(btn, 'Aufnehmen'); meldung('Aufnahme konnte nicht gestartet werden.');
     if (micStream) { micStream.getTracks().forEach(t => t.stop()); micStream = null; }
     return;
   }
   setTimeout(() => { if (rec.state === 'recording') rec.stop(); }, 20000);
+}
+/* Text-Knopf in Sprech-Abschnitten beschriften; die runden Mikro-Knöpfe bleiben stumm */
+function recLabel(btn, txt) { if (btn && btn.classList.contains('recword')) btn.innerHTML = MIC_SVG + ' ' + txt; }
+function sprechenHaken(lid, wert, btn) {
+  store.sprechen[lid] = wert; save();
+  const box = btn.parentElement;
+  box.querySelectorAll('.selfchk').forEach(b => b.classList.toggle('on', b === btn));
 }
 function playMine(key) {
   if (recordings[key]) { audio.src = recordings[key]; audio.play().catch(() => {}); }
@@ -1568,7 +1742,7 @@ async function renderCaderno() {
         <div class="bar" style="margin-top:.4rem"><i style="width:${pct}%"></i></div>
         <div class="mono" style="font-size:.68rem; color:var(--ink-soft); margin-top:.3rem">${g} gelernt · ${a} in Arbeit · ${total - g - a} neu</div>${a2zeile}
       </div>
-    </div>`;
+    </div>` + uebungsKachel();
   const F = [['all', 'Alle'], ['gelernt', 'Gelernt'], ['arbeit', 'In Arbeit'], ['neu', 'Neu'],
     ['wackler', 'Wackler' + (Object.keys(store.fehler).length ? ' · ' + wacklerListe().length : '')]];
   document.getElementById('cad-chips').innerHTML = F.map(([k, l]) =>
@@ -1584,6 +1758,18 @@ async function renderCaderno() {
   renderCadList();
 }
 function surfCad() { startLearn(cadSpot === 'all' ? 'mix' : cadSpot); }
+/* Heft: Übungen, die zur Wiederholung anstehen (Lücken, Auswahl, Sätze aus den Lektionen) */
+function uebungsKachel() {
+  const offen = uebungenOffen();
+  if (!offen.length) return '';
+  const nU = uebungenFaellig().length;
+  return `<div class="spot" style="margin-top:.75rem${nU ? '' : '; cursor:default'}" ${nU ? `onclick="startLearn('uebungen')"` : ''}>
+      <div class="icon" style="background:var(--sea-pale); color:#0b6c5f">Ü</div>
+      <div class="info">
+        <div class="name">Übungen zum Wiederholen: ${nU}</div>
+        <div class="theme">${nU ? 'Lücken, Auswahl und Sätze, bei denen es gehakt hat – jetzt üben' : `${offen.length} in der Wiederholung · gerade keine fällig`}</div>
+      </div></div>`;
+}
 function renderCadList() {
   const q = (document.getElementById('cad-q').value || '').toLowerCase();
   const woche = cadSpot.startsWith('w') && cadSpot.length === 2 ? +cadSpot[1] : null;
@@ -1706,24 +1892,30 @@ async function renderFortschritt() {
   const wack = wacklerListe();
 
   // letzte 14 Tage als Balken
+  // Karten und Lektionen; eine Lektion wiegt wie das Karten-Tagesziel
   const tage = [];
   for (let i = 13; i >= 0; i--) {
     const d = today(new Date(Date.now() - i * 864e5));
-    tage.push({ d, k: (store.tage[d] || {}).karten || 0 });
+    const tg = store.tage[d] || {};
+    tage.push({ d, k: tg.karten || 0, l: tg.lektionen || 0 });
   }
-  const max = Math.max(1, ...tage.map(t => t.k));
+  const wert = t => t.k + t.l * ZIEL_KARTEN;
+  const max = Math.max(1, ...tage.map(wert));
   const WT = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
   const balken = tage.map(t => {
-    const h = Math.round(6 + 46 * t.k / max);
+    const h = Math.round(6 + 46 * wert(t) / max);
+    const hl = wert(t) ? Math.round(h * t.l * ZIEL_KARTEN / wert(t)) : 0;
     const heute = t.d === today();
     return `<div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:.3rem">
-      <div style="width:100%; max-width:14px; height:${h}px; border-radius:4px;
-        background:${t.k ? 'var(--sea)' : '#e8e0d0'}; ${heute ? 'outline:2px solid var(--clay); outline-offset:1px' : ''}"></div>
+      <div style="width:100%; max-width:14px; height:${h}px; border-radius:4px; overflow:hidden; display:flex; flex-direction:column;
+        background:${wert(t) ? 'var(--sea)' : '#e8e0d0'}; ${heute ? 'outline:2px solid var(--clay); outline-offset:1px' : ''}">
+        <div style="height:${hl}px; background:var(--lav-deep)"></div></div>
       <div class="mono" style="font-size:.5rem; color:var(--ink-soft)">${WT[new Date(t.d + 'T12:00').getDay()]}</div>
     </div>`;
   }).join('');
   const summe = tage.reduce((a, t) => a + t.k, 0);
-  const aktiveTage = tage.filter(t => t.k).length;
+  const lekSumme = tage.reduce((a, t) => a + t.l, 0);
+  const aktiveTage = tage.filter(t => wert(t)).length;
 
   const kachel = (gross, klein) =>
     `<div style="flex:1; background:var(--card); border-radius:16px; padding:.9rem .6rem; text-align:center">
@@ -1741,7 +1933,9 @@ async function renderFortschritt() {
       <h3>Die letzten 14 Tage</h3>
       <div style="display:flex; gap:.25rem; align-items:flex-end; height:70px; margin:.9rem 0 .3rem">${balken}</div>
       <div class="mono" style="font-size:.62rem; color:var(--ink-soft)">
-        ${summe} Karten an ${aktiveTage} ${aktiveTage === 1 ? 'Tag' : 'Tagen'}
+        <span style="display:inline-block; width:8px; height:8px; border-radius:2px; background:var(--lav-deep); vertical-align:-1px"></span> ${lekSumme} ${lekSumme === 1 ? 'Lektion' : 'Lektionen'}
+        · <span style="display:inline-block; width:8px; height:8px; border-radius:2px; background:var(--sea); vertical-align:-1px"></span> ${summe} Karten
+        · an ${aktiveTage} ${aktiveTage === 1 ? 'Tag' : 'Tagen'}
       </div>
     </div>
     <div class="lsec">
@@ -1771,6 +1965,32 @@ async function renderFortschritt() {
     b.textContent = 'Wackler wiederholen';
     b.onclick = () => startLearn('wackler');
     w.appendChild(b);
+  }
+  // Übungen, bei denen es gehakt hat – eigener Abschnitt
+  const offen = uebungenOffen().sort((a, b) => b.fehl - a.fehl);
+  const faellig = uebungenFaellig().length;
+  const u = document.createElement('div');
+  u.className = 'mono';
+  u.style.cssText = 'font-size:.68rem; color:var(--ink-soft); margin:1rem 0 .5rem; padding-top:.8rem; border-top:1px dashed #e8dfcb';
+  u.innerHTML = `<b style="font-weight:400; color:var(--ink)">Übungen</b> · ${offen.length ? `${offen.length} in der Wiederholung, ${faellig} fällig` : 'noch keine – Fehler in Lücken, Auswahl und Sätzen landen hier.'}`;
+  w.appendChild(u);
+  if (offen.length) {
+    const liste = document.createElement('div');
+    liste.className = 'mono';
+    liste.style.cssText = 'font-size:.72rem; line-height:1.9; margin-bottom:.9rem';
+    liste.innerHTML = offen.slice(0, 8).map(x => {
+      const l = LESSONS.find(y => y.id === x.lid);
+      return `<div style="display:flex; gap:.5rem"><span style="color:var(--ink-soft); flex:none">${l ? l.label.split(' · ')[0] : x.lid}</span><span style="flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap">${x.q || ''}</span><span style="color:var(--ink-soft); flex:none">${x.fehl}×</span></div>`;
+    }).join('');
+    w.appendChild(liste);
+    if (faellig) {
+      const b2 = document.createElement('button');
+      b2.className = 'mixbtn';
+      b2.style.background = 'var(--lav-deep)';
+      b2.textContent = 'Übungen wiederholen';
+      b2.onclick = () => startLearn('uebungen');
+      w.appendChild(b2);
+    }
   }
   el.appendChild(w);
 }
@@ -2053,11 +2273,13 @@ function renderBlaetter() {
     el.appendChild(a);
   });
 }
-async function openLesson(id) {
+let testInfo = null;   // Wochentest der offenen Lektion: { lid, max, punkte, secs: { si: { max, selbst? } }, auswHtml }
+const PUNKTE_RE = /\((\d+) P\.\)/;
+async function openLesson(id, scrollSec) {
   if (gesperrt(id)) { zeigePaywall(); return; }
   let L;
   curLesson = id;
-  lektionAktiv = 0; lektionGeloest = 0;
+  lektionAktiv = 0; lektionGeloest = 0; testInfo = null;
   show('lesson');
   try { L = await ladeJSON('lektionen/' + id + '.json'); }
   catch (e) {
@@ -2071,17 +2293,50 @@ async function openLesson(id) {
   document.getElementById('l-print').href = 'druck.html?id=' + id;
   const body = document.getElementById('l-body');
   body.innerHTML = '';
-  for (const sec of L.sections) {
+  // Wochentest: Sections mit „(N P.)" zählen selbst mit
+  const istTest = /^Revisão/.test(L.title || '') || L.sections.some(sec => PUNKTE_RE.test(sec.title || ''));
+  if (istTest) {
+    testInfo = { lid: id, max: 0, punkte: 0, secs: {}, auswHtml: '' };
+    L.sections.forEach((sec, si) => {
+      const m = PUNKTE_RE.exec(sec.title || '');
+      if (m) { testInfo.secs[si] = { max: +m[1] }; testInfo.max += +m[1]; }
+    });
+    if (testInfo.max > 0) body.innerHTML = `<div class="testbar"><span>Gesamt</span><b id="testbar-x">0 / ${testInfo.max}</b></div>`;
+    else testInfo = null;
+  }
+  L.sections.forEach((sec, si) => {
     const div = document.createElement('div');
     div.className = 'lsec';
+    div.id = 'sec-' + si;
+    const punkte = testInfo && testInfo.secs[si];
     if (sec.type === 'note' || sec.type === 'speak') {
-      const fig = sec.title.includes('Dica do Vasco') ? 'vasco' : sec.title.includes('Dica da Ana') ? 'ana' : sec.title.includes('Dica do João') ? 'joao' : '';
+      const fig = sec.title.includes('Dica do Vasco') ? 'vasco' : sec.title.includes('Dica da Ana') ? 'ana' : sec.title.includes('Dica do João') ? 'joao' : sec.title.includes('Dica da Professora') ? 'professora' : '';
       const vasco = fig
         ? `<img class="avat" src="avatare/${fig}.png" alt="" style="width:34px; height:34px; vertical-align:middle; margin-right:.5rem">` : '';
-      div.innerHTML = `<h3 style="${vasco ? 'display:flex; align-items:center' : ''}">${vasco}${sec.title}</h3><div class="body">${sec.html}</div>`;
+      const istAusw = testInfo && sec.type === 'note' && /Auswertung/.test(sec.title || '');
+      if (istAusw) testInfo.auswHtml = sec.html;
+      div.innerHTML = `<h3 style="${vasco ? 'display:flex; align-items:center' : ''}">${vasco}${sec.title}</h3><div class="body"${istAusw ? ' id="ausw-body"' : ''}>${sec.html}</div>`;
       if (sec.type === 'speak') {
-        div.innerHTML += `<div class="recrow">${recButtons(id + '-speak')}
-          <span class="hint">Nimm dich beim Sprechen auf und hör es dir an – klingt es schon portugiesisch?</span></div>`;
+        const kann = !!(navigator.mediaDevices && window.MediaRecorder);
+        const key = id + '-speak';
+        const da = recordings[key] ? ' style="display:flex"' : '';
+        const haken = store.sprechen[id];
+        div.innerHTML += `<div class="recrow" style="flex-wrap:wrap">
+            ${kann ? `<button class="recword" onclick="toggleRec('${key}', this)">${MIC_SVG} ${recordings[key] ? 'Noch einmal' : 'Aufnehmen'}</button>` : ''}
+            ${sec.audio ? `<button class="playbtn" onclick="play('${sec.audio}')" title="Beispiel anhören">${PLAY_SVG}</button>` : ''}
+            <button class="myplay" id="my-${key}"${da} onclick="playMine('${key}')" title="Meine Aufnahme anhören">${PLAY_SVG}</button>
+            <span class="hint" style="flex:1; min-width:11rem">${kann ? 'Bis zu 20 Sekunden. Danach anhören: Klingt es schon portugiesisch?' : 'Sprich deine Sätze laut – aufnehmen kann dieser Browser leider nicht.'}</span>
+          </div>
+          <div class="speakchk" id="chk-${key}" style="display:${recordings[key] || haken ? 'flex' : 'none'}">
+            <span class="hint">Mein Eindruck:</span>
+            <button class="selfchk${haken === 'gut' ? ' on' : ''}" onclick="sprechenHaken('${id}', 'gut', this)">Klang gut</button>
+            <button class="selfchk${haken === 'nochmal' ? ' on' : ''}" onclick="sprechenHaken('${id}', 'nochmal', this)">Nochmal</button>
+          </div>`;
+        if (punkte) {
+          // Schreiben/Sprechen im Test: Punkte selbst vergeben
+          div.innerHTML += `<div class="punkte"><span>Deine Punkte (von ${punkte.max})</span><span class="ptchips">${
+            Array.from({ length: punkte.max + 1 }, (_, k) => `<button class="ptchip" onclick="speakPunkte(this, ${si})">${k}</button>`).join('')}</span></div>`;
+        }
       }
     } else if (sec.type === 'vocab') {
       div.innerHTML = `<h3>${sec.title}</h3>`;
@@ -2113,50 +2368,273 @@ async function openLesson(id) {
       div.innerHTML = `<h3>${sec.title}</h3>
         ${sec.audio ? `<button class="playbtn" style="margin-bottom:.6rem" onclick="play('${sec.audio}')">${PLAY_SVG}</button>` : ''}
         ${versteckt ? `<div class="hint" style="margin-bottom:.5rem">Hörverstehen: Hör die Geschichte zweimal, beantworte die Fragen – und erst dann den Text lesen.</div>
-          <button onclick="this.nextElementSibling.style.display='block'; this.remove()" style="border:none; background:var(--lav-pale); color:var(--lav-deep); border-radius:999px; padding:.5rem 1rem; font-family:inherit; font-size:.8rem; font-weight:600; cursor:pointer; min-height:44px; margin-bottom:.6rem">Text anzeigen</button>` : ''}
+          <div style="display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:.6rem">
+            <button class="reveal pruef" style="margin:0; min-height:44px" onclick="play('${sec.audio}', 0.8)">Noch einmal langsamer hören</button>
+            <button class="reveal" style="margin:0; min-height:44px" onclick="this.parentElement.nextElementSibling.style.display='block'; this.remove()">Text anzeigen</button>
+          </div>` : ''}
         <div ${versteckt ? 'style="display:none"' : ''}><div class="body">${sec.text}</div>
         ${sec.gloss ? `<div class="hint">${sec.gloss}</div>` : ''}</div>`;
-      for (const it of (sec.questions || [])) {
-        const row = document.createElement('div');
-        row.className = 'exitem';
-        row.innerHTML = `<div class="q">${it.q}</div>
-          <button class="reveal" onclick="this.parentElement.classList.add('open'); this.remove()">Lösung</button>
-          <div class="a">${it.a}</div>`;
-        div.appendChild(row);
-      }
+      (sec.questions || []).forEach((it, k) => div.appendChild(exRow(it, '', { test: !!punkte, pts: 1 })));
+      if (punkte) div.innerHTML += punkteZeile(si, punkte.max);
     } else if (sec.type === 'exercise') {
       div.innerHTML = `<h3>${sec.title}</h3>` +
         (sec.intro ? `<div class="hint" style="margin:0 0 .5rem">${sec.intro}</div>` : '');
-      for (const it of sec.items) {
-        const row = document.createElement('div');
-        row.className = 'exitem';
-        const typed = it.q.includes('___') && !it.opts && !it.satz;
-        let extra = '';
-        if (it.opts) {
-          // Auswahl (z. B. Zeitform wählen): Antwortknöpfe statt Tippen
-          extra = `<div class="wortchips" style="margin:.4rem 0">${it.opts.map(o => `<button class="wchip" onclick="chooseEx(this)">${o}</button>`).join('')}</div>`;
-        } else if (it.satz) {
-          // Satz bauen: Wörter in die richtige Reihenfolge tippen
-          const toks = shuffle(it.satz.split(/\s+/));
-          extra = `<div class="satzziel wortchips" data-ziel style="min-height:2.2rem; margin:.4rem 0; padding:.3rem; border:1.5px dashed #e0d7c4; border-radius:10px"></div>
-            <div class="wortchips" data-pool>${toks.map(t => `<button class="wchip" onclick="orderTap(this)">${t}</button>`).join('')}</div>
-            <div class="exrow" style="margin-top:.4rem"><button class="reveal" onclick="checkOrder(this.closest('.exitem'))">Prüfen</button></div>`;
-        }
-        row.innerHTML = `<div class="q">${it.q}</div>` + extra +
-          (typed ? `<div class="exrow">
-            <input class="exin" autocapitalize="off" autocorrect="off" spellcheck="false"
-              placeholder="Antwort eintippen …"
-              onkeydown="if (event.key === 'Enter') checkEx(this.closest('.exitem'), true)">
-            <button class="reveal" onclick="checkEx(this.closest('.exitem'))">Prüfen</button>
-          </div>` : '') +
-          `<button class="reveal" onclick="this.parentElement.classList.add('open'); this.remove()">Lösung</button>
-          <div class="a">${it.a}</div>`;
-        div.appendChild(row);
-      }
+      // Gewichte im Test: 1 je Item; hat eine Section mehr Punkte als Items, zählen die Lücken
+      const gew = sec.items.map(it => punkte && sec.items.length !== punkte.max ? Math.max(1, (it.q.match(/___/g) || []).length) : 1);
+      sec.items.forEach((it, k) => div.appendChild(exRow(it, uebungKey(id, si, k), { test: !!punkte, pts: gew[k] })));
+      if (punkte) div.innerHTML += punkteZeile(si, punkte.max);
     }
     body.appendChild(div);
-  }
+  });
   show('lesson');
+  if (testInfo) testAuswertung();
+  if (typeof scrollSec === 'number') {
+    const ziel = document.getElementById('sec-' + scrollSec);
+    if (ziel) setTimeout(() => ziel.scrollIntoView({ block: 'start', behavior: 'smooth' }), 80);
+  }
+}
+function punkteZeile(si, max) { return `<div class="punkte"><span>Punkte</span><b id="pt-${si}">0 / ${max}</b></div>`; }
+
+/* ---------- Übungs-Items: ein Renderer für Lektion und Lern-Session ----------
+   Lösung und Erklärung: bei Auswahl/Satz/Tipp-Items ist der Teil nach „ – " in a die Erklärung,
+   alternativ ein eigenes Feld warum. Reine Aufdeck-Items zeigen a unverändert. */
+function exTeile(it) {
+  const a = it.a || '';
+  if (it.warum) return { sol: a, warum: it.warum };
+  const pruefbar = it.opts || it.satz || (it.q || '').includes('___');
+  if (pruefbar && a.includes(' – ')) { const p = a.split(' – '); return { sol: p[0], warum: p.slice(1).join(' – ') }; }
+  return { sol: a, warum: '' };
+}
+function exRow(it, key, ctx) {
+  ctx = ctx || {};
+  const { sol, warum } = exTeile(it);
+  const typed = it.q.includes('___') && !it.opts && !it.satz;
+  const pruefbar = typed || !!it.opts || !!it.satz;
+  const row = document.createElement('div');
+  row.className = 'exitem';
+  if (key) row.dataset.key = key;
+  row.dataset.fehl = '0';
+  if (ctx.pts) row.dataset.pts = ctx.pts;
+  if (it.satz) row.dataset.satz = it.satz;
+  let extra = '';
+  if (it.opts) {
+    // Auswahl (z. B. Zeitform wählen): Antwortknöpfe statt Tippen
+    extra = `<div class="wortchips" style="margin:.4rem 0">${it.opts.map(o => `<button class="wchip" onclick="chooseEx(this)">${o}</button>`).join('')}</div>`;
+  } else if (it.satz) {
+    // Satz bauen: Wörter in die richtige Reihenfolge tippen
+    const toks = shuffle(it.satz.split(/\s+/));
+    extra = `<div class="satzziel wortchips" data-ziel style="min-height:2.2rem; margin:.4rem 0; padding:.3rem; border:1.5px dashed #e0d7c4; border-radius:10px"></div>
+      <div class="wortchips" data-pool>${toks.map(t => `<button class="wchip" onclick="orderTap(this)">${t}</button>`).join('')}</div>
+      <div class="exrow" style="margin-top:.4rem"><button class="reveal pruef" onclick="checkOrder(this.closest('.exitem'))">Prüfen</button></div>`;
+  } else if (typed) {
+    extra = `<div class="exrow">
+      <input class="exin" autocapitalize="off" autocorrect="off" spellcheck="false"
+        placeholder="Antwort eintippen …"
+        onkeydown="if (event.key === 'Enter') checkEx(this.closest('.exitem'), true)">
+      <button class="reveal pruef" onclick="checkEx(this.closest('.exitem'))">Prüfen</button>
+    </div>`;
+  }
+  const selbst = (!pruefbar && ctx.test) ? `<button class="selfchk" onclick="selfToggle(this)">${CHECK_SVG} Hatte ich richtig</button>` : '';
+  row.innerHTML = `<div class="q">${it.q}</div>${extra}
+    <button class="reveal" onclick="loesungZeigen(this.closest('.exitem'))">Lösung</button>
+    <div class="a"><span class="asol">${sol}</span>${warum ? `<span class="awarum">${warum}</span>` : ''}${selbst}</div>
+    <div class="exstatus"></div>`;
+  return row;
+}
+const EX_VERSUCHE = { typed: 2, satz: 2, opts: 1 };
+function exArt(row) {
+  return row.querySelector('[data-ziel]') ? 'satz' : row.querySelector('.exin') ? 'typed' : row.querySelector('.wchip') ? 'opts' : 'reveal';
+}
+function exNorm(t) { return t.toLowerCase().replace(/[.!?,;:«»"]/g, '').replace(/\s+/g, ' ').trim(); }
+/* Lösung ansehen: bei prüfbaren Items zählt das als Fehlversuch – so kommt die Übung wieder */
+function loesungZeigen(row) {
+  if (!row || row.classList.contains('open') || row.classList.contains('exok')) return;
+  const art = exArt(row);
+  if (art === 'reveal') {
+    row.classList.add('open');
+    row.querySelectorAll('button.reveal').forEach(b => b.remove());
+    if (!row.closest('#learn')) testAuswertung();
+    return;
+  }
+  row.classList.add('exhilfe');
+  row.dataset.fehl = String(EX_VERSUCHE[art] - 1);
+  exVersuch(row, false);
+}
+/* Ergebnis eines Prüfversuchs: Erst-Treffer, Treffer nach Hilfe, Fehlversuch oder endgültig nicht geschafft */
+function exVersuch(row, ok) {
+  const key = row.dataset.key || '';
+  const fehl = +(row.dataset.fehl || 0);
+  if (ok) {
+    const erst = fehl === 0 && !row.classList.contains('exhilfe');
+    row.classList.add('open', 'exok');
+    if (!erst) row.classList.add('exspaet');
+    row.querySelectorAll('button.reveal').forEach(b => b.remove());
+    if (erst) uebungTreffer(key);
+    else row.querySelector('.exstatus').textContent = 'Geschafft – kommt trotzdem noch einmal zur Wiederholung.';
+    exFertig(row, true, erst, false);
+    return;
+  }
+  row.dataset.fehl = String(fehl + 1);
+  uebungFehler(key);
+  meldungWeg();
+  const final = fehl + 1 >= EX_VERSUCHE[exArt(row)];
+  if (final) loesungNachFehler(row);
+  exFertig(row, false, false, !final);
+}
+/* Nach dem letzten Fehlversuch: Lösung und Erklärung zeigen, Zeile bleibt dezent als „nicht geschafft" */
+function loesungNachFehler(row) {
+  const art = exArt(row);
+  row.classList.add('open', 'exfinal');
+  row.querySelectorAll('button.reveal:not(.pruef)').forEach(b => b.remove());
+  const hilfe = row.classList.contains('exhilfe');
+  const status = row.querySelector('.exstatus');
+  if (art === 'typed') {
+    const inp = row.querySelector('.exin');
+    inp.value = ''; inp.placeholder = 'Tipp sie einmal ab';
+    status.textContent = hilfe ? 'Angeschaut – tipp die Lösung einmal ab, morgen kommt sie wieder.' : 'Noch nicht – tipp die Lösung einmal ab, morgen kommt sie wieder.';
+  } else {
+    row.querySelectorAll('button.reveal.pruef').forEach(b => b.remove());
+    if (art === 'opts') {
+      const soll = exNorm(row.querySelector('.asol').textContent);
+      row.querySelectorAll('.wchip').forEach(b => { b.disabled = true; if (exNorm(b.textContent) === soll) b.classList.add('right'); });
+    } else {
+      const ziel = row.querySelector('[data-ziel]'), pool = row.querySelector('[data-pool]');
+      const worte = (row.dataset.satz || row.querySelector('.asol').textContent).split(/\s+/).filter(Boolean);
+      ziel.innerHTML = worte.map(w => `<span class="wchip" style="background:var(--sea-pale)">${w}</span>`).join('');
+      pool.innerHTML = '';
+    }
+    status.textContent = hilfe ? 'Angeschaut – kommt morgen zur Wiederholung.' : 'Noch nicht – kommt morgen zur Wiederholung.';
+  }
+}
+/* Kontext: Lektion (Zähler, Tagesziel, Testpunkte) oder Lern-Session (Weiter-Knopf) */
+function exFertig(row, ok, erst, offen) {
+  if (row.closest('#learn')) { sessionExErgebnis(row, ok, erst, offen); return; }
+  lektionAktiv++;
+  if (ok && erst) lektionGeloest++;
+  aktivUebung(ok, erst);
+  if (!offen) testAuswertung();
+}
+function selfToggle(btn) { btn.classList.toggle('on'); testAuswertung(); }
+function speakPunkte(btn, si) {
+  if (!testInfo || !testInfo.secs[si]) return;
+  testInfo.secs[si].selbst = +btn.textContent;
+  btn.parentElement.querySelectorAll('.ptchip').forEach(b => b.classList.toggle('on', b === btn));
+  testAuswertung();
+}
+/* Wochentest: Punkte je Section und gesamt; Auswertung hervorheben, sobald alles bewertet ist */
+function testAuswertung() {
+  if (!testInfo) return;
+  let gesamt = 0, alle = true;
+  for (const si in testInfo.secs) {
+    const sInfo = testInfo.secs[si];
+    const secEl = document.getElementById('sec-' + si);
+    if (!secEl) continue;
+    let pts = 0;
+    if (secEl.querySelector('.ptchip')) {
+      if (sInfo.selbst === undefined) alle = false; else pts = sInfo.selbst;
+    } else {
+      let sumW = 0, hitW = 0;
+      for (const r of secEl.querySelectorAll('.exitem')) {
+        const w = +(r.dataset.pts || 1); sumW += w;
+        const bewertet = r.classList.contains('exok') || r.classList.contains('exfinal') || r.classList.contains('open');
+        if (!bewertet) alle = false;
+        const treffer = (r.classList.contains('exok') && !r.classList.contains('exspaet')) || !!r.querySelector('.selfchk.on');
+        if (treffer) hitW += w;
+      }
+      pts = sumW ? Math.round(sInfo.max * hitW / sumW) : 0;
+    }
+    sInfo.punkte = pts; gesamt += pts;
+    const el = document.getElementById('pt-' + si);
+    if (el) el.textContent = pts + ' / ' + sInfo.max;
+  }
+  testInfo.punkte = gesamt; testInfo.fertig = alle;
+  const tb = document.getElementById('testbar-x');
+  if (tb) tb.textContent = gesamt + ' / ' + testInfo.max;
+  auswertungMarkieren(alle ? gesamt : null);
+}
+function auswertungMarkieren(x) {
+  const el = document.getElementById('ausw-body');
+  if (!el || !testInfo || !testInfo.auswHtml) return;
+  const zeilen = testInfo.auswHtml.split(/<br\s*\/?>/i);
+  const html = zeilen.map(z => {
+    const m = /<b>\s*(\d+)\s*[–-]\s*(\d+)\s*:?<\/b>/.exec(z), u = /unter\s+(\d+)/.exec(z);
+    if (!m && !u) return z;
+    let an = false;
+    if (x !== null) an = m ? (x >= +m[1] && x <= +m[2]) : (x < +u[1]);
+    return `<span class="stufe${an ? ' on' : ''}">${z}</span>`;
+  }).join('<br>');
+  el.innerHTML = (x !== null ? `<div class="mono" style="font-size:.74rem; color:#0b6c5f; margin-bottom:.5rem">Dein Ergebnis: ${x} / ${testInfo.max} Punkte</div>` : '') + html;
+}
+
+/* ---------- Übungs-Wiederholung (Leitner für Lücken, Auswahl, Sätze) ----------
+   store.uebungen[key] = { lid, sec, i, q, fehl, box, due, gelernt? }, key = lid:secIndex:itemIndex */
+const UEB_INTERVALLE = [1, 3, 7, 14, 30];
+function uebungKey(lid, sec, i) { return `${lid}:${sec}:${i}`; }
+function uebungFehler(key) {
+  if (!key) return;
+  const [lid, sec, i] = key.split(':');
+  const u = store.uebungen[key] || { lid, sec: +sec, i: +i, fehl: 0, box: 0 };
+  u.fehl++; u.box = 0; delete u.gelernt;
+  u.due = today(new Date(Date.now() + 864e5));
+  const L = JSON_CACHE['lektionen/' + lid + '.json'];
+  const it = L && L.sections[+sec] && L.sections[+sec].items && L.sections[+sec].items[+i];
+  if (it) u.q = it.q.slice(0, 60);
+  store.uebungen[key] = u; save();
+}
+function uebungTreffer(key) {
+  const u = key && store.uebungen[key];
+  if (!u || u.gelernt) return;
+  u.box = Math.min(u.box + 1, UEB_INTERVALLE.length - 1);
+  u.due = today(new Date(Date.now() + UEB_INTERVALLE[u.box] * 864e5));
+  if (u.box >= 3) u.gelernt = today();
+  save();
+}
+function uebungenFaellig() {
+  const t = today();
+  return Object.entries(store.uebungen)
+    .filter(([k, u]) => !u.gelernt && u.due <= t && !gesperrt(u.lid))
+    .map(([k, u]) => ({ key: k, ...u }));
+}
+function uebungenOffen() { return Object.entries(store.uebungen).filter(([k, u]) => !u.gelernt).map(([k, u]) => ({ key: k, ...u })); }
+/* Einträge → Karten für die Session (Item aus der Lektion holen; passt die Frage nicht mehr, Eintrag verwerfen) */
+async function uebungsKarten(liste) {
+  const out = [];
+  for (const u of liste) {
+    let L = JSON_CACHE['lektionen/' + u.lid + '.json'];
+    if (!L) { try { L = await ladeJSON('lektionen/' + u.lid + '.json'); } catch (e) { continue; } }
+    const sec = L.sections[u.sec], it = sec && sec.items && sec.items[u.i];
+    if (!it || (u.q && it.q.slice(0, 60) !== u.q)) { delete store.uebungen[u.key]; save(); continue; }
+    out.push(uebungsKarte(u.lid, u.sec, u.i, sec, it));
+  }
+  return out;
+}
+function uebungsKarte(lid, si, i, sec, it) {
+  const l = LESSONS.find(x => x.id === lid);
+  return { ex: true, key: uebungKey(lid, si, i), item: it, label: `Übung · ${l ? l.label.split(' · ')[0] : lid} · ${(sec.title || '').split(' · ')[0]}` };
+}
+/* Grammatik-Karte: zwei Übungen aus derselben Lektion, bevorzugt Auswahl/Satz, sonst Lücken */
+async function dicaUebungen(lid) {
+  let L = JSON_CACHE['lektionen/' + lid + '.json'];
+  if (!L) { try { L = await ladeJSON('lektionen/' + lid + '.json'); } catch (e) { return []; } }
+  const bevorzugt = [], rest = [];
+  L.sections.forEach((sec, si) => {
+    if (sec.type !== 'exercise') return;
+    sec.items.forEach((it, i) => {
+      if (it.opts || it.satz) bevorzugt.push([si, i, sec, it]);
+      else if (it.q.includes('___')) rest.push([si, i, sec, it]);
+    });
+  });
+  const wahl = shuffle(bevorzugt).slice(0, 2);
+  if (wahl.length < 2) wahl.push(...shuffle(rest).slice(0, 2 - wahl.length));
+  return wahl.map(([si, i, sec, it]) => uebungsKarte(lid, si, i, sec, it));
+}
+function mischeEin(worte, uebungen) {
+  const q = worte.slice();
+  for (const u of uebungen) {
+    const pos = q.length ? 1 + Math.floor(Math.random() * q.length) : 0;
+    q.splice(pos, 0, u);
+  }
+  return q;
 }
 function goHome() { goTab('home'); }
 
@@ -2189,43 +2667,36 @@ function meldungWeg() {
 /* ---------- Auswahl- und Satzbau-Übungen ---------- */
 function chooseEx(btn) {
   const row = btn.closest('.exitem');
-  if (row.classList.contains('open')) return;
-  const soll = row.querySelector('.a').textContent.split(' – ')[0].trim().toLowerCase();
-  const ok = btn.textContent.trim().toLowerCase() === soll;
-  lektionAktiv++; if (ok) lektionGeloest++; else meldungWeg();
-  aktiv(1, ok ? 1 : 0);
+  if (!row || row.classList.contains('open') || btn.disabled) return;
+  const soll = exNorm(row.querySelector('.asol').textContent);
+  const ok = exNorm(btn.textContent) === soll;
   if (ok) {
-    btn.style.background = 'var(--sea)'; btn.style.color = '#fff';
-    row.classList.add('open', 'exok');
-    row.querySelectorAll('button.reveal').forEach(b => b.remove());
-    row.querySelectorAll('.wchip').forEach(b => { if (b !== btn) b.disabled = true; });
-  } else {
-    btn.style.background = 'var(--clay-soft)';
-    setTimeout(() => { btn.style.background = ''; }, 700);
-  }
+    btn.classList.add('right');
+    row.querySelectorAll('.wchip').forEach(b => { b.disabled = true; });
+  } else btn.classList.add('wrong');
+  exVersuch(row, ok);
 }
 function orderTap(btn) {
   const row = btn.closest('.exitem');
   if (row.classList.contains('open')) return;
   const ziel = row.querySelector('[data-ziel]'), pool = row.querySelector('[data-pool]');
   (btn.parentElement === pool ? ziel : pool).appendChild(btn);
+  ziel.style.borderColor = '';
 }
 function checkOrder(row) {
   if (!row || row.classList.contains('open')) return;
-  const norm = t => t.toLowerCase().replace(/[.!?,;:«»"]/g, '').replace(/\s+/g, ' ').trim();
-  const ist = norm([...row.querySelectorAll('[data-ziel] .wchip')].map(b => b.textContent).join(' '));
-  const soll = norm(row.querySelector('.a').textContent.split(' / ')[0]);
+  const ist = exNorm([...row.querySelectorAll('[data-ziel] .wchip')].map(b => b.textContent).join(' '));
+  if (!ist) return;
+  const soll = exNorm(row.dataset.satz || row.querySelector('.asol').textContent.split(' / ')[0]);
   const ok = ist === soll;
-  lektionAktiv++; if (ok) lektionGeloest++; else meldungWeg();
-  aktiv(1, ok ? 1 : 0);
+  const z = row.querySelector('[data-ziel]');
   if (ok) {
-    row.classList.add('open', 'exok');
-    row.querySelectorAll('button.reveal').forEach(b => b.remove());
+    z.classList.add('ok');
     row.querySelectorAll('.wchip').forEach(b => b.disabled = true);
   } else {
-    const z = row.querySelector('[data-ziel]');
     z.style.borderColor = 'var(--clay)'; setTimeout(() => { z.style.borderColor = ''; }, 700);
   }
+  exVersuch(row, ok);
 }
 
 /* ==================== STAFFEL 2: KAUFSCHRANKE ====================
@@ -2319,16 +2790,19 @@ async function codeEinloesen() {
 
 /* ---------- Lückentext prüfen ---------- */
 function checkEx(row, viaEnter) {
-  if (!row || row.classList.contains('open')) return;   // Doppeltipp: Knopf ist schon weg
+  if (!row || row.classList.contains('exok')) return;   // Doppeltipp: Knopf ist schon weg
   const inp = row.querySelector('.exin');
   if (!inp || inp.disabled) return;
+  // nach dem letzten Fehlversuch bleibt das Feld offen: die Lösung einmal abtippen
+  const abtippen = row.classList.contains('exfinal');
+  if (row.classList.contains('open') && !abtippen) return;
   // trim VOR der Satzzeichen-Regel: „Gosto de café. / Gosto do café.“ – die erste
   // Alternative endete sonst auf „. “ und wurde nie akzeptiert.
   // Kommas mitten im Satz zählen nicht: „Se chover fico em casa“ = „Se chover, fico em casa“
   const norm = t => t.toLowerCase().replace(/,/g, ' ').replace(/\s+/g, ' ').trim().replace(/[.!?;:]+$/, '').trim();
   const ohneAkzent = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   // Klammern = optional: „Gosto (muito) de peixe.“ gilt mit und ohne „muito“
-  const roh = row.querySelector('.a').textContent;
+  const roh = row.querySelector('.asol').textContent;
   const sol = roh.replace(/\(.*?\)/g, ' ');
   // Alternativen nur an „ / “ (mit Leerzeichen) trennen – ein „/“ mitten in der Phrase
   // („uma bica / um galão, se faz favor“) ist Teil der Lösung, kein Trenner.
@@ -2339,6 +2813,9 @@ function checkEx(row, viaEnter) {
   const toks = t => t.split(/[\s,\/]+/).filter(Boolean);
   const passt = v => {
     if (alts.includes(v) || norm(sol) === v) return true;
+    // „está está" für „está / está": Schrägstrich in Lösung und Antwort zählt wie ein Leerzeichen
+    const glatt = t => t.replace(/\s*\/\s*/g, ' ').replace(/\s+/g, ' ').trim();
+    if (glatt(norm(sol)) === glatt(v)) return true;
     // Mehrere Lücken: jede Alternative muss als eigene Wortfolge vorkommen,
     // und die Antwort darf höchstens ein Wort mehr haben als alle Lösungen zusammen.
     if (blanks > 1 && alts.length > 1) {
@@ -2354,29 +2831,43 @@ function checkEx(row, viaEnter) {
   if (!ok && alts.some(a => ohneAkzent(a) === ohneAkzent(val))) {
     ok = true; meldung('Richtig – nur ein Akzent fehlt. Schau dir die Lösung an.');
   }
-  lektionAktiv++;
-  if (ok) lektionGeloest++; else meldungWeg();
-  aktiv(1, ok ? 1 : 0);
+  if (abtippen) {
+    if (ok) {
+      row.classList.add('exok', 'exspaet');
+      inp.disabled = true;
+      row.querySelectorAll('button.reveal').forEach(b => b.remove());
+      row.querySelector('.exstatus').textContent = 'Abgetippt – morgen noch einmal.';
+      if (viaEnter) fokusNaechste(inp);
+    } else {
+      inp.classList.add('exfehl');
+      setTimeout(() => inp.classList.remove('exfehl'), 700);
+    }
+    return;
+  }
+  exVersuch(row, ok);
   if (ok) {
-    row.classList.add('open', 'exok');
-    row.querySelectorAll('button.reveal').forEach(b => { b.disabled = true; b.remove(); });
     inp.disabled = true;
     if (viaEnter) fokusNaechste(inp);
   } else {
     inp.classList.add('exfehl');
     setTimeout(() => inp.classList.remove('exfehl'), 700);
+    if (row.classList.contains('exfinal')) inp.value = '';
   }
 }
 /* Nach Enter: Fokus auf die nächste offene Lücke der Lektion, nicht auf body */
 function fokusNaechste(inp) {
-  const alle = [...document.querySelectorAll('#l-body .exin')];
+  const alle = [...document.querySelectorAll('#l-body .exin, #excard .exin')];
   const nxt = alle.slice(alle.indexOf(inp) + 1).find(x => !x.disabled);
   if (nxt) nxt.focus();
 }
 
 /* ---------- Audio ---------- */
 let audio = new Audio();
-function play(id) { audio.src = 'audio/' + id + '.m4a'; audio.play().catch(() => {}); }
+function play(id, rate) {
+  audio.src = 'audio/' + id + '.m4a';
+  audio.defaultPlaybackRate = rate || 1; audio.playbackRate = rate || 1;
+  audio.play().catch(() => {});
+}
 
 /* ---------- Lern-Session ---------- */
 let queue = [], idx = 0, total = 0, flipped = false, correct = 0, richtigErst = 0, curBlock = 'mix', wiederholt = {};
@@ -2441,10 +2932,18 @@ function wacklerListe() {
 }
 function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
-function startLearn(block) {
+async function startLearn(block, arg) {
   curBlock = block;
-  queue = dueWords(block);
+  if (block === 'uebungen') queue = shuffle(await uebungsKarten(uebungenFaellig())).slice(0, 10);
+  else if (block === 'dica') queue = await dicaUebungen(arg);
+  else {
+    queue = dueWords(block);
+    // Tages-Wiederholung: bis zu drei fällige Übungen unter die Vokabelkarten mischen
+    if (block === 'mix') queue = mischeEin(queue, shuffle(await uebungsKarten(uebungenFaellig())).slice(0, 3));
+  }
   if (!queue.length) {
+    if (block === 'uebungen') { meldung('Gerade ist keine Übung fällig – sie kommen von selbst wieder.'); return; }
+    if (block === 'dica') { meldung('Zu dieser Dica gibt es keine passenden Übungen.'); return; }
     if (block === 'wackler') {
       meldung(wacklerListe().length ? 'Deine Wackler sind gerade nicht fällig – sie kommen von selbst wieder.'
                                     : 'Noch keine Wackler – die kommen aus deinen Fehlern.');
@@ -2459,12 +2958,42 @@ function startLearn(block) {
 function showCard() {
   flipped = false;
   const w = queue[idx];
+  document.getElementById('learnbar').style.width = Math.min(100, 100 * idx / total) + '%';
+  const exbox = document.getElementById('excard'), card = document.getElementById('card'), acts = document.getElementById('learnactions');
+  if (w.ex) {
+    // Übungs-Karte: dasselbe Item wie in der Lektion, kompakt auf einer Karte
+    card.style.display = 'none'; acts.style.display = 'none'; exbox.style.display = 'block';
+    exbox.innerHTML = '';
+    const row = exRow(w.item, w.key, {});
+    row.classList.add('excard');
+    row.insertAdjacentHTML('afterbegin', `<div class="exlabel">${w.label}</div>`);
+    exbox.appendChild(row);
+    exbox.insertAdjacentHTML('beforeend', `<button class="mixbtn" id="ex-weiter" style="display:none; margin-top:1.1rem" onclick="exWeiter()">Weiter</button>`);
+    const inp = row.querySelector('.exin');
+    if (inp) setTimeout(() => inp.focus(), 60);
+    return;
+  }
+  card.style.display = ''; acts.style.display = ''; exbox.style.display = 'none';
   document.getElementById('c-pt').textContent = w.pt;
   document.getElementById('c-ipa').textContent = w.ipa;
   document.getElementById('c-de').style.display = 'none';
   document.getElementById('c-hint').textContent = 'Antippen zum Umdrehen';
-  document.getElementById('learnbar').style.width = Math.min(100, 100 * idx / total) + '%';
   play(w.id);
+}
+/* Übungs-Karte in der Session bewertet: Erst-Treffer zählt, alles andere bleibt fällig */
+function sessionExErgebnis(row, ok, erst, offen) {
+  if (offen) return;   // erster Fehlversuch bei Lücke/Satz: noch einmal probieren
+  const e = queue[idx];
+  if (ok) correct++;
+  if (ok && erst) richtigErst++; else wiederholt[e.key] = 1;
+  aktiv(1, ok && erst ? 1 : 0);
+  const w = document.getElementById('ex-weiter');
+  if (w) w.style.display = 'block';
+}
+function exWeiter() {
+  idx++;
+  if (idx >= queue.length) return finish('learn');
+  showCard();
 }
 function flipCard() {
   if (flipped) return;
@@ -2474,7 +3003,7 @@ function flipCard() {
   document.getElementById('c-de').style.display = 'block';
   document.getElementById('c-hint').textContent = 'Und – konntest du es?';
 }
-function playCurrent() { play(queue[idx].id); }
+function playCurrent() { if (queue[idx] && !queue[idx].ex) play(queue[idx].id); }
 function answer(good) {
   if (!flipped) { flipCard(); return; }
   const w = queue[idx];

@@ -16,8 +16,12 @@
      "a": "simpáticos"
     },
     {
-     "q": "„Wie süß!“ auf EP: ___",
-     "a": "Que giro!"
+     "q": "„Wie süß!“ auf EP:",
+     "opts": [
+      "Que giro!",
+      "Que legal!"
+     ],
+     "a": "Que giro! – legal ist brasilianisch"
     },
     {
      "q": "___ ___ avó fala rápido. (meine)",
@@ -176,7 +180,12 @@
    "items": [
     {
      "q": "Gosto ___ café. (allgemein)",
-     "a": "de"
+     "opts": [
+      "de",
+      "do",
+      "da"
+     ],
+     "a": "de – allgemein: ohne Artikel"
     },
     {
      "q": "Gosto ___ pão da avó. (bestimmt: o pão)",
@@ -209,8 +218,9 @@
      "a": "Gosto de café. / Não gosto de café."
     },
     {
-     "q": "Gostas do Porto? → ___",
-     "a": "Gosto (muito) do Porto!"
+     "q": "Gostas do Porto? → Antworte: Ja, sehr!",
+     "satz": "Gosto muito do Porto!",
+     "a": "Gosto muito do Porto!"
     }
    ]
   },
@@ -220,7 +230,12 @@
    "items": [
     {
      "q": "Am Morgen: o ___",
-     "a": "pequeno-almoço"
+     "opts": [
+      "pequeno-almoço",
+      "café da manhã",
+      "almoço"
+     ],
+     "a": "pequeno-almoço – EP; café da manhã ist brasilianisch"
     },
     {
      "q": "Am Mittag: o ___",
@@ -234,40 +249,56 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie gosta do pão da avó.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – é delicioso!"
     },
     {
      "q": "O João queria um sumo.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – einen Kaffee. Oder zwei."
     },
     {
      "q": "O Tomás mostra vídeos de futebol.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – vídeos de surf!"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Übersetze",
+   "title": "5e · Übersetze (Satz bauen)",
    "items": [
     {
-     "q": "Ich mag Käse. → ___",
+     "q": "Ich mag Käse.",
+     "satz": "Gosto de queijo.",
      "a": "Gosto de queijo."
     },
     {
-     "q": "Magst du den Kuchen? → ___",
+     "q": "Magst du den Kuchen?",
+     "satz": "Gostas do bolo?",
      "a": "Gostas do bolo?"
     },
     {
-     "q": "Das Frühstück ist köstlich. → ___",
+     "q": "Das Frühstück ist köstlich.",
+     "satz": "O pequeno-almoço é delicioso.",
      "a": "O pequeno-almoço é delicioso."
     },
     {
-     "q": "Ich mag die Strände von Porto. → ___",
+     "q": "Ich mag die Strände von Porto.",
+     "satz": "Gosto das praias do Porto.",
      "a": "Gosto das praias do Porto."
     }
    ]

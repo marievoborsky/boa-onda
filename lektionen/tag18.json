@@ -20,8 +20,12 @@
      "a": "à"
     },
     {
-     "q": "Ich laufe nie: ___",
-     "a": "Nunca corro."
+     "q": "Ich laufe nie:",
+     "opts": [
+      "Nunca corro.",
+      "Corro nunca."
+     ],
+     "a": "Nunca corro. – nunca steht vor dem Verb"
     }
    ]
   },
@@ -175,7 +179,12 @@
     },
     {
      "q": "Tu ___ ___ connosco? (nadar)",
-     "a": "vais nadar"
+     "opts": [
+      "vais nadar",
+      "vais a nadar",
+      "vas nadar"
+     ],
+     "a": "vais nadar – ir + Infinitiv ohne a; vas ist Spanisch"
     },
     {
      "q": "Nós ___ ___ de comboio. (partir)",
@@ -204,8 +213,9 @@
      "a": "vou correr"
     },
     {
-     "q": "Hoje comemos em casa. → Amanhã ___",
-     "a": "vamos comer em casa"
+     "q": "Hoje comemos em casa. → Und morgen? (ganzer Satz)",
+     "satz": "Amanhã vamos comer em casa.",
+     "a": "Amanhã vamos comer em casa."
     },
     {
      "q": "Hoje ela trabalha. → Amanhã ela ___",
@@ -215,36 +225,63 @@
   },
   {
    "type": "exercise",
-   "title": "5c · talvez, de certeza oder finalmente?",
+   "title": "5c · talvez, de certeza oder finalmente? (antippen)",
    "items": [
     {
      "q": "___ vamos a Sagres! (nach drei Wochen Warten)",
-     "a": "Finalmente"
+     "opts": [
+      "Finalmente",
+      "Talvez",
+      "De certeza"
+     ],
+     "a": "Finalmente – endlich, nach drei Wochen Warten"
     },
     {
      "q": "Não sei… ___ vou.",
-     "a": "talvez"
+     "opts": [
+      "talvez",
+      "de certeza",
+      "finalmente"
+     ],
+     "a": "talvez – „Não sei“ = unsicher → vielleicht"
     },
     {
      "q": "O João vai chegar tarde, ___.",
-     "a": "de certeza"
+     "opts": [
+      "de certeza",
+      "talvez",
+      "finalmente"
+     ],
+     "a": "de certeza – ganz sicher, wie immer"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "O comboio para Lagos custa vinte euros.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "Vão de carro com o primo do João.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – mit dem Zug, das ist sicherer."
     },
     {
      "q": "A Marie vai levar o fato de surf dela.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – Vasco hat alles. Sie bringen Hunger und gute Laune mit."
     }
    ]
@@ -254,15 +291,18 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Wir werden die Tickets buchen. → ___",
+     "q": "Wir werden die Tickets buchen.",
+     "satz": "Vamos reservar os bilhetes.",
      "a": "Vamos reservar os bilhetes."
     },
     {
-     "q": "Ich gehe nachher an den Strand. → ___",
+     "q": "Ich gehe nachher an den Strand.",
+     "satz": "Vou logo à praia.",
      "a": "Vou logo à praia."
     },
     {
-     "q": "Nächste Woche fahre ich nach Porto. → ___",
+     "q": "Nächste Woche fahre ich nach Porto.",
+     "satz": "A semana que vem vou ao Porto.",
      "a": "A semana que vem vou ao Porto."
     },
     {

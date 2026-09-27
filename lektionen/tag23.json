@@ -16,8 +16,9 @@
      "a": "aquela"
     },
     {
-     "q": "Wir brauchen Wasser: ___ de água.",
-     "a": "Precisamos"
+     "q": "Wir brauchen Wasser.",
+     "satz": "Precisamos de água.",
+     "a": "Precisamos de água."
     },
     {
      "q": "Der Laden ist nah: A loja fica ___ da praia.",
@@ -197,7 +198,12 @@
     },
     {
      "q": "sprechen (langsam, bitte) → ___ devagar, se faz favor.",
-     "a": "Fale"
+     "opts": [
+      "Fale",
+      "Fala",
+      "Falar"
+     ],
+     "a": "Fale – Sie-Form: -ar → -e"
     }
    ]
   },
@@ -215,7 +221,12 @@
     },
     {
      "q": "Desculpe. → (du) ___.",
-     "a": "Desculpa"
+     "opts": [
+      "Desculpa",
+      "Desculpe",
+      "Desculpas"
+     ],
+     "a": "Desculpa – du-Form: -ar → -a"
     },
     {
      "q": "Fale devagar. → (du) ___ devagar.",
@@ -237,7 +248,12 @@
     },
     {
      "q": "Der Strand ist nah: A praia é ___.",
-     "a": "perto"
+     "opts": [
+      "perto",
+      "longe",
+      "em frente"
+     ],
+     "a": "perto – nah; longe = weit"
     },
     {
      "q": "Der Bahnhof ist weit: A estação é ___.",
@@ -251,40 +267,56 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A estação de autocarros é longe.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – „Não é longe“, fünf Minuten zu Fuß."
     },
     {
      "q": "Na praça, a Marie vira à direita.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – links („vire à esquerda“). Rechts liegt erst der Busbahnhof nach der Brücke."
     },
     {
      "q": "O autocarro para Sagres é às nove e um quarto.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – und es ist schon fünf nach neun. Corram!"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Übersetze",
+   "title": "5e · Übersetze (Satz bauen)",
    "items": [
     {
-     "q": "Entschuldigen Sie, wo ist der Strand? → ___",
+     "q": "Entschuldigen Sie, wo ist der Strand?",
+     "satz": "Desculpe, onde é a praia?",
      "a": "Desculpe, onde é a praia?"
     },
     {
-     "q": "Gehen Sie geradeaus. → ___",
+     "q": "Gehen Sie geradeaus.",
+     "satz": "Siga em frente.",
      "a": "Siga em frente."
     },
     {
-     "q": "Biegen Sie rechts ab. → ___",
+     "q": "Biegen Sie rechts ab.",
+     "satz": "Vire à direita.",
      "a": "Vire à direita."
     },
     {
-     "q": "Es ist nicht weit. → ___",
+     "q": "Es ist nicht weit.",
+     "satz": "Não é longe.",
      "a": "Não é longe."
     }
    ]

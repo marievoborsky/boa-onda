@@ -8,7 +8,8 @@
    "title": "1 · Aufwärmen (von Woche 2)",
    "items": [
     {
-     "q": "Wie spät ist es? ___",
+     "q": "Wie spät ist es?",
+     "satz": "Que horas são?",
      "a": "Que horas são?"
     },
     {
@@ -183,7 +184,12 @@
     },
     {
      "q": "Nós ___ juntas. (estudar)",
-     "a": "estudamos"
+     "opts": [
+      "estudamos",
+      "estudam",
+      "estudas"
+     ],
+     "a": "estudamos – nós → -amos"
     },
     {
      "q": "Os pais ___ muito. (trabalhar)",
@@ -205,7 +211,12 @@
     },
     {
      "q": "Estudo na biblioteca ___ (15:00)",
-     "a": "à tarde"
+     "opts": [
+      "à tarde",
+      "de manhã",
+      "à noite"
+     ],
+     "a": "à tarde – 15 Uhr ist Nachmittag"
     },
     {
      "q": "Janto ___ (20:00)",
@@ -223,36 +234,59 @@
    "items": [
     {
      "q": "Du willst wissen, wann Ana aufwacht:",
-     "a": "A que horas é que acordas? / … é que a Ana acorda?"
+     "opts": [
+      "A que horas é que acordas?",
+      "Que horas é que acordas?",
+      "A que horas acordas é que?"
+     ],
+     "a": "A que horas é que acordas? – a que horas = um wie viel Uhr, é que direkt nach dem Fragewort"
     },
     {
-     "q": "…wo sie zu Mittag isst:",
-     "a": "Onde é que almoças? / Onde é que ela almoça?"
+     "q": "…wo sie zu Mittag isst (frag sie direkt):",
+     "satz": "Onde é que almoças?",
+     "a": "Onde é que almoças?"
     },
     {
-     "q": "…wann der Unterricht anfängt:",
+     "q": "…wann der Unterricht anfängt: ___",
      "a": "A que horas é que começam as aulas?"
     },
     {
      "q": "…was João abends lernt:",
-     "a": "O que é que o João estuda à noite?"
+     "opts": [
+      "O que é que o João estuda à noite?",
+      "Quem é que o João estuda à noite?",
+      "Onde é que o João estuda à noite?"
+     ],
+     "a": "O que é que o João estuda à noite? – was = o que"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "As aulas começam às nove.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "A Marie acorda às sete.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – às sete e meia. A Ana acorda às sete."
     },
     {
      "q": "O João acorda cedo.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – tarde, muito tarde!"
     }
    ]
@@ -262,7 +296,8 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Ich stehe um sieben auf. → ___",
+     "q": "Ich stehe um sieben auf.",
+     "satz": "Acordo às sete.",
      "a": "Acordo às sete."
     },
     {
@@ -270,11 +305,13 @@
      "a": "Almoçamos juntos. / Almoçamos juntas."
     },
     {
-     "q": "Der Unterricht fängt um neun an. → ___",
+     "q": "Der Unterricht fängt um neun an.",
+     "satz": "As aulas começam às nove.",
      "a": "As aulas começam às nove."
     },
     {
-     "q": "Abends ruhe ich mich aus. → ___",
+     "q": "Abends ruhe ich mich aus.",
+     "satz": "À noite descanso.",
      "a": "À noite descanso."
     }
    ]

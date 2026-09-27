@@ -21,8 +21,12 @@
      "a": "tenho / sou"
     },
     {
-     "q": "A água é / está fria hoje. (Tipp: gerade jetzt!)",
-     "a": "está (heute – Zustand!)"
+     "q": "A água ___ fria hoje. (Tipp: gerade jetzt!)",
+     "opts": [
+      "está",
+      "é"
+     ],
+     "a": "está – heute: Zustand!"
     },
     {
      "q": "20 = ___",
@@ -216,34 +220,52 @@
      "a": "Queria uma água, por favor."
     },
     {
-     "q": "Du willst fragen, ob du hier schwimmen darfst: ___",
+     "q": "Du willst fragen, ob du hier schwimmen darfst:",
+     "satz": "Posso nadar aqui?",
      "a": "Posso nadar aqui?"
     },
     {
-     "q": "Du willst ein Surfbrett mieten (höflich, mit Queria): ___",
+     "q": "Du willst ein Surfbrett mieten (höflich, mit Queria):",
+     "satz": "Queria alugar uma prancha.",
      "a": "Queria alugar uma prancha."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · ser oder estar? (Steckbrief vs. Stimmungsbericht!)",
+   "title": "5b · ser oder estar? (Steckbrief vs. Stimmungsbericht! · antippen)",
    "items": [
     {
-     "q": "A água é / está fria hoje.",
-     "a": "está (heute – Zustand)"
+     "q": "A água ___ fria hoje.",
+     "opts": [
+      "está",
+      "é"
+     ],
+     "a": "está – heute: Zustand"
     },
     {
-     "q": "Sagres é / está pequena, mas fantástica.",
-     "a": "é (immer so – Steckbrief)"
+     "q": "Sagres ___ pequena, mas fantástica.",
+     "opts": [
+      "é",
+      "está"
+     ],
+     "a": "é – immer so: Steckbrief"
     },
     {
-     "q": "As ondas são / estão grandes — cuidado!",
-     "a": "estão (gerade – Zustand)"
+     "q": "As ondas ___ grandes — cuidado!",
+     "opts": [
+      "estão",
+      "são"
+     ],
+     "a": "estão – gerade jetzt: Zustand"
     },
     {
-     "q": "A praia do Martinhal é / está perfeita para a primeira aula.",
-     "a": "é (Eigenschaft des Strandes)"
+     "q": "A praia do Martinhal ___ perfeita para a primeira aula.",
+     "opts": [
+      "é",
+      "está"
+     ],
+     "a": "é – Eigenschaft des Strandes"
     }
    ]
   },
@@ -257,7 +279,12 @@
     },
     {
      "q": "Tu ___ muito bem! (surfen)",
-     "a": "surfas"
+     "opts": [
+      "surfas",
+      "surfa",
+      "surfes"
+     ],
+     "a": "surfas – tu → -as"
     },
     {
      "q": "Ela ___ no mar. (schwimmen)",
@@ -267,19 +294,31 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie tem experiência.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – erste Stunde!"
     },
     {
      "q": "Hoje as ondas estão grandes.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – sie sind klein."
     },
     {
      "q": "A aula custa vinte euros, com prancha e fato.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     }
    ]
   },
@@ -288,11 +327,13 @@
    "title": "5e · Übersetze – deine Sagres-Sätze",
    "items": [
     {
-     "q": "Ich hätte gern eine Surfstunde für morgen. → ___",
+     "q": "Ich hätte gern eine Surfstunde für morgen.",
+     "satz": "Queria uma aula de surf para amanhã.",
      "a": "Queria uma aula de surf para amanhã."
     },
     {
-     "q": "Ist das Wasser kalt? → ___",
+     "q": "Ist das Wasser kalt?",
+     "satz": "A água está fria?",
      "a": "A água está fria?"
     },
     {

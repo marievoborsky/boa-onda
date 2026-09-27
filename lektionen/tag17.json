@@ -20,7 +20,8 @@
      "a": "Não percebo."
     },
     {
-     "q": "Verneine: Deito-me tarde. → ___",
+     "q": "Verneine: Deito-me tarde.",
+     "satz": "Não me deito tarde.",
      "a": "Não me deito tarde."
     }
    ]
@@ -191,7 +192,12 @@
     },
     {
      "q": "O que é que vocês ___? (fazer)",
-     "a": "fazem"
+     "opts": [
+      "fazem",
+      "fazeis",
+      "fazes"
+     ],
+     "a": "fazem – vocês → wie eles"
     }
    ]
   },
@@ -209,7 +215,12 @@
     },
     {
      "q": "Vou ___ casa. (nach Hause)",
-     "a": "para"
+     "opts": [
+      "para",
+      "à",
+      "ao"
+     ],
+     "a": "para – nach Hause = para casa, ohne Artikel"
     },
     {
      "q": "Vamos ___ ginásio. (o ginásio)",
@@ -226,37 +237,53 @@
    "title": "5c · Wie oft? Bau den Satz",
    "items": [
     {
-     "q": "correr / eu / sempre / de manhã →",
+     "q": "Ich laufe immer morgens. (correr · sempre · de manhã)",
+     "satz": "Corro sempre de manhã.",
      "a": "Corro sempre de manhã."
     },
     {
-     "q": "nunca / eu / nadar / à noite →",
+     "q": "Ich schwimme nie abends. (nunca · nadar · à noite)",
+     "satz": "Nunca nado à noite.",
      "a": "Nunca nado à noite."
     },
     {
-     "q": "às vezes / nós / ir / ao cinema →",
+     "q": "Manchmal gehen wir ins Kino. (às vezes · ir · ao cinema)",
+     "satz": "Às vezes vamos ao cinema.",
      "a": "Às vezes vamos ao cinema."
     },
     {
-     "q": "muitas vezes / o João / dormir / até tarde →",
+     "q": "João schläft oft bis spät. (muitas vezes · dormir · até tarde)",
+     "satz": "O João dorme muitas vezes até tarde.",
      "a": "O João dorme muitas vezes até tarde."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie corre muito bem.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – „Corro muito mal!“ Sie schwimmt gut."
     },
     {
      "q": "A Ana corre sempre de manhã com a prima.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – und João nie."
     },
     {
      "q": "O João faz desporto à noite.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – er behauptet es. (Ana findet allerdings, das sei eher fome als desporto.)"
     }
    ]
@@ -270,15 +297,18 @@
      "a": "O que é que fazes ao fim de semana? / O que é que fazes no fim de semana?"
     },
     {
-     "q": "Ich gehe manchmal ins Kino. → ___",
+     "q": "Ich gehe manchmal ins Kino.",
+     "satz": "Às vezes vou ao cinema.",
      "a": "Às vezes vou ao cinema."
     },
     {
-     "q": "Wir machen nie Sport. → ___",
+     "q": "Wir machen nie Sport.",
+     "satz": "Nunca fazemos desporto.",
      "a": "Nunca fazemos desporto."
     },
     {
-     "q": "Ich habe im Mai Geburtstag. → ___",
+     "q": "Ich habe im Mai Geburtstag.",
+     "satz": "Faço anos em maio.",
      "a": "Faço anos em maio."
     }
    ]

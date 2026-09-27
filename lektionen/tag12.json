@@ -8,8 +8,12 @@
    "title": "1 · Aufwärmen (von Tag 11)",
    "items": [
     {
-     "q": "Bestell einen Espresso (EP-Wort!): ___",
-     "a": "Queria uma bica, se faz favor."
+     "q": "Bestell einen Espresso (EP-Wort!):",
+     "opts": [
+      "Queria uma bica, se faz favor.",
+      "Queria um cafezinho, por favor."
+     ],
+     "a": "Queria uma bica, se faz favor. – bica ist das Lissabonner Wort; cafezinho ist brasilianisch"
     },
     {
      "q": "Die Rechnung, bitte: ___",
@@ -197,7 +201,12 @@
     },
     {
      "q": "100 = ___",
-     "a": "cem"
+     "opts": [
+      "cem",
+      "cento",
+      "cien"
+     ],
+     "a": "cem – 100 allein heißt cem; cento nur in 101–199"
     }
    ]
   },
@@ -211,7 +220,11 @@
     },
     {
      "q": "Quanto ___ as laranjas?",
-     "a": "custam"
+     "opts": [
+      "custam",
+      "custa"
+     ],
+     "a": "custam – Plural: as laranjas"
     },
     {
      "q": "Quanto ___ os pastéis de nata?",
@@ -241,24 +254,41 @@
     },
     {
      "q": "___ estação (a estação)",
-     "a": "na"
+     "opts": [
+      "na",
+      "no",
+      "em"
+     ],
+     "a": "na – em + a"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "As laranjas custam um euro e cinquenta o quilo.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "O protetor solar é barato.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – doze euros e noventa, é caro!"
     },
     {
      "q": "O autocarro para Sagres custa quarenta euros ida e volta.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – quarenta e quatro (2 × 22)."
     }
    ]
@@ -272,7 +302,8 @@
      "a": "Quanto custa?"
     },
     {
-     "q": "Das macht fünf Euro fünfzig. → ___",
+     "q": "Das macht fünf Euro fünfzig.",
+     "satz": "São cinco euros e cinquenta.",
      "a": "São cinco euros e cinquenta."
     },
     {
@@ -280,7 +311,8 @@
      "a": "É caro!"
     },
     {
-     "q": "Zwei Kilo Orangen, bitte. → ___",
+     "q": "Zwei Kilo Orangen, bitte.",
+     "satz": "Dois quilos de laranjas, se faz favor.",
      "a": "Dois quilos de laranjas, se faz favor."
     }
    ]

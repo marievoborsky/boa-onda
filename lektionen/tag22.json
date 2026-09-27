@@ -12,7 +12,8 @@
      "a": "Que tempo faz?"
     },
     {
-     "q": "Es regnet gerade: ___",
+     "q": "Es regnet gerade.",
+     "satz": "Está a chover.",
      "a": "Está a chover."
     },
     {
@@ -194,7 +195,12 @@
     },
     {
      "q": "Queria ___ garrafa (dort).",
-     "a": "aquela"
+     "opts": [
+      "aquela",
+      "aquele",
+      "esta"
+     ],
+     "a": "aquela – dort + weiblich (a garrafa)"
     },
     {
      "q": "___ saco (da, bei dir) é teu?",
@@ -224,7 +230,12 @@
     },
     {
      "q": "Genau! → ___!",
-     "a": "Isso"
+     "opts": [
+      "Isso",
+      "Isto",
+      "Aquilo"
+     ],
+     "a": "Isso – „Isso!“ = Genau!"
     }
    ]
   },
@@ -234,7 +245,12 @@
    "items": [
     {
      "q": "Wir brauchen Wasser: Precisamos ___ água.",
-     "a": "de"
+     "opts": [
+      "de",
+      "da",
+      "do"
+     ],
+     "a": "de – allgemein, ohne Artikel"
     },
     {
      "q": "Ich brauche das Brot: Preciso ___ pão.",
@@ -252,22 +268,38 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie compra a garrafa pequena.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – sie nimmt die große („Aquela.“)."
     },
     {
      "q": "As laranjas custam um euro e vinte o quilo.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "O João leva um protetor solar.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – zwei („Levamos dois.“)."
     },
     {
      "q": "A Marie quer um saco.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – sie hat schon einen („Tenho este.“)."
     }
    ]
@@ -277,7 +309,8 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Wie viel kostet das hier? → ___",
+     "q": "Wie viel kostet das hier?",
+     "satz": "Quanto custa isto?",
      "a": "Quanto custa isto?"
     },
     {
@@ -285,11 +318,13 @@
      "a": "Levo este. / Levo esta."
     },
     {
-     "q": "Wir brauchen Brot. → ___",
+     "q": "Wir brauchen Brot.",
+     "satz": "Precisamos de pão.",
      "a": "Precisamos de pão."
     },
     {
-     "q": "Jene Orangen dort sind teuer. → ___",
+     "q": "Jene Orangen dort sind teuer.",
+     "satz": "Aquelas laranjas são caras.",
      "a": "Aquelas laranjas são caras."
     }
    ]

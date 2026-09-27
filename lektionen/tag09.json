@@ -20,8 +20,13 @@
      "a": "avô"
     },
     {
-     "q": "„Cool“ auf gut Portugiesisch: ___",
-     "a": "fixe"
+     "q": "„Cool“ auf gut Portugiesisch:",
+     "opts": [
+      "fixe",
+      "legal",
+      "cool"
+     ],
+     "a": "fixe – EP; legal ist brasilianisch"
     }
    ]
   },
@@ -192,7 +197,12 @@
     },
     {
      "q": "As primas são ___ (giro)",
-     "a": "giras"
+     "opts": [
+      "giras",
+      "giros",
+      "gira"
+     ],
+     "a": "giras – weiblich Plural"
     }
    ]
   },
@@ -210,7 +220,12 @@
     },
     {
      "q": "Meine Augen sind braun. → Os meus olhos ___ ___.",
-     "a": "são castanhos"
+     "opts": [
+      "são castanhos",
+      "são marrons",
+      "estão castanhos"
+     ],
+     "a": "são castanhos – Eigenschaft = ser; marrom ist brasilianisch"
     }
    ]
   },
@@ -228,7 +243,12 @@
     },
     {
      "q": "Tem sono. Sempre: o ___",
-     "a": "João"
+     "opts": [
+      "João",
+      "Tomás",
+      "Vasco"
+     ],
+     "a": "João – hat immer Schlaf"
     },
     {
      "q": "Tem os olhos azuis: a ___",
@@ -238,18 +258,30 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch?",
+   "title": "5d · Richtig oder falsch? (antippen)",
    "items": [
     {
      "q": "O pai da Ana é baixo.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – er ist groß (alto)."
     },
     {
      "q": "A Ana tem os olhos castanhos, como a mãe.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "O João diz que tem o cabelo bonito.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – Ana findet: er hat vor allem Schlaf."
     }
    ]
@@ -259,19 +291,26 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Meine Schwester ist groß und lustig. → ___",
+     "q": "Meine Schwester ist groß und lustig.",
+     "satz": "A minha irmã é alta e engraçada.",
      "a": "A minha irmã é alta e engraçada."
     },
     {
-     "q": "Deine Augen sind sehr schön. → ___",
+     "q": "Deine Augen sind sehr schön.",
+     "satz": "Os teus olhos são muito bonitos.",
      "a": "Os teus olhos são muito bonitos."
     },
     {
-     "q": "Wie süß! (typisch EP) → ___",
-     "a": "Que giro!"
+     "q": "Wie süß! (typisch EP) →",
+     "opts": [
+      "Que giro!",
+      "Que legal!"
+     ],
+     "a": "Que giro! – typisch EP; legal ist brasilianisch"
     },
     {
-     "q": "Mein Opa hat eine Brille. → ___",
+     "q": "Mein Opa hat eine Brille.",
+     "satz": "O meu avô tem óculos.",
      "a": "O meu avô tem óculos."
     }
    ]

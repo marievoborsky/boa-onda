@@ -21,7 +21,12 @@
     },
     {
      "q": "Sie ist gefallen: Ela ___ (cair).",
-     "a": "caiu"
+     "opts": [
+      "caiu",
+      "caí",
+      "caiu-se"
+     ],
+     "a": "caiu – ela → -iu; caí = ich bin gefallen"
     }
    ]
   },
@@ -180,7 +185,12 @@
     },
     {
      "q": "Tu ___ ao mar? (ir)",
-     "a": "foste"
+     "opts": [
+      "foste",
+      "fuiste",
+      "foi"
+     ],
+     "a": "foste – tu → foste; fuiste ist Spanisch"
     },
     {
      "q": "___ um dia perfeito. (ser)",
@@ -210,7 +220,12 @@
     },
     {
      "q": "A Marie ___ dentro de água. (estar)",
-     "a": "esteve"
+     "opts": [
+      "esteve",
+      "está",
+      "estou"
+     ],
+     "a": "esteve – Perfekt von estar, 3. Person"
     },
     {
      "q": "Nós ___ uma coisa nova. (fazer)",
@@ -244,7 +259,12 @@
     },
     {
      "q": "Vor vier Wochen bin ich angekommen. → ___ quatro semanas cheguei.",
-     "a": "Há"
+     "opts": [
+      "Há",
+      "Faz",
+      "Antes"
+     ],
+     "a": "Há – há + Zeitspanne = vor; „faz“ ist brasilianisch"
     },
     {
      "q": "Was hast du gemacht? → O que é que ___?",
@@ -254,18 +274,30 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie não teve medo.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – „Tive medo, caí cem vezes, mas consegui.“"
     },
     {
      "q": "O João acordou antes das dez duas vezes.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – Ana nennt es ein Wunder."
     },
     {
      "q": "A Marie promete voltar no verão.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – „eu volto. No verão. Com mais português.“"
     }
    ]
@@ -279,11 +311,13 @@
      "a": "Foi incrível."
     },
     {
-     "q": "Wir sind nach Sagres gefahren. → ___",
-     "a": "Fomos a Sagres. / Fomos para Sagres."
+     "q": "Wir sind nach Sagres gefahren.",
+     "satz": "Fomos a Sagres.",
+     "a": "Fomos a Sagres."
     },
     {
-     "q": "Ich hatte Angst, aber ich habe es geschafft. → ___",
+     "q": "Ich hatte Angst, aber ich habe es geschafft.",
+     "satz": "Tive medo, mas consegui.",
      "a": "Tive medo, mas consegui."
     },
     {

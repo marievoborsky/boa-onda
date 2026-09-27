@@ -18,35 +18,51 @@
    "title": "A · Vokabeln: Wie heißt es auf Portugiesisch? (8 P.)",
    "items": [
     {
-     "q": "das Wochenende",
+     "q": "das Wochenende → ___",
      "a": "o fim de semana"
     },
     {
      "q": "Frühstück (EP!)",
-     "a": "o pequeno-almoço"
+     "opts": [
+      "o pequeno-almoço",
+      "o café da manhã"
+     ],
+     "a": "o pequeno-almoço – EP; café da manhã ist brasilianisch"
     },
     {
      "q": "Saft (EP!)",
-     "a": "o sumo"
+     "opts": [
+      "o sumo",
+      "o suco"
+     ],
+     "a": "o sumo – EP; suco ist brasilianisch"
     },
     {
-     "q": "die Rechnung",
+     "q": "die Rechnung → ___",
      "a": "a conta"
     },
     {
      "q": "cool (das EP-Wort)",
-     "a": "fixe"
+     "opts": [
+      "fixe",
+      "legal"
+     ],
+     "a": "fixe – EP; legal ist brasilianisch"
     },
     {
      "q": "die Großmutter (offenes o!)",
-     "a": "a avó"
+     "opts": [
+      "a avó",
+      "o avô"
+     ],
+     "a": "a avó – avó (offenes o) = Oma, avô = Opa"
     },
     {
-     "q": "achtzig",
+     "q": "achtzig → ___",
      "a": "oitenta"
     },
     {
-     "q": "Espresso in Lissabon",
+     "q": "Espresso in Lissabon → ___",
      "a": "a bica"
     }
    ]
@@ -77,7 +93,12 @@
     },
     {
      "q": "Und die goldene EP-Regel: ___ meu irmão (was fehlt vorne?)",
-     "a": "o"
+     "opts": [
+      "o",
+      "a",
+      "(nichts)"
+     ],
+     "a": "o – EP: Artikel vor dem Possessiv; ohne Artikel ist brasilianisch"
     }
    ]
   },
@@ -99,7 +120,12 @@
     },
     {
      "q": "Ele é jovem. Ela é ___.",
-     "a": "jovem"
+     "opts": [
+      "jovem",
+      "jova",
+      "jovema"
+     ],
+     "a": "jovem – Adjektive auf -em ändern sich nicht"
     },
     {
      "q": "O bolo é delicioso. A sopa é ___.",
@@ -133,7 +159,12 @@
     },
     {
      "q": "Gostamos ___ surf. (kein Artikel!)",
-     "a": "de"
+     "opts": [
+      "de",
+      "do",
+      "da"
+     ],
+     "a": "de – kein Artikel, also nur de"
     },
     {
      "q": "O Tomás gosta ___ vídeos do Vasco. (os vídeos)",
@@ -146,16 +177,20 @@
    "title": "E · Zahlen & Preise (6 P.)",
    "items": [
     {
-     "q": "35 →",
+     "q": "35 → ___",
      "a": "trinta e cinco"
     },
     {
-     "q": "76 →",
+     "q": "76 → ___",
      "a": "setenta e seis"
     },
     {
      "q": "100 →",
-     "a": "cem"
+     "opts": [
+      "cem",
+      "cento"
+     ],
+     "a": "cem – 100 allein heißt cem"
     },
     {
      "q": "Quanto ___ o galão?",
@@ -166,7 +201,8 @@
      "a": "custam"
     },
     {
-     "q": "„Das macht vier Euro fünfzig“:",
+     "q": "Das macht vier Euro fünfzig.",
+     "satz": "São quatro euros e cinquenta.",
      "a": "São quatro euros e cinquenta."
     }
    ]

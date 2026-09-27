@@ -16,8 +16,9 @@
      "a": "falas"
     },
     {
-     "q": "Wo wohnst du? → ___",
-     "a": "Onde é que moras? / Onde moras?"
+     "q": "Wo wohnst du? (mit „é que“)",
+     "satz": "Onde é que moras?",
+     "a": "Onde é que moras?"
     },
     {
      "q": "17 = ___",
@@ -185,7 +186,12 @@
     },
     {
      "q": "___ ___ pai fala alemão? (dein)",
-     "a": "O teu"
+     "opts": [
+      "O teu",
+      "Teu",
+      "A tua"
+     ],
+     "a": "O teu – EP: Artikel + Possessiv; pai ist männlich"
     },
     {
      "q": "___ ___ pais moram em Lisboa. (meine)",
@@ -215,7 +221,12 @@
     },
     {
      "q": "o irmão → os ___",
-     "a": "irmãos"
+     "opts": [
+      "irmãos",
+      "irmães",
+      "irmãs"
+     ],
+     "a": "irmãos – irmão → irmãos; irmãs = Schwestern"
     },
     {
      "q": "o pai + a mãe = os ___",
@@ -241,46 +252,67 @@
     },
     {
      "q": "O filho dos meus pais (nicht ich!) é o meu ___",
-     "a": "irmão"
+     "opts": [
+      "irmão",
+      "primo",
+      "tio"
+     ],
+     "a": "irmão – der Sohn meiner Eltern ist mein Bruder"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A família da Ana mora no Porto.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "A Ana tem uma irmã.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – einen Bruder, den Tomás."
     },
     {
      "q": "O avô da Ana está na foto.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – mit der Großmutter."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Übersetze",
+   "title": "5e · Übersetze (Satz bauen)",
    "items": [
     {
-     "q": "Meine Familie ist groß. → ___",
+     "q": "Meine Familie ist groß.",
+     "satz": "A minha família é grande.",
      "a": "A minha família é grande."
     },
     {
-     "q": "Dein Bruder ist cool! → ___",
+     "q": "Dein Bruder ist cool!",
+     "satz": "O teu irmão é fixe!",
      "a": "O teu irmão é fixe!"
     },
     {
-     "q": "Meine Großmutter wohnt in Porto. → ___",
+     "q": "Meine Großmutter wohnt in Porto.",
+     "satz": "A minha avó mora no Porto.",
      "a": "A minha avó mora no Porto."
     },
     {
-     "q": "Sind das deine Eltern? → ___",
+     "q": "Sind das deine Eltern?",
+     "satz": "São os teus pais?",
      "a": "São os teus pais?"
     }
    ]

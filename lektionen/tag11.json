@@ -21,7 +21,12 @@
     },
     {
      "q": "Saft auf EP: o ___",
-     "a": "sumo"
+     "opts": [
+      "sumo",
+      "suco",
+      "zumo"
+     ],
+     "a": "sumo – EP; suco ist brasilianisch, zumo Spanisch"
     }
    ]
   },
@@ -180,7 +185,8 @@
    "title": "5a · Bestelle höflich (mit Queria… se faz favor)",
    "items": [
     {
-     "q": "Einen Milchkaffee im Glas: ___",
+     "q": "Einen Milchkaffee im Glas, bitte.",
+     "satz": "Queria um galão, se faz favor.",
      "a": "Queria um galão, se faz favor."
     },
     {
@@ -206,7 +212,8 @@
      "a": "Não, obrigada. / Não, obrigado. (als Mann)"
     },
     {
-     "q": "„Mais alguma coisa?“ – du willst noch einen Kuchen: ___",
+     "q": "„Mais alguma coisa?“ – du willst noch einen Kuchen:",
+     "satz": "Sim, queria também um bolo.",
      "a": "Sim, queria também um bolo."
     },
     {
@@ -229,46 +236,67 @@
     },
     {
      "q": "Milchkaffee in der Tasse: a ___",
-     "a": "meia de leite"
+     "opts": [
+      "meia de leite",
+      "galão",
+      "bica"
+     ],
+     "a": "meia de leite – in der Tasse; galão im Glas, bica = Espresso"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie pede um galão e um pastel de nata.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "O João pede uma bica.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – zwei! Duas bicas. E uma sandes."
     },
     {
      "q": "O grupo tem muito tempo.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – o comboio é às três!"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Übersetze",
+   "title": "5e · Übersetze (Satz bauen)",
    "items": [
     {
-     "q": "Einen Tisch für zwei, bitte. → ___",
+     "q": "Einen Tisch für zwei, bitte.",
+     "satz": "Uma mesa para dois, se faz favor.",
      "a": "Uma mesa para dois, se faz favor."
     },
     {
-     "q": "Ich hätte gern einen Toast. → ___",
+     "q": "Ich hätte gern einen Toast.",
+     "satz": "Queria uma torrada, se faz favor.",
      "a": "Queria uma torrada, se faz favor."
     },
     {
-     "q": "Sonst noch etwas? → ___",
+     "q": "Sonst noch etwas?",
+     "satz": "Mais alguma coisa?",
      "a": "Mais alguma coisa?"
     },
     {
-     "q": "Die Rechnung, bitte. → ___",
+     "q": "Die Rechnung, bitte.",
+     "satz": "A conta, se faz favor.",
      "a": "A conta, se faz favor."
     }
    ]

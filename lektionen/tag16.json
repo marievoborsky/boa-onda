@@ -20,8 +20,13 @@
      "a": "de manhã"
     },
     {
-     "q": "Ich wache früh auf: ___",
-     "a": "Acordo cedo."
+     "q": "Ich wache früh auf:",
+     "opts": [
+      "Acordo cedo.",
+      "Acordo tarde.",
+      "Acordo-me cedo."
+     ],
+     "a": "Acordo cedo. – acordar ist nicht reflexiv; tarde = spät"
     }
    ]
   },
@@ -183,7 +188,12 @@
     },
     {
      "q": "Nós ___ às oito. (partir)",
-     "a": "partimos"
+     "opts": [
+      "partimos",
+      "partemos",
+      "partamos"
+     ],
+     "a": "partimos – -ir: nós → -imos"
     },
     {
      "q": "Eles ___ oito horas. (dormir)",
@@ -213,7 +223,12 @@
     },
     {
      "q": "Nós ___ cedo. (levantar-se)",
-     "a": "levantamo-nos"
+     "opts": [
+      "levantamo-nos",
+      "levantamos-nos",
+      "nos levantamos"
+     ],
+     "a": "levantamo-nos – das -s fällt vor nos weg; „nos levantamos“ steht im EP nur nach não/Fragewort"
     },
     {
      "q": "Eles ___ à meia-noite. (deitar-se)",
@@ -223,40 +238,56 @@
   },
   {
    "type": "exercise",
-   "title": "5c · Das Pronomen springt nach vorne!",
+   "title": "5c · Das Pronomen springt nach vorne! (Satz bauen)",
    "items": [
     {
-     "q": "Levanto-me cedo. → Verneint: ___",
+     "q": "Levanto-me cedo. → Verneint:",
+     "satz": "Não me levanto cedo.",
      "a": "Não me levanto cedo."
     },
     {
-     "q": "Deitas-te tarde. → Verneint: ___",
+     "q": "Deitas-te tarde. → Verneint:",
+     "satz": "Não te deitas tarde.",
      "a": "Não te deitas tarde."
     },
     {
-     "q": "Frag: Um wie viel Uhr stehst du auf? ___",
+     "q": "Frag: Um wie viel Uhr stehst du auf?",
+     "satz": "A que horas te levantas?",
      "a": "A que horas te levantas?"
     },
     {
-     "q": "Frag: Wie heißt du? ___",
+     "q": "Frag: Wie heißt du?",
+     "satz": "Como te chamas?",
      "a": "Como te chamas?"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie levanta-se às sete e meia.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "O João deita-se às onze.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – er lebt nachts, „ele vive à noite“."
     },
     {
      "q": "A Marie bebe café ao pequeno-almoço.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – chá (Tee)."
     }
    ]
@@ -266,7 +297,8 @@
    "title": "5e · Übersetze",
    "items": [
     {
-     "q": "Ich stehe um halb acht auf. → ___",
+     "q": "Ich stehe um halb acht auf.",
+     "satz": "Levanto-me às sete e meia.",
      "a": "Levanto-me às sete e meia."
     },
     {
@@ -278,7 +310,8 @@
      "a": "Aprendemos português."
     },
     {
-     "q": "Er geht spät schlafen. → ___",
+     "q": "Er geht spät schlafen.",
+     "satz": "Ele deita-se tarde.",
      "a": "Ele deita-se tarde."
     }
    ]

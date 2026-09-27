@@ -12,12 +12,21 @@
      "a": "estás / Estou"
     },
     {
-     "q": "Ela é / está alemã. · Ela é / está cansada.",
-     "a": "é (Nationalität) / está (Zustand)"
+     "q": "Ela ___ alemã. · Ela ___ cansada.",
+     "opts": [
+      "é / está",
+      "está / é"
+     ],
+     "a": "é / está – Nationalität = ser, Zustand = estar"
     },
     {
      "q": "Von Tag 1: Es ist 22 Uhr →",
-     "a": "Boa noite!"
+     "opts": [
+      "Boa noite!",
+      "Boa tarde!",
+      "Bom dia!"
+     ],
+     "a": "Boa noite! – ab dem Abend"
     }
    ]
   },
@@ -221,23 +230,28 @@
    "title": "5a · Schreib die Zahl als Wort",
    "items": [
     {
-     "q": "7 →",
+     "q": "7 → ___",
      "a": "sete"
     },
     {
-     "q": "12 →",
+     "q": "12 → ___",
      "a": "doze"
     },
     {
      "q": "16 →",
-     "a": "dezasseis"
+     "opts": [
+      "dezasseis",
+      "dezesseis",
+      "dezaseis"
+     ],
+     "a": "dezasseis – EP-Schreibweise; dezesseis ist brasilianisch"
     },
     {
-     "q": "19 →",
+     "q": "19 → ___",
      "a": "dezanove"
     },
     {
-     "q": "20 →",
+     "q": "20 → ___",
      "a": "vinte"
     }
    ]
@@ -247,19 +261,24 @@
    "title": "5b · Kopfrechnen auf Portugiesisch",
    "items": [
     {
-     "q": "dois + três =",
+     "q": "dois + três = ___",
      "a": "cinco"
     },
     {
      "q": "dez + quatro =",
-     "a": "catorze"
+     "opts": [
+      "catorze",
+      "quatorze",
+      "doze"
+     ],
+     "a": "catorze – 14; quatorze ist brasilianisch"
     },
     {
-     "q": "vinte − cinco =",
+     "q": "vinte − cinco = ___",
      "a": "quinze"
     },
     {
-     "q": "oito + oito =",
+     "q": "oito + oito = ___",
      "a": "dezasseis"
     }
    ]
@@ -274,7 +293,12 @@
     },
     {
      "q": "Quantos anos ___ tu?",
-     "a": "tens"
+     "opts": [
+      "tens",
+      "és",
+      "estás"
+     ],
+     "a": "tens – Alter mit ter: Quantos anos tens?"
     },
     {
      "q": "A Ana ___ vinte anos.",
@@ -292,18 +316,30 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Marie tem dezoito anos.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "A Marie é o bebé do grupo.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – sie ist die Jüngste."
     },
     {
      "q": "O João está doente.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – nur müde. Wie immer."
     }
    ]

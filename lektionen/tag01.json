@@ -138,20 +138,35 @@
   },
   {
    "type": "exercise",
-   "title": "5a · Welche Begrüßung passt?",
-   "intro": "Erst selbst laut antworten, dann Lösung aufdecken.",
+   "title": "5a · Welche Begrüßung passt? (antippen)",
+   "intro": "Erst selbst laut antworten, dann antippen.",
    "items": [
     {
      "q": "9:00 Uhr →",
-     "a": "Bom dia!"
+     "opts": [
+      "Bom dia!",
+      "Boa tarde!",
+      "Boa noite!"
+     ],
+     "a": "Bom dia! – morgens bis zum Mittag"
     },
     {
      "q": "15:00 Uhr →",
-     "a": "Boa tarde!"
+     "opts": [
+      "Boa tarde!",
+      "Bom dia!",
+      "Boa noite!"
+     ],
+     "a": "Boa tarde! – nachmittags"
     },
     {
      "q": "22:00 Uhr →",
-     "a": "Boa noite!"
+     "opts": [
+      "Boa noite!",
+      "Boa tarde!",
+      "Bom dia!"
+     ],
+     "a": "Boa noite! – am Abend und in der Nacht"
     }
    ]
   },
@@ -177,25 +192,42 @@
     },
     {
      "q": "Eu não ___ de Lisboa.",
-     "a": "sou"
+     "opts": [
+      "sou",
+      "é",
+      "és"
+     ],
+     "a": "sou – eu → sou"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5c · Richtig oder falsch? (zum Dialog)",
+   "title": "5c · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "A Ana é de Lisboa.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – sie ist aus Porto."
     },
     {
      "q": "A Marie é de Hamburgo.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     },
     {
      "q": "A Ana é do Porto.",
-     "a": "Richtig."
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so steht es im Dialog."
     }
    ]
   },
@@ -205,18 +237,21 @@
    "items": [
     {
      "q": "Hallo, ich bin die Marie.",
-     "a": "Olá, eu sou a Marie. (auch: Sou a Marie.)"
+     "satz": "Olá, eu sou a Marie.",
+     "a": "Olá, eu sou a Marie."
     },
     {
      "q": "Bist du der João?",
-     "a": "Tu és o João? (auch: És o João?)"
+     "satz": "Tu és o João?",
+     "a": "Tu és o João?"
     },
     {
-     "q": "Nein, ich bin nicht aus Lissabon.",
+     "q": "Nein, ich bin nicht aus Lissabon. → ___",
      "a": "Não, não sou de Lisboa."
     },
     {
      "q": "Danke und bis morgen! (als Frau)",
+     "satz": "Obrigada e até amanhã!",
      "a": "Obrigada e até amanhã!"
     }
    ]

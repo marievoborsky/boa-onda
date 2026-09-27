@@ -18,35 +18,49 @@
    "title": "A · Vokabeln: Wie heißt es auf Portugiesisch? (8 P.)",
    "items": [
     {
-     "q": "bis morgen",
+     "q": "bis morgen → ___",
      "a": "até amanhã"
     },
     {
      "q": "so lala",
-     "a": "mais ou menos"
+     "opts": [
+      "mais ou menos",
+      "muito bem",
+      "muito mal"
+     ],
+     "a": "mais ou menos – so lala; muito bem = sehr gut"
     },
     {
-     "q": "Sprache",
+     "q": "Sprache → ___",
      "a": "a língua"
     },
     {
      "q": "danke (als Frau)",
-     "a": "obrigada"
+     "opts": [
+      "obrigada",
+      "obrigado"
+     ],
+     "a": "obrigada – Frauen sagen obrigada"
     },
     {
-     "q": "krank",
+     "q": "krank → ___",
      "a": "doente"
     },
     {
      "q": "müde (w)",
-     "a": "cansada"
+     "opts": [
+      "cansada",
+      "cansado",
+      "doente"
+     ],
+     "a": "cansada – weiblich -a; doente = krank"
     },
     {
-     "q": "Antwort",
+     "q": "Antwort → ___",
      "a": "a resposta"
     },
     {
-     "q": "zu Hause",
+     "q": "zu Hause → ___",
      "a": "em casa"
     }
    ]
@@ -73,7 +87,12 @@
     },
     {
      "q": "Quantos anos ___ tu?",
-     "a": "tens"
+     "opts": [
+      "tens",
+      "és",
+      "estás"
+     ],
+     "a": "tens – Alter mit ter"
     },
     {
      "q": "A Ana e o João ___ amigos.",
@@ -107,7 +126,12 @@
     },
     {
      "q": "Ela mora ___ Porto.",
-     "a": "no"
+     "opts": [
+      "no",
+      "em",
+      "na"
+     ],
+     "a": "no – em + o Porto (Porto hat einen Artikel)"
     },
     {
      "q": "Trabalhas ___ Alemanha?",
@@ -120,27 +144,32 @@
    "title": "D · Zahlen als Wort (6 P.)",
    "items": [
     {
-     "q": "5 →",
+     "q": "5 → ___",
      "a": "cinco"
     },
     {
-     "q": "11 →",
+     "q": "11 → ___",
      "a": "onze"
     },
     {
      "q": "14 →",
-     "a": "catorze"
+     "opts": [
+      "catorze",
+      "quatorze",
+      "catorse"
+     ],
+     "a": "catorze – EP-Schreibweise; quatorze ist brasilianisch"
     },
     {
-     "q": "16 →",
+     "q": "16 → ___",
      "a": "dezasseis"
     },
     {
-     "q": "19 →",
+     "q": "19 → ___",
      "a": "dezanove"
     },
     {
-     "q": "20 →",
+     "q": "20 → ___",
      "a": "vinte"
     }
    ]
@@ -176,23 +205,27 @@
   },
   {
    "type": "exercise",
-   "title": "F · Fragen bilden – mit „é que\"! (4 P.)",
+   "title": "F · Fragen bilden – mit „é que\"! · Satz bauen (4 P.)",
    "items": [
     {
-     "q": "Du willst wissen, woher Diogo ist:",
-     "a": "De onde é que és? / De onde é que o Diogo é?"
+     "q": "Du willst wissen, woher Diogo ist – frag ihn direkt:",
+     "satz": "De onde é que és?",
+     "a": "De onde é que és?"
     },
     {
-     "q": "…wie alt Clara ist:",
-     "a": "Quantos anos é que tens? / … é que a Clara tem?"
+     "q": "…wie alt Clara ist – frag sie direkt:",
+     "satz": "Quantos anos é que tens?",
+     "a": "Quantos anos é que tens?"
     },
     {
-     "q": "…wo sie wohnt:",
-     "a": "Onde é que moras? / Onde é que ela mora?"
+     "q": "…wo sie wohnt – frag sie direkt:",
+     "satz": "Onde é que moras?",
+     "a": "Onde é que moras?"
     },
     {
-     "q": "…wie es ihm heute geht:",
-     "a": "Como é que estás? / Como é que ele está hoje?"
+     "q": "…wie es ihm heute geht – frag ihn direkt:",
+     "satz": "Como é que estás?",
+     "a": "Como é que estás?"
     }
    ]
   },

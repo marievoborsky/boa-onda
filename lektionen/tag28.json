@@ -18,43 +18,59 @@
    "title": "A · Vokabeln aus vier Wochen (10 P.)",
    "items": [
     {
-     "q": "Guten Abend",
+     "q": "Guten Abend → ___",
      "a": "Boa noite"
     },
     {
-     "q": "die Schwester",
+     "q": "die Schwester → ___",
      "a": "a irmã"
     },
     {
      "q": "der Zug (EP!)",
-     "a": "o comboio"
+     "opts": [
+      "o comboio",
+      "o trem"
+     ],
+     "a": "o comboio – EP; trem ist brasilianisch"
     },
     {
      "q": "der Bus (EP!)",
-     "a": "o autocarro"
+     "opts": [
+      "o autocarro",
+      "o ônibus"
+     ],
+     "a": "o autocarro – EP; ônibus ist brasilianisch"
     },
     {
      "q": "das Frühstück (EP!)",
-     "a": "o pequeno-almoço"
+     "opts": [
+      "o pequeno-almoço",
+      "o café da manhã"
+     ],
+     "a": "o pequeno-almoço – EP; café da manhã ist brasilianisch"
     },
     {
      "q": "die Speisekarte (EP!)",
-     "a": "a ementa"
+     "opts": [
+      "a ementa",
+      "o cardápio"
+     ],
+     "a": "a ementa – EP; cardápio ist brasilianisch"
     },
     {
-     "q": "links",
+     "q": "links → ___",
      "a": "à esquerda"
     },
     {
-     "q": "gestern",
+     "q": "gestern → ___",
      "a": "ontem"
     },
     {
-     "q": "das Wetter",
+     "q": "das Wetter → ___",
      "a": "o tempo"
     },
     {
-     "q": "zurückkommen",
+     "q": "zurückkommen → ___",
      "a": "voltar"
     }
    ]
@@ -73,7 +89,12 @@
     },
     {
      "q": "Nós ___ dezoito anos. (ter)",
-     "a": "temos"
+     "opts": [
+      "temos",
+      "somos",
+      "estamos"
+     ],
+     "a": "temos – Alter mit ter"
     },
     {
      "q": "O João ___ em Lisboa hoje. (estar)",
@@ -107,7 +128,12 @@
     },
     {
      "q": "Ela não ___ cedo. (deitar-se)",
-     "a": "se deita"
+     "opts": [
+      "se deita",
+      "deita-se",
+      "deita se"
+     ],
+     "a": "se deita – nach não springt das Pronomen nach vorn"
     },
     {
      "q": "Eu ___ surfar amanhã. (ir)",
@@ -137,7 +163,12 @@
     },
     {
      "q": "Vamos ___ pé. (zu Fuß)",
-     "a": "a"
+     "opts": [
+      "a",
+      "de",
+      "em"
+     ],
+     "a": "a – a pé ist die Ausnahme"
     },
     {
      "q": "Preciso ___ água.",
@@ -167,7 +198,12 @@
     },
     {
      "q": "Darf ich? → ___?",
-     "a": "Posso"
+     "opts": [
+      "Posso",
+      "Podo",
+      "Pode"
+     ],
+     "a": "Posso – ich darf; poder ist unregelmäßig"
     },
     {
      "q": "Bringen Sie mir die Rechnung: Traga-___ a conta.",
@@ -201,7 +237,12 @@
     },
     {
      "q": "___ um dia perfeito. (ser)",
-     "a": "Foi"
+     "opts": [
+      "Foi",
+      "Fui",
+      "Foram"
+     ],
+     "a": "Foi – 3. Person Singular Perfekt: es war"
     },
     {
      "q": "Eu ___ medo. (ter)",

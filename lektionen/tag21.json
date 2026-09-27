@@ -18,36 +18,52 @@
    "title": "A · Vokabeln: Wie heißt es auf Portugiesisch? (8 P.)",
    "items": [
     {
-     "q": "aufwachen",
+     "q": "aufwachen → ___",
      "a": "acordar"
     },
     {
-     "q": "sich schlafen legen",
+     "q": "sich schlafen legen → ___",
      "a": "deitar-se"
     },
     {
-     "q": "verstehen (das EP-Wort)",
+     "q": "verstehen (das EP-Wort) → ___",
      "a": "perceber"
     },
     {
      "q": "Sport (EP!)",
-     "a": "o desporto"
+     "opts": [
+      "o desporto",
+      "o esporte"
+     ],
+     "a": "o desporto – EP; esporte ist brasilianisch"
     },
     {
-     "q": "manchmal",
+     "q": "manchmal → ___",
      "a": "às vezes"
     },
     {
      "q": "das Bad (EP!)",
-     "a": "a casa de banho"
+     "opts": [
+      "a casa de banho",
+      "o banheiro"
+     ],
+     "a": "a casa de banho – EP; banheiro ist brasilianisch"
     },
     {
      "q": "der Zug (EP!)",
-     "a": "o comboio"
+     "opts": [
+      "o comboio",
+      "o trem"
+     ],
+     "a": "o comboio – EP; trem ist brasilianisch"
     },
     {
      "q": "es regnet gerade",
-     "a": "está a chover"
+     "opts": [
+      "está a chover",
+      "está chovendo"
+     ],
+     "a": "está a chover – EP: estar a + Infinitiv"
     }
    ]
   },
@@ -85,7 +101,12 @@
     },
     {
      "q": "Eles ___ à praia. (ir)",
-     "a": "vão"
+     "opts": [
+      "vão",
+      "vam",
+      "vamos"
+     ],
+     "a": "vão – eles → vão"
     }
    ]
   },
@@ -106,7 +127,8 @@
      "a": "levantamo-nos"
     },
     {
-     "q": "Verneine: Levanto-me cedo. → ___",
+     "q": "Verneine: Levanto-me cedo.",
+     "satz": "Não me levanto cedo.",
      "a": "Não me levanto cedo."
     },
     {
@@ -114,7 +136,8 @@
      "a": "A que horas te levantas?"
     },
     {
-     "q": "Frag: Wie heißt du? ___",
+     "q": "Frag: Wie heißt du?",
+     "satz": "Como te chamas?",
      "a": "Como te chamas?"
     }
    ]
@@ -133,7 +156,12 @@
     },
     {
      "q": "Vou ___ casa. (nach Hause)",
-     "a": "para"
+     "opts": [
+      "para",
+      "à",
+      "ao"
+     ],
+     "a": "para – para casa, ohne Artikel"
     },
     {
      "q": "___ verão faz calor.",
@@ -158,11 +186,13 @@
      "a": "vou estudar"
     },
     {
-     "q": "Wir werden die Tickets buchen. → ___",
+     "q": "Wir werden die Tickets buchen.",
+     "satz": "Vamos reservar os bilhetes.",
      "a": "Vamos reservar os bilhetes."
     },
     {
-     "q": "Sie (Plural) werden spät ankommen. → ___",
+     "q": "Sie (Plural) werden spät ankommen.",
+     "satz": "Vão chegar tarde.",
      "a": "Vão chegar tarde."
     },
     {
@@ -170,7 +200,8 @@
      "a": "Vou logo à praia."
     },
     {
-     "q": "Am Samstag werde ich surfen. → ___",
+     "q": "Am Samstag werde ich surfen.",
+     "satz": "No sábado vou surfar.",
      "a": "No sábado vou surfar."
     }
    ]

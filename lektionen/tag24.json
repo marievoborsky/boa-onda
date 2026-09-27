@@ -16,7 +16,8 @@
      "a": "Siga"
     },
     {
-     "q": "Entschuldigen Sie, wo ist der Platz? → ___",
+     "q": "Entschuldigen Sie, wo ist der Platz?",
+     "satz": "Desculpe, onde é a praça?",
      "a": "Desculpe, onde é a praça?"
     },
     {
@@ -200,7 +201,12 @@
     },
     {
      "q": "Eles ___ (querer) ir a pé.",
-     "a": "querem"
+     "opts": [
+      "querem",
+      "queren",
+      "quer"
+     ],
+     "a": "querem – eles → querem"
     },
     {
      "q": "O João ___ (poder) dormir no autocarro.",
@@ -222,7 +228,12 @@
     },
     {
      "q": "zu Fuß: ___ pé",
-     "a": "a"
+     "opts": [
+      "a",
+      "de",
+      "em"
+     ],
+     "a": "a – a pé ist die Ausnahme (sonst de)"
     },
     {
      "q": "mit dem Zug: ___ comboio",
@@ -252,7 +263,12 @@
     },
     {
      "q": "Können Sie das wiederholen? → ___ repetir?",
-     "a": "Pode"
+     "opts": [
+      "Pode",
+      "Podes",
+      "Posso"
+     ],
+     "a": "Pode – Sie-Form"
     },
     {
      "q": "Dürfen wir hier surfen? → ___ surfar aqui?",
@@ -262,40 +278,56 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zu den Dialogen)",
+   "title": "5d · Richtig oder falsch? (zu den Dialogen · antippen)",
    "items": [
     {
      "q": "A viagem de Lagos a Sagres demora duas horas.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – eine Stunde."
     },
     {
      "q": "O João quer dormir no autocarro.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – „Acordem-me em Sagres.“"
     },
     {
      "q": "A Marie quer a prancha pequena.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – die große, sie ist Anfängerin. Vasco: „Boa resposta.“"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Übersetze",
+   "title": "5e · Übersetze (Satz bauen)",
    "items": [
     {
-     "q": "Wie lange dauert die Reise? → ___",
+     "q": "Wie lange dauert die Reise?",
+     "satz": "Quanto tempo demora a viagem?",
      "a": "Quanto tempo demora a viagem?"
     },
     {
-     "q": "Wir fahren mit dem Bus nach Sagres. → ___",
+     "q": "Wir fahren mit dem Bus nach Sagres.",
+     "satz": "Vamos de autocarro para Sagres.",
      "a": "Vamos de autocarro para Sagres."
     },
     {
-     "q": "Ich will das große Brett. → ___",
+     "q": "Ich will das große Brett.",
+     "satz": "Quero a prancha grande.",
      "a": "Quero a prancha grande."
     },
     {
-     "q": "Darf ich das Fenster öffnen? → ___",
+     "q": "Darf ich das Fenster öffnen?",
+     "satz": "Posso abrir a janela?",
      "a": "Posso abrir a janela?"
     }
    ]

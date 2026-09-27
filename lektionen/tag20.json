@@ -8,7 +8,8 @@
    "title": "1 · Aufwärmen (von Tag 19)",
    "items": [
     {
-     "q": "Es gibt kein Bad: ___",
+     "q": "Es gibt kein Bad.",
+     "satz": "Não há casa de banho.",
      "a": "Não há casa de banho."
     },
     {
@@ -20,7 +21,8 @@
      "a": "da"
     },
     {
-     "q": "Heute bleibe ich zu Hause: ___",
+     "q": "Heute bleibe ich zu Hause.",
+     "satz": "Hoje fico em casa.",
      "a": "Hoje fico em casa."
     }
    ]
@@ -182,8 +184,12 @@
      "a": "Chove."
     },
     {
-     "q": "Es regnet gerade: ___",
-     "a": "Está a chover."
+     "q": "Es regnet gerade:",
+     "opts": [
+      "Está a chover.",
+      "Está chovendo."
+     ],
+     "a": "Está a chover. – EP: estar a + Infinitiv; chovendo ist brasilianisch"
     },
     {
      "q": "Das Wetter ist schlecht: ___ mau tempo.",
@@ -200,15 +206,21 @@
      "a": "Estou a estudar."
     },
     {
-     "q": "Er schläft gerade. → ___",
-     "a": "Ele está a dormir."
+     "q": "Er schläft gerade. →",
+     "opts": [
+      "Ele está a dormir.",
+      "Ele está dormindo."
+     ],
+     "a": "Ele está a dormir. – EP: estar a + Infinitiv"
     },
     {
-     "q": "Wir essen gerade. → ___",
+     "q": "Wir essen gerade.",
+     "satz": "Estamos a comer.",
      "a": "Estamos a comer."
     },
     {
-     "q": "Sie warten gerade. → ___",
+     "q": "Sie warten gerade.",
+     "satz": "Eles estão a esperar.",
      "a": "Eles estão a esperar."
     }
    ]
@@ -223,7 +235,12 @@
     },
     {
      "q": "___ primavera chove muito.",
-     "a": "Na"
+     "opts": [
+      "Na",
+      "No",
+      "Em"
+     ],
+     "a": "Na – a primavera ist weiblich"
     },
     {
      "q": "___ inverno faz frio.",
@@ -237,40 +254,56 @@
   },
   {
    "type": "exercise",
-   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "title": "5d · Richtig oder falsch? (zum Dialog · antippen)",
    "items": [
     {
      "q": "Na sexta-feira faz sol em Sagres.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Richtig – 22 Grad, klarer Himmel."
     },
     {
      "q": "As ondas vão ter três metros.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – einen Meter. Perfekt für Anfänger!"
     },
     {
      "q": "Em Lisboa também faz sol.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
      "a": "Falsch – dort regnet es gerade („está a chover“)."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5e · Übersetze",
+   "title": "5e · Übersetze (Satz bauen)",
    "items": [
     {
-     "q": "Wie ist das Wetter? → ___",
+     "q": "Wie ist das Wetter?",
+     "satz": "Que tempo faz?",
      "a": "Que tempo faz?"
     },
     {
-     "q": "Im Sommer ist es heiß. → ___",
+     "q": "Im Sommer ist es heiß.",
+     "satz": "No verão faz calor.",
      "a": "No verão faz calor."
     },
     {
-     "q": "Es regnet gerade. → ___",
+     "q": "Es regnet gerade.",
+     "satz": "Está a chover.",
      "a": "Está a chover."
     },
     {
-     "q": "Der Himmel ist klar. → ___",
+     "q": "Der Himmel ist klar.",
+     "satz": "O céu está limpo.",
      "a": "O céu está limpo."
     }
    ]

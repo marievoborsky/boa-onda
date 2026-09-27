@@ -13,7 +13,12 @@
     },
     {
      "q": "Eu ___ dezoito anos. (ter)",
-     "a": "tenho"
+     "opts": [
+      "tenho",
+      "sou",
+      "estou"
+     ],
+     "a": "tenho – Alter mit ter, nicht mit ser"
     },
     {
      "q": "Sou ___ Alemanha, mas agora estou ___ Portugal. (da/de/em)",
@@ -164,24 +169,32 @@
     },
     {
      "q": "Estás triste. ___? – Porque o João está doente.",
-     "a": "Porquê"
+     "opts": [
+      "Porquê",
+      "Porque",
+      "Por quê"
+     ],
+     "a": "Porquê – allein stehend mit Zirkumflex; „Por quê“ ist brasilianisch"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "5b · Bau die Frage mit „é que\"",
+   "title": "5b · Bau die Frage mit „é que\" (Satz bauen)",
    "items": [
     {
-     "q": "(de onde / tu / ser)",
+     "q": "Woher bist du? (mit „é que“)",
+     "satz": "De onde é que és?",
      "a": "De onde é que és?"
     },
     {
-     "q": "(como / ela / estar)",
+     "q": "Wie geht es ihr? (mit „é que“)",
+     "satz": "Como é que ela está?",
      "a": "Como é que ela está?"
     },
     {
-     "q": "(quantos anos / o João / ter)",
+     "q": "Wie alt ist João? (mit „é que“)",
+     "satz": "Quantos anos é que o João tem?",
      "a": "Quantos anos é que o João tem?"
     }
    ]
@@ -191,15 +204,22 @@
    "title": "5c · Ja/Nein-Frage – nur mit der Stimme! Welche Frage passt zur Antwort?",
    "items": [
     {
-     "q": "…? – Sim, sou de Hamburgo.",
+     "q": "Frage zur Antwort: „Sim, sou de Hamburgo.“",
+     "satz": "És de Hamburgo?",
      "a": "És de Hamburgo?"
     },
     {
      "q": "…? – Não, não estou cansada.",
-     "a": "Estás cansada?"
+     "opts": [
+      "Estás cansada?",
+      "És cansada?",
+      "Tens cansada?"
+     ],
+     "a": "Estás cansada? – Befinden = estar"
     },
     {
-     "q": "…? – Sim, ela é portuguesa.",
+     "q": "Frage zur Antwort: „Sim, ela é portuguesa.“",
+     "satz": "Ela é portuguesa?",
      "a": "Ela é portuguesa?"
     }
    ]
@@ -214,7 +234,11 @@
     },
     {
      "q": "Estou em casa ___ estou doente.",
-     "a": "porque"
+     "opts": [
+      "porque",
+      "porquê"
+     ],
+     "a": "porque – „weil“ als Konjunktion, ohne Zirkumflex"
     },
     {
      "q": "___ é que a Marie tem vinte perguntas?",
