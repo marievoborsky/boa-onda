@@ -894,7 +894,7 @@ function renderHome() {
     const zu = gesperrt(next.id);
     const schloss = `<span style="display:inline-flex; width:22px; height:22px; border-radius:50%; background:rgba(255,248,242,.25); align-items:center; justify-content:center; vertical-align:-5px; margin-right:.45rem">${SCHLOSS_SVG}</span>`;
     const lekBtn = zu
-      ? `<button class="mixbtn" onclick="zeigePaywall()">${schloss}Staffel 2 freischalten</button>`
+      ? `<button class="mixbtn" onclick="zeigePaywall()">${schloss}Premium freischalten</button>`
       : `<button class="mixbtn" onclick="openLesson('${next.id}')">Weiter: ${next.label}</button>`;
     if (n || nU) {
       // Erst wiederholen, dann weiter im Kurs (Kachel mit Fortschritt)
@@ -905,7 +905,7 @@ function renderHome() {
         <div class="icon">${next.bonus ? 'B' : 'L' + lessonNum(next)}</div>
         <div class="info">
           <div class="name">${next.label}</div>
-          <div class="theme">${zu ? 'Staffel 2 freischalten' : next.sub}</div>
+          <div class="theme">${zu ? 'Premium freischalten' : next.sub}</div>
           <div class="bar"><i style="width:${Math.round(100 * done / LESSONS.length)}%"></i></div>
         </div>
         ${zu ? `<div style="width:26px; height:26px; border-radius:50%; background:var(--lav-pale); color:var(--lav-ink); display:flex; align-items:center; justify-content:center; flex:none">${SCHLOSS_SVG}</div>`
@@ -1373,7 +1373,7 @@ function renderLessons() {
     else if (l === next) right = '<div class="mono" style="font-size:.75rem; letter-spacing:.12em; text-transform:uppercase; background:var(--clay); color:#fff; border-radius:999px; padding:.3rem .6rem; flex:none">Heute</div>';
     const div = kachel('spot', () => openLesson(l.id));
     div.id = 'lek-' + l.id;
-    if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', l.label + ' – gesperrt, Staffel 2 freischalten'); }
+    if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', l.label + ' – gesperrt, Premium freischalten'); }
     const probe = GRATIS.includes(l.id) && !istPremium() ? ' · gratis zum Ausprobieren' : '';
     div.innerHTML = `
       <div class="icon">${l.bonus ? 'B' : 'L' + lessonNum(l)}</div>
@@ -1620,7 +1620,7 @@ function renderTextos() {
     const dots = [1, 2, 3, 4, 5].map(i => `<span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:${i <= t.nivel ? 'var(--sea)' : 'var(--line)'}; margin-right:3px"></span>`).join('');
     const div = kachel('spot', () => openTexto(t.tag));
     const zu = gesperrt(t.tag);
-    if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', t.title + ' – gesperrt, Staffel 2 freischalten'); }
+    if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', t.title + ' – gesperrt, Premium freischalten'); }
     div.innerHTML = `
       <div class="icon">T${t.num}</div>
       <div class="info">
@@ -1847,7 +1847,7 @@ async function ladeJSON(pfad) {
   return daten;
 }
 function resetStore() {
-  if (!confirm('Wirklich alles zurücksetzen? Lektionen, Vokabelstand und Streak werden gelöscht. Ein eingelöster Code für Staffel 2 muss danach neu eingegeben werden.')) return;
+  if (!confirm('Wirklich alles zurücksetzen? Lektionen, Vokabelstand und Streak werden gelöscht. Ein eingelöster Code für Premium muss danach neu eingegeben werden.')) return;
   try { localStorage.removeItem('ep-sagres'); localStorage.removeItem('ep-sagres-kaputt'); } catch (e) {}
   location.reload();
 }
@@ -2009,13 +2009,16 @@ function renderMais() {
   ];
   const el = document.getElementById('mais-list');
   el.innerHTML = '';
+  const PREMIUM_MAIS = ['Arbeitsblätter', 'Jogos'];
   for (const [ic, title, sub, action] of items) {
+    const zu = PREMIUM_MAIS.includes(title) && !istPremium();
     const div = kachel('spot', null);
-    div.setAttribute('onclick', action);
+    div.setAttribute('onclick', zu ? 'zeigePaywall()' : action);
+    if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', title + ' – Premium'); }
     div.innerHTML = `
       <div class="icon">${MAIS_SVG[ic]}</div>
       <div class="info">
-        <div class="name">${title}</div>
+        <div class="name">${title}${zu ? ` <span class="kicker" style="display:inline-flex; align-items:center; gap:.25rem; margin-left:.3rem">${SCHLOSS_SVG} Premium</span>` : ''}</div>
         <div class="theme">${sub}</div>
       </div>`;
     el.appendChild(div);
@@ -2033,9 +2036,11 @@ async function renderDescobrir() {
   const el = document.getElementById('descobrir-list');
   el.innerHTML = '';
   DESCOBRIR.forEach((a, i) => {
-    const div = kachel('spot', () => openArtigo(a.id));
+    const zu = i >= DESCOBRIR_FREI && !istPremium();
+    const div = kachel('spot', () => zu ? zeigePaywall() : openArtigo(a.id));
+    if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', a.title + ' – Premium'); }
     div.innerHTML = `
-      <div class="icon">${String(i + 1).padStart(2, '0')}</div>
+      <div class="icon">${zu ? SCHLOSS_SVG : String(i + 1).padStart(2, '0')}</div>
       <div class="info">
         <div class="name">${a.title}</div>
         <div class="theme">${a.meta}</div>
@@ -2045,6 +2050,7 @@ async function renderDescobrir() {
 }
 function openArtigo(id) {
   const a = DESCOBRIR.find(x => x.id === id);
+  if (DESCOBRIR.indexOf(a) >= DESCOBRIR_FREI && !istPremium()) { zeigePaywall(); return; }
   document.getElementById('art-title').textContent = a.title;
   document.getElementById('art-meta').textContent = a.meta;
   // Foto-Strecke (eigene Aufnahmen) über dem Text
@@ -2884,14 +2890,17 @@ function checkOrder(row) {
   exVersuch(row, ok);
 }
 
-/* ==================== STAFFEL 2: KAUFSCHRANKE ====================
-   Staffel 2 (w >= 4) ist kostenpflichtig; Tag 29 ist die freie Probelektion.
+/* ==================== PREMIUM: KAUFSCHRANKE ====================
+   Woche 1 und 2 sind gratis. Ab Woche 3 (w >= 2) ist Premium nötig; Tag 15 ist die
+   freie Probelektion. Premium = Abo 5,99 €/Monat oder Einmalkauf 29,99 € (Launch-Preis).
+   Premium-Funktionen außerhalb der Lektionen: Spiele, Arbeitsblätter, Descobrir ab Artikel 4.
    Freigeschaltet wird per Code (Tester, Marie) – die Store-Kasse (Play Billing /
    Apple IAP) hängt sich später in kaufen() ein.
    EHRLICH: Das ist eine Sperre in der Oberfläche, kein Kopierschutz. Die Lektions-
    dateien liegen weiter öffentlich auf dem Server; echten Schutz gibt es erst mit
    einer Server-Komponente, die Kaufbelege prüft (siehe STAFFEL2.md). */
-const GRATIS = ['tag29'];
+const GRATIS = ['tag15'];
+const DESCOBRIR_FREI = 3;   // die ersten drei Artikel sind gratis
 const CODE_HASHES = [
   '2a057e1a539d9108817d6849b30ef90bfc6d03f60323e9bc9872b6d01a15b370',
   '5691b04b806aa42e4463045aeb5d87041b122bcee4f2aa0faa1c88f41fe9b755',
@@ -2913,7 +2922,7 @@ const CODE_HASHES = [
 function istPremium() { return !!(store.premium && store.premium.seit); }
 function gesperrt(id) {
   const l = LESSONS.find(x => x.id === id);
-  return !!l && l.w >= 4 && !GRATIS.includes(id) && !istPremium();
+  return !!l && l.w >= 2 && !GRATIS.includes(id) && !istPremium();
 }
 function lvocabFrei() { return (LVOCAB || []).filter(w => !gesperrt(w.lid)); }
 const SCHLOSS_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
@@ -2926,13 +2935,16 @@ function zeigePaywall() {
     el.onclick = e => { if (e.target === el) schliessePaywall(); };
     el.innerHTML = `
       <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
-        <div class="kicker">Staffel 2 · A2</div>
-        <h2 id="paywall-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">A volta</h2>
-        <div style="font-size:.9rem; font-weight:400; line-height:1.55; margin-bottom:.9rem">Ein Jahr später: Marie kommt für einen ganzen Sommer zurück. Porto, Coimbra, mit dem alten Van durchs Alentejo – und Sagres, diesmal als Surflehrerin.</div>
+        <div class="kicker">Boa Onda Premium</div>
+        <h2 id="paywall-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Weiter bis Sagres – und darüber hinaus</h2>
+        <div style="font-size:.9rem; font-weight:400; line-height:1.55; margin-bottom:.9rem">Die ersten zwei Wochen sind frei. Mit Premium reist du weiter: durch den Alltag in Milfontes, bis zum Finale in Sagres, und danach durch Staffel 2 und 3.</div>
         <div class="kicker" style="margin-bottom:.3rem">Was du bekommst</div>
-        <div class="mono" style="font-size:.75rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">28 Lektionen A2 – und Staffel 3 (B1, Lissabon) im Aufbau<br>alle Audios mit echten Stimmen<br>Arbeitsblätter zum Drucken</div>
-        <button class="mixbtn" style="margin:0 0 .5rem; transform:none" onclick="kaufen()">Staffel 2 freischalten</button>
-        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Einmalkauf, kein Abo · Tag 29 ist gratis zum Ausprobieren</div>
+        <div class="mono" style="font-size:.75rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">alle Lektionen: Woche 3 und 4, Staffel 2 (A2), Staffel 3 (B1, im Aufbau)<br>alle Audios mit echten Stimmen<br>Spiele, Arbeitsblätter und alle Descobrir-Artikel</div>
+        <div style="display:flex; gap:.5rem; margin-bottom:.5rem">
+          <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem" onclick="kaufen('abo')">5,99 € / Monat</button>
+          <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem; background:var(--lav-deep)" onclick="kaufen('einmal')">29,99 € einmal</button>
+        </div>
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo jederzeit kündbar · Einmalkauf ist der Launch-Preis · Tag 15 ist gratis zum Ausprobieren</div>
         <div style="display:flex; gap:.5rem">
           <input id="pw-code" class="exin" placeholder="Code einlösen …" autocapitalize="characters" autocorrect="off" spellcheck="false"
             onkeydown="if (event.key === 'Enter') codeEinloesen()">
@@ -2946,10 +2958,10 @@ function zeigePaywall() {
   dialogOeffnen(el, 'paywall-titel');
 }
 function schliessePaywall() { dialogSchliessen(document.getElementById('paywall')); }
-function kaufen() {
+function kaufen(art) {
   // Hier hängt sich später die Store-Kasse ein (Play Billing über die Digital Goods API,
-  // auf iOS StoreKit über die native Hülle). Bis zur Store-Version gibt es nur Codes.
-  meldung('Der Kauf kommt mit der App-Store-Version. Bis dahin: Code eingeben (unten) oder Tag 29 gratis ausprobieren.');
+  // auf iOS StoreKit über die native Hülle; art = 'abo' | 'einmal'). Bis zur Store-Version gibt es nur Codes.
+  meldung('Der Kauf kommt mit der App-Store-Version. Bis dahin: Code eingeben (unten) oder Tag 15 gratis ausprobieren.');
 }
 async function codeEinloesen() {
   const inp = document.getElementById('pw-code');
@@ -2969,7 +2981,7 @@ async function codeEinloesen() {
   save();
   VMAP = null;               // Reader-Wörterbuch mit den neuen Wörtern neu bauen
   schliessePaywall();
-  meldung('Staffel 2 ist freigeschaltet. Boa onda!');
+  meldung('Premium ist freigeschaltet. Boa onda!');
   goTab('kurs');
 }
 

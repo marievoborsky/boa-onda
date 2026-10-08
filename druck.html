@@ -63,16 +63,16 @@
 <footer>Boa Onda · Arbeitsblatt zum Ausdrucken · Lösungen auf der letzten Seite</footer>
 <script>
 const id = new URLSearchParams(location.search).get('id') || 'tag01';
-// Staffel 2 (ab Tag 30; Tag 29 ist die Probelektion) nur mit Freischaltung – gleiche Regel wie in der App
+// Ab Woche 3 (Tag 16 und Bonus; Tag 15 ist die Probelektion) nur mit Premium – gleiche Regel wie in der App
 const tagNr = +((id.match(/^tag(\d+)$/) || [])[1] || 0);
 let frei = true;
-if (tagNr >= 30) {
+if (tagNr >= 16 || id === 'sagres') {
   try { const st = JSON.parse(localStorage.getItem('ep-sagres') || '{}'); frei = !!(st.premium && st.premium.seit); } catch (e) { frei = false; }
 }
 if (!frei) {
   document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('title').textContent = 'Staffel 2';
-    document.getElementById('sub').textContent = 'Dieses Arbeitsblatt gehört zu Staffel 2. Schalte sie in der App frei, dann kannst du es hier drucken.';
+    document.getElementById('title').textContent = 'Premium';
+    document.getElementById('sub').textContent = 'Arbeitsblätter ab Woche 3 gehören zu Premium. Schalte es in der App frei, dann kannst du hier drucken.';
   });
 }
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
