@@ -1992,6 +1992,7 @@ function renderCadList() {
 
 /* ---------- Mais & Arbeitsblätter ---------- */
 const MAIS_SVG = {
+  deck: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="14" height="12" rx="2"/><path d="M7 7V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-2"/></svg>',
   compass: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>',
   printer: PRINT_SVG,
   grid: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>',
@@ -2006,6 +2007,7 @@ function renderMais() {
     ['printer', 'Arbeitsblätter', 'Alle Lektionen zum Ausdrucken', "goTab('blaetter')"],
     ['grid', 'Jogos', 'Kleine Spiele mit deinen Wörtern', "goTab('jogos')"],
     ['chart', 'Fortschritt', 'Deine Wochen, Wörter und Wackler', "goTab('fortschritt')"],
+    ['deck', 'Anki-Deck', 'Alle Vokabeln mit Audio für Anki', "zeigeAnki()"],
   ];
   const el = document.getElementById('mais-list');
   el.innerHTML = '';
@@ -2956,6 +2958,30 @@ function zeigePaywall() {
   }
   const inp = document.getElementById('pw-code'); if (inp) inp.value = '';
   dialogOeffnen(el, 'paywall-titel');
+}
+function zeigeAnki() {
+  let el = document.getElementById('anki-sheet');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'anki-sheet';
+    el.style.cssText = 'position:fixed; inset:0; z-index:80; background:var(--scrim); display:flex; align-items:flex-end; justify-content:center';
+    el.onclick = e => { if (e.target === el) dialogSchliessen(el); };
+    document.body.appendChild(el);
+  }
+  const prem = istPremium();
+  el.innerHTML = `
+    <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
+      <div class="kicker">Für Anki</div>
+      <h2 id="anki-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Deine Vokabeln als Anki-Deck</h2>
+      <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem">Alle Wörter mit Aussprache und Audio, im Boa-Onda-Look. Zwei Karten pro Wort: verstehen (Portugiesisch → Deutsch) und sagen (Deutsch → Portugiesisch, zum Tippen). Datei herunterladen und in Anki über „Datei → Importieren“ öffnen.</div>
+      <a class="mixbtn" style="display:block; text-align:center; text-decoration:none; margin:0 0 .5rem; transform:none" href="anki/boa-onda-woche-1-2.apkg" download>Woche 1 + 2 · 374 Wörter · 4 MB</a>
+      ${prem
+        ? `<a class="mixbtn" style="display:block; text-align:center; text-decoration:none; margin:0 0 .5rem; transform:none; background:var(--lav-deep)" href="anki/boa-onda-komplett.apkg" download>Alles · 965 Wörter · 10 MB</a>`
+        : `<button class="mixbtn" style="margin:0 0 .5rem; transform:none; background:var(--lav-deep)" onclick="dialogSchliessen(document.getElementById('anki-sheet')); zeigePaywall()">${SCHLOSS_SVG} Alles · 965 Wörter · Premium</button>`}
+      <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-top:.6rem">Anki gibt es kostenlos für Computer und Android, für iPhone als AnkiMobile. Der Lernstand in Anki bleibt beim nächsten Import erhalten.</div>
+      <button onclick="dialogSchliessen(document.getElementById('anki-sheet'))" class="kicker" style="display:block; margin:1rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem">Schließen</button>
+    </div>`;
+  dialogOeffnen(el, 'anki-titel');
 }
 function schliessePaywall() { dialogSchliessen(document.getElementById('paywall')); }
 function kaufen(art) {
