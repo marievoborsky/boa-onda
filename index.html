@@ -1743,6 +1743,8 @@ function derivados(p) {
   return out;
 }
 let LESEWORTE = [];   // Lesewörterbuch: Textwörter ohne Lektionsvokabel (tools/leseworte.py)
+// Code-Eingabe im Konto-Sheet erst aktivieren, wenn die Magic-Link-Mail {{ .Token }} enthält (eigener SMTP + Template)
+const KONTO_CODE_IN_MAIL = false;
 let VMAP_ART = {};   // token → 'form' (gebeugte Form) | 'teil' (Wort aus einem Mehrwort-Eintrag); exakt = kein Eintrag
 const STOPP = new Set(['de', 'da', 'do', 'das', 'dos', 'em', 'no', 'na', 'nos', 'nas', 'com', 'por', 'para', 'que', 'não', 'se', 'ao', 'aos', 'um', 'uma', 'uns', 'umas', 'o', 'a', 'os', 'as', 'e', 'ou', 'é', 'sol', 'vez', 'bem', 'mal', 'nada', 'tudo', 'muito', 'mais', 'já', 'lá', 'cá', 'aqui']);
 function vmap() {
@@ -3435,12 +3437,12 @@ function zeigeKonto() {
       <div class="kicker">Dein Konto</div>
       <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Schau in dein Postfach</h2>
       <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem" id="konto-gesendet">Schau in dein Postfach – der Link ist 1 Stunde gültig. Öffne ihn am besten auf diesem Gerät.${kontoMail ? `<br><span class="mono" style="font-size:.8rem; color:var(--ink-soft)">Gesendet an ${kontoMail}</span>` : ''}</div>
-      <div class="mono" style="font-size:.78rem; color:var(--ink-soft); line-height:1.5; margin-bottom:.4rem">Link klappt nicht? Öffne ihn auf dem Gerät, auf dem du ihn angefordert hast. Steht ein Code in der Mail, kannst du ihn hier eintippen:</div>
+      ${KONTO_CODE_IN_MAIL ? `      <div class="mono" style="font-size:.78rem; color:var(--ink-soft); line-height:1.5; margin-bottom:.4rem">Link klappt nicht? Öffne ihn auf dem Gerät, auf dem du ihn angefordert hast. Steht ein Code in der Mail, kannst du ihn hier eintippen:</div>
       <div style="display:flex; gap:.5rem; margin-bottom:.6rem">
         <input id="konto-code" class="exin" inputmode="numeric" autocomplete="one-time-code" placeholder="Code aus der Mail" aria-label="Code aus der Mail"
           onkeydown="if (event.key === 'Enter') kontoCodeBestaetigen()">
         <button onclick="kontoCodeBestaetigen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Bestätigen</button>
-      </div>
+      </div>` : `<div class="mono" style="font-size:.78rem; color:var(--ink-soft); line-height:1.5; margin-bottom:.6rem">Link klappt nicht? Öffne ihn auf dem Gerät und im Browser, in dem du ihn angefordert hast – oder fordere ihn dort neu an.</div>`}
       <button onclick="kontoMailGesendet = false; zeigeKonto()" class="mono" style="display:block; margin:0 auto; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Andere Adresse oder neuer Link</button>
       ${zu}`;
   } else {
