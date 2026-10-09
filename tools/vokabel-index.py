@@ -32,6 +32,7 @@ def main():
             continue
         with open(pfad, encoding='utf-8') as f:
             L = json.load(f)
+        if not isinstance(L, dict) or 'sections' not in L: continue   # index.json / leseworte.json überspringen
         lid = L.get('id') or name[:-5]
         vocab, dicas = [], []
         for i, sec in enumerate(L.get('sections', [])):

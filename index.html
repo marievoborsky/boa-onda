@@ -25,8 +25,8 @@
     --card: #fffdf6;         /* Karten-Weiß */
     --ink: #33294a;          /* tiefes Pflaume-Blau */
     --ink-soft: #5c5372;     /* vorher #6a6180 (4,2:1 auf Sand) – jetzt ≥ 5:1 auf Papier, Karte, Sand */
-    --line: var(--line);         /* Balken-Hintergrund, Rahmen, Punkte */
-    --line-soft: var(--line-soft);    /* Trennlinien in Listen */
+    --line: #ddd4c4;         /* Balken-Hintergrund, Rahmen, Punkte */
+    --line-soft: #ebe4d6;    /* Trennlinien in Listen */
     --lav: #b9a7e6;          /* Lavendel (Blobs) */
     --lav-deep: #6c5cb5;     /* Fläche mit weißer Schrift (vorher #7f6ec2, 4,3:1) */
     --lav-text: #6c5cb5;     /* Lavendel-Schrift auf Karte */
@@ -34,7 +34,7 @@
     --lav-pale: #e6dff5;
     --sea: #3fbfae;          /* Türkis – nur Flächen, Balken, Punkte */
     --sea-pale: #cdeae4;
-    --sea-ink: var(--sea-ink);      /* Türkis-Schrift (Zähler, Prozent, Prüfen) */
+    --sea-ink: #1b7267;      /* Türkis-Schrift (Zähler, Prozent, Prüfen) */
     --on-sea: #26203a;       /* Schrift auf --sea (Weiß hätte 2,3:1) */
     --clay: #c94726;         /* Klippen-Rot / Terracotta – Flächen (vorher #d9502e, Weiß darauf 4,1:1) */
     --clay-text: #c94726;    /* Terracotta-Schrift auf Karte */
@@ -110,7 +110,7 @@
     padding: calc(1.4rem + env(safe-area-inset-top)) 1.2rem calc(6.5rem + env(safe-area-inset-bottom)); }
   /* Tablet / Landscape: etwas breiter, aber Karten und Landkarte nicht riesig */
   @media (min-width: 768px) {
-    .wrap, .tabbar { max-width: 600px; }
+    .wrap, nav.tabbar { max-width: 600px; }
     .kmap { max-width: 440px; margin-left: auto; margin-right: auto; }
     .wpop { max-width: 568px; }
   }
@@ -685,6 +685,8 @@ function ladeStore() {
   }
   if (!s || typeof s !== 'object') return leererStore();
   if (!s.words || typeof s.words !== 'object') s.words = {};
+  // kaputte Einträge (box keine Zahl, due kein Datum) auf „neu, heute fällig“ zurücksetzen – sonst rechnet Leitner mit NaN
+  for (const k in s.words) { const w = s.words[k]; if (!w || typeof w !== 'object') { delete s.words[k]; continue; } if (typeof w.box !== 'number' || !(w.box >= 0)) w.box = 0; if (typeof w.due !== 'string') w.due = ''; }
   if (!s.lessons || typeof s.lessons !== 'object') s.lessons = {};
   if (!s.streak || typeof s.streak !== 'object') s.streak = { last: '', count: 0 };
   if (typeof s.streak.count !== 'number') s.streak.count = 0;
@@ -913,7 +915,7 @@ function renderHome() {
       main.appendChild(div);
     } else {
       main.innerHTML = zielRingHTML() + lekBtn + `
-        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin:-.7rem 0 1.2rem .3rem">${zu ? next.label + ' · Staffel 2' : next.sub} · ${done} von ${LESSONS.length} Lektionen</div>`;
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin:-.7rem 0 1.2rem .3rem">${zu ? next.label + ' · Premium' : next.sub} · ${done} von ${LESSONS.length} Lektionen</div>`;
     }
   }
   const tx = TEXTOS[Math.min(LESSONS.indexOf(next || LESSONS[LESSONS.length - 1]), TEXTOS.length - 1)];
@@ -966,6 +968,7 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
     if (dialogOffen('paywall')) { schliessePaywall(); return; }
     if (dialogOffen('abschluss')) { abschlussZumKurs(); return; }
+    if (dialogOffen('anki-sheet')) { dialogSchliessen(document.getElementById('anki-sheet')); return; }
     return;
   }
   if (e.key !== 'Enter' && e.key !== ' ') return;
@@ -1193,7 +1196,7 @@ function renderKursMap() {
 function renderKursMapFor(cfg) {
   const box = cfg.box;
   const done = cfg.done;
-  const total = 28; // der Sagres-Bonus steht außerhalb des 28-Tage-Bogens
+  const total = Math.min(28, LESSONS.filter(l => l.w >= cfg.w0 && l.w < cfg.w0 + 4 && !l.bonus).length) || 28; // Bonus zählt nicht zum 28-Tage-Bogen
   const ROTA = cfg.rota;
   // Kopfzeile ist zugleich der Zuklapp-Knopf, sobald es mehrere Staffeln gibt
   const mehrere = KARTEN.filter(k => LESSONS.some(l => l.w >= k.w0)).length > 1;
@@ -1323,11 +1326,7 @@ function renderLessons() {
   let letzteWoche = -1;
   const maxW = Math.max(...LESSONS.map(l => l.w));
   const kn = document.getElementById('kurs-naechste');
-  if (maxW < 3) {
-    kn.style.cssText = 'display:flex; align-items:center; gap:.55rem; opacity:.55';
-    kn.innerHTML = `<img src="etappen/${ETAPPE_IMG[maxW + 1]}.webp" alt=""
-      style="width:38px; height:38px; border-radius:11px; object-fit:cover; filter:grayscale(.4)">${WOCHEN[maxW + 1]} · em breve`;
-  } else if (maxW >= 4) {
+  if (maxW >= 4) {
     kn.style.cssText = ''; kn.innerHTML = '';
   } else {
     // Staffel 1 komplett in der Liste: Staffel-2-Teaser statt „nächste Woche"
@@ -1836,7 +1835,9 @@ function tapWord(el) {
   const pop = document.getElementById('wpop');
   playTok(n);
   const name = EIGENNAMEN[n];
-  if (name || (!e && /^[A-ZÀ-Ü]/.test(el.textContent))) {
+  const prev = el.previousElementSibling;
+  const satzanfang = !prev || !prev.classList.contains('wtok') || /[.!?…:]["»“”]?$/.test(prev.textContent.trim());
+  if (name || (!e && /^[A-ZÀ-Ü]/.test(el.textContent) && !satzanfang)) {
     pop.innerHTML = `
       <div style="display:flex; align-items:center; gap:.7rem">
         <button class="playbtn" aria-label="Anhören" onclick="playTok('${n}')">${PLAY_SVG}</button>
@@ -2005,7 +2006,7 @@ async function renderCaderno() {
   document.getElementById('cad-chips').innerHTML = F.map(([k, l]) => chip(cadFilter === k, `cadFilter='${k}'`, l)).join('');
   // Zwei Reihen: Woche (nur Wochen, die komplett frei sind – gesperrte Staffeln erscheinen gar nicht) und Thema.
   // Es gilt immer nur ein Filter; „Alle" der anderen Reihe zeigt an, dass dort nichts eingegrenzt ist.
-  const wochen = [...new Set(LESSONS.filter(l => l.w < 4 || istPremium()).map(l => l.w))];
+  const wochen = [...new Set(LESSONS.filter(l => !gesperrt(l.id)).map(l => l.w))];
   const istWoche = /^w\d$/.test(cadSpot), istThema = cadSpot !== 'all' && !istWoche;
   document.getElementById('cad-wochen').innerHTML = '<span class="chiplabel">Woche</span>' +
     chip(!istWoche, "cadSpot='all'", 'Alle') +
@@ -3235,6 +3236,8 @@ async function startLearn(block, arg) {
   else if (block === 'dica') queue = await dicaUebungen(arg);
   else {
     queue = dueWords(block);
+    // „Meine Wackler“ ist eine bewusste Wahl: dann alle Wackler, nicht nur die fälligen
+    if (block === 'wackler' && !queue.length) queue = shuffle(wacklerListe()).slice(0, 10);
     // Tages-Wiederholung: bis zu drei fällige Übungen unter die Vokabelkarten mischen
     if (block === 'mix') queue = mischeEin(queue, shuffle(await uebungsKarten(uebungenFaellig())).slice(0, 3));
   }
