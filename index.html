@@ -475,7 +475,7 @@
     <div id="hoje-main"></div>
     <div class="kurs-head">Heute außerdem</div>
     <div id="hoje-extra"></div>
-    <div class="footer-note">Dein Fortschritt bleibt auf diesem Gerät gespeichert.</div>
+    <div class="footer-note" id="hoje-foot">Dein Fortschritt bleibt auf diesem Gerät gespeichert.</div>
   </div>
 
   <!-- ========== KURS ========== -->
@@ -726,7 +726,15 @@ function leererStore() {
   return { words: {}, lessons: {}, streak: { last: '', count: 0 }, fehler: {}, tage: {}, uebungen: {}, tests: {}, sprechen: {}, ui: {}, v2: true, v4: true };
 }
 let store = ladeStore();
-function save() { try { localStorage.setItem('ep-sagres', JSON.stringify(store)); } catch (e) {} }
+/* Konto (optional, Supabase): Client, angemeldete Nutzerin, Sync-Timer – siehe Abschnitt KONTO & SYNC */
+let kontoClient = null, kontoUser = null, kontoBereit = false, syncTimer = null;
+/* Nur schreiben – ohne Sync anzustoßen (für Änderungen, die der Sync selbst macht) */
+function saveStill() { try { localStorage.setItem('ep-sagres', JSON.stringify(store)); } catch (e) {} }
+function save() {
+  store.ui.geaendert = new Date().toISOString();   // für den Abgleich mit dem Stand im Konto
+  saveStill();
+  syncPlanen();
+}
 /* Lokales Datum – toISOString() wäre UTC und würde den Streak nachts reißen */
 function today(d) {
   const x = d || new Date();
@@ -918,6 +926,22 @@ function renderHome() {
         <div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin:-.7rem 0 1.2rem .3rem">${zu ? next.label + ' · Premium' : next.sub} · ${done} von ${LESSONS.length} Lektionen</div>`;
     }
   }
+  // Konto-Hinweis: dezent, erst ab drei Lektionen, nur ohne Anmeldung, einmal wegklickbar (store.ui.kontoHinweis)
+  if (done >= 3 && kontoBereit && !kontoUser && !store.ui.kontoHinweis) {
+    const kh = kachel('spot dica-note', () => zeigeKonto());
+    kh.id = 'konto-hinweis';
+    kh.style.cursor = 'pointer';
+    kh.innerHTML = `
+      <div class="icon">${MAIS_SVG.user}</div>
+      <div class="info">
+        <div class="theme">Fortschritt sichern?</div>
+        <div class="name" style="font-size:.9rem; font-weight:500">Mit einem Konto lernst du auf allen Geräten weiter.</div>
+      </div>
+      <button class="kicker" style="border:none; background:none; cursor:pointer; min-height:44px; padding:0 .4rem; flex:none" aria-label="Hinweis ausblenden" onclick="event.stopPropagation(); kontoHinweisWeg()">Später</button>`;
+    main.appendChild(kh);
+  }
+  const foot = document.getElementById('hoje-foot');
+  if (foot) foot.textContent = kontoUser ? 'Dein Fortschritt ist mit deinem Konto verbunden.' : 'Dein Fortschritt bleibt auf diesem Gerät gespeichert.';
   const tx = TEXTOS[Math.min(LESSONS.indexOf(next || LESSONS[LESSONS.length - 1]), TEXTOS.length - 1)];
   const ex = document.getElementById('hoje-extra');
   ex.innerHTML = '';
@@ -969,6 +993,7 @@ document.addEventListener('keydown', e => {
     if (dialogOffen('paywall')) { schliessePaywall(); return; }
     if (dialogOffen('abschluss')) { abschlussZumKurs(); return; }
     if (dialogOffen('anki-sheet')) { dialogSchliessen(document.getElementById('anki-sheet')); return; }
+    if (dialogOffen('konto-sheet')) { dialogSchliessen(document.getElementById('konto-sheet')); return; }
     return;
   }
   if (e.key !== 'Enter' && e.key !== ' ') return;
@@ -1915,8 +1940,14 @@ async function ladeJSON(pfad) {
   JSON_CACHE[pfad] = daten;
   return daten;
 }
-function resetStore() {
-  if (!confirm('Wirklich alles zurücksetzen? Lektionen, Vokabelstand und Streak werden gelöscht. Ein eingelöster Code für Premium muss danach neu eingegeben werden.')) return;
+async function resetStore() {
+  const mitKonto = !!(kontoClient && kontoUser);
+  if (!confirm('Wirklich alles zurücksetzen? Lektionen, Vokabelstand und Streak werden gelöscht. Ein per Code freigeschaltetes Premium muss danach neu eingegeben werden.'
+    + (mitKonto ? ' Auch der Lernstand in deinem Konto wird geleert – Premium am Konto bleibt.' : ''))) return;
+  clearTimeout(syncTimer);
+  if (mitKonto && navigator.onLine) {
+    try { await kontoClient.from('progress').upsert({ user_id: kontoUser.id, data: {}, updated_at: new Date().toISOString() }); } catch (e) {}
+  }
   try { localStorage.removeItem('ep-sagres'); localStorage.removeItem('ep-sagres-kaputt'); } catch (e) {}
   location.reload();
 }
@@ -2070,6 +2101,7 @@ const MAIS_SVG = {
   book: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>',
   chart: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="20" x2="6" y2="14"/><line x1="12" y1="20" x2="12" y2="8"/><line x1="18" y1="20" x2="18" y2="4"/></svg>',
   mic: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg>',
+  user: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>',
 };
 function renderMais() {
   const items = [
@@ -2078,6 +2110,7 @@ function renderMais() {
     ['grid', 'Jogos', 'Kleine Spiele mit deinen Wörtern', "goTab('jogos')"],
     ['chart', 'Fortschritt', 'Deine Wochen, Wörter und Wackler', "goTab('fortschritt')"],
     ['deck', 'Anki-Deck', 'Alle Vokabeln mit Audio für Anki', "zeigeAnki()"],
+    ['user', 'Konto', kontoUser ? 'Angemeldet als ' + kontoUser.email : 'Anmelden, um auf allen Geräten weiterzulernen', "zeigeKonto()"],
   ];
   const el = document.getElementById('mais-list');
   el.innerHTML = '';
@@ -3022,6 +3055,7 @@ function zeigePaywall() {
             onkeydown="if (event.key === 'Enter') codeEinloesen()">
           <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
         </div>
+        <button onclick="schliessePaywall(); zeigeKonto()" class="mono" style="display:block; margin:.6rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Schon gekauft? Anmelden</button>
         <button onclick="schliessePaywall()" class="kicker" style="display:block; margin:1rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem">Später</button>
       </div>`;
     document.body.appendChild(el);
@@ -3068,17 +3102,422 @@ async function codeEinloesen() {
     const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(code));
     hex = [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
   } catch (e) { meldung('Der Code kann auf diesem Gerät nicht geprüft werden.'); return; }
-  if (!CODE_HASHES.includes(hex)) {
-    inp.classList.add('exfehl'); setTimeout(() => inp.classList.remove('exfehl'), 700);
-    meldung('Dieser Code ist nicht gültig.');
+  const fehl = text => { inp.classList.add('exfehl'); setTimeout(() => inp.classList.remove('exfehl'), 700); meldung(text); };
+  if (kontoClient && kontoUser) {
+    // Angemeldet: der Server prüft den Code und bindet Premium ans Konto (ein Code = ein Konto)
+    if (!navigator.onLine) { meldung('Du bist offline – der Code wird am Konto geprüft, dafür braucht es kurz Netz.'); return; }
+    let ok = false;
+    try {
+      const { data, error } = await kontoClient.rpc('redeem_code', { p_hash: hex });
+      if (error) throw error;
+      ok = data === true;
+    } catch (e) { meldung(kontoFehlerText(e)); return; }
+    if (!ok) { fehl('Code ungültig oder schon von einem anderen Konto benutzt.'); return; }
+    store.premium = { seit: today(), quelle: 'konto' };
+    save();
+    VMAP = null;
+    schliessePaywall();
+    meldung('Premium ist jetzt an dein Konto gebunden. Boa onda!');
+    goTab('kurs');
     return;
   }
+  if (!CODE_HASHES.includes(hex)) { fehl('Dieser Code ist nicht gültig.'); return; }
   store.premium = { seit: today(), art: 'code' };
   save();
   VMAP = null;               // Reader-Wörterbuch mit den neuen Wörtern neu bauen
   schliessePaywall();
-  meldung('Premium ist freigeschaltet. Boa onda!');
+  meldung(kontoClient ? 'Premium ist freigeschaltet. Melde dich an, dann gilt es auf allen Geräten.' : 'Premium ist freigeschaltet. Boa onda!');
   goTab('kurs');
+}
+
+/* ==================== KONTO & SYNC (Supabase) ====================
+   Freiwillig: ohne Konto bleibt alles wie bisher auf dem Gerät. Mit Konto (Anmelde-Link per
+   E-Mail, kein Passwort) wird der Lernstand in `progress` gespiegelt und Premium liegt im
+   `profiles`-Datensatz – die App darf Premium dort nicht selbst setzen (nur redeem_code, später die Kasse).
+   Der publishable key ist öffentlich; was jemand sehen darf, regeln die RLS-Policies (supabase/schema.sql).
+   Grundsatz: nie blockieren – jede Netzaktion läuft neben der Oberfläche her, Fehler werden gemerkt
+   (store.ui.syncOffen) und beim nächsten Start oder Online-Event nachgeholt. */
+const SUPABASE_URL = 'https://tzyuhwdcjcdyebtajmvu.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_Z7HQppHF-MrGJt3ficWyvA_DTlDGJ8x';
+const SYNC_FELDER = ['lessons', 'words', 'uebungen', 'tests', 'tage', 'streak', 'fehler', 'sprechen'];
+let kontoMail = '', kontoMailGesendet = false, syncLaeuft = false;
+function syncZustand() { const z = {}; for (const f of SYNC_FELDER) z[f] = store[f]; return z; }
+
+/* SYNC-MERGE-START – reine Funktionen, werden in tools/test-merge.js auch in Node geprüft */
+/* Streak aus den Tages-Einträgen: Kette qualifizierender Tage (Lektion, 10 Karten oder eine gelöste
+   Übung – dieselbe Regel wie streakPruefen), die heute oder gestern endet */
+function streakAusTagen(tage) {
+  const q = d => { const t = tage && tage[d]; return !!t && ((t.lektionen || 0) >= 1 || (t.karten || 0) >= ZIEL_KARTEN || (t.geloest || 0) >= 1); };
+  const vortag = d => new Date(d.getFullYear(), d.getMonth(), d.getDate() - 1, 12);
+  let d = new Date();
+  if (!q(today(d))) d = vortag(d);
+  if (!q(today(d))) return { last: '', count: 0 };
+  const last = today(d);
+  let n = 0;
+  while (q(today(d))) { n++; d = vortag(d); }
+  return { last, count: n };
+}
+/* Lokalen und Konto-Stand zusammenführen – monoton, Fortschritt geht nie verloren.
+   remoteNeuer: der Konto-Stand wurde später geändert als der lokale (entscheidet nur bei „sprechen“). */
+function mergeZustand(lokal, remote, remoteNeuer) {
+  const L = lokal || {}, R = remote || {};
+  const obj = o => (o && typeof o === 'object' && !Array.isArray(o)) ? o : {};
+  const keys = (a, b) => Array.from(new Set(Object.keys(a).concat(Object.keys(b))));
+  const out = {};
+  // Lektionen: Vereinigung, frühestes Abschlussdatum
+  out.lessons = {};
+  { const A = obj(L.lessons), B = obj(R.lessons);
+    for (const k of keys(A, B)) {
+      const a = A[k], b = B[k];
+      const da = typeof a === 'string' ? a : '', db = typeof b === 'string' ? b : '';
+      out.lessons[k] = (da && db) ? (da < db ? da : db) : (da || db || a || b);
+    } }
+  // Wörter und Übungen: pro Eintrag die höhere Box, bei Gleichstand das spätere Fälligkeitsdatum;
+  // „neu“ nur, wenn beide Seiten das Wort noch nie gesehen haben; Fehlerzähler = Maximum
+  const karte = (a, b) => {
+    if (!a || typeof a !== 'object') return Object.assign({}, b);
+    if (!b || typeof b !== 'object') return Object.assign({}, a);
+    const ba = +a.box || 0, bb = +b.box || 0;
+    const win = ba !== bb ? (ba > bb ? a : b) : ((a.due || '') >= (b.due || '') ? a : b);
+    const m = Object.assign({}, win);
+    if (a.neu && b.neu) m.neu = true; else delete m.neu;
+    if (a.fehl !== undefined || b.fehl !== undefined) m.fehl = Math.max(+a.fehl || 0, +b.fehl || 0);
+    if (ba === bb && !m.gelernt && (a.gelernt || b.gelernt)) m.gelernt = a.gelernt || b.gelernt;
+    return m;
+  };
+  for (const f of ['words', 'uebungen']) {
+    out[f] = {};
+    const A = obj(L[f]), B = obj(R[f]);
+    for (const k of keys(A, B)) out[f][k] = karte(A[k], B[k]);
+  }
+  // Tests: das bessere Ergebnis
+  out.tests = {};
+  { const A = obj(L.tests), B = obj(R.tests);
+    for (const k of keys(A, B)) {
+      const a = A[k], b = B[k];
+      if (!a) out.tests[k] = Object.assign({}, b); else if (!b) out.tests[k] = Object.assign({}, a);
+      else out.tests[k] = Object.assign({}, (+b.punkte || 0) > (+a.punkte || 0) ? b : a);
+    } }
+  // Tage: Vereinigung, je Feld das Maximum
+  out.tage = {};
+  { const A = obj(L.tage), B = obj(R.tage);
+    for (const k of keys(A, B)) {
+      const a = obj(A[k]), b = obj(B[k]), t = {};
+      for (const f of keys(a, b)) t[f] = Math.max(+a[f] || 0, +b[f] || 0);
+      out.tage[k] = t;
+    } }
+  // Fehler („Wackler“): höchster Zähler, späteres Datum
+  out.fehler = {};
+  { const A = obj(L.fehler), B = obj(R.fehler);
+    for (const k of keys(A, B)) {
+      const a = obj(A[k]), b = obj(B[k]);
+      out.fehler[k] = { n: Math.max(+a.n || 0, +b.n || 0), last: (a.last || '') >= (b.last || '') ? (a.last || '') : (b.last || '') };
+    } }
+  // Sprechen (Selbsteinschätzung): der zuletzt geänderte Stand gewinnt
+  out.sprechen = {};
+  { const A = obj(L.sprechen), B = obj(R.sprechen);
+    for (const k of keys(A, B)) out.sprechen[k] = (k in A && k in B) ? (remoteNeuer ? B[k] : A[k]) : (k in A ? A[k] : B[k]);
+  }
+  // Streak: aus den zusammengeführten Tagen neu berechnen; ein gespeicherter Streak mit gleichem
+  // Enddatum und höherem Zähler bleibt (ältere Tage vor der Tages-Statistik fehlen in `tage`)
+  const kand = [obj(L.streak), obj(R.streak), streakAusTagen(out.tage)].filter(s => typeof s.last === 'string' && s.last);
+  out.streak = { last: '', count: 0 };
+  for (const s of kand) {
+    const c = +s.count || 0;
+    if (s.last > out.streak.last || (s.last === out.streak.last && c > out.streak.count)) out.streak = { last: s.last, count: c };
+  }
+  return out;
+}
+/* SYNC-MERGE-END */
+
+/* Start: Client anlegen, Sitzung erkennen (auch aus einem Magic-Link-Rücksprung), URL säubern */
+function kontoStart() {
+  if (!window.supabase || !window.supabase.createClient) { kontoBereit = true; kontoNeuZeichnen(true); return; }
+  if (KONTO_URL) { try { history.replaceState(history.state, '', KONTO_URL); } catch (e) {} }
+  try {
+    kontoClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
+      auth: { detectSessionInUrl: true, persistSession: true, autoRefreshToken: true, flowType: 'pkce' },
+    });
+  } catch (e) { kontoClient = null; kontoBereit = true; kontoNeuZeichnen(true); return; }
+  kontoClient.auth.onAuthStateChange((ev, session) => {
+    // supabase-js: innerhalb des Callbacks keine Client-Aufrufe abwarten – deshalb entkoppelt
+    setTimeout(() => kontoEreignis(ev, session), 0);
+  });
+  const init = kontoClient.auth.initialize ? kontoClient.auth.initialize() : Promise.resolve({});
+  Promise.resolve(init).catch(e => ({ error: e })).then(async r => {
+    kontoUrlSaeubern();
+    if (!KONTO_URL) return;
+    // Rücksprung aus dem Anmelde-Link: Fehler aus der URL oder aus der Initialisierung verständlich melden
+    let fehler = (r && r.error) || (/error_description=|error_code=/.test(KONTO_URL) ? { message: decodeURIComponent((KONTO_URL.match(/error_description=([^&]*)/) || [, ''])[1].replace(/\+/g, ' ')) } : null);
+    if (!fehler && /[?&#]code=/.test(KONTO_URL)) {
+      // PKCE: ohne den Code-Verifier dieses Browsers ignoriert supabase-js den ?code= stillschweigend –
+      // typisch, wenn der Link in einem anderen Browser oder der Mail-App geöffnet wurde
+      let s = null;
+      try { s = (await kontoClient.auth.getSession()).data.session; } catch (e) {}
+      if (!s) fehler = { message: 'pkce code verifier' };
+    }
+    if (!fehler) return;
+    const m = String(fehler.message || fehler.name || '');
+    if (/verifier|pkce/i.test(m)) {
+      meldung('Der Link wurde in einem anderen Browser geöffnet. Fordere ihn hier noch einmal an und öffne ihn auf diesem Gerät.');
+      kontoMailGesendet = true; zeigeKonto();
+    } else if (/expired|invalid|otp/i.test(m)) meldung('Der Anmelde-Link ist abgelaufen oder wurde schon benutzt. Fordere einen neuen an.');
+    else meldung('Die Anmeldung hat nicht geklappt: ' + m);
+  });
+  // Später wieder im Vordergrund: Stand von anderen Geräten holen (höchstens alle fünf Minuten)
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState !== 'visible' || !kontoUser) return;
+    const z = store.ui.syncZeit ? Date.parse(store.ui.syncZeit) : 0;
+    if (store.ui.syncOffen || Date.now() - z > 5 * 60e3) kontoSync('sichtbar');
+  });
+}
+function kontoUrlSaeubern() {
+  if (!/(^|[?#&])(access_token|refresh_token|code|error|error_code|error_description|type)=/.test(location.search + location.hash)) return;
+  const h = (location.hash || '').slice(1);
+  const rein = location.pathname + (/^(tag\d\d|sagres)$/.test(h) ? '#' + h : '');
+  try { history.replaceState(history.state, '', rein); } catch (e) {}
+}
+function kontoEreignis(ev, session) {
+  const u = session && session.user ? session.user : null;
+  const vorher = kontoUser ? kontoUser.id : null;
+  kontoUser = u;
+  if (ev === 'INITIAL_SESSION') kontoBereit = true;
+  if (ev === 'SIGNED_OUT' || (!u && vorher)) { kontoAbgemeldet(); return; }
+  if (u && u.id !== vorher) {
+    if (ev === 'SIGNED_IN') { kontoMailGesendet = false; meldung('Angemeldet als ' + u.email + '. Dein Lernstand wird abgeglichen.'); }
+    kontoSync(ev === 'SIGNED_IN' ? 'login' : 'start');
+  }
+  kontoNeuZeichnen(true);
+}
+function kontoAbgemeldet() {
+  kontoUser = null;
+  clearTimeout(syncTimer);
+  // Premium am Konto gilt nur, solange das Konto angemeldet ist – ein per Code auf dem Gerät freigeschaltetes bleibt
+  if (store.premium && store.premium.quelle === 'konto') { store.premium = null; VMAP = null; }
+  delete store.ui.syncZeit; delete store.ui.syncOffen;
+  saveStill();
+  kontoNeuZeichnen(true);
+}
+/* Premium-Status aus profiles übernehmen – lokal gespiegelt, damit istPremium() auch offline stimmt */
+function premiumAusProfil(p) {
+  if (p && p.premium) {
+    const seit = String(p.premium_since || new Date().toISOString()).slice(0, 10);
+    if (!store.premium || store.premium.quelle !== 'konto') { store.premium = { seit, quelle: 'konto' }; VMAP = null; }
+  } else if (store.premium && store.premium.quelle === 'konto') { store.premium = null; VMAP = null; }
+  saveStill();
+}
+/* Abgleich: Profil und Lernstand lesen, zusammenführen, lokal speichern, hochladen */
+async function kontoSync(grund) {
+  if (!kontoClient || !kontoUser || syncLaeuft) return false;
+  if (!navigator.onLine) { syncMerken(true); return false; }
+  syncLaeuft = true;
+  let ok = false;
+  try {
+    const [p, g] = await Promise.all([
+      kontoClient.from('profiles').select('premium, premium_since').eq('user_id', kontoUser.id).maybeSingle(),
+      kontoClient.from('progress').select('data, updated_at').eq('user_id', kontoUser.id).maybeSingle(),
+    ]);
+    if (p.error) throw p.error;
+    if (g.error) throw g.error;
+    premiumAusProfil(p.data);
+    const vorher = JSON.stringify(syncZustand());
+    const remote = g.data && g.data.data && typeof g.data.data === 'object' ? g.data.data : {};
+    const remoteZeit = g.data && g.data.updated_at ? Date.parse(g.data.updated_at) : 0;
+    const lokalZeit = store.ui.geaendert ? Date.parse(store.ui.geaendert) : 0;
+    const m = mergeZustand(syncZustand(), remote, remoteZeit > lokalZeit);
+    for (const f of SYNC_FELDER) store[f] = m[f];
+    saveStill();
+    ok = await syncHoch();
+    if (JSON.stringify(syncZustand()) !== vorher) kontoNeuZeichnen();
+  } catch (e) { syncMerken(true); }
+  syncLaeuft = false;
+  if (dialogOffen('konto-sheet')) zeigeKonto();
+  return ok;
+}
+async function syncHoch() {
+  if (!kontoClient || !kontoUser) return false;
+  if (!navigator.onLine) { syncMerken(true); return false; }
+  try {
+    const { error } = await kontoClient.from('progress').upsert({ user_id: kontoUser.id, data: syncZustand(), updated_at: new Date().toISOString() });
+    if (error) throw error;
+    store.ui.syncZeit = new Date().toISOString();
+    delete store.ui.syncOffen;
+    saveStill();
+    if (dialogOffen('konto-sheet')) zeigeKonto();
+    return true;
+  } catch (e) { syncMerken(true); return false; }
+}
+function syncMerken(offen) {
+  if (offen) store.ui.syncOffen = true; else delete store.ui.syncOffen;
+  saveStill();
+  if (dialogOffen('konto-sheet')) zeigeKonto();
+}
+/* Nach jedem save(): verzögert hochladen (3 s), nur mit Sitzung und Netz */
+function syncPlanen() {
+  if (!kontoClient || !kontoUser) return;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(() => { syncTimer = null; syncHoch(); }, 3000);
+}
+window.addEventListener('online', () => { if (kontoUser && store.ui.syncOffen) kontoSync('online'); });
+/* Oberfläche nachziehen: nurSheet = nur das Konto-Sheet (falls offen) und die Heute-Zeilen, sonst auch den aktiven Bereich */
+function kontoNeuZeichnen(nurSheet) {
+  if (dialogOffen('konto-sheet')) zeigeKonto();
+  zeigeStreak();
+  const home = document.getElementById('home');
+  if (!nurSheet) {
+    const akt = TABVIEWS.find(id => document.getElementById(id).style.display === 'block');
+    if (akt && !['jogo', 'artigo'].includes(akt)) goTab(akt, true);
+  } else if (home && home.style.display === 'block') {
+    renderHome();
+  }
+}
+function kontoHinweisWeg() {
+  store.ui.kontoHinweis = true; save();
+  const el = document.getElementById('konto-hinweis');
+  if (el) el.remove();
+}
+/* Fehler von Supabase in verständlichem Deutsch */
+function kontoFehlerText(e) {
+  const m = String((e && (e.message || e.error_description || e.msg)) || e || '');
+  const st = e && (e.status || e.code);
+  if (st === 429 || /rate limit|too many|over_email_send_rate/i.test(m)) return 'Zu viele Anfragen – bitte warte ein paar Minuten und versuch es dann noch einmal.';
+  if (/failed to fetch|network|load failed|fetch/i.test(m)) return 'Keine Verbindung zum Server. Bist du online?';
+  if (/signups? not allowed|disabled/i.test(m)) return 'Neue Konten sind gerade nicht möglich. Versuch es später noch einmal.';
+  if (/expired|otp_expired/i.test(m)) return 'Der Code ist abgelaufen – fordere einen neuen Link an.';
+  if (/invalid|token/i.test(m)) return 'Der Code ist falsch oder nicht mehr gültig.';
+  if (/email|e-mail/i.test(m)) return 'Mit dieser E-Mail-Adresse hat es nicht geklappt. Bitte prüfe die Schreibweise.';
+  return 'Das hat nicht geklappt' + (m ? ': ' + m : '.');
+}
+function syncZeitText() {
+  if (!store.ui.syncZeit) return 'noch nicht';
+  const d = new Date(store.ui.syncZeit);
+  if (isNaN(d)) return 'noch nicht';
+  const hm = `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+  return (today(d) === today() ? 'heute, ' : `${d.getDate()}.${d.getMonth() + 1}., `) + hm;
+}
+/* ---------- Konto-Sheet ---------- */
+function zeigeKonto() {
+  let el = document.getElementById('konto-sheet');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'konto-sheet';
+    el.style.cssText = 'position:fixed; inset:0; z-index:80; background:var(--scrim); display:flex; align-items:flex-end; justify-content:center';
+    el.onclick = e => { if (e.target === el) dialogSchliessen(el); };
+    document.body.appendChild(el);
+  }
+  const offen = dialogOffen('konto-sheet');
+  const knopf = (text, onclick, stil) => `<button class="mixbtn" style="margin:0 0 .5rem; transform:none${stil ? '; ' + stil : ''}" onclick="${onclick}">${text}</button>`;
+  const zu = `<button onclick="dialogSchliessen(document.getElementById('konto-sheet'))" class="kicker" style="display:block; margin:1rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem">Schließen</button>`;
+  let inner;
+  if (!kontoClient) {
+    inner = `
+      <div class="kicker">Dein Konto</div>
+      <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Gerade nicht möglich</h2>
+      <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem">Die Anmeldung konnte nicht geladen werden. Dein Fortschritt bleibt wie bisher auf diesem Gerät – versuch es später mit Netz noch einmal.</div>${zu}`;
+  } else if (kontoUser) {
+    const pr = store.premium;
+    const datum = iso => { const m = /^(\d{4})-(\d\d)-(\d\d)/.exec(iso || ''); return m ? `${+m[3]}.${+m[2]}.${m[1]}` : iso; };
+    const prem = pr && pr.quelle === 'konto' ? `Premium: aktiv seit ${datum(pr.seit)}, an dieses Konto gebunden`
+      : pr && pr.seit ? 'Premium: auf diesem Gerät per Code freigeschaltet (noch nicht am Konto)'
+      : 'Premium: nicht aktiv';
+    const sync = `Zuletzt synchronisiert: ${syncZeitText()}${store.ui.syncOffen ? ' · Änderungen warten auf Netz' : ''}`;
+    inner = `
+      <div class="kicker">Dein Konto</div>
+      <h2 id="konto-titel" style="font-size:1.25rem; font-weight:700; margin:.2rem 0 .7rem; overflow-wrap:anywhere">${kontoUser.email || 'Angemeldet'}</h2>
+      <div class="mono" style="font-size:.78rem; line-height:1.7; color:var(--ink); margin-bottom:1rem" id="konto-status">${sync}<br>${prem}</div>
+      ${knopf(syncLaeuft ? 'Wird synchronisiert …' : 'Jetzt synchronisieren', 'kontoSyncJetzt()')}
+      ${knopf('Abmelden', 'kontoAbmelden()', 'background:var(--lav-deep); box-shadow:0 6px 18px rgba(127,110,194,.3)')}
+      <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; line-height:1.5; margin-top:.4rem">Beim Abmelden bleibt dein Fortschritt auf diesem Gerät.</div>
+      <button onclick="kontoLoeschen()" class="mono" style="display:block; margin:.8rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--clay-text); text-decoration:underline; text-underline-offset:3px">Konto löschen</button>
+      ${zu}`;
+  } else if (kontoMailGesendet) {
+    inner = `
+      <div class="kicker">Dein Konto</div>
+      <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Schau in dein Postfach</h2>
+      <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem" id="konto-gesendet">Schau in dein Postfach – der Link ist 1 Stunde gültig. Öffne ihn am besten auf diesem Gerät.${kontoMail ? `<br><span class="mono" style="font-size:.8rem; color:var(--ink-soft)">Gesendet an ${kontoMail}</span>` : ''}</div>
+      <div class="mono" style="font-size:.78rem; color:var(--ink-soft); line-height:1.5; margin-bottom:.4rem">Link klappt nicht? Öffne ihn auf dem Gerät, auf dem du ihn angefordert hast. Steht ein Code in der Mail, kannst du ihn hier eintippen:</div>
+      <div style="display:flex; gap:.5rem; margin-bottom:.6rem">
+        <input id="konto-code" class="exin" inputmode="numeric" autocomplete="one-time-code" placeholder="Code aus der Mail" aria-label="Code aus der Mail"
+          onkeydown="if (event.key === 'Enter') kontoCodeBestaetigen()">
+        <button onclick="kontoCodeBestaetigen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Bestätigen</button>
+      </div>
+      <button onclick="kontoMailGesendet = false; zeigeKonto()" class="mono" style="display:block; margin:0 auto; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Andere Adresse oder neuer Link</button>
+      ${zu}`;
+  } else {
+    inner = `
+      <div class="kicker">Dein Konto</div>
+      <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Auf allen Geräten weiterlernen</h2>
+      <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem">Mit einem Konto wird dein Fortschritt gesichert und läuft auf allen Geräten weiter. Premium gehört dann zu dir, nicht zum Gerät. Kein Passwort: Du bekommst einen Anmelde-Link per E-Mail.</div>
+      <input id="konto-mail" class="exin" type="email" inputmode="email" autocomplete="email" autocapitalize="off" autocorrect="off" spellcheck="false"
+        placeholder="deine@mail.de" aria-label="E-Mail-Adresse" value="${kontoMail.replace(/"/g, '')}" style="width:100%; margin-bottom:.6rem"
+        onkeydown="if (event.key === 'Enter') kontoLinkSenden()">
+      ${knopf('Link schicken', 'kontoLinkSenden()')}
+      <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; line-height:1.5; margin-top:.4rem">Freiwillig – ohne Konto bleibt alles wie bisher auf diesem Gerät.<br>E-Mail und Lernstand liegen bei Supabase in Frankfurt (EU), löschbar jederzeit.</div>
+      ${zu}`;
+  }
+  el.innerHTML = `<div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">${inner}</div>`;
+  if (!offen) dialogOeffnen(el, 'konto-titel');
+  else { const sheet = el.firstElementChild; sheet.setAttribute('role', 'dialog'); sheet.setAttribute('aria-modal', 'true'); sheet.setAttribute('aria-labelledby', 'konto-titel'); }
+}
+async function kontoLinkSenden() {
+  const inp = document.getElementById('konto-mail');
+  if (!inp || !kontoClient) return;
+  const email = (inp.value || '').trim().toLowerCase();
+  const fehl = text => { inp.classList.add('exfehl'); setTimeout(() => inp.classList.remove('exfehl'), 700); meldung(text); inp.focus(); };
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { fehl('Bitte eine gültige E-Mail-Adresse eingeben.'); return; }
+  if (!navigator.onLine) { meldung('Du bist offline – für den Anmelde-Link braucht es kurz Netz.'); return; }
+  const btn = inp.nextElementSibling;
+  if (btn) { btn.disabled = true; btn.textContent = 'Wird geschickt …'; }
+  try {
+    const { error } = await kontoClient.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname } });
+    if (error) throw error;
+  } catch (e) {
+    if (btn) { btn.disabled = false; btn.textContent = 'Link schicken'; }
+    fehl(kontoFehlerText(e));
+    return;
+  }
+  kontoMail = email; kontoMailGesendet = true;
+  zeigeKonto();
+}
+async function kontoCodeBestaetigen() {
+  const inp = document.getElementById('konto-code');
+  if (!inp || !kontoClient) return;
+  const token = (inp.value || '').replace(/\s+/g, '');
+  if (!token) { inp.focus(); return; }
+  if (!kontoMail) { meldung('Bitte zuerst die E-Mail-Adresse eingeben und einen Link anfordern.'); kontoMailGesendet = false; zeigeKonto(); return; }
+  try {
+    const { error } = await kontoClient.auth.verifyOtp({ email: kontoMail, token, type: 'email' });
+    if (error) throw error;
+  } catch (e) {
+    inp.classList.add('exfehl'); setTimeout(() => inp.classList.remove('exfehl'), 700);
+    meldung(kontoFehlerText(e));
+  }
+  // Erfolg meldet sich über onAuthStateChange (SIGNED_IN)
+}
+async function kontoSyncJetzt() {
+  if (!navigator.onLine) { meldung('Du bist offline – der Abgleich läuft, sobald wieder Netz da ist.'); syncMerken(true); return; }
+  const ok = await kontoSync('manuell');
+  meldung(ok ? 'Alles abgeglichen.' : (syncLaeuft ? 'Der Abgleich läuft gerade.' : 'Der Abgleich hat nicht geklappt – er wird später nachgeholt.'));
+}
+async function kontoAbmelden() {
+  if (!kontoClient) return;
+  try { await kontoClient.auth.signOut({ scope: 'local' }); } catch (e) {}
+  kontoAbgemeldet();
+  dialogSchliessen(document.getElementById('konto-sheet'));
+  meldung('Abgemeldet. Dein Fortschritt bleibt auf diesem Gerät.');
+}
+async function kontoLoeschen() {
+  if (!kontoClient || !kontoUser) return;
+  if (!confirm('Konto wirklich löschen? E-Mail, Lernstand im Konto und ein daran gebundenes Premium werden vom Server entfernt. Das lässt sich nicht rückgängig machen. Dein Fortschritt auf diesem Gerät bleibt.')) return;
+  if (!navigator.onLine) { meldung('Du bist offline – zum Löschen braucht es kurz Netz.'); return; }
+  try {
+    const { error } = await kontoClient.rpc('delete_own_account');
+    if (error) throw error;
+  } catch (e) { meldung(kontoFehlerText(e)); return; }
+  try { await kontoClient.auth.signOut({ scope: 'local' }); } catch (e) {}
+  kontoAbgemeldet();
+  dialogSchliessen(document.getElementById('konto-sheet'));
+  meldung('Dein Konto ist gelöscht. Dein Fortschritt bleibt auf diesem Gerät.');
 }
 
 /* ---------- Lückentext prüfen ---------- */
@@ -3390,7 +3829,11 @@ function finish(mode) {
 
 // Reload mitten in der Lektion: #tagNN in der URL öffnet sie wieder
 // (Hash VOR goTab lesen – show() ersetzt die URL ohne Hash)
-const startLektion = (location.hash || '').slice(1);
+const startHash = (location.hash || '').slice(1);
+const startLektion = /^(tag\d\d|sagres)$/.test(startHash) ? startHash : '';
+// Magic-Link-Rücksprung (#access_token=…, ?code=…, #error=…): URL sichern, bevor show() sie bereinigt –
+// kontoStart() stellt sie kurz zurück, damit supabase-js die Sitzung daraus lesen kann
+const KONTO_URL = /(^|[?#&])(access_token|refresh_token|code|error|error_code|error_description)=/.test(location.search + location.hash) ? location.href : '';
 goTab('home');
 if (LESSONS.some(l => l.id === startLektion)) openLesson(startLektion);
 // Lektionswörter gleich beim Start laden – sonst kennt Hoje die Wackler aus
@@ -3415,5 +3858,8 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }
 </script>
+<!-- Konto (optional): supabase-js liegt lokal (vendor/, MIT) und wird vom Service Worker gecacht -->
+<script src="vendor/supabase.js"></script>
+<script>kontoStart();</script>
 </body>
 </html>

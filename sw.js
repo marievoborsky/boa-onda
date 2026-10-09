@@ -1,6 +1,6 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v39';
+const SHELL = 'boa-onda-shell-v40';
 const AUDIO = 'boa-onda-audio-v1';
 // Vorab nur der Vokabel-Index und die erste Woche; jede weitere Lektion landet beim
 // ersten Öffnen im Cache (siehe fetch: Netz zuerst, Antwort wird gespeichert).
@@ -8,6 +8,7 @@ const LEKTIONEN = ['./lektionen/index.json', './lektionen/leseworte.json'].conca
 const CORE = [
   './index.html', './data.js', './manifest.webmanifest', './descobrir.json',
   './logo.webp', './karte.webp', './karte-lisboa.webp', './boa-onda-welle.webp', './datenschutz.html', './druck.html',
+  './vendor/supabase.js',   // Konto/Sync (supabase-js, MIT) – lokal, damit die App offline startet
   './fonts/fonts.css',
   './fonts/robotomono-af121f2f.woff2',
   './fonts/robotomono-fe832705.woff2',
@@ -50,6 +51,8 @@ function netzMitTimeout(req, ms) {
 self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
+  // Nur eigene Dateien cachen. Alles Fremde – vor allem die Supabase-API (Konto, Sync, Auth) –
+  // geht unangetastet ans Netz; eine gecachte Antwort wäre dort ein veralteter Lernstand.
   if (url.origin !== location.origin) return;
 
   if (url.pathname.includes('/audio/')) {
