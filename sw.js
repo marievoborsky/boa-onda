@@ -1,10 +1,10 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v36';
+const SHELL = 'boa-onda-shell-v38';
 const AUDIO = 'boa-onda-audio-v1';
 // Vorab nur der Vokabel-Index und die erste Woche; jede weitere Lektion landet beim
 // ersten Öffnen im Cache (siehe fetch: Netz zuerst, Antwort wird gespeichert).
-const LEKTIONEN = ['./lektionen/index.json'].concat(Array.from({ length: 7 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`));
+const LEKTIONEN = ['./lektionen/index.json', './lektionen/leseworte.json'].concat(Array.from({ length: 7 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`));
 const CORE = [
   './index.html', './data.js', './manifest.webmanifest', './descobrir.json',
   './logo.webp', './karte.webp', './karte-lisboa.webp', './boa-onda-welle.webp', './datenschutz.html', './druck.html',

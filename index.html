@@ -1686,6 +1686,7 @@ let VMAP = null;
    Nomen/Adjektive → Plural und weibliche Form. Exakte Treffer haben immer Vorrang. */
 function derivados(p) {
   const out = [];
+  const nomen = /^(o|a|os|as|um|uma)\s+/.test(p);   // Artikel davor = Nomen
   let w = p.replace(/^(o|a|os|as|um|uma)\s+/, '');
   if (w.includes(' ')) return out;           // Mehrwort-Einträge: nur Einzeltoken (unten)
   w = w.replace(/-se$/, '');
@@ -1712,34 +1713,74 @@ function derivados(p) {
   else if (/m$/.test(w)) out.push(w.replace(/m$/, 'ns'));
   else if (/[rsz]$/.test(w)) out.push(w + 'es');
   else out.push(w + 's');
-  if (/o$/.test(w)) out.push(w.replace(/o$/, 'a'), w.replace(/o$/, 'as'));
-  if (/[eê]s$/.test(w)) out.push(w.replace(/ês$/, 'esa'), w.replace(/ês$/, 'esas'), w.replace(/ês$/, 'eses'));
+  // weibliche Formen nur für Adjektive/Partizipien, nicht für Nomen (sonst: o ano → „ana“)
+  if (!nomen && /o$/.test(w)) out.push(w.replace(/o$/, 'a'), w.replace(/o$/, 'as'));
+  if (!nomen && /[eê]s$/.test(w)) out.push(w.replace(/ês$/, 'esa'), w.replace(/ês$/, 'esas'), w.replace(/ês$/, 'eses'));
   return out;
 }
+let LESEWORTE = [];   // Lesewörterbuch: Textwörter ohne Lektionsvokabel (tools/leseworte.py)
+let VMAP_ART = {};   // token → 'form' (gebeugte Form) | 'teil' (Wort aus einem Mehrwort-Eintrag); exakt = kein Eintrag
+const STOPP = new Set(['de', 'da', 'do', 'das', 'dos', 'em', 'no', 'na', 'nos', 'nas', 'com', 'por', 'para', 'que', 'não', 'se', 'ao', 'aos', 'um', 'uma', 'uns', 'umas', 'o', 'a', 'os', 'as', 'e', 'ou', 'é', 'sol', 'vez', 'bem', 'mal', 'nada', 'tudo', 'muito', 'mais', 'já', 'lá', 'cá', 'aqui']);
 function vmap() {
   if (VMAP) return VMAP;
-  VMAP = {};
+  VMAP = {}; VMAP_ART = {};
   const norm = t => t.toLowerCase().replace(/[?!.,…::]/g, '').trim();
   const liste = alleWorte();
-  const abgeleitet = [];
+  const abgeleitet = [], teile = [];
   for (const w of liste) {
     const parts = w.pt.split('/').map(p => norm(p)).filter(Boolean);
     for (const p of parts) {
+      const kern = p.replace(/^(o|a|os|as|um|uma)\s+/, '');
       if (!VMAP[p]) VMAP[p] = w;
-      const toks = p.split(/\s+/);
-      if (toks.length > 1) for (const t of toks) if (t.length > 2 && !VMAP[t]) VMAP[t] = w;
+      if (kern !== p && !VMAP[kern]) VMAP[kern] = w;          // „praia“ findet „a praia“
+      const toks = kern.split(/\s+/);
+      if (toks.length > 1) for (const t of toks) if (t.length > 2 && !STOPP.has(t)) teile.push([t, w]);
       for (const d of derivados(p)) abgeleitet.push([d, w]);
     }
   }
-  // Abgeleitete Formen erst danach, damit sie exakte Einträge nie überschreiben
-  for (const [d, w] of abgeleitet) if (!VMAP[d]) VMAP[d] = w;
-  // Unregelmäßige Verben: häufige Formen auf den Grundform-Eintrag zeigen lassen
-  for (const [inf, formen] of Object.entries(IRREG)) {
-    const e = VMAP[inf]; if (!e) continue;
-    for (const f of formen.split(' ')) if (!VMAP[f]) VMAP[f] = e;
+  // Lesewörterbuch (tools/leseworte.py): exakte Einträge zählen wie Vokabeln, Formen erst ganz am Ende
+  const lese = [];
+  for (const l of LESEWORTE) {
+    const e = { pt: l.pt, de: l.de, ipa: '', lese: true };
+    const p = norm(l.pt), kern = p.replace(/^(o|a|os|as|um|uma)\s+/, '');
+    if (!VMAP[p]) { VMAP[p] = e; VMAP_ART[p] = 'lese'; }
+    if (!VMAP[kern]) { VMAP[kern] = e; VMAP_ART[kern] = 'lese'; }
+    for (const d of derivados(p)) lese.push([d, e]);
   }
+  // 1. gebeugte Formen, 2. unregelmäßige Verben, 3. Wörter aus Mehrwort-Einträgen – nichts überschreibt Exaktes
+  for (const [d, w] of abgeleitet) if (!VMAP[d]) { VMAP[d] = w; VMAP_ART[d] = 'form'; }
+  for (const [inf, formen] of Object.entries(IRREG)) {
+    const e = VMAP[inf]; if (!e || VMAP_ART[inf]) continue;
+    for (const f of formen.split(' ')) if (!VMAP[f]) { VMAP[f] = e; VMAP_ART[f] = 'form'; }
+  }
+  for (const [t, w] of teile) if (!VMAP[t]) { VMAP[t] = w; VMAP_ART[t] = 'teil'; }
+  // 4. gebeugte Formen der Lesewörter (unterste Stufe)
+  for (const [d, e] of lese) if (!VMAP[d]) { VMAP[d] = e; VMAP_ART[d] = 'leseform'; }
   return VMAP;
 }
+// Nachschlagen mit Auflösung angehängter Pronomen: sentou-se → sentou, comprá-lo → comprar
+function nachschlagen(n) {
+  const m = vmap();
+  if (m[n]) return [m[n], VMAP_ART[n], n];
+  if (n.includes('-')) {
+    let base = n.split('-')[0];
+    const kand = [base, base.replace(/á$/, 'ar').replace(/ê$/, 'er').replace(/i$/, 'ir'), base + 'r'];
+    for (const k of kand) if (m[k]) return [m[k], VMAP_ART[k] || 'form', k];
+  }
+  return [null, null, n];
+}
+// Figuren und Orte der Geschichte – keine Vokabeln, aber antippbar
+const EIGENNAMEN = {
+  marie: 'Marie, 18, aus Hamburg – unsere Hauptfigur', ana: 'Ana, 20, aus Porto – Maries erste Freundin in Portugal', 'joão': 'João, 19, aus Lissabon – Anas Freund, ständig müde',
+  vasco: 'Vasco, Surflehrer in Sagres', 'tomás': 'Tomás, 12, Anas kleiner Bruder', 'inês': 'Inês, Anas große Schwester, Ärztin', tiago: 'Tiago, Student in Coimbra, singt Fado',
+  martim: 'Martim, 19, Surfschüler aus Lissabon', carolina: 'Carolina, Anas Großmutter in Porto', diogo: 'Diogo, aus Faro', clara: 'Clara, aus Madrid', sofia: 'Sofia, Maries Kollegin',
+  joana: 'Joana, Mitbewohnerin in Coimbra', alberto: 'Alberto, das Plastikskelett in Inês’ Wohnung', noor: 'Noor, 24, aus Rotterdam – Maries Kurskollegin', lurdes: 'Dona Lurdes, die Nachbarin im dritten Stock',
+  teresa: 'Professora Teresa, leitet den B1-Kurs', 'tó': 'Tio Tó (António), Joãos Onkel, Bäcker in Campo de Ourique', weber: 'Familie Weber aus München', 'zé': 'Zé – Kurzform von José',
+  porto: 'Porto – die Stadt im Norden, Anas Heimat', lisboa: 'Lissabon', sagres: 'Sagres – ganz im Südwesten, „o fim do mundo“', coimbra: 'Coimbra – die Universitätsstadt', milfontes: 'Vila Nova de Milfontes, Alentejo-Küste',
+  odemira: 'Odemira, Alentejo', alentejo: 'der Alentejo – die Region südlich des Tejo', hamburgo: 'Hamburg', berlim: 'Berlin', madrid: 'Madrid', munique: 'München', tejo: 'der Tejo – Lissabons Fluss', mondego: 'der Mondego – Coimbras Fluss',
+  mareta: 'Praia da Mareta, der Strand von Sagres', 'graça': 'Graça – Lissabonner Viertel auf dem Hügel', alfama: 'Alfama – das älteste Viertel Lissabons', baixa: 'Baixa – Lissabons Unterstadt', 'belém': 'Belém, Lissabon', lagos: 'Lagos, Algarve',
+  tunes: 'Tunes – Bahnknoten in der Algarve', faro: 'Faro, Algarve', portugal: 'Portugal', alemanha: 'Deutschland', douro: 'der Douro – Portos Fluss', 'ourique': 'Campo de Ourique – Lissabonner Viertel', 'kágados': '„Os Kágados“ – Tiagos república in Coimbra', leiria: 'Leiria – Stadt zwischen Lissabon und Coimbra', carcavelos: 'Carcavelos – Strand bei Lissabon', 'atlântico': 'der Atlantik', ribeira: 'Ribeira – Portos Flussviertel', gaia: 'Vila Nova de Gaia – gegenüber von Porto', sporting: 'Sporting – Fußballklub aus Lissabon', saldanha: 'Saldanha – Platz in Lissabon', rossio: 'Rossio – Platz in Lissabons Unterstadt', 'luís': 'Luís (Ponte Luís I in Porto)', vicente: 'São Vicente (Cabo de São Vicente bei Sagres)', algarve: 'die Algarve – Portugals Süden', majestic: 'Café Majestic in Porto', dinamarca: 'Dänemark', oriente: 'Oriente – Bahnhof in Lissabon', 'universitária': 'Cidade Universitária – der Uni-Campus in Lissabon', benfica: 'Benfica – Fußballklub aus Lissabon', mafra: 'Mafra (pão de Mafra)',
+};
 const IRREG = {
   ser: 'sou és é somos são era eras éramos eram fui foste foi fomos foram seja sejas sejam',
   estar: 'estou estás está estamos estão estava estavas estávamos estavam estive estiveste esteve estivemos estiveram esteja estejas estejam',
@@ -1768,8 +1809,9 @@ const IRREG = {
   haver: 'há havia houve haja',
 };
 function wordClass(n) {
-  const e = vmap()[n];
-  if (!e) return '';
+  if (EIGENNAMEN[n]) return '';          // Namen und Orte sind keine Vokabeln
+  const e = nachschlagen(n)[0];
+  if (!e || e.lese) return '';
   const st = store.words[e.id];
   if (st && st.box >= 2) return '';
   if (st && st.box >= 1) return 'wlearn';
@@ -1790,14 +1832,40 @@ function playTok(w) {
 function tapWord(el) {
   document.querySelectorAll('.wtok.wsel').forEach(x => x.classList.remove('wsel'));
   el.classList.add('wsel');
-  const n = el.dataset.w, e = vmap()[n];
+  const n = el.dataset.w, [e, art, key] = nachschlagen(n);
   const pop = document.getElementById('wpop');
   playTok(n);
+  const name = EIGENNAMEN[n];
+  if (name || (!e && /^[A-ZÀ-Ü]/.test(el.textContent))) {
+    pop.innerHTML = `
+      <div style="display:flex; align-items:center; gap:.7rem">
+        <button class="playbtn" aria-label="Anhören" onclick="playTok('${n}')">${PLAY_SVG}</button>
+        <div style="flex:1; min-width:0"><div class="mono" lang="pt" style="font-size:.95rem; font-weight:400">${el.textContent.replace(/[^\p{L}\p{N}’'-]/gu, '')}</div>
+          <div class="mono" style="font-size:.75rem; color:var(--ink-soft)">${name || 'Name oder Ort'}</div></div>
+      </div>`;
+    pop.style.display = 'block'; return;
+  }
+  if (e && e.lese) {
+    const form = (art === 'leseform' || key !== n) ? `<div class="mono" style="font-size:.72rem; color:var(--ink-soft)">${n} · Form von <i lang="pt">${e.pt}</i></div>` : '';
+    pop.innerHTML = `
+      <div style="display:flex; align-items:center; gap:.7rem">
+        <button class="playbtn" aria-label="Anhören" onclick="playTok('${n}')">${PLAY_SVG}</button>
+        <div style="flex:1; min-width:0">${form}
+          <div class="mono" lang="pt" style="font-size:.95rem; font-weight:400">${e.pt}</div>
+          <div class="mono" style="font-size:.75rem; color:var(--ink-soft)">${e.de} · <span style="opacity:.75">Lesewort, keine Vokabel</span></div>
+        </div>
+      </div>`;
+    pop.style.display = 'block'; return;
+  }
   if (e) {
+    const basis = e.pt.split(' / ')[0];
+    const hinweis = (art === 'form' || key !== n) ? `<div class="mono" style="font-size:.72rem; color:var(--ink-soft)">${n} · Form von <i lang="pt">${basis}</i></div>`
+      : art === 'teil' ? `<div class="mono" style="font-size:.72rem; color:var(--ink-soft)">${n} · kommt vor in <i lang="pt">${basis}</i></div>` : '';
     pop.innerHTML = `
       <div style="display:flex; align-items:center; gap:.7rem">
         <button class="playbtn" aria-label="Anhören" onclick="playTok('${n}')">${PLAY_SVG}</button>
         <div style="flex:1; min-width:0">
+          ${hinweis}
           <div class="mono" lang="pt" style="font-size:.95rem; font-weight:400">${e.pt}</div>
           <div class="mono" style="font-size:.75rem; color:var(--ink-soft)">${e.ipa} · ${e.de}</div>
         </div>
@@ -1826,7 +1894,7 @@ function markWord(id, box) {
   store.words[id] = st;
   save();
   document.querySelectorAll('.wtok').forEach(t => {
-    const e = vmap()[t.dataset.w];
+    const e = nachschlagen(t.dataset.w)[0];
     if (e && e.id === id) t.className = 'wtok ' + wordClass(t.dataset.w);
   });
   hideWpop();
@@ -1899,6 +1967,7 @@ function ladeLVocab() {
     // Kernwörter der ersten Lektion zuordnen, in der sie vorkommen (Reihenfolge von LESSONS)
     for (const x of listen) for (const kid of x.kern) if (!KERN_LID[kid]) KERN_LID[kid] = x.lid;
     LVOCAB = listen.map(x => x.raus).flat();
+    try { LESEWORTE = await ladeJSON('lektionen/leseworte.json'); } catch (e) { LESEWORTE = []; }
     VMAP = null;   // Reader-Wörterbuch mit Lektionswörtern neu aufbauen
     return LVOCAB;
   })();

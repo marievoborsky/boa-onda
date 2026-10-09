@@ -1,0 +1,1814 @@
+[
+ {
+  "pt": "depois",
+  "de": "danach, dann"
+ },
+ {
+  "pt": "antes",
+  "de": "vorher, früher"
+ },
+ {
+  "pt": "então",
+  "de": "dann, also"
+ },
+ {
+  "pt": "só",
+  "de": "nur; allein"
+ },
+ {
+  "pt": "quase",
+  "de": "fast"
+ },
+ {
+  "pt": "ainda",
+  "de": "noch"
+ },
+ {
+  "pt": "já",
+  "de": "schon"
+ },
+ {
+  "pt": "sempre",
+  "de": "immer"
+ },
+ {
+  "pt": "nunca",
+  "de": "nie"
+ },
+ {
+  "pt": "logo",
+  "de": "gleich, bald"
+ },
+ {
+  "pt": "cedo",
+  "de": "früh"
+ },
+ {
+  "pt": "tarde",
+  "de": "spät"
+ },
+ {
+  "pt": "agora",
+  "de": "jetzt"
+ },
+ {
+  "pt": "hoje",
+  "de": "heute"
+ },
+ {
+  "pt": "ontem",
+  "de": "gestern"
+ },
+ {
+  "pt": "amanhã",
+  "de": "morgen"
+ },
+ {
+  "pt": "duas",
+  "de": "zwei (weiblich)"
+ },
+ {
+  "pt": "dois",
+  "de": "zwei"
+ },
+ {
+  "pt": "três",
+  "de": "drei"
+ },
+ {
+  "pt": "cento",
+  "de": "hundert (in Zusammensetzungen: cento e um)"
+ },
+ {
+  "pt": "duzentos",
+  "de": "zweihundert"
+ },
+ {
+  "pt": "trezentos",
+  "de": "dreihundert"
+ },
+ {
+  "pt": "metade",
+  "de": "die Hälfte"
+ },
+ {
+  "pt": "segundo",
+  "de": "zweiter; die Sekunde"
+ },
+ {
+  "pt": "os segundos",
+  "de": "die Sekunden"
+ },
+ {
+  "pt": "terceiro",
+  "de": "dritter"
+ },
+ {
+  "pt": "terceira",
+  "de": "dritte"
+ },
+ {
+  "pt": "quinta",
+  "de": "fünfte; Donnerstag (quinta-feira)"
+ },
+ {
+  "pt": "segunda",
+  "de": "zweite; Montag (segunda-feira)"
+ },
+ {
+  "pt": "terça",
+  "de": "Dienstag (terça-feira)"
+ },
+ {
+  "pt": "quarta",
+  "de": "vierte; Mittwoch (quarta-feira)"
+ },
+ {
+  "pt": "sexta",
+  "de": "sechste; Freitag (sexta-feira)"
+ },
+ {
+  "pt": "cada",
+  "de": "jeder, jede, jedes"
+ },
+ {
+  "pt": "todo",
+  "de": "ganz, jeder"
+ },
+ {
+  "pt": "toda",
+  "de": "ganz, jede"
+ },
+ {
+  "pt": "todos",
+  "de": "alle"
+ },
+ {
+  "pt": "todas",
+  "de": "alle (weiblich)"
+ },
+ {
+  "pt": "outro",
+  "de": "anderer"
+ },
+ {
+  "pt": "outra",
+  "de": "andere"
+ },
+ {
+  "pt": "outros",
+  "de": "andere (Plural)"
+ },
+ {
+  "pt": "mesmo",
+  "de": "selbst; sogar; derselbe"
+ },
+ {
+  "pt": "mesma",
+  "de": "dieselbe"
+ },
+ {
+  "pt": "tanto",
+  "de": "so viel"
+ },
+ {
+  "pt": "demais",
+  "de": "zu viel, zu sehr"
+ },
+ {
+  "pt": "qualquer",
+  "de": "irgendein, beliebig"
+ },
+ {
+  "pt": "nenhuma",
+  "de": "keine"
+ },
+ {
+  "pt": "nenhum",
+  "de": "keiner"
+ },
+ {
+  "pt": "alguém",
+  "de": "jemand"
+ },
+ {
+  "pt": "ninguém",
+  "de": "niemand"
+ },
+ {
+  "pt": "nada",
+  "de": "nichts"
+ },
+ {
+  "pt": "tudo",
+  "de": "alles"
+ },
+ {
+  "pt": "nem",
+  "de": "nicht einmal; auch nicht"
+ },
+ {
+  "pt": "assim",
+  "de": "so, auf diese Weise"
+ },
+ {
+  "pt": "quê",
+  "de": "was (betont, am Satzende)"
+ },
+ {
+  "pt": "junho",
+  "de": "Juni"
+ },
+ {
+  "pt": "julho",
+  "de": "Juli"
+ },
+ {
+  "pt": "agosto",
+  "de": "August"
+ },
+ {
+  "pt": "setembro",
+  "de": "September"
+ },
+ {
+  "pt": "outubro",
+  "de": "Oktober"
+ },
+ {
+  "pt": "maio",
+  "de": "Mai"
+ },
+ {
+  "pt": "as férias",
+  "de": "die Ferien"
+ },
+ {
+  "pt": "o passado",
+  "de": "die Vergangenheit"
+ },
+ {
+  "pt": "me",
+  "de": "mich, mir"
+ },
+ {
+  "pt": "te",
+  "de": "dich, dir"
+ },
+ {
+  "pt": "lhe",
+  "de": "ihm, ihr"
+ },
+ {
+  "pt": "lhes",
+  "de": "ihnen"
+ },
+ {
+  "pt": "nos",
+  "de": "uns"
+ },
+ {
+  "pt": "vos",
+  "de": "euch"
+ },
+ {
+  "pt": "mim",
+  "de": "mir, mich (nach Präposition)"
+ },
+ {
+  "pt": "ti",
+  "de": "dir, dich (nach Präposition)"
+ },
+ {
+  "pt": "si",
+  "de": "sich; Ihnen"
+ },
+ {
+  "pt": "connosco",
+  "de": "mit uns"
+ },
+ {
+  "pt": "dele",
+  "de": "von ihm, sein"
+ },
+ {
+  "pt": "dela",
+  "de": "von ihr, ihr"
+ },
+ {
+  "pt": "deles",
+  "de": "von ihnen, ihr"
+ },
+ {
+  "pt": "delas",
+  "de": "von ihnen, ihr (weiblich)"
+ },
+ {
+  "pt": "desta",
+  "de": "von dieser"
+ },
+ {
+  "pt": "deste",
+  "de": "von diesem"
+ },
+ {
+  "pt": "nesta",
+  "de": "in dieser"
+ },
+ {
+  "pt": "neste",
+  "de": "in diesem"
+ },
+ {
+  "pt": "aí",
+  "de": "da (bei dir)"
+ },
+ {
+  "pt": "cá",
+  "de": "hier"
+ },
+ {
+  "pt": "lá",
+  "de": "dort"
+ },
+ {
+  "pt": "fora",
+  "de": "draußen"
+ },
+ {
+  "pt": "dentro",
+  "de": "drinnen"
+ },
+ {
+  "pt": "trás",
+  "de": "hinten (para trás = zurück)"
+ },
+ {
+  "pt": "junto",
+  "de": "zusammen, nahe"
+ },
+ {
+  "pt": "o lado",
+  "de": "die Seite (ao lado = daneben)"
+ },
+ {
+  "pt": "o meio",
+  "de": "die Mitte (no meio = mittendrin)"
+ },
+ {
+  "pt": "o fundo",
+  "de": "der Hintergrund, der Grund (ao fundo = hinten)"
+ },
+ {
+  "pt": "o canto",
+  "de": "die Ecke"
+ },
+ {
+  "pt": "o resto",
+  "de": "der Rest"
+ },
+ {
+  "pt": "o princípio",
+  "de": "der Anfang"
+ },
+ {
+  "pt": "o ponto",
+  "de": "der Punkt"
+ },
+ {
+  "pt": "a causa",
+  "de": "die Ursache (por causa de = wegen)"
+ },
+ {
+  "pt": "claro",
+  "de": "klar, natürlich; hell"
+ },
+ {
+  "pt": "escuro",
+  "de": "dunkel"
+ },
+ {
+  "pt": "escuras",
+  "de": "dunkel (Plural, weiblich)"
+ },
+ {
+  "pt": "a verdade",
+  "de": "die Wahrheit"
+ },
+ {
+  "pt": "sério",
+  "de": "ernst (a sério = im Ernst)"
+ },
+ {
+  "pt": "normal",
+  "de": "normal"
+ },
+ {
+  "pt": "raro",
+  "de": "selten"
+ },
+ {
+  "pt": "estranho",
+  "de": "seltsam"
+ },
+ {
+  "pt": "perigoso",
+  "de": "gefährlich"
+ },
+ {
+  "pt": "importante",
+  "de": "wichtig"
+ },
+ {
+  "pt": "perfeito",
+  "de": "perfekt"
+ },
+ {
+  "pt": "perfeita",
+  "de": "perfekt (weiblich)"
+ },
+ {
+  "pt": "perfeitas",
+  "de": "perfekt (Plural, weiblich)"
+ },
+ {
+  "pt": "fantástico",
+  "de": "fantastisch"
+ },
+ {
+  "pt": "fantástica",
+  "de": "fantastisch (weiblich)"
+ },
+ {
+  "pt": "famoso",
+  "de": "berühmt"
+ },
+ {
+  "pt": "oficial",
+  "de": "offiziell"
+ },
+ {
+  "pt": "rápido",
+  "de": "schnell"
+ },
+ {
+  "pt": "forte",
+  "de": "stark"
+ },
+ {
+  "pt": "fraco",
+  "de": "schwach"
+ },
+ {
+  "pt": "fina",
+  "de": "dünn, fein"
+ },
+ {
+  "pt": "largo",
+  "de": "breit"
+ },
+ {
+  "pt": "liso",
+  "de": "glatt"
+ },
+ {
+  "pt": "molhado",
+  "de": "nass"
+ },
+ {
+  "pt": "molhada",
+  "de": "nass (weiblich)"
+ },
+ {
+  "pt": "quieta",
+  "de": "still, ruhig"
+ },
+ {
+  "pt": "magra",
+  "de": "dünn, schlank"
+ },
+ {
+  "pt": "torto",
+  "de": "schief"
+ },
+ {
+  "pt": "sozinha",
+  "de": "allein (weiblich)"
+ },
+ {
+  "pt": "sozinho",
+  "de": "allein"
+ },
+ {
+  "pt": "sentado",
+  "de": "sitzend"
+ },
+ {
+  "pt": "sentada",
+  "de": "sitzend (weiblich)"
+ },
+ {
+  "pt": "caído",
+  "de": "gefallen, umgefallen"
+ },
+ {
+  "pt": "escrito",
+  "de": "geschrieben"
+ },
+ {
+  "pt": "ligado",
+  "de": "an, eingeschaltet"
+ },
+ {
+  "pt": "correta",
+  "de": "richtig, korrekt"
+ },
+ {
+  "pt": "único",
+  "de": "einzig"
+ },
+ {
+  "pt": "próxima",
+  "de": "nächste"
+ },
+ {
+  "pt": "própria",
+  "de": "eigene"
+ },
+ {
+  "pt": "honesta",
+  "de": "ehrlich"
+ },
+ {
+  "pt": "exatamente",
+  "de": "genau"
+ },
+ {
+  "pt": "baixinho",
+  "de": "ganz leise"
+ },
+ {
+  "pt": "um bocadinho",
+  "de": "ein bisschen"
+ },
+ {
+  "pt": "bem-vinda",
+  "de": "willkommen (zu einer Frau)"
+ },
+ {
+  "pt": "bem-vindos",
+  "de": "willkommen (zu mehreren)"
+ },
+ {
+  "pt": "grátis",
+  "de": "gratis, umsonst"
+ },
+ {
+  "pt": "útil",
+  "de": "nützlich (dias úteis = Werktage)"
+ },
+ {
+  "pt": "úteis",
+  "de": "nützlich (Plural)"
+ },
+ {
+  "pt": "breve",
+  "de": "kurz (até breve = bis bald)"
+ },
+ {
+  "pt": "direito",
+  "de": "gerade; rechts; das Recht"
+ },
+ {
+  "pt": "azul",
+  "de": "blau"
+ },
+ {
+  "pt": "branco",
+  "de": "weiß"
+ },
+ {
+  "pt": "branca",
+  "de": "weiß (weiblich)"
+ },
+ {
+  "pt": "brancas",
+  "de": "weiß (Plural, weiblich)"
+ },
+ {
+  "pt": "preto",
+  "de": "schwarz"
+ },
+ {
+  "pt": "verde",
+  "de": "grün"
+ },
+ {
+  "pt": "amarelo",
+  "de": "gelb"
+ },
+ {
+  "pt": "vermelho",
+  "de": "rot"
+ },
+ {
+  "pt": "vermelhos",
+  "de": "rot (Plural)"
+ },
+ {
+  "pt": "cinzenta",
+  "de": "grau (weiblich)"
+ },
+ {
+  "pt": "dourada",
+  "de": "golden (weiblich)"
+ },
+ {
+  "pt": "cor-de-rosa",
+  "de": "rosa"
+ },
+ {
+  "pt": "a cor",
+  "de": "die Farbe"
+ },
+ {
+  "pt": "a pessoa",
+  "de": "die Person"
+ },
+ {
+  "pt": "a gente",
+  "de": "die Leute; wir (umgangssprachlich)"
+ },
+ {
+  "pt": "o senhor",
+  "de": "der Herr; Sie"
+ },
+ {
+  "pt": "a senhora",
+  "de": "die Dame; Sie"
+ },
+ {
+  "pt": "a dona",
+  "de": "Frau … (vor Vornamen älterer Frauen)"
+ },
+ {
+  "pt": "a menina",
+  "de": "das Mädchen"
+ },
+ {
+  "pt": "o miúdo",
+  "de": "der Junge, das Kind"
+ },
+ {
+  "pt": "a malta",
+  "de": "die Leute, die Clique (umgangssprachlich)"
+ },
+ {
+  "pt": "o bebé",
+  "de": "das Baby"
+ },
+ {
+  "pt": "a doutora",
+  "de": "die Ärztin; Frau Doktor"
+ },
+ {
+  "pt": "a enfermeira",
+  "de": "die Krankenschwester"
+ },
+ {
+  "pt": "o pescador",
+  "de": "der Fischer"
+ },
+ {
+  "pt": "o vendedor",
+  "de": "der Verkäufer"
+ },
+ {
+  "pt": "o chefe",
+  "de": "der Chef"
+ },
+ {
+  "pt": "o surfista",
+  "de": "der Surfer"
+ },
+ {
+  "pt": "o cidadão",
+  "de": "der Bürger (Loja do Cidadão = Bürgerladen)"
+ },
+ {
+  "pt": "os alemães",
+  "de": "die Deutschen"
+ },
+ {
+  "pt": "o animal",
+  "de": "das Tier"
+ },
+ {
+  "pt": "o gato",
+  "de": "die Katze"
+ },
+ {
+  "pt": "o olho",
+  "de": "das Auge"
+ },
+ {
+  "pt": "a boca",
+  "de": "der Mund"
+ },
+ {
+  "pt": "o nariz",
+  "de": "die Nase"
+ },
+ {
+  "pt": "a mão",
+  "de": "die Hand"
+ },
+ {
+  "pt": "as mãos",
+  "de": "die Hände"
+ },
+ {
+  "pt": "o dedo",
+  "de": "der Finger"
+ },
+ {
+  "pt": "o polegar",
+  "de": "der Daumen"
+ },
+ {
+  "pt": "o ombro",
+  "de": "die Schulter"
+ },
+ {
+  "pt": "o joelho",
+  "de": "das Knie"
+ },
+ {
+  "pt": "o colo",
+  "de": "der Schoß"
+ },
+ {
+  "pt": "o corpo",
+  "de": "der Körper"
+ },
+ {
+  "pt": "o sorriso",
+  "de": "das Lächeln"
+ },
+ {
+  "pt": "a voz",
+  "de": "die Stimme"
+ },
+ {
+  "pt": "o gesto",
+  "de": "die Geste"
+ },
+ {
+  "pt": "as palmas",
+  "de": "das Klatschen (bater palmas)"
+ },
+ {
+  "pt": "o talento",
+  "de": "das Talent"
+ },
+ {
+  "pt": "a paciência",
+  "de": "die Geduld"
+ },
+ {
+  "pt": "a pressa",
+  "de": "die Eile"
+ },
+ {
+  "pt": "a saudade",
+  "de": "die Sehnsucht"
+ },
+ {
+  "pt": "o segredo",
+  "de": "das Geheimnis"
+ },
+ {
+  "pt": "o milagre",
+  "de": "das Wunder"
+ },
+ {
+  "pt": "a lógica",
+  "de": "die Logik"
+ },
+ {
+  "pt": "o problema",
+  "de": "das Problem"
+ },
+ {
+  "pt": "a disposição",
+  "de": "die Laune (à disposição = zur Verfügung)"
+ },
+ {
+  "pt": "o movimento",
+  "de": "die Bewegung"
+ },
+ {
+  "pt": "a carrinha",
+  "de": "der Van, der Kleinbus"
+ },
+ {
+  "pt": "o telemóvel",
+  "de": "das Handy"
+ },
+ {
+  "pt": "o caderno",
+  "de": "das Heft"
+ },
+ {
+  "pt": "o sofá",
+  "de": "das Sofa"
+ },
+ {
+  "pt": "a cama",
+  "de": "das Bett"
+ },
+ {
+  "pt": "o armário",
+  "de": "der Schrank"
+ },
+ {
+  "pt": "a gaveta",
+  "de": "die Schublade"
+ },
+ {
+  "pt": "a cadeira",
+  "de": "der Stuhl"
+ },
+ {
+  "pt": "o teto",
+  "de": "die Decke (Zimmer)"
+ },
+ {
+  "pt": "o corredor",
+  "de": "der Flur"
+ },
+ {
+  "pt": "a varanda",
+  "de": "der Balkon"
+ },
+ {
+  "pt": "o prédio",
+  "de": "das Gebäude, das Wohnhaus"
+ },
+ {
+  "pt": "o muro",
+  "de": "die Mauer"
+ },
+ {
+  "pt": "a ponte",
+  "de": "die Brücke"
+ },
+ {
+  "pt": "a avenida",
+  "de": "die Allee, die Avenida"
+ },
+ {
+  "pt": "o caminho",
+  "de": "der Weg"
+ },
+ {
+  "pt": "a vila",
+  "de": "die Kleinstadt"
+ },
+ {
+  "pt": "o campo",
+  "de": "das Feld; das Land"
+ },
+ {
+  "pt": "o rio",
+  "de": "der Fluss"
+ },
+ {
+  "pt": "o sul",
+  "de": "der Süden"
+ },
+ {
+  "pt": "o norte",
+  "de": "der Norden"
+ },
+ {
+  "pt": "o sítio",
+  "de": "der Ort, die Stelle"
+ },
+ {
+  "pt": "o banco",
+  "de": "die Bank (zum Sitzen; Geld)"
+ },
+ {
+  "pt": "o hospital",
+  "de": "das Krankenhaus"
+ },
+ {
+  "pt": "o hostel",
+  "de": "das Hostel"
+ },
+ {
+  "pt": "a piscina",
+  "de": "das Schwimmbad"
+ },
+ {
+  "pt": "o duche",
+  "de": "die Dusche"
+ },
+ {
+  "pt": "a luz",
+  "de": "das Licht"
+ },
+ {
+  "pt": "o ar",
+  "de": "die Luft"
+ },
+ {
+  "pt": "o fogo",
+  "de": "das Feuer"
+ },
+ {
+  "pt": "o sal",
+  "de": "das Salz"
+ },
+ {
+  "pt": "o cheiro",
+  "de": "der Geruch"
+ },
+ {
+  "pt": "a maré",
+  "de": "die Gezeiten, die Flut"
+ },
+ {
+  "pt": "a falésia",
+  "de": "die Klippe"
+ },
+ {
+  "pt": "o tronco",
+  "de": "der Stamm"
+ },
+ {
+  "pt": "o navio",
+  "de": "das Schiff"
+ },
+ {
+  "pt": "o camião",
+  "de": "der Lastwagen"
+ },
+ {
+  "pt": "o motor",
+  "de": "der Motor"
+ },
+ {
+  "pt": "o quilómetro",
+  "de": "der Kilometer"
+ },
+ {
+  "pt": "o metro",
+  "de": "der Meter; die Metro"
+ },
+ {
+  "pt": "o litro",
+  "de": "der Liter"
+ },
+ {
+  "pt": "o grupo",
+  "de": "die Gruppe"
+ },
+ {
+  "pt": "a lista",
+  "de": "die Liste"
+ },
+ {
+  "pt": "a caixa",
+  "de": "die Kiste, die Kasse"
+ },
+ {
+  "pt": "o envelope",
+  "de": "der Umschlag"
+ },
+ {
+  "pt": "o selo",
+  "de": "die Briefmarke"
+ },
+ {
+  "pt": "o papel",
+  "de": "das Papier"
+ },
+ {
+  "pt": "a página",
+  "de": "die Seite (Buch)"
+ },
+ {
+  "pt": "a letra",
+  "de": "der Buchstabe; der Liedtext"
+ },
+ {
+  "pt": "a palavra",
+  "de": "das Wort"
+ },
+ {
+  "pt": "a frase",
+  "de": "der Satz"
+ },
+ {
+  "pt": "a conversa",
+  "de": "das Gespräch"
+ },
+ {
+  "pt": "a mensagem",
+  "de": "die Nachricht"
+ },
+ {
+  "pt": "o telefone",
+  "de": "das Telefon"
+ },
+ {
+  "pt": "o número",
+  "de": "die Nummer"
+ },
+ {
+  "pt": "o vídeo",
+  "de": "das Video"
+ },
+ {
+  "pt": "o projeto",
+  "de": "das Projekt"
+ },
+ {
+  "pt": "a calculadora",
+  "de": "der Taschenrechner"
+ },
+ {
+  "pt": "o lápis",
+  "de": "der Bleistift"
+ },
+ {
+  "pt": "o despertador",
+  "de": "der Wecker"
+ },
+ {
+  "pt": "a roupa",
+  "de": "die Kleidung"
+ },
+ {
+  "pt": "o casaco",
+  "de": "die Jacke"
+ },
+ {
+  "pt": "o vestido",
+  "de": "das Kleid"
+ },
+ {
+  "pt": "o pijama",
+  "de": "der Schlafanzug"
+ },
+ {
+  "pt": "a t-shirt",
+  "de": "das T-Shirt"
+ },
+ {
+  "pt": "o boné",
+  "de": "die Kappe"
+ },
+ {
+  "pt": "a toalha",
+  "de": "das Handtuch"
+ },
+ {
+  "pt": "a mochila",
+  "de": "der Rucksack"
+ },
+ {
+  "pt": "a bata",
+  "de": "der Kittel"
+ },
+ {
+  "pt": "o plástico",
+  "de": "das Plastik"
+ },
+ {
+  "pt": "o esqueleto",
+  "de": "das Skelett"
+ },
+ {
+  "pt": "a chávena",
+  "de": "die Tasse"
+ },
+ {
+  "pt": "a fatia",
+  "de": "die Scheibe"
+ },
+ {
+  "pt": "a manteiga",
+  "de": "die Butter"
+ },
+ {
+  "pt": "o pão",
+  "de": "das Brot"
+ },
+ {
+  "pt": "os pães",
+  "de": "die Brote"
+ },
+ {
+  "pt": "o pastel",
+  "de": "das Törtchen, die Pastete"
+ },
+ {
+  "pt": "os pastéis",
+  "de": "die Törtchen"
+ },
+ {
+  "pt": "as flores",
+  "de": "die Blumen"
+ },
+ {
+  "pt": "o bico",
+  "de": "der Schnabel; die Spitze"
+ },
+ {
+  "pt": "o quadrado",
+  "de": "das Quadrat"
+ },
+ {
+  "pt": "a venda",
+  "de": "der Verkauf; die Augenbinde"
+ },
+ {
+  "pt": "o campeonato",
+  "de": "die Meisterschaft"
+ },
+ {
+  "pt": "o fado",
+  "de": "der Fado"
+ },
+ {
+  "pt": "o marquês",
+  "de": "der Marquis (Marquês de Pombal)"
+ },
+ {
+  "pt": "olhar",
+  "de": "schauen"
+ },
+ {
+  "pt": "pensar",
+  "de": "denken"
+ },
+ {
+  "pt": "fechar",
+  "de": "schließen"
+ },
+ {
+  "pt": "esperar",
+  "de": "warten; hoffen"
+ },
+ {
+  "pt": "responder",
+  "de": "antworten"
+ },
+ {
+  "pt": "gritar",
+  "de": "schreien"
+ },
+ {
+  "pt": "perguntar",
+  "de": "fragen"
+ },
+ {
+  "pt": "tocar",
+  "de": "klingeln; berühren; spielen (Instrument)"
+ },
+ {
+  "pt": "sorrir",
+  "de": "lächeln"
+ },
+ {
+  "pt": "subir",
+  "de": "hinaufgehen, steigen"
+ },
+ {
+  "pt": "descer",
+  "de": "hinuntergehen"
+ },
+ {
+  "pt": "sair",
+  "de": "hinausgehen, weggehen"
+ },
+ {
+  "pt": "entrar",
+  "de": "hineingehen"
+ },
+ {
+  "pt": "buscar",
+  "de": "holen"
+ },
+ {
+  "pt": "levantar",
+  "de": "heben (levantar-se = aufstehen)"
+ },
+ {
+  "pt": "sentar",
+  "de": "setzen (sentar-se = sich setzen)"
+ },
+ {
+  "pt": "deitar",
+  "de": "legen (deitar-se = sich hinlegen)"
+ },
+ {
+  "pt": "ligar",
+  "de": "anrufen; einschalten"
+ },
+ {
+  "pt": "mandar",
+  "de": "schicken; befehlen"
+ },
+ {
+  "pt": "receber",
+  "de": "bekommen"
+ },
+ {
+  "pt": "mostrar",
+  "de": "zeigen"
+ },
+ {
+  "pt": "apontar",
+  "de": "zeigen auf; notieren"
+ },
+ {
+  "pt": "tirar",
+  "de": "nehmen, herausnehmen; machen (Foto)"
+ },
+ {
+  "pt": "deixar",
+  "de": "lassen"
+ },
+ {
+  "pt": "parar",
+  "de": "anhalten, aufhören"
+ },
+ {
+  "pt": "passar",
+  "de": "vorbeigehen; verbringen"
+ },
+ {
+  "pt": "continuar",
+  "de": "weitermachen"
+ },
+ {
+  "pt": "tentar",
+  "de": "versuchen"
+ },
+ {
+  "pt": "acabar",
+  "de": "beenden; enden (acabar de = gerade … haben)"
+ },
+ {
+  "pt": "começar",
+  "de": "anfangen"
+ },
+ {
+  "pt": "durar",
+  "de": "dauern"
+ },
+ {
+  "pt": "aparecer",
+  "de": "auftauchen, erscheinen"
+ },
+ {
+  "pt": "parecer",
+  "de": "scheinen, aussehen wie"
+ },
+ {
+  "pt": "acreditar",
+  "de": "glauben"
+ },
+ {
+  "pt": "achar",
+  "de": "finden, meinen"
+ },
+ {
+  "pt": "compreender",
+  "de": "verstehen"
+ },
+ {
+  "pt": "ler",
+  "de": "lesen"
+ },
+ {
+  "pt": "escrever",
+  "de": "schreiben"
+ },
+ {
+  "pt": "cantar",
+  "de": "singen"
+ },
+ {
+  "pt": "bater",
+  "de": "klopfen, schlagen"
+ },
+ {
+  "pt": "apitar",
+  "de": "pfeifen, hupen"
+ },
+ {
+  "pt": "pigarrear",
+  "de": "sich räuspern"
+ },
+ {
+  "pt": "tossir",
+  "de": "husten"
+ },
+ {
+  "pt": "cheirar",
+  "de": "riechen"
+ },
+ {
+  "pt": "provar",
+  "de": "probieren"
+ },
+ {
+  "pt": "nascer",
+  "de": "geboren werden; aufgehen (Sonne)"
+ },
+ {
+  "pt": "defender",
+  "de": "verteidigen"
+ },
+ {
+  "pt": "odiar",
+  "de": "hassen"
+ },
+ {
+  "pt": "irritar",
+  "de": "ärgern"
+ },
+ {
+  "pt": "mentir",
+  "de": "lügen"
+ },
+ {
+  "pt": "existir",
+  "de": "existieren"
+ },
+ {
+  "pt": "caber",
+  "de": "hineinpassen"
+ },
+ {
+  "pt": "arranjar",
+  "de": "besorgen; reparieren"
+ },
+ {
+  "pt": "acampar",
+  "de": "zelten"
+ },
+ {
+  "pt": "surfar",
+  "de": "surfen"
+ },
+ {
+  "pt": "piscar",
+  "de": "blinzeln, zwinkern"
+ },
+ {
+  "pt": "desistir",
+  "de": "aufgeben"
+ },
+ {
+  "pt": "precisar",
+  "de": "brauchen"
+ },
+ {
+  "pt": "gostar",
+  "de": "mögen"
+ },
+ {
+  "pt": "esquecer",
+  "de": "vergessen"
+ },
+ {
+  "pt": "olha",
+  "de": "schau; er/sie schaut (olhar)"
+ },
+ {
+  "pt": "olhou",
+  "de": "schaute (olhar)"
+ },
+ {
+  "pt": "olham",
+  "de": "sie schauen (olhar)"
+ },
+ {
+  "pt": "pensa",
+  "de": "er/sie denkt (pensar)"
+ },
+ {
+  "pt": "pensou",
+  "de": "dachte (pensar)"
+ },
+ {
+  "pt": "fecha",
+  "de": "er/sie schließt (fechar)"
+ },
+ {
+  "pt": "fechou",
+  "de": "schloss (fechar)"
+ },
+ {
+  "pt": "sorri",
+  "de": "er/sie lächelt (sorrir)"
+ },
+ {
+  "pt": "ri",
+  "de": "er/sie lacht (rir)"
+ },
+ {
+  "pt": "riu-se",
+  "de": "lachte (rir-se)"
+ },
+ {
+  "pt": "ri-se",
+  "de": "er/sie lacht (rir-se)"
+ },
+ {
+  "pt": "sobe",
+  "de": "er/sie steigt hinauf (subir)"
+ },
+ {
+  "pt": "desce",
+  "de": "er/sie geht hinunter (descer)"
+ },
+ {
+  "pt": "sai",
+  "de": "er/sie geht hinaus (sair)"
+ },
+ {
+  "pt": "saiu",
+  "de": "ging hinaus (sair)"
+ },
+ {
+  "pt": "lê",
+  "de": "er/sie liest (ler)"
+ },
+ {
+  "pt": "vê-se",
+  "de": "man sieht (ver-se)"
+ },
+ {
+  "pt": "ouve-se",
+  "de": "man hört (ouvir-se)"
+ },
+ {
+  "pt": "pôs",
+  "de": "stellte, legte (pôr)"
+ },
+ {
+  "pt": "põe",
+  "de": "er/sie stellt, legt (pôr)"
+ },
+ {
+  "pt": "havia",
+  "de": "es gab (haver)"
+ },
+ {
+  "pt": "há",
+  "de": "es gibt; seit (haver)"
+ },
+ {
+  "pt": "houver",
+  "de": "wenn es gibt (haver, futuro do conjuntivo)"
+ },
+ {
+  "pt": "fosse",
+  "de": "wäre (ser/ir, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "tivesse",
+  "de": "hätte (ter, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "for",
+  "de": "wenn … ist/geht (ser/ir, futuro do conjuntivo)"
+ },
+ {
+  "pt": "mantiver",
+  "de": "wenn … hält (manter)"
+ },
+ {
+  "pt": "cabem",
+  "de": "sie passen hinein (caber)"
+ },
+ {
+  "pt": "disse-me",
+  "de": "sagte mir (dizer)"
+ },
+ {
+  "pt": "diz-lhe",
+  "de": "sagt ihm/ihr (dizer)"
+ },
+ {
+  "pt": "dá-lhe",
+  "de": "gibt ihm/ihr (dar)"
+ },
+ {
+  "pt": "põe-na",
+  "de": "stellt sie hin (pôr)"
+ },
+ {
+  "pt": "leva-se",
+  "de": "man nimmt mit (levar)"
+ },
+ {
+  "pt": "encontra-o",
+  "de": "findet ihn (encontrar)"
+ },
+ {
+  "pt": "abriu-o",
+  "de": "öffnete ihn (abrir)"
+ },
+ {
+  "pt": "doíam-lhe",
+  "de": "taten ihm/ihr weh (doer)"
+ },
+ {
+  "pt": "doíam",
+  "de": "taten weh (doer)"
+ },
+ {
+  "pt": "irrita-me",
+  "de": "ärgert mich (irritar)"
+ },
+ {
+  "pt": "mudava-lhe",
+  "de": "veränderte ihm/ihr (mudar)"
+ },
+ {
+  "pt": "pôs-lhe",
+  "de": "legte ihm/ihr hin (pôr)"
+ },
+ {
+  "pt": "tragam",
+  "de": "bringt (trazer, Konjunktiv/Imperativ Plural)"
+ },
+ {
+  "pt": "acho",
+  "de": "ich finde, ich glaube (achar)"
+ },
+ {
+  "pt": "preciso",
+  "de": "ich brauche (precisar); nötig"
+ },
+ {
+  "pt": "precisa",
+  "de": "er/sie braucht (precisar)"
+ },
+ {
+  "pt": "precisamos",
+  "de": "wir brauchen (precisar)"
+ },
+ {
+  "pt": "gosta",
+  "de": "er/sie mag (gostar)"
+ },
+ {
+  "pt": "gostas",
+  "de": "du magst (gostar)"
+ },
+ {
+  "pt": "parece",
+  "de": "es scheint (parecer)"
+ },
+ {
+  "pt": "a coisa",
+  "de": "die Sache, das Ding"
+ },
+ {
+  "pt": "a aula",
+  "de": "der Unterricht, die Stunde"
+ },
+ {
+  "pt": "a previsão",
+  "de": "die Vorhersage (previsão do tempo = Wetterbericht)"
+ },
+ {
+  "pt": "a vez",
+  "de": "das Mal"
+ },
+ {
+  "pt": "o favor",
+  "de": "der Gefallen"
+ },
+ {
+  "pt": "a posição",
+  "de": "die Position, die Haltung"
+ },
+ {
+  "pt": "procurar",
+  "de": "suchen"
+ },
+ {
+  "pt": "odeia",
+  "de": "er/sie hasst (odiar)"
+ },
+ {
+  "pt": "odeio",
+  "de": "ich hasse (odiar)"
+ },
+ {
+  "pt": "pigarreia",
+  "de": "er/sie räuspert sich (pigarrear)"
+ },
+ {
+  "pt": "o fã",
+  "de": "der Fan"
+ },
+ {
+  "pt": "as notícias",
+  "de": "die Nachrichten"
+ },
+ {
+  "pt": "doido",
+  "de": "verrückt"
+ },
+ {
+  "pt": "doidos",
+  "de": "verrückt (Plural)"
+ },
+ {
+  "pt": "escolher",
+  "de": "auswählen"
+ },
+ {
+  "pt": "a campeã",
+  "de": "die Meisterin"
+ },
+ {
+  "pt": "saltar",
+  "de": "springen"
+ },
+ {
+  "pt": "a bola",
+  "de": "der Ball"
+ },
+ {
+  "pt": "o humor",
+  "de": "der Humor; die Laune"
+ },
+ {
+  "pt": "interessante",
+  "de": "interessant"
+ },
+ {
+  "pt": "empurrar",
+  "de": "schieben, stoßen"
+ },
+ {
+  "pt": "o futebol",
+  "de": "der Fußball"
+ },
+ {
+  "pt": "a baleeira",
+  "de": "das Walfangboot"
+ },
+ {
+  "pt": "a pesca",
+  "de": "der Fischfang"
+ },
+ {
+  "pt": "as batatas fritas",
+  "de": "die Pommes"
+ },
+ {
+  "pt": "o bife",
+  "de": "das Steak"
+ },
+ {
+  "pt": "a fome",
+  "de": "der Hunger"
+ },
+ {
+  "pt": "cansar",
+  "de": "müde machen"
+ },
+ {
+  "pt": "discutir",
+  "de": "streiten, diskutieren"
+ },
+ {
+  "pt": "desculpem",
+  "de": "entschuldigt (desculpar)"
+ },
+ {
+  "pt": "a pedra",
+  "de": "der Stein"
+ },
+ {
+  "pt": "seguinte",
+  "de": "folgend, nächste"
+ },
+ {
+  "pt": "atrasado",
+  "de": "verspätet"
+ },
+ {
+  "pt": "acender",
+  "de": "anzünden, einschalten"
+ },
+ {
+  "pt": "acende-se",
+  "de": "geht an (acender-se)"
+ },
+ {
+  "pt": "riem",
+  "de": "sie lachen (rir)"
+ },
+ {
+  "pt": "o postal",
+  "de": "die Postkarte"
+ },
+ {
+  "pt": "chiar",
+  "de": "quietschen"
+ },
+ {
+  "pt": "soar",
+  "de": "klingen"
+ },
+ {
+  "pt": "a parede",
+  "de": "die Wand"
+ },
+ {
+  "pt": "satisfeito",
+  "de": "zufrieden"
+ },
+ {
+  "pt": "furiosa",
+  "de": "wütend (weiblich)"
+ },
+ {
+  "pt": "casar",
+  "de": "heiraten"
+ },
+ {
+  "pt": "certo",
+  "de": "richtig, sicher"
+ },
+ {
+  "pt": "explodir",
+  "de": "explodieren"
+ },
+ {
+  "pt": "o ouro",
+  "de": "das Gold"
+ },
+ {
+  "pt": "fotografar",
+  "de": "fotografieren"
+ },
+ {
+  "pt": "a esquina",
+  "de": "die Straßenecke"
+ },
+ {
+  "pt": "milhares",
+  "de": "Tausende"
+ },
+ {
+  "pt": "a martelada",
+  "de": "der Hammerschlag"
+ },
+ {
+  "pt": "desaparecer",
+  "de": "verschwinden"
+ },
+ {
+  "pt": "guardar",
+  "de": "aufbewahren, behalten"
+ },
+ {
+  "pt": "o texto",
+  "de": "der Text"
+ },
+ {
+  "pt": "hum",
+  "de": "hm"
+ },
+ {
+  "pt": "ah",
+  "de": "ah"
+ },
+ {
+  "pt": "oh",
+  "de": "oh"
+ },
+ {
+  "pt": "ohhh",
+  "de": "ohhh"
+ },
+ {
+  "pt": "pling",
+  "de": "pling (Nachrichtenton)"
+ }
+]
