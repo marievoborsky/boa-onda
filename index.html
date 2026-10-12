@@ -3251,6 +3251,15 @@ function kontoStart() {
     if (!KONTO_URL) return;
     // Rücksprung aus dem Anmelde-Link: Fehler aus der URL oder aus der Initialisierung verständlich melden
     let fehler = (r && r.error) || (/error_description=|error_code=/.test(KONTO_URL) ? { message: decodeURIComponent((KONTO_URL.match(/error_description=([^&]*)/) || [, ''])[1].replace(/\+/g, ' ')) } : null);
+    const th = KONTO_URL.match(/[?&#]token_hash=([^&#]+)/);
+    if (!fehler && th) {
+      // Link aus der eigenen Mail-Vorlage: token_hash gilt in jedem Browser und auf jedem Gerät
+      try {
+        const { error } = await kontoClient.auth.verifyOtp({ token_hash: decodeURIComponent(th[1]), type: 'email' });
+        if (error) throw error;
+        return; // SIGNED_IN kommt über onAuthStateChange
+      } catch (e) { fehler = e; }
+    }
     if (!fehler && /[?&#]code=/.test(KONTO_URL)) {
       // PKCE: ohne den Code-Verifier dieses Browsers ignoriert supabase-js den ?code= stillschweigend –
       // typisch, wenn der Link in einem anderen Browser oder der Mail-App geöffnet wurde
@@ -3274,7 +3283,7 @@ function kontoStart() {
   });
 }
 function kontoUrlSaeubern() {
-  if (!/(^|[?#&])(access_token|refresh_token|code|error|error_code|error_description|type)=/.test(location.search + location.hash)) return;
+  if (!/(^|[?#&])(access_token|refresh_token|code|token_hash|error|error_code|error_description|type)=/.test(location.search + location.hash)) return;
   const h = (location.hash || '').slice(1);
   const rein = location.pathname + (/^(tag\d\d|sagres)$/.test(h) ? '#' + h : '');
   try { history.replaceState(history.state, '', rein); } catch (e) {}
@@ -3436,24 +3445,23 @@ function zeigeKonto() {
     inner = `
       <div class="kicker">Dein Konto</div>
       <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Schau in dein Postfach</h2>
-      <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem" id="konto-gesendet">Schau in dein Postfach – der Link ist 1 Stunde gültig. Öffne ihn am besten auf diesem Gerät.${kontoMail ? `<br><span class="mono" style="font-size:.8rem; color:var(--ink-soft)">Gesendet an ${kontoMail}</span>` : ''}</div>
-      ${KONTO_CODE_IN_MAIL ? `      <div class="mono" style="font-size:.78rem; color:var(--ink-soft); line-height:1.5; margin-bottom:.4rem">Link klappt nicht? Öffne ihn auf dem Gerät, auf dem du ihn angefordert hast. Steht ein Code in der Mail, kannst du ihn hier eintippen:</div>
-      <div style="display:flex; gap:.5rem; margin-bottom:.6rem">
+      <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem" id="konto-gesendet">${KONTO_CODE_IN_MAIL ? 'In der Mail steht ein 6-stelliger Code – tipp ihn hier ein. Er gilt 1 Stunde. Der Link in der Mail geht genauso.' : 'Schau in dein Postfach – der Link ist 1 Stunde gültig. Öffne ihn am besten auf diesem Gerät.'}${kontoMail ? `<br><span class="mono" style="font-size:.8rem; color:var(--ink-soft)">Gesendet an ${kontoMail}</span>` : ''}</div>
+      ${KONTO_CODE_IN_MAIL ? `      <div style="display:flex; gap:.5rem; margin-bottom:.6rem">
         <input id="konto-code" class="exin" inputmode="numeric" autocomplete="one-time-code" placeholder="Code aus der Mail" aria-label="Code aus der Mail"
           onkeydown="if (event.key === 'Enter') kontoCodeBestaetigen()">
         <button onclick="kontoCodeBestaetigen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Bestätigen</button>
       </div>` : `<div class="mono" style="font-size:.78rem; color:var(--ink-soft); line-height:1.5; margin-bottom:.6rem">Link klappt nicht? Öffne ihn auf dem Gerät und im Browser, in dem du ihn angefordert hast – oder fordere ihn dort neu an.</div>`}
-      <button onclick="kontoMailGesendet = false; zeigeKonto()" class="mono" style="display:block; margin:0 auto; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Andere Adresse oder neuer Link</button>
+      <button onclick="kontoMailGesendet = false; zeigeKonto()" class="mono" style="display:block; margin:0 auto; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">${KONTO_CODE_IN_MAIL ? 'Keine Mail bekommen? Neu anfordern' : 'Andere Adresse oder neuer Link'}</button>
       ${zu}`;
   } else {
     inner = `
       <div class="kicker">Dein Konto</div>
       <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Auf allen Geräten weiterlernen</h2>
-      <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem">Mit einem Konto wird dein Fortschritt gesichert und läuft auf allen Geräten weiter. Premium gehört dann zu dir, nicht zum Gerät. Kein Passwort: Du bekommst einen Anmelde-Link per E-Mail.</div>
+      <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem">Mit einem Konto wird dein Fortschritt gesichert und läuft auf allen Geräten weiter. Premium gehört dann zu dir, nicht zum Gerät. Kein Passwort: Du bekommst ${KONTO_CODE_IN_MAIL ? 'einen Code' : 'einen Anmelde-Link'} per E-Mail.</div>
       <input id="konto-mail" class="exin" type="email" inputmode="email" autocomplete="email" autocapitalize="off" autocorrect="off" spellcheck="false"
         placeholder="deine@mail.de" aria-label="E-Mail-Adresse" value="${kontoMail.replace(/"/g, '')}" style="width:100%; margin-bottom:.6rem"
         onkeydown="if (event.key === 'Enter') kontoLinkSenden()">
-      ${knopf('Link schicken', 'kontoLinkSenden()')}
+      ${knopf(KONTO_CODE_IN_MAIL ? 'Code schicken' : 'Link schicken', 'kontoLinkSenden()')}
       <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; line-height:1.5; margin-top:.4rem">Freiwillig – ohne Konto bleibt alles wie bisher auf diesem Gerät.<br>E-Mail und Lernstand liegen bei Supabase in Frankfurt (EU), löschbar jederzeit.</div>
       ${zu}`;
   }
@@ -3474,7 +3482,7 @@ async function kontoLinkSenden() {
     const { error } = await kontoClient.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname } });
     if (error) throw error;
   } catch (e) {
-    if (btn) { btn.disabled = false; btn.textContent = 'Link schicken'; }
+    if (btn) { btn.disabled = false; btn.textContent = KONTO_CODE_IN_MAIL ? 'Code schicken' : 'Link schicken'; }
     fehl(kontoFehlerText(e));
     return;
   }
@@ -3492,7 +3500,7 @@ async function kontoCodeBestaetigen() {
     if (error) throw error;
   } catch (e) {
     inp.classList.add('exfehl'); setTimeout(() => inp.classList.remove('exfehl'), 700);
-    meldung(kontoFehlerText(e));
+    meldung(/expired|invalid|otp/i.test(String(e && e.message)) ? 'Der Code stimmt nicht oder ist abgelaufen. Nimm den Code aus der neuesten Mail.' : kontoFehlerText(e));
   }
   // Erfolg meldet sich über onAuthStateChange (SIGNED_IN)
 }
@@ -3835,7 +3843,7 @@ const startHash = (location.hash || '').slice(1);
 const startLektion = /^(tag\d\d|sagres)$/.test(startHash) ? startHash : '';
 // Magic-Link-Rücksprung (#access_token=…, ?code=…, #error=…): URL sichern, bevor show() sie bereinigt –
 // kontoStart() stellt sie kurz zurück, damit supabase-js die Sitzung daraus lesen kann
-const KONTO_URL = /(^|[?#&])(access_token|refresh_token|code|error|error_code|error_description)=/.test(location.search + location.hash) ? location.href : '';
+const KONTO_URL = /(^|[?#&])(access_token|refresh_token|code|token_hash|error|error_code|error_description)=/.test(location.search + location.hash) ? location.href : '';
 goTab('home');
 if (LESSONS.some(l => l.id === startLektion)) openLesson(startLektion);
 // Lektionswörter gleich beim Start laden – sonst kennt Hoje die Wackler aus
