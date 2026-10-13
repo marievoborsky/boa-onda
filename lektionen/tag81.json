@@ -1,0 +1,417 @@
+{
+ "id": "tag81",
+ "title": "A entrevista",
+ "subtitle": "Staffel 3 · Woche 12 · Tag 81 · Das Telefon-Interview · ter de, dever, haver de · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 80)",
+   "items": [
+    {
+     "q": "Anrede an einen unbekannten Herrn im formellen Brief: ___ Senhor",
+     "a": "Exmo."
+    },
+    {
+     "q": "___ por este meio candidatar-me ao cargo de instrutora de surf. (Formel: hiermit bewerbe ich mich)",
+     "a": "Venho"
+    },
+    {
+     "q": "Marie schreibt an Senhor Duarte, den Besitzer der Surfschule, den sie nicht kennt. Welche Anredeform gehört in den Brief?",
+     "opts": [
+      "tu",
+      "você",
+      "o senhor"
+     ],
+     "a": "o senhor – an einen fremden, älteren Mann im formellen Register; tu ist für Vasco, você klingt in Lissabon zwischen den Stühlen"
+    },
+    {
+     "q": "Junto ___ o meu currículo. (schicken; Formel: anbei sende ich)",
+     "a": "envio"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: A entrevista (16)",
+   "items": [
+    {
+     "pt": "a entrevista",
+     "de": "das Vorstellungsgespräch, das Interview",
+     "ipa": "[ẽtɾɨˈviʃtɐ]",
+     "audio": "v8101"
+    },
+    {
+     "pt": "o entrevistador / a entrevistadora",
+     "de": "der Interviewer / die Interviewerin",
+     "ipa": "[ẽtɾɨviʃtɐˈdoɾ]",
+     "audio": "v8102"
+    },
+    {
+     "pt": "o ponto forte",
+     "de": "die Stärke (im Gespräch: „mein Pluspunkt“)",
+     "ipa": "[ˈpõtu ˈfɔɾtɨ]",
+     "audio": "v8103"
+    },
+    {
+     "pt": "o ponto fraco",
+     "de": "die Schwäche, der Schwachpunkt",
+     "ipa": "[ˈpõtu ˈfɾaku]",
+     "audio": "v8104"
+    },
+    {
+     "pt": "responsável (por)",
+     "de": "verantwortlich (für)",
+     "ipa": "[ʁɨʃpõˈsavɛɫ]",
+     "audio": "v8105"
+    },
+    {
+     "pt": "o nadador-salvador",
+     "de": "der Rettungsschwimmer",
+     "ipa": "[nɐdɐˈdoɾ sɐɫvɐˈdoɾ]",
+     "audio": "v8106"
+    },
+    {
+     "pt": "a semana de trabalho",
+     "de": "die Arbeitswoche",
+     "ipa": "[sɨˈmɐnɐ dɨ tɾɐˈbaʎu]",
+     "audio": "v8107"
+    },
+    {
+     "pt": "o dia de descanso",
+     "de": "der freie Tag, der Ruhetag",
+     "ipa": "[ˈdiɐ dɨ dɨʃˈkɐ̃su]",
+     "audio": "v8108"
+    },
+    {
+     "pt": "contratar",
+     "de": "einstellen, anheuern (jemanden)",
+     "ipa": "[kõtɾɐˈtaɾ]",
+     "audio": "v8109"
+    },
+    {
+     "pt": "o patrão / a patroa",
+     "de": "der Chef / die Chefin (Arbeitgeber, umgangssprachlich)",
+     "ipa": "[pɐˈtɾɐ̃w̃] / [pɐˈtɾoɐ]",
+     "audio": "v8110"
+    },
+    {
+     "pt": "a equipa",
+     "de": "das Team, die Mannschaft",
+     "ipa": "[iˈkipɐ]",
+     "audio": "v8111"
+    },
+    {
+     "pt": "lidar com",
+     "de": "umgehen mit, zurechtkommen mit",
+     "ipa": "[liˈdaɾ kõ]",
+     "audio": "v8112"
+    },
+    {
+     "pt": "depender de",
+     "de": "abhängen von",
+     "ipa": "[dɨpẽˈdeɾ dɨ]",
+     "audio": "v8113"
+    },
+    {
+     "pt": "a emergência",
+     "de": "der Notfall",
+     "ipa": "[imɨɾˈʒẽsiɐ]",
+     "audio": "v8114"
+    },
+    {
+     "pt": "ensinar",
+     "de": "unterrichten, beibringen",
+     "ipa": "[ẽsiˈnaɾ]",
+     "audio": "v8115"
+    },
+    {
+     "pt": "cansativo / cansativa",
+     "de": "anstrengend, ermüdend",
+     "ipa": "[kɐ̃sɐˈtivu]",
+     "audio": "v8116"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Teresa: Tenho de, devo, hei de",
+   "html": "<i>(Professora Teresa, Mittwoch, 30. April, nachdem Marie der Klasse erzählt hat, dass sie heute Abend ein Telefon-Interview hat:)</i> Gestern haben Sie gelernt, höflich zu schreiben. Heute lernen Sie, am Telefon genau zu sagen, was Sie <b>müssen</b>, was Sie <b>sollen</b>, was Sie <b>schaffen</b> und was Sie <b>vorhaben</b>. Auf Deutsch sind das vier Modalverben. Auf Portugiesisch sind es sechs Ausdrücke, und ein Interview besteht aus nichts anderem.<br><br><b>1 · ter de / ter que – müssen.</b> Neutral und sachlich, die Pflicht kommt von außen: <i><b>Tenho de</b> falar com o Tio Tó.</i> – Ich muss mit Tio Tó sprechen. <i><b>Tens de</b> manter a calma.</i> – Du musst ruhig bleiben. <i><b>Temos de</b> começar às seis.</i> – Wir müssen um sechs anfangen. <i>ter que</i> ist gesprochen dasselbe (<i>tenho que ir</i>), in Lissabon hören Sie beides; schreiben Sie <i>ter de</i>, dann ist es nie falsch.<br><br><b>2 · dever – sollen; und: wahrscheinlich.</b> Erstens die Erwartung, vernünftig oder moralisch: <i><b>Deves</b> responder até sexta.</i> – Du solltest bis Freitag antworten. <i><b>Devia</b> dormir mais.</i> – Ich sollte eigentlich mehr schlafen (imperfeito = weicher). Zweitens, und das vergessen Deutsche gern: die <b>Vermutung</b>. <i>A Dona Lurdes <b>deve</b> estar atrás da porta.</i> – Dona Lurdes ist wahrscheinlich hinter der Tür. <i><b>Deve</b> ser cansativo.</i> – Das muss anstrengend sein. <i>O Vasco <b>deve</b> ter uns trinta e dois anos.</i> Das deutsche „muss“ kann auch Vermutung sein; auf Portugiesisch ist dafür <i>dever</i> zuständig, nie <i>ter de</i>.<br><br><b>3 · haver de – vorhaben, versprechen.</b> Die Form, die kein A1-Buch kennt und die jeder Portugiese benutzt: <i><b>hei de, hás de, há de, havemos de, hão de</b></i> + Infinitiv. Sie sagt: das wird passieren, weil ich es will. <i><b>Hei de</b> conseguir.</i> – Ich werde es schaffen (und ich meine es). <i><b>Hás de</b> ver Sagres no verão.</i> – Du wirst Sagres im Sommer sehen, versprochen. <i>O contrato <b>há de</b> chegar.</i> – Der Vertrag wird schon kommen. Das ist kein Futur wie <i>vou conseguir</i>, sondern ein Vorsatz mit Gefühl. Wenn die Avó Carolina <i>hás de voltar</i> sagt, ist das keine Prognose, das ist ein Befehl mit Liebe.<br><br><b>4 · precisar de – brauchen.</b> Immer mit <i>de</i>, vor Nomen und vor Infinitiv: <i><b>Preciso de</b> uma resposta. <b>Preciso de</b> pensar. O senhor Duarte <b>precisa de</b> alguém que fale alemão</i> (Tag 79: Konjunktiv im Relativsatz).<br><br><b>5 · poder vs. conseguir.</b> <i>poder</i> = dürfen, oder: nichts steht im Weg. <i><b>Posso</b> começar em junho.</i> – Ich kann im Juni anfangen. <i><b>Podes</b> ler a pergunta outra vez?</i> – Kannst du die Frage noch einmal lesen? <i>conseguir</i> = es schaffen, es hinbekommen. <i><b>Consigo</b> ensinar em alemão.</i> – Ich kann auf Deutsch unterrichten (ich bin dazu fähig). <i>Não <b>consigo</b> ouvir-te, não há rede.</i> Die Probe: Könnten Sie auf Deutsch „ich schaffe es“ sagen, dann <i>conseguir</i>. Müsste jemand es Ihnen erlauben, dann <i>poder</i>.<br><br><b>6 · Verben mit fester Präposition.</b> Die Präposition gehört zum Verb wie der Akzent zum Wort; lernen Sie beides zusammen:<br><i><b>precisar de</b> · <b>gostar de</b> · <b>lembrar-se de</b> · <b>acabar de</b></i> (gerade getan haben: <i>acabei de falar com o Vasco</i>) · <i><b>depender de</b></i> (<i>tudo depende do Tio Tó</i>) · <i><b>pensar em</b></i> (<i>pensas em aceitar?</i>) · <i><b>sonhar com</b></i> (<i>sonho com Sagres</i>) · <i><b>lidar com</b></i> (<i>lidar com dez alunos</i>) · <i><b>começar a</b></i> (<i>começou a chorar</i>) · <i><b>ajudar a</b></i> (<i>ajudo-te a cair</i>). Vor <i>o / a</i> verschmilzt die Präposition wie immer: <i>depende <b>do</b> patrão · gosto <b>da</b> equipa · pensa <b>no</b> contrato · sonha <b>com o</b> mar</i> (<i>com</i> verschmilzt nicht).<br><br><b>Typischer Fehler:</b> <i>Preciso uma resposta. Preciso falar.</i> Ohne <i>de</i> klingt das nach Spanisch oder nach Brasilien; in Portugal fehlt da etwas: <i>Preciso <b>de</b> uma resposta. Preciso <b>de</b> falar.</i> Und der zweite: <i>Eu posso ensinar em alemão</i> ist nicht falsch, aber es sagt nur, dass es erlaubt ist. <i>Eu <b>consigo</b></i> sagt, dass Sie es können. Wenn Sie heute Abend nur drei Formen brauchen, dann <i>tenho de</i>, <i>consigo</i> und <i>hei de</i>. Die erste sagt, was von Ihnen verlangt wird, die zweite, was Sie können, die dritte, was Sie wollen. Mehr fragt niemand."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> Ich hatte heute Morgen mein Interview für das Praktikum, zwanzig Minuten, drei Leute hinter einem Tisch, und ich habe bei jeder Frage zuerst <b>Boa pergunta</b> gesagt: Das gibt dir zwei Sekunden zum Atmen, und der andere freut sich, weil er die Frage selbst ausgedacht hat. Zur Grammatik: Sag nie <i>eu posso</i>, wenn du <i>eu consigo</i> meinst, denn <i>posso</i> klingt, als hättest du um Erlaubnis gefragt. Und <i>hei de</i> sagst du einmal, mit Blick in die Augen, nicht zehnmal, sonst klingst du wie die Avó Carolina. Não decidas sozinha, já sabes: liga-me depois, a qualquer hora."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: O papel do senhor Duarte",
+   "hint": "Selbst erschlossen: Estou? = Hallo? (am Telefon, Tag 62) · haver rede = Empfang haben · o papel = hier: der Zettel · a sério = ernst, im Ernst · contar = zählen, gelten · o alojamento = die Unterkunft · o armazém = das Lager · debaixo do braço = unter dem Arm. Mittwoch, 30. April, halb neun abends; Marie sitzt im Treppenhaus zwischen drittem und viertem Stock, weil es dort als einzigem Ort im Haus Empfang gibt. Vasco ruft aus der Surfschule an; Senhor Duarte sitzt neben ihm und sagt kein Wort.",
+   "lines": [
+    {
+     "who": "Vasco",
+     "pt": "Estou? Marie? Ouves-me bem? Tenho aqui o senhor Duarte ao meu lado e o papel dele com dez perguntas. Ele diz que a entrevista tem de ser a sério, por isso vou ler tudo como está escrito.",
+     "audio": "d8101"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ouço. Estou sentada nas escadas, é o único sítio da casa onde há rede. A Dona Lurdes deve estar atrás da porta a ouvir. Podes começar.",
+     "audio": "d8102"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Pergunta um: que experiência tem a candidata a ensinar surf? Pergunta dois: que línguas fala?",
+     "audio": "d8103"
+    },
+    {
+     "who": "Marie",
+     "pt": "Dei aulas contigo em agosto, aos principiantes e ao Martim, que tinha medo de tudo. Falo alemão, inglês e português com sotaque, como diz a Professora Teresa.",
+     "audio": "d8104"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Com sotaque conta. Pergunta três, o horário: as aulas começam às seis da manhã, a semana de trabalho tem seis dias e há um dia de descanso. É cansativo. A candidata aguenta?",
+     "audio": "d8105"
+    },
+    {
+     "who": "Marie",
+     "pt": "Vasco, há sete meses que me levanto às três e quarenta. Às seis da manhã já tenho duas horas de pão feitas. Consigo.",
+     "audio": "d8106"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Pergunta quatro: a candidata está preparada para ser responsável por um grupo de dez alunos na água? E pergunta cinco: o que faz a candidata se um aluno… espera… se um aluno perder a prancha e começar a chorar? Desculpa, não consigo ler isto sem me rir.",
+     "audio": "d8107"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não te rias, que o senhor Duarte está aí. Numa emergência tenho de manter a calma, tirar o aluno da água e chamar o nadador-salvador. Se estiver só a chorar, espero. E depois ensino-o a cair outra vez.",
+     "audio": "d8108"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Ele também se está a rir, não te preocupes. Pergunta seis, e esta é importante para ele: a candidata consegue ensinar alemães em alemão? Em setembro teve um grupo de Munique e ninguém percebeu nada.",
+     "audio": "d8109"
+    },
+    {
+     "who": "Marie",
+     "pt": "Sou de Hamburgo. Consigo ensinar em alemão, em inglês e em português devagar. Lidar com gente de Munique é outra coisa, mas hei de conseguir.",
+     "audio": "d8110"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Perguntas sete e oito, as condições: o alojamento é na escola, num quarto por cima do armazém das pranchas, e o salário é cerca de… não, não leio números ao telefone. Vem no contrato. Pergunta nove: qual é o teu ponto forte e o teu ponto fraco?",
+     "audio": "d8111"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ponto forte: não desisto, nem num domingo de chuva. Ponto fraco: às vezes decido sozinha. Tenho de trabalhar nisso, mas tenho uma amiga em Coimbra que me lembra.",
+     "audio": "d8112"
+    },
+    {
+     "who": "Vasco",
+     "pt": "Pergunta dez, e esta é mesmo do Duarte, palavra por palavra: a candidata pode começar no dia um de junho? Tudo depende desta resposta.",
+     "audio": "d8113"
+    },
+    {
+     "who": "Marie",
+     "pt": "Tenho de falar com o Tio Tó primeiro, ele contratou-me antes de vocês. Mas posso. E hei de estar lá no dia um, às seis, com a prancha debaixo do braço. Boa pergunta, Vasco. Foram todas boas perguntas.",
+     "audio": "d8114"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Tenho de, devo, hei de: a forma certa",
+   "items": [
+    {
+     "q": "Numa emergência, (eu) ___ de manter a calma. (müssen, ter de)",
+     "a": "tenho"
+    },
+    {
+     "q": "A Dona Lurdes ___ estar atrás da porta. (Vermutung: wahrscheinlich)",
+     "a": "deve"
+    },
+    {
+     "q": "Eu ___ de estar em Sagres no dia um de junho! (Vorsatz, haver de)",
+     "a": "hei"
+    },
+    {
+     "q": "O senhor Duarte ___ de uma resposta até sexta. (brauchen)",
+     "a": "precisa"
+    },
+    {
+     "q": "A Marie ___ ensinar em alemão e em inglês. (es schaffen, dazu fähig sein)",
+     "a": "consegue"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · A preposição certa (antippen)",
+   "items": [
+    {
+     "q": "Preciso ___ uma resposta até sexta.",
+     "opts": [
+      "de",
+      "a",
+      "em"
+     ],
+     "a": "de – precisar de: immer mit de, vor Nomen und vor Infinitiv"
+    },
+    {
+     "q": "A Marie sonha ___ Sagres desde outubro.",
+     "opts": [
+      "de",
+      "com",
+      "em"
+     ],
+     "a": "com – sonhar com: träumen von; com verschmilzt nie mit dem Artikel (sonha com o mar)"
+    },
+    {
+     "q": "Tudo depende ___ Tio Tó.",
+     "opts": [
+      "do",
+      "com o",
+      "no"
+     ],
+     "a": "do – depender de + o Tio Tó = do Tio Tó; abhängen von"
+    },
+    {
+     "q": "Ela sabe lidar ___ dez alunos na água.",
+     "opts": [
+      "de",
+      "a",
+      "com"
+     ],
+     "a": "com – lidar com: umgehen mit, zurechtkommen mit"
+    },
+    {
+     "q": "O aluno perdeu a prancha e começou ___ chorar.",
+     "opts": [
+      "de",
+      "a",
+      "em"
+     ],
+     "a": "a – começar a + Infinitiv: anfangen zu; acabar de + Infinitiv wäre: gerade getan haben"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Ich muss zuerst mit Tio Tó sprechen.",
+     "satz": "Tenho de falar primeiro com o Tio Tó.",
+     "a": "Tenho de falar primeiro com o Tio Tó."
+    },
+    {
+     "q": "Ich werde es schaffen (und ich meine es).",
+     "satz": "Hei de conseguir.",
+     "a": "Hei de conseguir."
+    },
+    {
+     "q": "Dona Lurdes hört wahrscheinlich hinter der Tür zu.",
+     "satz": "A Dona Lurdes deve estar a ouvir atrás da porta.",
+     "a": "A Dona Lurdes deve estar a ouvir atrás da porta."
+    },
+    {
+     "q": "Ich kann (schaffe es) auf Deutsch zu unterrichten.",
+     "satz": "Consigo ensinar em alemão.",
+     "a": "Consigo ensinar em alemão."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "O senhor Duarte faz as perguntas à Marie ao telefone.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – Senhor Duarte sitzt neben Vasco und sagt kein Wort; Vasco liest seine zehn Fragen vom Zettel vor, „como está escrito“."
+    },
+    {
+     "q": "A semana de trabalho tem seis dias e as aulas começam às seis da manhã.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – sechs Tage, ein dia de descanso, Beginn um sechs. Marie: „Às seis da manhã já tenho duas horas de pão feitas.“"
+    },
+    {
+     "q": "O Vasco diz o número do salário ao telefone.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – er sagt nur „cerca de…“ und bricht ab: „não leio números ao telefone. Vem no contrato.“"
+    },
+    {
+     "q": "A Marie quer falar com o Tio Tó antes de dar a resposta final.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – „Tenho de falar com o Tio Tó primeiro, ele contratou-me antes de vocês.“ Aber sie sagt schon: „hei de estar lá no dia um.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Du musst ruhig bleiben. → ___",
+     "a": "Tens de manter a calma. / Tens que manter a calma."
+    },
+    {
+     "q": "Es hängt vom Chef ab. → ___",
+     "a": "Depende do patrão."
+    },
+    {
+     "q": "Ich brauche eine Antwort bis Freitag. → ___",
+     "a": "Preciso de uma resposta até sexta. / Preciso de uma resposta até sexta-feira."
+    },
+    {
+     "q": "Das muss anstrengend sein. (Vermutung) → ___",
+     "a": "Deve ser cansativo. / Deve ser cansativa."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Boa pergunta",
+   "html": "Jetzt bist du die Kandidatin. Sechs Interview-Antworten laut, über dich selbst, jede mit einer der heutigen Formen. Nimm dich auf und hör nach, ob bei <i>precisar</i> das <i>de</i> steht, ob <i>consigo</i> „schaffen“ meint und ob <i>hei de</i> wie ein Versprechen klingt und nicht wie eine Wettervorhersage. Vor jeder Antwort, nach Anas Rezept: <i>Boa pergunta.</i><br><br>1 · <b>Qual é o seu ponto forte?</b> → <i>O meu ponto forte é que … (não desisto / consigo … / sei lidar com …)</i><br>2 · <b>E o seu ponto fraco?</b> → <i>O meu ponto fraco é que às vezes … Tenho de trabalhar nisso.</i><br>3 · <b>O que é que tem de fazer todos os dias?</b> → <i>Tenho de … às … Preciso de … para …</i><br>4 · <b>Consegue trabalhar seis dias por semana?</b> → <i>Consigo, porque … / Não consigo, mas posso …</i><br>5 · <b>Do que é que depende a sua resposta?</b> → <i>Depende do / da … Tenho de falar com …</i><br>6 · <b>Onde é que se vê daqui a um ano?</b> → <i>Hei de … Sonho com … e penso em …</i><br><br>Dann Maries Satz, einmal langsam, einmal in Vascos Tempo: <i>Tenho de falar com o Tio Tó primeiro. Mas posso. E hei de estar lá no dia um.</i> Und zum Schluss die drei Formen des Tages hintereinander, ohne Pause: <i>tenho de · consigo · hei de</i>."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Dez perguntas",
+   "audio": "s81",
+   "text": "Quarta-feira, trinta de abril, oito e meia da noite. A Marie estava sentada no degrau quarenta e três, entre o terceiro e o quarto andar, porque é o único sítio da casa onde o telemóvel tem rede. Tinha um caderno nos joelhos e o cachecol amarelo da Noor pelos ombros. Atrás da porta da Dona Lurdes, a televisão ficou de repente mais baixa.<br>O Vasco ligou às oito e trinta e dois.<br>— Tenho aqui o papel do Duarte — disse. — Dez perguntas, a sério.<br>A primeira foi sobre a experiência. A Marie falou de agosto, dos principiantes, do Martim. A segunda foi sobre as línguas; a Marie disse «três, uma delas com sotaque». A terceira era o horário: seis da manhã, seis dias, um dia de descanso. A Marie pensou no despertador das três e quarenta e disse que sim. A quarta: ser responsável por dez pessoas na água. Sim. Tem de ser, e consegue.<br>Na quinta pergunta, o Vasco começou a ler, parou, e riu-se. No papel, o Duarte tinha escrito: «O que faz a candidata se um aluno chorar?» A Marie respondeu que espera, e depois ensina o aluno a cair outra vez. Do outro lado da porta, a Dona Lurdes riu-se baixinho.<br>A sexta era a mais importante para o Duarte: ensinar alemães em alemão. «Consigo», disse a Marie, «sou de Hamburgo.» A sétima e a oitava eram as condições: um quarto por cima do armazém das pranchas, o salário «cerca de», sem número. A nona: ponto forte, ponto fraco. «Não desisto. Decido sozinha.» A décima: dia um de junho.<br>— Tenho de falar com o Tio Tó — disse a Marie. — Mas hei de estar lá.<br>Fez-se um silêncio curto, com mar ao fundo.<br>— O Duarte diz que sim — disse o Vasco. — Eu também. Boa onda, Marie.<br>A Marie subiu os últimos degraus devagar. Na sala, o João estava no sofá com o portátil, a fazer de conta que trabalhava.<br>— Então?<br>— Vou para Sagres em junho.<br>O João nem levantou os olhos.<br>— Já sabia.<br>Por baixo, no terceiro andar, a televisão voltou a ficar alta.",
+   "gloss": "Neu erschließen: o degrau = die Stufe · ter rede = Empfang haben · os joelhos = die Knie · o cachecol = der Schal · os ombros = die Schultern · baixinho = ganz leise · fazer de conta que = so tun, als ob · ao fundo = im Hintergrund · o portátil = der Laptop · nem levantou os olhos = hob nicht einmal den Blick · Já sabia. = Wusste ich schon.",
+   "questions": [
+    {
+     "q": "A Marie faz a entrevista nas escadas porque é o único sítio da casa com rede.",
+     "a": "Richtig – auf Stufe 43 zwischen drittem und viertem Stock; Dona Lurdes dreht sofort den Fernseher leiser."
+    },
+    {
+     "q": "O Vasco ri-se na terceira pergunta, a do horário.",
+     "a": "Falsch – bei der fünften, der Frage, was Marie macht, wenn ein Schüler weint. Dona Lurdes lacht hinter der Tür mit."
+    },
+    {
+     "q": "O João fica surpreendido quando a Marie diz que vai para Sagres.",
+     "a": "Falsch – er hebt nicht einmal den Blick vom Laptop: „Já sabia.“"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kann ich …?<br>· … die Pflicht neutral sagen: <i>tenho de manter a calma, temos de começar às seis</i> (gesprochen auch <i>ter que</i>, geschrieben <i>ter de</i>)?<br>· … <i>dever</i> in beiden Jobs benutzen: <i>deves responder</i> (sollen) und <i>deve estar atrás da porta, deve ser cansativo</i> (Vermutung)?<br>· … ein Vorhaben mit Gefühl ausdrücken: <i>hei de conseguir, hás de ver Sagres, o contrato há de chegar</i>?<br>· … <i>poder</i> (dürfen, nichts steht im Weg) von <i>conseguir</i> (schaffen, können) trennen: <i>posso começar em junho</i> gegen <i>consigo ensinar em alemão</i>?<br>· … die festen Präpositionen mitsprechen: <i>precisar de, lembrar-se de, acabar de, depender de, pensar em, sonhar com, lidar com, começar a, ajudar a</i>, und bei <i>precisar</i> das <i>de</i> nie vergessen?<br><br>Zehn Fragen, ein Lachen bei der fünften, und João wusste es sowieso. Jetzt muss Marie es nur noch Tio Tó sagen. Am Freitag, 2. Mai, kommt eine Mail mit einem PDF: Laufzeit, Probezeit, Kündigung, <i>a partir de, mediante, sem prejuízo de</i>. João liest das Kleingedruckte mit, Marie unterschreibt noch nicht. Tag 82: <b>O contrato</b>."
+  }
+ ]
+}

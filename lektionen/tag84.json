@@ -1,0 +1,360 @@
+{
+ "id": "tag84",
+ "title": "Exame final B1",
+ "subtitle": "Staffel 3 · Woche 12 · Tag 84 · Abschlusstest · 60 Punkte · ca. 50 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Der Abschlusstest von Staffel 3 – im Format der portugiesischen B1-Prüfung <b>DEPLE</b>: Lesen, Hören, Schreiben – und die Grammatik, die dort in den Texten mitgeprüft wird, üben wir hier extra, in fünf Teilen quer durch acht Monate in Lissabon. Erst alles selbst lösen, dann prüfen und Punkte zählen. Es geht nicht um die Note: Wer 40 Punkte schafft, kann sich in Portugal bewerben, einen Vertrag lesen, eine Meinung verteidigen und erzählen, was gewesen wäre. Notier dir die Punkte pro Teil."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra, Prüfungswoche, fünf Uhr morgens:)</i> Mein letzter Tipp vor dem Exame, und er ist derselbe wie vor einem Jahr: Sprich die Antworten <b>laut</b>, auch die Lücken, auch die Konjunktive. Wenn du bei <i>se tivesse</i> stockst, denk an das Sofa. Wenn du bei <i>quando chegares</i> stockst, denk an den Bus nach Sagres. Alles, was du dieses Jahr gelernt hast, hat eine Treppe, einen Ofen oder einen Zug dahinter. <i>Que corra bem.</i> E depois: vai à praia. Desta vez sei qual."
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln aus Staffel 3 (8 P.)",
+   "items": [
+    {
+     "q": "der Schub, die Ofenladung (Bäckerei)",
+     "a": "a fornada"
+    },
+    {
+     "q": "der Akzent (beim Sprechen)",
+     "a": "o sotaque"
+    },
+    {
+     "q": "jedoch, dennoch",
+     "a": "no entanto"
+    },
+    {
+     "q": "die Verspätung",
+     "a": "o atraso"
+    },
+    {
+     "q": "die Unterkunft",
+     "a": "o alojamento"
+    },
+    {
+     "q": "der Entwurf",
+     "a": "o rascunho"
+    },
+    {
+     "q": "das Kleingedruckte",
+     "a": "a letra pequena"
+    },
+    {
+     "q": "weggehen, fortgehen",
+     "a": "ir-se embora"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · Konjunktiv: presente und futuro (8 P.)",
+   "items": [
+    {
+     "q": "Quero que (tu) ___ o contrato antes de assinar. (ler)",
+     "a": "leias"
+    },
+    {
+     "q": "É preciso que a Marie ___ o formulário ainda hoje. (entregar)",
+     "a": "entregue"
+    },
+    {
+     "q": "Embora ___ cansada, vou à aula. (estar)",
+     "a": "esteja"
+    },
+    {
+     "q": "Se ___ greve amanhã, vamos a pé. (haver)",
+     "a": "houver"
+    },
+    {
+     "q": "Quando ___ a Sagres, liga-me. (chegar, tu)",
+     "a": "chegares"
+    },
+    {
+     "q": "O senhor Duarte procura alguém que ___ alemão. (falar)",
+     "opts": [
+      "fale",
+      "fala"
+     ],
+     "a": "fale – die Person ist noch unbekannt → Konjunktiv im Relativsatz (Tag 79); conheço alguém que fala = bekannt → Indikativ"
+    },
+    {
+     "q": "Assim que ___ o contrato, assino. (receber, eu)",
+     "opts": [
+      "receber",
+      "receba",
+      "recebo"
+     ],
+     "a": "receber – assim que mit Blick in die Zukunft → futuro do conjuntivo (Tag 61); receba wäre presente do conjuntivo"
+    },
+    {
+     "q": "Ich hoffe, dass der Zug pünktlich ankommt.",
+     "satz": "Espero que o comboio chegue a horas.",
+     "a": "Espero que o comboio chegue a horas."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Konjunktiv: imperfeito (8 P.)",
+   "items": [
+    {
+     "q": "Se eu ___ mais tempo, ficava em Lisboa. (ter)",
+     "a": "tivesse"
+    },
+    {
+     "q": "Gostaria que a Noor ___ comigo para Sagres. (vir)",
+     "a": "viesse"
+    },
+    {
+     "q": "O João fala de ondas como se ___ de Sagres. (ser)",
+     "a": "fosse"
+    },
+    {
+     "q": "Quem me dera que o verão ___ mais devagar. (passar)",
+     "a": "passasse"
+    },
+    {
+     "q": "Oxalá o tio Tó ___ a Sagres. (Er verlässt Lissabon nie.)",
+     "opts": [
+      "venha",
+      "viesse"
+     ],
+     "a": "viesse – unerfüllbar, er fährt nicht → imperfeito do conjuntivo (Tag 76); venha nur, wenn es noch klappen kann"
+    },
+    {
+     "q": "Embora ___ frio, a Marie foi para a padaria às quatro.",
+     "opts": [
+      "esteja",
+      "estivesse"
+     ],
+     "a": "estivesse – Hauptsatz in der Vergangenheit (foi) → imperfeito do conjuntivo (Tag 75)"
+    },
+    {
+     "q": "Se ___ eu, já tinha respondido. (João, Tag 79)",
+     "opts": [
+      "fosse",
+      "for",
+      "seja"
+     ],
+     "a": "fosse – irreale Annahme (er ist nicht Marie) → imperfeito do conjuntivo; for wäre futuro, seja presente"
+    },
+    {
+     "q": "Wenn ich du wäre, würde ich sofort antworten.",
+     "satz": "Se eu fosse tu, respondia já.",
+     "a": "Se eu fosse tu, respondia já."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · Zeiten und Formen (8 P.)",
+   "items": [
+    {
+     "q": "Ultimamente ___ muito. (trabalhar, eu – perfeito composto)",
+     "a": "tenho trabalhado"
+    },
+    {
+     "q": "É melhor (nós) ___ cedo. (sair – infinitivo pessoal)",
+     "a": "sairmos"
+    },
+    {
+     "q": "Quando cheguei a casa, o João já ___. (sair – mais-que-perfeito)",
+     "a": "tinha saído"
+    },
+    {
+     "q": "O Vasco disse: «Preciso de alguém em junho.» → O Vasco disse que ___ de alguém em junho.",
+     "a": "precisava"
+    },
+    {
+     "q": "O contrato ___ enviado pelo senhor Duarte na sexta-feira.",
+     "opts": [
+      "foi",
+      "está"
+     ],
+     "a": "foi – ein Vorgang (jemand hat ihn geschickt) → Passiv mit ser (Tag 82)"
+    },
+    {
+     "q": "O contrato ___ assinado desde ontem à noite.",
+     "opts": [
+      "está",
+      "foi"
+     ],
+     "a": "está – ein Zustand (er liegt unterschrieben da) → estar + Partizip (Tag 82)"
+    },
+    {
+     "q": "Antes de ___, deixa a chave na caixa do correio. (tu)",
+     "opts": [
+      "saíres",
+      "sair",
+      "saias"
+     ],
+     "a": "saíres – nach antes de steht der infinitivo pessoal mit eigenem Subjekt (Tag 59); saias wäre nach antes que"
+    },
+    {
+     "q": "Die Bauarbeiten wurden bis zum Sommer verschoben.",
+     "satz": "As obras foram adiadas para o verão.",
+     "a": "As obras foram adiadas para o verão."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Register und Textsorten (8 P.)",
+   "items": [
+    {
+     "q": "Anrede im formellen Brief an einen Mann, den man nicht kennt: ___ Senhor,",
+     "a": "Exmo."
+    },
+    {
+     "q": "Anbei sende ich meinen Lebenslauf: ___ envio o meu currículo.",
+     "a": "Junto"
+    },
+    {
+     "q": "Formeller Briefschluss: Com os melhores ___,",
+     "a": "cumprimentos"
+    },
+    {
+     "q": "Marie spricht den Besitzer der Surfschule an, den sie nie gesehen hat:",
+     "opts": [
+      "O senhor pode confirmar a data?",
+      "Você pode confirmar a data?",
+      "Tu podes confirmar a data?"
+     ],
+     "a": "O senhor pode confirmar a data? – die höfliche Form in Portugal; você klingt zwischen Fremden oft zu direkt, tu ist nur für Freunde (Tag 80)"
+    },
+    {
+     "q": "einerseits … andererseits: por um lado … ___",
+     "a": "por outro lado"
+    },
+    {
+     "q": "Am Tresen, gesprochen: ein Käffchen, schön warm → um ___ ___",
+     "a": "cafezinho quentinho"
+    },
+    {
+     "q": "Welche Zeile ist die Schlagzeile?",
+     "opts": [
+      "Obras na linha adiadas para setembro",
+      "As obras na linha foram adiadas para setembro, anunciou a empresa."
+     ],
+     "a": "Obras na linha adiadas para setembro – Schlagzeile ohne Artikel und ohne Hilfsverb, Nominalstil (Tag 66)"
+    },
+    {
+     "q": "Vertragssprache: ab dem 1. Juni → ___ 1 de junho",
+     "a": "a partir de"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "F · Lesen: A mensagem da professora Teresa (8 P.)",
+   "audio": "r84",
+   "text": "Assunto: Certificado B1 (PDF)<br><br>Cara Marie,<br>junto envio o certificado em PDF, com o carimbo da Faculdade, para que o possa mostrar ao senhor Duarte antes que ele mude de ideias. O que escrevi à mão no certificado da Marie, hoje ao meio-dia, não está no PDF: «com sotaque». Não é uma crítica. Quer dizer que, depois de oito meses, a Marie fala português como uma pessoa que vive cá e não como um manual. Os nasais ainda fogem às vezes. Deixe-os fugir.<br>Lembro-me do primeiro dia, em outubro: a Noor respondia a tudo antes de eu acabar a pergunta e a Marie esperava até ter a certeza. Hoje fala sem esperar, e a Noor espera um bocadinho mais. Em dezembro fez o trabalho de casa inteiro, dez frases no imperfeito do conjuntivo, embora não houvesse aquecimento na Graça. Em abril escreveu uma carta de apresentação que ficou formal depois de corrigirmos três fórmulas e um «tu». E na segunda-feira passada, no exame, não cometeu nenhum erro que eu já não lhe tivesse corrigido. É o melhor que uma professora pode pedir.<br>Um conselho para Sagres, só um: nas aulas, fale português com os alemães. Eles vão querer falar alemão com a Marie. Não deixe. Quem aprende a cair numa língua aprende-a mais depressa.<br>Se voltar a Lisboa, a porta da sala está aberta. Dê notícias.<br>Com os melhores cumprimentos,<br>T.",
+   "gloss": "Erst lesen, dann anhören. Freitag, 30. Mai, abends: die E-Mail mit dem offiziellen Zeugnis, nach der letzten Stunde (Tag 83). Neu erschließen: o carimbo = der Stempel · mudar de ideias = es sich anders überlegen · à mão = handschriftlich · fugir = entwischen, weglaufen · cometer um erro = einen Fehler machen · o conselho = der Rat · deixar = (zu)lassen. Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "O PDF é igual ao certificado que a Marie recebeu ao meio-dia.",
+     "a": "Falsch – im PDF fehlt das handschriftliche „com sotaque“; dafür hat es den Stempel der Faculdade für den Senhor Duarte."
+    },
+    {
+     "q": "«Com sotaque» é uma crítica da professora.",
+     "a": "Falsch – ein Lob: Marie spricht wie jemand, der hier lebt, nicht wie ein Lehrbuch."
+    },
+    {
+     "q": "Em outubro, a Noor respondia antes de a professora acabar a pergunta.",
+     "a": "Richtig – und Marie wartete, bis sie sicher war. Heute ist es fast umgekehrt."
+    },
+    {
+     "q": "A Marie fez o trabalho de casa de dezembro inteiro, embora não houvesse aquecimento.",
+     "a": "Richtig – zehn Sätze im imperfeito do conjuntivo (Tag 73), bei vierzehn Grad drinnen."
+    },
+    {
+     "q": "No exame, a Marie cometeu muitos erros novos.",
+     "a": "Falsch – keinen, den Teresa nicht schon korrigiert hatte. „É o melhor que uma professora pode pedir.“"
+    },
+    {
+     "q": "A professora aconselha a Marie a falar alemão com os alunos alemães.",
+     "a": "Falsch – im Gegenteil: Portugiesisch, auch wenn die Deutschen Deutsch wollen."
+    },
+    {
+     "q": "Se a Marie voltar a Lisboa, a porta da sala está aberta.",
+     "a": "Richtig – „Se voltar a Lisboa, a porta da sala está aberta.“ Und wie immer in der 3. Person: die Professora duzt nicht."
+    },
+    {
+     "q": "A professora assina a mensagem com o nome completo.",
+     "a": "Falsch – nur „T.“, wie schon bei der Note für das Referat (Tag 70)."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "G · Hören: O telefonema do Vasco (6 P.)",
+   "audio": "s84h",
+   "listen": true,
+   "text": "Sábado, trinta e um de maio, oito e meia da manhã. A Marie está no patamar do terceiro andar, com a mala numa mão e o pão do tio Tó na outra. O João vem atrás, com a chave da carrinha e os olhos meio fechados. O telemóvel toca.<br>— Está? Marie? Já estás a caminho?<br>— Ainda estou nas escadas. Quarto andar sem elevador, lembras-te?<br>— Lembro-me. Ouve bem: o comboio da manhã para Lagos sai do Oriente. Mudas em Tunes, não adormeças. Em Lagos apanhas o autocarro da tarde para Sagres. Eu vou buscar-te à paragem, ao pé da escola.<br>— Com a carrinha?<br>— Com a carrinha, que agora tem pneus novos. Traz o contrato. Assinamos à noite, na Mareta. O senhor Duarte quer ver tudo assinado antes do primeiro dia.<br>— E o tempo?<br>— Sol até quinta, ondas pequenas, perfeitas para principiantes. Outra coisa: o Tomás. A mãe dele queria que ele viesse só para a semana, depois das aulas. Ele disse que não. Chega hoje à noite, no último autocarro.<br>— Vasco, o João diz que vamos perder o comboio.<br>— Então vai. Até logo, Marie. Boa onda.",
+   "gloss": "Erst hören, dann die Fragen (1 Punkt pro Frage), dann lesen. Samstag, 31. Mai, 8.30 Uhr, Treppenhaus in Graça, eine halbe Stunde vor der Abfahrt zur Gare do Oriente. Neu erschließen: a caminho = unterwegs · o pneu = der Reifen · o principiante = der Anfänger · para a semana = nächste Woche · o último autocarro = der letzte Bus",
+   "questions": [
+    {
+     "q": "Quando o Vasco liga, a Marie já está no comboio.",
+     "a": "Falsch – sie steht noch auf der Treppe, vierter Stock ohne Aufzug."
+    },
+    {
+     "q": "A Marie tem de mudar de comboio em Tunes.",
+     "a": "Richtig – „Mudas em Tunes, não adormeças.“"
+    },
+    {
+     "q": "O Vasco vai buscar a Marie a Lagos.",
+     "a": "Falsch – in Sagres, an der Haltestelle bei der Schule, mit der carrinha."
+    },
+    {
+     "q": "O contrato vai ser assinado à noite, na Mareta.",
+     "a": "Richtig – Senhor Duarte will vor dem ersten Arbeitstag alles unterschrieben sehen."
+    },
+    {
+     "q": "Vai chover toda a semana.",
+     "a": "Falsch – Sonne bis Donnerstag, kleine Wellen für Anfänger."
+    },
+    {
+     "q": "O Tomás chega hoje à noite, com o último autocarro.",
+     "a": "Richtig – seine Mutter wollte ihn erst nächste Woche schicken; er hat Nein gesagt."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "H · Schreiben: Carta de despedida (6 P.)",
+   "html": "Marie schreibt am Ende der Staffel drei Abschiedsbriefe: an Tio Tó, an die Professora Teresa und an João. Schreib selbst einen – an eine Figur der Staffel, in sechs Sätzen, 1 Punkt pro korrektem Satz. Wähle das Register (tu für João, Noor oder Martim · o senhor für Tio Tó · formell für die Professora):<br><br>1. Anrede und Dank (<i>Caro/Cara … · Obrigada por …</i>) · 2. Was du in letzter Zeit gemacht hast (perfeito composto: <i>Ultimamente tenho …</i>) · 3. Ein Wunsch oder ein Bedauern mit presente do conjuntivo (<i>Espero que … · É pena que …</i>) · 4. Ein irrealer Satz mit imperfeito do conjuntivo (<i>Se pudesse, … · Gostava que …</i>) · 5. Ein Versprechen mit futuro do conjuntivo (<i>Quando voltar, … · Se houver …</i>) · 6. Abschiedsformel im richtigen Register (<i>Um abraço · Um beijinho · Com os melhores cumprimentos</i>)<br><br>Muster: <i>Caro tio Tó, obrigada por tudo. Ultimamente tenho feito pão direito. É pena que o senhor nunca saia de Lisboa. Se pudesse, levava o forno comigo. Quando voltar, trago-lhe um pão de Sagres. Um abraço, Marie.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (60 Punkte)",
+   "html": "<b>52–60:</b> Parabéns – das ist B1 mit Reserve. Du kannst in Portugal eine Bewerbung schreiben, einen Vertrag lesen, eine Meinung vertreten, weitererzählen, was andere gesagt haben, und sagen, was wäre, wenn. Wenn du es offiziell willst: Das <b>DEPLE</b> (Diploma Elementar de Português Língua Estrangeira, Niveau B1) wird in Portugal und an vielen Orten in Deutschland angeboten – du bist bereit.<br><b>40–51:</b> Muito bem! Schau, wo die Punkte fehlen: Teil B → Tag 58, 60, 61 und 79 (<i>é preciso que, quero que</i> + presente; <i>se houver, quando chegares</i> = futuro; Relativsatz mit Konjunktiv, wenn die Person unbekannt ist) · Teil C → Tag 71, 73, 74 und 76 (<i>eles tiveram → tivesse</i>; <i>gostaria que, como se, quem me dera</i> immer imperfeito; <i>oxalá</i> + presente, wenn es noch klappen kann) · Teil D → Tag 57, 59, 66, 72 und 82 (<i>tenho trabalhado</i> ≠ Perfekt; <i>antes de saíres</i>; <i>foi adiado</i> = Vorgang, <i>está assinado</i> = Zustand; indirekte Rede einen Schritt zurück) · Teil E → Tag 67, 69 und 80 (<i>por um lado … por outro lado</i>; <i>-inho</i> am Tresen; <i>Exmo. Senhor</i> und <i>o senhor</i> im Brief). Sag zu dem schwächsten Teil zehn eigene Sätze laut.<br><b>unter 40:</b> Staffel 3 war acht Monate Lissabon, und der Konjunktiv ist ihr roter Faden. Wiederhole die Wochentests (Tag 63, 70, 77) in dieser Reihenfolge, dann Tag 83 (die drei Konjunktive im Abschied) und danach diesen Test noch einmal – die zweite Runde ist immer besser. <i>O pão não espera por ninguém, mas o exame espera por ti.</i><br><br><b>Und jetzt?</b> Staffel 3 endet hier. Marie steigt am 31. Mai in den Zug nach Lagos (Bonus unten), und die Geschichte geht dort weiter, wo Staffel 2 aufgehört hat: in <b>„Junho“ (Tag 56)</b> – sechs Uhr morgens, Praia da Mareta, zwanzig Schüler, Tomás als Helfer, „Hoje vamos aprender a cair.“ B1 heißt: Du kannst in Portugal arbeiten, dich bewerben, einen Vertrag unterschreiben und erzählen, wie es dazu kam. Deine Vokabeln bleiben im Caderno, die Geschichten in Textos. <b>Boa onda.</b>"
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: Comboio para Lagos",
+   "audio": "s84",
+   "text": "Sábado, trinta e um de maio. O João acordou às oito, o que não lhe acontecia desde o verão passado, e levou-a à Gare do Oriente na carrinha do tio, com a mala e o pão de sexta-feira embrulhado num jornal. Na plataforma não disse quase nada. Depois disse:<br>— O sofá fica livre. Se voltares, é teu.<br>— O sofá é mau.<br>— Pois é. Mas é teu.<br>O comboio saiu a horas, o que não era normal. Lisboa ficou para trás em dez minutos: a ponte, o rio, os prédios que já não lhe pareciam estranhos. Em Tunes mudou de comboio, como o Vasco tinha dito, e não adormeceu. Ao chegar a Lagos, o cheiro era outro: sal, pinheiros, gasóleo de autocarro. Conhecia-o de dois verões.<br>O autocarro para Sagres demorou cerca de uma hora. No autocarro abriu o envelope do tio Tó. Lá dentro, a lápis: «Às seis.» Mais nada. Na paragem, ao pé da escola, estava a carrinha com os pneus novos.<br>— Vinte alunos amanhã — disse o Vasco, em vez de olá.<br>— Já sei.<br>Ao fim da tarde desceram à Mareta. O mar estava liso. À porta da escola havia uma mesa de plástico, duas canetas e o senhor Duarte, que apertou a mão à Marie, fez que sim com a cabeça, sem dizer uma palavra, e foi jantar. Quando a Marie pegou na caneta, a luz da escola apagou-se. Toda. A da rua também.<br>— Isto acontece — disse o Vasco. — Sagres é o fim do mundo. Às vezes a eletricidade esquece-se de vir.<br>Foi buscar uma vela à cozinha. A Marie leu o contrato pela última vez à luz da vela e assinou por baixo da assinatura do senhor Duarte. A dela ficou um bocadinho torta, como o primeiro pão. Não fazia mal: a segunda edição ia sair direita.<br>— Pronto — disse o Vasco. — Agora és instrutora. Amanhã às seis.<br>— Às seis?<br>— Em junho não há horas. Há marés.<br>A luz voltou às nove e meia. Ninguém reparou. Às dez chegou o último autocarro de Lagos, e dele desceu um miúdo de catorze anos com um boné velho, uma mochila, uma bomba de água e um martelo de plástico. Mas isso já é a história de amanhã, às seis da manhã, na Praia da Mareta: «Bom dia. Eu sou a Marie. Hoje vamos aprender a cair.»",
+   "gloss": "Zur Belohnung, ohne Punkte – und als Brücke zu „Junho“ (Tag 56). Neu erschließen: a plataforma = der Bahnsteig · a ponte = die Brücke · o pinheiro = die Kiefer · o gasóleo = der Diesel · a lápis = mit Bleistift · em vez de = anstatt · apertar a mão = die Hand schütteln · apagar-se = ausgehen (Licht) · a vela = die Kerze · a maré = die Gezeit, die Tide · reparar (em) = bemerken",
+   "questions": [
+    {
+     "q": "O João leva a Marie à estação na carrinha do tio Tó.",
+     "a": "Richtig – und um acht Uhr wach, zum ersten Mal seit letztem Sommer. „Se voltares, o sofá é teu.“"
+    },
+    {
+     "q": "A Marie assina o contrato à luz de uma vela porque a escola não tem eletricidade.",
+     "a": "Richtig – Stromausfall in Sagres, „às vezes a eletricidade esquece-se de vir“. Die Unterschrift ist ein bisschen schief, wie das erste Brot."
+    },
+    {
+     "q": "O Tomás só chega na semana seguinte.",
+     "a": "Falsch – mit dem letzten Bus aus Lagos, um zehn, mit Kappe, Wasserpumpe und Plastikhammer. Morgen um sechs geht es weiter: Tag 56, „Junho“."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,416 @@
+{
+ "id": "tag80",
+ "title": "Exmo. Senhor",
+ "subtitle": "Staffel 3 · Woche 12 · Tag 80 · Die Bewerbung · Formeller Brief · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 79)",
+   "items": [
+    {
+     "q": "A escola procura alguém que ___ alemão e inglês. (falar)",
+     "a": "fale"
+    },
+    {
+     "q": "Conheço uma pessoa que ___ surf muito bem: o Vasco.",
+     "opts": [
+      "faz",
+      "faça"
+     ],
+     "a": "faz – die Person ist bekannt und existiert → Indikativ; nur bei Gesuchtem oder Unbekanntem steht der Konjunktiv (procuro alguém que faça)"
+    },
+    {
+     "q": "rápido → Adverb auf -mente: ___",
+     "a": "rapidamente"
+    },
+    {
+     "q": "Não há ninguém na turma que ___ de Sagres. (ser)",
+     "a": "seja"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: A carta de apresentação (16)",
+   "items": [
+    {
+     "pt": "o remetente",
+     "de": "der Absender",
+     "ipa": "[ʁɨmɨˈtẽtɨ]",
+     "audio": "v8001"
+    },
+    {
+     "pt": "o destinatário",
+     "de": "der Empfänger, der Adressat",
+     "ipa": "[dɨʃtinɐˈtaɾju]",
+     "audio": "v8002"
+    },
+    {
+     "pt": "o anexo",
+     "de": "der Anhang (em anexo = im Anhang)",
+     "ipa": "[ɐˈnɛksu]",
+     "audio": "v8003"
+    },
+    {
+     "pt": "anexar",
+     "de": "anhängen, beifügen",
+     "ipa": "[ɐnɛkˈsaɾ]",
+     "audio": "v8004"
+    },
+    {
+     "pt": "enviar",
+     "de": "senden, schicken (formeller als mandar)",
+     "ipa": "[ẽviˈaɾ]",
+     "audio": "v8005"
+    },
+    {
+     "pt": "o cumprimento",
+     "de": "der Gruß (com os melhores cumprimentos = mit freundlichen Grüßen)",
+     "ipa": "[kũpɾiˈmẽtu]",
+     "audio": "v8006"
+    },
+    {
+     "pt": "as competências",
+     "de": "die Fähigkeiten, die Kompetenzen",
+     "ipa": "[kõpɨˈtẽsjɐʃ]",
+     "audio": "v8007"
+    },
+    {
+     "pt": "a disponibilidade",
+     "de": "die Verfügbarkeit (ter disponibilidade = Zeit haben, verfügbar sein)",
+     "ipa": "[dɨʃpunibiliˈdadɨ]",
+     "audio": "v8008"
+    },
+    {
+     "pt": "o cargo",
+     "de": "die Stelle, die Position, das Amt",
+     "ipa": "[ˈkaɾɡu]",
+     "audio": "v8009"
+    },
+    {
+     "pt": "o parágrafo",
+     "de": "der Absatz (im Text)",
+     "ipa": "[pɐˈɾaɡɾɐfu]",
+     "audio": "v8010"
+    },
+    {
+     "pt": "atenciosamente",
+     "de": "hochachtungsvoll, mit freundlichen Grüßen (sehr formell)",
+     "ipa": "[ɐtẽsjɔzɐˈmẽtɨ]",
+     "audio": "v8011"
+    },
+    {
+     "pt": "dispensar",
+     "de": "gewähren, schenken (a atenção dispensada); entbehren, freistellen",
+     "ipa": "[dɨʃpẽˈsaɾ]",
+     "audio": "v8012"
+    },
+    {
+     "pt": "o registo",
+     "de": "das Register, die Sprachebene (formell / informell); das Verzeichnis",
+     "ipa": "[ʁɨˈʒiʃtu]",
+     "audio": "v8013"
+    },
+    {
+     "pt": "o rascunho",
+     "de": "der Entwurf",
+     "ipa": "[ʁɐʃˈkuɲu]",
+     "audio": "v8014"
+    },
+    {
+     "pt": "apagar",
+     "de": "löschen; ausmachen (Licht)",
+     "ipa": "[ɐpɐˈɡaɾ]",
+     "audio": "v8015"
+    },
+    {
+     "pt": "a fórmula",
+     "de": "die Formel, die feste Wendung",
+     "ipa": "[ˈfɔɾmulɐ]",
+     "audio": "v8016"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Teresa: Venho por este meio",
+   "html": "<i>(Professora Teresa, Dienstag, 29. April, mit einem ausgedruckten Blatt in der Hand, das sie gestern um halb zwölf nachts per E-Mail bekommen hat:)</i> Sie können seit Oktober Meinungen sagen, Wünsche äußern und über die Vergangenheit erzählen. Heute lernen Sie etwas, das in keinem Gespräch vorkommt und das Sie trotzdem brauchen werden, sobald Sie in Portugal eine Stelle, eine Wohnung oder eine Bolsa wollen: den <b>formellen Brief</b>. Er hat einen eigenen Ton, eigene Formeln und ein eigenes <b>registo</b>. Wer ihn wie ein Gespräch schreibt, klingt wie ein Kind. Wer ein Gespräch wie einen Brief führt, klingt wie ein Notar. Beides ist falsch.<br><br><b>1 · Der Aufbau</b> (heute eine E-Mail mit Anhang, der Brief auf Papier ist gleich, nur mit Ort und Datum oben rechts: <i>Lisboa, 29 de abril</i>):<br>· <b>Assunto:</b> <i>Candidatura ao cargo de instrutora de surf (junho a setembro)</i> – der Betreff, kurz, ohne Verb, Nominalstil wie eine Schlagzeile (Tag 66).<br>· <b>Anrede:</b> <i><b>Exmo. Senhor</b> Duarte,</i> / <i><b>Exma. Senhora</b> Dra. Teresa Almeida,</i> / an mehrere oder Unbekannte: <i><b>Exmos. Senhores,</b></i>. <i>Exmo.</i> ist die Abkürzung von <i>Excelentíssimo</i>, und niemand liest es aus. Eine Stufe weicher, an Leute, die Sie kennen, aber siezen: <i><b>Caro</b> Senhor Duarte, / <b>Cara</b> Professora,</i>. Unter Freunden: <i><b>Olá</b> Vasco,</i> oder <i><b>Caro</b> Vasco,</i>. Das brasilianische <i>Prezado</i> schreibt in Portugal niemand.<br>· <b>Einleitung:</b> <i><b>Venho por este meio</b> candidatar-me ao cargo de …</i> – „hiermit bewerbe ich mich um …“; oder: <i><b>Na sequência do</b> anúncio publicado …, venho apresentar a minha candidatura.</i> Eine Formel, ein Satz, und der Leser weiß, worum es geht.<br>· <b>Hauptteil:</b> zwei, drei kurze Absätze: wer Sie sind, was Sie können (<i>as competências</i>), wann Sie können (<i>a disponibilidade</i>). Sätze, keine Listen; Fakten, keine Gefühle.<br>· <b>Anhang:</b> <i><b>Junto envio</b> o meu currículo.</i> / <i>Envio <b>em anexo</b> o meu currículo.</i><br>· <b>Schluss:</b> <i><b>Agradeço desde já</b> a atenção dispensada.</i> – „Ich danke schon jetzt für die Aufmerksamkeit.“ Davor oder danach: <i>Fico ao dispor para uma entrevista.</i> – „Ich stehe für ein Gespräch zur Verfügung.“<br>· <b>Grußformel:</b> <i><b>Com os melhores cumprimentos,</b></i> (die Regel) oder <i><b>Atenciosamente,</b></i> (eine Stufe steifer, an Behörden). Unter Bekannten: <i>Cumprimentos,</i> oder <i>Um abraço,</i>.<br>· <b>Unterschrift:</b> der volle Name, darunter Telefon und E-Mail.<br><br><b>2 · Das Register: wer ist tu, wer ist o senhor, wer ist Exmo.?</b><br>· <b>tu</b> – Freunde, Familie, Gleichaltrige, Vasco: <i>Sabes que dou aulas desde agosto.</i> Mündlich und in Nachrichten.<br>· <b>você</b> – auf dem Papier die neutrale Anrede, aber in Portugal spricht man das Wort selten aus, weil es für viele Ohren von oben herab klingt. Was man stattdessen sagt, kennen Sie seit Oktober: die <b>3. Person mit Namen oder Titel</b>: <i>A professora tem um minuto? O Vasco pode ligar-me?</i> Oder <i>o senhor / a senhora</i>: <i>O senhor desculpe.</i><br>· <b>o senhor / a senhora</b> – Fremde, Ältere, Chefs, Kunden am Tresen: <i>O senhor deseja mais alguma coisa?</i> Höflich, gesprochen, alltäglich.<br>· <b>Exmo. Senhor / Exma. Senhora</b> – nur schriftlich, nur formell: Bewerbung, Behörde, Universität, Vermieter, Anwalt. Im Text selbst dann wieder 3. Person oder <i>V. Exa.</i> (Vossa Excelência), was Sie lesen, aber nicht schreiben müssen.<br>Die Regel: <b>Schreiben Sie an eine Person so, wie Sie mit ihr sprechen würden, eine Stufe höher.</b> Mit Senhor Duarte würden Sie <i>o senhor</i> sagen, also schreiben Sie <i>Exmo. Senhor</i>.<br><br><b>3 · Condicional de cortesia.</b> Den condicional kennen Sie von Tag 71 und 73 als Schriftform. Im Brief ist er die Höflichkeit selbst:<br><i><b>Gostaria de</b> integrar a equipa da escola no verão.</i> – Ich würde gern im Sommer zum Team der Schule gehören.<br><i><b>Teria todo o gosto em</b> dar aulas em alemão e em inglês.</i> – Es wäre mir eine Freude, … (die schönste Formel von allen)<br><i><b>Poderia</b> começar no dia um de junho.</i> – Ich könnte am 1. Juni anfangen.<br><i><b>Seria possível</b> combinar uma entrevista por telefone?</i> – Wäre es möglich, …?<br>Gesprochen wäre das <i>gostava, podia, era possível</i> (Tag 73). Geschrieben, an einen Fremden: immer condicional.<br><br><b>4 · Nominalstil.</b> Im Gespräch sagt man „ich will, ich kann, ich habe gemacht“. Der Brief sagt es mit Substantiven: nicht <i>quero trabalhar</i>, sondern <i><b>a minha candidatura</b></i>; nicht <i>posso de junho a setembro</i>, sondern <i><b>a minha disponibilidade</b> de junho a setembro</i>; nicht <i>gostava de ter uma entrevista</i>, sondern <i><b>a possibilidade de</b> uma entrevista</i>; nicht <i>dei aulas</i>, sondern <i><b>a minha experiência</b> como instrutora</i>. Das Verb bleibt im Hintergrund, das Substantiv trägt den Satz. Sie kennen das von der Zeitung (Tag 66); der Brief ist ihr höflicher Bruder.<br><br><b>Typischer Fehler:</b> das <b>tu</b>, das sich einschleicht, weil Sie beim Schreiben an jemanden denken, den Sie kennen. <i>Como <b>sabes</b>, dou aulas desde o verão passado.</i> – Senhor Duarte weiß nichts, und Sie duzen ihn nicht. Richtig: <i>Como <b>poderá ver</b> no currículo em anexo, dou aulas desde o verão passado.</i> Ein einziges <i>sabes</i> in einer Bewerbung macht alle <i>Exmo.</i> davor kaputt. Zweiter Fehler: <i>Querido Senhor Duarte</i>. <i>Querido</i> ist für die Großmutter (Tag 56), <i>Exmo.</i> ist für den Chef. Und: zwei Formeln am Schluss, immer zwei, <i>agradeço desde já</i> und <i>com os melhores cumprimentos</i>. Eine allein ist eine halb geschlossene Tür."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra, Dienstag, 22.40 Uhr:)</i> Uma carta ao senhor Duarte? Então somos duas: ich habe mich letzte Woche um ein <i>estágio</i> (Praktikum) bei der Câmara de Coimbra beworben, drei Seiten, zwei Nächte, und Inês hat mir in der letzten Zeile ein <i>beijinhos</i> gestrichen, mit rotem Stift, wie eine Ärztin. Mein Tipp: Der Schluss hat immer <b>zwei</b> Formeln, nie eine: erst <i>Agradeço desde já a atenção dispensada</i>, dann in der nächsten Zeile <i>Com os melhores cumprimentos</i>, und erst darunter dein Name. Und schreib die Anrede als Letztes, wenn der Rest steht, dann rutscht dir kein <i>Querido</i> mehr hinein. Aussprache: <i>Exmo.</i> liest man als „Excelentíssimo“ [ɐjʃsɨlẽˈtisimu], aber kein Mensch sagt das laut; <i>cumprimentos</i> = „kumprimêntusch“, mit sch am Ende. No Porto é melhor, mas as cartas são iguais em todo o lado."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Três fórmulas e um tu",
+   "hint": "Selbst erschlossen: o currículo = der Lebenslauf · a carta de apresentação = das Bewerbungsschreiben · o dono = der Besitzer · em voz alta = laut (vorlesen) · impessoal = unpersönlich · ficar ao dispor = zur Verfügung stehen · pois não? = nicht wahr? (nach einem verneinten Satz). Dienstag, 29. April, zehn nach zwei, Faculdade de Letras; die Professora hat Maries Entwurf ausgedruckt, Noor sitzt in der ersten Reihe. Die Professora siezt mit „a Marie“ und der 3. Person.",
+   "lines": [
+    {
+     "who": "Professora",
+     "pt": "Marie, a sua carta chegou-me ontem à noite, às onze e meia. Vou lê-la em voz alta, porque é um bom exemplo para toda a turma. Primeira linha: «Querido Senhor Duarte». Querido?",
+     "audio": "d8001"
+    },
+    {
+     "who": "Marie",
+     "pt": "Eu sei, professora. Escrevi «Exmo. Senhor» primeiro, mas pareceu-me frio, e apaguei. A Noor leu o rascunho e disse que estava perfeito.",
+     "audio": "d8002"
+    },
+    {
+     "who": "Professora",
+     "pt": "A Noor escreve «a sofá». Não é a pessoa certa para avaliar cartas formais. Numa candidatura escreve-se «Exmo. Senhor Duarte» e ponto. Frio é bom: o frio é respeito. Segunda linha: «Eu escrevo esta carta porque quero o trabalho.»",
+     "audio": "d8003"
+    },
+    {
+     "who": "Marie",
+     "pt": "É verdade que quero.",
+     "audio": "d8004"
+    },
+    {
+     "who": "Professora",
+     "pt": "Claro que quer, senão não escrevia. Mas a frase diz-se de outra maneira: «Venho por este meio candidatar-me ao cargo de instrutora de surf.» Nominal, impessoal, português. Repita.",
+     "audio": "d8005"
+    },
+    {
+     "who": "Marie",
+     "pt": "Venho por este meio candidatar-me ao cargo de instrutora de surf. Mas, professora, ninguém fala assim.",
+     "audio": "d8006"
+    },
+    {
+     "who": "Professora",
+     "pt": "Ninguém fala assim; escreve-se assim. É outro registo. Agora o parágrafo do meio, que está muito bem: a experiência em Sagres, o alemão, o inglês, a disponibilidade de junho a setembro. Aqui a Marie pensou como uma portuguesa. Até chegar a esta frase: «Como sabes, dou aulas desde o verão passado.»",
+     "audio": "d8007"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ai. Esse «sabes» é para o Vasco. Enquanto escrevia, estava a pensar nele, não no dono da escola.",
+     "audio": "d8008"
+    },
+    {
+     "who": "Professora",
+     "pt": "Pois, mas o Vasco não assina contratos. A carta é para o senhor Duarte, e ao senhor Duarte não se trata por tu: «Como poderá ver no currículo em anexo, dou aulas desde o verão passado.» Terceira pessoa. E o fim: «Obrigada e até breve. Beijinhos, Marie.»",
+     "audio": "d8009"
+    },
+    {
+     "who": "Marie",
+     "pt": "Beijinhos não, pois não?",
+     "audio": "d8010"
+    },
+    {
+     "who": "Professora",
+     "pt": "Beijinhos não. «Agradeço desde já a atenção dispensada. Fico ao dispor para uma entrevista. Com os melhores cumprimentos», e por baixo o nome completo, o telefone e o e-mail. Duas fórmulas no fim, sempre duas.",
+     "audio": "d8011"
+    },
+    {
+     "who": "Marie",
+     "pt": "Três fórmulas e um tu. Pensava que estava pior.",
+     "audio": "d8012"
+    },
+    {
+     "who": "Professora",
+     "pt": "A estrutura está certa: assunto, apresentação, competências, disponibilidade, anexo. Isso não se aprende numa tarde. Só uma pergunta, e não é de gramática: a Marie quer mesmo ir? O exame é no dia vinte e seis de maio.",
+     "audio": "d8013"
+    },
+    {
+     "who": "Marie",
+     "pt": "Quero, professora. Faço o exame, e no dia trinta e um apanho o comboio. Se o senhor Duarte responder.",
+     "audio": "d8014"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · A fórmula certa",
+   "items": [
+    {
+     "q": "___ Senhor Duarte, (formelle Anrede, abgekürzt)",
+     "a": "Exmo."
+    },
+    {
+     "q": "___ por este meio candidatar-me ao cargo de instrutora de surf.",
+     "a": "Venho"
+    },
+    {
+     "q": "Junto ___ o meu currículo.",
+     "a": "envio"
+    },
+    {
+     "q": "Agradeço desde já a atenção ___.",
+     "a": "dispensada"
+    },
+    {
+     "q": "Com os melhores ___,",
+     "a": "cumprimentos"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Formal ou informal? (antippen)",
+   "items": [
+    {
+     "q": "Carta ao dono da escola de surf, que a Marie nunca viu. Anrede:",
+     "opts": [
+      "Exmo. Senhor Duarte,",
+      "Olá Duarte,",
+      "Querido Senhor Duarte,"
+     ],
+     "a": "Exmo. Senhor Duarte, – Bewerbung an einen Fremden, der entscheidet → schriftlich formell; querido ist für die Großmutter, olá für Freunde"
+    },
+    {
+     "q": "Mensagem ao Vasco, amigo e chefe-instrutor. Anrede:",
+     "opts": [
+      "Exmo. Senhor Vasco,",
+      "Olá Vasco,",
+      "Exmos. Senhores,"
+     ],
+     "a": "Olá Vasco, – Freund, tu-Register; ein Exmo. an Vasco wäre ein Witz oder eine Beleidigung"
+    },
+    {
+     "q": "E-mail à professora Teresa a pedir mais tempo para o trabalho. Anrede:",
+     "opts": [
+      "Cara Professora,",
+      "Olá Teresa,",
+      "Querida Teresa,"
+     ],
+     "a": "Cara Professora, – bekannt, aber gesiezt → caro/cara + Titel; Exma. Senhora Professora wäre ebenfalls richtig, nur steifer"
+    },
+    {
+     "q": "Fim da carta de candidatura:",
+     "opts": [
+      "Beijinhos,",
+      "Com os melhores cumprimentos,",
+      "Até já,"
+     ],
+     "a": "Com os melhores cumprimentos, – die Grußformel des formellen Briefs; atenciosamente ginge auch, beijinhos nie"
+    },
+    {
+     "q": "Como se fala do senhor Duarte dentro da carta?",
+     "opts": [
+      "tu: se quiseres",
+      "você: se você quiser",
+      "3. Person / o senhor: se o senhor desejar"
+     ],
+     "a": "3. Person / o senhor: se o senhor desejar – in Portugal schreibt man das você nicht aus und duzt den Chef schon gar nicht; 3. Person, o senhor oder Nominalstil (caso haja interesse)"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Hiermit bewerbe ich mich um die Stelle als Surflehrerin.",
+     "satz": "Venho por este meio candidatar-me ao cargo de instrutora de surf.",
+     "a": "Venho por este meio candidatar-me ao cargo de instrutora de surf."
+    },
+    {
+     "q": "Anbei sende ich meinen Lebenslauf.",
+     "satz": "Junto envio o meu currículo.",
+     "a": "Junto envio o meu currículo."
+    },
+    {
+     "q": "Ich danke schon jetzt für die gewährte Aufmerksamkeit.",
+     "satz": "Agradeço desde já a atenção dispensada.",
+     "a": "Agradeço desde já a atenção dispensada."
+    },
+    {
+     "q": "Ich stehe für ein Vorstellungsgespräch zur Verfügung.",
+     "satz": "Fico ao dispor para uma entrevista.",
+     "a": "Fico ao dispor para uma entrevista."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A professora leu a carta da Marie em voz alta para toda a turma.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – „Vou lê-la em voz alta, porque é um bom exemplo para toda a turma.“ Noor sitzt in der ersten Reihe."
+    },
+    {
+     "q": "A Marie escreveu «sabes» porque estava a pensar no Vasco.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – „Esse «sabes» é para o Vasco. Enquanto escrevia, estava a pensar nele, não no dono da escola.“ Aber Vasco unterschreibt keine Verträge."
+    },
+    {
+     "q": "A professora diz que o parágrafo do meio está mal escrito.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – gerade den lobt sie: Erfahrung, Deutsch, Englisch, Verfügbarkeit, „aqui a Marie pensou como uma portuguesa“."
+    },
+    {
+     "q": "O exame B1 é no dia trinta e um de maio.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – die Prüfung ist am 26. Mai; am 31. nimmt Marie den Zug. Wenn Senhor Duarte antwortet."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Hiermit bewerbe ich mich um die Stelle als Surflehrerin. → ___",
+     "a": "Venho por este meio candidatar-me ao cargo de instrutora de surf. / Venho por este meio apresentar a minha candidatura ao cargo de instrutora de surf."
+    },
+    {
+     "q": "Ich danke schon jetzt für die Aufmerksamkeit. → ___",
+     "a": "Agradeço desde já a atenção dispensada."
+    },
+    {
+     "q": "Es wäre mir eine Freude, in Ihrem Team zu arbeiten. → ___",
+     "a": "Teria todo o gosto em trabalhar na sua equipa. / Teria todo o gosto em fazer parte da sua equipa."
+    },
+    {
+     "q": "Ich bin von Juni bis September verfügbar. → ___",
+     "a": "Estou disponível de junho a setembro. / Tenho disponibilidade de junho a setembro."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Uma candidatura em seis frases",
+   "html": "Jetzt du, an der Küchentischkante, mit dem Laptop zu. Formuliere eine kurze formelle Bewerbung laut, sechs Sätze, in dieser Reihenfolge: Anrede, Einleitung, zwei Stärken, zwei Schlussformeln. Die Stelle darfst du dir aussuchen: Surfschule, Bäckerei, Bibliothek, Hotel. Nimm dich auf und hör nach, ob wirklich kein <i>tu</i> und kein <i>querido</i> hineingerutscht ist und ob am Ende zwei Formeln stehen, nicht eine.<br><br>1 · Anrede: <i>Exmo. Senhor … / Exma. Senhora … / Exmos. Senhores,</i><br>2 · Einleitung: <i>Venho por este meio candidatar-me ao cargo de … · Na sequência do anúncio …, venho apresentar a minha candidatura.</i><br>3 · Erste Stärke, mit Nominalstil: <i>Tenho experiência como … · A minha experiência em … · Falo … e …</i><br>4 · Zweite Stärke, mit condicional: <i>Teria todo o gosto em … · Gostaria de … · Poderia começar …</i><br>5 · Erste Schlussformel: <i>Junto envio o meu currículo. Agradeço desde já a atenção dispensada.</i><br>6 · Zweite Schlussformel und Name: <i>Com os melhores cumprimentos, …</i><br><br>Dann denselben Inhalt noch einmal als Nachricht an einen Freund, im tu-Register, drei Sätze: <i>Olá …, candidatei-me à escola. Sabes que … Depois conto-te.</i> Hör dir beide Fassungen hintereinander an: Das ist der Unterschied zwischen den Registern, und beide sind richtig, jedes an seinem Ort.<br><br>Zum Schluss dreimal Maries Satz, mit der Professora-Betonung auf <i>meio</i>: <i>Venho por este meio candidatar-me ao cargo de instrutora de surf.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A carta",
+   "audio": "s80",
+   "text": "Segunda-feira à noite, vinte e oito de abril, onze horas. O João dormia no sofá com o portátil em cima do peito, e a Marie estava à mesa da cozinha com o computador e a fotografia do anúncio ao lado. «Procura-se instrutor/a para junho–setembro.» Prazo: cinco de maio.<br>Escreveu: «Olá Vasco». Apagou. A carta não era para o Vasco, era para o senhor Duarte, que ela nunca tinha visto. Escreveu: «Exmo. Senhor Duarte». Olhou para a linha cinco minutos e apagou outra vez, porque parecia uma carta das Finanças. À terceira escreveu «Querido Senhor Duarte» e deixou ficar. Depois veio o resto, de uma vez: «Eu escrevo esta carta porque quero o trabalho de instrutora de surf. Como sabes, dou aulas desde o verão passado.» Às onze e meia enviou o rascunho à professora Teresa e foi dormir no chão, porque o sofá estava ocupado.<br>Às três e quarenta tocou o despertador. Na padaria, entre o segundo e o terceiro tabuleiro, pensou em ler a carta ao Tio Tó. Tinha-a no telemóvel. Abriu-a duas vezes. O Tio Tó estava a pesar farinha e a assobiar um fado, e ela guardou o telemóvel no bolso. Não lhe disse nada. Ainda não.<br>Às duas da tarde, na faculdade, a professora Teresa leu a carta em voz alta. Toda a turma ouviu o «Querido», o «quero o trabalho», o «sabes» e os «beijinhos». A Noor riu-se nos «beijinhos». A Marie quis desaparecer debaixo da mesa, mas apontou tudo: Exmo. Senhor, venho por este meio, como poderá ver, agradeço desde já, com os melhores cumprimentos. Três fórmulas e um tu.<br>À noite, na cozinha, escreveu-a outra vez do princípio. Desta vez não apagou nada. «Venho por este meio candidatar-me ao cargo de instrutora de surf para os meses de junho a setembro. Como poderá ver no currículo em anexo, dou aulas desde o verão passado, em alemão e em inglês.» Anexou o currículo, uma página, com a fotografia que a Ana lhe tinha tirado em Sagres. Releu três vezes. O João acordou, leu por cima do ombro dela e disse só: «Envia.»<br>Às vinte e três e cinquenta e oito carregou em enviar. Depois ficou a olhar para o ecrã, à espera de uma resposta que não ia chegar naquela noite.",
+   "gloss": "Neu erschließen: o portátil = der Laptop · as Finanças = das Finanzamt · à terceira = beim dritten Mal · de uma vez = in einem Zug · pesar = wiegen · assobiar = pfeifen · o bolso = die Hosentasche · apontar = notieren, aufschreiben · reler = noch einmal lesen · por cima do ombro = über die Schulter · carregar em = drücken auf · o ecrã = der Bildschirm",
+   "questions": [
+    {
+     "q": "A Marie apagou a primeira linha da carta três vezes.",
+     "a": "Falsch – zweimal: «Olá Vasco» und «Exmo. Senhor Duarte» (zu kalt, klang nach Finanzamt). Beim dritten Mal blieb «Querido Senhor Duarte» stehen, und das war der Fehler."
+    },
+    {
+     "q": "De manhã, na padaria, a Marie leu a carta ao Tio Tó.",
+     "a": "Falsch – sie öffnete sie zweimal auf dem Telefon, Tio Tó wog Mehl und pfiff einen Fado, und sie steckte das Telefon wieder ein. Noch nicht."
+    },
+    {
+     "q": "A carta foi enviada dois minutos antes da meia-noite.",
+     "a": "Richtig – um 23.58 Uhr, nachdem João über ihre Schulter gelesen und ein Wort gesagt hatte: «Envia.» Die Antwort kommt in dieser Nacht nicht mehr."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kann ich …?<br>· … einen formellen Brief oder eine formelle E-Mail aufbauen: <i>assunto, Exmo. Senhor, venho por este meio, Hauptteil, junto envio, agradeço desde já, com os melhores cumprimentos</i>, Name?<br>· … das Register treffen: <i>tu</i> für Vasco, 3. Person oder <i>o senhor / a senhora</i> im Gespräch mit Fremden, <i>Exmo. Senhor / Exma. Senhora</i> nur schriftlich und formell, <i>você</i> lieber gar nicht aussprechen?<br>· … höflich im condicional schreiben: <i>gostaria de, teria todo o gosto em, poderia, seria possível</i>?<br>· … im Nominalstil formulieren: <i>a minha candidatura, a minha disponibilidade, a possibilidade de uma entrevista</i> statt <i>quero, posso, gostava</i>?<br>· … über eine Bewerbung reden: <i>candidatar-se a, o cargo, as competências, o anexo, anexar, enviar, o rascunho, apagar, a disponibilidade</i>?<br><br>Der Brief ist um 23.58 Uhr weg, mit drei korrigierten Formeln und ohne ein einziges <i>tu</i>. Morgen, Mittwoch, 30. April, klingelt das Telefon: Vasco liest die zehn Fragen des Senhor Duarte von einem Zettel vor, halb ernst, und lacht bei der fünften. <b>A entrevista.</b>"
+  }
+ ]
+}
