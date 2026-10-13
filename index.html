@@ -3155,6 +3155,7 @@ function zeigePaywall() {
           <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:600; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
         </div>
         <button onclick="schliessePaywall(); zeigeKonto()" class="mono" style="display:block; margin:.6rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Schon gekauft? Anmelden</button>
+        <button id="pw-restore" onclick="playWiederherstellenKlick()" class="mono" style="display:none; margin:0 auto; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Käufe wiederherstellen</button>
         <button onclick="schliessePaywall()" class="kicker" style="display:block; margin:1rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem">Später</button>
       </div>`;
     document.body.appendChild(el);
@@ -3162,6 +3163,7 @@ function zeigePaywall() {
   const inp = document.getElementById('pw-code'); if (inp) inp.value = '';
   const pc = document.getElementById('pw-code');
   if (pc && paywallCodeMerken) { pc.value = paywallCodeMerken; paywallCodeMerken = ''; }
+  const rs = document.getElementById('pw-restore'); if (rs) rs.style.display = playBillingDa() ? 'block' : 'none';
   dialogOeffnen(el, 'paywall-titel');
 }
 function zeigeAnki() {
@@ -3199,9 +3201,95 @@ function kontoVorKauf(grund) {
 }
 function kaufen(art) {
   if (kontoClient && !kontoUser) { kontoVorKauf('kauf'); return; }
-  // Hier hängt sich später die Store-Kasse ein (Play Billing über die Digital Goods API,
-  // auf iOS StoreKit über die native Hülle; art = 'abo' | 'einmal'). Bis zur Store-Version gibt es nur Codes.
-  meldung('Der Kauf kommt mit der App-Store-Version. Bis dahin: Code eingeben (unten) oder Tag 15 gratis ausprobieren.');
+  if (playBillingDa()) {   // Android-App (TWA): Google-Play-Kasse über die Digital Goods API
+    if (kaufLaeuft) return;
+    kaufLaeuft = true;
+    playKauf(art).then(() => kontoSync('kauf')).catch(e => meldung(kaufFehlerText(e))).finally(() => { kaufLaeuft = false; });
+    return;
+  }
+  // Im Browser gibt es (noch) keine Kasse; auf iOS hängt sich später StoreKit über die native Hülle hier ein.
+  meldung('Der Kauf geht in der Android-App aus dem Play Store. Hier: Code eingeben (unten) oder Tag 15 gratis ausprobieren.');
+}
+/* ---------- Play Billing (nur in der Android-App; im Browser ist getDigitalGoodsService undefiniert) ---------- */
+const PLAY_SKU = { abo: 'premium_monatlich', einmal: 'premium_einmal' };
+let kaufLaeuft = false;
+function playBillingDa() { return typeof window.getDigitalGoodsService === 'function' && 'PaymentRequest' in window; }
+async function playService() { return await window.getDigitalGoodsService('https://play.google.com/billing'); }
+/* Kauf: Preis aus dem Store holen, Google-Kasse zeigen, Beleg (purchaseToken) vom Server prüfen lassen.
+   Der Server (Supabase-Funktion play-verify) bestätigt den Kauf bei Google und schaltet das Konto frei. */
+async function playKauf(art) {
+  const sku = PLAY_SKU[art];
+  const service = await playService();
+  const [details] = await service.getDetails([sku]);
+  if (!details) throw new Error('produkt');
+  const req = new PaymentRequest(
+    [{ supportedMethods: 'https://play.google.com/billing', data: { sku } }],
+    { total: { label: details.title || 'Boa Onda Premium', amount: { currency: details.price.currency, value: details.price.value } } });
+  const resp = await req.show();
+  const token = resp.details && resp.details.purchaseToken;
+  try {
+    const r = await playVerifizieren(token, sku);
+    if (!r || !r.ok) throw new Error((r && r.fehler) || 'pruefung');
+    await resp.complete('success');
+  } catch (e) {
+    try { await resp.complete('fail'); } catch (e2) {}
+    throw e;
+  }
+  // Einmalkauf bleibt dauerhaft (wird nicht konsumiert); Bestätigung (acknowledge) erledigt der Server.
+  store.premium = { seit: today(), quelle: 'konto', art: art === 'abo' ? 'play-abo' : 'play-einmal' };
+  VMAP = null; save();
+  schliessePaywall();
+  meldung('Premium ist aktiv und gehört zu deinem Konto. Boa onda!');
+  goTab('kurs');
+}
+async function playVerifizieren(token, sku) {
+  if (!kontoClient || !kontoUser) throw new Error('konto');
+  const { data, error } = await kontoClient.functions.invoke('play-verify', { body: { token, sku } });
+  if (error) throw error;
+  return data || {};
+}
+/* „Käufe wiederherstellen": alle Käufe dieses Google-Kontos holen und am Server dem Boa-Onda-Konto zuordnen */
+async function playWiederherstellenKlick() {
+  if (kontoClient && !kontoUser) { kontoVorKauf('kauf'); return; }
+  if (!playBillingDa()) return;
+  try {
+    const ok = await playWiederherstellen();
+    if (ok) { schliessePaywall(); meldung('Dein Kauf ist wieder da. Boa onda!'); goTab('kurs'); }
+    else meldung('Für dieses Google-Konto wurde kein Kauf gefunden. Hast du mit einem anderen Konto gekauft?');
+  } catch (e) { meldung(kaufFehlerText(e)); }
+}
+async function playWiederherstellen() {
+  const service = await playService();
+  const purchases = await service.listPurchases();
+  for (const p of purchases || []) {
+    const r = await playVerifizieren(p.purchaseToken, p.itemId);
+    if (r && r.ok) {
+      store.premium = { seit: today(), quelle: 'konto', art: p.itemId === PLAY_SKU.abo ? 'play-abo' : 'play-einmal' };
+      VMAP = null; save(); await kontoSync('kauf');
+      return true;
+    }
+  }
+  return false;
+}
+/* Abo-Ablauf: läuft ein Play-Abo in den nächsten 24 h aus (oder ist es schon vorbei), den Beleg beim Server auffrischen lassen.
+   Höchstens einmal pro Tag, nur in der Android-App. */
+async function playAuffrischen(p) {
+  if (!p || p.premium_source !== 'play' || !p.premium_until || !playBillingDa()) return false;
+  if (Date.parse(p.premium_until) > Date.now() + 864e5) return false;
+  const heute = today();
+  if (store.ui.playRefresh === heute) return false;
+  store.ui.playRefresh = heute; saveStill();
+  try { const { data } = await kontoClient.functions.invoke('play-verify', { body: { refresh: true } }); return !!data; }
+  catch (e) { return false; }
+}
+function kaufFehlerText(e) {
+  const m = String((e && (e.message || e.name)) || e || '');
+  if (/AbortError|cancel|abgebrochen/i.test(m)) return 'Kauf abgebrochen.';
+  if (/produkt/i.test(m)) return 'Das Produkt ist im Store noch nicht verfügbar. Bitte später noch einmal versuchen oder einen Code eingeben.';
+  if (/konto/i.test(m)) return 'Bitte zuerst anmelden (Mehr → Konto), damit Premium zu dir gehört.';
+  if (/pruefung|verif/i.test(m)) return 'Google hat den Kauf gemeldet, aber die Prüfung hat nicht geklappt. Tippe auf „Käufe wiederherstellen“ oder schreib an boaonda.app@gmail.com.';
+  if (/failed to fetch|network|fetch/i.test(m)) return 'Keine Verbindung zum Server. Bist du online?';
+  return 'Der Kauf hat nicht geklappt: ' + m;
 }
 async function codeEinloesen() {
   const inp = document.getElementById('pw-code');
@@ -3432,7 +3520,9 @@ function kontoAbgemeldet() {
 }
 /* Premium-Status aus profiles übernehmen – lokal gespiegelt, damit istPremium() auch offline stimmt */
 function premiumAusProfil(p) {
-  if (p && p.premium) {
+  // Abo: premium_until ist das Ablaufdatum (vom Server aus Google Play); danach gilt das Konto nicht mehr als Premium
+  const abgelaufen = p && p.premium_until && Date.parse(p.premium_until) < Date.now();
+  if (p && p.premium && !abgelaufen) {
     const seit = String(p.premium_since || new Date().toISOString()).slice(0, 10);
     if (!store.premium || store.premium.quelle !== 'konto') { store.premium = { seit, quelle: 'konto' }; VMAP = null; }
   } else if (store.premium && store.premium.quelle === 'konto') { store.premium = null; VMAP = null; }
@@ -3446,12 +3536,16 @@ async function kontoSync(grund) {
   let ok = false;
   try {
     const [p, g] = await Promise.all([
-      kontoClient.from('profiles').select('premium, premium_since').eq('user_id', kontoUser.id).maybeSingle(),
+      kontoClient.from('profiles').select('*').eq('user_id', kontoUser.id).maybeSingle(),
       kontoClient.from('progress').select('data, updated_at').eq('user_id', kontoUser.id).maybeSingle(),
     ]);
     if (p.error) throw p.error;
     if (g.error) throw g.error;
     premiumAusProfil(p.data);
+    if (await playAuffrischen(p.data)) {   // Play-Abo abgelaufen? Server fragt Google, Profil neu lesen
+      const p2 = await kontoClient.from('profiles').select('*').eq('user_id', kontoUser.id).maybeSingle();
+      if (!p2.error) premiumAusProfil(p2.data);
+    }
     const vorher = JSON.stringify(syncZustand());
     const remote = g.data && g.data.data && typeof g.data.data === 'object' ? g.data.data : {};
     const remoteZeit = g.data && g.data.updated_at ? Date.parse(g.data.updated_at) : 0;
