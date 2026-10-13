@@ -1854,8 +1854,8 @@ function vmap() {
   // 1. gebeugte Formen, 2. unregelmäßige Verben, 3. Wörter aus Mehrwort-Einträgen – nichts überschreibt Exaktes
   for (const [d, w] of abgeleitet) if (!VMAP[d]) { VMAP[d] = w; VMAP_ART[d] = 'form'; }
   for (const [inf, formen] of Object.entries(IRREG)) {
-    const e = VMAP[inf]; if (!e || VMAP_ART[inf]) continue;
-    for (const f of formen.split(' ')) if (!VMAP[f]) { VMAP[f] = e; VMAP_ART[f] = 'form'; }
+    const e = VMAP[inf]; if (!e || (VMAP_ART[inf] && VMAP_ART[inf] !== 'lese')) continue;   // Infinitiv exakt (Vokabel oder Lesewort)
+    for (const f of formen.split(' ')) if (!VMAP[f]) { VMAP[f] = e; VMAP_ART[f] = e.lese ? 'leseform' : 'form'; }
   }
   for (const [t, w] of teile) if (!VMAP[t]) { VMAP[t] = w; VMAP_ART[t] = 'teil'; }
   // 4. gebeugte Formen der Lesewörter (unterste Stufe)
@@ -1884,33 +1884,52 @@ const EIGENNAMEN = {
   odemira: 'Odemira, Alentejo', alentejo: 'der Alentejo – die Region südlich des Tejo', hamburgo: 'Hamburg', berlim: 'Berlin', madrid: 'Madrid', munique: 'München', tejo: 'der Tejo – Lissabons Fluss', mondego: 'der Mondego – Coimbras Fluss',
   mareta: 'Praia da Mareta, der Strand von Sagres', 'graça': 'Graça – Lissabonner Viertel auf dem Hügel', alfama: 'Alfama – das älteste Viertel Lissabons', baixa: 'Baixa – Lissabons Unterstadt', 'belém': 'Belém, Lissabon', lagos: 'Lagos, Algarve',
   tunes: 'Tunes – Bahnknoten in der Algarve', faro: 'Faro, Algarve', portugal: 'Portugal', alemanha: 'Deutschland', douro: 'der Douro – Portos Fluss', 'ourique': 'Campo de Ourique – Lissabonner Viertel', 'kágados': '„Os Kágados“ – Tiagos república in Coimbra', leiria: 'Leiria – Stadt zwischen Lissabon und Coimbra', carcavelos: 'Carcavelos – Strand bei Lissabon', 'atlântico': 'der Atlantik', ribeira: 'Ribeira – Portos Flussviertel', gaia: 'Vila Nova de Gaia – gegenüber von Porto', sporting: 'Sporting – Fußballklub aus Lissabon', saldanha: 'Saldanha – Platz in Lissabon', rossio: 'Rossio – Platz in Lissabons Unterstadt', 'luís': 'Luís (Ponte Luís I in Porto)', vicente: 'São Vicente (Cabo de São Vicente bei Sagres)', algarve: 'die Algarve – Portugals Süden', majestic: 'Café Majestic in Porto', dinamarca: 'Dänemark', oriente: 'Oriente – Bahnhof in Lissabon', 'universitária': 'Cidade Universitária – der Uni-Campus in Lissabon', benfica: 'Benfica – Fußballklub aus Lissabon', mafra: 'Mafra (pão de Mafra)',
+  'abílio': 'Senhor Abílio, Stammkunde in Tio Tós Bäckerei (jeden Morgen um sieben)', odete: 'Dona Odete, Stammkundin in Tio Tós Bäckerei', alfredo: 'Senhor Alfredo, Nachbar im zweiten Stock, fuhr 30 Jahre den Elétrico 28', fernanda: 'Dona Fernanda, Nachbarin im Erdgeschoss, Witwe mit Kater',
+  bolacha: 'Bolacha – der Kater von Dona Fernanda (bolacha = der Keks)', duarte: 'Senhor Duarte, der Besitzer der Surfschule in Sagres', 'kágada': 'Kágada – Mitglied der república „Os Kágados“ (kágado = die Sumpfschildkröte)',
+  'roterdão': 'Rotterdam – Noors Heimatstadt', 'setúbal': 'Setúbal – Hafenstadt südlich von Lissabon', 'campanhã': 'Campanhã – Hauptbahnhof von Porto', santa: 'Santa Apolónia – Bahnhof in Lissabon (Züge nach Norden)', 'apolónia': 'Santa Apolónia – Bahnhof in Lissabon (Züge nach Norden)',
+  intercidades: 'Intercidades – der Fernzug der CP', cp: 'CP – Comboios de Portugal, die portugiesische Bahn', entrecampos: 'Entrecampos – Bahnhof und Viertel in Lissabon', mouraria: 'Mouraria – altes Viertel in Lissabon unterhalb des Castelo',
+  pombal: 'Marquês de Pombal – Platz und Kreisverkehr in Lissabon', moniz: 'Martim Moniz – Platz in Lissabon', restauradores: 'Restauradores – Platz in Lissabon', bispo: 'Vila do Bispo – Ort kurz vor Sagres', gama: 'Vasco da Gama (Ponte Vasco da Gama in Lissabon)',
+  'grândola': '„Grândola, Vila Morena“ – das Lied der Nelkenrevolution (25. April 1974)', iade: 'IADE – Design-Hochschule in Lissabon, wo João studiert', brasil: 'Brasilien', espanha: 'Spanien', 'itália': 'Italien', europa: 'Europa', veneza: 'Venedig',
+  d: 'D. – Dom (Ponte D. Luís I in Porto)', t: 'T. – Teresa (Unterschrift der Professora)', 'instrutor/a': 'instrutor/a – Lehrer/-in, Trainer/-in (Stellenanzeige: männlich oder weiblich)',
 };
 const IRREG = {
-  ser: 'sou és é somos são era eras éramos eram fui foste foi fomos foram seja sejas sejam',
-  estar: 'estou estás está estamos estão estava estavas estávamos estavam estive estiveste esteve estivemos estiveram esteja estejas estejam',
-  ter: 'tenho tens tem temos têm tinha tinhas tínhamos tinham tive tiveste teve tivemos tiveram tenha tenhas tenham tido',
-  ir: 'vou vais vai vamos vão ia ias íamos iam fui foste foi fomos foram vá vás vão ido',
-  fazer: 'faço fazes faz fazemos fazem fazia fazias fazíamos faziam fiz fizeste fez fizemos fizeram faça faças façam feito',
-  dizer: 'digo dizes diz dizemos dizem dizia diziam disse disseste dissemos disseram diga digas digam dito',
-  saber: 'sei sabes sabe sabemos sabem sabia sabiam soube soubeste soubemos souberam saiba saibas',
-  poder: 'posso podes pode podemos podem podia podias podíamos podiam pude pudeste pôde pudemos puderam possa possas possam',
-  querer: 'quero queres quer queremos querem queria querias queríamos queriam quis quiseste quisemos quiseram queira',
-  vir: 'venho vens vem vimos vêm vinha vinhas vínhamos vinham vim vieste veio viemos vieram venha venhas venham vindo',
-  ver: 'vejo vês vê vemos veem via vias víamos viam vi viste viu vimos viram veja vejas vejam visto',
-  dar: 'dou dás dá damos dão dava davas dávamos davam dei deste deu demos deram dê dês deem dado',
-  'pôr': 'ponho pões põe pomos põem punha punham pus puseste pôs pusemos puseram ponha posto',
-  trazer: 'trago trazes traz trazemos trazem trazia traziam trouxe trouxeste trouxemos trouxeram traga tragas',
+  ser: 'sou és é somos são era eras éramos eram fui foste foi fomos foram seja sejas sejam sido fosse fosses fôssemos fossem for fores formos forem serei serás será seremos serão seria serias seríamos seriam seres serem sermos',
+  estar: 'estou estás está estamos estão estava estavas estávamos estavam estive estiveste esteve estivemos estiveram esteja estejas estejam estado estivesse estivesses estivéssemos estivessem estiver estiveres estivermos estiverem estarei estará estaremos estarão estaria estariam',
+  ter: 'tenho tens tem temos têm tinha tinhas tínhamos tinham tive tiveste teve tivemos tiveram tenha tenhas tenham tido tivesse tivesses tivéssemos tivessem tiver tiveres tivermos tiverem terei terás terá teremos terão teria terias teríamos teriam teres terem',
+  ir: 'vou vais vai vamos vão ia ias íamos iam fui foste foi fomos foram vá vás vão ido fosse fosses fôssemos fossem for fores formos forem irei irás irá iremos irão iria irias iríamos iriam ires irem',
+  fazer: 'faço fazes faz fazemos fazem fazia fazias fazíamos faziam fiz fizeste fez fizemos fizeram faça faças façam feito feita feitos feitas fizesse fizesses fizéssemos fizessem fizer fizeres fizermos fizerem farei farás fará faremos farão faria farias faríamos fariam fazeres fazerem',
+  dizer: 'digo dizes diz dizemos dizem dizia diziam disse disseste dissemos disseram diga digas digam dito dita dissesse dissesses disséssemos dissessem disser disseres disserem direi dirás dirá diremos dirão diria diriam dizeres dizerem',
+  saber: 'sei sabes sabe sabemos sabem sabia sabiam soube soubeste soubemos souberam saiba saibas saibam sabido soubesse soubesses soubéssemos soubessem souber souberes souberem saberei saberá saberemos saberão saberia saberiam saberes saberem',
+  poder: 'posso podes pode podemos podem podia podias podíamos podiam pude pudeste pôde pudemos puderam possa possas possam podido pudesse pudesses pudéssemos pudessem puder puderes pudermos puderem poderei poderás poderá poderemos poderão poderia poderias poderíamos poderiam poderes poderem',
+  querer: 'quero queres quer queremos querem queria querias queríamos queriam quis quiseste quisemos quiseram queira queiras queiram quisesse quisesses quiséssemos quisessem quiser quiseres quisermos quiserem quererei quererá quererão quereres quererem',
+  vir: 'venho vens vem vimos vêm vinha vinhas vínhamos vinham vim vieste veio viemos vieram venha venhas venham vindo viesse viesses viéssemos viessem vier vieres viermos vierem virei virás virá viremos virão viria viriam vires virem',
+  ver: 'vejo vês vê vemos veem via vias víamos viam vi viste viu vimos viram veja vejas vejam visto vista vistos vistas visse visses víssemos vissem verei verás verá veremos verão veria veriam veres verem',
+  dar: 'dou dás dá damos dão dava davas dávamos davam dei deste deu demos deram dê dês deem dado dada dados dadas dera deras déramos deram desses déssemos dessem der deres dermos derem darei darás dará daremos darão daria darias daríamos dariam dares darem',
+  'pôr': 'ponho pões põe pomos põem punha punham pus puseste pôs pusemos puseram ponha posto punhas púnhamos ponhas ponham posta postos postas pusesse pusesses puséssemos pusessem puser puseres puserem porei porás porá poremos porão poria poriam pores porem',
+  trazer: 'trago trazes traz trazemos trazem trazia traziam trouxe trouxeste trouxemos trouxeram traga tragas tragam trazido trouxesse trouxesses trouxéssemos trouxessem trouxer trouxeres trouxerem trarei trará traremos trarão traria trariam trazeres trazerem',
   ouvir: 'oiço ouço ouves ouve ouvimos ouvem ouvia ouvi ouviste ouviu ouviram oiça',
   pedir: 'peço pedes pede pedimos pedem pedia pedi pediste pediu pediram peça',
   dormir: 'durmo dormes dorme dormimos dormem dormia dormi dormiste dormiu dormiram durma',
-  sair: 'saio sais sai saímos saem saía saí saíste saiu saíram saia',
-  ler: 'leio lês lê lemos leem lia li leste leu leram leia',
+  sair: 'saio sais sai saímos saem saía saí saíste saiu saíram saia saias saiam saías saíamos saíam saído saísse saísses saíssemos saíssem saíres saírem sairei sairá sairemos sairão sairia sairiam',
+  ler: 'leio lês lê lemos leem lia li leste leu leram leia leias leiam lias líamos liam lido lida lidos lidas lesse lesses lêssemos lessem leres lerem lerei lerá leremos lerão leria leriam',
   conhecer: 'conheço conheces conhece conhecemos conhecem conhecia conheci conheceste conheceu conheceram conheça',
   preferir: 'prefiro preferes prefere preferimos preferem preferi preferiu prefira',
   sentir: 'sinto sentes sente sentimos sentem sentia senti sentiu sentiram sinta',
-  perder: 'perco perdes perde perdemos perdem perdia perdi perdeste perdeu perderam perca',
+  perder: 'perco perdes perde perdemos perdem perdia perdi perdeste perdeu perderam perca percas percam perdido perdesse perdessem perder perderes perderem',
   cair: 'caio cais cai caímos caem caía caí caíste caiu caíram caia',
-  haver: 'há havia houve haja',
+  haver: 'há havia houve haja hei hás hão havemos haviam houvesse houvessem houver houvera haver',
+  caber: 'caibo cabes cabe cabemos cabem cabia cabiam coube coubeste coubemos couberam caiba caibam cabido coubesse coubessem couber couberem',
+  rir: 'rio ris ri rimos riem ria riam ri riste riu rimos riram ria rias riam rido risse rissem rires rirem',
+  fugir: 'fujo foges foge fugimos fogem fugia fugi fugiste fugiu fugiram fuja fujam fugido',
+  subir: 'subo sobes sobe subimos sobem subia subi subiste subiu subiram suba subam subido',
+  propor: 'proponho propões propõe propomos propõem propunha propus propôs propuseram proponha proposto',
+  sugerir: 'sugiro sugeres sugere sugerimos sugerem sugeria sugeri sugeriu sugeriram sugira sugiram sugerido',
+  convir: 'convém convinha conveio convenha',
+  reler: 'releio relês relê relemos releem relia reli releste releu releram releia relido',
+  agradecer: 'agradeço agradeces agradece agradecemos agradecem agradecia agradeci agradeceu agradeceram agradeça agradeças agradeçam agradecido',
+  esquecer: 'esqueço esqueces esquece esquecemos esquecem esquecia esqueci esqueceu esqueceram esqueça esqueças esqueçam esquecido',
+  começar: 'começo começas começa começamos começam começava comecei começaste começou começaram comece comeces comecem começado',
+  pigarrear: 'pigarreio pigarreias pigarreia pigarreamos pigarreiam pigarreava pigarreou pigarreie',
 };
 function wordClass(n) {
   if (EIGENNAMEN[n]) return '';          // Namen und Orte sind keine Vokabeln
@@ -3730,7 +3749,21 @@ let queue = [], idx = 0, total = 0, flipped = false, correct = 0, richtigErst = 
 
 /* Alle lernbaren Wörter: Kernwortschatz + Lektionsvokabeln (LVOCAB).
    Ohne das erreichte gut ein Drittel der Wörter nie eine Übung. */
-function alleWorte() { return LVOCAB ? VOCAB.concat(lvocabFrei()) : VOCAB; }
+/* Alle lernbaren Wörter – ein Wort, das in zwei Lektionen als Vokabel steht (z. B. combinar Tag 40 und 55),
+   erscheint im Heft nur einmal (erste Lektion gewinnt); in der Lektion selbst bleibt es sichtbar. */
+function alleWorte() {
+  const roh = LVOCAB ? VOCAB.concat(lvocabFrei()) : VOCAB;
+  const key = (LVOCAB ? LVOCAB.length : 0) + ':' + roh.length;
+  if (alleWorte._key === key) return alleWorte._cache;
+  const seen = new Set(), out = [];
+  for (const w of roh) {
+    const k = String(w.pt || '').toLowerCase().split(' / ')[0].split(' (')[0].replace(/^(o|a|os|as|um|uma)\s+/, '').trim();
+    if (seen.has(k)) continue;
+    seen.add(k); out.push(w);
+  }
+  alleWorte._key = key; alleWorte._cache = out;
+  return out;
+}
 /* Ein Filter, zwei Taxonomien: Themen-Blöcke (Kernwortschatz) und
    Wochen (Lektionswörter, Feld w). 'wackler' zieht das Fehlerarchiv. */
 function filterPool(block) {

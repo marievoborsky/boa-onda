@@ -1810,5 +1810,1649 @@
  {
   "pt": "pling",
   "de": "pling (Nachrichtenton)"
+ },
+ {
+  "pt": "janeiro",
+  "de": "Januar"
+ },
+ {
+  "pt": "fevereiro",
+  "de": "Februar"
+ },
+ {
+  "pt": "março",
+  "de": "März"
+ },
+ {
+  "pt": "abril",
+  "de": "April"
+ },
+ {
+  "pt": "novembro",
+  "de": "November"
+ },
+ {
+  "pt": "dezembro",
+  "de": "Dezember"
+ },
+ {
+  "pt": "junho–setembro",
+  "de": "Juni bis September"
+ },
+ {
+  "pt": "os meses",
+  "de": "die Monate"
+ },
+ {
+  "pt": "o momento",
+  "de": "der Moment, der Augenblick"
+ },
+ {
+  "pt": "o intervalo",
+  "de": "die Pause"
+ },
+ {
+  "pt": "a data",
+  "de": "das Datum"
+ },
+ {
+  "pt": "a antecedência",
+  "de": "der Vorlauf (com antecedência = im Voraus)"
+ },
+ {
+  "pt": "anterior",
+  "de": "vorherig, vorige"
+ },
+ {
+  "pt": "prévio",
+  "de": "vorherig (aviso prévio = Kündigungsfrist)"
+ },
+ {
+  "pt": "mensalmente",
+  "de": "monatlich"
+ },
+ {
+  "pt": "sétimo",
+  "de": "siebter"
+ },
+ {
+  "pt": "oitavo",
+  "de": "achter"
+ },
+ {
+  "pt": "nono",
+  "de": "neunter"
+ },
+ {
+  "pt": "décimo",
+  "de": "zehnter"
+ },
+ {
+  "pt": "trigésimo",
+  "de": "dreißigster"
+ },
+ {
+  "pt": "comigo",
+  "de": "mit mir"
+ },
+ {
+  "pt": "consigo",
+  "de": "mit sich; mit Ihnen; ich schaffe es (conseguir)"
+ },
+ {
+  "pt": "contra",
+  "de": "gegen"
+ },
+ {
+  "pt": "daqui",
+  "de": "von hier (daqui a = in … Zeit)"
+ },
+ {
+  "pt": "abaixo",
+  "de": "unten, darunter"
+ },
+ {
+  "pt": "àquele",
+  "de": "zu jenem (a + aquele)"
+ },
+ {
+  "pt": "àquela",
+  "de": "zu jener (a + aquela)"
+ },
+ {
+  "pt": "desse",
+  "de": "von diesem, von dem (de + esse)"
+ },
+ {
+  "pt": "dessa",
+  "de": "von dieser (de + essa)"
+ },
+ {
+  "pt": "desses",
+  "de": "von diesen (de + esses)"
+ },
+ {
+  "pt": "nesse",
+  "de": "in diesem, in dem (em + esse)"
+ },
+ {
+  "pt": "nessa",
+  "de": "in dieser (em + essa)"
+ },
+ {
+  "pt": "nesses",
+  "de": "in diesen (em + esses)"
+ },
+ {
+  "pt": "nessas",
+  "de": "in diesen (em + essas)"
+ },
+ {
+  "pt": "nele",
+  "de": "in ihm, darin (em + ele)"
+ },
+ {
+  "pt": "nela",
+  "de": "in ihr (em + ela)"
+ },
+ {
+  "pt": "neles",
+  "de": "in ihnen (em + eles)"
+ },
+ {
+  "pt": "nelas",
+  "de": "in ihnen (em + elas)"
+ },
+ {
+  "pt": "nisso",
+  "de": "darin, daran (em + isso)"
+ },
+ {
+  "pt": "noutro",
+  "de": "in einem anderen (em + outro)"
+ },
+ {
+  "pt": "noutra",
+  "de": "in einer anderen (em + outra)"
+ },
+ {
+  "pt": "cujo",
+  "de": "dessen, deren"
+ },
+ {
+  "pt": "demasiado",
+  "de": "zu, zu sehr; zu viel"
+ },
+ {
+  "pt": "claramente",
+  "de": "deutlich, klar"
+ },
+ {
+  "pt": "nitidamente",
+  "de": "deutlich, ganz klar"
+ },
+ {
+  "pt": "estranhamente",
+  "de": "seltsamerweise"
+ },
+ {
+  "pt": "igualmente",
+  "de": "ebenfalls, gleichfalls"
+ },
+ {
+  "pt": "devagarinho",
+  "de": "ganz langsam"
+ },
+ {
+  "pt": "comprido",
+  "de": "lang"
+ },
+ {
+  "pt": "longo",
+  "de": "lang"
+ },
+ {
+  "pt": "curto",
+  "de": "kurz"
+ },
+ {
+  "pt": "estreito",
+  "de": "eng, schmal"
+ },
+ {
+  "pt": "plano",
+  "de": "flach, eben; der Plan"
+ },
+ {
+  "pt": "redondo",
+  "de": "rund"
+ },
+ {
+  "pt": "enorme",
+  "de": "riesig"
+ },
+ {
+  "pt": "pesado",
+  "de": "schwer"
+ },
+ {
+  "pt": "lento",
+  "de": "langsam"
+ },
+ {
+  "pt": "tranquilo",
+  "de": "ruhig"
+ },
+ {
+  "pt": "silencioso",
+  "de": "still, leise"
+ },
+ {
+  "pt": "simples",
+  "de": "einfach"
+ },
+ {
+  "pt": "livre",
+  "de": "frei"
+ },
+ {
+  "pt": "rico",
+  "de": "reich"
+ },
+ {
+  "pt": "moderno",
+  "de": "modern"
+ },
+ {
+  "pt": "excelente",
+  "de": "ausgezeichnet"
+ },
+ {
+  "pt": "ótimo",
+  "de": "bestens, großartig"
+ },
+ {
+  "pt": "horrível",
+  "de": "schrecklich"
+ },
+ {
+  "pt": "péssimo",
+  "de": "sehr schlecht, miserabel"
+ },
+ {
+  "pt": "brilhante",
+  "de": "glänzend, strahlend"
+ },
+ {
+  "pt": "necessário",
+  "de": "nötig, notwendig"
+ },
+ {
+  "pt": "desnecessário",
+  "de": "unnötig"
+ },
+ {
+  "pt": "suficiente",
+  "de": "genug, ausreichend"
+ },
+ {
+  "pt": "máximo",
+  "de": "höchster; das Maximum (no máximo = höchstens)"
+ },
+ {
+  "pt": "verdadeiro",
+  "de": "wahr, echt"
+ },
+ {
+  "pt": "errado",
+  "de": "falsch"
+ },
+ {
+  "pt": "próprio",
+  "de": "eigener; selbst (ele próprio = er selbst)"
+ },
+ {
+  "pt": "ocupado",
+  "de": "beschäftigt, besetzt"
+ },
+ {
+  "pt": "ofendido",
+  "de": "beleidigt"
+ },
+ {
+  "pt": "surpreendido",
+  "de": "überrascht"
+ },
+ {
+  "pt": "atrevido",
+  "de": "frech, dreist"
+ },
+ {
+  "pt": "teimoso",
+  "de": "stur"
+ },
+ {
+  "pt": "paciente",
+  "de": "geduldig; der Patient"
+ },
+ {
+  "pt": "assustador",
+  "de": "beängstigend, erschreckend"
+ },
+ {
+  "pt": "caríssimo",
+  "de": "sehr teuer; liebster"
+ },
+ {
+  "pt": "cinzento",
+  "de": "grau"
+ },
+ {
+  "pt": "dourado",
+  "de": "golden"
+ },
+ {
+  "pt": "aceso",
+  "de": "an, eingeschaltet; angezündet"
+ },
+ {
+  "pt": "encostado",
+  "de": "angelehnt"
+ },
+ {
+  "pt": "pendurado",
+  "de": "aufgehängt"
+ },
+ {
+  "pt": "dobrado",
+  "de": "gefaltet; verdoppelt"
+ },
+ {
+  "pt": "cruzado",
+  "de": "verschränkt, gekreuzt"
+ },
+ {
+  "pt": "alinhado",
+  "de": "ausgerichtet, in einer Reihe"
+ },
+ {
+  "pt": "colado",
+  "de": "geklebt, angeklebt"
+ },
+ {
+  "pt": "destruído",
+  "de": "zerstört"
+ },
+ {
+  "pt": "despenteado",
+  "de": "zerzaust"
+ },
+ {
+  "pt": "cozido",
+  "de": "gekocht"
+ },
+ {
+  "pt": "frito",
+  "de": "frittiert, gebraten"
+ },
+ {
+  "pt": "culpado",
+  "de": "schuldig; der Schuldige"
+ },
+ {
+  "pt": "morto",
+  "de": "tot"
+ },
+ {
+  "pt": "vivo",
+  "de": "lebendig, lebend"
+ },
+ {
+  "pt": "nu",
+  "de": "nackt, kahl"
+ },
+ {
+  "pt": "limpo",
+  "de": "sauber"
+ },
+ {
+  "pt": "nasal",
+  "de": "nasal (Nasallaut: ão, em, im …)"
+ },
+ {
+  "pt": "alentejano",
+  "de": "aus dem Alentejo"
+ },
+ {
+  "pt": "bávaro",
+  "de": "bayerisch; der Bayer"
+ },
+ {
+  "pt": "presente",
+  "de": "vorliegend; anwesend; das Geschenk; das Präsens"
+ },
+ {
+  "pt": "calculado",
+  "de": "berechnet"
+ },
+ {
+  "pt": "emprestado",
+  "de": "geliehen"
+ },
+ {
+  "pt": "o verbo",
+  "de": "das Verb"
+ },
+ {
+  "pt": "o conjuntivo",
+  "de": "der Konjunktiv (Grammatik)"
+ },
+ {
+  "pt": "o imperfeito",
+  "de": "das Imperfekt (Vergangenheit für Zustände und Gewohnheiten)"
+ },
+ {
+  "pt": "o condicional",
+  "de": "das Konditional (würde-Form)"
+ },
+ {
+  "pt": "a concordância",
+  "de": "die Übereinstimmung, die Kongruenz (Grammatik)"
+ },
+ {
+  "pt": "o artigo",
+  "de": "der Artikel"
+ },
+ {
+  "pt": "a exclamação",
+  "de": "der Ausruf (ponto de exclamação = Ausrufezeichen)"
+ },
+ {
+  "pt": "o algarismo",
+  "de": "die Ziffer"
+ },
+ {
+  "pt": "o teste",
+  "de": "der Test"
+ },
+ {
+  "pt": "o verso",
+  "de": "die Rückseite; der Vers"
+ },
+ {
+  "pt": "a forma",
+  "de": "die Form"
+ },
+ {
+  "pt": "o termo",
+  "de": "die Frist; der Begriff (contrato a termo = befristeter Vertrag)"
+ },
+ {
+  "pt": "o tipo",
+  "de": "die Art, die Sorte; der Typ"
+ },
+ {
+  "pt": "a diferença",
+  "de": "der Unterschied"
+ },
+ {
+  "pt": "o sinal",
+  "de": "das Zeichen, das Signal; das Verkehrsschild"
+ },
+ {
+  "pt": "o valor",
+  "de": "der Wert; der Betrag"
+ },
+ {
+  "pt": "o exemplo",
+  "de": "das Beispiel"
+ },
+ {
+  "pt": "B1",
+  "de": "B1 – Sprachniveau (Europäischer Referenzrahmen)"
+ },
+ {
+  "pt": "Exmo.",
+  "de": "Excelentíssimo – Sehr geehrter (förmliche Briefanrede: Exmo. Senhor)"
+ },
+ {
+  "pt": "o PDF",
+  "de": "das PDF"
+ },
+ {
+  "pt": "querido",
+  "de": "lieber, liebe (Briefanrede: Querido …; auch Partizip von querer)"
+ },
+ {
+  "pt": "o mail",
+  "de": "die Mail, die E-Mail"
+ },
+ {
+  "pt": "o e-mail",
+  "de": "die E-Mail"
+ },
+ {
+  "pt": "a internet",
+  "de": "das Internet"
+ },
+ {
+  "pt": "o site",
+  "de": "die Website"
+ },
+ {
+  "pt": "Herr",
+  "de": "Herr (deutsch, im Text)"
+ },
+ {
+  "pt": "Nein",
+  "de": "nein (deutsch, im Text)"
+ },
+ {
+  "pt": "paddeln",
+  "de": "paddeln (deutsch, im Text)"
+ },
+ {
+  "pt": "Staffel",
+  "de": "Staffel (deutsch: Teil des Kurses)"
+ },
+ {
+  "pt": "entãomarieegostasdoportoéumacidadelindanãoé",
+  "de": "Avó-Schnellsprech: Então, Marie, e gostas do Porto? É uma cidade linda, não é? – Also, Marie, magst du Porto? Eine schöne Stadt, oder?"
+ },
+ {
+  "pt": "o relógio",
+  "de": "die Uhr"
+ },
+ {
+  "pt": "o computador",
+  "de": "der Computer"
+ },
+ {
+  "pt": "o portátil",
+  "de": "der Laptop"
+ },
+ {
+  "pt": "o ecrã",
+  "de": "der Bildschirm"
+ },
+ {
+  "pt": "a impressora",
+  "de": "der Drucker"
+ },
+ {
+  "pt": "a televisão",
+  "de": "der Fernseher, das Fernsehen"
+ },
+ {
+  "pt": "a máquina",
+  "de": "die Maschine, der Apparat"
+ },
+ {
+  "pt": "a caneta",
+  "de": "der Stift, der Kugelschreiber"
+ },
+ {
+  "pt": "a folha",
+  "de": "das Blatt"
+ },
+ {
+  "pt": "o quadro",
+  "de": "die Tafel; das Bild"
+ },
+ {
+  "pt": "a coluna",
+  "de": "die Spalte; die Säule"
+ },
+ {
+  "pt": "a carta",
+  "de": "der Brief; die Spielkarte"
+ },
+ {
+  "pt": "o cartaz",
+  "de": "das Plakat"
+ },
+ {
+  "pt": "o carimbo",
+  "de": "der Stempel"
+ },
+ {
+  "pt": "o passaporte",
+  "de": "der Reisepass"
+ },
+ {
+  "pt": "o recibo",
+  "de": "die Quittung"
+ },
+ {
+  "pt": "a declaração",
+  "de": "die Erklärung"
+ },
+ {
+  "pt": "a fotografia",
+  "de": "das Foto"
+ },
+ {
+  "pt": "os telemóveis",
+  "de": "die Handys"
+ },
+ {
+  "pt": "a lâmpada",
+  "de": "die Glühbirne, die Lampe"
+ },
+ {
+  "pt": "a vela",
+  "de": "die Kerze; das Segel"
+ },
+ {
+  "pt": "o espelho",
+  "de": "der Spiegel"
+ },
+ {
+  "pt": "o vidro",
+  "de": "das Glas (Material); die Scheibe"
+ },
+ {
+  "pt": "a lata",
+  "de": "die Dose"
+ },
+ {
+  "pt": "o balde",
+  "de": "der Eimer"
+ },
+ {
+  "pt": "a panela",
+  "de": "der Kochtopf"
+ },
+ {
+  "pt": "a cafeteira",
+  "de": "die Kaffeekanne"
+ },
+ {
+  "pt": "o óleo",
+  "de": "das Öl"
+ },
+ {
+  "pt": "o sabão",
+  "de": "die Seife"
+ },
+ {
+  "pt": "a madeira",
+  "de": "das Holz; Madeira (die Insel)"
+ },
+ {
+  "pt": "o pau",
+  "de": "der Stock, das Holzstück"
+ },
+ {
+  "pt": "o caco",
+  "de": "die Scherbe (bolo do caco = Fladenbrot aus Madeira)"
+ },
+ {
+  "pt": "a placa",
+  "de": "das Schild"
+ },
+ {
+  "pt": "o semáforo",
+  "de": "die Ampel"
+ },
+ {
+  "pt": "o volante",
+  "de": "das Lenkrad"
+ },
+ {
+  "pt": "o táxi",
+  "de": "das Taxi"
+ },
+ {
+  "pt": "o capacete",
+  "de": "der Helm"
+ },
+ {
+  "pt": "a escada",
+  "de": "die Treppe"
+ },
+ {
+  "pt": "o andar",
+  "de": "das Stockwerk"
+ },
+ {
+  "pt": "os andares",
+  "de": "die Stockwerke"
+ },
+ {
+  "pt": "a ombreira",
+  "de": "der Türpfosten, der Türrahmen"
+ },
+ {
+  "pt": "o armazém",
+  "de": "das Lager, das Lagerhaus"
+ },
+ {
+  "pt": "a cafetaria",
+  "de": "die Cafeteria"
+ },
+ {
+  "pt": "a papelaria",
+  "de": "das Schreibwarengeschäft"
+ },
+ {
+  "pt": "o negócio",
+  "de": "das Geschäft"
+ },
+ {
+  "pt": "o centro",
+  "de": "das Zentrum"
+ },
+ {
+  "pt": "a câmara",
+  "de": "die Kamera; das Rathaus (Câmara Municipal)"
+ },
+ {
+  "pt": "a estátua",
+  "de": "die Statue"
+ },
+ {
+  "pt": "o palácio",
+  "de": "der Palast"
+ },
+ {
+  "pt": "o quartel",
+  "de": "die Kaserne"
+ },
+ {
+  "pt": "a gare",
+  "de": "die Bahnhofshalle"
+ },
+ {
+  "pt": "as instalações",
+  "de": "die Räumlichkeiten, die Anlagen"
+ },
+ {
+  "pt": "as finanças",
+  "de": "das Finanzamt; die Finanzen"
+ },
+ {
+  "pt": "a manifestação",
+  "de": "die Demonstration"
+ },
+ {
+  "pt": "a eletricidade",
+  "de": "der Strom, die Elektrizität"
+ },
+ {
+  "pt": "o quilowatt",
+  "de": "das Kilowatt"
+ },
+ {
+  "pt": "o quilo",
+  "de": "das Kilo"
+ },
+ {
+  "pt": "o bónus",
+  "de": "der Bonus"
+ },
+ {
+  "pt": "a gorjeta",
+  "de": "das Trinkgeld"
+ },
+ {
+  "pt": "o ordenado",
+  "de": "das Gehalt, der Lohn"
+ },
+ {
+  "pt": "a lotaria",
+  "de": "die Lotterie"
+ },
+ {
+  "pt": "o vale",
+  "de": "der Gutschein; vale = ist wert, gilt (valer)"
+ },
+ {
+  "pt": "o bocado",
+  "de": "das Stück; die Weile (um bocado = ein bisschen)"
+ },
+ {
+  "pt": "o pedacinho",
+  "de": "das Stückchen"
+ },
+ {
+  "pt": "o par",
+  "de": "das Paar (sem par = ohnegleichen)"
+ },
+ {
+  "pt": "o buraco",
+  "de": "das Loch"
+ },
+ {
+  "pt": "o cimo",
+  "de": "das obere Ende, die Spitze (no cimo de = oben auf)"
+ },
+ {
+  "pt": "a reta",
+  "de": "die Gerade (reta final = Zielgerade)"
+ },
+ {
+  "pt": "a risca",
+  "de": "der Streifen"
+ },
+ {
+  "pt": "a roda",
+  "de": "der Kreis; das Rad"
+ },
+ {
+  "pt": "o raio",
+  "de": "der Umkreis, der Radius; der Blitz"
+ },
+ {
+  "pt": "o eco",
+  "de": "das Echo"
+ },
+ {
+  "pt": "a melodia",
+  "de": "die Melodie"
+ },
+ {
+  "pt": "o acordeão",
+  "de": "das Akkordeon"
+ },
+ {
+  "pt": "a badalada",
+  "de": "der Glockenschlag"
+ },
+ {
+  "pt": "a camisola",
+  "de": "der Pullover"
+ },
+ {
+  "pt": "o gorro",
+  "de": "die Mütze"
+ },
+ {
+  "pt": "as meias",
+  "de": "die Socken, die Strümpfe"
+ },
+ {
+  "pt": "a manga",
+  "de": "der Ärmel; die Mango"
+ },
+ {
+  "pt": "o bolso",
+  "de": "die Hosentasche, die Tasche (Kleidung)"
+ },
+ {
+  "pt": "o salto",
+  "de": "der Sprung; der Absatz (Schuh)"
+ },
+ {
+  "pt": "o pescoço",
+  "de": "der Hals"
+ },
+ {
+  "pt": "o peito",
+  "de": "die Brust"
+ },
+ {
+  "pt": "a testa",
+  "de": "die Stirn"
+ },
+ {
+  "pt": "o queixo",
+  "de": "das Kinn"
+ },
+ {
+  "pt": "a orelha",
+  "de": "das Ohr"
+ },
+ {
+  "pt": "o bigode",
+  "de": "der Schnurrbart"
+ },
+ {
+  "pt": "a cicatriz",
+  "de": "die Narbe"
+ },
+ {
+  "pt": "o bafo",
+  "de": "der Atem, der Hauch"
+ },
+ {
+  "pt": "o riso",
+  "de": "das Lachen"
+ },
+ {
+  "pt": "o sono",
+  "de": "der Schlaf (ter sono = müde sein)"
+ },
+ {
+  "pt": "a saúde",
+  "de": "die Gesundheit (centro de saúde = Gesundheitszentrum)"
+ },
+ {
+  "pt": "a medicina",
+  "de": "die Medizin"
+ },
+ {
+  "pt": "o acidente",
+  "de": "der Unfall"
+ },
+ {
+  "pt": "a gravidade",
+  "de": "die Schwere, der Ernst (sem gravidade = nichts Ernstes)"
+ },
+ {
+  "pt": "a reação",
+  "de": "die Reaktion"
+ },
+ {
+  "pt": "o alho",
+  "de": "der Knoblauch"
+ },
+ {
+  "pt": "a batata",
+  "de": "die Kartoffel"
+ },
+ {
+  "pt": "o ovo",
+  "de": "das Ei"
+ },
+ {
+  "pt": "o milho",
+  "de": "der Mais"
+ },
+ {
+  "pt": "a canela",
+  "de": "der Zimt; das Schienbein"
+ },
+ {
+  "pt": "a uva",
+  "de": "die Traube"
+ },
+ {
+  "pt": "o rei",
+  "de": "der König (bolo-rei = Königskuchen zu Weihnachten)"
+ },
+ {
+  "pt": "o menino",
+  "de": "der Junge"
+ },
+ {
+  "pt": "o adulto",
+  "de": "der Erwachsene"
+ },
+ {
+  "pt": "a neta",
+  "de": "die Enkelin"
+ },
+ {
+  "pt": "o sobrinho",
+  "de": "der Neffe"
+ },
+ {
+  "pt": "o padre",
+  "de": "der Pfarrer, der Priester"
+ },
+ {
+  "pt": "o condutor",
+  "de": "der Fahrer"
+ },
+ {
+  "pt": "o turista",
+  "de": "der Tourist"
+ },
+ {
+  "pt": "o freguês",
+  "de": "der Kunde, der Stammkunde"
+ },
+ {
+  "pt": "a funcionária",
+  "de": "die Angestellte, die Beamtin"
+ },
+ {
+  "pt": "o ajudante",
+  "de": "der Helfer, die Helferin"
+ },
+ {
+  "pt": "o instrutor",
+  "de": "der Lehrer, der Trainer (Surfschule)"
+ },
+ {
+  "pt": "a instrutora",
+  "de": "die Lehrerin, die Trainerin"
+ },
+ {
+  "pt": "a candidata",
+  "de": "die Bewerberin"
+ },
+ {
+  "pt": "o candidato",
+  "de": "der Bewerber"
+ },
+ {
+  "pt": "a personalidade",
+  "de": "die Persönlichkeit"
+ },
+ {
+  "pt": "o respeito",
+  "de": "der Respekt"
+ },
+ {
+  "pt": "a convicção",
+  "de": "die Überzeugung"
+ },
+ {
+  "pt": "a alma",
+  "de": "die Seele"
+ },
+ {
+  "pt": "o amor",
+  "de": "die Liebe"
+ },
+ {
+  "pt": "a felicidade",
+  "de": "das Glück"
+ },
+ {
+  "pt": "a emoção",
+  "de": "die Emotion, die Rührung"
+ },
+ {
+  "pt": "o elogio",
+  "de": "das Lob, das Kompliment"
+ },
+ {
+  "pt": "a desculpa",
+  "de": "die Entschuldigung; die Ausrede"
+ },
+ {
+  "pt": "a ameaça",
+  "de": "die Drohung"
+ },
+ {
+  "pt": "o defeito",
+  "de": "der Fehler, der Defekt"
+ },
+ {
+  "pt": "a tentativa",
+  "de": "der Versuch"
+ },
+ {
+  "pt": "a queda",
+  "de": "der Sturz"
+ },
+ {
+  "pt": "a aventura",
+  "de": "das Abenteuer"
+ },
+ {
+  "pt": "a vitória",
+  "de": "der Sieg"
+ },
+ {
+  "pt": "o empate",
+  "de": "das Unentschieden"
+ },
+ {
+  "pt": "a guerra",
+  "de": "der Krieg"
+ },
+ {
+  "pt": "o discurso",
+  "de": "die Rede"
+ },
+ {
+  "pt": "o pormenor",
+  "de": "das Detail, die Einzelheit"
+ },
+ {
+  "pt": "a estimação",
+  "de": "die Wertschätzung (animal de estimação = das Haustier)"
+ },
+ {
+  "pt": "o friozinho",
+  "de": "die leichte Kälte, das Frösteln"
+ },
+ {
+  "pt": "a saída",
+  "de": "der Ausgang; die Abfahrt"
+ },
+ {
+  "pt": "a cabra",
+  "de": "die Ziege"
+ },
+ {
+  "pt": "a vaca",
+  "de": "die Kuh"
+ },
+ {
+  "pt": "o leão",
+  "de": "der Löwe"
+ },
+ {
+  "pt": "a alforreca",
+  "de": "die Qualle"
+ },
+ {
+  "pt": "a árvore",
+  "de": "der Baum"
+ },
+ {
+  "pt": "o pinheiro",
+  "de": "die Kiefer, die Pinie"
+ },
+ {
+  "pt": "a relva",
+  "de": "der Rasen"
+ },
+ {
+  "pt": "a terra",
+  "de": "die Erde; das Land; der Heimatort"
+ },
+ {
+  "pt": "a costa",
+  "de": "die Küste"
+ },
+ {
+  "pt": "a baía",
+  "de": "die Bucht"
+ },
+ {
+  "pt": "a tempestade",
+  "de": "der Sturm"
+ },
+ {
+  "pt": "o beijo",
+  "de": "der Kuss"
+ },
+ {
+  "pt": "haver",
+  "de": "geben (há = es gibt); Hilfsverb (hei de = ich werde)"
+ },
+ {
+  "pt": "pôr",
+  "de": "stellen, legen, setzen"
+ },
+ {
+  "pt": "os fregueses",
+  "de": "die Kunden, die Stammkunden"
+ },
+ {
+  "pt": "rir",
+  "de": "lachen"
+ },
+ {
+  "pt": "fugir",
+  "de": "fliehen, weglaufen"
+ },
+ {
+  "pt": "propor",
+  "de": "vorschlagen"
+ },
+ {
+  "pt": "sugerir",
+  "de": "vorschlagen"
+ },
+ {
+  "pt": "convir",
+  "de": "passen, ratsam sein (convém = es ist besser)"
+ },
+ {
+  "pt": "reler",
+  "de": "noch einmal lesen"
+ },
+ {
+  "pt": "agradecer",
+  "de": "danken"
+ },
+ {
+  "pt": "doer",
+  "de": "wehtun"
+ },
+ {
+  "pt": "acelerar",
+  "de": "beschleunigen, Gas geben"
+ },
+ {
+  "pt": "travar",
+  "de": "bremsen"
+ },
+ {
+  "pt": "acertar",
+  "de": "richtig treffen, richtig raten"
+ },
+ {
+  "pt": "admirar",
+  "de": "bewundern (admira-me = es wundert mich)"
+ },
+ {
+  "pt": "admitir",
+  "de": "zugeben; einstellen"
+ },
+ {
+  "pt": "afastar",
+  "de": "wegschieben, entfernen (afastar-se = sich entfernen)"
+ },
+ {
+  "pt": "afinar",
+  "de": "stimmen (Instrument); feinabstimmen"
+ },
+ {
+  "pt": "agarrar",
+  "de": "packen, festhalten (agarrar-se = sich festhalten)"
+ },
+ {
+  "pt": "apertar",
+  "de": "drücken, festziehen (apertar a mão = die Hand schütteln)"
+ },
+ {
+  "pt": "apresentar",
+  "de": "vorstellen, präsentieren"
+ },
+ {
+  "pt": "arrastar",
+  "de": "schleppen, schleifen (arrastar-se = sich dahinschleppen)"
+ },
+ {
+  "pt": "assentir",
+  "de": "zustimmen, nicken"
+ },
+ {
+  "pt": "assustar",
+  "de": "erschrecken (jemanden)"
+ },
+ {
+  "pt": "atrasar",
+  "de": "verspäten (atrasar-se = sich verspäten)"
+ },
+ {
+  "pt": "baixar",
+  "de": "sinken; senken; herunterladen"
+ },
+ {
+  "pt": "brilhar",
+  "de": "glänzen, scheinen"
+ },
+ {
+  "pt": "calcular",
+  "de": "berechnen"
+ },
+ {
+  "pt": "candidatar",
+  "de": "sich bewerben (candidatar-se a = sich bewerben um)"
+ },
+ {
+  "pt": "carregar",
+  "de": "tragen, laden; drücken (carregar em = drücken auf)"
+ },
+ {
+  "pt": "cobrar",
+  "de": "verlangen, kassieren"
+ },
+ {
+  "pt": "colar",
+  "de": "kleben (colar-se a = sich drücken an)"
+ },
+ {
+  "pt": "comentar",
+  "de": "kommentieren, bemerken"
+ },
+ {
+  "pt": "concluir",
+  "de": "abschließen, schlussfolgern"
+ },
+ {
+  "pt": "concordar",
+  "de": "zustimmen"
+ },
+ {
+  "pt": "discordar",
+  "de": "nicht zustimmen, anderer Meinung sein"
+ },
+ {
+  "pt": "considerar",
+  "de": "betrachten, halten für"
+ },
+ {
+  "pt": "conversar",
+  "de": "sich unterhalten"
+ },
+ {
+  "pt": "convidar",
+  "de": "einladen"
+ },
+ {
+  "pt": "copiar",
+  "de": "kopieren, abschreiben"
+ },
+ {
+  "pt": "descobrir",
+  "de": "entdecken, herausfinden"
+ },
+ {
+  "pt": "desenhar",
+  "de": "zeichnen"
+ },
+ {
+  "pt": "despedir",
+  "de": "verabschieden (despedir-se = sich verabschieden); entlassen"
+ },
+ {
+  "pt": "duvidar",
+  "de": "zweifeln"
+ },
+ {
+  "pt": "emprestar",
+  "de": "leihen, ausleihen"
+ },
+ {
+  "pt": "encostar",
+  "de": "anlehnen"
+ },
+ {
+  "pt": "engasgar",
+  "de": "sich verschlucken (engasgar-se)"
+ },
+ {
+  "pt": "esconder",
+  "de": "verstecken"
+ },
+ {
+  "pt": "escorregar",
+  "de": "ausrutschen"
+ },
+ {
+  "pt": "estender",
+  "de": "ausstrecken, reichen"
+ },
+ {
+  "pt": "festejar",
+  "de": "feiern"
+ },
+ {
+  "pt": "filmar",
+  "de": "filmen"
+ },
+ {
+  "pt": "fingir",
+  "de": "so tun als ob"
+ },
+ {
+  "pt": "funcionar",
+  "de": "funktionieren"
+ },
+ {
+  "pt": "inventar",
+  "de": "erfinden"
+ },
+ {
+  "pt": "lembrar",
+  "de": "erinnern (lembrar-se de = sich erinnern an)"
+ },
+ {
+  "pt": "limpar",
+  "de": "putzen, abwischen"
+ },
+ {
+  "pt": "meter",
+  "de": "stecken, legen (meter a terceira = den dritten Gang einlegen)"
+ },
+ {
+  "pt": "montar",
+  "de": "aufbauen, montieren; reiten"
+ },
+ {
+  "pt": "morrer",
+  "de": "sterben"
+ },
+ {
+  "pt": "obrigar",
+  "de": "zwingen"
+ },
+ {
+  "pt": "perdoar",
+  "de": "verzeihen"
+ },
+ {
+  "pt": "pesar",
+  "de": "wiegen; lasten"
+ },
+ {
+  "pt": "pescar",
+  "de": "angeln, fischen"
+ },
+ {
+  "pt": "pousar",
+  "de": "abstellen, hinlegen"
+ },
+ {
+  "pt": "prender",
+  "de": "festhalten, festnehmen; befestigen"
+ },
+ {
+  "pt": "protestar",
+  "de": "protestieren"
+ },
+ {
+  "pt": "queixar",
+  "de": "sich beschweren (queixar-se de)"
+ },
+ {
+  "pt": "rasgar",
+  "de": "zerreißen"
+ },
+ {
+  "pt": "recuperar",
+  "de": "sich erholen; zurückgewinnen"
+ },
+ {
+  "pt": "reparar",
+  "de": "bemerken (reparar em); reparieren"
+ },
+ {
+  "pt": "a reparação",
+  "de": "die Reparatur"
+ },
+ {
+  "pt": "riscar",
+  "de": "durchstreichen"
+ },
+ {
+  "pt": "segurar",
+  "de": "festhalten"
+ },
+ {
+  "pt": "servir",
+  "de": "dienen; servieren; passen"
+ },
+ {
+  "pt": "sobreviver",
+  "de": "überleben"
+ },
+ {
+  "pt": "sonhar",
+  "de": "träumen"
+ },
+ {
+  "pt": "suspirar",
+  "de": "seufzen"
+ },
+ {
+  "pt": "terminar",
+  "de": "beenden, enden"
+ },
+ {
+  "pt": "tremer",
+  "de": "zittern"
+ },
+ {
+  "pt": "usar",
+  "de": "benutzen; tragen"
+ },
+ {
+  "pt": "valer",
+  "de": "wert sein; gelten"
+ },
+ {
+  "pt": "vender",
+  "de": "verkaufen"
+ },
+ {
+  "pt": "vestir",
+  "de": "anziehen (vestir-se = sich anziehen)"
+ },
+ {
+  "pt": "viajar",
+  "de": "reisen"
+ },
+ {
+  "pt": "vibrar",
+  "de": "vibrieren"
+ },
+ {
+  "pt": "votar",
+  "de": "wählen, abstimmen"
+ },
+ {
+  "pt": "chegares",
+  "de": "du ankommst (chegar, infinitivo pessoal)"
+ },
+ {
+  "pt": "chegarem",
+  "de": "sie ankommen (chegar, infinitivo pessoal)"
+ },
+ {
+  "pt": "começares",
+  "de": "du anfängst (começar, infinitivo pessoal)"
+ },
+ {
+  "pt": "comerem",
+  "de": "sie essen (comer, infinitivo pessoal)"
+ },
+ {
+  "pt": "escorregares",
+  "de": "du ausrutschst (escorregar, infinitivo pessoal)"
+ },
+ {
+  "pt": "falares",
+  "de": "du sprichst (falar, infinitivo pessoal)"
+ },
+ {
+  "pt": "levantares",
+  "de": "du aufstehst (levantar-se, infinitivo pessoal)"
+ },
+ {
+  "pt": "saberes",
+  "de": "du weißt (saber, infinitivo pessoal)"
+ },
+ {
+  "pt": "voltares",
+  "de": "du zurückkommst (voltar, infinitivo pessoal)"
+ },
+ {
+  "pt": "acontecesse",
+  "de": "geschähe, passierte (acontecer, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "atrasasse",
+  "de": "sich verspätete (atrasar-se, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "baixassem",
+  "de": "sie senkten (baixar, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "chegasse",
+  "de": "ankäme (chegar, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "contassem",
+  "de": "sie zählten, erzählten (contar, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "continuasse",
+  "de": "weitermachte (continuar, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "deixássemos",
+  "de": "wir ließen (deixar, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "encontrasse",
+  "de": "fände, träfe (encontrar, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "esperasse",
+  "de": "wartete (esperar, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "ligasse",
+  "de": "anriefe (ligar, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "voltasse",
+  "de": "zurückkäme (voltar, imperfeito do conjuntivo)"
+ },
+ {
+  "pt": "gostaria",
+  "de": "ich/er/sie würde gern, möchte (gostar, condicional)"
+ },
+ {
+  "pt": "dera",
+  "de": "quem me dera = wenn ich doch nur … (dar, mais-que-perfeito)"
+ },
+ {
+  "pt": "esqueças",
+  "de": "du vergisst (esquecer, conjuntivo: não te esqueças = vergiss nicht)"
+ },
+ {
+  "pt": "doem",
+  "de": "sie tun weh (doer)"
+ },
+ {
+  "pt": "convém",
+  "de": "es passt, es ist ratsam (convir)"
+ },
+ {
+  "pt": "proponho",
+  "de": "ich schlage vor (propor)"
+ },
+ {
+  "pt": "sugiro",
+  "de": "ich schlage vor (sugerir)"
+ },
+ {
+  "pt": "foge",
+  "de": "er/sie flieht, läuft weg (fugir)"
+ },
+ {
+  "pt": "sobem",
+  "de": "sie steigen hinauf (subir)"
+ },
+ {
+  "pt": "pigarreiam",
+  "de": "sie räuspern sich (pigarrear)"
+ },
+ {
+  "pt": "comecei",
+  "de": "ich fing an (começar)"
+ },
+ {
+  "pt": "agradeço",
+  "de": "ich danke (agradecer)"
+ },
+ {
+  "pt": "agradeças",
+  "de": "du dankst (agradecer, conjuntivo)"
+ },
+ {
+  "pt": "releu",
+  "de": "las noch einmal (reler)"
+ },
+ {
+  "pt": "riu",
+  "de": "lachte (rir)"
+ },
+ {
+  "pt": "riram",
+  "de": "sie lachten (rir)"
  }
 ]
