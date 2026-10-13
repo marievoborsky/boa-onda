@@ -1,0 +1,421 @@
+{
+ "id": "tag66",
+ "title": "O jornal do Martim",
+ "subtitle": "Staffel 3 · Woche 10 · Tag 66 · Zeitung lesen · Passiv und Nominalstil · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 65)",
+   "items": [
+    {
+     "q": "O prédio ___ moro não tem elevador. (Relativwort des Ortes)",
+     "a": "onde"
+    },
+    {
+     "q": "A senhora com ___ falei ontem chama-se Dona Lurdes.",
+     "opts": [
+      "que",
+      "quem"
+     ],
+     "a": "quem – nach Präposition und bei Personen: com quem"
+    },
+    {
+     "q": "A casa ___ elevador nunca existiu fica na Graça.",
+     "opts": [
+      "cujo",
+      "cuja",
+      "cujo o"
+     ],
+     "a": "cujo – richtet sich nach elevador (männlich) und steht nie mit Artikel"
+    },
+    {
+     "q": "die Klingel: a ___",
+     "a": "campainha"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: No jornal (16)",
+   "items": [
+    {
+     "pt": "o jornal",
+     "de": "die Zeitung",
+     "ipa": "[ʒuɾˈnaɫ]",
+     "audio": "v6601"
+    },
+    {
+     "pt": "a notícia",
+     "de": "die Nachricht, die Meldung",
+     "ipa": "[nuˈtisjɐ]",
+     "audio": "v6602"
+    },
+    {
+     "pt": "a manchete",
+     "de": "die Schlagzeile",
+     "ipa": "[mɐ̃ˈʃɛtɨ]",
+     "audio": "v6603"
+    },
+    {
+     "pt": "o título",
+     "de": "die Überschrift; der Titel",
+     "ipa": "[ˈtitulu]",
+     "audio": "v6604"
+    },
+    {
+     "pt": "a primeira página",
+     "de": "die Titelseite",
+     "ipa": "[pɾiˈmɐjɾɐ ˈpaʒinɐ]",
+     "audio": "v6605"
+    },
+    {
+     "pt": "a rubrica",
+     "de": "die Rubrik, das Ressort (Zeitung)",
+     "ipa": "[ʁuˈbɾikɐ]",
+     "audio": "v6606"
+    },
+    {
+     "pt": "a economia",
+     "de": "die Wirtschaft",
+     "ipa": "[ikunuˈmiɐ]",
+     "audio": "v6607"
+    },
+    {
+     "pt": "a política",
+     "de": "die Politik",
+     "ipa": "[puˈlitikɐ]",
+     "audio": "v6608"
+    },
+    {
+     "pt": "o governo",
+     "de": "die Regierung",
+     "ipa": "[guˈveɾnu]",
+     "audio": "v6609"
+    },
+    {
+     "pt": "a obra / as obras",
+     "de": "das Werk / die Bauarbeiten, die Baustelle",
+     "ipa": "[ˈɔbɾɐ]",
+     "audio": "v6610"
+    },
+    {
+     "pt": "adiar",
+     "de": "verschieben, vertagen",
+     "ipa": "[ɐˈdjaɾ]",
+     "audio": "v6611"
+    },
+    {
+     "pt": "anunciar",
+     "de": "ankündigen, bekanntgeben",
+     "ipa": "[ɐnũˈsjaɾ]",
+     "audio": "v6612"
+    },
+    {
+     "pt": "aprovar",
+     "de": "genehmigen, verabschieden; bestehen (Prüfung)",
+     "ipa": "[ɐpɾuˈvaɾ]",
+     "audio": "v6613"
+    },
+    {
+     "pt": "o aumento",
+     "de": "die Erhöhung, der Anstieg",
+     "ipa": "[awˈmẽtu]",
+     "audio": "v6614"
+    },
+    {
+     "pt": "segundo",
+     "de": "laut, gemäß (segundo o jornal = laut Zeitung)",
+     "ipa": "[sɨˈgũdu]",
+     "audio": "v6615"
+    },
+    {
+     "pt": "o leitor / a leitora",
+     "de": "der Leser / die Leserin",
+     "ipa": "[lɐjˈtoɾ]",
+     "audio": "v6616"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Teresa: Wie die Zeitung spricht",
+   "html": "<i>(Professora Teresa, eine gefaltete Zeitung unter dem Arm:)</i> Der Martim hat Ihnen eine Zeitung mitgebracht? Gut. Dann lernen Sie heute die Sprache, in der Portugal sich selbst erklärt – und die am Tresen niemand spricht. Drei Dinge: das Passiv, der Nominalstil und die Schlagzeile.<br><br><b>1 · Das Passiv: ser + particípio passado.</b> Das Partizip richtet sich nach dem Subjekt wie ein Adjektiv – in Genus und Zahl:<br><i>O aumento <b>foi aprovado</b>.</i> – Die Erhöhung wurde genehmigt.<br><i>A decisão <b>foi anunciada</b> ontem.</i> – Die Entscheidung wurde gestern bekanntgegeben.<br><i>As obras <b>foram adiadas</b> para 2027.</i> – Die Bauarbeiten wurden auf 2027 verschoben.<br><i>Os títulos <b>são escritos</b> à pressa.</i> – Die Überschriften werden in Eile geschrieben.<br>Wer es getan hat, kommt mit <b>por</b> (pelo / pela / pelos / pelas): <i>O aumento foi aprovado <b>pelo</b> Governo. As obras foram adiadas <b>pela</b> Câmara.</i><br>Die Zeit steckt in <i>ser</i>: <i>é aprovado</i> (wird genehmigt) · <i>foi aprovado</i> (wurde genehmigt) · <i>vai ser aprovado</i> (wird genehmigt werden) · <i>tinha sido aprovado</i> (war genehmigt worden).<br><br><b>2 · Die unregelmäßigen Partizipien</b> kennen Sie vom pretérito perfeito composto – im Passiv brauchen Sie sie wieder, und jetzt mit Endung:<br><i>fazer → <b>feito</b> · dizer → <b>dito</b> · abrir → <b>aberto</b> · pôr → <b>posto</b> · ver → <b>visto</b> · escrever → <b>escrito</b> · vir → <b>vindo</b> · cobrir → <b>coberto</b></i><br><i>A estação foi <b>aberta</b> às seis.</i> · <i>Os jornais foram <b>postos</b> na mesa.</i> · <i>A notícia foi <b>vista</b> por mil leitores.</i> · <i>O título foi <b>escrito</b> pelo Martim.</i> Es gibt kein <i>fazido</i>, kein <i>abrido</i> und kein <i>escrevido</i>; ich sage das jedes Jahr, und jedes Jahr höre ich es trotzdem.<br><br><b>3 · Der Nominalstil.</b> Die Zeitung macht aus Verben Nomen: <i>aumentar → <b>o aumento</b> · decidir → <b>a decisão</b> · adiar → <b>o adiamento</b> · anunciar → <b>o anúncio</b> · aprovar → <b>a aprovação</b> · fazer greve → <b>a greve</b></i>. Aus <i>O Governo aprovou o aumento</i> wird <i>Aprovação do aumento pelo Governo</i> – kein Verb, nur Nomen und <i>de</i>. Beim Lesen machen Sie den Weg zurück: Nomen → Verb → wer?<br><br><b>4 · Die Schlagzeile</b> lässt den Artikel weg und meistens auch <i>ser</i>: <i>Obras na linha do metro adiadas para 2027</i> heißt <i>As obras na linha do metro foram adiadas para 2027</i>. <i>Greve no metro anunciada para sexta-feira</i> heißt <i>Foi anunciada uma greve no metro para sexta-feira</i>. Regel zum Lesen: Artikel wieder hinein, <i>ser</i> wieder hinein, dann fragen: <i>quem?</i><br><br><b>5 · Und gesprochen?</b> Auf der Straße sagt niemand <i>o aumento foi aprovado</i>. Dort steht das Aktiv – <i>Aprovaram o aumento. Adiaram as obras outra vez.</i> – oder das Passiv mit <b>se</b>, das Sie von Schildern kennen: <i>Vende-se casa. Fala-se inglês. Adiaram-se as obras.</i> Das <i>ser</i>-Passiv ist zum Lesen und Schreiben da, nicht zum Reden.<br><br><b>Typischer Fehler:</b> die Kongruenz. <i>As obras foi adiado</i> – nein: <i>As obras <b>foram adiadas</b></i>. Zwei Endungen, beide weiblich, beide Plural. Das Partizip ist hier ein Adjektiv, und Adjektive richten sich in dieser Sprache immer nach dem Nomen."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> Ich lese den Público nur noch online, am Telemóvel, morgens in der república, bevor der Tiago wach ist und anfängt, mir die Politik zu erklären. Mein Tipp für die Schlagzeilen: Übersetz sie zuerst ins Aktiv, mit einem erfundenen Subjekt – <i>Obras adiadas</i> → <i>Alguém adiou as obras</i> – und dann frag <i>quem?</i>; die Antwort steht fast immer in der ersten Zeile des Textes, mit <i>pelo</i> oder <i>pela</i>. Und <b>segundo</b> heißt nicht nur „zweiter“: <i>segundo o jornal</i> = laut Zeitung, <i>segundo a Ana</i> = laut Ana, und laut Ana sind die Schlagzeilen im Porto besser."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Obras adiadas",
+   "hint": "Selbst erschlossen: trouxe = ich habe gebracht (von trazer) · caber = hineinpassen: só cabe o resultado = nur das Ergebnis passt hinein · a Câmara (Municipal) = die Stadtverwaltung · o tempo = hier: das Wetter · esperado = erwartet · o culpado = der Schuldige · Dá cá = Gib her. Cafeteria der Faculdade de Letras, Mittwoch, kurz vor zwölf, vor dem Kurs; Martim legt eine Zeitung auf den Tisch.",
+   "lines": [
+    {
+     "who": "Martim",
+     "pt": "Olha o que te trouxe. O jornal de hoje. Lê a primeira página e diz-me o que percebes.",
+     "audio": "d6601"
+    },
+    {
+     "who": "Marie",
+     "pt": "«Obras na linha do metro adiadas para 2027.» Percebo as palavras todas e não percebo a frase. Quem adiou? E onde está o verbo?",
+     "audio": "d6602"
+    },
+    {
+     "who": "Martim",
+     "pt": "Não há verbo. É uma manchete, não é uma frase. O jornal corta o artigo e corta o ser. A frase inteira é: as obras foram adiadas.",
+     "audio": "d6603"
+    },
+    {
+     "who": "Marie",
+     "pt": "Foram adiadas por quem?",
+     "audio": "d6604"
+    },
+    {
+     "who": "Martim",
+     "pt": "Pela Câmara. Está no texto, em baixo. Na manchete só cabe o resultado: obras adiadas. Quem fez, lês depois.",
+     "audio": "d6605"
+    },
+    {
+     "who": "Marie",
+     "pt": "Então as manchetes são todas assim? Sem artigo, sem verbo?",
+     "audio": "d6606"
+    },
+    {
+     "who": "Martim",
+     "pt": "Quase. Olha esta, na rubrica do tempo: «Chuva forte esperada para quinta-feira.» Chuva, não a chuva. Esperada, não é esperada.",
+     "audio": "d6607"
+    },
+    {
+     "who": "Marie",
+     "pt": "A chuva é esperada para quinta-feira. Ou seja, amanhã. Ótimo, vou de elétrico e levo o guarda-chuva.",
+     "audio": "d6608"
+    },
+    {
+     "who": "Martim",
+     "pt": "Vês? Já traduzes de jornal para português. E esta, no desporto: «Benfica e Sporting jogam no domingo.»",
+     "audio": "d6609"
+    },
+    {
+     "who": "Marie",
+     "pt": "Essa tem verbo!",
+     "audio": "d6610"
+    },
+    {
+     "who": "Martim",
+     "pt": "Tem, porque é futuro e porque é desporto. No desporto o jornal fala como as pessoas. Na política fala como o Governo: o aumento foi aprovado, a decisão foi anunciada, as obras foram adiadas.",
+     "audio": "d6611"
+    },
+    {
+     "who": "Marie",
+     "pt": "E as pessoas? Também dizem «foi aprovado»?",
+     "audio": "d6612"
+    },
+    {
+     "who": "Martim",
+     "pt": "Na rua ninguém diz isso. Na rua dizem: aprovaram o aumento, adiaram as obras outra vez. Segundo o meu pai, o jornal escreve assim para ninguém ter culpa.",
+     "audio": "d6613"
+    },
+    {
+     "who": "Marie",
+     "pt": "Então o jornal é o português dos culpados sem nome. Dá cá, quero ler a economia. Devagar.",
+     "audio": "d6614"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Do ativo para o passivo",
+   "items": [
+    {
+     "q": "O Governo aprovou o aumento. → O aumento ___ pelo Governo.",
+     "a": "foi aprovado"
+    },
+    {
+     "q": "A Câmara adiou as obras. → As obras ___ pela Câmara.",
+     "a": "foram adiadas"
+    },
+    {
+     "q": "O jornal anunciou a greve. → A greve ___ pelo jornal.",
+     "a": "foi anunciada"
+    },
+    {
+     "q": "A professora corrigiu os erros. → Os erros ___ pela professora.",
+     "a": "foram corrigidos"
+    },
+    {
+     "q": "O Martim escreveu o título. → O título ___ pelo Martim. (Achtung, unregelmäßig)",
+     "a": "foi escrito"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Particípio e concordância (antippen)",
+   "items": [
+    {
+     "q": "As obras foram ___ para 2027.",
+     "opts": [
+      "adiadas",
+      "adiado",
+      "adiada"
+     ],
+     "a": "adiadas – as obras: weiblich, Plural → zwei Endungen"
+    },
+    {
+     "q": "A decisão foi ___ pelo Governo.",
+     "opts": [
+      "feita",
+      "fazida",
+      "feito"
+     ],
+     "a": "feita – fazer → feito, und nach a decisão weiblich: feita"
+    },
+    {
+     "q": "As portas da estação foram ___ às seis.",
+     "opts": [
+      "abertas",
+      "abridas",
+      "aberto"
+     ],
+     "a": "abertas – abrir → aberto; as portas → abertas"
+    },
+    {
+     "q": "O título foi ___ pelo Martim.",
+     "opts": [
+      "escrito",
+      "escrevido",
+      "escrita"
+     ],
+     "a": "escrito – escrever → escrito; o título männlich"
+    },
+    {
+     "q": "Os jornais foram ___ em cima da mesa.",
+     "opts": [
+      "postos",
+      "ponidos",
+      "posto"
+     ],
+     "a": "postos – pôr → posto; os jornais → postos"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Die Bauarbeiten wurden auf 2027 verschoben.",
+     "satz": "As obras foram adiadas para 2027.",
+     "a": "As obras foram adiadas para 2027."
+    },
+    {
+     "q": "Die Erhöhung wurde von der Regierung genehmigt.",
+     "satz": "O aumento foi aprovado pelo Governo.",
+     "a": "O aumento foi aprovado pelo Governo."
+    },
+    {
+     "q": "Laut Zeitung regnet es am Donnerstag.",
+     "satz": "Segundo o jornal, chove na quinta-feira.",
+     "a": "Segundo o jornal, chove na quinta-feira."
+    },
+    {
+     "q": "Die Nachricht wurde heute bekanntgegeben.",
+     "satz": "A notícia foi anunciada hoje.",
+     "a": "A notícia foi anunciada hoje."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A manchete sobre o metro tem o verbo ser.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – „Não há verbo. É uma manchete, não é uma frase.“ Die ganze Form wäre: as obras foram adiadas."
+    },
+    {
+     "q": "As obras foram adiadas pela Câmara.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – der Urheber steht nicht in der Schlagzeile, sondern im Text darunter: „Pela Câmara. Está no texto, em baixo.“"
+    },
+    {
+     "q": "Segundo o jornal, vai chover na quinta-feira.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – „Chuva forte esperada para quinta-feira“ = A chuva é esperada para quinta-feira. Marie nimmt den Schirm."
+    },
+    {
+     "q": "Na rua, as pessoas dizem «o aumento foi aprovado».",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – „Na rua ninguém diz isso. Na rua dizem: aprovaram o aumento.“ Gesprochen bleibt das Aktiv."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Schlagzeile: Streik bei der Metro für Freitag angekündigt → ___",
+     "a": "Greve no metro anunciada para sexta-feira / Greve do metro anunciada para sexta-feira"
+    },
+    {
+     "q": "Schlagzeile: Erhöhung des Passe-Preises von der Regierung genehmigt → ___",
+     "a": "Aumento do preço do passe aprovado pelo Governo"
+    },
+    {
+     "q": "Laut Martim ist die Zeitung die Sprache der Schuldigen ohne Namen. → ___",
+     "a": "Segundo o Martim, o jornal é a língua dos culpados sem nome. / Segundo o Martim, o jornal é o português dos culpados sem nome."
+    },
+    {
+     "q": "die Titelseite und die Rubriken → ___",
+     "a": "a primeira página e as rubricas"
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: As manchetes do teu dia",
+   "html": "Du bist heute die Zeitung. Formuliere drei Schlagzeilen über deinen eigenen Tag – ohne Artikel, ohne <i>ser</i>, nur Nomen und Partizip: <i>Pequeno-almoço adiado para as dez · Trabalho de casa feito à pressa · Aumento do café anunciado pela cafetaria</i>. Sag sie laut, kurz und trocken, wie ein Nachrichtensprecher.<br><br>Dann machst du den Weg zurück und sagst jede Schlagzeile als ganzen Satz, erst im Passiv, dann so, wie man es auf der Straße sagt:<br><i>O pequeno-almoço foi adiado para as dez. → Adiei o pequeno-almoço para as dez.</i><br><i>O trabalho de casa foi feito à pressa. → Fiz o trabalho de casa à pressa.</i><br><i>O aumento foi anunciado pela cafetaria. → A cafetaria anunciou o aumento.</i><br><br>Strukturen: <i>… foi aprovado / aprovada por … · … foram adiados / adiadas para … · Segundo o …, … · … feito, dito, aberto, posto, visto, escrito</i>. Nimm dich auf und hör nach, ob das Partizip wirklich die Endung des Nomens trägt."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Primeira página",
+   "audio": "s66",
+   "text": "Às seis da manhã, na padaria, um cliente deixou o jornal em cima do balcão e foi-se embora sem ele. O Tio Tó olhou para a primeira página, pousou-o ao lado da caixa e não disse nada. Entre duas fornadas, a Marie leu a manchete pela primeira vez: «Obras na linha do metro adiadas para 2027». Percebeu «obras», percebeu «metro», percebeu «2027». Não percebeu a frase. Faltava qualquer coisa, mas não sabia o quê.<br>Às dez, no elétrico 28, leu-a pela segunda vez, de cabeça. Adiadas. Quem adiou? E para que serve uma frase sem verbo? Em Hamburgo, pensou, os jornais também cortam palavras, mas em alemão ela nem repara. Em português repara em tudo.<br>Pouco antes do meio-dia, na cafetaria da faculdade, o Martim pousou o mesmo jornal em cima da mesa, aberto na mesma página.<br>— Já viste isto? Mais dois anos à espera.<br>— Li duas vezes. Não percebo quem fez o quê.<br>O Martim pegou numa caneta e escreveu por cima da manchete, entre as palavras: «As obras foram adiadas pela Câmara.»<br>— O jornal tira o artigo e tira o verbo. Tu voltas a pô-los. Depois perguntas: quem? E a resposta vem com «por».<br>A Marie leu pela terceira vez. Desta vez a frase tinha princípio, meio e fim, e tinha culpados.<br>— Foram adiadas — disse ela. — Pela Câmara. Para 2027.<br>— Vês? Já lês o jornal.<br>— Li uma linha.<br>— Toda a gente começa por uma linha. Depois vêm as rubricas: economia, política, desporto. A minha mãe só lê a última página e sabe mais do país do que eu.<br>Logo a seguir, no curso, a professora Teresa falou de outra coisa, mas a Marie passou a aula a tirar verbos das frases e a voltar a pô-los. À noite, no sofá mau, escreveu no caderno a sua primeira manchete: «Pão da Marie aprovado pelo Tio Tó.» Depois escreveu a frase inteira, com o verbo: «O pão da Marie foi aprovado pelo Tio Tó.» E, por baixo, mais pequeno: «Segundo o próprio, estava menos torto.»<br>O João leu por cima do ombro dela.<br>— Isso é notícia?<br>— Em Campo de Ourique é primeira página.",
+   "gloss": "Neu erschließen: o balcão = der Tresen · pousar = ablegen, hinstellen · a caixa = die Kasse · de cabeça = aus dem Kopf, auswendig · reparar em = bemerken · pegar em = greifen nach · por cima de = über, oberhalb von · princípio, meio e fim = Anfang, Mitte und Ende · o culpado = der Schuldige · o próprio = er selbst · o ombro = die Schulter",
+   "questions": [
+    {
+     "q": "A Marie percebeu a manchete logo na padaria, de manhã.",
+     "a": "Falsch – sie verstand die Wörter, aber nicht den Satz: „Faltava qualquer coisa, mas não sabia o quê.“ Erst beim dritten Lesen, mit Martims Stift, hat der Satz „princípio, meio e fim“."
+    },
+    {
+     "q": "O Martim escreveu o artigo e o verbo por cima da manchete.",
+     "a": "Richtig – «As obras foram adiadas pela Câmara.» Seine Regel: Artikel und Verb wieder hinein, dann „quem?“ fragen."
+    },
+    {
+     "q": "A primeira manchete da Marie é sobre a política.",
+     "a": "Falsch – sie ist über ihr Brot: «Pão da Marie aprovado pelo Tio Tó.» Für João keine Nachricht, für Campo de Ourique Titelseite."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt das Passiv mit <b>ser + particípio</b> bilden und weißt, dass das Partizip sich nach dem Subjekt richtet: <i>foi aprovado, foram adiadas</i>, der Urheber mit <i>pelo / pela</i>. Du hast die unregelmäßigen Partizipien wieder parat: <i>feito, dito, aberto, posto, visto, escrito</i>. Du erkennst den Nominalstil der Zeitung (<i>o aumento, a decisão, a greve</i>) und kannst eine Schlagzeile ohne Artikel und Verb in einen ganzen Satz zurückverwandeln – und weißt, dass man auf der Straße lieber <i>aprovaram</i> oder <i>vende-se</i> sagt. Du hast den Nachrichtenwortschatz von <i>a manchete</i> bis <i>segundo o jornal</i>. Morgen verlangt Professora Teresa von allen ein Referat, fünf Minuten, Thema frei, und Marie nimmt das Brot: <b>Preparar a apresentação.</b>"
+  }
+ ]
+}

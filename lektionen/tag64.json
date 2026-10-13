@@ -1,0 +1,411 @@
+{
+ "id": "tag64",
+ "title": "Na minha opinião",
+ "subtitle": "Staffel 3 · Woche 10 · Tag 64 · Diskussion im Kurs: Stadt oder Land? · conjuntivo nach Gefühl und Wertung · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 62 & 63)",
+   "items": [
+    {
+     "q": "Embora (eu) ___ cansada, vou à aula. (estar)",
+     "a": "esteja"
+    },
+    {
+     "q": "Quando (tu) ___ tempo, liga-me. (ter)",
+     "opts": [
+      "tiveres",
+      "tenhas"
+     ],
+     "a": "tiveres – quando + Zukunft → futuro do conjuntivo (eles tiveram → tiver, tiveres)"
+    },
+    {
+     "q": "Depois de ___ o pão, vamos para a aula. (fazer, nós)",
+     "a": "fazermos"
+    },
+    {
+     "q": "aushalten, durchhalten: ___",
+     "a": "aguentar"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Cidade ou campo? (16)",
+   "items": [
+    {
+     "pt": "ter razão",
+     "de": "Recht haben",
+     "ipa": "[ˈteɾ ʁɐˈzɐ̃w̃]",
+     "audio": "v6401"
+    },
+    {
+     "pt": "o campo",
+     "de": "das Land (im Gegensatz zur Stadt)",
+     "ipa": "[ˈkɐ̃pu]",
+     "audio": "v6402"
+    },
+    {
+     "pt": "o sossego",
+     "de": "die Ruhe, die Stille",
+     "ipa": "[suˈsegu]",
+     "audio": "v6403"
+    },
+    {
+     "pt": "agitado / agitada",
+     "de": "hektisch, unruhig",
+     "ipa": "[ɐʒiˈtadu]",
+     "audio": "v6404"
+    },
+    {
+     "pt": "a vantagem",
+     "de": "der Vorteil",
+     "ipa": "[vɐ̃ˈtaʒɐ̃j̃]",
+     "audio": "v6405"
+    },
+    {
+     "pt": "a desvantagem",
+     "de": "der Nachteil",
+     "ipa": "[dɨʒvɐ̃ˈtaʒɐ̃j̃]",
+     "audio": "v6406"
+    },
+    {
+     "pt": "o trânsito",
+     "de": "der Verkehr",
+     "ipa": "[ˈtɾɐ̃zitu]",
+     "audio": "v6407"
+    },
+    {
+     "pt": "a vizinhança",
+     "de": "die Nachbarschaft",
+     "ipa": "[viziˈɲɐ̃sɐ]",
+     "audio": "v6408"
+    },
+    {
+     "pt": "o ponto de vista",
+     "de": "der Standpunkt, die Sichtweise",
+     "ipa": "[ˈpõtu dɨ ˈviʃtɐ]",
+     "audio": "v6409"
+    },
+    {
+     "pt": "defender",
+     "de": "verteidigen; (eine Meinung) vertreten",
+     "ipa": "[dɨfẽˈdeɾ]",
+     "audio": "v6410"
+    },
+    {
+     "pt": "convencer",
+     "de": "überzeugen",
+     "ipa": "[kõvẽˈseɾ]",
+     "audio": "v6411"
+    },
+    {
+     "pt": "estranho / estranha",
+     "de": "seltsam, merkwürdig",
+     "ipa": "[ɨʃˈtɾɐɲu]",
+     "audio": "v6412"
+    },
+    {
+     "pt": "admirar-se (de)",
+     "de": "sich wundern (über)",
+     "ipa": "[ɐdmiˈɾaɾsɨ]",
+     "audio": "v6413"
+    },
+    {
+     "pt": "pelo contrário",
+     "de": "im Gegenteil",
+     "ipa": "[pɨlu kõˈtɾaɾju]",
+     "audio": "v6414"
+    },
+    {
+     "pt": "lá isso é verdade",
+     "de": "das stimmt allerdings",
+     "ipa": "[ˈla ˈisu ˈɛ vɨɾˈdadɨ]",
+     "audio": "v6415"
+    },
+    {
+     "pt": "não é bem assim",
+     "de": "so ist es nicht ganz",
+     "ipa": "[ˈnɐ̃w̃ ˈɛ ˈbɐ̃j̃ ɐˈsĩ]",
+     "audio": "v6416"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Teresa: Fühlen und bewerten",
+   "html": "<i>(Professora Teresa, Montag, mit Kreide an den Fingern, obwohl das Whiteboard keine Kreide braucht:)</i> Letzte Woche haben Sie gelernt, was <b>Sie wollen</b>: <i>quero que, peço que, é preciso que</i> + conjuntivo. Heute kommt das, was Sie <b>fühlen</b> und <b>bewerten</b>. Dieselbe Form, ein neuer Grund.<br><br><b>1 · Gefühl.</b> Wenn ein Gefühl auf <i>que</i> trifft, steht der conjuntivo:<br><i><b>Tenho pena que</b> a Noor <b>fale</b> tão depressa.</i> – Ich finde es schade, dass …<br><i><b>Fico contente que</b> a Marie <b>esteja</b> cá.</i> – Ich freue mich, dass …<br><i><b>Admira-me que</b> a turma <b>tenha</b> tantas opiniões.</i> – Es wundert mich, dass …<br><i><b>Irrita-me que</b> ninguém me <b>corrija</b>.</i> – Es ärgert mich, dass …<br><br><b>2 · Wertung.</b> Auch wenn Sie eine Sache nur einordnen – gut, schlecht, normal, seltsam – steht der conjuntivo:<br><i><b>É pena que</b> não <b>haja</b> elevador.</i> – Es ist schade, dass …<br><i><b>É normal que</b> a Marie <b>tenha</b> saudades.</i> – Es ist normal, dass …<br><i><b>É estranho que</b> o João <b>durma</b> até às onze.</i> – Es ist seltsam, dass …<br><i><b>É bom que</b> vocês <b>discutam</b>.</i> – Es ist gut, dass …<br>Merken Sie: Ob die Sache stimmt, spielt keine Rolle. Dass João bis elf schläft, ist völlig wahr. Der conjuntivo zeigt nur, dass Sie die Sache nicht <b>feststellen</b>, sondern <b>bewerten</b>.<br><br><b>3 · Der Unterschied zu Tag 60.</b><br><i>Acho que</i> + <b>Indikativ</b>: Ich stelle fest, ich halte es für wahr. <i>Acho que o campo <b>é</b> mais sossegado.</i><br><i>Quero que</i> + conjuntivo: Ich will, dass etwas passiert, es ist noch nicht so. <i>Quero que a Noor <b>fale</b> mais devagar.</i><br><i>Fico contente que</i> + conjuntivo: Es ist so, und ich sage, was ich davon halte. <i>Fico contente que a Noor <b>fale</b> comigo.</i><br>Drei Sätze, drei Gründe, nur einer davon nimmt den Indikativ.<br><br><b>Bildung</b> (noch einmal, zum letzten Mal langsam): 1. Person Präsens, <i>-o</i> weg, Vokal tauschen. <i>-ar → -e</i>: <i>falar → fale, fales, fale, falemos, falem</i>. <i>-er / -ir → -a</i>: <i>discutir → discuta, discutas, discuta, discutamos, discutam</i>. Unregelmäßig: <i>ser → seja</i>, <i>ter → tenha</i>, <i>ir → vá</i>, <i>fazer → faça</i>, <i>estar → esteja</i>, <i>haver → haja</i>, <i>dormir → durma</i>.<br><br><b>Typischer Fehler:</b> <i>É pena que não há elevador.</i> Nein. <i>É pena que não <b>haja</b>.</i> Und <i>fico contente <b>de</b> que</i> gibt es nicht – einfach <i>fico contente que</i>. Wenn Sie heute nur einen Satz mitnehmen, dann diesen: <i>É pena que não haja.</i> Den brauchen Sie in Lissabon täglich."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> In Portugal sagt fast niemand direkt <i>discordo</i>. Man sagt erst <b>lá isso é verdade</b>, dann <b>mas</b>, und dann kommt das Gegenteil. Oder <b>não é bem assim</b> – das ist ein Nein mit Teppich drunter. Mein Tipp zum conjuntivo: Lern die Auslöser nicht als Wörter, sondern als ganze Anfänge, mit <i>que</i> dran und einem Verb hinten: <i>É pena que não haja … · Fico contente que estejas … · É normal que tenhas …</i> Sag sie dir morgens zehnmal im Spiegel, dann rutscht das <i>haja</i> von allein raus. Hier in Coimbra ist übrigens alles zwanzig Minuten zu Fuß, und trotzdem beschweren sich alle über den trânsito. Aussprache: <i>sossego</i> = „sussêgu“, <i>vizinhança</i> = „vizinjãssa“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Cidade ou campo?",
+   "hint": "Selbst erschlossen: demasiado = zu viel, zu sehr · o ar puro = die frische Luft · em parte = zum Teil · a convicção = die Überzeugung · é por isso mesmo = genau deshalb · o argumento = das Argument · crescer = aufwachsen. Montag, kurz nach Mittag, Faculdade de Letras; Noor hat gerade geredet, jetzt ist Marie dran.",
+   "lines": [
+    {
+     "who": "Professora",
+     "pt": "Hoje a turma vai discutir um tema: cidade ou campo? A Noor já disse que a cidade é melhor e que no campo não há nada para fazer. A Marie concorda?",
+     "audio": "d6401"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não, professora. Discordo. No campo há sossego, há ar puro, as pessoas conhecem-se. Em Sagres eu conhecia toda a gente.",
+     "audio": "d6402"
+    },
+    {
+     "who": "Professora",
+     "pt": "Sagres é uma vila de praia, não é bem campo. Mas continue. O que é que a Marie defende?",
+     "audio": "d6403"
+    },
+    {
+     "who": "Marie",
+     "pt": "Defendo que a vida é melhor no campo. Acho que aqui há demasiado barulho e demasiado trânsito. E as rendas são caras.",
+     "audio": "d6404"
+    },
+    {
+     "who": "Professora",
+     "pt": "Lá isso é verdade. E a Noor diz que na cidade há trabalho, universidade, cinema, pessoas de todo o mundo. Não tem razão?",
+     "audio": "d6405"
+    },
+    {
+     "who": "Marie",
+     "pt": "Tem razão em parte. Mas eu moro num quarto andar sem elevador e trabalho numa padaria às quatro da manhã. Não é bem a vida de cinema.",
+     "audio": "d6406"
+    },
+    {
+     "who": "Professora",
+     "pt": "Fico contente que a Marie discorde com tanta convicção. Mas admira-me que uma alemã de Hamburgo defenda o campo. Hamburgo não é uma aldeia.",
+     "audio": "d6407"
+    },
+    {
+     "who": "Marie",
+     "pt": "Pelo contrário, professora, é por isso mesmo. Cresci numa cidade grande e sei o que é o trânsito às oito da manhã.",
+     "audio": "d6408"
+    },
+    {
+     "who": "Professora",
+     "pt": "É normal que tenha saudades de Sagres. Mas é estranho que só fale do sossego. No campo não há metro nem greve, mas também não há emprego para toda a gente.",
+     "audio": "d6409"
+    },
+    {
+     "who": "Marie",
+     "pt": "Lá isso é verdade. Tenho pena que os jovens saiam das aldeias. Mas saem porque não têm escolha, não porque a cidade seja melhor.",
+     "audio": "d6410"
+    },
+    {
+     "who": "Professora",
+     "pt": "Muito bem. Agora a Marie já tem um ponto de vista e dois argumentos. A Noor tem três argumentos e quatro erros. Quem ganha?",
+     "audio": "d6411"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ganha a professora, que faz as perguntas.",
+     "audio": "d6412"
+    },
+    {
+     "who": "Professora",
+     "pt": "É bom que a turma saiba isso. Para amanhã, quero que escrevam dez linhas: uma vantagem e uma desvantagem de viver em Lisboa.",
+     "audio": "d6413"
+    },
+    {
+     "who": "Marie",
+     "pt": "A desvantagem já tenho, professora. São as escadas.",
+     "audio": "d6414"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Gefühl und Wertung: a forma certa",
+   "items": [
+    {
+     "q": "Tenho pena que a Noor ___ tão depressa. (falar)",
+     "a": "fale"
+    },
+    {
+     "q": "Fico contente que vocês ___ a sério. (discutir)",
+     "a": "discutam"
+    },
+    {
+     "q": "É pena que não ___ sossego na cidade. (haver)",
+     "a": "haja"
+    },
+    {
+     "q": "Admira-me que a Marie ___ o campo. (defender)",
+     "a": "defenda"
+    },
+    {
+     "q": "É estranho que o João ___ até às onze. (dormir)",
+     "a": "durma"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Indicativo ou conjuntivo? (antippen)",
+   "items": [
+    {
+     "q": "Acho que o campo ___ mais sossegado.",
+     "opts": [
+      "é",
+      "seja"
+     ],
+     "a": "é – acho que: ich stelle fest → Indikativ"
+    },
+    {
+     "q": "É pena que o campo ___ tão longe.",
+     "opts": [
+      "fica",
+      "fique"
+     ],
+     "a": "fique – é pena que: Wertung → conjuntivo"
+    },
+    {
+     "q": "Tenho a certeza de que a Noor ___ razão.",
+     "opts": [
+      "tem",
+      "tenha"
+     ],
+     "a": "tem – Gewissheit → Indikativ"
+    },
+    {
+     "q": "Admira-me que a Noor ___ razão.",
+     "opts": [
+      "tem",
+      "tenha"
+     ],
+     "a": "tenha – Gefühl (es wundert mich) → conjuntivo"
+    },
+    {
+     "q": "É normal que tu ___ saudades de Sagres.",
+     "opts": [
+      "tens",
+      "tenhas"
+     ],
+     "a": "tenhas – é normal que: Wertung → conjuntivo, auch wenn es völlig normal ist"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Es ist schade, dass es keinen Aufzug gibt.",
+     "satz": "É pena que não haja elevador.",
+     "a": "É pena que não haja elevador."
+    },
+    {
+     "q": "Ich freue mich, dass du bleibst.",
+     "satz": "Fico contente que fiques.",
+     "a": "Fico contente que fiques."
+    },
+    {
+     "q": "Es wundert mich, dass Noor zustimmt.",
+     "satz": "Admira-me que a Noor concorde.",
+     "a": "Admira-me que a Noor concorde."
+    },
+    {
+     "q": "Es ist normal, dass es in der Stadt Verkehr gibt.",
+     "satz": "É normal que haja trânsito na cidade.",
+     "a": "É normal que haja trânsito na cidade."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Noor acha que no campo não há nada para fazer.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – so gibt die Professora Noors Meinung wieder, und Marie sagt dazu zum ersten Mal „Discordo“."
+    },
+    {
+     "q": "A Marie acha que as rendas em Lisboa são baratas.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – „E as rendas são caras.“ Dazu zu viel Lärm und zu viel Verkehr."
+    },
+    {
+     "q": "A professora admira-se que uma pessoa de Hamburgo defenda o campo.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – „Hamburgo não é uma aldeia.“ Marie: „Pelo contrário, é por isso mesmo.“"
+    },
+    {
+     "q": "Para amanhã, a turma tem de escrever vinte linhas sobre o campo.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – zehn Zeilen, ein Vorteil und ein Nachteil des Lebens in Lissabon. Maries Nachteil: die Treppen."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Du hast Recht, aber so ist es nicht ganz. → ___",
+     "a": "Tens razão, mas não é bem assim."
+    },
+    {
+     "q": "Es ist schade, dass es so viel Verkehr gibt. → ___",
+     "a": "É pena que haja tanto trânsito."
+    },
+    {
+     "q": "Es wundert mich, dass du die Stadt verteidigst. → ___",
+     "a": "Admira-me que defendas a cidade. / Admira-me que tu defendas a cidade."
+    },
+    {
+     "q": "Im Gegenteil: Das Land hat mehr Vorteile als Nachteile. → ___",
+     "a": "Pelo contrário, o campo tem mais vantagens do que desvantagens. / Pelo contrário, o campo tem mais vantagens que desvantagens."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: Na minha opinião",
+   "html": "Jetzt bist du dran, Professora Teresa wartet. Cidade ou campo? Sag deine Meinung in sechs Sätzen laut, mit einer Haltung, nicht nur mit Fakten. Baue ein: einen Satz mit <i>acho que</i> (Indikativ), einen mit <i>é pena que</i> oder <i>fico contente que</i> (conjuntivo), einen mit <i>é normal que</i> oder <i>é estranho que</i>, und ein Zugeständnis mit <i>lá isso é verdade, mas …</i> Nimm dich auf und hör nach, ob nach dem Gefühl wirklich der conjuntivo kommt.<br><br>Anfänge: <i>Na minha opinião, … · Acho que a cidade é … · Não acho que o campo seja … · É pena que na cidade não haja … · Fico contente que … · É normal que as pessoas … · Lá isso é verdade, mas … · Pelo contrário, …</i><br><br>Dann Maries Satz, ruhig, ohne Entschuldigung in der Stimme: <i>Discordo. No campo há sossego.</i> Und zum Schluss dreimal den Satz des Tages: <i>É pena que não haja.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Duas opiniões",
+   "audio": "s64",
+   "text": "Na segunda-feira, a professora Teresa escreveu no quadro duas palavras: CIDADE e CAMPO. Depois dividiu a turma em dois lados: ninguém escolhia, era ela que escolhia. A Noor ficou na cidade. A Marie ficou no campo.<br>— Eu sou de Roterdão — disse a Noor, antes de a professora acabar a frase. — A cidade é a vida. No campo as pessoas vão dormir às nove e falam das vacas.<br>A turma riu-se. A Marie não. Pensou em Sagres, nas noites na praia até à meia-noite, e no Vasco, que nunca falou de vacas.<br>— Discordo — disse ela.<br>Foi a primeira vez que disse esta palavra em português, sozinha, sem «acho que» à frente. A Noor olhou para ela, surpreendida. A professora também.<br>— No campo as pessoas conhecem-se — continuou a Marie. — Há sossego. Na cidade há trânsito, barulho e rendas que ninguém consegue pagar.<br>— Lá isso é verdade — disse a Noor. — Mas tu moras em Lisboa, não moras no campo. Ninguém te obrigou.<br>— Não é bem assim. Vim por causa do curso.<br>— E o curso é onde? Numa aldeia?<br>A turma riu-se outra vez. A Marie sentiu a cara a ficar quente. A Noor tinha razão, com três erros de concordância, o que era ainda pior.<br>— Tens razão — disse a Marie. — Mas é pena que só haja universidades nas cidades.<br>— É normal que haja. É lá que estão as pessoas.<br>A professora deixou-as falar dez minutos e não corrigiu nada. No fim, disse:<br>— Fico contente que tenham discutido a sério. A Noor teve mais argumentos. A Marie teve mais razão. Admira-me que nenhuma das duas tenha mudado de opinião. É assim que se sabe que uma discussão foi boa.<br>No intervalo, junto à máquina do café, a Noor disse:<br>— Irritaste-me.<br>— Eu sei. Foi a primeira vez.<br>— Não foi nada mau. Para a semana defendes tu a cidade. É mais difícil.<br>À noite, na Graça, a Marie escreveu ao Vasco: «Hoje disse 'discordo' a uma holandesa. Em voz alta. Sem pedir desculpa.»<br>O Vasco respondeu meia hora depois: «E ela sobreviveu?»<br>«Sobreviveu. Até me deu razão, mais ou menos.»<br>«Então ganhaste. No campo, um 'mais ou menos' é uma vitória.»",
+   "gloss": "Neu erschließen: o quadro = die Tafel · a vaca = die Kuh · rir-se = lachen · surpreendido = überrascht · obrigar = zwingen · o erro de concordância = der Fehler in der Übereinstimmung (Verb oder Adjektiv passt nicht) · a sério = ernsthaft, im Ernst · mudar de opinião = die Meinung ändern · o intervalo = die Pause · irritar = ärgern · em voz alta = laut · sobreviver = überleben · a vitória = der Sieg",
+   "questions": [
+    {
+     "q": "A Marie escolheu o lado do campo porque gosta mais do campo.",
+     "a": "Falsch – niemand durfte wählen, die Professora hat die Seiten verteilt."
+    },
+    {
+     "q": "A Noor dá razão à Marie, mas diz que a Marie mora em Lisboa, não no campo.",
+     "a": "Richtig – „Lá isso é verdade. Mas tu moras em Lisboa … Ninguém te obrigou.“"
+    },
+    {
+     "q": "No fim, a Marie e a Noor mudaram de opinião.",
+     "a": "Falsch – keine der beiden hat ihre Meinung geändert, und genau das findet die Professora gut: So erkennt man eine gute Diskussion."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kann ich …?<br>· … ein Gefühl mit <i>que</i> + conjuntivo ausdrücken: <i>tenho pena que, fico contente que, admira-me que</i>?<br>· … etwas bewerten: <i>é pena que, é normal que, é estranho que, é bom que</i> + conjuntivo, auch wenn die Sache wahr ist?<br>· … den Unterschied hören: <i>acho que é</i> (feststellen) gegen <i>fico contente que seja</i> (bewerten) gegen <i>quero que seja</i> (wollen)?<br>· … zustimmen und widersprechen, ohne unhöflich zu sein: <i>lá isso é verdade, mas … · não é bem assim · pelo contrário</i>?<br>· … Vor- und Nachteile von Stadt und Land in sechs Sätzen nennen?<br><br>Marie hat zum ersten Mal „discordo“ gesagt, und Noor hat überlebt. Morgen stellt sich endlich Dona Lurdes aus dem dritten Stock vor und erklärt das Haus: <b>A casa cujo elevador não existe.</b>"
+  }
+ ]
+}

@@ -29,6 +29,7 @@ def collect():
         add(w['id'], w.get('say') or w['pt'], 'marie', PREV)
     for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', '*.json'))):
         L = json.load(open(f))
+        if not isinstance(L, dict) or 'sections' not in L: continue   # index.json, leseworte.json
         for sec in L['sections']:
             if sec['type'] == 'reading':
                 for ln in sec['lines']:
@@ -45,7 +46,7 @@ def collect():
     # die Marie-Stimme spricht EP-Auslaute bei Einzelwörtern unsauber („adeus"
     # ohne End-[ʃ]). Einzelwörter generiert tts-tok-google.py (Google TTS).
     # Tag-8-Sagres aus dem Arbeitsblatt (Marie & Vasco)
-    html = open(os.path.join(BASE, '..', 'arbeitsblaetter', 'sagres-bonus.html')).read()
+    html = open(os.path.join(BASE, '..', '08_ARBEITSBLAETTER', 'sagres-bonus.html')).read()
     lines = re.findall(r'<span class="who">([^<]+):</span>\s*([^<]+)</p>', html)[:12]
     for i, (who, pt) in enumerate(lines, 1):
         add(f'db{i:02d}', pt.strip(), WHO2FIG.get(who.strip().lower(), 'marie'))

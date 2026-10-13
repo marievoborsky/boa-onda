@@ -1,0 +1,330 @@
+{
+ "id": "tag70",
+ "title": "Revisão VIII – Wochentest",
+ "subtitle": "Staffel 3 · Woche 10 · Tag 70 · Mini-Test · 50 Punkte · ca. 40 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen, dann prüfen und Punkte zählen – ohne Nachschauen. Woche 10 war die Woche der Haltung: eine Diskussion mit <i>discordo</i> und dem conjuntivo nach Gefühl, Dona Lurdes und die Relativsätze (<i>a casa cujo elevador não existe</i>), Martims Zeitung mit Passiv und Schlagzeilen, Joãos Konnektoren-Trick, das Referat mit Fragerunde und ein Samstag am Tresen mit <i>cafezinho</i> und <i>pois</i>. Notier dir die Punkte pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> Bevor du anfängst: Erzähl dir Maries zweite Kurswoche laut, in zwei Minuten – Diskussion, Treppenhaus, Zeitung, Karte mit neun Wörtern, Brot vor der Klasse, senhor Abílio. Wenn dabei <i>é pena que não haja</i>, <i>cujo elevador</i>, <i>foram adiadas</i>, <i>por um lado, por outro lado</i> und <i>um bocadinho</i> vorkommen, ist der Test schon halb bestanden. Und wenn du beim Diminutiv zögerst: <i>pouquinho</i> mit <i>qu</i>, sonst klingt es wie ein Fisch. <i>Que corra bem!</i>"
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln aus Woche 10 (10 P.)",
+   "items": [
+    {
+     "q": "der Vorteil",
+     "a": "a vantagem"
+    },
+    {
+     "q": "die Ruhe, die Stille",
+     "a": "o sossego"
+    },
+    {
+     "q": "die Klingel",
+     "a": "a campainha"
+    },
+    {
+     "q": "der Dachboden",
+     "a": "o sótão"
+    },
+    {
+     "q": "die Schlagzeile",
+     "a": "a manchete"
+    },
+    {
+     "q": "verschieben, vertagen",
+     "a": "adiar"
+    },
+    {
+     "q": "die Einleitung",
+     "a": "a introdução"
+    },
+    {
+     "q": "proben, einüben",
+     "a": "ensaiar"
+    },
+    {
+     "q": "unterbrechen",
+     "a": "interromper"
+    },
+    {
+     "q": "die Münze",
+     "a": "a moeda"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · É pena que … – conjuntivo nach Gefühl und Wertung (6 P.)",
+   "items": [
+    {
+     "q": "É pena que não ___ sossego na cidade. (haver)",
+     "a": "haja"
+    },
+    {
+     "q": "Fico contente que (tu) ___ em Lisboa. (ficar)",
+     "a": "fiques"
+    },
+    {
+     "q": "Admira-me que a Noor ___ com a Marie. (concordar)",
+     "a": "concorde"
+    },
+    {
+     "q": "Acho que a cidade ___ agitada.",
+     "opts": [
+      "é",
+      "seja"
+     ],
+     "a": "é – acho que: ich stelle fest → Indikativ"
+    },
+    {
+     "q": "É normal que a Marie ___ saudades de Sagres.",
+     "opts": [
+      "tem",
+      "tenha"
+     ],
+     "a": "tenha – é normal que: Wertung → conjuntivo, auch wenn es völlig normal ist"
+    },
+    {
+     "q": "Es ist seltsam, dass João bis elf schläft.",
+     "satz": "É estranho que o João durma até às onze.",
+     "a": "É estranho que o João durma até às onze."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Que, quem, onde, cujo – Relativsätze (7 P.)",
+   "items": [
+    {
+     "q": "A vizinha ___ mora no terceiro ouve tudo.",
+     "a": "que"
+    },
+    {
+     "q": "O senhor Alfredo é o vizinho com ___ o João mais gosta de falar.",
+     "a": "quem"
+    },
+    {
+     "q": "Campo de Ourique é o bairro ___ fica a padaria do tio Tó.",
+     "a": "onde"
+    },
+    {
+     "q": "A casa ___ elevador nunca existiu é cor-de-rosa.",
+     "opts": [
+      "cujo",
+      "cuja",
+      "cujo o"
+     ],
+     "a": "cujo – richtet sich nach elevador (männlich), nicht nach casa, und nie mit Artikel"
+    },
+    {
+     "q": "O prédio ___ janelas dão para o Tejo tem cento e doze anos.",
+     "opts": [
+      "cujas",
+      "cujos",
+      "cujo"
+     ],
+     "a": "cujas – janelas: weiblich Plural, das Wort danach entscheidet"
+    },
+    {
+     "q": "A razão ___ a Marie fica em Lisboa é o curso.",
+     "opts": [
+      "pela qual",
+      "pela que",
+      "por quem"
+     ],
+     "a": "pela qual – nach pela steht a qual (formell, Zeitungston); pela que geht nicht"
+    },
+    {
+     "q": "Die Nachbarin, deren Kinder in Frankreich leben, ist Witwe.",
+     "satz": "A vizinha cujos filhos vivem em França é viúva.",
+     "a": "A vizinha cujos filhos vivem em França é viúva."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · Foi aprovado – Passiv und Zeitungssprache (6 P.)",
+   "items": [
+    {
+     "q": "A Câmara adiou as obras. → As obras ___ pela Câmara.",
+     "a": "foram adiadas"
+    },
+    {
+     "q": "O Governo aprovou o aumento. → O aumento ___ pelo Governo.",
+     "a": "foi aprovado"
+    },
+    {
+     "q": "A professora escreveu a nota. → A nota ___ pela professora. (Achtung, unregelmäßig)",
+     "a": "foi escrita"
+    },
+    {
+     "q": "As portas da padaria foram ___ às seis.",
+     "opts": [
+      "abertas",
+      "abridas",
+      "aberto"
+     ],
+     "a": "abertas – abrir → aberto; as portas → abertas, zwei Endungen"
+    },
+    {
+     "q": "Manchete: «Greve no metro anunciada para sexta-feira.» Die ganze Form ist:",
+     "opts": [
+      "Foi anunciada uma greve no metro para sexta-feira.",
+      "O metro anuncia uma greve na sexta-feira."
+     ],
+     "a": "Foi anunciada uma greve no metro para sexta-feira. – Artikel und ser wieder hinein; wer es getan hat, steht erst im Text darunter"
+    },
+    {
+     "q": "Laut Zeitung wurden die Bauarbeiten auf 2027 verschoben.",
+     "satz": "Segundo o jornal, as obras foram adiadas para 2027.",
+     "a": "Segundo o jornal, as obras foram adiadas para 2027."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Por um lado, por outro lado – Konnektoren (6 P.)",
+   "items": [
+    {
+     "q": "___, o pão em Portugal não é só comida, é um hábito. (zunächst, erstens)",
+     "a": "Em primeiro lugar"
+    },
+    {
+     "q": "Por um lado, a cidade é agitada; ___, há trabalho para toda a gente. (andererseits)",
+     "a": "por outro lado"
+    },
+    {
+     "q": "Em Hamburgo há mais tipos de pão. ___, em Portugal o pão é levado mais a sério. (jedoch)",
+     "a": "No entanto"
+    },
+    {
+     "q": "A carcaça é barata. ___, há carcaças em todo o lado.",
+     "opts": [
+      "Além disso",
+      "Ou seja"
+     ],
+     "a": "Além disso – eine Ergänzung; ou seja würde erklären, was „barata“ heißt"
+    },
+    {
+     "q": "Falo devagar ___ a plateia perceba.",
+     "opts": [
+      "para que",
+      "para"
+     ],
+     "a": "para que – anderes Subjekt und conjuntivo (perceba) → para que; mit gleichem Subjekt: para + Infinitiv"
+    },
+    {
+     "q": "Kurz gesagt, das Thema ist wichtig.",
+     "satz": "Em suma, o tema é importante.",
+     "a": "Em suma, o tema é importante."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "F · Um cafezinho – Umgangssprache und Diminutive (5 P.)",
+   "items": [
+    {
+     "q": "café → um ___ (ein Käffchen)",
+     "a": "cafezinho"
+    },
+    {
+     "q": "pouco → um ___ (ein kleines bisschen – Achtung Schreibung!)",
+     "a": "pouquinho"
+    },
+    {
+     "q": "– Está um friozinho hoje. – ___, em outubro é sempre assim.",
+     "opts": [
+      "Pois",
+      "Olhe"
+     ],
+     "a": "Pois – Zustimmung: „tja, ja“; olhe holt Aufmerksamkeit vor einem Vorschlag"
+    },
+    {
+     "q": "Se calhar hoje ___. (chover)",
+     "opts": [
+      "chove",
+      "chova"
+     ],
+     "a": "chove – se calhar + Indikativ, nur gesprochen; im Aufsatz: talvez chova"
+    },
+    {
+     "q": "Warten Sie ein bisschen, Herr Abílio.",
+     "satz": "Espere um bocadinho, senhor Abílio.",
+     "a": "Espere um bocadinho, senhor Abílio."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "G · Lesen: Mensagem do Martim (6 P.)",
+   "audio": "r70",
+   "text": "Olá, Marie! Então, sobreviveste à apresentação? O João disse-me que levaste um pão e que a Noor perguntou se era do supermercado. Fico contente que tenhas respondido com o conjuntivo e não com o pão.<br>Tenho uma proposta para domingo. Segundo o jornal de hoje, a chuva foi adiada para segunda-feira, ou seja, amanhã à tarde há sol. Por um lado, sei que trabalhaste o sábado inteiro na padaria e é normal que estejas cansada. Por outro lado, há um sítio que ainda não conheces: um miradouro pequenino atrás da Graça, de onde se vê o rio todo. Fica a dez minutos da casa cujo elevador não existe, por isso não tens desculpa.<br>Levo o jornal e tu levas um pãozinho, se sobrar algum da padaria. Lemos as manchetes devagarinho, uma por uma, e tu voltas a pôr os verbos que o jornal tirou. No entanto, aviso já: a primeira página de hoje é sobre política, e as frases foram escritas por alguém que não gosta de verbos.<br>É pena que a Noor não possa vir, tem um trabalho para entregar. Mas duvido que ela aguente uma tarde inteira sem falar.<br>Em suma: às três, à porta do prédio. Se eu me atrasar, toca à campainha da Dona Lurdes. Ela sabe sempre onde eu estou.<br>Até amanhã, Martim",
+   "gloss": "Erst lesen, dann anhören. Samstagabend, 19. Oktober. Neu erschließen: sobreviver = überleben · a proposta = der Vorschlag · pequenino = ganz klein (Diminutiv von pequeno) · a desculpa = die Ausrede · sobrar = übrig bleiben · entregar = abgeben · aguentar = aushalten · atrasar-se = sich verspäten. Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "O Martim propõe um passeio para domingo à tarde.",
+     "a": "Richtig – um drei, an der Haustür, zu einem kleinen Miradouro hinter Graça."
+    },
+    {
+     "q": "Segundo o jornal, amanhã à tarde chove.",
+     "a": "Falsch – „a chuva foi adiada para segunda-feira“, am Sonntagnachmittag scheint die Sonne."
+    },
+    {
+     "q": "O miradouro fica longe da casa da Marie.",
+     "a": "Falsch – zehn Minuten von „a casa cujo elevador não existe“. Deshalb hat Marie keine Ausrede."
+    },
+    {
+     "q": "O Martim quer que a Marie ponha os verbos nas manchetes.",
+     "a": "Richtig – „tu voltas a pôr os verbos que o jornal tirou“, langsam, eine nach der anderen."
+    },
+    {
+     "q": "A Noor também vai ao miradouro.",
+     "a": "Falsch – „É pena que a Noor não possa vir“, sie muss eine Arbeit abgeben."
+    },
+    {
+     "q": "Se o Martim se atrasar, a Marie deve tocar à campainha da Dona Lurdes.",
+     "a": "Richtig – „Ela sabe sempre onde eu estou.“ Natürlich weiß sie das."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "H · Schreiben: A minha opinião (4 P.)",
+   "html": "Schreib fünf Sätze über deine eigene Woche oder deine eigene Stadt – ohne Spickzettel, jeder Satz mit einer anderen Struktur aus Woche 10. 1 Punkt pro korrektem Satz, höchstens 4: Einen Fehler hast du frei.<br><br>1. Ein Gefühl oder eine Wertung mit conjuntivo (<i>É pena que… / Fico contente que… / É normal que…</i>) · 2. Ein Relativsatz mit <i>cujo / cuja</i> (<i>A vizinha cujo cão… / O prédio cujas janelas…</i>) · 3. Ein Passiv mit <i>ser</i> + Partizip (<i>… foi aprovado / foram adiadas…</i>) · 4. Ein Konnektoren-Paar (<i>Por um lado… Por outro lado…</i>) · 5. Ein Diminutiv am Tresen (<i>um cafezinho, um bocadinho, quentinho</i>)<br><br>Muster: <i>É pena que não haja sol. Moro num prédio cujo elevador está sempre avariado. As obras na minha rua foram adiadas outra vez. Por um lado, a cidade é agitada; por outro lado, tem tudo. Agora vou tomar um cafezinho.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (50 Punkte)",
+   "html": "<b>43–50:</b> Fantástico! Du hast jetzt eine Haltung auf Portugiesisch – mit Gefühl und conjuntivo, mit <i>cujo</i>, mit Zeitung, Referat und Tresen. Das ist nicht mehr nur Grammatik, das ist Stil.<br><b>33–42:</b> Muito bem! Schau, wo die Punkte fehlen: Teil B → Tag 64 (Gefühl und Wertung → conjuntivo, <i>acho que</i> → Indikativ) · Teil C → Tag 65 (<i>cujo</i> richtet sich nach dem Wort danach, nie mit Artikel; <i>quem</i> nur nach Präposition) · Teil D → Tag 66 (Partizip wie ein Adjektiv: <i>foram adiadas</i>; <i>feito, dito, aberto, posto, escrito</i>) · Teil E → Tag 67 (ein Konnektor pro Satz, <i>por um lado</i> nie ohne <i>por outro lado</i>) · Teil F → Tag 69 (<i>-inho</i> nach unbetontem Vokal, <i>-zinho</i> nach Betonung oder Nasal; <i>se calhar</i> + Indikativ) · Nachfragen und Zweifel (<i>duvido que seja, tenho a certeza de que é</i>) → Tag 68. Sag zu dem schwächsten Teil zehn eigene Sätze laut.<br><b>unter 33:</b> Woche 10 hatte drei große Bausteine. Wiederhole zuerst Tag 64 (der conjuntivo nach Gefühl – darauf baut Tag 68 auf), dann Tag 65 (Relativsätze) und Tag 66 (Passiv) nebeneinander, weil beide in der Zeitung stehen; Tag 67 und 69 danach, sie sind Wortschatz, kein System. Danach den Test noch einmal. <i>O pão não foge.</i><br><br>Nächste Woche: <b>Inverno</b> – die Tage werden kurz, Tomás kommt in den Ferien, und Marie lernt zu sagen, was wäre, wenn: <i>se eu tivesse…</i>"
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: A nota",
+   "audio": "s70",
+   "text": "Domingo, vinte de outubro, sete e meia da tarde. A Marie tinha passado a manhã com o teste e a tarde no miradouro com o Martim, a pôr verbos nas manchetes. Estava no sofá mau, com os pés em cima da mochila, quando o telemóvel vibrou. Um mail. Remetente: Professora Teresa. Assunto: «Apresentação – nota».<br>Não abriu logo. O João, do quarto, perguntou se o mundo tinha acabado.<br>— Chegou a nota.<br>— E?<br>— Ainda não abri.<br>— Então abre, que eu tenho de dormir.<br>Abriu. Três linhas. «Marie: 16 valores. Estrutura clara, bom argumento, pão excelente. Nasais: continuamos na segunda. T.»<br>Dezasseis. Em Portugal as notas vão de zero a vinte, a partir de dez está-se aprovado, um dezasseis é bom, um dezoito é raro e um vinte não existe. Isto a Marie sabia. Olhou para o número e não soube o que sentir.<br>— Dezasseis — disse ao João.<br>— De vinte?<br>— De vinte.<br>— Isso é bom. A tua professora não dá nada abaixo de quinze, mas também nunca dá mais de dezassete. Dezasseis é um «muito bem» escrito com algarismos.<br>Dez minutos depois chegou uma mensagem da Noor: «15. Por causa do mais grande. E do bonito. Tu?» A Marie respondeu «16» e recebeu de volta três pontos de exclamação e uma palavra em holandês que não percebeu.<br>Depois escreveu ao Vasco. Queria uma frase simples: sem conjuntivo, sem manchete. «Tive 16 na apresentação do pão.»<br>A resposta demorou quarenta minutos. Em Sagres, ao domingo, o telemóvel fica na carrinha.<br>«16? Em Sagres isso é um dez.»<br>A Marie riu-se sozinha no sofá. Em Sagres, o Vasco dava as notas de zero a dez, como as ondas: um dez era um dia perfeito, e só tinha acontecido duas vezes no verão.<br>«Em Lisboa é um dezasseis», escreveu ela.<br>«Em Lisboa és uma aluna. Em Sagres eras uma pessoa que caía vinte vezes e voltava para a água. Dezasseis é pouco. Para a semana quero um dezassete.»<br>«A professora não dá dezassete.»<br>«Então dá-o tu.»<br>A Marie foi buscar o caderno, abriu-o na lista de domingo e escreveu à direita: «16 valores.» Sete a cinco. Depois fechou o caderno sem olhar para a coluna da esquerda. Pela primeira vez, não precisou de contar.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: vibrar = vibrieren · o remetente = der Absender · o assunto = der Betreff · acabar = zu Ende gehen · os valores = die Punkte (Notensystem 0–20: 10 = bestanden, 14–15 = gut, 16–17 = sehr gut, 18+ = selten) · aprovado = bestanden · o algarismo = die Ziffer · o ponto de exclamação = das Ausrufezeichen · holandês = Niederländisch · demorar = dauern · a coluna = die Spalte",
+   "questions": [
+    {
+     "q": "A Marie teve 16 valores na apresentação.",
+     "a": "Richtig – drei Zeilen von Professora Teresa: klare Struktur, gutes Argument, ausgezeichnetes Brot. Die Nasale gehen am Montag weiter."
+    },
+    {
+     "q": "O Vasco acha que 16 é uma nota muito alta.",
+     "a": "Falsch – „Em Sagres isso é um dez“ klingt wie ein Lob, aber dann: „Dezasseis é pouco. Para a semana quero um dezassete.“"
+    },
+    {
+     "q": "No fim, a Marie conta outra vez a coluna da esquerda da lista de domingo.",
+     "a": "Falsch – sie schreibt „16 valores“ rechts, sieben zu fünf, und schließt das Heft, ohne links nachzusehen. Zum ersten Mal muss sie nicht zählen."
+    }
+   ]
+  }
+ ]
+}

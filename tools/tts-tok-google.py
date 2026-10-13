@@ -31,6 +31,7 @@ def tok_woerter():
                 tok.add(core.lower())
     for f in sorted(glob.glob(os.path.join(BASE, 'lektionen', '*.json'))):
         L = json.load(open(f))
+        if not isinstance(L, dict) or 'sections' not in L: continue   # index.json, leseworte.json
         for sec in L['sections']:
             if sec['type'] == 'story':
                 toks(sec['text'])

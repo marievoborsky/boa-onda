@@ -1083,9 +1083,9 @@ function scrollZurAktuellenLektion() {
 /* ---------- Lektionen ---------- */
 const WOCHEN = ['Woche 1 · Ich und du', 'Woche 2 · Meine Welt', 'Woche 3 · Mein Alltag', 'Woche 4 · Unterwegs',
   'Staffel 2 · Woche 5 · Porto, outra vez', 'Woche 6 · Coimbra', 'Woche 7 · A estrada', 'Woche 8 · Sagres, com responsabilidade',
-  'Staffel 3 · Woche 9 · Lisboa, outubro'];
+  'Staffel 3 · Woche 9 · Lisboa, outubro', 'Woche 10 · O curso'];
 // Etappen-Vignetten je Woche (Staffel 2: Porto/Milfontes/Sagres wiederverwendet, Coimbra eigene Vignette)
-const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'coimbra', 'alentejo', 'sagres', 'lisboa'];
+const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'coimbra', 'alentejo', 'sagres', 'lisboa', 'lisboa'];
 const LESSONS = [
   { id: 'tag01', label: 'Tag 1 · Olá!', sub: 'Begrüßen & sich vorstellen', w: 0 },
   { id: 'tag02', label: 'Tag 2 · De onde és?', sub: 'Herkunft & Nationalitäten', w: 0 },
@@ -1151,6 +1151,13 @@ const LESSONS = [
   { id: 'tag61', label: 'Tag 61 · Há greve', sub: 'se houver, quando chegares', w: 8 },
   { id: 'tag62', label: 'Tag 62 · Saudades de Sagres', sub: 'embora, para que · Hörverstehen', w: 8 },
   { id: 'tag63', label: 'Tag 63 · Revisão VII', sub: 'Wochentest · 50 Punkte', w: 8 },
+  { id: 'tag64', label: 'Tag 64 · Na minha opinião', sub: 'tenho pena que · Konjunktiv nach Gefühl', w: 9 },
+  { id: 'tag65', label: 'Tag 65 · A casa cujo elevador não existe', sub: 'Relativsätze · cujo, onde, o qual', w: 9 },
+  { id: 'tag66', label: 'Tag 66 · O jornal do Martim', sub: 'Passiv · Zeitungssprache', w: 9 },
+  { id: 'tag67', label: 'Tag 67 · Preparar a apresentação', sub: 'Konnektoren · por um lado, por outro', w: 9 },
+  { id: 'tag68', label: 'Tag 68 · A apresentação', sub: 'duvido que · Hörverstehen', w: 9 },
+  { id: 'tag69', label: 'Tag 69 · Conversas de balcão', sub: 'Diminutive · pois, pronto, então', w: 9 },
+  { id: 'tag70', label: 'Tag 70 · Revisão VIII', sub: 'Wochentest · 50 Punkte', w: 9 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -1669,6 +1676,13 @@ const TEXTOS = [
   { tag: 'tag61', num: 61, title: 'Sete colinas', nivel: 5, story: true },
   { tag: 'tag62', num: 62, title: 'Chuva em Lisboa', nivel: 5, story: true },
   { tag: 'tag63', num: 63, title: 'O primeiro ordenado', nivel: 5, story: true },
+  { tag: 'tag64', num: 64, title: 'Duas opiniões', nivel: 5, story: true },
+  { tag: 'tag65', num: 65, title: 'A senhora do terceiro', nivel: 5, story: true },
+  { tag: 'tag66', num: 66, title: 'Primeira página', nivel: 5, story: true },
+  { tag: 'tag67', num: 67, title: 'Cinco minutos', nivel: 5, story: true },
+  { tag: 'tag68', num: 68, title: 'O pão da Marie', nivel: 5, story: true },
+  { tag: 'tag69', num: 69, title: 'O cliente das sete', nivel: 5, story: true },
+  { tag: 'tag70', num: 70, title: 'A nota', nivel: 5, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');

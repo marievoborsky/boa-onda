@@ -1,0 +1,416 @@
+{
+ "id": "tag65",
+ "title": "A casa cujo elevador não existe",
+ "subtitle": "Staffel 3 · Woche 10 · Tag 65 · Wohnen in Graça und die Nachbarn · Relativsätze · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 64)",
+   "items": [
+    {
+     "q": "Es tut mir leid, dass du müde bist: Tenho pena que ___ cansada. (estar)",
+     "a": "estejas"
+    },
+    {
+     "q": "Ich freue mich, dass ihr hier seid: Fico contente que ___ aqui. (estar, vocês)",
+     "a": "estejam"
+    },
+    {
+     "q": "É estranho que a Noor ___ razão.",
+     "opts": [
+      "tem",
+      "tenha"
+     ],
+     "a": "tenha – Wertung (é estranho que) → conjuntivo"
+    },
+    {
+     "q": "Da hast du allerdings recht: Lá isso é ___.",
+     "a": "verdade"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: O prédio e os vizinhos (16)",
+   "items": [
+    {
+     "pt": "o prédio",
+     "de": "das (Wohn-)Haus, der Wohnblock",
+     "ipa": "[ˈpɾɛdju]",
+     "audio": "v6501"
+    },
+    {
+     "pt": "o marido",
+     "de": "der Ehemann",
+     "ipa": "[mɐˈɾidu]",
+     "audio": "v6502"
+    },
+    {
+     "pt": "o inquilino / a inquilina",
+     "de": "der Mieter / die Mieterin",
+     "ipa": "[ĩkiˈlinu / ĩkiˈlinɐ]",
+     "audio": "v6503"
+    },
+    {
+     "pt": "a entrada",
+     "de": "der Eingang, der Hausflur",
+     "ipa": "[ẽˈtɾadɐ]",
+     "audio": "v6504"
+    },
+    {
+     "pt": "o patamar",
+     "de": "der Treppenabsatz",
+     "ipa": "[pɐtɐˈmaɾ]",
+     "audio": "v6505"
+    },
+    {
+     "pt": "a campainha",
+     "de": "die Klingel",
+     "ipa": "[kɐ̃pɐˈiɲɐ]",
+     "audio": "v6506"
+    },
+    {
+     "pt": "a caixa do correio",
+     "de": "der Briefkasten",
+     "ipa": "[ˈkajʃɐ du kuˈʁɐju]",
+     "audio": "v6507"
+    },
+    {
+     "pt": "a varanda",
+     "de": "der Balkon",
+     "ipa": "[vɐˈɾɐ̃dɐ]",
+     "audio": "v6508"
+    },
+    {
+     "pt": "o sótão",
+     "de": "der Dachboden",
+     "ipa": "[ˈsɔtɐ̃w̃]",
+     "audio": "v6509"
+    },
+    {
+     "pt": "a cave",
+     "de": "der Keller",
+     "ipa": "[ˈkavɨ]",
+     "audio": "v6510"
+    },
+    {
+     "pt": "o azulejo",
+     "de": "die (bemalte) Wandkachel, die Azulejo-Fliese",
+     "ipa": "[ɐzuˈlɐʒu]",
+     "audio": "v6511"
+    },
+    {
+     "pt": "a bata",
+     "de": "die Kittelschürze; der Kittel",
+     "ipa": "[ˈbatɐ]",
+     "audio": "v6512"
+    },
+    {
+     "pt": "o casal",
+     "de": "das Paar, das Ehepaar",
+     "ipa": "[kɐˈzaɫ]",
+     "audio": "v6513"
+    },
+    {
+     "pt": "a viúva / o viúvo",
+     "de": "die Witwe / der Witwer",
+     "ipa": "[viˈuvɐ / viˈuvu]",
+     "audio": "v6514"
+    },
+    {
+     "pt": "reformado / reformada",
+     "de": "im Ruhestand; der Rentner / die Rentnerin",
+     "ipa": "[ʁɨfuɾˈmadu / ʁɨfuɾˈmadɐ]",
+     "audio": "v6515"
+    },
+    {
+     "pt": "sozinho / sozinha",
+     "de": "allein",
+     "ipa": "[sɔˈziɲu / sɔˈziɲɐ]",
+     "audio": "v6516"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Teresa: Que, quem, onde, cujo",
+   "html": "<i>(Professora Teresa, Dienstag, mit Kreide an den Fingern:)</i> Heute verbinden wir Sätze. Im Deutschen haben Sie dafür „der, die, das, dessen, deren, in dem“ – im Portugiesischen brauchen Sie fünf Wörter. Vier sind leicht. Das fünfte, <i>cujo</i>, machen viele Portugiesen selbst falsch; Sie werden es richtig machen.<br><br><b>1 · que</b> – das Allzweckwort. Für Personen und Sachen, als Subjekt oder Objekt, ohne Präposition:<br><i>A vizinha <b>que</b> mora no terceiro ouve tudo.</i> – Die Nachbarin, die im dritten Stock wohnt, hört alles.<br><i>O pão <b>que</b> faço de manhã vende-se às seis.</i> – Das Brot, das ich morgens mache, …<br>Nach kurzen Präpositionen bei Sachen: <i>em que, de que, com que</i> – <i>A casa <b>em que</b> moro não tem elevador.</i> Das Relativpronomen wird nie weggelassen.<br><br><b>2 · quem</b> – nur Personen, und nur nach Präposition: <i>com quem, de quem, a quem, para quem</i>.<br><i>O senhor <b>com quem</b> falei conduziu o elétrico 28.</i> – Der Herr, mit dem ich gesprochen habe, …<br><i>A rapariga <b>de quem</b> te falei é a Noor.</i> – Das Mädchen, von dem ich dir erzählt habe, …<br>Ohne Präposition steht <i>que</i>, nie <i>quem</i>: <i>a rapariga <b>que</b> conheci</i> (nicht: <i>quem conheci</i>). Nur allein, als „wer / derjenige, der“, geht <i>quem</i> ohne Präposition: <i><b>Quem</b> cozinha não lava a loiça.</i><br><br><b>3 · onde</b> – für Orte, gleichbedeutend mit <i>em que</i>:<br><i>O bairro <b>onde</b> moro fica numa colina.</i> – Der Stadtteil, in dem ich wohne, …<br>Mit Richtung: <i>a cidade <b>de onde</b> vim</i>, <i>o sítio <b>para onde</b> vou</i>.<br><br><b>4 · cujo / cuja / cujos / cujas</b> – „dessen / deren“. Es steht <b>zwischen</b> Besitzer und Besitz, richtet sich in Genus und Numerus nach dem <b>Besitz</b> – also nach dem Wort <b>danach</b> – und verträgt <b>keinen Artikel</b>:<br><i>a casa <b>cujo</b> elevador não existe</i> – <i>elevador</i> ist maskulin, also <i>cujo</i>, obwohl <i>casa</i> feminin ist<br><i>o senhorio <b>cuja</b> mãe nasceu aqui</i> – der Vermieter, dessen Mutter …<br><i>a vizinha <b>cujos</b> filhos vivem em França</i> – die Nachbarin, deren Kinder …<br><i>o prédio <b>cujas</b> janelas dão para o Tejo</i> – das Haus, dessen Fenster …<br>Falsch: <i>cujo o elevador</i> (Artikel!), <i>a casa que o elevador</i>. Im Gespräch weichen viele aus: <i>a casa que não tem elevador</i>. Im Kurs, in Texten und in der Prüfung: <i>cujo</i>.<br><br><b>5 · o qual / a qual / os quais / as quais</b> – formell, nach Präpositionen, vor allem nach langen (<i>sobre, segundo, durante, através de</i>) und nach <i>pelo / pela</i>:<br><i>a razão <b>pela qual</b> fico</i> – der Grund, aus dem ich bleibe<br><i>o prédio <b>no qual</b> moro</i> = <i>o prédio em que moro</i> = <i>o prédio onde moro</i><br>Sie lesen es morgen in der Zeitung. Sprechen tut es kaum jemand.<br><br><b>Komma.</b> Ein notwendiger Relativsatz grenzt ein und steht ohne Komma: <i>Os vizinhos <b>que fazem barulho</b> moram no primeiro.</i> (Nur die, die Lärm machen.) Ein nicht notwendiger Relativsatz gibt nur eine Zusatzinformation und steht zwischen Kommas: <i>Os vizinhos<b>, que fazem barulho,</b> moram no primeiro.</i> (Alle Nachbarn, und sie machen Lärm.) Im Deutschen steht immer ein Komma; im Portugiesischen entscheidet das Komma über den Sinn.<br><br><b>Typische Fehler Deutschsprachiger:</b> „die Frau, deren Sohn …“ → nicht <i>que o filho</i>, sondern <i><b>cujo</b> filho</i>. „in dem“ → <i>onde</i> oder <i>em que</i>, nie <i>que</i> allein. „mit dem“ bei Personen → <i>com <b>quem</b></i>, nicht <i>com que</i>. Und <i>quem</i> ohne Präposition höre ich jede Woche: <i>a professora quem corrige</i>. Nein. <i>A professora <b>que</b> corrige.</i> Sou eu."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> In der república sagt niemand <i>cujo</i>, außer dem Tiago, wenn er Fado singt – da kommt es in jeder zweiten Strophe vor, und wir wohnen zu sieben in einem Haus <i>cuja</i> Küche einen Herd mit einer funktionierenden Platte hat. Mein Trick für dich: <b>cujo ist ein Klebewort.</b> Es klebt den Besitzer an das Besessene und frisst dabei den Artikel: <i>a vizinha + o cão → a vizinha <b>cujo</b> cão</i>. Du schaust nur nach rechts, nie nach links. Und wenn du im Treppenhaus stehst und <i>cujo</i> fällt dir nicht ein: <i>que tem…</i> ist nie falsch, nur weniger elegant. Aussprache: <i>cujo</i> = „kúschu“, <i>prédio</i> = „prédju“, <i>azulejo</i> = „aßulähschu“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Quem mora onde",
+   "hint": "Selbst erschlossen: cruzar-se com = jemandem zufällig begegnen · na mesma = trotzdem · o bebé = das Baby · chorar = weinen · tocar acordeão = Akkordeon spielen · ser mais dona disto = hier mehr das Sagen haben · fala baixo = sprich leise. Dienstag, 15. Oktober, Viertel nach elf abends; Marie und João auf dem schlechten Sofa.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Sabes quem é que conheci hoje nas escadas? A Dona Lurdes. A senhora do terceiro, de bata às flores, que ouve tudo.",
+     "audio": "d6501"
+    },
+    {
+     "who": "João",
+     "pt": "A sério? Falou contigo? Comigo só fala quando faço barulho.",
+     "audio": "d6502"
+    },
+    {
+     "who": "Marie",
+     "pt": "Falou meia hora, no patamar. Explicou-me o prédio inteiro: quem mora onde, desde quando, e porque é que o elevador nunca existiu.",
+     "audio": "d6503"
+    },
+    {
+     "who": "João",
+     "pt": "Então já sabes mais do que eu. Eu só conheço os vizinhos com quem me cruzo nas escadas.",
+     "audio": "d6504"
+    },
+    {
+     "who": "Marie",
+     "pt": "Conta na mesma. Quem é a senhora do rés-do-chão, cujo gato dorme na entrada?",
+     "audio": "d6505"
+    },
+    {
+     "who": "João",
+     "pt": "É a dona Fernanda. É viúva, reformada, e vive sozinha com o gato, que se chama Bolacha e é o único vizinho de quem a Dona Lurdes gosta.",
+     "audio": "d6506"
+    },
+    {
+     "who": "Marie",
+     "pt": "E o primeiro andar? Hoje ouvi um bebé a chorar.",
+     "audio": "d6507"
+    },
+    {
+     "who": "João",
+     "pt": "É um casal jovem que se mudou para cá em julho. O bebé chora à noite, mas a Dona Lurdes queixa-se de mim, não deles.",
+     "audio": "d6508"
+    },
+    {
+     "who": "Marie",
+     "pt": "E no segundo mora o senhor que toca acordeão ao domingo?",
+     "audio": "d6509"
+    },
+    {
+     "who": "João",
+     "pt": "O senhor Alfredo, que conduziu o elétrico 28 durante trinta anos. É a pessoa com quem mais gosto de falar neste prédio. Sabe histórias de toda a gente.",
+     "audio": "d6510"
+    },
+    {
+     "who": "Marie",
+     "pt": "E o sótão? A Dona Lurdes disse que o sótão, onde ninguém mora, tem uma chave que só ela tem.",
+     "audio": "d6511"
+    },
+    {
+     "who": "João",
+     "pt": "Pois. O senhorio, cuja mãe nasceu nesta casa, vive no Algarve e deu-lhe a chave há vinte anos. Ela é mais dona disto do que ele.",
+     "audio": "d6512"
+    },
+    {
+     "who": "Marie",
+     "pt": "Então moramos numa casa cujo elevador não existe, cujo senhorio não aparece e cuja vizinha sabe tudo.",
+     "audio": "d6513"
+    },
+    {
+     "who": "João",
+     "pt": "Bem-vinda a Graça. Agora fala baixo, que são onze e um quarto e a Dona Lurdes está a ouvir.",
+     "audio": "d6514"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Que, quem, onde ou cujo?",
+   "items": [
+    {
+     "q": "A senhora ___ mora no terceiro ouve tudo.",
+     "a": "que"
+    },
+    {
+     "q": "O senhor Alfredo é a pessoa com ___ mais gosto de falar.",
+     "a": "quem"
+    },
+    {
+     "q": "A Graça é o bairro ___ a Marie mora.",
+     "a": "onde"
+    },
+    {
+     "q": "A casa ___ elevador nunca existiu é cor-de-rosa.",
+     "a": "cujo"
+    },
+    {
+     "q": "O senhorio, ___ mãe nasceu nesta casa, vive no Algarve.",
+     "a": "cuja"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · A forma certa (antippen)",
+   "items": [
+    {
+     "q": "A casa ___ telhado é vermelho fica na esquina.",
+     "opts": [
+      "cujo",
+      "cuja",
+      "que"
+     ],
+     "a": "cujo – richtet sich nach telhado (maskulin), nicht nach casa"
+    },
+    {
+     "q": "O prédio ___ janelas dão para o Tejo tem cem anos.",
+     "opts": [
+      "cujas",
+      "cujos",
+      "cujo"
+     ],
+     "a": "cujas – janelas: feminin Plural, das Wort danach entscheidet"
+    },
+    {
+     "q": "A rapariga de ___ te falei é de Roterdão.",
+     "opts": [
+      "quem",
+      "que",
+      "cuja"
+     ],
+     "a": "quem – Person nach Präposition: de quem"
+    },
+    {
+     "q": "O bairro ___ moro fica numa colina.",
+     "opts": [
+      "onde",
+      "que",
+      "cujo"
+     ],
+     "a": "onde – Ort; auch möglich: em que"
+    },
+    {
+     "q": "A razão pela ___ fico em Lisboa é simples.",
+     "opts": [
+      "qual",
+      "que",
+      "quem"
+     ],
+     "a": "qual – nach pela steht a qual (formell); pela que geht nicht"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Das ist die Nachbarin, die alles hört.",
+     "satz": "É a vizinha que ouve tudo.",
+     "a": "É a vizinha que ouve tudo."
+    },
+    {
+     "q": "Das Haus, dessen Aufzug nicht existiert, ist rosa.",
+     "satz": "A casa cujo elevador não existe é cor-de-rosa.",
+     "a": "A casa cujo elevador não existe é cor-de-rosa."
+    },
+    {
+     "q": "Der Herr, mit dem ich spreche, ist Rentner.",
+     "satz": "O senhor com quem falo é reformado.",
+     "a": "O senhor com quem falo é reformado."
+    },
+    {
+     "q": "Der Stadtteil, in dem ich wohne, hat viele Treppen.",
+     "satz": "O bairro onde moro tem muitas escadas.",
+     "a": "O bairro onde moro tem muitas escadas."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Dona Lurdes fala muitas vezes com o João.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – „Comigo só fala quando faço barulho.“"
+    },
+    {
+     "q": "O gato da dona Fernanda dorme na entrada do prédio.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – er heißt Bolacha und ist der einzige Nachbar, den Dona Lurdes mag."
+    },
+    {
+     "q": "O senhor Alfredo conduziu o autocarro 28 durante trinta anos.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – o elétrico 28, die Tram, dreißig Jahre lang."
+    },
+    {
+     "q": "O senhorio vive no Algarve e a Dona Lurdes tem a chave do sótão.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – seit zwanzig Jahren. „Ela é mais dona disto do que ele.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "der Briefkasten und die Klingel → ___",
+     "a": "a caixa do correio e a campainha"
+    },
+    {
+     "q": "Die Frau, deren Sohn in Hamburg wohnt, ist Witwe. → ___",
+     "a": "A senhora cujo filho mora em Hamburgo é viúva. / A mulher cujo filho vive em Hamburgo é viúva."
+    },
+    {
+     "q": "Das ist der Nachbar, von dem ich dir erzählt habe. → ___",
+     "a": "É o vizinho de quem te falei. / Este é o vizinho de quem te falei."
+    },
+    {
+     "q": "Ich wohne allein in einem Haus, das keinen Aufzug hat. → ___",
+     "a": "Moro sozinha numa casa que não tem elevador. / Moro sozinho numa casa que não tem elevador. / Moro sozinha num prédio que não tem elevador. / Moro sozinho num prédio que não tem elevador. / Vivo sozinha numa casa que não tem elevador."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O prédio onde moro",
+   "html": "Dona Lurdes hat Marie das ganze Haus erklärt. Jetzt du: Beschreib laut dein eigenes Haus und deine Nachbarn in sechs Sätzen, und in jedem Satz steckt ein Relativsatz. Nimm dich auf und zähl nach: ein <i>que</i>, ein <i>quem</i> mit Präposition, ein <i>onde</i>, zwei <i>cujo/cuja</i> und, wenn du magst, ein <i>o qual</i> im Zeitungston.<br><br>Anfänge: <i>Moro num prédio que… · O bairro onde moro… · A vizinha com quem mais falo… · O vizinho de cima, cujo cão… · A casa cujas janelas… · A razão pela qual gosto (ou não gosto) de morar aqui é…</i><br><br>Zum Schluss Maries Satz, in einem Atemzug: <i>Moramos numa casa cujo elevador não existe, cujo senhorio não aparece e cuja vizinha sabe tudo.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A senhora do terceiro",
+   "audio": "s65",
+   "text": "Terça-feira, quinze de outubro, quatro da tarde. A Marie subia as escadas com a mochila do curso às costas e, debaixo do braço, um pão que sobrou da padaria. No patamar do terceiro, a porta estava aberta. A Dona Lurdes estava à espera, de bata às flores e braços cruzados, como quem espera há quinze dias.<br>— A menina é a alemã que faz pão.<br>— Sou. Como é que a senhora sabe?<br>— Ouço tudo. Sente-se aqui um bocadinho, que lhe explico a casa.<br>Havia uma cadeira no patamar. Havia sempre.<br>— Este prédio tem cento e doze anos. É a casa cujo elevador nunca existiu, porque o senhorio, cuja mãe nasceu no quarto andar onde a menina mora agora, vive no Algarve e só aparece para receber a renda. No rés-do-chão mora a dona Fernanda, que é viúva e deixa o gato dormir na entrada. O gato chama-se Bolacha. É o único vizinho de quem gosto.<br>— E o primeiro?<br>— Um casal novo que chegou em julho, com um bebé que chora das duas às quatro. Não me queixo. Um bebé chora porque precisa. O seu João faz barulho porque quer.<br>— Ele não é o meu João.<br>— Pois. No segundo mora o senhor Alfredo, com quem a menina devia falar: conduziu o elétrico 28 durante trinta anos e sabe o nome de toda a gente desta rua, vivos e mortos. Ao domingo toca acordeão. Eu vivo aqui desde 1968. Vim de Trás-os-Montes com o meu marido, que morreu há doze anos. E o sótão, onde ninguém mora, tem uma chave que só eu tenho.<br>A Marie olhou para a cadeira, que não era para visitas.<br>— A senhora ouve mesmo tudo?<br>— Tudo. Sei que a menina sai às três e cinquenta numa carrinha que precisa de óleo. Sei que o pão de sexta-feira ficou menos torto, porque o João disse à mãe ao telefone. E sei que dorme no sofá, de lado, por causa de uma mola.<br>A Marie ficou calada um momento.<br>— E o que é que ouve de bom?<br>A Dona Lurdes pensou.<br>— Ao domingo, a menina canta na casa de banho. Canta mal, mas canta. — Levantou-se e pegou na cadeira. — Agora vá, que o pão arrefece. E diga ao João que às onze é às onze.",
+   "gloss": "Neu erschließen: sobrar = übrig bleiben · debaixo do braço = unter dem Arm · de braços cruzados = mit verschränkten Armen · a menina = Anrede für eine junge Frau (höflich, nicht herablassend) · vivos e mortos = Lebende und Tote · o óleo = das Öl · ficar calada = still bleiben · pegar em = nehmen, greifen · arrefecer = kalt werden · às onze é às onze = elf heißt elf",
+   "questions": [
+    {
+     "q": "A Dona Lurdes vive no prédio desde 1968.",
+     "a": "Richtig – sie kam aus Trás-os-Montes, mit ihrem Mann, der vor zwölf Jahren gestorben ist."
+    },
+    {
+     "q": "A Dona Lurdes queixa-se do bebé do primeiro andar.",
+     "a": "Falsch – „Um bebé chora porque precisa. O seu João faz barulho porque quer.“"
+    },
+    {
+     "q": "A Dona Lurdes sabe que a Marie dorme no sofá.",
+     "a": "Richtig – sogar, dass es an einer Feder liegt. Und dass Marie sonntags im Bad singt, schlecht, aber immerhin."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt Sätze verknüpfen: <i>que</i> für fast alles, <i>com quem / de quem</i> bei Personen nach Präposition, <i>onde</i> für Orte, <i>cujo / cuja</i> ohne Artikel und nach dem Wort danach gerichtet, <i>pela qual</i> für den Zeitungston. Du weißt, dass im Portugiesischen das Komma vor dem Relativsatz den Sinn ändert. Du kannst ein Haus und seine Bewohner beschreiben – und Marie weiß endlich, wer im rosa Haus wohnt und dass Dona Lurdes wirklich alles hört. Morgen bringt Martim den Público in die Uni-Cafeteria: <b>O jornal do Martim.</b>"
+  }
+ ]
+}

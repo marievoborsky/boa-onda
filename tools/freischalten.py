@@ -10,6 +10,7 @@ Voraussetzung: die Lektions-JSONs liegen in lektionen/ UND die Audios existieren
   python3 tools/freischalten.py 8      # Woche 8 (tag50–56)
   python3 tools/freischalten.py 7 8    # beide
   python3 tools/freischalten.py 9      # Staffel 3, Woche 9 (tag57–63)
+  python3 tools/freischalten.py 10     # Staffel 3, Woche 10 (tag64–70)
 """
 import json, os, re, subprocess, sys
 
@@ -45,6 +46,16 @@ WOCHEN = {
         63: ('Revisão VII', 'Wochentest · 50 Punkte')},
         'textos': {57: 'O quarto andar', 58: 'Falta um papel', 59: 'O pão não espera', 60: 'A professora Teresa',
                    61: 'Sete colinas', 62: 'Chuva em Lisboa', 63: 'O primeiro ordenado'}},
+    10: {'w': 9, 'tage': range(64, 71), 'labels': {
+        64: ('Na minha opinião', 'tenho pena que · Konjunktiv nach Gefühl'),
+        65: ('A casa cujo elevador não existe', 'Relativsätze · cujo, onde, o qual'),
+        66: ('O jornal do Martim', 'Passiv · Zeitungssprache'),
+        67: ('Preparar a apresentação', 'Konnektoren · por um lado, por outro'),
+        68: ('A apresentação', 'duvido que · Hörverstehen'),
+        69: ('Conversas de balcão', 'Diminutive · pois, pronto, então'),
+        70: ('Revisão VIII', 'Wochentest · 50 Punkte')},
+        'textos': {64: 'Duas opiniões', 65: 'A senhora do terceiro', 66: 'Primeira página', 67: 'Cinco minutos',
+                   68: 'O pão da Marie', 69: 'O cliente das sete', 70: 'A nota'}},
 }
 
 def audio_fehlt(tage):
@@ -83,7 +94,7 @@ def main():
     open(sw, 'w', encoding='utf-8').write(w)
     # Vokabel-Index neu bauen – die App liest beim Start nur lektionen/index.json
     subprocess.run([sys.executable, os.path.join(BASE, 'tools', 'vokabel-index.py')], check=True)
-    subprocess.run([sys.executable, os.path.join(BASE, '..', 'arbeitsblaetter', 'generieren.py')], check=True)
+    subprocess.run([sys.executable, os.path.join(BASE, '..', '08_ARBEITSBLAETTER', 'generieren.py')], check=True)
     print('sw.js gebumpt, Vokabel-Index und Arbeitsblätter erzeugt. Jetzt: Smoke-Test, commit, push.')
 
 if __name__ == '__main__':

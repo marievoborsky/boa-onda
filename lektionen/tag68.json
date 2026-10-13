@@ -1,0 +1,416 @@
+{
+ "id": "tag68",
+ "title": "A apresentação",
+ "subtitle": "Staffel 3 · Woche 10 · Tag 68 · Das Referat · duvido que, tenho a certeza de que · Hörverstehen · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 67)",
+   "items": [
+    {
+     "q": "Erstens / zunächst einmal: em ___ lugar",
+     "a": "primeiro"
+    },
+    {
+     "q": "Por um lado é barato, ___ é longe.",
+     "opts": [
+      "por outro lado",
+      "além disso"
+     ],
+     "a": "por outro lado – das Gegenstück zu por um lado"
+    },
+    {
+     "q": "«O pão é de milho, ___, não é de trigo.» (das heißt)",
+     "opts": [
+      "ou seja",
+      "no entanto"
+     ],
+     "a": "ou seja – erklärt oder präzisiert; no entanto wäre ein Gegensatz"
+    },
+    {
+     "q": "zusammenfassend, kurz gesagt: em ___",
+     "a": "suma"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Perguntas da plateia (16)",
+   "items": [
+    {
+     "pt": "a plateia",
+     "de": "das Publikum, die Zuhörer",
+     "ipa": "[plɐˈtɐjɐ]",
+     "audio": "v6801"
+    },
+    {
+     "pt": "o nervosismo",
+     "de": "die Nervosität",
+     "ipa": "[nɨɾvuˈziʒmu]",
+     "audio": "v6802"
+    },
+    {
+     "pt": "respirar fundo",
+     "de": "tief durchatmen",
+     "ipa": "[ʁɨʃpiˈɾaɾ ˈfũdu]",
+     "audio": "v6803"
+    },
+    {
+     "pt": "corar",
+     "de": "rot werden, erröten",
+     "ipa": "[kuˈɾaɾ]",
+     "audio": "v6804"
+    },
+    {
+     "pt": "a voz",
+     "de": "die Stimme",
+     "ipa": "[ˈvɔʃ]",
+     "audio": "v6805"
+    },
+    {
+     "pt": "levantar a mão",
+     "de": "die Hand heben, sich melden",
+     "ipa": "[lɨvɐ̃ˈtaɾ ɐ ˈmɐ̃w̃]",
+     "audio": "v6806"
+    },
+    {
+     "pt": "interromper",
+     "de": "unterbrechen",
+     "ipa": "[ĩtɨʁõˈpeɾ]",
+     "audio": "v6807"
+    },
+    {
+     "pt": "esclarecer",
+     "de": "klären, klarstellen",
+     "ipa": "[ɨʃklɐɾɨˈseɾ]",
+     "audio": "v6808"
+    },
+    {
+     "pt": "querer dizer (com)",
+     "de": "meinen (mit), bedeuten",
+     "ipa": "[kɨˈɾeɾ diˈzeɾ]",
+     "audio": "v6809"
+    },
+    {
+     "pt": "ter a certeza (de que)",
+     "de": "sicher sein (, dass)",
+     "ipa": "[ˈteɾ ɐ sɨɾˈtezɐ]",
+     "audio": "v6810"
+    },
+    {
+     "pt": "claro / clara",
+     "de": "klar, deutlich",
+     "ipa": "[ˈklaɾu / ˈklaɾɐ]",
+     "audio": "v6811"
+    },
+    {
+     "pt": "aplaudir",
+     "de": "applaudieren, klatschen",
+     "ipa": "[ɐplawˈdiɾ]",
+     "audio": "v6812"
+    },
+    {
+     "pt": "os aplausos",
+     "de": "der Applaus",
+     "ipa": "[uz ɐˈplawzuʃ]",
+     "audio": "v6813"
+    },
+    {
+     "pt": "elogiar",
+     "de": "loben",
+     "ipa": "[iluˈʒjaɾ]",
+     "audio": "v6814"
+    },
+    {
+     "pt": "provar",
+     "de": "kosten, probieren; beweisen",
+     "ipa": "[pɾuˈvaɾ]",
+     "audio": "v6815"
+    },
+    {
+     "pt": "caseiro / caseira",
+     "de": "hausgemacht, selbst gemacht",
+     "ipa": "[kɐˈzɐjɾu / kɐˈzɐjɾɐ]",
+     "audio": "v6816"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Teresa: Nachfragen, reagieren, zweifeln",
+   "html": "<i>(Professora Teresa, Freitag, vor der ersten Apresentação:)</i> Ein Referat ist leicht. Man schreibt es zu Hause und liest es vor. Schwer sind die fünf Minuten danach, wenn die Plateia fragt und Sie nichts vorbereitet haben. Dafür gebe ich Ihnen heute zwei Werkzeuge.<br><br><b>1 · Nachfragen – wenn Sie die Frage nicht verstanden haben.</b> Schweigen Sie nicht, fragen Sie zurück. Das ist kein Fehler, das ist ein Gespräch:<br><i><b>Pode repetir, por favor?</b></i> – Können Sie das bitte wiederholen?<br><i><b>Desculpe, não percebi.</b></i> – Entschuldigung, ich habe es nicht verstanden.<br><i><b>O que é que quer dizer com</b> «a sério»?</i> – Was meinen Sie mit „ernst“?<br><i><b>Se bem percebi</b>, a pergunta é sobre a farinha.</i> – Wenn ich richtig verstanden habe, geht es um das Mehl.<br><i><b>Pode esclarecer</b> uma coisa?</i> – Können Sie etwas klarstellen?<br><br><b>2 · Reagieren – wenn Sie die Frage verstanden haben.</b><br><i><b>Tem razão.</b></i> – Sie haben recht. · <i><b>Não concordo totalmente.</b></i> – Ich stimme nicht ganz zu. · <i><b>Boa pergunta.</b></i> – Gute Frage (und Sie haben drei Sekunden gewonnen). · <i><b>Nisso tem razão, mas …</b></i> – Darin haben Sie recht, aber …<br><br><b>3 · Zweifel und Gewissheit – der Konjunktiv entscheidet.</b> Sie kennen das Prinzip von Tag 60: <i>acho que</i> + Indikativ, <i>não acho que</i> + conjuntivo. Heute die ganze Familie.<br><br><b>Zweifel, Unsicherheit → conjuntivo:</b><br><i><b>Duvido que</b> o pão <b>seja</b> do supermercado.</i> – Ich bezweifle, dass das Brot aus dem Supermarkt ist.<br><i><b>Não tenho a certeza de que</b> eles <b>percebam</b>.</i> – Ich bin nicht sicher, dass sie es verstehen.<br><i><b>Não me parece que</b> a Noor <b>tenha</b> razão.</i> – Es scheint mir nicht, dass Noor recht hat.<br><i><b>É possível que</b> a plateia <b>aplauda</b>.</i> – Es ist möglich, dass das Publikum klatscht.<br><i><b>Talvez</b> a professora <b>goste</b> do pão.</i> – Vielleicht mag die Lehrerin das Brot. (<i>talvez</i> vor dem Verb → conjuntivo; <i>se calhar</i> dagegen mit Indikativ: <i>Se calhar gosta.</i>)<br><br><b>Gewissheit → Indikativ:</b><br><i><b>Tenho a certeza de que</b> a broa <b>é</b> de milho.</i> – Ich bin sicher, dass die Broa aus Mais ist.<br><i><b>É certo que</b> em Hamburgo <b>há</b> mais tipos de pão.</i> – Es ist sicher, dass …<br><i><b>Sei que</b> o pão <b>está</b> bom.</i> – Ich weiß, dass das Brot gut ist.<br><i><b>É verdade que</b> fiquei nervosa.</i> – Es stimmt, dass ich nervös wurde.<br><br>Merken Sie sich das Bild: Je sicherer der Sprecher, desto Indikativ. <i>Tenho a certeza de que é</i>, aber <i>não tenho a certeza de que seja</i>. Das <i>não</i> davor dreht den Modus um. Und das <i>de</i> in <i>a certeza <b>de</b> que</i> wird gesprochen; wer es weglässt, spricht wie eine Schlagzeile.<br><br><b>Typischer Fehler:</b> <i>Duvido que é.</i> Nein. Zweifeln heißt nicht wissen, und nicht wissen heißt conjuntivo: <i>Duvido que <b>seja</b>.</i> Umgekehrt höre ich <i>Tenho a certeza de que seja</i>, weil Sie dem conjuntivo inzwischen alles zutrauen. Trauen Sie ihm nicht alles zu."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra, Freitag, 11.40 Uhr:)</i> Hoje é o dia do pão! Tu bäckst das Zeug seit fast drei Wochen um vier Uhr morgens, niemand in dem Raum weiß mehr darüber als du, auch die Professora nicht. Mein Trick für die Fragerunde: Bevor du antwortest, sagst du <b>Se bem percebi, …</b> und wiederholst die Frage mit deinen Worten – das kauft dir fünf Sekunden zum Nachdenken, und wenn du sie falsch verstanden hast, korrigiert dich die Person, bevor du dich blamierst. Und wenn gar nichts geht: <b>Pode repetir, por favor?</b> klingt höflich, nicht hilflos. <i>Respira fundo. Tenho a certeza de que vais arrasar.</i> (arrasar = es rocken, abräumen)"
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: As perguntas da plateia",
+   "hint": "Selbst erschlossen: dentro do tempo = in der Zeit · levar a sério = ernst nehmen · com certeza = selbstverständlich · o barco = das Schiff, das Boot · a boca = der Mund · o milho = der Mais · o trigo / o centeio = der Weizen / der Roggen · a região = die Region. Freitag, 18. Oktober, Hörsaal der Faculdade de Letras, 12.20 Uhr. Marie hat ihr Referat gerade beendet, das Brot liegt auf dem Tisch der Professora. Die Professora siezt mit „a Marie“ und der 3. Person.",
+   "lines": [
+    {
+     "who": "Professora",
+     "pt": "Muito obrigada, Marie. Cinco minutos e dez segundos, está dentro do tempo. E trouxe pão, o que ninguém tinha feito até hoje. Agora as perguntas. Começo eu: a Marie disse que em Hamburgo há mais tipos de pão do que em Portugal. Tem a certeza disso?",
+     "audio": "d6801"
+    },
+    {
+     "who": "Marie",
+     "pt": "Tenho a certeza de que há mais tipos, professora. Mais de trezentos. Mas não tenho a certeza de que sejam melhores.",
+     "audio": "d6802"
+    },
+    {
+     "who": "Professora",
+     "pt": "Boa resposta, e com o conjuntivo no sítio certo. Segunda pergunta: a Marie disse que em Portugal o pão é levado mais a sério. O que é que quer dizer com isso?",
+     "audio": "d6803"
+    },
+    {
+     "who": "Marie",
+     "pt": "Desculpe, pode repetir a pergunta? Fiquei nervosa e não percebi o fim.",
+     "audio": "d6804"
+    },
+    {
+     "who": "Professora",
+     "pt": "Com certeza. O que é que a Marie quer dizer com «levado mais a sério»?",
+     "audio": "d6805"
+    },
+    {
+     "who": "Marie",
+     "pt": "Se bem percebi, a professora quer um exemplo. Quero dizer que aqui o pão está sempre na mesa: ao pequeno-almoço, ao almoço, ao jantar. Na Alemanha compramos pão. Em Portugal esperamos pelo pão. O tio Tó diz que o pão não espera por ninguém, mas as pessoas esperam pelo pão.",
+     "audio": "d6806"
+    },
+    {
+     "who": "Professora",
+     "pt": "Bonito. Mas durante a apresentação a Marie disse «pau» três vezes. Pão. Pelo nariz. Outra vez.",
+     "audio": "d6807"
+    },
+    {
+     "who": "Marie",
+     "pt": "Pão. Pão. Pão alentejano.",
+     "audio": "d6808"
+    },
+    {
+     "who": "Professora",
+     "pt": "Melhor. E agora «não». A Marie diz «nau», como um barco antigo. Não.",
+     "audio": "d6809"
+    },
+    {
+     "who": "Marie",
+     "pt": "Não. Não. Se bem percebi, a professora quer que eu abra menos a boca.",
+     "audio": "d6810"
+    },
+    {
+     "who": "Professora",
+     "pt": "Exatamente: menos boca, mais nariz. A Noor levantou a mão, mas a Noor espera. Última pergunta minha: a broa é feita com que farinha?",
+     "audio": "d6811"
+    },
+    {
+     "who": "Marie",
+     "pt": "Com farinha de milho, professora. E um pouco de trigo ou de centeio, depende da região. Duvido que haja duas broas iguais em Portugal.",
+     "audio": "d6812"
+    },
+    {
+     "who": "Professora",
+     "pt": "Nisso tem razão. Falou claro, respondeu a tudo e não ficou calada. Muito bem, Marie. Sente-se. Noor, agora a sua pergunta.",
+     "audio": "d6813"
+    },
+    {
+     "who": "Marie",
+     "pt": "Obrigada, professora. Tenho a certeza de que a pergunta da Noor é sobre o pão.",
+     "audio": "d6814"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Indicativo ou conjuntivo? Zweifel und Gewissheit",
+   "items": [
+    {
+     "q": "Tenho a certeza de que o pão ___ caseiro. (ser)",
+     "a": "é"
+    },
+    {
+     "q": "Duvido que a Noor ___ a mão. (levantar)",
+     "a": "levante"
+    },
+    {
+     "q": "Não tenho a certeza de que eles ___ a pergunta. (perceber)",
+     "a": "percebam"
+    },
+    {
+     "q": "É certo que a professora ___ todos os nasais. (corrigir)",
+     "a": "corrige"
+    },
+    {
+     "q": "Talvez a plateia ___ no fim. (aplaudir)",
+     "a": "aplauda"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Certeza ou dúvida? (antippen)",
+   "items": [
+    {
+     "q": "Sei que a broa ___ de milho.",
+     "opts": [
+      "é",
+      "seja"
+     ],
+     "a": "é – sei que: Gewissheit → Indikativ"
+    },
+    {
+     "q": "Não me parece que o pão ___ do supermercado.",
+     "opts": [
+      "seja",
+      "é"
+     ],
+     "a": "seja – não me parece que: Zweifel → conjuntivo"
+    },
+    {
+     "q": "É possível que a Marie ___ nervosa.",
+     "opts": [
+      "esteja",
+      "está"
+     ],
+     "a": "esteja – é possível que: nur möglich, nicht sicher → conjuntivo"
+    },
+    {
+     "q": "«Pode repetir, por favor?» heißt:",
+     "opts": [
+      "Können Sie das bitte wiederholen?",
+      "Können Sie das bitte erklären?"
+     ],
+     "a": "Können Sie das bitte wiederholen? – erklären wäre explicar, klarstellen esclarecer"
+    },
+    {
+     "q": "«Se bem percebi, …» sagt man, …",
+     "opts": [
+      "bevor man die Frage mit eigenen Worten wiederholt",
+      "wenn man die Frage gar nicht gehört hat"
+     ],
+     "a": "bevor man die Frage mit eigenen Worten wiederholt – Anas Trick: fünf Sekunden gewonnen; wer nichts gehört hat, sagt Pode repetir?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Ich bezweifle, dass das Brot aus dem Supermarkt ist.",
+     "satz": "Duvido que o pão seja do supermercado.",
+     "a": "Duvido que o pão seja do supermercado."
+    },
+    {
+     "q": "Ich bin sicher, dass die Broa aus Mais ist.",
+     "satz": "Tenho a certeza de que a broa é de milho.",
+     "a": "Tenho a certeza de que a broa é de milho."
+    },
+    {
+     "q": "Was meinen Sie mit «ernst»?",
+     "satz": "O que é que quer dizer com «a sério»?",
+     "a": "O que é que quer dizer com «a sério»?"
+    },
+    {
+     "q": "Können Sie die Frage bitte wiederholen?",
+     "satz": "Pode repetir a pergunta, por favor?",
+     "a": "Pode repetir a pergunta, por favor?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A apresentação da Marie durou mais de cinco minutos.",
+     "a": "Richtig – fünf Minuten und zehn Sekunden, aber „está dentro do tempo“.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ]
+    },
+    {
+     "q": "A Marie tem a certeza de que o pão alemão é melhor.",
+     "a": "Falsch – sie ist sicher, dass es mehr Sorten gibt, „mas não tenho a certeza de que sejam melhores“.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ]
+    },
+    {
+     "q": "A Marie percebeu a segunda pergunta à primeira.",
+     "a": "Falsch – sie war nervös und bittet: „Desculpe, pode repetir a pergunta?“ Genau dafür ist die Wendung da.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ]
+    },
+    {
+     "q": "A professora corrige dois nasais: «pão» e «não».",
+     "a": "Richtig – „pau“ ist ein Stock, „nau“ ein altes Schiff. Menos boca, mais nariz.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Entschuldigung, ich habe nicht verstanden. → ___",
+     "a": "Desculpe, não percebi."
+    },
+    {
+     "q": "Wenn ich richtig verstanden habe, geht es um das Mehl. → ___",
+     "a": "Se bem percebi, é sobre a farinha. / Se bem percebi, a pergunta é sobre a farinha."
+    },
+    {
+     "q": "tief durchatmen und die Hand heben → ___",
+     "a": "respirar fundo e levantar a mão"
+    },
+    {
+     "q": "Ich bin nicht sicher, dass es wahr ist. → ___",
+     "a": "Não tenho a certeza de que seja verdade. / Não tenho a certeza de que isso seja verdade."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A tua apresentação e três perguntas",
+   "html": "Gestern hast du dein Mini-Referat vorbereitet (Tag 67). Heute hältst du es: Stell dich hin, nimm dich auf, drei Minuten, mit den Konnektoren – <i>em primeiro lugar … por um lado … por outro lado … além disso … concluindo …</i>. Nicht ablesen, nur die Stichwörter ansehen.<br><br>Dann kommt die Plateia. Beantworte diese drei Nachfragen laut, jede mit einer der Wendungen von heute:<br><br><b>1.</b> <i>Tem a certeza disso?</i> → Antworte einmal sicher und einmal unsicher: <i>Tenho a certeza de que … (Indikativ). Mas não tenho a certeza de que … (conjuntivo).</i><br><b>2.</b> <i>O que é que quer dizer com «…»?</i> → Beginne mit <i>Se bem percebi, a pergunta é sobre … Quero dizer que …</i><br><b>3.</b> Eine Frage, die du nicht verstanden hast → <i>Desculpe, pode repetir, por favor?</i> – und dann: <i>Boa pergunta. Duvido que … / Não me parece que …</i><br><br>Zum Schluss, wie jeden Tag, aber heute vor Publikum: <i>pão</i> (nicht <i>pau</i>), <i>não</i> (nicht <i>nau</i>), <i>mão</i>, <i>alentejano</i>. Pelo nariz."
+  },
+  {
+   "type": "story",
+   "title": "7 · Hörverstehen: O pão da Marie",
+   "audio": "s68",
+   "listen": true,
+   "text": "Sexta-feira, dezoito de outubro, meio-dia e dez. A Marie entrou na sala com o caderno numa mão e um saco de papel na outra. Dentro do saco estava um pão alentejano, grande e redondo, que ela tinha feito às cinco da manhã na padaria do tio Tó. Pôs o pão na mesa da professora. Onze colegas olharam para o pão, ninguém para a Marie.<br>— Em primeiro lugar — começou ela, e a voz saiu mais fina do que queria. Respirou fundo. — Em primeiro lugar, em Portugal há menos tipos de pão do que na Alemanha. Em Hamburgo há mais de trezentos. Por outro lado, aqui o pão é levado mais a sério.<br>Falou da broa, que é de milho e vem do norte. Do bolo do caco, da Madeira, que não é bolo nem é caco. Da carcaça de Lisboa, que custa vinte cêntimos e desaparece em três minutos. Do pão de Mafra, que ainda não provou, mas o tio Tó diz que é o melhor. As mãos tremeram só nos primeiros dois minutos. Disse «pau» três vezes. Corou uma vez. Concluindo, disse, o pão português não é melhor nem pior; é mais esperado.<br>Depois foi a Noor. A Noor falou de Roterdão sem papel e sem pausas: o porto mais grande da Europa, uma ponte muito bonito, a cidade foi destruída na guerra e por isso tudo é novo, ou seja, feio, ou seja, não, moderno. Seis minutos e meio. A professora escreveu «maior» no caderno e não interrompeu.<br>No fim, a professora Teresa olhou para o pão e disse:<br>— Muito bem, Marie. E agora vamos provar o argumento.<br>Cortou o pão em doze fatias para treze pessoas e comeu a primeira. A Noor levantou a mão com a boca cheia.<br>— Isto é do supermercado?<br>A turma riu-se. A Marie não corou.<br>— Duvido que o supermercado faça pão torto — respondeu. — Este é meu. Fiz-o às cinco da manhã.<br>A Noor olhou para a fatia, depois para a Marie.<br>— Então tenho a certeza de que é o melhor pão que comi em Lisboa. E tenho a certeza de que quero outra fatia.<br>Não havia outra fatia. Eram treze pessoas e doze fatias, e a professora tinha comido a primeira.",
+   "gloss": "Erst hören (zweimal), dann die drei Fragen, dann lesen. Neu erschließen: o saco de papel = die Papiertüte · redondo = rund · fina (a voz) = dünn, hoch · o milho = der Mais · o caco = die Scherbe · desaparecer = verschwinden · tremer = zittern · a guerra = der Krieg · a fatia = die Scheibe · com a boca cheia = mit vollem Mund · torto = schief. Noors Fehler sind Absicht: «mais grande» (richtig: maior), «uma ponte muito bonito» (richtig: bonita).",
+   "questions": [
+    {
+     "q": "O pão que a Marie trouxe é do supermercado.",
+     "a": "Falsch – sie hat es um fünf Uhr morgens in der Bäckerei von Tio Tó gebacken: „Duvido que o supermercado faça pão torto.“"
+    },
+    {
+     "q": "A Noor fez a apresentação com papel e com muitas pausas.",
+     "a": "Falsch – ohne Papier und ohne Pausen, sechseinhalb Minuten; die Professora notiert „maior“ und unterbricht nicht."
+    },
+    {
+     "q": "No fim, a Noor quer outra fatia, mas já não há.",
+     "a": "Richtig – dreizehn Leute, zwölf Scheiben, und die Professora hat die erste gegessen."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Du kannst jetzt in einer Fragerunde überleben: <i>Pode repetir, por favor? · Desculpe, não percebi. · O que é que quer dizer com …? · Se bem percebi, …</i> Du weißt, dass Zweifel den conjuntivo verlangt – <i>duvido que seja, não tenho a certeza de que seja, talvez seja</i> – und Gewissheit den Indikativ: <i>tenho a certeza de que é, sei que é</i>. Du hast eine Geschichte nur über das Ohr verstanden, mit Noors Roterdão-Fehlern drin. Und du hast dreimal <i>pão</i> gesagt, pelo nariz. Morgen ist Samstag in der Bäckerei, Tag 69: <b>Conversas de balcão</b> – Stammkunden, Füllwörter und ein cafezinho."
+  }
+ ]
+}
