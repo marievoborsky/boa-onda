@@ -3105,6 +3105,8 @@ function checkOrder(row) {
    einer Server-Komponente, die Kaufbelege prüft (siehe STAFFEL2.md). */
 const GRATIS = ['tag15'];
 const DESCOBRIR_FREI = 3;   // die ersten drei Artikel sind gratis
+/* Prüfcodes für Store-Reviews (Google/Apple): ohne Konto einlösbar, Premium nur lokal auf dem Gerät */
+const PRUEF_HASHES = ['5691b04b806aa42e4463045aeb5d87041b122bcee4f2aa0faa1c88f41fe9b755'];
 const CODE_HASHES = [
   '2a057e1a539d9108817d6849b30ef90bfc6d03f60323e9bc9872b6d01a15b370',
   '5691b04b806aa42e4463045aeb5d87041b122bcee4f2aa0faa1c88f41fe9b755',
@@ -3295,13 +3297,17 @@ async function codeEinloesen() {
   const inp = document.getElementById('pw-code');
   const code = (inp.value || '').trim().toUpperCase().replace(/\s+/g, '');
   if (!code) { inp.focus(); return; }
-  if (kontoClient && !kontoUser) { kontoVorKauf('code'); return; }
   let hex = '';
   try {
     const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(code));
     hex = [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
   } catch (e) { meldung('Der Code kann auf diesem Gerät nicht geprüft werden.'); return; }
   const fehl = text => { inp.classList.add('exfehl'); setTimeout(() => inp.classList.remove('exfehl'), 700); meldung(text); };
+  if (PRUEF_HASHES.includes(hex)) {   // Prüfcode für die Store-Freigabe: gilt nur auf diesem Gerät, ohne Konto
+    store.premium = { seit: today(), art: 'code' }; save(); VMAP = null;
+    schliessePaywall(); meldung('Premium ist freigeschaltet. Boa onda!'); goTab('kurs'); return;
+  }
+  if (kontoClient && !kontoUser) { kontoVorKauf('code'); return; }
   if (kontoClient && kontoUser) {
     // Angemeldet: der Server prüft den Code und bindet Premium ans Konto (ein Code = ein Konto)
     if (!navigator.onLine) { meldung('Du bist offline – der Code wird am Konto geprüft, dafür braucht es kurz Netz.'); return; }
