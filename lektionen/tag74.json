@@ -1,0 +1,411 @@
+{
+ "id": "tag74",
+ "title": "Bilhete para o Porto",
+ "subtitle": "Staffel 3 · Woche 11 · Tag 74 · Zug nach Porto · como se, quem me dera · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 73)",
+   "items": [
+    {
+     "q": "Gostaria que (tu) ___ ao Porto no Natal. (vir)",
+     "a": "viesses"
+    },
+    {
+     "q": "Era bom que a Noor ___ connosco até sábado.",
+     "opts": [
+      "ficasse",
+      "fique"
+     ],
+     "a": "ficasse – era bom que: imperfeito do conjuntivo (eles ficaram → ficasse)"
+    },
+    {
+     "q": "Höfliche Bitte, gesprochen (imperfeito): Könnten Sie die Frist verlängern? → ___ prolongar o prazo?",
+     "a": "Podia"
+    },
+    {
+     "q": "Queria que o senhor me ___ uma coisa. (dizer)",
+     "a": "dissesse"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: De comboio para o Porto (16)",
+   "items": [
+    {
+     "pt": "a ida",
+     "de": "die Hinfahrt",
+     "ipa": "[ˈidɐ]",
+     "audio": "v7401"
+    },
+    {
+     "pt": "a volta",
+     "de": "die Rückfahrt (ida e volta = hin und zurück)",
+     "ipa": "[ˈvɔɫtɐ]",
+     "audio": "v7402"
+    },
+    {
+     "pt": "a partida",
+     "de": "die Abfahrt",
+     "ipa": "[pɐɾˈtidɐ]",
+     "audio": "v7403"
+    },
+    {
+     "pt": "a carruagem",
+     "de": "der Waggon, der Zugwagen",
+     "ipa": "[kɐˈʁwaʒɐ̃j̃]",
+     "audio": "v7404"
+    },
+    {
+     "pt": "o lugar marcado",
+     "de": "der reservierte Sitzplatz",
+     "ipa": "[luˈɡaɾ mɐɾˈkadu]",
+     "audio": "v7405"
+    },
+    {
+     "pt": "a plataforma",
+     "de": "der Bahnsteig",
+     "ipa": "[plɐtɐˈfɔɾmɐ]",
+     "audio": "v7406"
+    },
+    {
+     "pt": "a bilheteira",
+     "de": "der Fahrkartenschalter",
+     "ipa": "[biʎɨˈtɐjɾɐ]",
+     "audio": "v7407"
+    },
+    {
+     "pt": "o atraso",
+     "de": "die Verspätung",
+     "ipa": "[ɐˈtɾazu]",
+     "audio": "v7408"
+    },
+    {
+     "pt": "atrasar-se",
+     "de": "sich verspäten",
+     "ipa": "[ɐtɾɐˈzaɾsɨ]",
+     "audio": "v7409"
+    },
+    {
+     "pt": "mudar de comboio",
+     "de": "umsteigen",
+     "ipa": "[muˈdaɾ dɨ kõˈboju]",
+     "audio": "v7410"
+    },
+    {
+     "pt": "cerca de",
+     "de": "ungefähr, etwa (cerca de três horas)",
+     "ipa": "[ˈseɾkɐ dɨ]",
+     "audio": "v7411"
+    },
+    {
+     "pt": "a folga",
+     "de": "der freie Tag",
+     "ipa": "[ˈfoɫɡɐ]",
+     "audio": "v7412"
+    },
+    {
+     "pt": "trocar",
+     "de": "tauschen, wechseln",
+     "ipa": "[tɾuˈkaɾ]",
+     "audio": "v7413"
+    },
+    {
+     "pt": "o compromisso",
+     "de": "der Kompromiss; die Verpflichtung",
+     "ipa": "[kõpɾuˈmisu]",
+     "audio": "v7414"
+    },
+    {
+     "pt": "dar boleia (a)",
+     "de": "(jemanden im Auto) mitnehmen, fahren",
+     "ipa": "[ˈdaɾ buˈlɐjɐ]",
+     "audio": "v7415"
+    },
+    {
+     "pt": "estacionar",
+     "de": "parken",
+     "ipa": "[ɨʃtɐsjuˈnaɾ]",
+     "audio": "v7416"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Teresa: Als ob, ich wünschte, und wenn du ankommst",
+   "html": "<i>(Professora Teresa, Freitag, per E-Mail an den ganzen Kurs, Betreff: «Férias, sim. De conjuntivo, não.»)</i> Der Kurs ist seit Mittwoch zu, aber Sie reisen alle irgendwohin, und Reisen sind voller Konjunktive. Drei Dinge für den Zug.<br><br><b>1 · como se + imperfeito do conjuntivo.</b> „Als ob“ nimmt im Portugiesischen <b>immer</b> das imperfeito do conjuntivo, egal, in welcher Zeit der Hauptsatz steht. Nie presente, nie Indikativ.<br><i>Falas <b>como se fosses</b> de Lisboa.</i> – Du redest, als wärst du aus Lissabon.<br><i>O tio Tó assobia <b>como se não tivesse</b> ouvido nada.</i> – … als hätte er nichts gehört.<br><i>A Noor escreve <b>como se</b> o corretor automático <b>fosse</b> professor.</i> – … als wäre die Autokorrektur ein Lehrer.<br><i>Ele falou <b>como se soubesse</b> tudo.</i> – Er redete, als wüsste er alles. (Hauptsatz Vergangenheit, Form bleibt gleich.)<br>Die Form kennen Sie seit Montag: 3. Person Plural des pretérito perfeito, <i>-ram</i> weg, <i>-sse</i> dran: <i>foram → fosse, fosses, fosse, fôssemos, fossem</i> · <i>tiveram → tivesse</i> · <i>souberam → soubesse</i> · <i>chegaram → chegasse</i>.<br><br><b>2 · quem me dera + imperfeito do conjuntivo.</b> Wörtlich „wer gäbe mir“, gemeint ist „ich wünschte“, und es ist ein Seufzer, kein Satz aus dem Lehrbuch. Zwei Bauweisen:<br>Mit <i>que</i> und imperfeito, wenn jemand anders oder etwas anderes das Subjekt ist: <i><b>Quem me dera que fosse</b> já sábado.</i> – Wäre doch schon Samstag. · <i><b>Quem me dera que</b> o comboio <b>partisse</b> mais cedo.</i> – Ich wünschte, der Zug führe früher.<br>Mit <b>Infinitiv</b>, wenn Sie selbst das Subjekt sind: <i><b>Quem me dera ter</b> três folgas.</i> – Hätte ich doch drei freie Tage. · <i><b>Quem me dera ir</b> contigo.</i> – Könnte ich doch mitfahren.<br>Und ganz allein, als Antwort: <i>– Vais ao Porto? – <b>Quem me dera!</b></i> – Schön wär's! Mit <i>te, nos, lhe</i> wechselt die Person: <i>quem te dera, quem nos dera</i>.<br><br><b>3 · Wiederholung: futuro do conjuntivo in Reiseplänen.</b> Alles, was in der Zukunft wirklich passieren soll oder kann, nach <i>quando, se, assim que, enquanto, logo que</i>:<br><i><b>Quando chegares</b> ao Porto, liga-me.</i> – Wenn du ankommst …<br><i><b>Se o comboio se atrasar</b>, apanho o próximo.</i> – Falls der Zug Verspätung hat …<br><i><b>Assim que tiveres</b> o bilhete, manda-me uma foto.</i> – Sobald du die Fahrkarte hast …<br><i><b>Enquanto estiveres</b> no Porto, não penses na padaria.</i> – Solange du in Porto bist …<br>Bildung: 3. Person Plural perfeito, <i>-am</i> weg: <i>tiveram → tiver, tiveres, tiver, tivermos, tiverem</i>; bei regelmäßigen Verben sieht die Form aus wie der Infinitiv mit Endungen: <i>chegar, chegares, chegar, chegarmos, chegarem</i>.<br><br><b>4 · Die drei Konjunktive nebeneinander.</b> Derselbe Satzanfang, drei Gründe:<br><b>presente</b> – Wunsch oder Wertung, jetzt oder bald: <i>Quero que <b>venhas</b> ao Porto.</i><br><b>imperfeito</b> – unwirklich, höflich, „als ob“, oder nach einem Hauptsatz in der Vergangenheit: <i>Queria que <b>viesses</b> ao Porto. · Falas como se <b>viesses</b> do Porto.</i><br><b>futuro</b> – reale Zukunft nach quando / se / assim que: <i>Quando <b>vieres</b> ao Porto, ligo-te.</i><br>Faustregel: <i>quero que → presente</i> · <i>queria que, como se, quem me dera que → imperfeito</i> · <i>quando, se, assim que (Zukunft) → futuro</i>.<br><br><b>Typischer Fehler:</b> <i>Falas como se és de Lisboa.</i> Nein. <i>Como se <b>fosses</b>.</i> Und <i>quem me dera que seja sábado</i> gibt es nicht: der Wunsch ist unerfüllt, also <b>fosse</b>. Boas férias. Wenn Sie im Zug jemanden „como se“ sagen hören, zählen Sie mit, ob ein imperfeito folgt. Es folgt immer."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra:)</i> Eu vou no dia vinte e dois, de Regional, que para em todas as estações e demora cerca de duas horas, mas custa metade. Mein Tipp zu <b>quem me dera</b>: Das ist kein Grammatikkapitel, das ist ein Geräusch, das Portugiesen den ganzen Tag machen, allein und mit Seufzer: <i>Quem me dera!</i> (Schön wär's!) · <i>Quem me dera estar na praia.</i> · <i>Quem me dera que o Tiago cantasse menos.</i> Wenn du es dreimal am Tag sagst, klingst du sofort weniger wie der Kurs. Aussprache: <i>dera</i> mit offenem e, „dérra“, und <i>dar boleia</i> = „dar bulâia“, das o wird zum u. Und wenn du am 23. in Campanhã aussteigst, stehe ich da – no Porto é melhor, auch der Bahnhof."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Três folgas",
+   "hint": "Selbst erschlossen: convidar = einladen · a Consoada = das Heiligabendessen · a esquina = die Straßenecke · arranjar-se = zurechtkommen · nem um minuto = nicht eine Minute · o turno da manhã = die Frühschicht · ao volante = am Steuer. Freitag, 20. Dezember, kurz vor zehn, die Bäckerei ist gerade leer. Wie immer: Tio Tó duzt Marie; sie sagt „tio Tó“ und „o senhor“ mit der 3. Person.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Tio Tó, posso falar com o senhor um bocadinho? É sobre o Natal.",
+     "audio": "d7401"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "Fala.",
+     "audio": "d7402"
+    },
+    {
+     "who": "Marie",
+     "pt": "A avó da Ana convidou-me para a Consoada no Porto. Queria ir no dia vinte e dois, de comboio, e voltar no dia vinte e seis. Eram três folgas.",
+     "audio": "d7403"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "Três.",
+     "audio": "d7404"
+    },
+    {
+     "who": "Marie",
+     "pt": "Eu sei que é muito. Mas trabalhava mais horas nos dias antes, e trocava o turno com quem o senhor quisesse.",
+     "audio": "d7405"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "O dia vinte e três é o dia mais importante do ano. Bolo-rei, bolo-rainha, filhós. A fila chega à esquina. Não posso ficar sem ninguém.",
+     "audio": "d7406"
+    },
+    {
+     "who": "Marie",
+     "pt": "Quem me dera que o Natal fosse uma semana mais tarde. Mas não é. O senhor não tem mais ninguém?",
+     "audio": "d7407"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "À tarde arranjo-me sozinho. De manhã, não.",
+     "audio": "d7408"
+    },
+    {
+     "who": "Marie",
+     "pt": "Então… e se eu fizesse o turno da manhã no dia vinte e três, até às duas, e apanhasse o comboio à tarde? Há um Intercidades às cinco e nove.",
+     "audio": "d7409"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "Falas como se já tivesses o bilhete.",
+     "audio": "d7410"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ainda não. Só vi o horário. Parte de Santa Apolónia e chega a Campanhã cerca de três horas depois. Compro hoje à noite, se o senhor disser que sim.",
+     "audio": "d7411"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "Até às duas. Nem um minuto mais cedo. Depois vais.",
+     "audio": "d7412"
+    },
+    {
+     "who": "Marie",
+     "pt": "Obrigada, tio Tó. O João dá-me boleia até à estação, já prometeu.",
+     "audio": "d7413"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "O João ao volante, acordado, antes das cinco da tarde? Quem me dera ver isso.",
+     "audio": "d7414"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · como se / quem me dera: a forma certa",
+   "items": [
+    {
+     "q": "O tio Tó fala como se o Natal ___ um dia normal. (ser)",
+     "a": "fosse"
+    },
+    {
+     "q": "Quem me dera que o comboio ___ mais cedo. (partir)",
+     "a": "partisse"
+    },
+    {
+     "q": "A Noor fala português como se ___ cá há dez anos. (viver)",
+     "a": "vivesse"
+    },
+    {
+     "q": "Quem me dera que o João ___ antes das onze. (acordar)",
+     "a": "acordasse"
+    },
+    {
+     "q": "A Marie planeia a viagem como se já ___ o bilhete. (ter)",
+     "a": "tivesse"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Futuro ou imperfeito do conjuntivo? (antippen)",
+   "items": [
+    {
+     "q": "Quando ___ ao Porto, liga-me.",
+     "opts": [
+      "chegares",
+      "chegasses"
+     ],
+     "a": "chegares – quando + reale Zukunft → futuro do conjuntivo"
+    },
+    {
+     "q": "Quem me dera que ___ já sábado.",
+     "opts": [
+      "for",
+      "fosse"
+     ],
+     "a": "fosse – quem me dera: unerfüllter Wunsch → imperfeito do conjuntivo"
+    },
+    {
+     "q": "Se o comboio se ___, apanho o próximo.",
+     "opts": [
+      "atrasar",
+      "atrasasse"
+     ],
+     "a": "atrasar – se + mögliche Zukunft → futuro do conjuntivo (sieht hier aus wie der Infinitiv)"
+    },
+    {
+     "q": "Falas como se ___ de Lisboa.",
+     "opts": [
+      "fores",
+      "fosses"
+     ],
+     "a": "fosses – como se nimmt immer das imperfeito, nie das futuro"
+    },
+    {
+     "q": "Assim que ___ o bilhete, manda-me uma foto.",
+     "opts": [
+      "tiveres",
+      "tivesses"
+     ],
+     "a": "tiveres – assim que + Zukunft → futuro do conjuntivo"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Wäre doch schon Samstag.",
+     "satz": "Quem me dera que fosse já sábado.",
+     "a": "Quem me dera que fosse já sábado."
+    },
+    {
+     "q": "Du redest, als wärst du aus Lissabon.",
+     "satz": "Falas como se fosses de Lisboa.",
+     "a": "Falas como se fosses de Lisboa."
+    },
+    {
+     "q": "Wenn der Zug Verspätung hat, nehme ich den nächsten.",
+     "satz": "Se o comboio se atrasar, apanho o próximo.",
+     "a": "Se o comboio se atrasar, apanho o próximo."
+    },
+    {
+     "q": "Ich hätte gern eine Fahrkarte hin und zurück nach Porto.",
+     "satz": "Queria um bilhete de ida e volta para o Porto.",
+     "a": "Queria um bilhete de ida e volta para o Porto."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Marie queria ir para o Porto no dia vinte e dois e voltar no dia vinte e seis.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – „Queria ir no dia vinte e dois … e voltar no dia vinte e seis. Eram três folgas.“ Tio Tós Antwort: „Três.“"
+    },
+    {
+     "q": "O tio Tó diz que o dia vinte e quatro é o dia mais importante do ano.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – der 23. ist es: bolo-rei, bolo-rainha, filhós, die Schlange reicht bis zur Ecke."
+    },
+    {
+     "q": "No dia vinte e três, a Marie vai trabalhar até às duas da tarde.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – „Até às duas. Nem um minuto mais cedo. Depois vais.“ Danach der Intercidades um 17.09 Uhr."
+    },
+    {
+     "q": "O tio Tó vai levar a Marie à estação na carrinha.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – João fährt sie („dá-me boleia“), und Tio Tó glaubt erst daran, wenn er es sieht."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Der Zug fährt um 17.09 Uhr von Santa Apolónia ab. → ___",
+     "a": "O comboio parte às dezassete e nove de Santa Apolónia. / O comboio sai de Santa Apolónia às dezassete e nove."
+    },
+    {
+     "q": "Hin und zurück kostet etwa fünfzig Euro. → ___",
+     "a": "Ida e volta custa cerca de cinquenta euros. / A ida e volta custa cerca de cinquenta euros."
+    },
+    {
+     "q": "Hätte ich doch drei freie Tage. → ___",
+     "a": "Quem me dera ter três folgas. / Quem me dera ter três dias de folga."
+    },
+    {
+     "q": "Er redet, als könnte das Brot warten. → ___",
+     "a": "Ele fala como se o pão pudesse esperar. / Fala como se o pão pudesse esperar."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A minha viagem",
+   "html": "Plane eine eigene Reise über Weihnachten, echt oder erfunden, und sprich sie in sechs Sätzen laut durch, als würdest du sie jemandem am Tresen erzählen. Nimm dich auf.<br><br>1 · <b>Wann:</b> <i>Vou no dia … de dezembro e volto no dia …</i><br>2 · <b>Womit:</b> <i>Vou de comboio / de autocarro / de avião. A partida é às … e a viagem demora cerca de …</i><br>3 · <b>Was:</b> <i>Já comprei o bilhete de ida e volta. / Tenho lugar marcado na carruagem …</i><br>4 · <b>Wenn … dann</b> (futuro do conjuntivo): <i>Quando chegar, … · Se o comboio se atrasar, … · Assim que tiver o bilhete, …</i><br>5 · <b>Als ob</b> (imperfeito): <i>Vou fazer as malas como se …</i><br>6 · <b>Ein Seufzer</b>: <i>Quem me dera que … fosse / tivesse … · Quem me dera ter …</i><br><br>Dann noch einmal die beiden Sätze des Tages, ruhig und ohne zu stocken: <i>Falas como se já tivesses o bilhete.</i> und <i>Quem me dera que fosse já sábado.</i> Hör nach: Nach <i>como se</i> und <i>quem me dera que</i> muss ein <i>-sse</i> zu hören sein, nach <i>quando</i> und <i>se</i> nicht."
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: A carrinha às cinco",
+   "audio": "s74",
+   "text": "Sexta-feira, vinte de dezembro, três e cinquenta. A carrinha do tio Tó parou à porta do prédio cor-de-rosa. A Marie entrou e pôs as mãos à frente do aquecimento, que só funcionava quando queria.<br>Durante cinco minutos ninguém falou. Depois ela respirou fundo.<br>— Tio Tó, a avó da Ana convidou-me para o Natal no Porto. Queria ir no dia vinte e dois.<br>O tio Tó não respondeu. Continuou calado. Era só silêncio, como se a pergunta ainda estivesse no ar, à espera.<br>— O dia vinte e três — disse ele quando estacionou. — É o dia do bolo-rei.<br>— Eu sei.<br>— Então sabes tudo.<br>Às cinco e meia saiu a primeira fornada, às sete entrou o senhor Abílio. A Marie trabalhou como se não tivesse perguntado nada. O tio Tó assobiou como se não tivesse ouvido nada.<br>Só às dez, com a padaria vazia, é que falaram a sério: três folgas, a fila até à esquina, o Intercidades das cinco e nove. No fim, quando ela tirou o avental, ele disse:<br>— Até às duas. No dia vinte e três trabalhas até às duas e depois vais. Nem um minuto mais cedo.<br>— Obrigada, tio Tó.<br>— Não agradeças a mim. Agradece ao bolo-rei, que se vende todo de manhã.<br>À noite, na Graça, a Marie abriu o site da CP no telemóvel. Intercidades, Santa Apolónia, dezassete e nove, chegada a Campanhã cerca de três horas depois. Escolheu um lugar marcado à janela e pagou com o cartão.<br>— Já está — disse ela ao João, que estava no sofá com o casaco vestido. — Quem me dera que fosse já segunda.<br>— Eu levo-te à estação. Já pedi a carrinha ao tio. Disse que sim, com uma palavra.<br>— Tu? Acordado? Antes das cinco da tarde?<br>— Carrinha às cinco. Como se fosse um táxi.<br>— O comboio é às cinco e nove, João. A carrinha tem de ser às quatro.<br>— Pronto. Carrinha às quatro, comboio às cinco. Eu sei contar. — E escreveu no telemóvel: «Dia 23. Carrinha às cinco.»<br>A Marie não o corrigiu. Se o João se atrasasse, ia a pé: Santa Apolónia ficava a quinze minutos. Mas quem me dera que não se atrasasse, pensou, porque um táxi chamado carrinha, com o João ao volante, era uma coisa que ela queria mesmo ver.",
+   "gloss": "Neu erschließen: calado = schweigend, still · tirar o avental = die Schürze ausziehen · vender-se todo = komplett ausverkauft werden · o site = die Website · com o casaco vestido = mit angezogenem Mantel · contar = zählen · ao volante = am Steuer",
+   "questions": [
+    {
+     "q": "O tio Tó responde logo à pergunta da Marie, ainda na carrinha.",
+     "a": "Falsch – er schweigt, sagt beim Parken nur „É o dia do bolo-rei“ und nennt den Kompromiss erst um zehn, als Marie die Schürze auszieht."
+    },
+    {
+     "q": "A Marie compra o bilhete na bilheteira de Santa Apolónia.",
+     "a": "Falsch – abends in Graça, online auf dem Telemóvel, mit Karte bezahlt; die bilheteira sieht sie gar nicht."
+    },
+    {
+     "q": "O João escreve no telemóvel «Carrinha às cinco», embora a carrinha tenha de ser às quatro.",
+     "a": "Richtig – „Eu sei contar.“ Marie korrigiert ihn nicht mehr und plant schon, zur Not zu Fuß zu gehen."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kann ich …?<br>· … „als ob“ sagen, immer mit imperfeito do conjuntivo: <i>falas como se fosses, assobia como se não tivesse ouvido</i>?<br>· … einen Wunsch seufzen: <i>quem me dera que fosse já sábado</i> und <i>quem me dera ter três folgas</i>, und allein als Antwort <i>Quem me dera!</i>?<br>· … Reisepläne mit futuro do conjuntivo machen: <i>quando chegares, se o comboio se atrasar, assim que tiveres o bilhete</i>?<br>· … die drei Konjunktive auseinanderhalten: <i>quero que venhas · queria que viesses · quando vieres</i>?<br>· … eine Zugfahrt beschreiben: <i>ida e volta, partida, carruagem, lugar marcado, plataforma, cerca de três horas</i>?<br><br>Der Bilhete ist gekauft, der Kompromiss steht: bis zwei Uhr, keine Minute früher. Am Montag kommt der härteste Tag des Jahres in der Bäckerei, mit Schlange bis zur Ecke und Tio Tós vier Sätzen: <b>Bolo-rei.</b>"
+  }
+ ]
+}

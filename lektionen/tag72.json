@@ -1,0 +1,411 @@
+{
+ "id": "tag72",
+ "title": "O que é que ela disse?",
+ "subtitle": "Staffel 3 · Woche 11 · Tag 72 · Weitererzählen · Indirekte Rede · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 71)",
+   "items": [
+    {
+     "q": "Se (nós) ___ aquecimento, não passávamos frio. (ter)",
+     "a": "tivéssemos"
+    },
+    {
+     "q": "Se (eu) ___ comprar um aquecedor, comprava hoje. (poder)",
+     "opts": [
+      "pudesse",
+      "possa"
+     ],
+     "a": "pudesse – se + Unmögliches oder Gedachtes → imperfeito do conjuntivo (eles puderam → pudesse)"
+    },
+    {
+     "q": "Se o João ___ mais cedo, via o sol. (acordar)",
+     "a": "acordasse"
+    },
+    {
+     "q": "Bildung: eles foram → se eu ___ (3. Person Plural pretérito, -ram weg, -sse dran)",
+     "a": "fosse"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Ao telefone (16)",
+   "items": [
+    {
+     "pt": "a chamada",
+     "de": "der Anruf",
+     "ipa": "[ʃɐˈmadɐ]",
+     "audio": "v7201"
+    },
+    {
+     "pt": "telefonar (a alguém)",
+     "de": "anrufen, telefonieren (mit jemandem)",
+     "ipa": "[tɨlɨfuˈnaɾ]",
+     "audio": "v7202"
+    },
+    {
+     "pt": "a mensagem de voz",
+     "de": "die Sprachnachricht",
+     "ipa": "[mẽˈsaʒɐ̃j̃ dɨ ˈvɔʃ]",
+     "audio": "v7203"
+    },
+    {
+     "pt": "deixar (uma mensagem)",
+     "de": "lassen; (eine Nachricht) hinterlassen",
+     "ipa": "[dɐjˈʃaɾ]",
+     "audio": "v7204"
+    },
+    {
+     "pt": "responder",
+     "de": "antworten",
+     "ipa": "[ʁɨʃpõˈdeɾ]",
+     "audio": "v7205"
+    },
+    {
+     "pt": "o assunto",
+     "de": "das Thema, die Sache, die Angelegenheit",
+     "ipa": "[ɐˈsũtu]",
+     "audio": "v7206"
+    },
+    {
+     "pt": "dar notícias",
+     "de": "von sich hören lassen",
+     "ipa": "[ˈdaɾ nuˈtisjɐʃ]",
+     "audio": "v7207"
+    },
+    {
+     "pt": "a véspera",
+     "de": "der Vorabend, der Tag davor (a véspera de Natal = Heiligabend)",
+     "ipa": "[ˈvɛʃpɨɾɐ]",
+     "audio": "v7208"
+    },
+    {
+     "pt": "passar o Natal",
+     "de": "Weihnachten verbringen",
+     "ipa": "[pɐˈsaɾ u nɐˈtaɫ]",
+     "audio": "v7209"
+    },
+    {
+     "pt": "ficar em casa",
+     "de": "zu Hause bleiben",
+     "ipa": "[fiˈkaɾ ɐ̃j̃ ˈkazɐ]",
+     "audio": "v7210"
+    },
+    {
+     "pt": "o exame",
+     "de": "die Prüfung, die Klausur",
+     "ipa": "[iˈzɐmɨ]",
+     "audio": "v7211"
+    },
+    {
+     "pt": "as férias",
+     "de": "die Ferien, der Urlaub (immer Plural)",
+     "ipa": "[ˈfɛɾjɐʃ]",
+     "audio": "v7212"
+    },
+    {
+     "pt": "vazio / vazia",
+     "de": "leer",
+     "ipa": "[vɐˈziu]",
+     "audio": "v7213"
+    },
+    {
+     "pt": "afinal",
+     "de": "letztlich, schließlich; also doch",
+     "ipa": "[ɐfiˈnaɫ]",
+     "audio": "v7214"
+    },
+    {
+     "pt": "ainda bem",
+     "de": "zum Glück, gut so",
+     "ipa": "[ɐˈĩdɐ ˈbɐ̃j̃]",
+     "audio": "v7215"
+    },
+    {
+     "pt": "pelo menos",
+     "de": "wenigstens, zumindest",
+     "ipa": "[pɨlu ˈmenuʃ]",
+     "audio": "v7216"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Teresa: Was sie gesagt hat",
+   "html": "<i>(Professora Teresa, Dienstag, mit Schal im Klassenraum, weil auch die Faculdade friert:)</i> Gestern haben Sie gelernt, Unmögliches zu wünschen: <i>se tivéssemos aquecimento …</i> Heute lernen Sie etwas, das Sie jeden Tag brauchen: <b>weitererzählen, was jemand gesagt hat</b>. Auf Portugiesisch heißt das <i>discurso indireto</i>, und es hat drei Teile: ein Einleitungsverb, eine Zeitverschiebung und ein paar Wörter, die mitwandern.<br><br><b>1 · Das Einleitungsverb.</b> Jede Wiedergabe beginnt mit einem Verb des Sagens plus <i>que</i> (nie weglassen!):<br><i>A Ana <b>disse que</b> …</i> – Ana sagte, dass …<br><i>A Ana <b>contou que</b> …</i> – Ana erzählte, dass …<br><i>A mãe <b>explicou que</b> …</i> – Die Mutter erklärte, dass …<br><i>O Vasco <b>respondeu que</b> …</i> – Vasco antwortete, dass …<br>Bei Fragen: <i><b>perguntou se</b></i> (ob) bei Ja/Nein-Fragen, sonst das Fragewort: <i><b>perguntou quando</b> …, <b>perguntou onde</b> …, <b>perguntou porque</b> …</i> Bei Bitten und Befehlen: <i><b>pediu que</b></i> (bat, dass).<br><br><b>2 · Die Zeitverschiebung.</b> Wenn das Einleitungsverb in der Vergangenheit steht (<i>disse, perguntou, pediu</i>), rückt die Zeit im Nebensatz <b>einen Schritt zurück</b>:<br>· presente → <b>imperfeito</b>: <i>«Estou cansada.» → Disse que <b>estava</b> cansada.</i> – Sie sagte, sie sei müde.<br>· pretérito perfeito → <b>mais-que-perfeito composto</b> (tinha + particípio): <i>«Acabei o exame.» → Disse que <b>tinha acabado</b> o exame.</i> – Sie sagte, sie habe die Prüfung beendet.<br>· ir + Infinitiv → <b>ia + Infinitiv</b>: <i>«Vou para o Porto.» → Disse que <b>ia</b> para o Porto.</i><br>· futuro → <b>condicional</b>: <i>«Virei no dia 22.» → Disse que <b>viria</b> no dia 22.</i> (Gesprochen nehmen fast alle <i>ia vir</i> oder einfach <i>vinha</i>.)<br>· imperfeito bleibt imperfeito: <i>«Estava a estudar.» → Disse que <b>estava</b> a estudar.</i><br>· Frage: <i>«Vens mesmo?» → Perguntou <b>se</b> eu <b>vinha</b> mesmo.</i> – Sie fragte, ob ich wirklich komme.<br>· Imperativ → <b>pediu que + imperfeito do conjuntivo</b> (von gestern!): <i>«Liga-me.» → Pediu que lhe <b>ligasse</b>.</i> – Sie bat, dass ich sie anrufe. <i>«Dá notícias.» → Pediu que <b>desse</b> notícias.</i><br><br><b>3 · Was mitwandert.</b> Wer spricht, ist jetzt eine andere Person, und „jetzt“ ist nicht mehr jetzt:<br>· <i>eu → ela/ele</i>, <i>tu → eu</i> (wenn Sie gemeint waren), <i>o meu → o dela/dele</i>: <i>«A minha avó perguntou.» → Disse que a avó <b>dela</b> tinha perguntado.</i><br>· <i>hoje → <b>naquele dia</b></i> · <i>amanhã → <b>no dia seguinte</b></i> · <i>ontem → <b>no dia anterior</b></i> · <i>agora → <b>naquele momento</b></i> · <i>aqui → <b>ali</b></i> · <i>este → <b>aquele</b></i>:<br><i>«Amanhã vou surfar aqui.» → Disse que <b>no dia seguinte</b> ia surfar <b>ali</b>.</i><br><br><b>4 · Wann Sie nichts verschieben.</b> Steht das Einleitungsverb im Präsens, bleibt alles, wie es war: <i>A Ana <b>diz que vai</b> para o Porto no dia 22. A mãe <b>pergunta se</b> eu <b>fico</b> em Lisboa.</i> Und im Gespräch lassen die Portugiesen die Verschiebung oft weg, wenn die Sache noch gilt: <i>A Ana disse que vai para o Porto no dia 22</i> hört man an jeder Ecke. In der Prüfung und im Brief: verschieben. Am Telefon mit João: wie Sie wollen.<br><br><b>Typischer Fehler:</b> <i>Ela disse que ela está cansada.</i> Zweimal <i>ela</i> und keine Verschiebung. Besser: <i>Ela disse que estava cansada.</i> Wenn Sie heute nur einen Satz mitnehmen: <i>Disse que estava.</i> Ein Schritt zurück, und alles stimmt."
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Coimbra, aus der Bibliothek, deshalb ohne Sprachnachricht:)</i> Letzter Prüfungstag, und am 22. bin ich in Porto, meine Großmutter zählt schon die Teller. Mein Trick für die indirekte Rede: Stell dir vor, du erzählst es <b>einen Tag später</b> jemandem, der nicht dabei war. Dann rutscht die Zeit von allein zurück: <i>está → estava, vou → ia, fiz → tinha feito</i>. Und das <i>que</i> ist wie der Punkt am Ende: Ohne <i>que</i> versteht dich in Portugal niemand, mit <i>que</i> verzeiht man dir alles andere. Aussprache: <i>véspera</i> = „wéschpra“, das mittlere e verschwindet fast; <i>exame</i> = „isâm“."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Três vezes a mesma pergunta",
+   "hint": "Selbst erschlossen: estou livre = ich bin frei (habe frei) · a folha = das Blatt · não me faças ficar mal = bring mich nicht in Verlegenheit · voltar atrás = einen Rückzieher machen · na mesma = trotzdem · a prenda = das Geschenk · o segredo = das Geheimnis · a bibliotecária = die Bibliothekarin. Dienstag, 17. Dezember, kurz nach sieben Uhr abends; Marie sitzt in Graça unter zwei Decken auf dem Sofa, das Handy klingelt: Ana, aus Coimbra.",
+   "lines": [
+    {
+     "who": "Ana",
+     "pt": "Marie? Estou a ligar-te da biblioteca, por isso falo baixinho. Acabei o último exame há uma hora. Estou livre até janeiro!",
+     "audio": "d7201"
+    },
+    {
+     "who": "Marie",
+     "pt": "Parabéns! E correu bem? Eu amanhã tenho a última aula do ano, mas hoje já ninguém estudou a sério.",
+     "audio": "d7202"
+    },
+    {
+     "who": "Ana",
+     "pt": "Correu. Acho eu. Pelo menos escrevi em todas as folhas. Ouve, o assunto é outro: no dia 22 vou para o Porto. E tu? Quando é que chegas?",
+     "audio": "d7203"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ainda não sei. O tio Tó precisa de mim no dia 23, ou na véspera, não percebi bem. Ele disse só «o bolo-rei não se faz sozinho».",
+     "audio": "d7204"
+    },
+    {
+     "who": "Ana",
+     "pt": "Típico. Então telefona-lhe e pergunta. A sério, Marie. A minha avó já perguntou três vezes se tu vinhas mesmo.",
+     "audio": "d7205"
+    },
+    {
+     "who": "Marie",
+     "pt": "E o que é que tu lhe disseste?",
+     "audio": "d7206"
+    },
+    {
+     "who": "Ana",
+     "pt": "Disse-lhe que sim, que vinhas de certeza, e que trazias pão de Lisboa. Não me faças ficar mal.",
+     "audio": "d7207"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ana! Eu nunca disse que trazia pão!",
+     "audio": "d7208"
+    },
+    {
+     "who": "Ana",
+     "pt": "Eu sei, mas ela ficou tão contente que já não posso voltar atrás. E disse mais: que ia fazer bacalhau para dez pessoas e que, se tu não viesses, fazia na mesma. Depois pediu que lhe ligasses.",
+     "audio": "d7209"
+    },
+    {
+     "who": "Marie",
+     "pt": "Vou ligar-lhe esta semana, prometo. E a Inês? Também vai?",
+     "audio": "d7210"
+    },
+    {
+     "who": "Ana",
+     "pt": "Vai, mas só chega na véspera, à noite, depois do trabalho. O hospital não fecha no Natal. E o Tomás disse que, se a Marie não viesse, ele ficava com a prenda dela.",
+     "audio": "d7211"
+    },
+    {
+     "who": "Marie",
+     "pt": "Que prenda?",
+     "audio": "d7212"
+    },
+    {
+     "who": "Ana",
+     "pt": "Não sei. Perguntei-lhe e ele respondeu que era segredo. Pronto, a bibliotecária está a olhar para mim. Dá notícias, sim? E liga à minha avó.",
+     "audio": "d7213"
+    },
+    {
+     "who": "Marie",
+     "pt": "Dou. Boas férias, Ana. E diz à tua avó que eu vou. Sem pão.",
+     "audio": "d7214"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Direto → indireto: einen Schritt zurück",
+   "items": [
+    {
+     "q": "A Ana disse: «Estou livre até janeiro.» → A Ana disse que ___ livre até janeiro.",
+     "a": "estava"
+    },
+    {
+     "q": "A mãe disse: «Já comprei a prenda.» → A mãe disse que já ___ a prenda.",
+     "a": "tinha comprado"
+    },
+    {
+     "q": "O Vasco disse: «Amanhã vou surfar.» → O Vasco disse que no dia seguinte ___ surfar.",
+     "a": "ia"
+    },
+    {
+     "q": "A avó pediu: «Liga-me.» → A avó pediu que lhe ___.",
+     "a": "ligasse"
+    },
+    {
+     "q": "A mãe perguntou: «Vens mesmo?» → A mãe perguntou se eu ___ mesmo.",
+     "a": "vinha"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Qual é o tempo certo? (antippen)",
+   "items": [
+    {
+     "q": "Ontem ao telefone: «Vou para o Porto no dia 22.» → A Ana disse que ___ para o Porto no dia 22.",
+     "opts": [
+      "vai",
+      "ia"
+     ],
+     "a": "ia – Einleitung in der Vergangenheit (disse): ir + Infinitiv → ia + Infinitiv"
+    },
+    {
+     "q": "«Ficas mesmo em Lisboa no Natal?» → A mãe perguntou se eu ___ mesmo em Lisboa no Natal.",
+     "opts": [
+      "fico",
+      "ficava"
+     ],
+     "a": "ficava – presente → imperfeito, und die Frage wird mit se angeschlossen"
+    },
+    {
+     "q": "«Já encomendei a farinha.» → O tio Tó disse que já ___ a farinha.",
+     "opts": [
+      "encomendava",
+      "tinha encomendado"
+     ],
+     "a": "tinha encomendado – pretérito perfeito → mais-que-perfeito composto (tinha + particípio)"
+    },
+    {
+     "q": "«Liga-me esta semana.» → A avó pediu que a Marie lhe ___ naquela semana.",
+     "opts": [
+      "liga",
+      "ligasse"
+     ],
+     "a": "ligasse – Imperativ wird zu pediu que + imperfeito do conjuntivo"
+    },
+    {
+     "q": "Jetzt, heute: A Ana diz que ___ para o Porto no dia 22.",
+     "opts": [
+      "vai",
+      "ia"
+     ],
+     "a": "vai – Einleitung im Präsens (diz): nichts wird verschoben"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Ana sagte, dass sie am 22. nach Porto fahre.",
+     "satz": "A Ana disse que ia para o Porto no dia 22.",
+     "a": "A Ana disse que ia para o Porto no dia 22."
+    },
+    {
+     "q": "Meine Mutter fragte, ob ich wirklich nicht komme.",
+     "satz": "A minha mãe perguntou se eu não vinha mesmo.",
+     "a": "A minha mãe perguntou se eu não vinha mesmo."
+    },
+    {
+     "q": "Vasco sagte, dass die Wellen leer seien.",
+     "satz": "O Vasco disse que as ondas estavam vazias.",
+     "a": "O Vasco disse que as ondas estavam vazias."
+    },
+    {
+     "q": "Die Oma bat, dass ich sie anrufe.",
+     "satz": "A avó pediu que lhe ligasse.",
+     "a": "A avó pediu que lhe ligasse."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "A Ana ligou da biblioteca porque ainda tinha um exame para estudar.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – sie hat vor einer Stunde die letzte Prüfung beendet: „Estou livre até janeiro!“"
+    },
+    {
+     "q": "A Marie ainda não sabe quando vai ao Porto por causa do tio Tó.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – Tio Tó braucht sie am 23. oder am Tag davor, „o bolo-rei não se faz sozinho“."
+    },
+    {
+     "q": "A Ana disse à avó que a Marie trazia pão de Lisboa.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – obwohl Marie das nie gesagt hat. Ana kann nicht mehr zurück, weil die Oma sich so gefreut hat."
+    },
+    {
+     "q": "A Inês chega ao Porto no dia 22, com a Ana.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – erst an Heiligabend am Abend, nach der Arbeit: „O hospital não fecha no Natal.“"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Sie sagte, dass sie müde sei. → ___",
+     "a": "Ela disse que estava cansada. / Disse que estava cansada."
+    },
+    {
+     "q": "Er fragte, wann ich ankomme. → ___",
+     "a": "Ele perguntou quando é que eu chegava. / Ele perguntou quando eu chegava. / Perguntou quando é que eu chegava."
+    },
+    {
+     "q": "Lass wenigstens von dir hören! → ___",
+     "a": "Pelo menos dá notícias! / Dá notícias, pelo menos!"
+    },
+    {
+     "q": "Meine Mutter sagte, dass sie das Geschenk schon gekauft habe. → ___",
+     "a": "A minha mãe disse que já tinha comprado a prenda. / A minha mãe disse que já tinha comprado o presente."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: A última chamada",
+   "html": "Jetzt bist du dran. Denk an dein letztes eigenes Telefonat (oder die letzte Sprachnachricht, die du bekommen hast) und erzähle es in sechs Sätzen laut nach, so, als würdest du es João am Abend berichten. Baue ein: einen Satz mit <i>disse que</i> + imperfeito, einen mit <i>contou que</i> + <i>tinha</i> + particípio, einen mit <i>perguntou se</i> oder <i>perguntou quando</i>, einen mit <i>pediu que</i> + imperfeito do conjuntivo, und einmal eine verschobene Zeitangabe (<i>no dia seguinte, naquele dia</i>). Nimm dich auf und hör nach, ob die Zeit wirklich einen Schritt zurückgerutscht ist.<br><br>Anfänge: <i>Ontem falei com … · Ele/Ela disse que estava … · Contou que tinha … · Perguntou se eu … · Perguntou quando é que … · Pediu que lhe … · Disse que no dia seguinte ia … · No fim, respondi que …</i><br><br>Dann Maries Satz aus dem Dialog, mit einem Seufzer: <i>Eu nunca disse que trazia pão!</i> Und zum Schluss dreimal den Satz des Tages: <i>Disse que estava.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Kleine Geschichte: Três chamadas",
+   "audio": "s72",
+   "text": "Na terça-feira, 17 de dezembro, o telemóvel da Marie tocou três vezes numa noite. Ela estava no sofá, debaixo de duas mantas. O aquecedor novo, comprado nessa tarde, estava ligado desde as sete: duas horas por dia, nem um minuto mais.<br>A primeira chamada foi da Ana. Falou baixinho, da biblioteca de Coimbra, e contou que tinha acabado o último exame. Disse que ia para o Porto no dia 22 e perguntou quando é que a Marie chegava. A Marie respondeu que ainda não sabia, por causa do tio Tó. A Ana contou que a avó Carolina já tinha perguntado três vezes se a Marie vinha mesmo, e que ela lhe tinha dito que sim e que a Marie levava pão de Lisboa. Depois pediu que ligasse à avó e desligou.<br>A segunda chamada veio de Hamburgo. A mãe perguntou se a Marie não vinha mesmo passar o Natal a casa. A Marie explicou que tinha trabalho na padaria até perto do Natal e que depois ia para o Porto. A mãe ficou calada um momento. Depois disse que percebia e que já tinha comprado a prenda na mesma. Perguntou se a casa tinha aquecimento. A Marie disse que sim. Não era bem verdade: era um aquecedor, duas horas por dia. Mas era dezembro e a mãe estava longe.<br>A terceira não foi uma chamada, foi uma mensagem de voz do Vasco, com vento atrás. Disse que Sagres no inverno era outra terra: a Mareta vazia, as ondas todas para ele. Disse que, se a Marie quisesse, no verão tinha lá uma prancha com o nome dela. No fim disse «boa onda».<br>Às nove e meia, o João saiu do quarto para fazer um chá e a Marie contou-lhe tudo: que a Ana ia para o Porto no dia 22, que a avó tinha perguntado três vezes, que a mãe tinha comprado a prenda na mesma, que o Vasco tinha as ondas todas para ele.<br>O João ouviu, de casaco, com a chávena nas mãos.<br>— Então: a tua mãe acha que temos aquecimento, a avó da Ana acha que levas pão, e o Vasco acha que vais em junho. E tu disseste que sim a toda a gente.<br>— Mais ou menos.<br>— Pronto — disse o João. — Pelo menos foste simpática. Agora só precisas de um pão e de um bilhete. O aquecedor, pelo menos, já temos.",
+   "gloss": "Neu erschließen: o telemóvel = das Handy · tocar = klingeln · baixinho = ganz leise · desligar = auflegen · ficar calado / calada = still werden, schweigen · a prenda = das Geschenk · outra terra = ein anderer Ort, eine andere Welt · a chávena = die Tasse · toda a gente = alle, jeder",
+   "questions": [
+    {
+     "q": "A Ana pediu à Marie que ligasse à avó Carolina.",
+     "a": "Richtig – „Depois pediu que ligasse à avó.“ Die Oma hatte schon dreimal gefragt, ob Marie wirklich kommt."
+    },
+    {
+     "q": "A Marie disse à mãe que a casa na Graça tinha aquecimento.",
+     "a": "Richtig – aber es stimmt nur halb: ein Heizlüfter, zwei Stunden am Tag. „Mas era dezembro e a mãe estava longe.“"
+    },
+    {
+     "q": "O Vasco ligou e contou que Sagres no inverno estava cheio de surfistas.",
+     "a": "Falsch – es war eine Sprachnachricht, keine Chamada, und die Mareta war leer: „as ondas todas para ele“."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kann ich …?<br>· … weitererzählen, was jemand gesagt hat: <i>disse que, contou que, explicou que, respondeu que</i> + Nebensatz?<br>· … die Zeit einen Schritt zurücksetzen: <i>está → estava, acabei → tinha acabado, vou → ia, virei → viria</i>?<br>· … eine Frage wiedergeben mit <i>perguntou se</i> / <i>perguntou quando</i> und eine Bitte mit <i>pediu que</i> + imperfeito do conjuntivo (<i>pediu que lhe ligasse</i>)?<br>· … Pronomen und Zeitangaben mitwandern lassen: <i>eu → ela, hoje → naquele dia, amanhã → no dia seguinte, aqui → ali</i>?<br>· … am Telefon sagen, was Sache ist: <i>o assunto é outro, dá notícias, pelo menos, afinal, ainda bem</i>?<br><br>Drei Anrufe, drei Versprechen, und Marie hat zu allen „ja“ gesagt. Morgen ist der letzte Kurstag vor den Ferien: Professora Teresa verteilt die Hausaufgabe für die Ferien, Noor hat ein Geschenk für das Sofa, und alle wünschen sich etwas, höflich, im imperfeito do conjuntivo: <b>A última aula do ano.</b>"
+  }
+ ]
+}

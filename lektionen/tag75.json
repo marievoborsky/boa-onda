@@ -1,0 +1,417 @@
+{
+ "id": "tag75",
+ "title": "Bolo-rei",
+ "subtitle": "Staffel 3 · Woche 11 · Tag 75 · Der 23. Dezember in der Bäckerei · embora estivesse · Hörverstehen · ca. 35 Min.",
+ "sections": [
+  {
+   "type": "exercise",
+   "title": "1 · Aufwärmen (von Tag 74)",
+   "items": [
+    {
+     "q": "A Noor fala como se ___ de Lisboa. (ser)",
+     "a": "fosse"
+    },
+    {
+     "q": "Quem me dera que o comboio ___ mais cedo! (chegar)",
+     "a": "chegasse"
+    },
+    {
+     "q": "Quando (tu) ___ ao Porto, manda mensagem. (chegar)",
+     "opts": [
+      "chegares",
+      "chegasses"
+     ],
+     "a": "chegares – quando + Zukunft → futuro do conjuntivo; chegasses wäre das imperfeito"
+    },
+    {
+     "q": "umsteigen: ___ de comboio",
+     "a": "mudar"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "2 · Neue Wörter: Doces de Natal (16)",
+   "items": [
+    {
+     "pt": "o bolo-rei",
+     "de": "der Königskuchen (Weihnachtskranz aus Hefeteig mit kandierten Früchten und Nüssen)",
+     "ipa": "[ˈbolu ˈʁɐj]",
+     "audio": "v7501"
+    },
+    {
+     "pt": "o bolo-rainha",
+     "de": "der Königinnenkuchen (wie der bolo-rei, aber nur mit Nüssen, ohne kandierte Früchte)",
+     "ipa": "[ˈbolu ʁɐˈiɲɐ]",
+     "audio": "v7502"
+    },
+    {
+     "pt": "as filhós",
+     "de": "die Filhós (frittiertes Weihnachtsgebäck aus Hefeteig, mit Zucker und Zimt)",
+     "ipa": "[fiˈʎɔʃ]",
+     "audio": "v7503"
+    },
+    {
+     "pt": "as rabanadas",
+     "de": "die Rabanadas (in Milch und Ei getränkte, gebratene Brotscheiben – „Arme Ritter“ zu Weihnachten)",
+     "ipa": "[ʁɐbɐˈnadɐʃ]",
+     "audio": "v7504"
+    },
+    {
+     "pt": "os sonhos",
+     "de": "die Sonhos (frittierte Teigbällchen mit Zucker und Zimt; wörtlich: die Träume)",
+     "ipa": "[ˈsoɲuʃ]",
+     "audio": "v7505"
+    },
+    {
+     "pt": "a aletria",
+     "de": "die Aletria (süße Fadennudeln mit Ei und Zimt, Weihnachtsnachtisch)",
+     "ipa": "[ɐlɨˈtɾiɐ]",
+     "audio": "v7506"
+    },
+    {
+     "pt": "a fruta cristalizada",
+     "de": "die kandierten Früchte",
+     "ipa": "[ˈfɾutɐ kɾiʃtɐliˈzadɐ]",
+     "audio": "v7507"
+    },
+    {
+     "pt": "a fava",
+     "de": "die Saubohne (im bolo-rei versteckt: wer sie findet, kauft den nächsten)",
+     "ipa": "[ˈfavɐ]",
+     "audio": "v7508"
+    },
+    {
+     "pt": "a encomenda",
+     "de": "die Bestellung, die Vorbestellung",
+     "ipa": "[ẽkuˈmẽdɐ]",
+     "audio": "v7509"
+    },
+    {
+     "pt": "encomendar",
+     "de": "vorbestellen, bestellen (Ware)",
+     "ipa": "[ẽkumẽˈdaɾ]",
+     "audio": "v7510"
+    },
+    {
+     "pt": "embrulhar",
+     "de": "einpacken, einwickeln",
+     "ipa": "[ẽbɾuˈʎaɾ]",
+     "audio": "v7511"
+    },
+    {
+     "pt": "o embrulho",
+     "de": "das Päckchen, das eingepackte Paket",
+     "ipa": "[ẽˈbɾuʎu]",
+     "audio": "v7512"
+    },
+    {
+     "pt": "esgotar / esgotado, esgotada",
+     "de": "ausgehen, ausverkauft sein / ausverkauft",
+     "ipa": "[ɨʒɡuˈtaɾ / ɨʒɡuˈtadu]",
+     "audio": "v7513"
+    },
+    {
+     "pt": "sobrar",
+     "de": "übrig bleiben, übrig sein",
+     "ipa": "[suˈbɾaɾ]",
+     "audio": "v7514"
+    },
+    {
+     "pt": "a fita",
+     "de": "das Band, die Schleife (zum Einpacken)",
+     "ipa": "[ˈfitɐ]",
+     "audio": "v7515"
+    },
+    {
+     "pt": "a montra",
+     "de": "das Schaufenster",
+     "ipa": "[ˈmõtɾɐ]",
+     "audio": "v7516"
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "3 · Dica da Professora Teresa: Der Konjunktiv im Rückblick",
+   "html": "<i>(Professora Teresa, in den Ferien, per Nachricht an den Kurs; sie korrigiert nichts, sie erklärt nur:)</i> An Tag 62 haben Sie gelernt: <i>embora</i> nimmt immer den conjuntivo. <i><b>Embora esteja</b> cansada, vou à aula.</i> Das war die Gegenwart. Heute erzählt die Marie den 23. Dezember, und der ist vorbei. Dann rutscht alles eine Zeit zurück.<br><br><b>1 · Die Regel.</b> Steht der Hauptsatz in der Vergangenheit (<i>ficou, fez, saiu, ia</i>), dann steht nach <i>embora, mesmo que, para que, antes que, sem que</i> das <b>imperfeito do conjuntivo</b>:<br><i><b>Embora estivesse</b> cansada, ficou até às duas.</i> – Obwohl sie müde war, blieb sie bis zwei.<br><i><b>Mesmo que fosse</b> tarde, ia apanhar o comboio.</i> – Selbst wenn es spät würde, nahm sie den Zug.<br><i>Fez tudo <b>para que</b> ninguém <b>esperasse</b> por nada.</i> – Er tat alles, damit niemand umsonst wartete.<br><i>Embrulhou o bolo <b>antes que</b> o senhor Abílio <b>chegasse</b>.</i> – Sie packte den Kuchen ein, bevor Senhor Abílio kam.<br><i>Saiu <b>sem que</b> o tio Tó <b>dissesse</b> mais nada.</i> – Sie ging, ohne dass Tio Tó noch etwas sagte.<br><br><b>2 · Gegenwart und Vergangenheit nebeneinander.</b> Derselbe Satz, zwei Zeiten:<br><i>Embora <b>esteja</b> frio, a fila vai até à esquina.</i> (jetzt) · <i>Embora <b>estivesse</b> frio, a fila ia até à esquina.</i> (damals)<br><i>Faço o bolo para que a avó <b>prove</b>.</i> (jetzt) · <i>Fiz o bolo para que a avó <b>provasse</b>.</i> (damals)<br><i>Mesmo que <b>seja</b> tarde, vou.</i> (jetzt) · <i>Mesmo que <b>fosse</b> tarde, ia.</i> (damals)<br>Der Hauptsatz gibt die Zeit vor, der Nebensatz folgt. Mehr ist es nicht.<br><br><b>3 · Die Form</b> (von Tag 71, noch einmal): 3. Person Plural des pretérito perfeito, <i>-ram</i> weg, <i>-sse</i> dran. <i>estiveram → estivesse</i> · <i>foram → fosse</i> · <i>fizeram → fizesse</i> · <i>disseram → dissesse</i> · <i>esperaram → esperasse</i> · <i>chegaram → chegasse</i> · <i>tiveram → tivesse</i>. Mit <i>tu</i>: <i>estivesses</i>, mit <i>nós</i>: <i>estivéssemos</i> (Akzent!), mit <i>eles</i>: <i>estivessem</i>.<br><br><b>4 · Diminutive im Festwortschatz.</b> An Weihnachten wird in Portugal alles klein, aber nicht, weil es klein ist, sondern weil man es gern hat. <i>um <b>bolinho</b></i> (ein Küchlein), <i>um <b>pedacinho</b> de bolo-rei</i> (ein Stückchen), <i>um <b>docinho</b></i> (ein Süßes, eine Kleinigkeit), <i>um <b>bocadinho</b></i> (ein bisschen), <i>o bolo está <b>quentinho</b></i>. Die Großmutter wird sagen: <i>Come só mais um pedacinho.</i> Das heißt: ein großes Stück. Das Diminutiv ist in dieser Küche keine Mengenangabe, es ist eine Einladung.<br><br><b>Typischer Fehler:</b> <i>Embora estava cansada, ficou.</i> Nein. Nach <i>embora</i> gibt es keinen Indikativ, weder jetzt noch damals: <i>Embora <b>estivesse</b> cansada, ficou.</i> Und <i>mesmo que era tarde</i> gibt es auch nicht: <i>mesmo que <b>fosse</b> tarde</i>. Wenn Sie heute nur einen Satz mitnehmen: <i>Embora estivesse cansada, ficou.</i> Den braucht die Marie heute Abend im Zug."
+  },
+  {
+   "type": "note",
+   "title": "Dica do Tio Tó",
+   "html": "<i>(Tio Tó, am 23. Dezember um zwei Uhr nachmittags, mit einem eingepackten bolo-rei in den Händen. Vier Sätze, mehr nicht:)</i><br><b>Quem aguenta o dia vinte e três aguenta tudo.</b> – Wer den Dreiundzwanzigsten aushält, hält alles aus.<br><b>Este é para a avó da Ana.</b> – Der hier ist für Anas Großmutter.<br><b>Vai.</b> – Geh.<br><b>O pão espera por ninguém, mas o Natal espera por ti.</b> – Das Brot wartet auf niemanden, aber Weihnachten wartet auf dich.<br><i>(Dann dreht er sich zum Ofen. Mehr sagt er nicht.)</i>"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht, diesmal nicht aus Coimbra, sondern aus Porto:)</i> Cheguei ontem, Marie, und die Avó hat mich noch an der Tür gefragt, ob du wirklich pão aus Lissabon mitbringst – sie hat den bacalhau seit gestern im Wasser und sagt, Brot aus Lissabon sei <i>uma experiência</i>. Mein Tipp für heute, weil du in der Bäckerei keine Zeit zum Nachdenken hast: Wenn du den Tag hinterher erzählst, geht alles nach <i>embora</i>, <i>mesmo que</i> und <i>para que</i> auf <b>-sse</b>: <i>embora estivesse, mesmo que fosse, para que ninguém esperasse</i>. Nimm einfach die <i>eles</i>-Form von gestern (<i>estiveram, foram, esperaram</i>), schneid das <i>-ram</i> ab, und fertig. Und wenn der Tio Tó dir heute irgendetwas aus der Bäckerei mitgibt, bring es <b>ganz</b>, nicht angebissen: Mein Vater wartet schon mit dem Satz <i>o do Porto é melhor</i>, und ich will, dass er ihn mit vollem Mund sagen muss."
+  },
+  {
+   "type": "reading",
+   "title": "4 · Lesen: Entre dois clientes",
+   "hint": "Selbst erschlossen: a esquina = die Straßenecke (schon Tag 74) · sem falta = unbedingt, ganz sicher · pôr o nome = den Namen draufschreiben · vir buscar = abholen kommen · chega = das reicht · mais baixo = leiser · as cinco e nove = 17.09 Uhr. Montag, 23. Dezember, kurz vor sieben; die Schlange reicht bis zur Ecke, gerade ist eine Kundin gegangen, die nächste noch nicht am Tresen. Wie immer: Tio Tó duzt Marie; sie sagt „tio Tó“ und „o senhor“ mit der 3. Person.",
+   "lines": [
+    {
+     "who": "Marie",
+     "pt": "Tio Tó, a fila já vai até à esquina. A Dona Odete levou dois bolos-reis e as filhós da encomenda dela. Faltam as rabanadas para a senhora da farmácia.",
+     "audio": "d7501"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "As rabanadas saem às dez. Diz-lhe que volte.",
+     "audio": "d7502"
+    },
+    {
+     "who": "Marie",
+     "pt": "Já disse. Ela disse que voltava às onze, mas que o bolo-rainha era para hoje sem falta. Posso embrulhar já um e pôr o nome?",
+     "audio": "d7503"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "Põe. E põe fita, que é Natal.",
+     "audio": "d7504"
+    },
+    {
+     "who": "Marie",
+     "pt": "Fita, nome, encomenda número doze. E os sonhos? Um senhor perguntou e eu disse-lhe que estavam esgotados. Fiz bem?",
+     "audio": "d7505"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "Fizeste. Esgotado é esgotado.",
+     "audio": "d7506"
+    },
+    {
+     "who": "Marie",
+     "pt": "O senhor Abílio vem aí. Sete em ponto, mesmo no dia vinte e três.",
+     "audio": "d7507"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "Hoje não vem pela carcaça. Vem pelos bolos-reis. Três, todos os anos, um para cada filha.",
+     "audio": "d7508"
+    },
+    {
+     "who": "Marie",
+     "pt": "Três? Então desta fornada sobram só cinco para a fila toda. Quer que eu prepare outra fornada, tio Tó?",
+     "audio": "d7509"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "A massa está a crescer desde as cinco. Sai do forno ao meio-dia. Chega.",
+     "audio": "d7510"
+    },
+    {
+     "who": "Marie",
+     "pt": "Ao meio-dia. Eu saio às duas, o comboio é às cinco e nove e o João vem buscar-me às quatro.",
+     "audio": "d7511"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "Eu sei que horas são. Tenho um relógio.",
+     "audio": "d7512"
+    },
+    {
+     "who": "Marie",
+     "pt": "Eu sei que o senhor sabe. Só estou a organizar. Três bolos-reis para o senhor Abílio, embrulho com fita para a senhora da farmácia, dois sacos, o troco.",
+     "audio": "d7513"
+    },
+    {
+     "who": "Tio Tó",
+     "pt": "Então organiza mais devagar e fala mais baixo. Bom dia, senhor Abílio.",
+     "audio": "d7514"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5a · Konjunktiv im Rückblick: a forma certa",
+   "items": [
+    {
+     "q": "Embora ___ cansada, a Marie ficou até às duas. (estar)",
+     "a": "estivesse"
+    },
+    {
+     "q": "Mesmo que ___ tarde, ela ia apanhar o comboio. (ser)",
+     "a": "fosse"
+    },
+    {
+     "q": "O tio Tó fez tudo para que ninguém ___ na fila por nada. (esperar)",
+     "a": "esperasse"
+    },
+    {
+     "q": "A Marie embrulhou o bolo antes que o senhor Abílio ___. (chegar)",
+     "a": "chegasse"
+    },
+    {
+     "q": "Saiu da padaria sem que o tio Tó ___ mais nada. (dizer)",
+     "a": "dissesse"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5b · Presente ou imperfeito do conjuntivo? (antippen)",
+   "items": [
+    {
+     "q": "Embora ___ cansada, vou à padaria.",
+     "opts": [
+      "esteja",
+      "estivesse"
+     ],
+     "a": "esteja – Hauptsatz im Präsens (vou) → presente do conjuntivo"
+    },
+    {
+     "q": "Embora ___ cansada, fiquei até às duas.",
+     "opts": [
+      "esteja",
+      "estivesse"
+     ],
+     "a": "estivesse – Hauptsatz in der Vergangenheit (fiquei) → imperfeito do conjuntivo"
+    },
+    {
+     "q": "Faço o bolo para que ninguém ___ sem Natal.",
+     "opts": [
+      "fique",
+      "ficasse"
+     ],
+     "a": "fique – faço ist Gegenwart → presente"
+    },
+    {
+     "q": "Fez o bolo para que a avó ___ um pedacinho.",
+     "opts": [
+      "prove",
+      "provasse"
+     ],
+     "a": "provasse – fez ist Vergangenheit → imperfeito"
+    },
+    {
+     "q": "Mesmo que ___ tarde, o João vai buscar-me.",
+     "opts": [
+      "seja",
+      "fosse"
+     ],
+     "a": "seja – vai buscar-me ist Gegenwart/Zukunft → presente; fosse nur, wenn der Hauptsatz in der Vergangenheit stünde (ia buscar-me)"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5c · Satz bauen",
+   "items": [
+    {
+     "q": "Obwohl sie müde war, blieb sie bis zwei.",
+     "satz": "Embora estivesse cansada, ficou até às duas.",
+     "a": "Embora estivesse cansada, ficou até às duas."
+    },
+    {
+     "q": "Er tat alles, damit niemand wartete.",
+     "satz": "Fez tudo para que ninguém esperasse.",
+     "a": "Fez tudo para que ninguém esperasse."
+    },
+    {
+     "q": "Selbst wenn der Kuchen ausverkauft wäre, käme Senhor Abílio.",
+     "satz": "Mesmo que o bolo estivesse esgotado, o senhor Abílio vinha.",
+     "a": "Mesmo que o bolo estivesse esgotado, o senhor Abílio vinha."
+    },
+    {
+     "q": "Sie packte den Kuchen ein, bevor der Zug abfuhr.",
+     "satz": "Embrulhou o bolo antes que o comboio partisse.",
+     "a": "Embrulhou o bolo antes que o comboio partisse."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5d · Richtig oder falsch? (zum Dialog)",
+   "items": [
+    {
+     "q": "As rabanadas já estão prontas às sete da manhã.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – „As rabanadas saem às dez.“ Die Kundin aus der Apotheke soll um elf wiederkommen."
+    },
+    {
+     "q": "Os sonhos estão esgotados.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – Marie hat es einem Kunden gesagt, und Tio Tó bestätigt: „Esgotado é esgotado.“"
+    },
+    {
+     "q": "O senhor Abílio compra três bolos-reis, um para cada filha.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Richtig – „Três, todos os anos, um para cada filha.“ Heute kommt er nicht wegen der carcaça."
+    },
+    {
+     "q": "A Marie sai da padaria às quatro e o comboio parte às cinco.",
+     "opts": [
+      "Richtig",
+      "Falsch"
+     ],
+     "a": "Falsch – sie geht um zwei, João holt sie um vier ab, der Zug fährt um 17.09 Uhr („às cinco e nove“)."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "5e · Übersetze",
+   "items": [
+    {
+     "q": "Obwohl es kalt war, reichte die Schlange bis zur Ecke. → ___",
+     "a": "Embora estivesse frio, a fila ia até à esquina. / Embora fizesse frio, a fila ia até à esquina."
+    },
+    {
+     "q": "Die Filhós sind ausverkauft, aber es sind noch zwei Bolos-rainha übrig. → ___",
+     "a": "As filhós estão esgotadas, mas ainda sobram dois bolos-rainha."
+    },
+    {
+     "q": "Ich habe einen Bolo-rei für Heiligabend vorbestellt. → ___",
+     "a": "Encomendei um bolo-rei para a véspera de Natal."
+    },
+    {
+     "q": "Sie wickelte den Kuchen ein, damit er schön warm blieb. → ___",
+     "a": "Embrulhou o bolo para que ficasse quentinho."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "6 · Sprechen: O dia mais difícil",
+   "html": "Jetzt du. Erzähl deinen anstrengendsten Tag der letzten Zeit laut, in sechs Sätzen, in der Vergangenheit: Was war los, warum war es viel, wer hat gewartet, wie ging es aus. Drei Sätze sind Pflicht: einer mit <i>embora</i> + imperfeito do conjuntivo, einer mit <i>mesmo que</i> + imperfeito do conjuntivo, einer mit <i>para que</i> + imperfeito do conjuntivo. Der Hauptsatz steht jedes Mal in der Vergangenheit (<i>fiquei, fiz, saí, não parei</i>), sonst klappt die Regel nicht. Nimm dich auf und hör nach, ob nach <i>embora</i> wirklich ein <i>-sse</i> kommt und kein <i>estava</i>.<br><br>Anfänge: <i>Foi na … · Embora estivesse …, não parei. · Embora tivesse …, fiquei até … · Mesmo que fosse tarde, … · Mesmo que ninguém …, eu … · Fiz tudo para que … · Trabalhei … para que ninguém esperasse. · No fim, …</i><br><br>Dann Maries Tag in einem Satz, ruhig, ohne zu klagen: <i>Embora estivesse cansada, ficou até às duas.</i> Und zum Schluss, zweimal, Tio Tós letzter Satz, so knapp wie er: <i>O pão espera por ninguém, mas o Natal espera por ti.</i>"
+  },
+  {
+   "type": "story",
+   "title": "7 · Hörverstehen: O último bolo-rei",
+   "audio": "s75",
+   "listen": true,
+   "text": "Segunda-feira, vinte e três de dezembro, seis e meia da manhã. Quando a Marie abriu a porta da padaria, a fila já ia até à esquina. Estava frio, mas ninguém se queixava. Na véspera da véspera de Natal, as pessoas esperam pelo bolo-rei como esperam pelo elétrico: com paciência e sem pressa.<br>Dentro cheirava a canela e a fruta cristalizada. O tio Tó tinha feito trinta bolos-reis, doze bolos-rainha, três tabuleiros de filhós e, na noite anterior, uma panela de aletria que não era para vender. Era para ele.<br>Às sete em ponto, a porta abriu-se e o senhor Abílio disse a frase do costume: «Então, isto vai ou não vai?» Mas hoje não levou a carcaça nem a meia broa. Levou três bolos-reis, um para cada filha, como todos os anos, e pagou com notas, não com moedas.<br>— Embrulhe bem, menina, que um deles vai para Setúbal.<br>Os sonhos tinham-se esgotado antes das sete. As rabanadas saíram às dez e às onze já não havia. Às onze e meia, a Marie escreveu «ESGOTADO» num papel, por baixo da palavra «sonhos», e pôs o papel na montra, para que ninguém esperasse na fila por nada. Embora estivesse cansada, não se sentou. Mesmo que fosse só um bocadinho, não havia tempo. Encomenda número doze, fita, nome. Um menino perguntou se podia ficar com a fava. A mãe disse que não: a fava era para quem a encontrasse.<br>À uma, da última fornada, sobravam quatro bolos-reis. À uma e meia, dois. Às duas, um.<br>A Marie tirou o avental e olhou para o relógio. O tio Tó limpou as mãos, pegou no último bolo-rei, embrulhou-o ele próprio, com fita, e pôs-lho nas mãos.<br>— Quem aguenta o dia vinte e três aguenta tudo. Este é para a avó da Ana. Vai. O pão espera por ninguém, mas o Natal espera por ti.<br>Quatro frases. A Marie não disse nada, porque, se dissesse alguma coisa, chorava. Disse só «obrigada, tio Tó» e saiu com o embrulho ao colo, como se fosse um bebé.<br>Às quatro, o João parou a carrinha do tio Tó à porta do prédio, com cara de sono. Às cinco e nove, o Intercidades partiu de Santa Apolónia. A Marie sentou-se à janela, com o bolo-rei no colo, e só então percebeu que, em dez horas, não tinha comido nem um pedacinho.",
+   "gloss": "Erst hören (zweimal), dann die drei Fragen, dann lesen. Neu erschließen: queixar-se = sich beschweren · a canela = der Zimt · na noite anterior = am Abend davor · a nota = der Geldschein · ficar com = behalten · ele próprio = er selbst · pôr-lho nas mãos = es ihr in die Hände legen · chorar = weinen · ao colo = auf dem Arm, auf dem Schoß · com cara de sono = verschlafen, mit müdem Gesicht · só então = erst da. „A véspera da véspera de Natal“ = der Tag vor Heiligabend, also der 23.",
+   "questions": [
+    {
+     "q": "O senhor Abílio levou a carcaça e a meia broa do costume.",
+     "a": "Falsch – heute nimmt er drei bolos-reis, einen für jede Tochter, und zahlt mit Scheinen statt mit Münzen. Einer reist nach Setúbal."
+    },
+    {
+     "q": "Às onze e meia, a Marie pôs um papel na montra para que ninguém esperasse por nada.",
+     "a": "Richtig – „ESGOTADO“ auf einem Zettel; sonhos und rabanadas waren schon weg."
+    },
+    {
+     "q": "Quando o tio Tó lhe deu o último bolo-rei, a Marie respondeu com uma frase comprida.",
+     "a": "Falsch – sie sagte nur „obrigada, tio Tó“, weil sie sonst geweint hätte, und trug das Päckchen wie ein Baby hinaus."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "title": "Selbstcheck",
+   "html": "Kann ich …?<br>· … einen Rückblick mit <i>embora / mesmo que / para que / antes que / sem que</i> + imperfeito do conjuntivo erzählen: <i>embora estivesse, mesmo que fosse, para que ninguém esperasse</i>?<br>· … hören, ob der Hauptsatz jetzt oder damals spielt, und <i>esteja</i> gegen <i>estivesse</i> richtig wählen?<br>· … die portugiesischen Weihnachtssüßigkeiten nennen und erklären, was die fava im bolo-rei bedeutet?<br>· … am Tresen bestellen, vorbestellen, einpacken und „ausverkauft“ sagen: <i>encomendar, embrulhar com fita, está esgotado, ainda sobram dois</i>?<br>· … mit Diminutiven einladen statt messen: <i>um pedacinho, um docinho, um bocadinho, quentinho</i>?<br><br>Der bolo-rei sitzt auf Maries Schoß, der Intercidades fährt nach Norden, und in Porto liegt der bacalhau seit gestern im Wasser. Morgen ist der 24. Dezember bei Avó Carolina: <b>A Consoada.</b>"
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "id": "tag77",
+ "title": "Revisão IX – Wochentest",
+ "subtitle": "Staffel 3 · Woche 11 · Tag 77 · Mini-Test · 50 Punkte · ca. 40 Min.",
+ "sections": [
+  {
+   "type": "note",
+   "title": "So geht's",
+   "html": "Erst jede Aufgabe selbst lösen, dann prüfen und Punkte zählen – ohne Nachschauen. Woche 11 war die Woche des imperfeito do conjuntivo: Kälte in Graça und <i>se tivéssemos aquecimento</i>, drei Anrufe an einem Abend und <i>disse que estava</i>, die letzte Stunde mit Noors gelbem Schal und <i>gostava que</i>, Tio Tós Kompromiss mit <i>como se</i> und <i>quem me dera</i>, der 23. Dezember mit <i>embora estivesse cansada</i>, und die Consoada in Porto mit <i>oxalá</i>. Notier dir die Punkte pro Teil!"
+  },
+  {
+   "type": "note",
+   "title": "Dica da Ana",
+   "html": "<i>(Nachricht aus Porto, aus der Küche der Avó:)</i> Bevor du anfängst: Erzähl dir die Woche laut, in zwei Minuten – Thermometer, drei Anrufe, Schal, Bilhete, Schlange bis zur Ecke, bacalhau. Wenn dabei <i>se tivéssemos</i>, <i>disse que ia</i>, <i>era bom que houvesse</i>, <i>como se fosses</i> und <i>oxalá estivesse</i> vorkommen, ist der Test schon halb bestanden. Und mein Trick für alles: Nimm die <i>eles</i>-Form des Perfekts, schneid das <i>-ram</i> ab, häng <i>-sse</i> dran. Eine Regel, sechs Tage. Die Avó sagt, wer sich beim Konjunktiv beeilt, isst Salz. <i>Que corra bem!</i>"
+  },
+  {
+   "type": "exercise",
+   "title": "A · Vokabeln aus Woche 11 (10 P.)",
+   "items": [
+    {
+     "q": "die Heizung",
+     "a": "o aquecimento"
+    },
+    {
+     "q": "sparen",
+     "a": "poupar"
+    },
+    {
+     "q": "die Sprachnachricht",
+     "a": "a mensagem de voz"
+    },
+    {
+     "q": "von sich hören lassen",
+     "a": "dar notícias"
+    },
+    {
+     "q": "der Schal",
+     "a": "o cachecol"
+    },
+    {
+     "q": "die Frist, der Abgabetermin",
+     "a": "o prazo"
+    },
+    {
+     "q": "der freie Tag",
+     "a": "a folga"
+    },
+    {
+     "q": "der Fahrkartenschalter",
+     "a": "a bilheteira"
+    },
+    {
+     "q": "ausverkauft (männlich)",
+     "a": "esgotado"
+    },
+    {
+     "q": "die Scheibe, das Stück (Kuchen, Brot)",
+     "a": "a fatia"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "B · Se tivéssemos … – imperfeito do conjuntivo mit se (7 P.)",
+   "items": [
+    {
+     "q": "Se ___ uma lareira nesta casa, o João não dormia de casaco. (haver)",
+     "a": "houvesse"
+    },
+    {
+     "q": "Se eu ___ tu, comprava o aquecedor amanhã. (ser)",
+     "a": "fosse"
+    },
+    {
+     "q": "Se (tu) te ___, não tremias de frio. (agasalhar)",
+     "a": "agasalhasses"
+    },
+    {
+     "q": "Se ___ dinheiro no fim do mês, compro um cobertor.",
+     "opts": [
+      "tiver",
+      "tivesse"
+     ],
+     "a": "tiver – möglich und offen, Hauptsatz im Präsens → futuro do conjuntivo (Tag 61)"
+    },
+    {
+     "q": "Se a casa ___ aquecimento, a renda era o dobro.",
+     "opts": [
+      "tiver",
+      "tivesse"
+     ],
+     "a": "tivesse – die Wohnung hat keine Heizung, reine Annahme → imperfeito do conjuntivo"
+    },
+    {
+     "q": "Se eu tivesse dinheiro, ___ uma casa com lareira.",
+     "opts": [
+      "comprava",
+      "compro",
+      "compre"
+     ],
+     "a": "comprava – Hauptsatz gesprochen im imperfeito (geschrieben: compraria); nach einem se-Satz im imperfeito nie presente"
+    },
+    {
+     "q": "Wenn wir zwanzig Euro sparen könnten, würden wir eine Decke kaufen.",
+     "satz": "Se pudéssemos poupar vinte euros, comprávamos um cobertor.",
+     "a": "Se pudéssemos poupar vinte euros, comprávamos um cobertor."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "C · Disse que … – indirekte Rede (7 P.)",
+   "items": [
+    {
+     "q": "A Ana disse: «Estou livre até janeiro.» → A Ana disse que ___ livre até janeiro.",
+     "a": "estava"
+    },
+    {
+     "q": "O Vasco disse: «As ondas estão vazias.» → O Vasco disse que as ondas ___ vazias.",
+     "a": "estavam"
+    },
+    {
+     "q": "A mãe disse: «Já comprei a prenda.» → A mãe disse que já ___ a prenda.",
+     "a": "tinha comprado"
+    },
+    {
+     "q": "A avó pediu: «Liga-me.» → A avó pediu que lhe ___.",
+     "a": "ligasse"
+    },
+    {
+     "q": "«Vais mesmo para o Porto?» → O João perguntou ___ eu ia mesmo para o Porto.",
+     "opts": [
+      "se",
+      "que",
+      "quando"
+     ],
+     "a": "se – Ja/Nein-Frage → perguntou se; que wäre eine Aussage, quando eine Zeitfrage"
+    },
+    {
+     "q": "«Amanhã vou surfar aqui.» → O Vasco disse que ___ ia surfar ali.",
+     "opts": [
+      "no dia seguinte",
+      "amanhã",
+      "naquele dia"
+     ],
+     "a": "no dia seguinte – amanhã wandert mit, so wie aqui zu ali wird; naquele dia wäre hoje"
+    },
+    {
+     "q": "Meine Mutter fragte, ob ich wirklich nicht komme.",
+     "satz": "A minha mãe perguntou se eu não vinha mesmo.",
+     "a": "A minha mãe perguntou se eu não vinha mesmo."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "D · Gostaria que, era bom que – Wünsche und höfliche Bitten (5 P.)",
+   "items": [
+    {
+     "q": "Gostaria que a Noor ___ até janeiro. (ficar)",
+     "a": "ficasse"
+    },
+    {
+     "q": "Era bom que ___ aquecimento nesta sala. (haver)",
+     "a": "houvesse"
+    },
+    {
+     "q": "Queria que a Marie ___ o trabalho até janeiro.",
+     "opts": [
+      "entregue",
+      "entregasse"
+     ],
+     "a": "entregasse – queria que: imperfeito, abgeschwächt → imperfeito do conjuntivo; entregue nur nach quero que"
+    },
+    {
+     "q": "Am Tresen, gesprochen: ___ repetir, por favor?",
+     "opts": [
+      "Podia",
+      "Poderia",
+      "Possa"
+     ],
+     "a": "Podia – imperfeito, gesprochen; poderia ist richtig, klingt in Lissabon aber wie ein vorgelesener Brief"
+    },
+    {
+     "q": "Es wäre gut, wenn das Sofa wärmer wäre.",
+     "satz": "Era bom que o sofá fosse mais quente.",
+     "a": "Era bom que o sofá fosse mais quente."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "E · Como se, quem me dera, oxalá (5 P.)",
+   "items": [
+    {
+     "q": "Falas como se ___ de Lisboa. (ser)",
+     "a": "fosses"
+    },
+    {
+     "q": "Quem me dera que o comboio ___ mais cedo. (partir)",
+     "a": "partisse"
+    },
+    {
+     "q": "Oxalá a minha mãe ___ aqui. (Sie ist in Hamburg.)",
+     "opts": [
+      "esteja",
+      "estivesse"
+     ],
+     "a": "estivesse – unerfüllbar, sie ist weit weg → imperfeito do conjuntivo"
+    },
+    {
+     "q": "Oxalá o comboio ___ a horas.",
+     "opts": [
+      "chegue",
+      "chegasse"
+     ],
+     "a": "chegue – offen, das kann noch klappen → presente do conjuntivo"
+    },
+    {
+     "q": "Hätte ich doch drei freie Tage.",
+     "satz": "Quem me dera ter três folgas.",
+     "a": "Quem me dera ter três folgas."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "F · Embora estivesse – Konjunktiv in der Vergangenheit (6 P.)",
+   "items": [
+    {
+     "q": "Embora ___ cansada, a Marie ficou até às duas. (estar)",
+     "a": "estivesse"
+    },
+    {
+     "q": "O tio Tó fez tudo para que ninguém ___ na fila por nada. (esperar)",
+     "a": "esperasse"
+    },
+    {
+     "q": "Saiu da padaria sem que o tio Tó ___ mais nada. (dizer)",
+     "a": "dissesse"
+    },
+    {
+     "q": "Embora ___ frio, vou à padaria.",
+     "opts": [
+      "esteja",
+      "estivesse"
+     ],
+     "a": "esteja – Hauptsatz im Präsens (vou) → presente do conjuntivo"
+    },
+    {
+     "q": "Mesmo que ___ tarde, ela ia apanhar o comboio.",
+     "opts": [
+      "seja",
+      "fosse"
+     ],
+     "a": "fosse – Hauptsatz in der Vergangenheit (ia) → imperfeito do conjuntivo"
+    },
+    {
+     "q": "Sie packte den Kuchen ein, bevor der Zug abfuhr.",
+     "satz": "Embrulhou o bolo antes que o comboio partisse.",
+     "a": "Embrulhou o bolo antes que o comboio partisse."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "title": "G · Lesen: Mensagem do Vasco (6 P.)",
+   "audio": "r77",
+   "text": "Olá, Marie, feliz Natal! Desculpa o vento, estou na Mareta, acabei de sair da água. Sagres no inverno é assim: a praia vazia, a água a quinze graus e as ondas todas para mim. Hoje de manhã entrei sozinho, embora fizesse frio, e fiquei duas horas. Ninguém à espera, ninguém a cair. Quem me dera que fosse sempre assim. Mas também não: sem alunos não há dinheiro, e a carrinha precisa de pneus novos.<br>Então, e o Porto? O Tomás mandou-me uma mensagem à uma da manhã. Disse-me que tinha desembrulhado a prancha em trinta segundos e que depois não tinha conseguido dizer nada. Disse também que tu tinhas levado um bolo-rei de Lisboa e que o pai dele tinha dito que o do Porto era melhor. Pergunta: a avó comeu? Quantas fatias? Uma fatia é educação, duas são uma opinião.<br>Agora o assunto sério. Em junho preciso de alguém na escola: manhãs na praia, tardes na loja, julho e agosto a sério. Não é uma pergunta para hoje. Mas se tivesses tempo nas férias, pensava nisso. Fala com a tua professora, fala com o tio Tó, e depois diz-me. Oxalá digas que sim.<br>Pronto, a bateria está a acabar e a água estava boa. Boas Festas, Marie. Dá notícias. Boa onda.",
+   "gloss": "Erst lesen, dann anhören. Mittwoch, 25. Dezember, später Nachmittag, Sprachnachricht mit Wind im Hintergrund. Neu erschließen: acabar de (sair) = gerade (herausgekommen) sein · o pneu = der Reifen · conseguir = schaffen, können · a educação = die Höflichkeit · a escola (de surf) = die (Surf-)Schule · a loja = der Laden · a sério = richtig, ernsthaft · a bateria = der Akku. Richtig oder falsch:",
+   "questions": [
+    {
+     "q": "O Vasco gravou a mensagem na praia, depois de surfar.",
+     "a": "Richtig – „estou na Mareta, acabei de sair da água“, deshalb der Wind."
+    },
+    {
+     "q": "Em dezembro, a praia da Mareta está cheia de alunos.",
+     "a": "Falsch – „a praia vazia … as ondas todas para mim“. Ohne Schüler gibt es aber auch kein Geld für neue Reifen."
+    },
+    {
+     "q": "O Tomás contou ao Vasco que o pai tinha gostado do bolo-rei de Lisboa.",
+     "a": "Falsch – der Vater sagte, „o do Porto era melhor“. Deshalb fragt Vasco nach der Avó und den Scheiben."
+    },
+    {
+     "q": "O Vasco quer saber quantas fatias a avó comeu.",
+     "a": "Richtig – „Uma fatia é educação, duas são uma opinião.“ Wer Tag 76 gelesen hat, kennt die Antwort."
+    },
+    {
+     "q": "O Vasco precisa de alguém na escola em junho.",
+     "a": "Richtig – Vormittage am Strand, Nachmittage im Laden, Juli und August richtig. „Oxalá digas que sim.“"
+    },
+    {
+     "q": "A Marie tem de responder ainda hoje.",
+     "a": "Falsch – „Não é uma pergunta para hoje.“ Erst mit der Professora und Tio Tó reden, dann antworten."
+    }
+   ]
+  },
+  {
+   "type": "speak",
+   "title": "H · Schreiben: Desejos para o ano novo (4 P.)",
+   "html": "Schreib fünf Sätze über dein eigenes neues Jahr oder deine eigene Woche – ohne Spickzettel, jeder Satz mit einer anderen Struktur aus Woche 11. 1 Punkt pro korrektem Satz, höchstens 4: Einen Fehler hast du frei.<br><br>1. Ein Traum mit <i>se</i> + imperfeito do conjuntivo und Hauptsatz im imperfeito (<i>Se eu tivesse…, comprava… / Se fosse…, ia…</i>) · 2. Ein Satz in indirekter Rede, einen Schritt zurück (<i>Ele disse que estava… / Ela perguntou se eu…</i>) · 3. Ein Wunsch mit <i>gostava que</i> oder <i>era bom que</i> (<i>Gostava que o ano novo fosse… / Era bom que houvesse…</i>) · 4. Ein Vergleich mit <i>como se</i> oder ein Seufzer mit <i>quem me dera</i> (<i>Falo como se… / Quem me dera que…</i>) · 5. Eine Hoffnung mit <i>oxalá</i> (<i>Oxalá… chegue / Oxalá… estivesse…</i>)<br><br>Muster: <i>Se eu tivesse mais tempo, ia a Sagres em janeiro. A minha mãe perguntou se eu voltava no verão. Gostava que o ano novo fosse mais quente. Quem me dera que o sofá do João fosse melhor. Oxalá a Noor volte em janeiro com os mesmos erros.</i>"
+  },
+  {
+   "type": "note",
+   "title": "Auswertung (50 Punkte)",
+   "html": "<b>43–50:</b> Fantástico! Du kannst jetzt sagen, was wäre, wenn – mit <i>se tivesse</i>, <i>disse que estava</i>, <i>gostava que</i>, <i>como se</i>, <i>quem me dera</i>, <i>embora estivesse</i> und <i>oxalá</i>. Das ist der Konjunktiv in allen Zeiten, und der ist B1 mit Schal.<br><b>33–42:</b> Muito bem! Schau, wo die Punkte fehlen: Teil B → Tag 71 (<i>eles tiveram → tivesse</i>, Akzent in der nós-Form; <i>tiver</i> wenn es noch passieren kann, <i>tivesse</i> wenn nicht; nie „würde“ im <i>se</i>-Satz) · Teil C → Tag 72 (ein Schritt zurück: <i>está → estava, acabei → tinha acabado, vou → ia</i>; <i>perguntou se</i>, <i>pediu que</i> + imperfeito; <i>amanhã → no dia seguinte</i>) · Teil D → Tag 73 (<i>gostava / gostaria / queria / era bom que</i> + imperfeito do conjuntivo; <i>quero que</i> + presente; gesprochen <i>podia</i>, geschrieben <i>poderia</i>) · Teil E → Tag 74 und 76 (<i>como se</i> immer imperfeito; <i>quem me dera</i> immer imperfeito oder Infinitiv; <i>oxalá</i> + presente wenn erfüllbar, + imperfeito wenn nicht, ohne <i>que</i>) · Teil F → Tag 75 (Hauptsatz in der Vergangenheit → nach <i>embora, mesmo que, para que, antes que, sem que</i> imperfeito do conjuntivo). Sag zu dem schwächsten Teil zehn eigene Sätze laut.<br><b>unter 33:</b> Woche 11 hatte einen einzigen Baustein, den imperfeito do conjuntivo, und fünf Türen dazu. Wiederhole zuerst Tag 71 (die Form und der <i>se</i>-Satz – darauf baut alles auf), dann Tag 73 und 74 nebeneinander (Wünsche, <i>como se</i>, <i>quem me dera</i>: dieselbe Form, andere Anfänge), danach Tag 72 (indirekte Rede) und Tag 75 (Rückblick), zum Schluss Tag 76 für <i>oxalá</i>. Danach den Test noch einmal. <i>O bacalhau não foge.</i><br><br>Nächste Woche: <b>Primavera</b> – der 25 de Abril, eine Bewerbung für Sagres, und am Ende das Exame final B1."
+  },
+  {
+   "type": "story",
+   "title": "Bonus · Kleine Geschichte: A primeira noite do ano",
+   "audio": "s77",
+   "text": "Terça-feira, trinta e um de dezembro, onze e meia da noite. A Ribeira estava cheia de gente e de copos de plástico. Não chovia, mas o Douro respirava frio. A Marie tinha voltado ao Porto nessa tarde, depois do último turno do ano na padaria; o tio Tó fecha sempre no dia um, «para o forno descansar».<br>A Ana trazia um saco de papel com passas. Doze para cada um: Ana, Marie, Tomás e a Inês, que afinal tinha trocado o turno.<br>— Doze passas, doze badaladas, doze desejos — explicou a Ana. — Uma por cada mês. Em Espanha são uvas; aqui são passas, que são mais pequenas e ninguém se engasga.<br>— E se eu não tiver doze desejos? — perguntou a Marie.<br>— Inventas. Ou repetes. O Tomás pede a mesma coisa desde os oito anos.<br>— Este ano não — disse o Tomás. — Este ano já tenho a prancha.<br>À meia-noite, o relógio da torre começou a tocar e a Ribeira contou em voz alta. A Marie comeu a primeira passa e desejou que o sofá fosse melhor. A segunda: que a bolsa chegasse a horas. A terceira: que a Noor voltasse em janeiro com os mesmos erros. A quarta: que o pão continuasse direito. Na quinta desejou qualquer coisa sobre Sagres que não disse a ninguém. Depois perdeu a conta, mas comeu tudo. Oxalá contassem na mesma.<br>— Bom ano! — gritou a Ana, e deu-lhe dois beijos molhados. — Boas entradas!<br>— Igualmente — respondeu a Marie, com a boca ainda cheia.<br>Às zero horas e três minutos, o telemóvel vibrou no bolso. Vasco. Atendeu com o dedo gelado.<br>— Então? Comeste as doze?<br>— Comi. Perdi a conta na sexta.<br>— Não faz mal. Em Sagres contamos ondas, não passas. Bom ano, Marie.<br>— Bom ano, Vasco.<br>— E a pergunta de junho?<br>— Ainda não.<br>— Eu sei. Só queria ser a primeira chamada do ano.<br>Desligou. A Ana olhava para ela como se já soubesse tudo. A Marie guardou o telemóvel, pegou na passa que tinha ficado no fundo do saco e comeu-a a olhar para o rio. A décima terceira. Essa não contava para ninguém, só para ela.",
+   "gloss": "Zur Belohnung, ohne Punkte. Neu erschließen: o copo de plástico = der Plastikbecher · respirar = atmen · a badalada = der Glockenschlag · as uvas = die Weintrauben (in Spanien; in Portugal: passas) · engasgar-se = sich verschlucken · inventar = erfinden · a torre = der Turm · em voz alta = laut, mit lauter Stimme · perder a conta = sich verzählen · Boas entradas! = Guten Rutsch! · o bolso = die Hosentasche · atender = (das Telefon) abnehmen · o fundo = der Boden (des Beutels)",
+   "questions": [
+    {
+     "q": "Em Portugal, à meia-noite, comem-se doze uvas, como em Espanha.",
+     "a": "Falsch – in Portugal sind es passas: „aqui são passas, que são mais pequenas e ninguém se engasga“."
+    },
+    {
+     "q": "A Marie perde a conta dos desejos, mas come as doze passas.",
+     "a": "Richtig – ab der sechsten zählt sie nicht mehr, isst aber alles: „Oxalá contassem na mesma.“ Und danach noch eine dreizehnte, nur für sich."
+    },
+    {
+     "q": "O Vasco liga à meia-noite e três para saber a resposta sobre junho.",
+     "a": "Falsch – „Ainda não.“ – „Eu sei.“ Er wollte nur der erste Anruf des Jahres sein."
+    }
+   ]
+  }
+ ]
+}

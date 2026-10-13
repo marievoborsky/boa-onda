@@ -1083,9 +1083,9 @@ function scrollZurAktuellenLektion() {
 /* ---------- Lektionen ---------- */
 const WOCHEN = ['Woche 1 · Ich und du', 'Woche 2 · Meine Welt', 'Woche 3 · Mein Alltag', 'Woche 4 · Unterwegs',
   'Staffel 2 · Woche 5 · Porto, outra vez', 'Woche 6 · Coimbra', 'Woche 7 · A estrada', 'Woche 8 · Sagres, com responsabilidade',
-  'Staffel 3 · Woche 9 · Lisboa, outubro', 'Woche 10 · O curso'];
+  'Staffel 3 · Woche 9 · Lisboa, outubro', 'Woche 10 · O curso', 'Woche 11 · Inverno'];
 // Etappen-Vignetten je Woche (Staffel 2: Porto/Milfontes/Sagres wiederverwendet, Coimbra eigene Vignette)
-const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'coimbra', 'alentejo', 'sagres', 'lisboa', 'lisboa'];
+const ETAPPE_IMG = ['porto', 'lisboa', 'milfontes', 'sagres', 'porto', 'coimbra', 'alentejo', 'sagres', 'lisboa', 'lisboa', 'porto'];
 const LESSONS = [
   { id: 'tag01', label: 'Tag 1 · Olá!', sub: 'Begrüßen & sich vorstellen', w: 0 },
   { id: 'tag02', label: 'Tag 2 · De onde és?', sub: 'Herkunft & Nationalitäten', w: 0 },
@@ -1158,6 +1158,13 @@ const LESSONS = [
   { id: 'tag68', label: 'Tag 68 · A apresentação', sub: 'duvido que · Hörverstehen', w: 9 },
   { id: 'tag69', label: 'Tag 69 · Conversas de balcão', sub: 'Diminutive · pois, pronto, então', w: 9 },
   { id: 'tag70', label: 'Tag 70 · Revisão VIII', sub: 'Wochentest · 50 Punkte', w: 9 },
+  { id: 'tag71', label: 'Tag 71 · Frio em Lisboa', sub: 'se tivesse · imperfeito do conjuntivo', w: 10 },
+  { id: 'tag72', label: 'Tag 72 · O que é que ela disse?', sub: 'Indirekte Rede · disse que, perguntou se', w: 10 },
+  { id: 'tag73', label: 'Tag 73 · A última aula do ano', sub: 'gostaria que · era bom que', w: 10 },
+  { id: 'tag74', label: 'Tag 74 · Bilhete para o Porto', sub: 'como se · quem me dera', w: 10 },
+  { id: 'tag75', label: 'Tag 75 · Bolo-rei', sub: 'embora estivesse · Hörverstehen', w: 10 },
+  { id: 'tag76', label: 'Tag 76 · A Consoada', sub: 'oxalá · Festwünsche', w: 10 },
+  { id: 'tag77', label: 'Tag 77 · Revisão IX', sub: 'Wochentest · 50 Punkte', w: 10 },
 ];
 /* ---------- Reisekarte (A Viagem) ---------- */
 const ETAPPEN = [
@@ -1683,6 +1690,13 @@ const TEXTOS = [
   { tag: 'tag68', num: 68, title: 'O pão da Marie', nivel: 5, story: true },
   { tag: 'tag69', num: 69, title: 'O cliente das sete', nivel: 5, story: true },
   { tag: 'tag70', num: 70, title: 'A nota', nivel: 5, story: true },
+  { tag: 'tag71', num: 71, title: 'Doze graus', nivel: 5, story: true },
+  { tag: 'tag72', num: 72, title: 'Três chamadas', nivel: 5, story: true },
+  { tag: 'tag73', num: 73, title: 'A prenda da Noor', nivel: 5, story: true },
+  { tag: 'tag74', num: 74, title: 'A carrinha às cinco', nivel: 5, story: true },
+  { tag: 'tag75', num: 75, title: 'O último bolo-rei', nivel: 5, story: true },
+  { tag: 'tag76', num: 76, title: 'Bacalhau com todos', nivel: 5, story: true },
+  { tag: 'tag77', num: 77, title: 'A primeira noite do ano', nivel: 5, story: true },
 ];
 function renderTextos() {
   const el = document.getElementById('textos-list');
