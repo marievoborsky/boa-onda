@@ -1,8 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "studio.voborsky.boaonda",
-    "sha256_cert_fingerprints": ["37:2A:79:CB:02:4E:71:A1:B2:AF:C2:19:AD:AD:08:B2:A9:3B:34:29:9C:21:17:54:DD:30:BD:16:48:E9:D9:A4"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "studio.voborsky.boaonda",
+      "sha256_cert_fingerprints": [
+        "37:2A:79:CB:02:4E:71:A1:B2:AF:C2:19:AD:AD:08:B2:A9:3B:34:29:9C:21:17:54:DD:30:BD:16:48:E9:D9:A4",
+        "44:E3:7B:9D:C5:EC:FE:AD:EA:B8:BF:19:D5:BF:54:FC:4F:5B:39:2D:8C:51:DD:F8:1F:E8:E9:68:EA:90:9A:99"
+      ]
+    }
   }
-}]
+]
