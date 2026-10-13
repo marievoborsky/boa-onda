@@ -36,10 +36,11 @@
     --sea-pale: #cdeae4;
     --sea-ink: #1b7267;      /* Türkis-Schrift (Zähler, Prozent, Prüfen) */
     --on-sea: #26203a;       /* Schrift auf --sea (Weiß hätte 2,3:1) */
-    --clay: #c94726;         /* Klippen-Rot / Terracotta – Flächen (vorher #d9502e, Weiß darauf 4,1:1) */
-    --clay-text: #c94726;    /* Terracotta-Schrift auf Karte */
-    --clay-ink: #9e3818;     /* Terracotta-Schrift auf --clay-soft */
-    --clay-soft: #f3cdb9;
+    --clay: #e0893a;         /* Boa-Onda-Orange, etwas dunkler als das Logo – Flächen (seit 13.10.; Schrift darauf ist --on-clay, Weiß hätte nur 2,7:1) */
+    --on-clay: #33294a;      /* Schrift auf --clay (5,0:1) */
+    --clay-text: #a8581a;    /* Orange-Schrift auf Karte (5,1:1) und Papier (4,5:1) */
+    --clay-ink: #8a4a12;     /* Orange-Schrift auf --clay-soft (5,1:1) */
+    --clay-soft: #f8d9b8;
     --sand: #ecd9b4;
     --sand-ink: #7a5d12;
     --scrim: rgba(51,41,74,.45);
@@ -59,9 +60,9 @@
       --lav-ink: #d5caf5;
       --sea-pale: #1e4744;
       --sea-ink: #86dfd0;
-      --clay-soft: #4d2a20;
-      --clay-text: #f2a184;
-      --clay-ink: #f2a184;
+      --clay-soft: #4a3220;
+      --clay-text: #f3b26b;
+      --clay-ink: #f3b26b;
       --sand: #4a3d2a;
       --sand-ink: #e9c98a;
       --scrim: rgba(0,0,0,.6);
@@ -160,7 +161,7 @@
   .spot.dica-note:active { transform: none; }
   .mixbtn {
     width: 100%; border: none; border-radius: 14px; padding: 1.05rem;
-    background: var(--clay); color: #fff; font-size: 1rem; font-weight: 800;
+    background: var(--clay); color: var(--on-clay); font-size: 1rem; font-weight: 800;
     font-family: inherit; cursor: pointer; margin: .2rem 0 1.2rem;
     letter-spacing: .02em; transform: rotate(-.5deg);
     box-shadow: 0 6px 18px rgba(217,80,46,.35);
@@ -199,7 +200,7 @@
     font-size: 1rem; font-weight: 800; font-family: inherit; cursor: pointer; color: #fff;
   }
   .again { background: var(--lav-deep); transform: rotate(.4deg); }
-  .good { background: var(--clay); transform: rotate(-.4deg); }
+  .good { background: var(--clay); color: var(--on-clay); transform: rotate(-.4deg); }
 
   /* ---------- Quiz ---------- */
   .qword { font-family: "Roboto Mono", monospace; font-weight: 300;
@@ -215,7 +216,7 @@
   .opt:nth-child(odd)  { transform: rotate(.3deg); }
   .opt:nth-child(even) { transform: rotate(-.3deg); }
   .opt.right { background: var(--sea); color: var(--on-sea); }
-  .opt.wrong { background: var(--clay); color: #fff; }
+  .opt.wrong { background: var(--clay); color: var(--on-clay); }
 
   /* ---------- Ende ---------- */
   .done { text-align: center; padding: 3rem 0; display: none; position: relative; z-index: 1; }
@@ -269,7 +270,7 @@
   .recbtn { border: none; background: var(--clay-soft); color: var(--clay-ink);
     border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .4rem; margin: -.4rem; cursor: pointer;
     display: flex; align-items: center; justify-content: center; background-clip: content-box; }
-  .recbtn.rec { background: var(--clay); color: #fff; animation: recpulse 1s infinite; }
+  .recbtn.rec { background: var(--clay); color: var(--on-clay); animation: recpulse 1s infinite; }
   .recbtn.err { background: var(--line); color: var(--ink-soft); }
   @keyframes recpulse { 50% { transform: scale(1.18); } }
   .myplay { border: none; background: var(--lav-pale); color: var(--lav-ink);
@@ -311,7 +312,7 @@
     font-weight: 600; font-family: "Space Grotesk", sans-serif; white-space: nowrap;
     background: var(--card); color: var(--ink-soft);
     box-shadow: 0 2px 8px rgba(51,41,74,.08); cursor: pointer; flex: none; }
-  .chip.on { background: var(--clay); color: #fff; }
+  .chip.on { background: var(--clay); color: var(--on-clay); }
   .searchrow { display: flex; align-items: center; gap: .5rem; background: var(--card);
     border-radius: 12px; padding: .1rem .8rem; box-shadow: 0 2px 10px rgba(51,41,74,.08);
     margin-bottom: .8rem; color: var(--ink-soft); min-height: 44px; }
@@ -430,7 +431,7 @@
   .recword { border: none; background: var(--clay-soft); color: var(--clay-ink); border-radius: 999px; padding: .55rem 1rem;
     min-height: 44px; font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .8rem; cursor: pointer;
     display: inline-flex; align-items: center; gap: .4rem; }
-  .recword.rec { background: var(--clay); color: #fff; animation: recpulse 1s infinite; }
+  .recword.rec { background: var(--clay); color: var(--on-clay); animation: recpulse 1s infinite; }
   .recword.err { background: var(--line); color: var(--ink-soft); }
   .speakchk { display: none; gap: .2rem; margin-top: .5rem; align-items: center; flex-wrap: wrap; }
   .speakchk .hint { margin: 0 .5rem 0 0; }
@@ -1397,7 +1398,7 @@ function renderLessons() {
       right = (tst ? `<div class="mono" style="font-size:.75rem; color:var(--sea-ink); white-space:nowrap">${tst.punkte}/${tst.max}</div>` : '')
         + `<div style="width:26px; height:26px; border-radius:50%; background:var(--sea-pale); color:var(--sea-ink); display:flex; align-items:center; justify-content:center; flex:none">${CHECK_SVG}</div>`;
     }
-    else if (l === next) right = '<div class="mono" style="font-size:.75rem; letter-spacing:.12em; text-transform:uppercase; background:var(--clay); color:#fff; border-radius:999px; padding:.3rem .6rem; flex:none">Heute</div>';
+    else if (l === next) right = '<div class="mono" style="font-size:.75rem; letter-spacing:.12em; text-transform:uppercase; background:var(--clay); color:var(--on-clay); border-radius:999px; padding:.3rem .6rem; flex:none">Heute</div>';
     const div = kachel('spot', () => openLesson(l.id));
     div.id = 'lek-' + l.id;
     if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', l.label + ' – gesperrt, Premium freischalten'); }
