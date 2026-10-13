@@ -728,6 +728,7 @@ function leererStore() {
 let store = ladeStore();
 /* Konto (optional, Supabase): Client, angemeldete Nutzerin, Sync-Timer – siehe Abschnitt KONTO & SYNC */
 let kontoClient = null, kontoUser = null, kontoBereit = false, syncTimer = null;
+let kontoGrund = '', paywallCodeMerken = '';   // Konto vor Kauf/Code: Grund fürs Sheet + gemerkter Code
 /* Nur schreiben – ohne Sync anzustoßen (für Änderungen, die der Sync selbst macht) */
 function saveStill() { try { localStorage.setItem('ep-sagres', JSON.stringify(store)); } catch (e) {} }
 function save() {
@@ -926,8 +927,9 @@ function renderHome() {
         <div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin:-.7rem 0 1.2rem .3rem">${zu ? next.label + ' · Premium' : next.sub} · ${done} von ${LESSONS.length} Lektionen</div>`;
     }
   }
-  // Konto-Hinweis: dezent, erst ab drei Lektionen, nur ohne Anmeldung, einmal wegklickbar (store.ui.kontoHinweis)
-  if (done >= 3 && kontoBereit && !kontoUser && !store.ui.kontoHinweis) {
+  // Konto-Hinweis: ab der ersten Lektion, nur ohne Anmeldung; „Später" blendet ihn 7 Tage aus (store.ui.kontoHinweis = Zeitstempel)
+  const khZeit = typeof store.ui.kontoHinweis === 'number' ? store.ui.kontoHinweis : 0;
+  if (done >= 1 && kontoClient && kontoBereit && !kontoUser && Date.now() - khZeit > 7 * 864e5) {
     const kh = kachel('spot dica-note', () => zeigeKonto());
     kh.id = 'konto-hinweis';
     kh.style.cursor = 'pointer';
@@ -935,7 +937,7 @@ function renderHome() {
       <div class="icon">${MAIS_SVG.user}</div>
       <div class="info">
         <div class="theme">Fortschritt sichern?</div>
-        <div class="name" style="font-size:.9rem; font-weight:500">Mit einem Konto lernst du auf allen Geräten weiter.</div>
+        <div class="name" style="font-size:.9rem; font-weight:500">Code per Mail, kein Passwort. Dann lernst du auf allen Geräten weiter.</div>
       </div>
       <button class="kicker" style="border:none; background:none; cursor:pointer; min-height:44px; padding:0 .4rem; flex:none" aria-label="Hinweis ausblenden" onclick="event.stopPropagation(); kontoHinweisWeg()">Später</button>`;
     main.appendChild(kh);
@@ -1018,6 +1020,7 @@ function dialogOeffnen(el, titelId) {
 }
 function dialogSchliessen(el) {
   if (!el) return;
+  if (el.id === 'konto-sheet') kontoGrund = '';   // Sheet zu ohne Login: kein Rücksprung in die Paywall mehr
   el.style.display = 'none';
   if (dialogVorher && dialogVorher.focus && document.contains(dialogVorher)) { try { dialogVorher.focus(); } catch (e) {} }
   dialogVorher = null;
@@ -1471,10 +1474,37 @@ function zeigeAbschluss(l, neue, test) {
         </div>
       </div>
       <div class="mono" style="font-size:.76rem; line-height:1.7; color:var(--ink); margin-bottom:1.1rem">${test ? `<b style="font-weight:400; color:var(--sea-ink)">Revisão: ${test.punkte} / ${test.max} Punkte</b><br>` : ''}${lektionGeloest} ${lektionGeloest === 1 ? 'Übung' : 'Übungen'} gelöst · ${neue} ${neue === 1 ? 'neues Wort' : 'neue Wörter'} in deinem Heft<br>${zeile2}</div>
+      ${abschlussKontoHTML(l)}
       <button class="mixbtn" style="margin:0 0 .6rem; transform:none" onclick="abschlussZumKurs()">Zum Kurs</button>
       ${next ? `<button class="mixbtn" style="margin:0; transform:none; background:var(--lav-deep); box-shadow:0 6px 18px rgba(127,110,194,.3)" onclick="abschlussWeiter('${next.id}')">${weiter}</button>` : ''}
     </div>`;
   dialogOeffnen(el, 'abschluss-titel');
+}
+/* Nach der ersten Lektion: Konto direkt im Abschluss anbieten (nur ohne Anmeldung, nur wenn der Login verfügbar ist) */
+function abschlussKontoHTML(l) {
+  const erste = l.id === 'tag01' || LESSONS.filter(x => store.lessons[x.id]).length <= 1;
+  if (!erste || !kontoClient || kontoUser || !navigator.onLine) return '';
+  return `
+      <div style="background:var(--lav-pale); border-radius:16px; padding:.85rem .95rem; margin-bottom:1rem">
+        <div style="font-weight:700; font-size:.95rem; margin-bottom:.15rem">Fortschritt sichern?</div>
+        <div style="font-size:.82rem; line-height:1.5; margin-bottom:.6rem">Kein Passwort – du bekommst einen Code per Mail. Dann läuft dein Lernstand auf allen Geräten weiter.</div>
+        <div style="display:flex; gap:.5rem">
+          <input id="abschluss-mail" class="exin" type="email" inputmode="email" autocomplete="email" autocapitalize="off" autocorrect="off" spellcheck="false"
+            placeholder="deine@mail.de" aria-label="E-Mail-Adresse" value="${kontoMail.replace(/"/g, '')}" style="flex:1; min-width:0; margin:0"
+            onkeydown="if (event.key === 'Enter') abschlussKonto()">
+          <button onclick="abschlussKonto()" style="border:none; border-radius:10px; padding:0 .9rem; background:var(--lav-deep); color:#fff; font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px; flex:none">Code schicken</button>
+        </div>
+      </div>`;
+}
+async function abschlussKonto() {
+  const inp = document.getElementById('abschluss-mail');
+  if (!inp) return;
+  const btn = inp.nextElementSibling;
+  const ok = await kontoCodeAnfordern(inp, btn);
+  if (!ok) return;
+  schliesseAbschluss();
+  goTab('kurs');
+  zeigeKonto();   // zeigt das Code-Feld
 }
 function schliesseAbschluss() { dialogSchliessen(document.getElementById('abschluss')); }
 function abschlussZumKurs() {
@@ -3051,9 +3081,9 @@ function zeigePaywall() {
           <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem" onclick="kaufen('abo')">5,99 € / Monat</button>
           <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem; background:var(--lav-deep)" onclick="kaufen('einmal')">29,99 € einmal</button>
         </div>
-        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo jederzeit kündbar · Einmalkauf ist der Launch-Preis · Tag 1 bis 15 bleiben gratis</div>
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo jederzeit kündbar · Einmalkauf ist der Launch-Preis · Tag 1 bis 15 bleiben gratis<br>Premium gehört zu deinem Konto, nicht zum Gerät</div>
         <div style="display:flex; gap:.5rem">
-          <input id="pw-code" class="exin" placeholder="Code einlösen …" autocapitalize="characters" autocorrect="off" spellcheck="false"
+          <input id="pw-code" class="exin" placeholder="Code einlösen …" value="${paywallCodeMerken.replace(/"/g, '')}" autocapitalize="characters" autocorrect="off" spellcheck="false"
             onkeydown="if (event.key === 'Enter') codeEinloesen()">
           <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
         </div>
@@ -3063,6 +3093,8 @@ function zeigePaywall() {
     document.body.appendChild(el);
   }
   const inp = document.getElementById('pw-code'); if (inp) inp.value = '';
+  const pc = document.getElementById('pw-code');
+  if (pc && paywallCodeMerken) { pc.value = paywallCodeMerken; paywallCodeMerken = ''; }
   dialogOeffnen(el, 'paywall-titel');
 }
 function zeigeAnki() {
@@ -3090,7 +3122,16 @@ function zeigeAnki() {
   dialogOeffnen(el, 'anki-titel');
 }
 function schliessePaywall() { dialogSchliessen(document.getElementById('paywall')); }
+/* Premium gehört zum Konto, nicht zum Gerät: ohne Anmeldung erst Konto, danach geht es in der Paywall weiter */
+function kontoVorKauf(grund) {
+  const inp = document.getElementById('pw-code');
+  paywallCodeMerken = inp ? (inp.value || '').trim() : '';
+  kontoGrund = grund;
+  schliessePaywall();
+  zeigeKonto();
+}
 function kaufen(art) {
+  if (kontoClient && !kontoUser) { kontoVorKauf('kauf'); return; }
   // Hier hängt sich später die Store-Kasse ein (Play Billing über die Digital Goods API,
   // auf iOS StoreKit über die native Hülle; art = 'abo' | 'einmal'). Bis zur Store-Version gibt es nur Codes.
   meldung('Der Kauf kommt mit der App-Store-Version. Bis dahin: Code eingeben (unten) oder Tag 15 gratis ausprobieren.');
@@ -3099,6 +3140,7 @@ async function codeEinloesen() {
   const inp = document.getElementById('pw-code');
   const code = (inp.value || '').trim().toUpperCase().replace(/\s+/g, '');
   if (!code) { inp.focus(); return; }
+  if (kontoClient && !kontoUser) { kontoVorKauf('code'); return; }
   let hex = '';
   try {
     const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(code));
@@ -3295,7 +3337,19 @@ function kontoEreignis(ev, session) {
   if (ev === 'INITIAL_SESSION') kontoBereit = true;
   if (ev === 'SIGNED_OUT' || (!u && vorher)) { kontoAbgemeldet(); return; }
   if (u && u.id !== vorher) {
-    if (ev === 'SIGNED_IN') { kontoMailGesendet = false; meldung('Angemeldet als ' + u.email + '. Dein Lernstand wird abgeglichen.'); }
+    if (ev === 'SIGNED_IN') {
+      kontoMailGesendet = false; meldung('Angemeldet als ' + u.email + '. Dein Lernstand wird abgeglichen.');
+      if (kontoGrund) {
+        const g = kontoGrund; kontoGrund = '';
+        setTimeout(() => {
+          if (istPremium()) { paywallCodeMerken = ''; return; }   // Konto hatte schon Premium
+          dialogSchliessen(document.getElementById('konto-sheet'));
+          zeigePaywall();
+          const inp = document.getElementById('pw-code');
+          if (inp && g === 'code' && inp.value) codeEinloesen(); else if (inp) inp.focus();
+        }, 1200);
+      }
+    }
     kontoSync(ev === 'SIGNED_IN' ? 'login' : 'start');
   }
   kontoNeuZeichnen(true);
@@ -3383,7 +3437,7 @@ function kontoNeuZeichnen(nurSheet) {
   }
 }
 function kontoHinweisWeg() {
-  store.ui.kontoHinweis = true; save();
+  store.ui.kontoHinweis = Date.now(); save();
   const el = document.getElementById('konto-hinweis');
   if (el) el.remove();
 }
@@ -3457,12 +3511,13 @@ function zeigeKonto() {
     inner = `
       <div class="kicker">Dein Konto</div>
       <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Auf allen Geräten weiterlernen</h2>
+      ${kontoGrund ? `<div style="background:var(--lav-pale); border-radius:12px; padding:.6rem .8rem; font-size:.85rem; line-height:1.5; margin-bottom:.8rem">${kontoGrund === 'code' ? 'Zum Einlösen des Codes brauchst du ein Konto – so gehört Premium dir und nicht dem Gerät. Danach geht es direkt weiter.' : 'Zum Kaufen brauchst du ein Konto – so gehört Premium dir und nicht dem Gerät. Danach geht es direkt weiter.'}</div>` : ''}
       <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem">Mit einem Konto wird dein Fortschritt gesichert und läuft auf allen Geräten weiter. Premium gehört dann zu dir, nicht zum Gerät. Kein Passwort: Du bekommst ${KONTO_CODE_IN_MAIL ? 'einen Code' : 'einen Anmelde-Link'} per E-Mail.</div>
       <input id="konto-mail" class="exin" type="email" inputmode="email" autocomplete="email" autocapitalize="off" autocorrect="off" spellcheck="false"
         placeholder="deine@mail.de" aria-label="E-Mail-Adresse" value="${kontoMail.replace(/"/g, '')}" style="width:100%; margin-bottom:.6rem"
         onkeydown="if (event.key === 'Enter') kontoLinkSenden()">
       ${knopf(KONTO_CODE_IN_MAIL ? 'Code schicken' : 'Link schicken', 'kontoLinkSenden()')}
-      <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; line-height:1.5; margin-top:.4rem">Freiwillig – ohne Konto bleibt alles wie bisher auf diesem Gerät.<br>E-Mail und Lernstand liegen bei Supabase in Frankfurt (EU), löschbar jederzeit.</div>
+      <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; line-height:1.5; margin-top:.4rem">${kontoGrund ? '' : 'Freiwillig – ohne Konto bleibt alles wie bisher auf diesem Gerät.<br>'}E-Mail und Lernstand liegen bei Supabase in Frankfurt (EU), löschbar jederzeit.</div>
       ${zu}`;
   }
   el.innerHTML = `<div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">${inner}</div>`;
@@ -3471,23 +3526,29 @@ function zeigeKonto() {
 }
 async function kontoLinkSenden() {
   const inp = document.getElementById('konto-mail');
-  if (!inp || !kontoClient) return;
+  if (!inp) return;
+  const ok = await kontoCodeAnfordern(inp, inp.nextElementSibling);
+  if (ok) zeigeKonto();
+}
+/* Liest die Adresse aus einem Eingabefeld, fordert den Code an; true bei Erfolg (kontoMail/kontoMailGesendet sind dann gesetzt) */
+async function kontoCodeAnfordern(inp, btn) {
+  if (!inp || !kontoClient) return false;
   const email = (inp.value || '').trim().toLowerCase();
   const fehl = text => { inp.classList.add('exfehl'); setTimeout(() => inp.classList.remove('exfehl'), 700); meldung(text); inp.focus(); };
-  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { fehl('Bitte eine gültige E-Mail-Adresse eingeben.'); return; }
-  if (!navigator.onLine) { meldung('Du bist offline – für den Anmelde-Link braucht es kurz Netz.'); return; }
-  const btn = inp.nextElementSibling;
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { fehl('Bitte eine gültige E-Mail-Adresse eingeben.'); return false; }
+  if (!navigator.onLine) { meldung('Du bist offline – für den Code braucht es kurz Netz.'); return false; }
+  const alt = btn ? btn.textContent : '';
   if (btn) { btn.disabled = true; btn.textContent = 'Wird geschickt …'; }
   try {
     const { error } = await kontoClient.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname } });
     if (error) throw error;
   } catch (e) {
-    if (btn) { btn.disabled = false; btn.textContent = KONTO_CODE_IN_MAIL ? 'Code schicken' : 'Link schicken'; }
+    if (btn) { btn.disabled = false; btn.textContent = alt; }
     fehl(kontoFehlerText(e));
-    return;
+    return false;
   }
   kontoMail = email; kontoMailGesendet = true;
-  zeigeKonto();
+  return true;
 }
 async function kontoCodeBestaetigen() {
   const inp = document.getElementById('konto-code');
