@@ -167,6 +167,9 @@
     letter-spacing: .02em; transform: rotate(-.5deg);
     box-shadow: 0 6px 18px rgba(217,80,46,.35);
   }
+  /* Lavendel-Variante (Zweitknopf in Paywall, Abschluss, Konto, Anki, Jogos): --lav-deep ist eine Fläche
+     für weiße Schrift – die dunkle Orange-Schrift (--on-clay) hätte darauf nur 2,5:1 */
+  .mixbtn[style*="--lav-deep"] { color: #fff; }
 
   /* ---------- Karte (Lernen) ---------- */
   .session { display: none; }
@@ -1196,7 +1199,7 @@ const KARTEN = [
     seg: [[0.03, 0.19], [0.22, 0.50], [0.55, 0.78], [0.80, 0.97]],
     // Flug Sagres → Porto als gepunkteter Bogen über Land
     extra: '' },
-  { w0: 8, titel: 'Um ano em Lisboa · Staffel 3 · B1', rechts: [2, 3], teaser: false, img: 'karte-lisboa.webp',
+  { w0: 8, titel: 'Um ano em Lisboa · Staffel 3 · B1', rechts: [1, 2, 3], teaser: false, img: 'karte-lisboa.webp',
     etappen: [
       { name: 'Graça',      sub: 'Woche 9 · Lisboa, outubro', frac: 0.03 },
       { name: 'Cidade Universitária', sub: 'Woche 10 · O curso', frac: 0.36 },
