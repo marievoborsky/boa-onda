@@ -1,6 +1,6 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v46';
+const SHELL = 'boa-onda-shell-v47';
 const AUDIO = 'boa-onda-audio-v1';
 // Vorab nur der Vokabel-Index und die erste Woche; jede weitere Lektion landet beim
 // ersten Öffnen im Cache (siehe fetch: Netz zuerst, Antwort wird gespeichert).
@@ -12,8 +12,6 @@ const CORE = [
   './fonts/fonts.css',
   './fonts/robotomono-af121f2f.woff2',
   './fonts/robotomono-fe832705.woff2',
-  './fonts/spacegrotesk-a57c9413.woff2',
-  './fonts/spacegrotesk-e911c2d9.woff2',
   './avatare/marie.webp', './avatare/ana.webp', './avatare/joao.webp', './avatare/vasco.webp', './avatare/martim.webp', './avatare/tiago.webp', './avatare/ines.webp', './avatare/carolina.webp', './avatare/tio.webp', './avatare/professora.webp',
   './etappen/porto.webp', './etappen/lisboa.webp', './etappen/milfontes.webp', './etappen/sagres.webp', './etappen/coimbra.webp', './etappen/alentejo.webp',
   './fotos/sagres-mareta.webp', './fotos/sagres-baia.webp', './fotos/sagres-vale.webp', './fotos/sagres-praia.webp', './fotos/sagres-falesia.webp', './fotos/sagres-estrada.webp',

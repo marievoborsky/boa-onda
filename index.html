@@ -16,7 +16,7 @@
 <link rel="icon" href="icons/icon-192.png">
 <link href="fonts/fonts.css" rel="stylesheet">
 <style>
-  /* Typo-System: Fancy nur für große Überschriften · Roboto Mono Light für Dünnes · Space Grotesk für Dickeres
+  /* Typo-System (seit 13.10.): alles Roboto Mono – Light 300 für Dünnes (.mono), 400 Fließtext, 500 Titel, 600 große Überschriften und Knöpfe
      Paket C: Untergrenze für lesbaren Text 12 px (.75rem), Tap-Ziele 44 px, Kontraste ≥ 4,5:1 (gemessen),
      Farb-Tokens getrennt nach Fläche (--clay, --lav-deep, --sea bleiben) und Text (--*-text auf Karte, --*-ink auf Pastell). */
   :root {
@@ -73,7 +73,7 @@
   }
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
   body {
-    font-family: "Space Grotesk", "Avenir Next", -apple-system, sans-serif;
+    font-family: "Roboto Mono", "SF Mono", Menlo, monospace;
     background: var(--paper); color: var(--ink); min-height: 100vh;
     position: relative; overflow-x: hidden;
   }
@@ -124,7 +124,7 @@
     margin-top: 2.4rem; }
   .streak { position: absolute; top: 0; right: 0;
     background: var(--card); border-radius: 999px; padding: .3rem .8rem;
-    font-size: .85rem; font-weight: 700; color: var(--clay-text);
+    font-size: .85rem; font-weight: 600; color: var(--clay-text);
     box-shadow: 0 2px 10px rgba(51,41,74,.12); transform: rotate(2deg); }
   .tagline { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .75rem; letter-spacing: .2em; text-transform: uppercase;
@@ -149,19 +149,19 @@
   .spot:nth-child(4n+3) .icon { background: var(--sand); }
   .spot:nth-child(4n+4) .icon { background: var(--clay-soft); }
   .spot .info { flex: 1; min-width: 0; }
-  .spot .name { font-weight: 600; font-size: .98rem; }
+  .spot .name { font-weight: 500; font-size: .98rem; }
   .spot .theme { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .75rem; color: var(--ink-soft); }
   .bar { height: 5px; background: var(--line); border-radius: 3px; margin-top: .45rem; overflow: hidden; }
   .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--sea), var(--lav-deep)); border-radius: 3px; }
-  .spot .pct { font-size: .8rem; font-weight: 700; color: var(--sea-ink); white-space: nowrap; }
+  .spot .pct { font-size: .8rem; font-weight: 600; color: var(--sea-ink); white-space: nowrap; }
   /* Dica do dia: ruhige Notiz, nicht antippbar – ohne Schatten, ohne Neigung */
   .spot.dica-note { cursor: default; box-shadow: none; transform: none; background: transparent;
     border: 1.5px dashed var(--line); }
   .spot.dica-note:active { transform: none; }
   .mixbtn {
     width: 100%; border: none; border-radius: 14px; padding: 1.05rem;
-    background: var(--clay); color: var(--on-clay); font-size: 1rem; font-weight: 800;
+    background: var(--clay); color: var(--on-clay); font-size: 1rem; font-weight: 600;
     font-family: inherit; cursor: pointer; margin: .2rem 0 1.2rem;
     letter-spacing: .02em; transform: rotate(-.5deg);
     box-shadow: 0 6px 18px rgba(217,80,46,.35);
@@ -186,7 +186,7 @@
     font-size: 1.75rem; line-height: 1.25; letter-spacing: -.02em; overflow-wrap: anywhere; }
   .card .ipa { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .95rem; color: var(--ink-soft); }
-  .card .de { font-size: 1.25rem; font-weight: 600; color: var(--lav-text); }
+  .card .de { font-size: 1.25rem; font-weight: 500; color: var(--lav-text); }
   .card .hintline { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .75rem; color: var(--ink-soft); position: absolute; bottom: 1rem; left: 0; right: 0; }
   .audiobtn {
@@ -197,7 +197,7 @@
   .actions { display: flex; gap: .7rem; margin-top: 1.2rem; }
   .actions button {
     flex: 1; border: none; border-radius: 14px; padding: 1rem .5rem;
-    font-size: 1rem; font-weight: 800; font-family: inherit; cursor: pointer; color: #fff;
+    font-size: 1rem; font-weight: 600; font-family: inherit; cursor: pointer; color: #fff;
   }
   .again { background: var(--lav-deep); transform: rotate(.4deg); }
   .good { background: var(--clay); color: var(--on-clay); transform: rotate(-.4deg); }
@@ -210,7 +210,7 @@
   .opt {
     width: 100%; text-align: left; border: none; background: var(--card);
     color: var(--ink); border-radius: 12px; padding: .95rem 1rem;
-    margin-bottom: .6rem; font-size: 1rem; font-family: inherit; font-weight: 600;
+    margin-bottom: .6rem; font-size: 1rem; font-family: inherit; font-weight: 500;
     cursor: pointer; box-shadow: 0 2px 10px rgba(51,41,74,.09); min-height: 44px;
   }
   .opt:nth-child(odd)  { transform: rotate(.3deg); }
@@ -221,7 +221,7 @@
   /* ---------- Ende ---------- */
   .done { text-align: center; padding: 3rem 0; display: none; position: relative; z-index: 1; }
   .done .big { font-size: 4rem; }
-  .done h1, .done h2 { font-weight: 800; font-size: 1.9rem; margin: .8rem 0 .4rem; color: var(--ink); }
+  .done h1, .done h2 { font-weight: 600; font-size: 1.9rem; margin: .8rem 0 .4rem; color: var(--ink); }
   .done p { color: var(--ink-soft); margin-bottom: 1.6rem; }
 
   .footer-note { font-family: "Roboto Mono", monospace; font-weight: 300;
@@ -231,7 +231,7 @@
   .kurs-head { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem;
     letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft);
     margin: 1.4rem 0 .6rem .2rem; }
-  .ltitle { font-weight: 700; font-size: 1.5rem; line-height: 1.15;
+  .ltitle { font-weight: 600; font-size: 1.5rem; line-height: 1.15;
     color: var(--ink); letter-spacing: -.01em; min-width: 0; overflow-wrap: break-word; }
   .lsub { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem;
     color: var(--ink-soft); margin: -.6rem 0 1.2rem 2.3rem; }
@@ -243,7 +243,7 @@
   .lsec { background: var(--card); border-radius: 16px; padding: 1.1rem 1.1rem 1.2rem;
     margin-bottom: .9rem; box-shadow: 0 3px 14px rgba(51,41,74,.09); overflow-wrap: anywhere; }
   .spot, .card, .excard, .wpop { overflow-wrap: anywhere; }
-  .lsec h3 { font-size: 1rem; font-weight: 700; margin-bottom: .6rem; }
+  .lsec h3 { font-size: 1rem; font-weight: 600; margin-bottom: .6rem; }
   .lsec .body { font-size: 1rem; line-height: 1.55; }
   .lsec .hint { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .8rem; color: var(--ink-soft); margin-top: .7rem; line-height: 1.5; }
@@ -255,7 +255,7 @@
     font-size: .75rem; color: var(--ink-soft); }
   .vrow > div { min-width: 0; overflow-wrap: anywhere; }
   .vrow .vde { margin-left: auto; text-align: right; font-size: .9rem;
-    color: var(--lav-text); font-weight: 600; max-width: 45%; flex: none; }
+    color: var(--lav-text); font-weight: 500; max-width: 45%; flex: none; }
   /* Runde Knöpfe: sichtbar 2 rem, Tap-Fläche 2,8 rem = 44,8 px (Padding zählt zur Fläche, Rand negativ) */
   .playbtn { border: none; background: var(--sea-pale); color: var(--sea-ink);
     border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .4rem; margin: -.4rem; cursor: pointer;
@@ -282,10 +282,10 @@
   .exitem:last-child { border-bottom: none; }
   .exitem .q { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: 1rem; line-height: 1.5; }
   .exitem .a { display: none; margin-top: .35rem; font-size: .95rem;
-    color: var(--sea-ink); font-weight: 600; }
+    color: var(--sea-ink); font-weight: 500; }
   .exitem.open .a { display: block; }
   .reveal { border: none; background: var(--lav-pale); color: var(--lav-ink);
-    font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .8rem;
+    font-family: "Roboto Mono", monospace; font-weight: 500; font-size: .8rem;
     border-radius: 999px; padding: .55rem 1rem; min-height: 44px; cursor: pointer; margin-top: .35rem; }
 
   /* ---------- Tab-Leiste & Bereiche ---------- */
@@ -309,7 +309,7 @@
   .chiplabel { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem; letter-spacing: .1em;
     text-transform: uppercase; color: var(--ink-soft); flex: none; padding-right: .2rem; min-width: 3.4rem; }
   .chip { border: none; border-radius: 999px; padding: .55rem .95rem; font-size: .8rem; min-height: 44px;
-    font-weight: 600; font-family: "Space Grotesk", sans-serif; white-space: nowrap;
+    font-weight: 500; font-family: "Roboto Mono", monospace; white-space: nowrap;
     background: var(--card); color: var(--ink-soft);
     box-shadow: 0 2px 8px rgba(51,41,74,.08); cursor: pointer; flex: none; }
   .chip.on { background: var(--clay); color: var(--on-clay); }
@@ -352,7 +352,7 @@
     flex-direction: column; gap: .45rem; min-height: 44px; }
   .jcard .jic { width: 42px; height: 42px; display: flex; align-items: center;
     justify-content: center; border-radius: 58% 42% 52% 48% / 48% 55% 45% 52%; }
-  .jcard .jn { font-weight: 700; font-size: .95rem; }
+  .jcard .jn { font-weight: 600; font-size: .95rem; }
   .jcard .jd { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .75rem; color: var(--ink-soft); line-height: 1.45; }
   .memgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem; }
@@ -399,7 +399,7 @@
   .wchip:disabled { opacity: .5; cursor: default; }
   .wchip.right:disabled, .wchip.wrong:disabled { opacity: 1; }
   .selfchk { border: 1.5px solid var(--line); background: var(--card); border-radius: 999px; padding: .4rem .85rem;
-    font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .8rem; color: var(--ink-soft);
+    font-family: "Roboto Mono", monospace; font-weight: 500; font-size: .8rem; color: var(--ink-soft);
     min-height: 44px; margin-top: .45rem; margin-right: .4rem; display: inline-flex; gap: .35rem; align-items: center; cursor: pointer; }
   .selfchk.on { background: var(--sea-pale); border-color: var(--sea); color: var(--sea-ink); }
   .punkte { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem; color: var(--ink-soft);
@@ -414,12 +414,12 @@
     display: flex; justify-content: space-between; align-items: center; margin: 0 0 .9rem; box-shadow: 0 6px 18px rgba(51,41,74,.22); }
   .testbar b { font-weight: 400; font-size: .9rem; }
   .stufe { display: inline-block; width: 100%; padding: .3rem .5rem; margin: .08rem -.5rem; border-radius: 8px; }
-  .stufe.on { background: var(--sea-pale); color: var(--sea-ink); font-weight: 600; }
+  .stufe.on { background: var(--sea-pale); color: var(--sea-ink); font-weight: 500; }
   .ziel { display: flex; align-items: center; gap: .8rem; background: var(--card); border-radius: 14px; padding: .55rem .9rem;
     margin-bottom: .9rem; box-shadow: 0 3px 14px rgba(51,41,74,.08); transform: rotate(.3deg); }
   .ziel.ok { background: var(--sea-pale); }
   .ziel svg { flex: none; }
-  .ziel .zname { font-weight: 600; font-size: .9rem; }
+  .ziel .zname { font-weight: 500; font-size: .9rem; }
   .ziel .zsub { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .75rem; color: var(--ink-soft); margin-top: .1rem; }
   .excard { background: var(--card); border-radius: 20px; padding: 1.3rem 1.2rem 1.2rem; text-align: left;
     box-shadow: 0 12px 34px rgba(51,41,74,.16); transform: rotate(-.4deg); border-bottom: none; }
@@ -429,7 +429,7 @@
   .gram .gtext { font-size: .95rem; line-height: 1.55; color: var(--ink); margin-top: .3rem; }
   .gram .gbtns { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .8rem; }
   .recword { border: none; background: var(--clay-soft); color: var(--clay-ink); border-radius: 999px; padding: .55rem 1rem;
-    min-height: 44px; font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: .8rem; cursor: pointer;
+    min-height: 44px; font-family: "Roboto Mono", monospace; font-weight: 500; font-size: .8rem; cursor: pointer;
     display: inline-flex; align-items: center; gap: .4rem; }
   .recword.rec { background: var(--clay); color: var(--on-clay); animation: recpulse 1s infinite; }
   .recword.err { background: var(--line); color: var(--ink-soft); }
@@ -445,7 +445,7 @@
   .staffelrow { display: flex; align-items: center; gap: .7rem; width: 100%; text-align: left;
     background: var(--card); border: none; border-radius: 14px; padding: .7rem .9rem; margin-bottom: .6rem; min-height: 44px;
     box-shadow: 0 3px 14px rgba(51,41,74,.08); cursor: pointer; font-family: inherit; color: var(--ink); }
-  .staffelrow .stname { font-weight: 600; font-size: .95rem; flex: 1; min-width: 0; }
+  .staffelrow .stname { font-weight: 500; font-size: .95rem; flex: 1; min-width: 0; }
   .staffelrow .stnum { font-family: "Roboto Mono", monospace; font-weight: 300; font-size: .8rem; color: var(--sea-ink); white-space: nowrap; }
   .wochekopf { display: flex; align-items: center; gap: .55rem; width: 100%; text-align: left; background: none; border: none;
     font: inherit; color: var(--ink-soft); cursor: pointer; padding: .3rem .2rem; min-height: 44px; margin: .9rem 0 .4rem; }
@@ -898,7 +898,7 @@ function renderHome() {
     main.innerHTML = zielRingHTML() + `
       <div class="lsec" style="transform:rotate(-.3deg); margin-bottom:1rem">
         <div class="kicker" style="margin-bottom:.4rem">${done} von ${LESSONS.length} Lektionen</div>
-        <div style="font-size:1.2rem; font-weight:700; margin-bottom:.4rem">Alle Lektionen geschafft</div>
+        <div style="font-size:1.2rem; font-weight:600; margin-bottom:.4rem">Alle Lektionen geschafft</div>
         <div class="body">Du bist auf dem neuesten Stand – neue Wochen erscheinen automatisch. Bis dahin halten die Wiederholungen deine Wörter frisch.</div>
       </div>
       ${(n || nU) ? wdhBtn : `<button class="mixbtn" onclick="startLearn('mix')">Wörter wiederholen</button>`}`;
@@ -1300,7 +1300,7 @@ function renderKursMapFor(cfg) {
       width: wChip, height: 33, rx: 7, fill: '#fbf3e1', opacity: .94, filter: 'url(#km-pinsel)' });
     const t = el('text', { x: lx, y: p.y + 1, 'text-anchor': anker,
       fill: '#33294a', 'font-size': '12', 'font-weight': '700',
-      'font-family': 'Space Grotesk, sans-serif' });
+      'font-family': 'Roboto Mono, monospace' });
     t.textContent = e2.name;
     const t2 = el('text', { x: lx, y: p.y + 15, 'text-anchor': anker,
       fill: '#5c5372', 'font-size': '12', 'letter-spacing': '.03em',
@@ -1323,7 +1323,7 @@ function renderKursMapFor(cfg) {
     stroke: '#b3a88e', 'stroke-width': 1.6, 'stroke-dasharray': '3 3' });
   const tq = el('text', { x: tp.x + 128, y: tp.y + 1, 'text-anchor': 'middle',
     fill: '#5c5372', 'font-size': '12', 'font-weight': '700',
-    'font-family': 'Space Grotesk, sans-serif' });
+    'font-family': 'Roboto Mono, monospace' });
   tq.textContent = '?';
   const tl = el('text', { x: tp.x + 128, y: tp.y - 20, 'text-anchor': 'middle',
     fill: '#5c5372', 'font-size': '12', 'letter-spacing': '.06em',
@@ -1471,7 +1471,7 @@ function zeigeAbschluss(l, neue, test) {
         <img src="etappen/${ETAPPE_IMG[l.w]}.webp" alt="" style="width:64px; height:64px; border-radius:16px; object-fit:cover; box-shadow:0 3px 10px rgba(51,41,74,.18); transform:rotate(-2deg); flex:none">
         <div>
           <div class="kicker">${l.label}</div>
-          <h2 id="abschluss-titel" style="font-size:1.5rem; font-weight:700; line-height:1.15; margin-top:.15rem">${titel}</h2>
+          <h2 id="abschluss-titel" style="font-size:1.5rem; font-weight:600; line-height:1.15; margin-top:.15rem">${titel}</h2>
         </div>
       </div>
       <div class="mono" style="font-size:.76rem; line-height:1.7; color:var(--ink); margin-bottom:1.1rem">${test ? `<b style="font-weight:400; color:var(--sea-ink)">Revisão: ${test.punkte} / ${test.max} Punkte</b><br>` : ''}${lektionGeloest} ${lektionGeloest === 1 ? 'Übung' : 'Übungen'} gelöst · ${neue} ${neue === 1 ? 'neues Wort' : 'neue Wörter'} in deinem Heft<br>${zeile2}</div>
@@ -1487,13 +1487,13 @@ function abschlussKontoHTML(l) {
   if (!erste || !kontoClient || kontoUser || !navigator.onLine) return '';
   return `
       <div style="background:var(--lav-pale); border-radius:16px; padding:.85rem .95rem; margin-bottom:1rem">
-        <div style="font-weight:700; font-size:.95rem; margin-bottom:.15rem">Fortschritt sichern?</div>
+        <div style="font-weight:600; font-size:.95rem; margin-bottom:.15rem">Fortschritt sichern?</div>
         <div style="font-size:.82rem; line-height:1.5; margin-bottom:.6rem">Kein Passwort – du bekommst einen Code per Mail. Dann läuft dein Lernstand auf allen Geräten weiter.</div>
         <div style="display:flex; gap:.5rem">
           <input id="abschluss-mail" class="exin" type="email" inputmode="email" autocomplete="email" autocapitalize="off" autocorrect="off" spellcheck="false"
             placeholder="deine@mail.de" aria-label="E-Mail-Adresse" value="${kontoMail.replace(/"/g, '')}" style="flex:1; min-width:0; margin:0"
             onkeydown="if (event.key === 'Enter') abschlussKonto()">
-          <button onclick="abschlussKonto()" style="border:none; border-radius:10px; padding:0 .9rem; background:var(--lav-deep); color:#fff; font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px; flex:none">Code schicken</button>
+          <button onclick="abschlussKonto()" style="border:none; border-radius:10px; padding:0 .9rem; background:var(--lav-deep); color:#fff; font-family:inherit; font-weight:600; font-size:.85rem; cursor:pointer; min-height:44px; flex:none">Code schicken</button>
         </div>
       </div>`;
 }
@@ -2055,11 +2055,11 @@ async function renderCaderno() {
   document.getElementById('cad-stats').innerHTML = `
     <div class="lsec" style="display:flex; align-items:center; gap:14px; transform:rotate(-.3deg)">
       <div style="text-align:center">
-        <div style="font-size:1.9rem; font-weight:700; color:var(--sea-ink); line-height:1">${pct}%</div>
+        <div style="font-size:1.9rem; font-weight:600; color:var(--sea-ink); line-height:1">${pct}%</div>
         <div class="mono" style="font-size:.75rem; letter-spacing:.1em; color:var(--ink-soft); margin-top:.2rem">VON A1</div>
       </div>
       <div style="flex:1">
-        <div style="font-weight:600; font-size:.9rem">${g} von ${total} A1-Wellen gestanden</div>
+        <div style="font-weight:500; font-size:.9rem">${g} von ${total} A1-Wellen gestanden</div>
         <div class="bar" style="margin-top:.4rem"><i style="width:${pct}%"></i></div>
         <div class="mono" style="font-size:.75rem; color:var(--ink-soft); margin-top:.3rem">${g} gelernt · ${a} in Arbeit · ${total - g - a} neu</div>${a2zeile}
       </div>
@@ -2250,7 +2250,7 @@ async function renderFortschritt() {
 
   const kachel = (gross, klein) =>
     `<div style="flex:1; background:var(--card); border-radius:16px; padding:.9rem .6rem; text-align:center">
-      <div style="font-size:1.5rem; font-weight:700">${gross}</div>
+      <div style="font-size:1.5rem; font-weight:600">${gross}</div>
       <div class="mono" style="font-size:.75rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft); margin-top:.15rem">${klein}</div>
     </div>`;
 
@@ -2353,7 +2353,7 @@ function spielWorte(n, nurEinwort) {
 }
 function jogoEnde(body, text, again) {
   body.innerHTML = `<div class="lsec" style="text-align:center; padding:2rem 1rem">
-    <div style="font-size:1.3rem; font-weight:800; margin-bottom:.4rem">Boa onda!</div>
+    <div style="font-size:1.3rem; font-weight:600; margin-bottom:.4rem">Boa onda!</div>
     <div class="mono" style="font-size:.85rem; color:var(--ink-soft)">${text}</div></div>
     <button class="mixbtn" id="jg-again">Nochmal spielen</button>
     <button class="mixbtn" style="background:var(--lav-deep)" onclick="goTab('jogos')">Andere Spiele</button>`;
@@ -3074,7 +3074,7 @@ function zeigePaywall() {
     el.innerHTML = `
       <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
         <div class="kicker">Boa Onda Premium</div>
-        <h2 id="paywall-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Weiter bis Sagres – und darüber hinaus</h2>
+        <h2 id="paywall-titel" style="font-size:1.5rem; font-weight:600; margin:.2rem 0 .7rem">Weiter bis Sagres – und darüber hinaus</h2>
         <div style="font-size:.9rem; font-weight:400; line-height:1.55; margin-bottom:.9rem">Die ersten zwei Wochen sind frei. Mit Premium reist du weiter: durch den Alltag in Milfontes, bis zum Finale in Sagres, und danach durch Staffel 2 und 3.</div>
         <div class="kicker" style="margin-bottom:.3rem">Was du bekommst</div>
         <div class="mono" style="font-size:.75rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">alle Lektionen: Woche 3 und 4, Staffel 2 (A2), Staffel 3 (B1, im Aufbau)<br>alle Audios mit echten Stimmen<br>Spiele, Arbeitsblätter und alle Descobrir-Artikel</div>
@@ -3086,7 +3086,7 @@ function zeigePaywall() {
         <div style="display:flex; gap:.5rem">
           <input id="pw-code" class="exin" placeholder="Code einlösen …" value="${paywallCodeMerken.replace(/"/g, '')}" autocapitalize="characters" autocorrect="off" spellcheck="false"
             onkeydown="if (event.key === 'Enter') codeEinloesen()">
-          <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
+          <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:600; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
         </div>
         <button onclick="schliessePaywall(); zeigeKonto()" class="mono" style="display:block; margin:.6rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Schon gekauft? Anmelden</button>
         <button onclick="schliessePaywall()" class="kicker" style="display:block; margin:1rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem">Später</button>
@@ -3111,7 +3111,7 @@ function zeigeAnki() {
   el.innerHTML = `
     <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
       <div class="kicker">Für Anki</div>
-      <h2 id="anki-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Deine Vokabeln als Anki-Deck</h2>
+      <h2 id="anki-titel" style="font-size:1.5rem; font-weight:600; margin:.2rem 0 .7rem">Deine Vokabeln als Anki-Deck</h2>
       <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem">Alle Wörter mit Aussprache und Audio, im Boa-Onda-Look. Zwei Karten pro Wort: verstehen (Portugiesisch → Deutsch) und sagen (Deutsch → Portugiesisch, zum Tippen). Datei herunterladen und in Anki über „Datei → Importieren“ öffnen.</div>
       <a class="mixbtn" style="display:block; text-align:center; text-decoration:none; margin:0 0 .5rem; transform:none" href="anki/boa-onda-woche-1-2.apkg" download>Woche 1 + 2 · 374 Wörter · 4 MB</a>
       ${prem
@@ -3478,7 +3478,7 @@ function zeigeKonto() {
   if (!kontoClient) {
     inner = `
       <div class="kicker">Dein Konto</div>
-      <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Gerade nicht möglich</h2>
+      <h2 id="konto-titel" style="font-size:1.5rem; font-weight:600; margin:.2rem 0 .7rem">Gerade nicht möglich</h2>
       <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem">Die Anmeldung konnte nicht geladen werden. Dein Fortschritt bleibt wie bisher auf diesem Gerät – versuch es später mit Netz noch einmal.</div>${zu}`;
   } else if (kontoUser) {
     const pr = store.premium;
@@ -3489,7 +3489,7 @@ function zeigeKonto() {
     const sync = `Zuletzt synchronisiert: ${syncZeitText()}${store.ui.syncOffen ? ' · Änderungen warten auf Netz' : ''}`;
     inner = `
       <div class="kicker">Dein Konto</div>
-      <h2 id="konto-titel" style="font-size:1.25rem; font-weight:700; margin:.2rem 0 .7rem; overflow-wrap:anywhere">${kontoUser.email || 'Angemeldet'}</h2>
+      <h2 id="konto-titel" style="font-size:1.25rem; font-weight:600; margin:.2rem 0 .7rem; overflow-wrap:anywhere">${kontoUser.email || 'Angemeldet'}</h2>
       <div class="mono" style="font-size:.78rem; line-height:1.7; color:var(--ink); margin-bottom:1rem" id="konto-status">${sync}<br>${prem}</div>
       ${knopf(syncLaeuft ? 'Wird synchronisiert …' : 'Jetzt synchronisieren', 'kontoSyncJetzt()')}
       ${knopf('Abmelden', 'kontoAbmelden()', 'background:var(--lav-deep); box-shadow:0 6px 18px rgba(127,110,194,.3)')}
@@ -3499,19 +3499,19 @@ function zeigeKonto() {
   } else if (kontoMailGesendet) {
     inner = `
       <div class="kicker">Dein Konto</div>
-      <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Schau in dein Postfach</h2>
+      <h2 id="konto-titel" style="font-size:1.5rem; font-weight:600; margin:.2rem 0 .7rem">Schau in dein Postfach</h2>
       <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem" id="konto-gesendet">${KONTO_CODE_IN_MAIL ? 'In der Mail steht ein 6-stelliger Code – tipp ihn hier ein. Er gilt 1 Stunde. Der Link in der Mail geht genauso.' : 'Schau in dein Postfach – der Link ist 1 Stunde gültig. Öffne ihn am besten auf diesem Gerät.'}${kontoMail ? `<br><span class="mono" style="font-size:.8rem; color:var(--ink-soft)">Gesendet an ${kontoMail}</span>` : ''}</div>
       ${KONTO_CODE_IN_MAIL ? `      <div style="display:flex; gap:.5rem; margin-bottom:.6rem">
         <input id="konto-code" class="exin" inputmode="numeric" autocomplete="one-time-code" placeholder="Code aus der Mail" aria-label="Code aus der Mail"
           onkeydown="if (event.key === 'Enter') kontoCodeBestaetigen()">
-        <button onclick="kontoCodeBestaetigen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:700; font-size:.85rem; cursor:pointer; min-height:44px">Bestätigen</button>
+        <button onclick="kontoCodeBestaetigen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:600; font-size:.85rem; cursor:pointer; min-height:44px">Bestätigen</button>
       </div>` : `<div class="mono" style="font-size:.78rem; color:var(--ink-soft); line-height:1.5; margin-bottom:.6rem">Link klappt nicht? Öffne ihn auf dem Gerät und im Browser, in dem du ihn angefordert hast – oder fordere ihn dort neu an.</div>`}
       <button onclick="kontoMailGesendet = false; zeigeKonto()" class="mono" style="display:block; margin:0 auto; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">${KONTO_CODE_IN_MAIL ? 'Keine Mail bekommen? Neu anfordern' : 'Andere Adresse oder neuer Link'}</button>
       ${zu}`;
   } else {
     inner = `
       <div class="kicker">Dein Konto</div>
-      <h2 id="konto-titel" style="font-size:1.5rem; font-weight:700; margin:.2rem 0 .7rem">Auf allen Geräten weiterlernen</h2>
+      <h2 id="konto-titel" style="font-size:1.5rem; font-weight:600; margin:.2rem 0 .7rem">Auf allen Geräten weiterlernen</h2>
       ${kontoGrund ? `<div style="background:var(--lav-pale); border-radius:12px; padding:.6rem .8rem; font-size:.85rem; line-height:1.5; margin-bottom:.8rem">${kontoGrund === 'code' ? 'Zum Einlösen des Codes brauchst du ein Konto – so gehört Premium dir und nicht dem Gerät. Danach geht es direkt weiter.' : 'Zum Kaufen brauchst du ein Konto – so gehört Premium dir und nicht dem Gerät. Danach geht es direkt weiter.'}</div>` : ''}
       <div style="font-size:.9rem; line-height:1.55; margin-bottom:.9rem">Mit einem Konto wird dein Fortschritt gesichert und läuft auf allen Geräten weiter. Premium gehört dann zu dir, nicht zum Gerät. Kein Passwort: Du bekommst ${KONTO_CODE_IN_MAIL ? 'einen Code' : 'einen Anmelde-Link'} per E-Mail.</div>
       <input id="konto-mail" class="exin" type="email" inputmode="email" autocomplete="email" autocapitalize="off" autocorrect="off" spellcheck="false"

@@ -43,15 +43,13 @@ def woche_name(w): return re.sub(r'^Staffel \d · ', '', WOCHEN[w])
 logo_png = os.path.join(OUT, '_boa-onda-logo.png')
 Image.open(os.path.join(BASE, 'logo.webp')).convert('RGBA').resize((360, 110), Image.LANCZOS).save(logo_png)
 
-FONTS = ['spacegrotesk-a57c9413.woff2', 'spacegrotesk-e911c2d9.woff2', 'robotomono-af121f2f.woff2', 'robotomono-fe832705.woff2']
+FONTS = ['robotomono-af121f2f.woff2', 'robotomono-fe832705.woff2']
 FONT_CSS = """
-@font-face { font-family: "Space Grotesk"; font-weight: 400 700; src: url("_spacegrotesk-a57c9413.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212; }
-@font-face { font-family: "Space Grotesk"; font-weight: 400 700; src: url("_spacegrotesk-e911c2d9.woff2") format("woff2"); unicode-range: U+0100-02BA, U+1E00-1EFF; }
 @font-face { font-family: "Roboto Mono"; font-weight: 300 700; src: url("_robotomono-af121f2f.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212; }
 @font-face { font-family: "Roboto Mono"; font-weight: 300 700; src: url("_robotomono-fe832705.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F; }
 """
 CSS = FONT_CSS + """
-.card { font-family: "Space Grotesk", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 22px; line-height: 1.45;
+.card { font-family: "Roboto Mono", Menlo, Consolas, monospace; font-size: 20px; line-height: 1.45;
   color: #33294a; background: #f4eee2; text-align: center; padding: 28px 18px; }
 .nightMode.card, .night_mode .card { background: #2a2238; color: #f4eee2; }
 .logo { width: 150px; margin: 0 auto 18px; display: block; opacity: .95; }
@@ -60,7 +58,7 @@ CSS = FONT_CSS + """
 .pt { font-family: "Roboto Mono", Menlo, monospace; font-weight: 300; font-size: 38px; line-height: 1.15; letter-spacing: -.01em; margin: 6px 0 10px; }
 .ipa { font-family: "Roboto Mono", Menlo, monospace; font-size: 17px; color: #6a6180; margin-bottom: 6px; }
 .nightMode .ipa, .night_mode .ipa { color: #b9afc9; }
-.de { font-size: 26px; font-weight: 700; color: #7f6ec2; margin-top: 10px; }
+.de { font-size: 24px; font-weight: 600; color: #7f6ec2; margin-top: 10px; }
 .karte { background: #fffdf6; border-radius: 26px; padding: 26px 22px; margin: 10px auto; max-width: 520px; box-shadow: 0 10px 30px rgba(51,41,74,.12); transform: rotate(-.4deg); }
 .nightMode .karte, .night_mode .karte { background: #352c47; box-shadow: none; }
 hr#answer { border: none; border-top: 1px dashed #c9bfd9; margin: 18px auto; max-width: 520px; }
