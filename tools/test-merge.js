@@ -1,7 +1,7 @@
 // Aufruf: node app/tools/test-merge.js (Node, ohne Browser)
 // Unit-Tests für mergeZustand/streakAusTagen – Code wird aus index.html (SYNC-MERGE-Marker) gezogen
 const fs = require('fs'), assert = require('assert');
-const html = fs.readFileSync('/Users/marievoborsky/KI/BOAONDA/app/index.html', 'utf8');
+const html = fs.readFileSync('/Users/marievoborsky/KI/BOAONDA/01_APP/index.html', 'utf8');
 const m = html.match(/\/\* SYNC-MERGE-START[\s\S]*?\*\/([\s\S]*?)\/\* SYNC-MERGE-END \*\//);
 assert(m, 'Marker nicht gefunden');
 const ZIEL_KARTEN = 10;
