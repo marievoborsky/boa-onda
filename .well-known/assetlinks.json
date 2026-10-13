@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "studio.voborsky.boaonda",
+    "sha256_cert_fingerprints": ["37:2A:79:CB:02:4E:71:A1:B2:AF:C2:19:AD:AD:08:B2:A9:3B:34:29:9C:21:17:54:DD:30:BD:16:48:E9:D9:A4"]
+  }
+}]
