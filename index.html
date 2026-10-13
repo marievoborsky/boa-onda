@@ -1212,7 +1212,8 @@ function renderKursMap() {
       row.type = 'button';
       row.className = 'staffelrow zu';
       row.setAttribute('aria-expanded', 'false');
-      row.innerHTML = `<span class="stname">${k.titel.replace(/ · (A1|A2|B1)$/, '')}</span><span class="stnum">${done}/28</span>${CHEV_SVG}`;
+      const gesamt = Math.min(28, LESSONS.filter(l => l.w >= k.w0 && l.w < k.w0 + 4 && !l.bonus).length) || 28;
+      row.innerHTML = `<span class="stname">${k.titel.replace(/ · (A1|A2|B1)$/, '')}</span><span class="stnum">${done}/${gesamt}</span>${CHEV_SVG}`;
       row.onclick = () => { store.ui.staffeln = { ...(store.ui.staffeln || {}), [i]: true }; save(); renderKursMap(); };
       wrap.appendChild(row);
     }
