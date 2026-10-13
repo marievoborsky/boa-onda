@@ -1744,7 +1744,7 @@ function derivados(p) {
 }
 let LESEWORTE = [];   // Lesewörterbuch: Textwörter ohne Lektionsvokabel (tools/leseworte.py)
 // Code-Eingabe im Konto-Sheet erst aktivieren, wenn die Magic-Link-Mail {{ .Token }} enthält (eigener SMTP + Template)
-const KONTO_CODE_IN_MAIL = false;
+const KONTO_CODE_IN_MAIL = true;
 let VMAP_ART = {};   // token → 'form' (gebeugte Form) | 'teil' (Wort aus einem Mehrwort-Eintrag); exakt = kein Eintrag
 const STOPP = new Set(['de', 'da', 'do', 'das', 'dos', 'em', 'no', 'na', 'nos', 'nas', 'com', 'por', 'para', 'que', 'não', 'se', 'ao', 'aos', 'um', 'uma', 'uns', 'umas', 'o', 'a', 'os', 'as', 'e', 'ou', 'é', 'sol', 'vez', 'bem', 'mal', 'nada', 'tudo', 'muito', 'mais', 'já', 'lá', 'cá', 'aqui']);
 function vmap() {
