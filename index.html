@@ -3125,7 +3125,12 @@ const CODE_HASHES = [
   'ca273259b53ee876193a67ffa9a0ef6581a5106e8af803dbd080b8dceabee2c7',
   'f59eac1d1fb7d3a686711dcc05184a3a875694b0f33a36e370a2bada0dfdb405'
 ];
-function istPremium() { return !!(store.premium && store.premium.seit); }
+function istPremium() {
+  const p = store.premium;
+  if (!p || !p.seit) return false;
+  if (p.quelle === 'apple' && p.bis && Date.parse(p.bis) < Date.now()) return false;   // Apple-Abo auf dem Gerät abgelaufen
+  return true;
+}
 function gesperrt(id) {
   const l = LESSONS.find(x => x.id === id);
   return !!l && l.w >= 2 && !GRATIS.includes(id) && !istPremium();
@@ -3150,7 +3155,7 @@ function zeigePaywall() {
           <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem" onclick="kaufen('abo')">5,99 € / Monat</button>
           <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem; background:var(--lav-deep)" onclick="kaufen('einmal')">29,99 € einmal</button>
         </div>
-        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo: 1 Monat, verlängert sich automatisch, jederzeit kündbar in den Einstellungen deines Stores · Einmalkauf ist der Launch-Preis · Tag 1 bis 15 bleiben gratis<br>Premium gehört zu deinem Konto, nicht zum Gerät<br>Mit dem Kauf gelten die <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener" style="color:var(--lav-text)">Nutzungsbedingungen</a> und die <a href="datenschutz.html" style="color:var(--lav-text)">Datenschutzerklärung</a></div>
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo: 1 Monat, verlängert sich automatisch, jederzeit kündbar in den Einstellungen deines Stores · Einmalkauf ist der Launch-Preis · Tag 1 bis 15 bleiben gratis<br>Mit Konto gilt Premium auf allen deinen Geräten<br>Mit dem Kauf gelten die <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener" style="color:var(--lav-text)">Nutzungsbedingungen</a> und die <a href="datenschutz.html" style="color:var(--lav-text)">Datenschutzerklärung</a></div>
         <div style="display:flex; gap:.5rem">
           <input id="pw-code" class="exin" placeholder="Code einlösen …" value="${paywallCodeMerken.replace(/"/g, '')}" autocapitalize="characters" autocorrect="off" spellcheck="false"
             onkeydown="if (event.key === 'Enter') codeEinloesen()">
@@ -3202,17 +3207,17 @@ function kontoVorKauf(grund) {
   zeigeKonto();
 }
 function kaufen(art) {
+  if (appleKasseDa()) {    // iPhone-App (Capacitor): Apple-Kasse über StoreKit – auch ohne Konto (Apple-Richtlinie 5.1.1);
+    if (kaufLaeuft) return; // mit Konto prüft der Server (apple-verify) und bindet den Kauf ans Konto, sonst gilt er auf dem Gerät
+    kaufLaeuft = true;
+    appleKauf(art).then(() => { if (kontoUser) kontoSync('kauf'); }).catch(e => meldung(kaufFehlerText(e))).finally(() => { kaufLaeuft = false; });
+    return;
+  }
   if (kontoClient && !kontoUser) { kontoVorKauf('kauf'); return; }
   if (playBillingDa()) {   // Android-App (TWA): Google-Play-Kasse über die Digital Goods API
     if (kaufLaeuft) return;
     kaufLaeuft = true;
     playKauf(art).then(() => kontoSync('kauf')).catch(e => meldung(kaufFehlerText(e))).finally(() => { kaufLaeuft = false; });
-    return;
-  }
-  if (appleKasseDa()) {    // iPhone-App (Capacitor): Apple-Kasse über StoreKit, Beleg prüft der Server (apple-verify)
-    if (kaufLaeuft) return;
-    kaufLaeuft = true;
-    appleKauf(art).then(() => kontoSync('kauf')).catch(e => meldung(kaufFehlerText(e))).finally(() => { kaufLaeuft = false; });
     return;
   }
   // Im Browser gibt es keine Kasse – gekauft wird in der Android-App (Play Store) oder der iPhone-App (App Store).
@@ -3258,7 +3263,7 @@ async function playVerifizieren(token, sku) {
 }
 /* „Käufe wiederherstellen": alle Käufe des Store-Kontos (Google bzw. Apple-ID) holen und am Server dem Boa-Onda-Konto zuordnen */
 async function kaufWiederherstellenKlick() {
-  if (kontoClient && !kontoUser) { kontoVorKauf('kauf'); return; }
+  if (kontoClient && !kontoUser && !appleKasseDa()) { kontoVorKauf('kauf'); return; }
   if (!playBillingDa() && !appleKasseDa()) return;
   try {
     const ok = playBillingDa() ? await playWiederherstellen() : await appleWiederherstellen();
@@ -3300,13 +3305,63 @@ async function appleKauf(art) {
   const sku = APPLE_SKU[art];
   const r = await appleKasse().kaufen({ id: sku });
   if (!r || r.status === 'ausstehend') throw new Error('ausstehend');
-  const v = await appleVerifizieren(r);
-  if (!v || !v.ok) throw new Error((v && v.fehler) || 'pruefung');
-  store.premium = { seit: today(), quelle: 'konto', art: art === 'abo' ? 'apple-abo' : 'apple-einmal' };
-  VMAP = null; save();
+  if (kontoUser) {
+    // Mit Konto: Server prüft bei Apple und bindet den Kauf ans Konto. Klappt das nicht (offline, Serverfehler),
+    // gilt der Kauf trotzdem auf dem Gerät (StoreKit hat ihn geprüft) – die Bindung holt kontoSync nach.
+    let v = null;
+    try { v = await appleVerifizieren(r); } catch (e) { v = null; }
+    if (v && v.ok) {
+      store.premium = { seit: today(), quelle: 'konto', art: art === 'abo' ? 'apple-abo' : 'apple-einmal' };
+      VMAP = null; save(); schliessePaywall();
+      meldung('Premium ist aktiv und gehört zu deinem Konto. Boa onda!'); goTab('kurs');
+      return;
+    }
+    if (v && /anderen Konto/.test(v.fehler || '')) { appleGeraetPremium(r); schliessePaywall(); meldung('Dieser Kauf gehört schon zu einem anderen Boa-Onda-Konto. Auf diesem iPhone ist Premium trotzdem aktiv.'); goTab('kurs'); return; }
+  }
+  appleGeraetPremium(r);
   schliessePaywall();
-  meldung('Premium ist aktiv und gehört zu deinem Konto. Boa onda!');
+  meldung(kontoUser ? 'Premium ist aktiv. Die Zuordnung zu deinem Konto holen wir beim nächsten Abgleich nach.' : 'Premium ist aktiv und an deine Apple-ID gebunden. Mit einem Konto (Mehr → Konto) gilt es auch auf anderen Geräten.');
   goTab('kurs');
+}
+/* Premium auf dem Gerät aus einem von StoreKit geprüften Beleg (ohne Konto oder bis die Bindung ans Konto klappt) */
+function appleGeraetPremium(b) {
+  const art = b.productId === APPLE_SKU.abo ? 'apple-abo' : 'apple-einmal';
+  const seit = store.premium && store.premium.seit ? store.premium.seit : today();
+  store.premium = { seit, quelle: 'apple', art, bis: (art === 'apple-abo' && b.expires) ? b.expires : null };
+  VMAP = null; save();
+}
+/* Beim Start und nach Store-Ereignissen: gültige Belege auf dem Gerät → Premium setzen oder (Abo weg, Erstattung) zurücknehmen.
+   Konto-Premium und Code-Premium bleiben unberührt. */
+async function appleGeraetAbgleich() {
+  if (!appleKasseDa()) return;
+  let belege = [];
+  try { const r = await appleKasse().belege(); belege = (r && r.belege) || []; } catch (e) { return; }
+  const gueltig = belege.filter(b => !b.widerrufen && (APPLE_SKU.abo === b.productId || APPLE_SKU.einmal === b.productId));
+  const p = store.premium;
+  if (gueltig.length) {
+    const b = gueltig.find(x => x.productId === APPLE_SKU.einmal) || gueltig[0];
+    if (!p || p.quelle === 'apple') { appleGeraetPremium(b); kontoNeuZeichnen(); }
+  } else if (p && p.quelle === 'apple') {
+    store.premium = null; VMAP = null; save(); kontoNeuZeichnen();
+  }
+}
+/* Nach dem Anmelden: Gerätepremium aus dem App Store dem Konto zuordnen (einmal pro Tag versuchen, wenn es hakt) */
+async function appleAnKontoBinden() {
+  if (!appleKasseDa() || !kontoUser || !store.premium || store.premium.quelle !== 'apple') return false;
+  if (store.ui.appleBindFehler === today()) return false;
+  try {
+    const r = await appleKasse().belege();
+    for (const b of (r && r.belege) || []) {
+      if (b.widerrufen) continue;
+      const v = await appleVerifizieren(b);
+      if (v && v.ok) {
+        store.premium = { seit: store.premium.seit || today(), quelle: 'konto', art: b.productId === APPLE_SKU.abo ? 'apple-abo' : 'apple-einmal' };
+        VMAP = null; save(); return true;
+      }
+    }
+  } catch (e) {}
+  store.ui.appleBindFehler = today(); saveStill();
+  return false;
 }
 async function appleVerifizieren(beleg) {
   if (!kontoClient || !kontoUser) throw new Error('konto');
@@ -3315,17 +3370,26 @@ async function appleVerifizieren(beleg) {
   if (error) throw error;
   return data || {};
 }
-/* Wiederherstellen: App-Store-Abgleich (fragt ggf. nach der Apple-ID), dann jeden gültigen Beleg dem Konto zuordnen */
+/* Wiederherstellen: App-Store-Abgleich (fragt ggf. nach der Apple-ID), dann jeden gültigen Beleg dem Konto zuordnen –
+   ohne Konto gilt der Kauf auf dem Gerät */
 async function appleWiederherstellen() {
   const r = await appleKasse().wiederherstellen();
-  for (const b of (r && r.belege) || []) {
-    const v = await appleVerifizieren(b);
+  const belege = ((r && r.belege) || []).filter(b => !b.widerrufen);
+  if (!kontoUser) {
+    const b = belege.find(x => x.productId === APPLE_SKU.einmal) || belege[0];
+    if (!b) return false;
+    appleGeraetPremium(b); return true;
+  }
+  for (const b of belege) {
+    let v = null;
+    try { v = await appleVerifizieren(b); } catch (e) { v = null; }
     if (v && v.ok) {
       store.premium = { seit: today(), quelle: 'konto', art: b.productId === APPLE_SKU.abo ? 'apple-abo' : 'apple-einmal' };
       VMAP = null; save(); await kontoSync('kauf');
       return true;
     }
   }
+  if (belege.length) { appleGeraetPremium(belege[0]); return true; }   // Server nicht erreichbar: wenigstens auf dem Gerät
   return false;
 }
 /* Abo-Ablauf: läuft ein Apple-Abo in den nächsten 24 h aus (oder ist es vorbei), den Beleg beim Server auffrischen lassen – höchstens einmal pro Tag */
@@ -3340,7 +3404,14 @@ async function appleAuffrischen(p) {
 }
 /* Transaktionen außerhalb eines Kaufs (Verlängerung, Freigabe eines ausstehenden Kaufs, Erstattung): Beleg prüfen lassen */
 if (appleKasseDa()) {
-  try { appleKasse().addListener('transaktion', b => { if (kontoClient && kontoUser && b && !b.widerrufen) appleVerifizieren(b).then(v => { if (v && v.ok) kontoSync('kauf'); }).catch(() => {}); }); } catch (e) {}
+  try {
+    appleKasse().addListener('transaktion', b => {
+      if (kontoClient && kontoUser && b && !b.widerrufen) appleVerifizieren(b).then(v => { if (v && v.ok) kontoSync('kauf'); else appleGeraetAbgleich(); }).catch(() => appleGeraetAbgleich());
+      else appleGeraetAbgleich();
+    });
+  } catch (e) {}
+  setTimeout(appleGeraetAbgleich, 400);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') appleGeraetAbgleich(); });
 }
 function kaufFehlerText(e) {
   const m = String((e && (e.message || e.name)) || e || '');
@@ -3582,6 +3653,7 @@ function kontoAbgemeldet() {
   delete store.ui.syncZeit; delete store.ui.syncOffen;
   saveStill();
   kontoNeuZeichnen(true);
+  if (appleKasseDa()) appleGeraetAbgleich();   // ein App-Store-Kauf gilt weiter auf dem Gerät
 }
 /* Premium-Status aus profiles übernehmen – lokal gespiegelt, damit istPremium() auch offline stimmt */
 function premiumAusProfil(p) {
@@ -3607,6 +3679,7 @@ async function kontoSync(grund) {
     if (p.error) throw p.error;
     if (g.error) throw g.error;
     premiumAusProfil(p.data);
+    await appleAnKontoBinden();   // Apple-Kauf vom Gerät gehört jetzt zum Konto (Server hat Premium gesetzt; store.premium steht schon auf 'konto')
     if (await playAuffrischen(p.data) || await appleAuffrischen(p.data)) {   // Store-Abo abgelaufen? Server fragt Google/Apple, Profil neu lesen
       const p2 = await kontoClient.from('profiles').select('*').eq('user_id', kontoUser.id).maybeSingle();
       if (!p2.error) premiumAusProfil(p2.data);
@@ -3709,6 +3782,7 @@ function zeigeKonto() {
     const pr = store.premium;
     const datum = iso => { const m = /^(\d{4})-(\d\d)-(\d\d)/.exec(iso || ''); return m ? `${+m[3]}.${+m[2]}.${m[1]}` : iso; };
     const prem = pr && pr.quelle === 'konto' ? `Premium: aktiv seit ${datum(pr.seit)}, an dieses Konto gebunden`
+      : pr && pr.quelle === 'apple' ? (kontoUser ? 'Premium: über den App Store gekauft – die Zuordnung zum Konto folgt beim nächsten Abgleich' : 'Premium: über den App Store gekauft, an deine Apple-ID gebunden – beim Anmelden wird es ans Konto übernommen')
       : pr && pr.seit ? 'Premium: auf diesem Gerät per Code freigeschaltet (noch nicht am Konto)'
       : 'Premium: nicht aktiv';
     const sync = `Zuletzt synchronisiert: ${syncZeitText()}${store.ui.syncOffen ? ' · Änderungen warten auf Netz' : ''}`;
