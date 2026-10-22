@@ -3098,8 +3098,8 @@ function checkOrder(row) {
    Woche 1 und 2 sind gratis. Ab Woche 3 (w >= 2) ist Premium nötig; Tag 15 ist die
    freie Probelektion. Premium = Abo 5,99 €/Monat oder Einmalkauf 29,99 € (Launch-Preis).
    Premium-Funktionen außerhalb der Lektionen: Spiele, Arbeitsblätter, Descobrir ab Artikel 4.
-   Freigeschaltet wird per Code (Tester, Marie) – die Store-Kasse (Play Billing /
-   Apple IAP) hängt sich später in kaufen() ein.
+   Freigeschaltet wird per Code (Tester, Marie) oder über die Store-Kasse in kaufen():
+   Play Billing (Android-TWA) bzw. Apple-Kasse (iPhone-App, Capacitor-Plugin AppleKasse).
    EHRLICH: Das ist eine Sperre in der Oberfläche, kein Kopierschutz. Die Lektions-
    dateien liegen weiter öffentlich auf dem Server; echten Schutz gibt es erst mit
    einer Server-Komponente, die Kaufbelege prüft (siehe STAFFEL2.md). */
@@ -3150,14 +3150,14 @@ function zeigePaywall() {
           <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem" onclick="kaufen('abo')">5,99 € / Monat</button>
           <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem; background:var(--lav-deep)" onclick="kaufen('einmal')">29,99 € einmal</button>
         </div>
-        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo jederzeit kündbar · Einmalkauf ist der Launch-Preis · Tag 1 bis 15 bleiben gratis<br>Premium gehört zu deinem Konto, nicht zum Gerät</div>
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo: 1 Monat, verlängert sich automatisch, jederzeit kündbar in den Einstellungen deines Stores · Einmalkauf ist der Launch-Preis · Tag 1 bis 15 bleiben gratis<br>Premium gehört zu deinem Konto, nicht zum Gerät<br>Mit dem Kauf gelten die <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener" style="color:var(--lav-text)">Nutzungsbedingungen</a> und die <a href="datenschutz.html" style="color:var(--lav-text)">Datenschutzerklärung</a></div>
         <div style="display:flex; gap:.5rem">
           <input id="pw-code" class="exin" placeholder="Code einlösen …" value="${paywallCodeMerken.replace(/"/g, '')}" autocapitalize="characters" autocorrect="off" spellcheck="false"
             onkeydown="if (event.key === 'Enter') codeEinloesen()">
           <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:600; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
         </div>
         <button onclick="schliessePaywall(); zeigeKonto()" class="mono" style="display:block; margin:.6rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Schon gekauft? Anmelden</button>
-        <button id="pw-restore" onclick="playWiederherstellenKlick()" class="mono" style="display:none; margin:0 auto; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Käufe wiederherstellen</button>
+        <button id="pw-restore" onclick="kaufWiederherstellenKlick()" class="mono" style="display:none; margin:0 auto; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem; font-size:.8rem; color:var(--lav-text); text-decoration:underline; text-underline-offset:3px">Käufe wiederherstellen</button>
         <button onclick="schliessePaywall()" class="kicker" style="display:block; margin:1rem auto 0; border:none; background:none; cursor:pointer; min-height:44px; padding:0 1rem">Später</button>
       </div>`;
     document.body.appendChild(el);
@@ -3165,7 +3165,7 @@ function zeigePaywall() {
   const inp = document.getElementById('pw-code'); if (inp) inp.value = '';
   const pc = document.getElementById('pw-code');
   if (pc && paywallCodeMerken) { pc.value = paywallCodeMerken; paywallCodeMerken = ''; }
-  const rs = document.getElementById('pw-restore'); if (rs) rs.style.display = playBillingDa() ? 'block' : 'none';
+  const rs = document.getElementById('pw-restore'); if (rs) rs.style.display = (playBillingDa() || appleKasseDa()) ? 'block' : 'none';
   dialogOeffnen(el, 'paywall-titel');
 }
 function zeigeAnki() {
@@ -3209,8 +3209,14 @@ function kaufen(art) {
     playKauf(art).then(() => kontoSync('kauf')).catch(e => meldung(kaufFehlerText(e))).finally(() => { kaufLaeuft = false; });
     return;
   }
-  // Im Browser gibt es (noch) keine Kasse; auf iOS hängt sich später StoreKit über die native Hülle hier ein.
-  meldung('Der Kauf geht in der Android-App aus dem Play Store. Hier: Code eingeben (unten) oder Tag 15 gratis ausprobieren.');
+  if (appleKasseDa()) {    // iPhone-App (Capacitor): Apple-Kasse über StoreKit, Beleg prüft der Server (apple-verify)
+    if (kaufLaeuft) return;
+    kaufLaeuft = true;
+    appleKauf(art).then(() => kontoSync('kauf')).catch(e => meldung(kaufFehlerText(e))).finally(() => { kaufLaeuft = false; });
+    return;
+  }
+  // Im Browser gibt es keine Kasse – gekauft wird in der Android-App (Play Store) oder der iPhone-App (App Store).
+  meldung('Der Kauf geht in der Android-App aus dem Play Store oder in der iPhone-App aus dem App Store. Hier: Code eingeben (unten) oder Tag 15 gratis ausprobieren.');
 }
 /* ---------- Play Billing (nur in der Android-App; im Browser ist getDigitalGoodsService undefiniert) ---------- */
 const PLAY_SKU = { abo: 'premium_monatlich', einmal: 'premium_einmal' };
@@ -3250,14 +3256,14 @@ async function playVerifizieren(token, sku) {
   if (error) throw error;
   return data || {};
 }
-/* „Käufe wiederherstellen": alle Käufe dieses Google-Kontos holen und am Server dem Boa-Onda-Konto zuordnen */
-async function playWiederherstellenKlick() {
+/* „Käufe wiederherstellen": alle Käufe des Store-Kontos (Google bzw. Apple-ID) holen und am Server dem Boa-Onda-Konto zuordnen */
+async function kaufWiederherstellenKlick() {
   if (kontoClient && !kontoUser) { kontoVorKauf('kauf'); return; }
-  if (!playBillingDa()) return;
+  if (!playBillingDa() && !appleKasseDa()) return;
   try {
-    const ok = await playWiederherstellen();
+    const ok = playBillingDa() ? await playWiederherstellen() : await appleWiederherstellen();
     if (ok) { schliessePaywall(); meldung('Dein Kauf ist wieder da. Boa onda!'); goTab('kurs'); }
-    else meldung('Für dieses Google-Konto wurde kein Kauf gefunden. Hast du mit einem anderen Konto gekauft?');
+    else meldung(`Für dieses ${playBillingDa() ? 'Google-Konto' : 'Apple-Konto'} wurde kein Kauf gefunden. Hast du mit einem anderen Konto gekauft?`);
   } catch (e) { meldung(kaufFehlerText(e)); }
 }
 async function playWiederherstellen() {
@@ -3284,12 +3290,65 @@ async function playAuffrischen(p) {
   try { const { data } = await kontoClient.functions.invoke('play-verify', { body: { refresh: true } }); return !!data; }
   catch (e) { return false; }
 }
+/* ---------- Apple-Kasse (nur in der iPhone-App; Capacitor-Plugin „AppleKasse“ aus 03_STORE/ios, StoreKit 2) ----------
+   Gleiche Produkt-IDs wie bei Play. Der Beleg (Transaktions-ID + JWS) geht an die Supabase-Funktion apple-verify,
+   die bei Apple nachfragt und Premium im Profil setzt (premium_source = 'apple', Abo mit premium_until). */
+const APPLE_SKU = { abo: 'premium_monatlich', einmal: 'premium_einmal' };
+function appleKasseDa() { return !!(window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.AppleKasse); }
+function appleKasse() { return window.Capacitor.Plugins.AppleKasse; }
+async function appleKauf(art) {
+  const sku = APPLE_SKU[art];
+  const r = await appleKasse().kaufen({ id: sku });
+  if (!r || r.status === 'ausstehend') throw new Error('ausstehend');
+  const v = await appleVerifizieren(r);
+  if (!v || !v.ok) throw new Error((v && v.fehler) || 'pruefung');
+  store.premium = { seit: today(), quelle: 'konto', art: art === 'abo' ? 'apple-abo' : 'apple-einmal' };
+  VMAP = null; save();
+  schliessePaywall();
+  meldung('Premium ist aktiv und gehört zu deinem Konto. Boa onda!');
+  goTab('kurs');
+}
+async function appleVerifizieren(beleg) {
+  if (!kontoClient || !kontoUser) throw new Error('konto');
+  const body = { transactionId: beleg.transactionId, originalTransactionId: beleg.originalTransactionId, productId: beleg.productId, jws: beleg.jws };
+  const { data, error } = await kontoClient.functions.invoke('apple-verify', { body });
+  if (error) throw error;
+  return data || {};
+}
+/* Wiederherstellen: App-Store-Abgleich (fragt ggf. nach der Apple-ID), dann jeden gültigen Beleg dem Konto zuordnen */
+async function appleWiederherstellen() {
+  const r = await appleKasse().wiederherstellen();
+  for (const b of (r && r.belege) || []) {
+    const v = await appleVerifizieren(b);
+    if (v && v.ok) {
+      store.premium = { seit: today(), quelle: 'konto', art: b.productId === APPLE_SKU.abo ? 'apple-abo' : 'apple-einmal' };
+      VMAP = null; save(); await kontoSync('kauf');
+      return true;
+    }
+  }
+  return false;
+}
+/* Abo-Ablauf: läuft ein Apple-Abo in den nächsten 24 h aus (oder ist es vorbei), den Beleg beim Server auffrischen lassen – höchstens einmal pro Tag */
+async function appleAuffrischen(p) {
+  if (!p || p.premium_source !== 'apple' || !p.premium_until || !appleKasseDa()) return false;
+  if (Date.parse(p.premium_until) > Date.now() + 864e5) return false;
+  const heute = today();
+  if (store.ui.appleRefresh === heute) return false;
+  store.ui.appleRefresh = heute; saveStill();
+  try { const { data } = await kontoClient.functions.invoke('apple-verify', { body: { refresh: true } }); return !!data; }
+  catch (e) { return false; }
+}
+/* Transaktionen außerhalb eines Kaufs (Verlängerung, Freigabe eines ausstehenden Kaufs, Erstattung): Beleg prüfen lassen */
+if (appleKasseDa()) {
+  try { appleKasse().addListener('transaktion', b => { if (kontoClient && kontoUser && b && !b.widerrufen) appleVerifizieren(b).then(v => { if (v && v.ok) kontoSync('kauf'); }).catch(() => {}); }); } catch (e) {}
+}
 function kaufFehlerText(e) {
   const m = String((e && (e.message || e.name)) || e || '');
   if (/AbortError|cancel|abgebrochen/i.test(m)) return 'Kauf abgebrochen.';
   if (/produkt/i.test(m)) return 'Das Produkt ist im Store noch nicht verfügbar. Bitte später noch einmal versuchen oder einen Code eingeben.';
   if (/konto/i.test(m)) return 'Bitte zuerst anmelden (Mehr → Konto), damit Premium zu dir gehört.';
-  if (/pruefung|verif/i.test(m)) return 'Google hat den Kauf gemeldet, aber die Prüfung hat nicht geklappt. Tippe auf „Käufe wiederherstellen“ oder schreib an boaonda.app@gmail.com.';
+  if (/ausstehend/i.test(m)) return 'Der Kauf wartet noch auf eine Freigabe (z. B. Familienfreigabe). Sobald er bestätigt ist, wird Premium beim nächsten Start aktiv.';
+  if (/pruefung|verif/i.test(m)) return 'Der Store hat den Kauf gemeldet, aber die Prüfung hat nicht geklappt. Tippe auf „Käufe wiederherstellen“ oder schreib an boaonda.app@gmail.com.';
   if (/failed to fetch|network|fetch/i.test(m)) return 'Keine Verbindung zum Server. Bist du online?';
   return 'Der Kauf hat nicht geklappt: ' + m;
 }
@@ -3548,7 +3607,7 @@ async function kontoSync(grund) {
     if (p.error) throw p.error;
     if (g.error) throw g.error;
     premiumAusProfil(p.data);
-    if (await playAuffrischen(p.data)) {   // Play-Abo abgelaufen? Server fragt Google, Profil neu lesen
+    if (await playAuffrischen(p.data) || await appleAuffrischen(p.data)) {   // Store-Abo abgelaufen? Server fragt Google/Apple, Profil neu lesen
       const p2 = await kontoClient.from('profiles').select('*').eq('user_id', kontoUser.id).maybeSingle();
       if (!p2.error) premiumAusProfil(p2.data);
     }
