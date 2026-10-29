@@ -1428,7 +1428,7 @@ function renderLessons() {
     const div = kachel('spot', () => openLesson(l.id));
     div.id = 'lek-' + l.id;
     if (zu) { div.style.opacity = '.72'; div.setAttribute('aria-label', l.label + ' – gesperrt, Premium freischalten'); }
-    const probe = GRATIS.includes(l.id) && !istPremium() ? ' · gratis zum Ausprobieren' : '';
+    const probe = GRATIS.includes(l.id) && !istPremium() ? (appleKasseDa() ? ' · zum Ausprobieren' : ' · gratis zum Ausprobieren') : '';
     div.innerHTML = `
       <div class="icon">${l.bonus ? 'B' : 'L' + lessonNum(l)}</div>
       <div class="info">
@@ -3148,15 +3148,15 @@ function zeigePaywall() {
       <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
         <div class="kicker">Boa Onda Premium</div>
         <h2 id="paywall-titel" style="font-size:1.5rem; font-weight:600; margin:.2rem 0 .7rem">Weiter bis Sagres – und darüber hinaus</h2>
-        <div style="font-size:.9rem; font-weight:400; line-height:1.55; margin-bottom:.9rem">Die ersten zwei Wochen sind frei. Mit Premium reist du weiter: durch den Alltag in Milfontes, bis zum Finale in Sagres, und danach durch Staffel 2 und 3.</div>
+        <div style="font-size:.9rem; font-weight:400; line-height:1.55; margin-bottom:.9rem">Mit Premium reist du weiter: durch den Alltag in Milfontes, bis zum Finale in Sagres, und danach durch Staffel 2 und 3.</div>
         <div class="kicker" style="margin-bottom:.3rem">Was du bekommst</div>
         <div class="mono" style="font-size:.75rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">alle Lektionen: Woche 3 und 4, Staffel 2 (A2), Staffel 3 (B1)<br>alle Audios mit echten Stimmen<br>Spiele, Arbeitsblätter und alle Descobrir-Artikel</div>
         <div style="display:flex; gap:.5rem; margin-bottom:.5rem">
           <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem" onclick="kaufen('abo')">5,99 € / Monat</button>
           <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem; background:var(--lav-deep)" onclick="kaufen('einmal')">29,99 € einmal</button>
         </div>
-        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo: 1 Monat, verlängert sich automatisch, jederzeit kündbar in den Einstellungen deines Stores · Einmalkauf ist der Launch-Preis · Tag 1 bis 15 bleiben gratis<br>Mit Konto gilt Premium auf allen deinen Geräten<br>Mit dem Kauf gelten die <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener" style="color:var(--lav-text)">Nutzungsbedingungen</a> und die <a href="datenschutz.html" style="color:var(--lav-text)">Datenschutzerklärung</a></div>
-        <div style="display:flex; gap:.5rem">
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo: 1 Monat, verlängert sich automatisch, jederzeit kündbar in den Einstellungen deines Stores · Einmalkauf ist der Launch-Preis<br>Mit Konto gilt Premium auf allen deinen Geräten<br>Mit dem Kauf gelten die <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener" style="color:var(--lav-text)">Nutzungsbedingungen</a> und die <a href="datenschutz.html" style="color:var(--lav-text)">Datenschutzerklärung</a></div>
+        <div id="pw-code-zeile" style="display:flex; gap:.5rem">
           <input id="pw-code" class="exin" placeholder="Code einlösen …" value="${paywallCodeMerken.replace(/"/g, '')}" autocapitalize="characters" autocorrect="off" spellcheck="false"
             onkeydown="if (event.key === 'Enter') codeEinloesen()">
           <button onclick="codeEinloesen()" style="border:none; border-radius:10px; padding:0 1rem; background:var(--lav-pale); color:var(--lav-ink); font-family:inherit; font-weight:600; font-size:.85rem; cursor:pointer; min-height:44px">Einlösen</button>
@@ -3171,6 +3171,8 @@ function zeigePaywall() {
   const pc = document.getElementById('pw-code');
   if (pc && paywallCodeMerken) { pc.value = paywallCodeMerken; paywallCodeMerken = ''; }
   const rs = document.getElementById('pw-restore'); if (rs) rs.style.display = (playBillingDa() || appleKasseDa()) ? 'block' : 'none';
+  // iPhone-App: Apple erlaubt keine Freischaltung außerhalb des App Stores (Richtlinie 3.1.1) – Code-Feld ausblenden
+  const cz = document.getElementById('pw-code-zeile'); if (cz) cz.style.display = appleKasseDa() ? 'none' : 'flex';
   dialogOeffnen(el, 'paywall-titel');
 }
 function zeigeAnki() {
