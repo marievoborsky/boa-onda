@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Generiert alle App-Audios mit dem ElevenLabs-Ensemble (BoaOnda-Stimmen).
+"""NICHT MEHR ZUM VERTONEN BENUTZEN (seit 05.11.2026): Die ElevenLabs-Stimmen sprechen das
+End-s brasilianisch. Vertont wird mit tools/tts-google.py – das nutzt von hier nur noch
+collect() und WHO2FIG (Texte und Rollen). Diese Datei deshalb nicht löschen.
+
+Alt: Generiert alle App-Audios mit dem ElevenLabs-Ensemble (BoaOnda-Stimmen).
 
 Rollen: Dialogzeilen spricht die jeweilige Figur (who-Feld); Vokabeln,
 Geschichten und Einzelwörter spricht Marie (Erzählstimme). Tag-8-Sagres

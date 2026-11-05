@@ -4,7 +4,7 @@
 erhöht die Version im sw.js, baut lektionen/index.json neu und erzeugt die Arbeitsblätter.
 
 Voraussetzung: die Lektions-JSONs liegen in lektionen/ UND die Audios existieren
-(vorher `python3 tools/tts-eleven.py` und `python3 tools/tts-tok-google.py`).
+(vorher `python3 tools/tts-google.py` und `python3 tools/tts-tok-google.py`).
 
   python3 tools/freischalten.py 7      # Woche 7 (tag43–49)
   python3 tools/freischalten.py 8      # Woche 8 (tag50–56)
@@ -98,7 +98,7 @@ def main():
     for wk in wochen:
         cfg = WOCHEN[wk]
         fehlt = audio_fehlt(cfg['tage'])
-        if fehlt: sys.exit(f'Woche {wk}: {len(fehlt)} Audios fehlen (z. B. {fehlt[:5]}) – erst tts-eleven.py laufen lassen.')
+        if fehlt: sys.exit(f'Woche {wk}: {len(fehlt)} Audios fehlen (z. B. {fehlt[:5]}) – erst tts-google.py laufen lassen.')
         if f"id: 'tag{cfg['tage'][0]:02d}'" in s: print(f'Woche {wk} ist schon registriert.'); continue
         les = ''.join(f"  {{ id: 'tag{n:02d}', label: 'Tag {n} · {cfg['labels'][n][0]}', sub: '{cfg['labels'][n][1]}', w: {cfg['w']} }},\n" for n in cfg['tage'])
         tex = ''.join(f"  {{ tag: 'tag{n:02d}', num: {n}, title: '{cfg['textos'][n]}', nivel: 5, story: true }},\n" for n in cfg['tage'])

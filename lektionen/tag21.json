@@ -210,7 +210,7 @@
    "type": "story",
    "title": "F · Lesen: Um dia normal (5 P.)",
    "audio": "r21",
-   "text": "Olá! Chamo-me Rita e vivo em Faro, no Algarve. De segunda a sexta levanto-me às sete e meia, tomo um duche e bebo um galão. As aulas começam às nove e acabam às quatro. Ao almoço como uma sandes no jardim da escola, com as minhas amigas.<br>À tarde estudo, mas às vezes vou correr — nunca de manhã, é muito cedo para mim! No inverno fico em casa e leio.<br>Ao fim de semana é diferente: se faz bom tempo, vou à praia com o meu irmão. Ele tem quinze anos e surfa muito bem. Eu não. Eu fico na areia com um livro e digo que estou a treinar a paciência.<br>A semana que vem vou a Lisboa com a minha mãe. Vamos ficar três dias em casa da minha tia. Finalmente!",
+   "text": "Olá! Chamo-me Rita e vivo em Faro, no Algarve. De segunda a sexta levanto-me às sete e meia, tomo um duche e bebo um galão. As aulas começam às nove e acabam às quatro. Ao almoço como uma sandes no jardim da escola, com as minhas amigas.<br>À tarde estudo, mas às vezes vou correr — nunca de manhã, é muito cedo para mim! No inverno fico em casa e leio.<br>Ao fim de semana é diferente: se faz bom tempo, vou à praia com o meu irmão. Ele tem quinze anos e surfa muito bem. Eu não. Eu fico na areia com um livro e digo que estou a treinar a paciência.<br>Na semana que vem vou a Lisboa com a minha mãe. Vamos ficar três dias em casa da minha tia. Finalmente!",
    "gloss": "Erst lesen, dann anhören. Neu erschließen: acabar = enden · o jardim = der Garten · a areia = der Sand · treinar = trainieren · a paciência = die Geduld · se = wenn. Richtig oder falsch:",
    "questions": [
     {
@@ -230,7 +230,7 @@
      "a": "Falsch – im Winter bleibt sie zu Hause und liest."
     },
     {
-     "q": "A semana que vem a Rita vai a Lisboa.",
+     "q": "Na semana que vem a Rita vai a Lisboa.",
      "a": "Richtig – drei Tage bei ihrer Tante."
     }
    ]
@@ -238,7 +238,7 @@
   {
    "type": "speak",
    "title": "G · Schreiben: O teu dia e os teus planos (5 P.)",
-   "html": "Schreib fünf Sätze über dich – ohne Spickzettel, 1 Punkt pro korrektem Satz:<br><br>1. Wann du aufstehst (reflexiv!) · 2. Was du morgens machst · 3. Wie oft du Sport machst (<i>sempre / nunca / às vezes</i>) · 4. Wo deine Wohnung liegt (<i>fica…</i>) · 5. Was du nächste Woche vorhast (<i>vou…</i>)<br><br>Muster: <i>Levanto-me às… De manhã… Faço desporto… O meu apartamento fica… A semana que vem vou…</i>"
+   "html": "Schreib fünf Sätze über dich – ohne Spickzettel, 1 Punkt pro korrektem Satz:<br><br>1. Wann du aufstehst (reflexiv!) · 2. Was du morgens machst · 3. Wie oft du Sport machst (<i>sempre / nunca / às vezes</i>) · 4. Wo deine Wohnung liegt (<i>fica…</i>) · 5. Was du nächste Woche vorhast (<i>vou…</i>)<br><br>Muster: <i>Levanto-me às… De manhã… Faço desporto… O meu apartamento fica… Na semana que vem vou…</i>"
   },
   {
    "type": "note",

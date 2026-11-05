@@ -66,7 +66,7 @@
     {
      "pt": "o comboio",
      "de": "der Zug (EP! Brasilien: trem)",
-     "ipa": "[kõˈboju]",
+     "ipa": "[kõˈbɔju]",
      "audio": "v1806"
     },
     {
@@ -115,7 +115,7 @@
   {
    "type": "note",
    "title": "Dica da Ana",
-   "html": "Zwei Zeitwörter, die Deutsche fast immer verwechseln: <b>logo</b> heißt nicht „bald irgendwann“, sondern <b>später heute</b> – <i>Vou logo à praia</i> = ich gehe nachher an den Strand. Deshalb heißt der Abschied unter Freunden <b>Até logo!</b> (bis später) und nicht até amanhã. Und <b>a semana que vem</b> ist die Alltagsform für „nächste Woche“ – wörtlich „die Woche, die kommt“. Klingt hübsch, oder? Portugiesisch lässt die Zeit auf einen zukommen."
+   "html": "Zwei Zeitwörter, die Deutsche fast immer verwechseln: <b>logo</b> heißt nicht „bald irgendwann“, sondern <b>später heute</b> – <i>Vou logo à praia</i> = ich gehe nachher an den Strand. Deshalb heißt der Abschied unter Freunden <b>Até logo!</b> (bis später) und nicht até amanhã. Und <b>a semana que vem</b> heißt „nächste Woche“ – wörtlich „die Woche, die kommt“. Im Satz sagst du <i>na semana que vem</i> oder, ganz portugiesisch, <i>para a semana</i>. Klingt hübsch, oder? Portugiesisch lässt die Zeit auf einen zukommen."
   },
   {
    "type": "reading",
@@ -237,7 +237,7 @@
      "a": "Finalmente – endlich, nach drei Wochen Warten"
     },
     {
-     "q": "Não sei… ___ vou.",
+     "q": "— Vens à praia? — Não sei… ___.",
      "opts": [
       "talvez",
       "de certeza",
@@ -302,8 +302,8 @@
     },
     {
      "q": "Nächste Woche fahre ich nach Porto.",
-     "satz": "A semana que vem vou ao Porto.",
-     "a": "A semana que vem vou ao Porto."
+     "satz": "Na semana que vem vou ao Porto.",
+     "a": "Na semana que vem vou ao Porto."
     },
     {
      "q": "Bis später! → ___",
@@ -314,7 +314,7 @@
   {
    "type": "speak",
    "title": "6 · Sprechen: Os teus planos",
-   "html": "Sag laut, was du vorhast – fünf Sätze mit <b>ir + Infinitiv</b>:<br><br><i>Logo vou… Amanhã vou… No fim de semana vou… A semana que vem vou… No verão vou…</i><br><br>Und dann die ehrliche Variante mit <i>talvez</i> und <i>de certeza</i>: <i>Talvez vá correr… De certeza vou dormir muito.</i> (Merk dir für später: nach <i>talvez</i> nutzen Portugiesen gern eine Extra-Form – <i>vá</i> statt <i>vou</i>. Das kommt in Staffel 2, heute reicht <i>talvez vou</i>.)"
+   "html": "Sag laut, was du vorhast – fünf Sätze mit <b>ir + Infinitiv</b>:<br><br><i>Logo vou… Amanhã vou… No fim de semana vou… Na semana que vem vou… No verão vou…</i><br><br>Und dann die ehrliche Variante mit <i>talvez</i> und <i>de certeza</i>: <i>Talvez vá correr… De certeza vou dormir muito.</i> (Merk dir für später: nach <i>talvez</i> nutzen Portugiesen gern eine Extra-Form – <i>vá</i> statt <i>vou</i>. Das kommt in Staffel 2. Bis dahin nimm das sehr portugiesische <i>se calhar</i>, das braucht keine Extra-Form: <i>Se calhar vou correr.</i>)"
   },
   {
    "type": "story",

@@ -34,7 +34,7 @@ const VOCAB = [
  {
   "pt": "você",
   "de": "Sie (höflich)",
-  "ipa": "[vuˈse]",
+  "ipa": "[vɔˈse]",
   "block": "01-funktionswoerter",
   "id": "w005",
   "say": "você"
@@ -58,7 +58,7 @@ const VOCAB = [
  {
   "pt": "vocês",
   "de": "ihr",
-  "ipa": "[vuˈseʃ]",
+  "ipa": "[vɔˈseʃ]",
   "block": "01-funktionswoerter",
   "id": "w008",
   "say": "vocês"
@@ -498,7 +498,7 @@ const VOCAB = [
  {
   "pt": "amanhã",
   "de": "morgen",
-  "ipa": "[ɐmɐˈɲɐ̃]",
+  "ipa": "[amɐˈɲɐ̃]",
   "block": "01-funktionswoerter",
   "id": "w063",
   "say": "amanhã"
@@ -738,7 +738,7 @@ const VOCAB = [
  {
   "pt": "até amanhã",
   "de": "bis morgen",
-  "ipa": "[ɐˈtɛ ɐmɐˈɲɐ̃]",
+  "ipa": "[ɐˈtɛ amɐˈɲɐ̃]",
   "block": "03-begruessung",
   "id": "w093",
   "say": "até amanhã"
@@ -1522,7 +1522,7 @@ const VOCAB = [
  {
   "pt": "o comboio",
   "de": "Zug",
-  "ipa": "[kõˈboju]",
+  "ipa": "[kõˈbɔju]",
   "block": "08-wohnen-stadt",
   "id": "w191",
   "say": "o comboio"
@@ -1738,7 +1738,7 @@ const VOCAB = [
  {
   "pt": "o protetor solar",
   "de": "Sonnencreme",
-  "ipa": "[pɾutɨˈtoɾ suˈlaɾ]",
+  "ipa": "[pɾutɛˈtoɾ suˈlaɾ]",
   "block": "10-sagres-surf",
   "id": "w218",
   "say": "o protetor solar"
