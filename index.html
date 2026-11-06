@@ -1943,7 +1943,8 @@ function wordClass(n) {
 function tokenizeLine(line) {
   return line.split(/\s+/).filter(Boolean).map(tok => {
     const core = tok.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, '');
-    if (!core) return `<span>${tok}</span>`;
+    // reine Zahlen (2019, 15) nicht antippbar: es gibt keine Aussprache dazu, der Tipp blieb stumm
+    if (!core || /^\d+$/.test(core)) return `<span>${tok}</span>`;
     const n = core.toLowerCase();
     return `<span class="wtok ${wordClass(n)}" data-w="${n}" onclick="tapWord(this)">${tok}</span>`;
   }).join(' ');
@@ -2011,6 +2012,14 @@ function hideWpop() {
   if (p) p.style.display = 'none';
   document.querySelectorAll('.wtok.wsel').forEach(x => x.classList.remove('wsel'));
 }
+/* Tipp neben das Wort-Fenster schließt es (Fix 06.11.2026): Vorher ging es nur über „Lernen“ oder
+   „Kenne ich“ zu, bei Namen gar nicht, und es verdeckte dauerhaft den unteren Bildschirmrand. */
+document.addEventListener('click', e => {
+  const p = document.getElementById('wpop');
+  if (!p || p.style.display !== 'block') return;
+  if (p.contains(e.target) || (e.target.closest && e.target.closest('.wtok'))) return;
+  hideWpop();
+});
 function markWord(id, box) {
   const st = store.words[id] || { box: 0, due: today() };
   st.box = box === 1 ? 1 : Math.max(st.box, 2);
