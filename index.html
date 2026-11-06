@@ -3033,13 +3033,15 @@ function mischeEin(worte, uebungen) {
 }
 function goHome() { goTab('home'); }
 
-/* Kurze Einblendung statt stummer Navigation */
+/* Kurze Einblendung statt stummer Navigation.
+   pointer-events:none (Fix 06.11.2026): Die ausgeblendete Meldung blieb unsichtbar liegen und fing am
+   Handy das Antippen von „Stunde abschließen“ ab – sie sitzt dort genau über dem Knopf. */
 function meldung(text) {
   let el = document.getElementById('toast');
   if (!el) {
     el = document.createElement('div');
     el.id = 'toast';
-    el.style.cssText = 'position:fixed; left:50%; transform:translateX(-50%);' +
+    el.style.cssText = 'position:fixed; left:50%; transform:translateX(-50%); pointer-events:none;' +
       'bottom:calc(6.2rem + env(safe-area-inset-bottom)); z-index:60; max-width:88vw;' +
       'background:var(--ink); color:var(--paper); padding:.75rem 1.1rem; border-radius:14px;' +
       'font-family:"Roboto Mono",monospace; font-weight:300; font-size:.8rem; line-height:1.45;' +

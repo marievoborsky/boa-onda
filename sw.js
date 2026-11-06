@@ -1,6 +1,6 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v63';
+const SHELL = 'boa-onda-shell-v64';
 const AUDIO = 'boa-onda-audio-v3';   // v3 (06.11.2026): alle Audios neu mit ElevenLabs-Stimmen aus Portugal, eigene Stimmen für die Nebenfiguren – alter Cache muss weg
 // Vorab nur der Vokabel-Index und die erste Woche; jede weitere Lektion landet beim
 // ersten Öffnen im Cache (siehe fetch: Netz zuerst, Antwort wird gespeichert).
