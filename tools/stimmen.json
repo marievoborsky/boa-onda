@@ -1,6 +1,17 @@
 {
- "ana": "z0Lb8TsecBqXUBGEmcoM",
- "joao": "YOXPZErBCYER4bT9Lu0g",
- "marie": "vJZwkSIoOWW7i2Xnj4VH",
- "vasco": "cWPFPotT4uVchCfvvZ7m"
+  "_hinweis": "ElevenLabs-Bibliotheksstimmen von Sprecherinnen und Sprechern aus Portugal (KI-Stimmen, nie als „echt“ bewerben). Ausgewählt von Marie am 06.11.2026 per Hörprobe: Marie, Ana, Vasco aus Fassung B, João = Dinis, Nebenfiguren aus hoerprobe-2026-11-06. Welche Figur welche Stimme bekommt: WHO2FIG in tts-eleven.py. s/sch = Schwerpunkt in Hz des eigenen [s] und [ʃ] der Stimme, gemessen mit eleven_multilingual_v2 – Grundlage der End-s-Prüfung.",
+  "marie":      {"name": "Benedita", "id": "NkpT2jezTenCDRKHkWiX", "s": 5900, "sch": 3780},
+  "ana":        {"name": "Mariza", "id": "zKjRewuiqTkXNUVAMwat", "s": 7170, "sch": 4660},
+  "joao":       {"name": "Dinis – Optimistic and Encouraging", "id": "RROBrqjHiRb8zmRgGV11", "s": 6206, "sch": 3452},
+  "vasco":      {"name": "Vasco – Grounded and natural", "id": "pjqwOzrEUZ3n3m4rMWWL", "s": 6930, "sch": 3850},
+  "tio":        {"name": "Vicente – Warm and raspy", "id": "xwVJ1SoRe0v1T88zEwBN", "merkmal": "band", "s": -5.1, "sch": -29.7, "_hinweis": "tiefe, raue Stimme: auch sein [s] liegt unter 4 kHz, die Schwerpunkte (3742/3087 Hz) trennen kaum. Darum Band-Merkmal (4–5,5 kHz minus 2–3 kHz, dB), gemessen an Sim./Cinco. und Chá./Chave."},
+  "professora": {"name": "Daniela – Mature and authoritative", "id": "IZipF5JhqPlWzpduTV0E", "s": 7735, "sch": 4418},
+  "avo":        {"name": "Marta – Warm Confident", "id": "bBNhdwrIjl4fcVYiRbT2", "s": 6923, "sch": 3648},
+  "martim":     {"name": "Adrião – Conversational", "id": "iuzOXSLlkDcz8iZOeNZO", "s": 7143, "sch": 3680},
+  "tiago":      {"name": "Francisco – Melancholic and Calm", "id": "WsQeRzWJvoDvhPPJj5r7", "s": 6287, "sch": 3586},
+  "ines":       {"name": "Inês – Grounded and Professional", "id": "322VdFt6zYad9Dz0O6rl", "s": 6790, "sch": 4131},
+  "neben_m":    {"name": "Luis – European Portuguese", "id": "ejarTsrf33xoVlH9hMuy", "s": 6858, "sch": 4234},
+  "neben_w":    {"name": "Beatriz – Natural & Friendly", "id": "IOntNi3WhlrGbqLWGi61", "s": 9323, "sch": 6464},
+  "_joao_bis_2026_11_06": {"_hinweis": "Rodrigo verschluckte das End-s oft (17 von 40 Sätzen beim ersten Versuch) – ersetzt durch Dinis", "name": "Rodrigo", "id": "A6CfBSp8JazAJyTxRmON", "s": 6610, "sch": 3710},
+  "_bis_2026_11_05": {"_hinweis": "selbst entworfene Stimmen, End-s oft brasilianisch – nicht mehr benutzen", "marie": "vJZwkSIoOWW7i2Xnj4VH", "ana": "z0Lb8TsecBqXUBGEmcoM", "joao": "YOXPZErBCYER4bT9Lu0g", "vasco": "cWPFPotT4uVchCfvvZ7m"}
 }

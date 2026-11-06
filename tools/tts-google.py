@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Generiert ALLE App-Audios (Dialoge, Vokabeln, Geschichten) mit Google Cloud TTS in
-europäischem Portugiesisch. Standard-Werkzeug seit 05.11.2026.
+"""NOTLÖSUNG seit 06.11.2026 – Standard ist wieder tts-eleven.py (ElevenLabs-Stimmen aus Portugal
+mit End-s-Prüfung). Dieses Werkzeug vertont alle App-Audios mit Google Cloud TTS in europäischem
+Portugiesisch; es war vom 05. bis 06.11.2026 im Einsatz (Sicherung: 09_AUDIO-BACKUPS/google-2026-11-05/).
+Achtung: Es schreibt eigene Fingerabdrücke in audio/manifest.json und würde dann alles neu erzeugen.
 
-Warum nicht mehr ElevenLabs: Die vier ElevenLabs-Stimmen sprechen das s am Wort-
-ende meist als [s] (brasilianisch) statt [ʃ] (europäisch) – gemessen am 05.11.2026
-nach der Rückmeldung einer Nutzerin. Google pt-PT spricht durchgehend europäisch.
+Warum es kurz Standard war: Die damaligen, selbst entworfenen ElevenLabs-Stimmen sprachen das s am
+Wortende meist als [s] (brasilianisch) statt [ʃ] (europäisch) – gemessen am 05.11.2026 nach der
+Rückmeldung einer Nutzerin. Google pt-PT spricht durchgehend europäisch, klingt aber nüchterner.
 
 Stimmen: Google hat für pt-PT nur zwei (Wavenet-E weiblich, Wavenet-F männlich).
 Die vier Figuren unterscheiden sich über Tonhöhe und Tempo (FIGUREN unten).
@@ -88,6 +90,7 @@ if __name__ == '__main__':
     if not KEY: sys.exit('GOOGLE_TTS_API_KEY fehlt')
     if '--nach' in sys.argv: OUT = os.path.abspath(sys.argv[sys.argv.index('--nach') + 1])
     items = _alt.collect()
+    for it in items.values(): it['fig'] = _alt.HAUPTSTIMME.get(it['fig'], it['fig'])   # nur vier Google-Stimmen
     mpfad = os.path.join(OUT, 'manifest.json')
     manifest = json.load(open(mpfad)) if os.path.exists(mpfad) else {}
     alle = '--alle' in sys.argv

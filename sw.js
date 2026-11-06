@@ -1,7 +1,7 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v62';
-const AUDIO = 'boa-onda-audio-v2';   // v2 (05.11.2026): alle Audios neu in europäischem Portugiesisch (Google pt-PT) – alter Cache muss weg
+const SHELL = 'boa-onda-shell-v63';
+const AUDIO = 'boa-onda-audio-v3';   // v3 (06.11.2026): alle Audios neu mit ElevenLabs-Stimmen aus Portugal, eigene Stimmen für die Nebenfiguren – alter Cache muss weg
 // Vorab nur der Vokabel-Index und die erste Woche; jede weitere Lektion landet beim
 // ersten Öffnen im Cache (siehe fetch: Netz zuerst, Antwort wird gespeichert).
 const LEKTIONEN = ['./lektionen/index.json', './lektionen/leseworte.json'].concat(Array.from({ length: 7 }, (_, i) => `./lektionen/tag${String(i + 1).padStart(2, '0')}.json`));
