@@ -249,11 +249,30 @@
 "fig": "ana",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Mais ou menos…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Estou um pouco cansada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E tu, como estás?",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 4.26,
-"kontext": false,
-"lage": -0.28
+"dauer": 5.69,
+"kontext": true,
+"lage": -0.05,
+"urteil": "sch"
 }
 ]
 },
@@ -308,12 +327,26 @@
 "d0307": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Estou muito feliz!",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": " de Hamburgo, mas agora estou em Lisboa.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.79,
-"kontext": false,
-"lage": null
+"dauer": 4.19,
+"kontext": true,
+"lage": 0.01,
+"urteil": "sch"
 }
 ]
 },
@@ -332,12 +365,26 @@
 "d0402": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Tenho dezoito anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "E tu?",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 1.8,
-"kontext": false,
-"lage": null
+"dauer": 2.11,
+"kontext": true,
+"lage": -0.13,
+"urteil": "sch"
 }
 ]
 },
@@ -496,12 +543,26 @@
 "d0505": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "É para o meu projeto de português!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Quem é a tua amiga?",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.11,
-"kontext": false,
-"lage": null
+"dauer": 3.47,
+"kontext": true,
+"lage": 0.08,
+"urteil": "sch"
 }
 ]
 },
@@ -659,11 +720,25 @@
 "fig": "ana",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Tenho um irmão, o Tomás.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Ele tem doze anos.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.37,
-"kontext": false,
-"lage": -0.34
+"dauer": 4.04,
+"kontext": true,
+"lage": -0.17,
+"urteil": "sch"
 }
 ]
 },
@@ -761,12 +836,31 @@
 "d0902": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "O Tomás?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Sim!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E ele é alto — tem doze anos e é alto!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 5.51,
-"kontext": false,
-"lage": null
+"dauer": 6.32,
+"kontext": true,
+"lage": -0.32,
+"urteil": "sch"
 }
 ]
 },
@@ -1007,12 +1101,31 @@
 "d1007": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "E o Tomás?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Não come.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Está no telemóvel.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.76,
-"kontext": false,
-"lage": null
+"dauer": 4.72,
+"kontext": true,
+"lage": -0.28,
+"urteil": "sch"
 }
 ]
 },
@@ -1031,12 +1144,41 @@
 "d1009": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Gosto!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "olha, João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vídeos de surf.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O professor é fixe!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 9.61,
-"kontext": false,
-"lage": null
+"dauer": 7.44,
+"kontext": true,
+"lage": -0.26,
+"urteil": "sch"
 }
 ]
 },
@@ -1430,24 +1572,52 @@
 "d1209": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "E o autocarro para Sagres?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Quanto custa?",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 2.4,
-"kontext": false,
-"lage": null
+"dauer": 2.64,
+"kontext": true,
+"lage": -0.13,
+"urteil": "sch"
 }
 ]
 },
 "d1210": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Vinte e dois euros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Ida e volta: quarenta e quatro.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 4.44,
-"kontext": false,
-"lage": null
+"dauer": 4.22,
+"kontext": true,
+"lage": 0.13,
+"urteil": "sch"
 }
 ]
 },
@@ -1530,12 +1700,31 @@
 "d1304": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "São sete horas.",
+"urteil": "sch",
+"versuche": 3
+},
+{
+"text": "Eu ligo…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Olá, Vasco!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.42,
-"kontext": false,
-"lage": null
+"dauer": 4.57,
+"kontext": true,
+"lage": -0.44,
+"urteil": "sch"
 }
 ]
 },
@@ -1683,12 +1872,26 @@
 "d1505": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "E almoçamos juntas?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Há um café bom ao lado da escola.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 4.68,
-"kontext": false,
-"lage": null
+"dauer": 4.58,
+"kontext": true,
+"lage": -0.28,
+"urteil": "sch"
 }
 ]
 },
@@ -2054,11 +2257,25 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Vamos!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "co diz que as ondas ainda estão grandes.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.11,
-"kontext": false,
-"lage": 0.0
+"dauer": 3.21,
+"kontext": true,
+"lage": -0.08,
+"urteil": "sch"
 }
 ]
 },
@@ -2108,12 +2325,26 @@
 "d1805": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "O comboio para Lagos custa vinte euros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Depois vamos de autocarro.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.34,
-"kontext": false,
-"lage": null
+"dauer": 4.26,
+"kontext": true,
+"lage": 0.06,
+"urteil": "sch"
 }
 ]
 },
@@ -2412,11 +2643,25 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "E as ondas?",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Diz-me as ondas!",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 1.75,
-"kontext": false,
-"lage": -0.08
+"dauer": 2.17,
+"kontext": true,
+"lage": -0.14,
+"urteil": "sch"
 }
 ]
 },
@@ -2947,12 +3192,26 @@
 "d2402": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Três para Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Quanto tempo demora a viagem?",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.06,
-"kontext": false,
-"lage": null
+"dauer": 2.94,
+"kontext": true,
+"lage": -0.0,
+"urteil": "sch"
 }
 ]
 },
@@ -3333,24 +3592,52 @@
 "d2603": {
 "fig": "vasco",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Três?",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Eu contei uma.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 1.75,
-"kontext": false,
-"lage": null
+"dauer": 2.26,
+"kontext": true,
+"lage": -0.06,
+"urteil": "sch"
 }
 ]
 },
 "d2604": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Uma grande e duas pequenas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "As pequenas também contam.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.16,
-"kontext": false,
-"lage": null
+"dauer": 3.57,
+"kontext": true,
+"lage": -0.17,
+"urteil": "sch"
 }
 ]
 },
@@ -3492,12 +3779,26 @@
 "d2703": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Fomos ao mar os dois dias.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "is tempo dentro de água do que na areia.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 5.46,
-"kontext": false,
-"lage": null
+"dauer": 5.37,
+"kontext": true,
+"lage": -0.37,
+"urteil": "sch"
 }
 ]
 },
@@ -3578,18 +3879,37 @@
 },
 "d2709": {
 "fig": "marie",
-"gewaehlt": 1,
+"gewaehlt": 0,
 "pruefen": true,
-"versuche": [
+"saetze": [
 {
-"dauer": 4.96,
-"kontext": false,
-"lage": 1.0
+"text": "Voltamos.",
+"urteil": "sch",
+"versuche": 1
 },
 {
-"dauer": 5.02,
+"text": "Mas prometo uma coisa: eu volto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "No verão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Com mais português.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
+"versuche": [
+{
+"dauer": 6.01,
 "kontext": true,
-"lage": -0.06
+"lage": 0.1,
+"urteil": "sch"
 }
 ]
 },
@@ -3633,11 +3953,25 @@
 "fig": "ana",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Eu cresci dez centímetros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Vês?",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 2.35,
-"kontext": false,
-"lage": -0.27
+"dauer": 3.22,
+"kontext": true,
+"lage": -0.3,
+"urteil": "sch"
 }
 ]
 },
@@ -3740,12 +4074,31 @@
 "d2912": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Vamos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A avó fez almoço para vinte pessoas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Somos cinco.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.89,
-"kontext": false,
-"lage": null
+"dauer": 5.58,
+"kontext": true,
+"lage": 0.09,
+"urteil": "sch"
 }
 ]
 },
@@ -4252,12 +4605,31 @@
 "d3201": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Marie!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Onde está o Tomás?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Não o vejo.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 2.77,
-"kontext": false,
-"lage": null
+"dauer": 4.28,
+"kontext": true,
+"lage": -0.23,
+"urteil": "sch"
 }
 ]
 },
@@ -4365,12 +4737,36 @@
 "d3208": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Ali está ele!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tomás!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Anda cá!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Onde é que compraste isso?",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 4.86,
-"kontext": false,
-"lage": null
+"dauer": 6.64,
+"kontext": true,
+"lage": -0.19,
+"urteil": "sch"
 }
 ]
 },
@@ -4389,12 +4785,31 @@
 "d3210": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Um manjerico!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Obrigada, Tomás!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Vou levá-lo para Hamburgo.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.66,
-"kontext": false,
-"lage": null
+"dauer": 4.23,
+"kontext": true,
+"lage": 0.1,
+"urteil": "sch"
 }
 ]
 },
@@ -4534,12 +4949,31 @@
 "d3305": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Mais bonito.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Diz.",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Mais bonito.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.76,
-"kontext": false,
-"lage": null
+"dauer": 4.2,
+"kontext": true,
+"lage": -0.3,
+"urteil": "sch"
 }
 ]
 },
@@ -4774,12 +5208,36 @@
 "d3409": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Com o Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ana…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "vou trabalhar em Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O verão inteiro.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.79,
-"kontext": false,
-"lage": null
+"dauer": 4.82,
+"kontext": true,
+"lage": -0.06,
+"urteil": "sch"
 }
 ]
 },
@@ -5010,12 +5468,26 @@
 "d3610": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Kágados?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Isso é uma palavra?",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 2.22,
-"kontext": false,
-"lage": null
+"dauer": 2.99,
+"kontext": true,
+"lage": 0.05,
+"urteil": "sch"
 }
 ]
 },
@@ -5300,12 +5772,36 @@
 "d3801": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Inês…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "dói-me a garganta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E a cabeça.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E acho que tenho febre.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 4.36,
-"kontext": false,
-"lage": null
+"dauer": 5.22,
+"kontext": true,
+"lage": 0.21,
+"urteil": "sch"
 }
 ]
 },
@@ -5622,12 +6118,26 @@
 "d3904": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "A guitarra portuguesa tem doze cordas?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Parece impossível.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.34,
-"kontext": false,
-"lage": null
+"dauer": 3.65,
+"kontext": true,
+"lage": -0.1,
+"urteil": "sch"
 }
 ]
 },
@@ -6082,12 +6592,31 @@
 "d4302": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Eu não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu vou atrás com o Tomás.",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Ele dorme melhor comigo.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 4.18,
-"kontext": false,
-"lage": null
+"dauer": 5.26,
+"kontext": true,
+"lage": -0.38,
+"urteil": "sch"
 }
 ]
 },
@@ -6584,12 +7113,31 @@
 "d4503": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "O motor está a deitar fumo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Saiam todos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Já!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 2.95,
-"kontext": false,
-"lage": null
+"dauer": 3.77,
+"kontext": true,
+"lage": 0.41,
+"urteil": "sch"
 }
 ]
 },
@@ -6914,11 +7462,25 @@
 "fig": "ana",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Quatrocentos euros?!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A carrinha não vale quatrocentos euros.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 4.78,
-"kontext": false,
-"lage": null
+"dauer": 4.84,
+"kontext": true,
+"lage": -0.06,
+"urteil": "sch"
 }
 ]
 },
@@ -7025,12 +7587,26 @@
 "d4610": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Dividimos por três.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Cento e vinte cada.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 2.51,
-"kontext": false,
-"lage": null
+"dauer": 2.76,
+"kontext": true,
+"lage": 0.06,
+"urteil": "sch"
 }
 ]
 },
@@ -7361,12 +7937,31 @@
 "d4802": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Estamos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A carrinha está arranjada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Custou trezentos e sessenta.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.76,
-"kontext": false,
-"lage": null
+"dauer": 4.66,
+"kontext": true,
+"lage": -0.02,
+"urteil": "sch"
 }
 ]
 },
@@ -7409,12 +8004,26 @@
 "d4804": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Agora Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Três horas, diz o João.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 2.51,
-"kontext": false,
-"lage": null
+"dauer": 2.77,
+"kontext": true,
+"lage": 0.05,
+"urteil": "sch"
 }
 ]
 },
@@ -7617,12 +8226,31 @@
 "d5001": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Bom dia a todos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Primeiro na areia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "se na prancha, com a barriga para baixo.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 4.49,
-"kontext": false,
-"lage": null
+"dauer": 5.19,
+"kontext": true,
+"lage": 0.14,
+"urteil": "sch"
 }
 ]
 },
@@ -7667,12 +8295,31 @@
 "d5005": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Hoje não vêm ondas grandes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "E se vier, agarra a prancha e aguenta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A prancha é tua amiga.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 5.43,
-"kontext": false,
-"lage": null
+"dauer": 5.92,
+"kontext": true,
+"lage": -0.04,
+"urteil": "sch"
 }
 ]
 },
@@ -7717,12 +8364,41 @@
 "d5009": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Na areia?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Isso é novo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Outra vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Não olhes para os pés.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Olha para a frente.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 5.25,
-"kontext": false,
-"lage": null
+"dauer": 6.44,
+"kontext": true,
+"lage": 0.17,
+"urteil": "sch"
 }
 ]
 },
@@ -7742,12 +8418,46 @@
 "d5011": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Boa!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Viste?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Repete dez vezes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Depois vamos à água.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Martim, não faças essa cara.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu caí catorze vezes no primeiro dia.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 7.0,
-"kontext": false,
-"lage": null
+"dauer": 9.54,
+"kontext": true,
+"lage": 0.17,
+"urteil": "sch"
 }
 ]
 },
@@ -8005,12 +8715,41 @@
 "d5111": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Pergunto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "As pranchas e os fatos estão incluídos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A aula começa às dez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "ó isso: na água, posso tratá-los por tu?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É mais rápido quando grito.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 10.71,
-"kontext": false,
-"lage": null
+"dauer": 10.06,
+"kontext": true,
+"lage": -0.04,
+"urteil": "sch"
 }
 ]
 },
@@ -8216,11 +8955,35 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Eu sei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu vi.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Amanhã ficas outra vez.",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Hoje descansas.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 4.21,
-"kontext": false,
-"lage": -0.09
+"dauer": 4.85,
+"kontext": true,
+"lage": -0.08,
+"urteil": "sch"
 }
 ]
 },
@@ -8282,12 +9045,31 @@
 "d5303": {
 "fig": "vasco",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Duas baterias de quinze minutos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O júri dá nota às duas melhores ondas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "panhar duas ondas limpas, passa à final.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 7.52,
-"kontext": false,
-"lage": null
+"dauer": 8.18,
+"kontext": true,
+"lage": -0.15,
+"urteil": "sch"
 }
 ]
 },
@@ -8356,12 +9138,36 @@
 "d5308": {
 "fig": "vasco",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Tem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Surfa melhor do que muitos adultos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O problema é a cabeça.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ndo estiver nervoso, esquece-se de tudo.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 6.95,
-"kontext": false,
-"lage": null
+"dauer": 8.24,
+"kontext": true,
+"lage": 0.35,
+"urteil": "sch"
 }
 ]
 },
@@ -8511,12 +9317,31 @@
 "d5406": {
 "fig": "vasco",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Três anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Bons anos, até.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": ", ao domingo à noite, no carro, chorava.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 9.74,
-"kontext": false,
-"lage": null
+"dauer": 9.72,
+"kontext": true,
+"lage": -0.01,
+"urteil": "sch"
 }
 ]
 },
@@ -8535,12 +9360,46 @@
 "d5408": {
 "fig": "vasco",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Um bocadinho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sem música.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Durante três anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "pu-la na mesa do meu chefe e despedi-me.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Nunca tinha feito nada tão estúpido.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Nem nada tão certo.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 13.87,
-"kontext": false,
-"lage": null
+"dauer": 15.14,
+"kontext": true,
+"lage": 0.06,
+"urteil": "sch"
 }
 ]
 },
@@ -8561,11 +9420,35 @@
 "fig": "vasco",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Acabou em oito meses.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "de surf para um sócio que me pagava mal.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Depois abri a escola.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Depois vieram vocês.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 7.11,
-"kontext": false,
-"lage": -0.12
+"dauer": 8.78,
+"kontext": true,
+"lage": 0.23,
+"urteil": "sch"
 }
 ]
 },
@@ -8584,12 +9467,31 @@
 "d5412": {
 "fig": "vasco",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Nem uma vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Tenho menos dinheiro e mais vida.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A conta dá.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 3.66,
-"kontext": false,
-"lage": null
+"dauer": 5.01,
+"kontext": true,
+"lage": 0.47,
+"urteil": "sch"
 }
 ]
 },
@@ -8649,12 +9551,41 @@
 "d5505": {
 "fig": "vasco",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Espera.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Segunda: o inverno.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "versidade, em Lisboa, de outubro a maio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Com bolsa, se tiveres boas notas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Inês conhece a professora.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 12.38,
-"kontext": false,
-"lage": null
+"dauer": 12.74,
+"kontext": true,
+"lage": -0.06,
+"urteil": "sch"
 }
 ]
 },
@@ -8709,12 +9640,31 @@
 "d5510": {
 "fig": "ana",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Hamburgo não vai a lado nenhum.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Hamburgo tem mais de mil anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Espera mais um.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 5.88,
-"kontext": false,
-"lage": null
+"dauer": 6.81,
+"kontext": true,
+"lage": -0.52,
+"urteil": "sch"
 }
 ]
 },
@@ -14621,12 +15571,7 @@
 "versuche": 1
 },
 {
-"text": "Numa candidatura escreve-se «Exmo.",
-"urteil": null,
-"versuche": 1
-},
-{
-"text": "Senhor Duarte» e ponto.",
+"text": "screve-se «Exmo. Senhor Duarte» e ponto.",
 "urteil": null,
 "versuche": 1
 },
@@ -14644,9 +15589,9 @@
 "satzweise": true,
 "versuche": [
 {
-"dauer": 16.17,
+"dauer": 17.48,
 "kontext": true,
-"lage": -0.13,
+"lage": -0.07,
 "urteil": "sch"
 }
 ]
@@ -15770,96 +16715,678 @@
 "r06": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "ia é portuguesa e tem vinte e nove anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "É professora e mora no Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " português, inglês e um pouco de alemão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Tiago, é estudante e estuda em Coimbra.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " tem vinte anos e fala inglês muito bem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "antástico e o Porto é a cidade da Sofia.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 21.21,
-"kontext": false,
-"lage": null
+"dauer": 21.3,
+"kontext": true,
+"lage": -0.21,
+"urteil": "sch"
 }
 ]
 },
 "r07": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Olá!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu sou o Diogo e tenho dezoito anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "ês, de Faro, mas agora estudo em Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ortuguês, espanhol e um pouco de inglês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": ": a minha amiga Clara está cá em Lisboa!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "panhola, de Madrid, e tem dezanove anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "uguês muito bem — e agora estuda alemão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Porquê?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É uma pergunta para a Clara!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 25.91,
-"kontext": false,
-"lage": null
+"dauer": 27.64,
+"kontext": true,
+"lage": -0.05,
+"urteil": "sch"
 }
 ]
 },
 "r14": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "creve no caderno: «O Porto é fantástico!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "mília da Ana é grande e muito simpática.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "é gira e a avó fala muito, muito rápido.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "m doze anos e é o fã número um do Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " avó é delicioso: sopa, peixe e um bolo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "alão e um pastel de nata, se faz favor.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O galão custa um euro e vinte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E agora?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Agora esperamos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Sagres não tem pressa…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "mas eu tenho!»",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 33.04,
-"kontext": false,
-"lage": null
+"dauer": 35.21,
+"kontext": true,
+"lage": -0.04,
+"urteil": "sch"
 }
 ]
 },
 "r21": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Olá!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "hamo-me Rita e vivo em Faro, no Algarve.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e e meia, tomo um duche e bebo um galão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ulas começam às nove e acabam às quatro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " jardim da escola, com as minhas amigas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— nunca de manhã, é muito cedo para mim!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "No inverno fico em casa e leio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " bom tempo, vou à praia com o meu irmão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ele tem quinze anos e surfa muito bem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " e digo que estou a treinar a paciência.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "na que vem vou a Lisboa com a minha mãe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "os ficar três dias em casa da minha tia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Finalmente!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 40.49,
-"kontext": false,
-"lage": null
+"dauer": 41.52,
+"kontext": true,
+"lage": -0.12,
+"urteil": "sch"
 }
 ]
 },
 "r28": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Olá, malta!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Chegaram bem a Lisboa?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e — a semana passada foi a semana certa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Foi uma boa semana para mim também.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "empo dentro de água do que eu, e o João…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o João dormiu, mas dormiu com estilo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Tomás fica mais dois dias com a mãe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Hoje apanhou uma onda sozinho e chorou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "De alegria, diz ele.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a prancha grande está aqui à tua espera.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "atenção — no verão falamos só português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Sem alemão, sem inglês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Combinado?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Boa onda, e até ao verão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vasco",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 39.05,
-"kontext": false,
-"lage": null
+"dauer": 39.6,
+"kontext": true,
+"lage": 0.05,
+"urteil": "sch"
 }
 ]
 },
 "r35": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Olá, Inês!",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": ", a Ana, a amiga do teu irmão preferido.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "idade: em setembro mudo-me para Coimbra!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Recebi a resposta da universidade ontem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ainda não acredito.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Preciso da tua ajuda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tu vives lá há um ano, não é?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Como é a cidade?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Onde é que os estudantes moram?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É mais cara do que o Porto?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João diz que tu conheces toda a gente.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Outra coisa: a Marie está cá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sim, a alemã!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "res o verão inteiro, na escola do Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "nos para o sul na carrinha velha do tio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "heci o João, essa carrinha já era velha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " calhar passamos por Coimbra no caminho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Podemos dormir em tua casa?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Só duas noites.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "rometo que o João não dorme no teu sofá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Beijinhos, Ana",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 46.52,
-"kontext": false,
-"lage": null
+"dauer": 46.86,
+"kontext": true,
+"lage": 0.05,
+"urteil": "sch"
 }
 ]
 },
 "r42": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Olá, Ana!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Aqui o Tiago, dos Kágados.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "o está livre a partir de um de setembro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Podes vir quando quiseres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "com varanda, e da varanda vê-se a torre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "rmário é antigo e a porta não fecha bem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "erguntaste-me se há regras para visitas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " que é quase da casa, pode ficar quatro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "z-lhe que a garganta dela é famosa aqui.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "bre a nove de setembro e eu vou contigo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Até breve.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " digas mal do Sporting, mesmo a brincar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tiago",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 45.79,
-"kontext": false,
-"lage": null
+"dauer": 44.02,
+"kontext": true,
+"lage": 0.11,
+"urteil": "sch"
 }
 ]
 },
 "r49": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Olá, avó!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Chegámos a Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A viagem foi a melhor da minha vida.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a avariou no Alentejo, a quarenta graus.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Esperámos duas horas na berma.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "eu fui à frente com o senhor do reboque.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "le deixou-me tocar na buzina três vezes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "carrinha e deu-me a bomba de água velha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ra o Porto, para pôr ao lado do martelo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "À noite dormimos numa praia, numa tenda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana contou uma lenda que inventou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " João acordou às quatro para fazer café.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ele trabalha numa padaria!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ninguém sabia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Agora estamos em casa do Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Marie começa a trabalhar amanhã às seis.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Eu vou ajudar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " possa dar uma aula aos miúdos pequenos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Espero que sim!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "eijinhos, Tomás P.S.: A carrinha chegou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Inês não acreditava.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 47.6,
-"kontext": false,
-"lage": null
+"dauer": 52.17,
+"kontext": true,
+"lage": 0.24,
+"urteil": "sch"
 }
 ]
 },
@@ -15867,11 +17394,125 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "revo-lhe em português, como a avó pediu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "da Ana, que não está aqui para corrigir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O verão foi o mais rápido da minha vida.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " caem tanto como eu caía no ano passado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "que o Vasco pensou que se tinha magoado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Tomás ficou em terceiro na competição.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "iros são de Sagres e surfam desde bebés.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Ele dormiu com o boné.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Acho que ainda dorme com o boné.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "na república com o Tiago e onze colegas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Diz que canta às sextas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "o acredito, mas espero que seja verdade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E eu decidi: fico.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o em Lisboa, no sofá do João, que é mau.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "No verão volto para aqui, de vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "avó queria que eu voltasse para o Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "erico na sua varanda que precisa de mim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Obrigada pelo martelo de 1968.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não o levei, como combinámos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Mas levei a história.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " grande, Marie  P.S.: A carrinha chegou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Diga à Inês.",
+"urteil": "sch",
+"versuche": 2
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 77.87,
-"kontext": false,
-"lage": 0.03
+"dauer": 75.23,
+"kontext": true,
+"lage": 0.01,
+"urteil": "sch"
 }
 ]
 },
@@ -15926,48 +17567,329 @@
 "s03": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": ", de Hamburgo, mas agora está em Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " está feliz, porque Lisboa é fantástica.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana e o João são amigos da Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana é do Porto e o João é de Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E hoje?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Hoje o João está em casa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Está doente e está triste.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Olá, João!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Como estás?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Estou mal…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Oh, não!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 21.55,
-"kontext": false,
-"lage": null
+"dauer": 23.86,
+"kontext": true,
+"lage": 0.01,
+"urteil": "sch"
 }
 ]
 },
 "s04": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "na tem vinte anos e o João tem dezanove.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie tem dezoito — é o bebé do grupo!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Hoje o grupo está em casa da Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "stá doente, está muito bem e está feliz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Uma pergunta, Ana: o teu pai é do Porto?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— É, sim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E a minha mãe também é do Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E quantos anos tem o teu pai?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O meu pai tem…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "não, não!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É segredo!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 22.28,
-"kontext": false,
-"lage": null
+"dauer": 22.88,
+"kontext": true,
+"lage": -0.01,
+"urteil": "sch"
 }
 ]
 },
 "s05": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "m projeto de português: vinte perguntas!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Hoje as perguntas são para a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ana, de onde é que és?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Do Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E onde é que estás feliz?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Em casa e na praia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Quem é o teu amigo?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O João…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e a Marie também!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Porque é que estás em Lisboa, Ana?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Porque Lisboa é fantástica!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E porque a Marie está cá…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ana!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Isso não é uma resposta!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— É, sim!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 27.19,
-"kontext": false,
-"lage": null
+"dauer": 26.98,
+"kontext": true,
+"lage": 0.26,
+"urteil": "sch"
 }
 ]
 },
 "s06": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "O João é de Lisboa e estuda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": ", tem vinte e dois anos e mora no Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É médica e trabalha num hospital.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "lha muito — mas o trabalho é fantástico.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O pai do João é professor.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A mãe trabalha num café em Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Inês fala inglês e espanhol.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "oão fala inglês — e agora estuda alemão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Porquê?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Porque a Marie fala alemão!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Olá, Inês!",
+"urteil": "sch",
+"versuche": 4
+},
+{
+"text": "Falas alemão?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não, mas falo espanhol e inglês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "E tu, Marie, falas português?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Um pouco…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "mas estudo muito!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 35.89,
-"kontext": false,
-"lage": null
+"dauer": 33.94,
+"kontext": true,
+"lage": 0.33,
+"urteil": "sch"
 }
 ]
 },
@@ -15975,11 +17897,90 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Hoje é domingo e está sol.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O grupo está na praia de Carcavelos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "gua está fria, mas a praia é fantástica.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "stá cá — está no Porto, em casa da irmã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "fala com uma rapariga portuguesa: — Olá!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "És de cá?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sou, sim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sou de Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E tu, de onde és?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Sou da Alemanha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Moro em Lisboa e estudo português!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Falas muito bem!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Obrigada!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tenho bons amigos portugueses…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "e um projeto com vinte perguntas!",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 30.46,
-"kontext": false,
-"lage": -0.07
+"dauer": 31.18,
+"kontext": true,
+"lage": 0.09,
+"urteil": "sch"
 }
 ]
 },
@@ -15987,23 +17988,246 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Sábado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o João estão no Porto — a cidade da Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ande: os pais, a avó e o irmão, o Tomás.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Bem-vindos!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— diz a mãe da Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A avó fala muito…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e muito rápido!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "preende tudo, mas a avó é muito querida.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A tua avó fala rápido!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu sei!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Mas tu compreendes mais e mais.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O teu português está fixe!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Tomás tem uma prancha pequena.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João diz: — O teu irmão surfa?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fixe!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " noite, o telemóvel do João faz „pling“.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Uma mensagem de voz…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "do Vasco: „Olá!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Aqui em Sagres…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "as ondas estão perfeitas…“",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 42.03,
-"kontext": false,
-"lage": -0.08
+"dauer": 45.24,
+"kontext": true,
+"lage": 0.16,
+"urteil": "sch"
 }
 ]
 },
 "s09": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Domingo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a mesa é grande e a comida é fantástica.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O pai da Ana é alto e simpático.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " mãe tem os olhos castanhos, como a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Tomás é jovem e muito engraçado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "umacidadelindanãoé?“ A Marie compreende…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "uma palavra: Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Avó, mais devagar!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A Marie está a aprender!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A avó fala devagar: — Gostas…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "do…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Porto?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sim!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Porto é muito bonito!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A avó está feliz: — Ela compreende!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A alemã é gira!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Tomás pergunta: — João, tu surfas?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " de Sagres é o melhor professor de surf!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " olhos: — Como é que tu sabes do Vasco…?",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 48.51,
-"kontext": false,
-"lage": null
+"dauer": 50.76,
+"kontext": true,
+"lage": 0.24,
+"urteil": "sch"
 }
 ]
 },
@@ -16011,11 +18235,130 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Segunda-feira de manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O último dia no Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "lmoço grande: pão, queijo, fruta e bolo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Comam, comam!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— diz a avó.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "es, um professor com uma prancha branca.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Este professor é famoso!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— diz o Tomás.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Os vídeos dele são muito fixes!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O João olha…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e abre os olhos: — Não acredito.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É o Vasco!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O meu amigo Vasco, de Sagres!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— O TEU amigo?!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O Tomás está muito feliz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— O teu amigo é o professor dos vídeos?!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " pergunta: — O Vasco da mensagem de voz?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O professor de surf?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sim!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " E ele diz que as ondas estão perfeitas…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Ana faz um sorriso: — Então…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "quando é que vamos a Sagres?",
+"urteil": "sch",
+"versuche": 3
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 49.45,
-"kontext": false,
-"lage": -0.04
+"dauer": 50.32,
+"kontext": true,
+"lage": 0.14,
+"urteil": "sch"
 }
 ]
 },
@@ -16023,35 +18366,392 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "fé Majestic, o pequeno grupo está feliz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "a Marie é delicioso, o pastel de nata é…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "perfeito.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Mais alguma coisa?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta o empregado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não, obrigada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A conta, se faz favor!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sozinha!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Em português!",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "rriso: — O teu português está muito bom!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ão, o Tomás está triste: — Adeus, Marie!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Adeus, João!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Até breve, Tomás!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Lisboa, o telemóvel do João faz „pling“.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco: „Olá João!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Então?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Quando é que vens a Sagres?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "ha para a Marie e para a Ana: — Ele diz…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "que a primeira aula é grátis.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— SAGRES!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— dizem as duas.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 47.65,
-"kontext": false,
-"lage": -0.05
+"dauer": 50.16,
+"kontext": true,
+"lage": 0.18,
+"urteil": "sch"
 }
 ]
 },
 "s12": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "À noite, em casa da Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "sa: papel, uma calculadora e três cafés.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Então — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "rro: quarenta e quatro euros por pessoa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "m Sagres: vinte e cinco euros por noite.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Duas noites: cinquenta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A primeira aula é grátis — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a custa vinte euros, com prancha e fato.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie conta: — Quarenta e quatro…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "mais cinquenta…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "mais vinte…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "São cento e catorze euros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Mais os pastéis de nata — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Importante.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O telemóvel da Ana toca.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É o Tomás, do Porto: — Ana!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A mãe diz que sim!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Posso ir a Sagres com vocês?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "POSSO IR?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Por favor, por favor, POR FAVOR!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana olha para a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie olha para o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "z um sorriso: — O fã número um do Vasco?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Claro que sim.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 54.0,
-"kontext": false,
-"lage": null
+"dauer": 53.77,
+"kontext": true,
+"lage": 0.04,
+"urteil": "sch"
 }
 ]
 },
 "s13": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Sexta-feira à noite.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O telemóvel da Marie toca.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É uma mensagem do Tomás, do Porto: «Olá!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É amanhã?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vamos a Sagres amanhã?»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie responde: «Não, Tomás.",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Este fim de semana não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "As ondas estão muito grandes.»",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "«E no domingo?»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "«Também não.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "«Ohhh…»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e está na praia de Carcavelos com a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O mar está grande e o vento está forte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O Vasco tem razão — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Isto não é para principiantes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " olha para a previsão do tempo: segunda…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "terça…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "quarta…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Quando é que o mar está calmo?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Calma, Marie — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O Vasco conhece o mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E boa onda não tem pressa.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 41.27,
-"kontext": false,
-"lage": null
+"dauer": 43.21,
+"kontext": true,
+"lage": 0.1,
+"urteil": "sch"
 }
 ]
 },
@@ -16059,83 +18759,851 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Domingo à noite.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " o grupo está em Lisboa, em casa da Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O telemóvel toca: uma mensagem de voz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "É o Vasco: — Olá, olá!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "otícias: as ondas estão quase perfeitas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Quase!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": ": o que é que vocês fazem todos os dias?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Têm aulas?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Trabalham?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A que horas?",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "— Porquê?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Vasco é sempre um segredo — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "onde à mensagem: «Temos aulas de manhã…»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Perfeito — diz o Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " na próxima semana falamos do dia a dia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E depois…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Sagres.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 38.45,
-"kontext": false,
-"lage": -0.13
+"dauer": 41.21,
+"kontext": true,
+"lage": 0.15,
+"urteil": "sch"
 }
 ]
 },
 "s15": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Segunda-feira, seis e meia da manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Lisboa acorda devagar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "orda cedo — mas não por causa das aulas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "olha para a previsão do tempo em Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Ondas: dois metros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Vento: forte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ainda não — diz baixinho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "equeno-almoço, autocarro, aulas às nove.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ao meio-dia almoça com a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "À tarde estudam juntas na biblioteca.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " e escreve as palavras novas no caderno.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Na terça: ondas de dois metros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Na quarta: dois metros e meio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s para a previsão quantas vezes por dia?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie pensa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Uma.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ou duas…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— e depois, honesta: — Ou seis.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Boa onda — diz o João, com um sorriso.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s portuguesa: falas do tempo o dia todo.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 51.96,
-"kontext": false,
-"lage": null
+"dauer": 54.81,
+"kontext": true,
+"lage": 0.27,
+"urteil": "sch"
 }
 ]
 },
 "s16": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Quinta-feira.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie levanta-se às seis.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Ainda está escuro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não é por causa das aulas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "É por causa do mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Abre o telemóvel: ondas de dois metros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Fecha o telemóvel.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Bebe um chá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Às seis e meia recebe uma mensagem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É o Tomás, do Porto: «Bom dia!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Também não durmo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Como estão as ondas?»",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Marie sorri e escreve: «Grandes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Ainda não.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "«E amanhã?»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "«Amanhã vemos.»",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "unca se levanta cedo: «Vocês são doidos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "São SETE da manhã.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Marie responde: «Tu também não dormes!»",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "«Eu não me levanto cedo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu ainda não me deitei.»",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 39.47,
-"kontext": false,
-"lage": null
+"dauer": 42.23,
+"kontext": true,
+"lage": 0.4,
+"urteil": "sch"
 }
 ]
 },
 "s17": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Domingo, oito da manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana corre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João dorme.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Marie conta as voltas: uma, duas, três…",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "dez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Não pensa em nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não pensa nas ondas de Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Não pensa na previsão do tempo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Está a mentir a si própria, claro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Pensa sempre nas ondas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "três encontram-se num café ao pé do rio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a o café como quem olha para um milagre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Marie — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "uantas vezes olhas hoje para a previsão?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Nenhuma.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A sério?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Duas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "muito sério: — À Marie, que nunca mente.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Quase nunca.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 43.73,
-"kontext": false,
-"lage": null
+"dauer": 43.76,
+"kontext": true,
+"lage": 0.31,
+"urteil": "sch"
 }
 ]
 },
 "s18": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Quarta-feira à noite.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Três telemóveis, uma mesa, um plano.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Comboio das oito e dez — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sexta-feira da semana que vem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sexta?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " tenho aulas até às cinco — diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Então o das seis da tarde.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Chegamos a Lagos à noite e dormimos lá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João não diz nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Está a olhar para o telemóvel.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— João?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Uma mensagem do Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Silêncio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana e a Marie olham uma para a outra.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Lê!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— «Olá, malta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " vem: as ondas vão descer para um metro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vento fraco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Se isto se mantiver…»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Se isto se mantiver o quê?!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— grita a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Acaba aqui.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ele está a escrever.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "lemóvel como três gatos para uma janela.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O telemóvel apita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "«…vai ser perfeito para vocês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Reservem.»",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 47.6,
-"kontext": false,
-"lage": null
+"dauer": 53.65,
+"kontext": true,
+"lage": -0.07,
+"urteil": "sch"
 }
 ]
 },
 "s19": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "ei — diz o João, com o telemóvel na mão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "l em Sagres, quarto para quatro pessoas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Quatro?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Somos três.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Somos quatro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s chega na sexta-feira com a mãe da Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A mãe fica em Lagos, ele fica connosco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana levanta os olhos ao céu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "vai falar do Vasco o fim de semana todo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "falar do Vasco a vida toda — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " uma cozinha pequena, uma janela grande.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Fica longe da praia?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Cinco minutos a pé.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E há uma coisa importante…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O quê?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Da janela do quarto vê-se o mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Silêncio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ninguém: — Nunca dormi tão perto do mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "cebe que não é só ela que está à espera.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 49.63,
-"kontext": false,
-"lage": null
+"dauer": 49.39,
+"kontext": true,
+"lage": 0.31,
+"urteil": "sch"
 }
 ]
 },
 "s20": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Quinta-feira, dez da noite.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Está a chover em Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "rie está na cama com o telemóvel na mão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vinte e três dias.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "s dias a olhar para a previsão do tempo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O telemóvel apita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É o grupo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É o Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "«Boa noite, malta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s de um metro, maré boa às dez da manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não vou dizer que é perfeito…»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie fecha os olhos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "«…porque no mar nunca se diz isso.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas é o melhor fim de semana do mês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Tragam boa disposição e uma toalha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O resto tenho eu.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "segundos depois, a Ana escreve: «VAMOS.»",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "que não devia estar acordado: «VAMOS!!!»",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "lguém sabe a que horas parte o comboio?»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Lá fora chove sobre Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o, em português: — No sábado vou surfar.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 52.01,
-"kontext": false,
-"lage": null
+"dauer": 54.38,
+"kontext": true,
+"lage": 0.43,
+"urteil": "sch"
 }
 ]
 },
@@ -16155,47 +19623,583 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Sábado, oito da manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Lagos acorda devagar; o grupo não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana tem uma lista.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie tem o dinheiro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " catorze pastéis de nata já não existem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "isamos de água, fruta e pão — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E de protetor solar para o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu tenho protetor solar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tens?",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Mostra.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João abre o saco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Lá dentro há uma toalha e uma t-shirt.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Está em Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "sta garrafa, este pão, aquelas laranjas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Diz «Quanto custa isto?»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s vezes e percebe a resposta duas vezes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Sente-se uma campeã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "responde «Não, obrigado» ao mesmo tempo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "dor olha para os dois e dá o saco à Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ela é que manda — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Boa escolha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ma novo: onde é a estação de autocarros?",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 63.79,
-"kontext": false,
-"lage": -0.19
+"dauer": 63.82,
+"kontext": true,
+"lage": 0.21,
+"urteil": "sch"
 }
 ]
 },
 "s23": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Nove e seis.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Três sacos, três pessoas, uma ponte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Corram!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— grita a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie corre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana corre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "os, para, e diz: — Eu não corro com pão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Então dá-me o pão!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana leva o pão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João corre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a, viram à esquerda, atravessam a ponte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ranjas saltam dentro do saco como bolas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Nove e treze.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A estação.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "um motorista com cara de quem tem tempo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sagres?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— pergunta a Marie, sem ar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Mas calma, menina.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Este autocarro sai às nove e meia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ove e um quarto é o de Lagos para Lagos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Silêncio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Isso existe?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Estou a brincar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Entrem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": ": — Odeio o sentido de humor deste país.",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Mas está a sorrir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Todos estão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": ", o autocarro parte para o fim do mundo.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 56.19,
-"kontext": false,
-"lage": null
+"dauer": 62.85,
+"kontext": true,
+"lage": 0.39,
+"urteil": "sch"
 }
 ]
 },
 "s24": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Praia da Mareta, dez e meia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " surf, com uma prancha maior do que ele.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vasco!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eles chegaram!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— grita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A primeira aula não é no mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É na areia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e depois, num só movimento, levantar-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Um, dois, três.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "De pé!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Na areia, a Marie consegue.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Na água, não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Cai à esquerda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Cai à direita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o Vasco diz que é «raro e interessante».",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não penses — diz ele.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O corpo sabe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Onda número catorze.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "te a onda por baixo da prancha, empurra…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e está de pé.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Três segundos.",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Talvez dois.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "reia como se fosse uma final de futebol.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco não grita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Levanta o polegar e diz só: — Isso.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 59.25,
-"kontext": false,
-"lage": null
+"dauer": 59.28,
+"kontext": true,
+"lage": 0.16,
+"urteil": "sch"
 }
 ]
 },
 "s25": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Porto da Baleeira, oito da noite.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "staurante tem a porta aberta para o mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ito e cinco, com o cabelo ainda molhado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o Tomás agora vai a todo o lado com ele.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vocês já pediram?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta o Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Já — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E a Marie pediu tudo sozinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Em português.",
+"urteil": "sch",
+"versuche": 3
+},
+{
+"text": "di uma dourada e uma sopa — diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e «pode trazer-nos a ementa» sem pensar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Saiu sozinho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "co sorri e pede um copo de vinho branco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "faz ao Vasco doze perguntas sobre ondas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O jantar demora duas horas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "a dourada da Ana e a sobremesa da Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "de surfista — repete, pela terceira vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Tu dormiste na areia — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Dormir ao sol cansa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Quando a conta chega, a Ana paga.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "quer dar-lhe dinheiro; a Ana não aceita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Primeira onda, primeiro jantar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É a regra.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não é regra nenhuma.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas a Marie não discute.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "fora, o farol de Sagres começa a piscar.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 67.13,
-"kontext": false,
-"lage": null
+"dauer": 69.98,
+"kontext": true,
+"lage": 0.12,
+"urteil": "sch"
 }
 ]
 },
@@ -16203,59 +20207,764 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "Domingo de manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O hostel ainda dorme; a Marie não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "la do quarto, com o caderno, e vê o mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e: «Ontem apanhei a minha primeira onda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Caí catorze vezes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Não conto as vezes na areia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco explicou tudo devagar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana apanhou uma onda e gritou muito.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ormiu na areia e depois jantou por três.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Comemos peixe no porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Pedi tudo sozinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Percebi tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Quase tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "mar faz barulho e eu adoro esse barulho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Hoje quero apanhar dez ondas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O Vasco diz que cinco chegam.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fecha o caderno.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "cozinha, alguém deixou cair uma chávena.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Desculpem!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— grita o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Estou acordado!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "São nove e meia!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie sorri.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Alguém acordou antes das dez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Também é a primeira vez.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 49.74,
-"kontext": false,
-"lage": -0.07
+"dauer": 52.48,
+"kontext": true,
+"lage": 0.41,
+"urteil": "sch"
 }
 ]
 },
 "s27": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": " Vicente, domingo, sete e meia da tarde.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " no mar, devagar, como se tivesse tempo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " mãe da Ana, que veio de Lagos de carro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ntada na pedra mais alta, com o caderno.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "i a Lisboa sem uma palavra de português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "«olá» e «obrigada» e tive medo do resto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Conheci a Ana num café.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "inte — chegou atrasado e cansado, claro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fomos ao Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "muito rápido e eu percebi três palavras.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Bebi a minha primeira bica.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "sperei pelas ondas durante três semanas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Choveu em Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Apanhámos o comboio das seis.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "E ontem estive de pé em cima do mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Foi o começo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não sei de quê.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas foi o começo.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco senta-se ao lado dela.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Escreveste tudo?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Quase.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Falta uma coisa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O quê?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Como se diz «eu volto»?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Diz-se «eu volto».",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Já sabes dizer.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "anja, depois vermelho, depois só escuro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O farol acende-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "os riem, ninguém acredita, e é perfeito.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 80.51,
-"kontext": false,
-"lage": null
+"dauer": 79.53,
+"kontext": true,
+"lage": 0.06,
+"urteil": "sch"
 }
 ]
 },
 "s28": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Segunda-feira, sete da tarde.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a do seu quarto, como há quatro semanas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "ie tem sal no cabelo e um caderno cheio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O telemóvel apita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É o grupo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "m as pranchas, o João de olhos fechados.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Por baixo, só duas palavras: «Boa onda.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana escreve: «Quem é que vem jantar?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Faço bacalhau.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João escreve: «Estou a dormir.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana escreve: «Estás a escrever.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o escreve: «Estou a dormir e a escrever.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sou um homem de muitos talentos.»",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "s — porque agora até rir é em português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Escreve: «Vou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Levo pão.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a, onde estão as duas palavras de ontem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "eve mais uma linha: «Staffel 2: a volta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "No verão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Coimbra, Algarve — e Sagres outra vez.»",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Fecha o caderno.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "rico 28 sobe a rua a chiar, como sempre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas hoje soa a música.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 69.88,
-"kontext": false,
-"lage": null
+"dauer": 68.38,
+"kontext": true,
+"lage": 0.18,
+"urteil": "sch"
 }
 ]
 },
 "s29": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "da avó cheira a bacalhau e a pão quente.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s fotografias na parede, o gato no sofá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Só a Marie mudou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "z a avó, e põe-lhe mais comida no prato.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Estou igual, avó.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Mais magra.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Come.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " avó fala mais devagar do que há um ano.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ou a Marie percebe mais depressa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Provavelmente as duas coisas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "mala pequena e o mesmo cabelo de sempre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vieste de Lisboa só para o jantar?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vim para o São João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O jantar é um bónus.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "te o jantar, todos falam ao mesmo tempo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "nta que apanhou uma onda de dois metros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Ana diz que foi um metro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "diz que o Porto vai ganhar o campeonato.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A avó diz que ninguém come.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " tudo, e não diz nada sobre o seu plano.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ainda não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " a janela para o rio, o telemóvel apita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " «Alguém sabe se a alemã volta este ano?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A prancha grande está à espera.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie sorri e não responde.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Amanhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ou depois de amanhã.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 69.41,
-"kontext": false,
-"lage": null
+"dauer": 71.98,
+"kontext": true,
+"lage": 0.37,
+"urteil": "sch"
 }
 ]
 },
 "s30": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "al da avó, a Marie conta a sua infância.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Em português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Devagar, mas conta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Quando era pequena, vivia perto do rio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não era o mar, mas eu achava que era.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "os íamos ao porto ver os navios grandes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "vios e adorava os navios ao mesmo tempo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Isso é normal — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "elétrico e ia de elétrico todos os dias.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "i o mar pela primeira vez aos sete anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Na Dinamarca.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a, e eu entrei na água com a roupa toda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A minha mãe gritou durante dez minutos.",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "A Ana ri.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E o surf?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O surf veio muito mais tarde.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Há um ano.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Aqui.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "mãe da Ana traz chá e senta-se com eles.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— E este verão, Marie?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Que planos tens?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Silêncio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie olha para o chão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tenho um plano — diz.",
+"urteil": "sch",
+"versuche": 4
+},
+{
+"text": "— Mas ainda não é um plano oficial.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "não é oficial é um segredo — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Então é um segredo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "fá com o telemóvel na mão, abre um olho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu sei qual é.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não sabe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "echa o olho outra vez, muito satisfeito.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 69.22,
-"kontext": false,
-"lage": null
+"dauer": 70.19,
+"kontext": true,
+"lage": 0.41,
+"urteil": "sch"
 }
 ]
 },
@@ -16263,47 +20972,678 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": " Marie comprou um caderno novo no Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "es, na última página, com duas palavras.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Este começa com a história da avó.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "do: «Em 1968 a avó tinha dezassete anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Chovia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o novo e não queria ir à festa, mas foi.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " rapaz lhe deu com um martelo na cabeça.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ficou furiosa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ele pediu desculpa três vezes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Casaram-se dois anos depois.»",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Lê o texto duas vezes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Está certo?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e aconteceram, imperfeito para como era.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Acha que sim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não tem a certeza.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Amanhã pergunta à Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "linha: «Há um ano eu não percebia a avó.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "-me a história do avô e eu percebi tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "to ela falava, eu não pensava em alemão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Nem uma vez.»",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Fecha o caderno.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ouve a Ana ao telefone, baixinho: — Sim…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "sim, eu sei que é longe…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não, ainda não disse a ninguém.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie fica quieta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana também tem um segredo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Esta casa está cheia deles.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 69.56,
-"kontext": false,
-"lage": -0.11
+"dauer": 66.88,
+"kontext": true,
+"lage": 0.08,
+"urteil": "sch"
 }
 ]
 },
 "s32": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "onte D. Luís explode em vermelho e ouro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A multidão grita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O rio fica cheio de luz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Marie não fotografa: olha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "r guardá-lo na cabeça, não no telemóvel.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ois do fogo, a cidade não vai para casa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vai dançar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "inhas, milhares de martelos de plástico.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "as na cabeça em dez minutos e dá quinze.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "r num banco, com o martelo ainda na mão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ele dorme em todo o lado — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— É um talento.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Tomás não dorme.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a vê-lo subir até desaparecer no escuro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Para onde é que vai?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta à Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Para Sagres, se calhar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Para Hamburgo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Para te esperar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "se a nascer, o grupo sobe a rua devagar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana leva o João pelo braço.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie leva o manjerico.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "tal da avó cheira a noite e a manjerico.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "r – a alemã do Norte voltou para ficar.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie lê-o duas vezes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Não sabe se é verdade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas gosta muito de o ler.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 79.91,
-"kontext": false,
-"lage": null
+"dauer": 77.59,
+"kontext": true,
+"lage": 0.45,
+"urteil": "sch"
 }
 ]
 },
 "s33": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": " do almoço, a discussão continua na rua.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " defende Sagres, porque o Vasco vive lá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sagres não é uma cidade — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Por isso é melhor — diz o Tomás.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Sobem até à Ponte D. Luís.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "e Gaia, as pessoas pequenas lá em baixo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O vento é forte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Marie segura o cabelo com as duas mãos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "o há mais pontes do que em Veneza — diz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Isso é verdade?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Dizem que sim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Nunca contei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "sta — diz a Ana, sem olhar para a ponte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Olha para o telemóvel.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "lada há dez minutos, o que não é normal.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Estás bem?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta a Marie, baixinho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Estou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Estou à espera de uma resposta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— De quem?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Amanhã conto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Se a resposta for boa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João, que ouviu tudo, não diz nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ão ouviu nada, aponta para o rio: — Ali!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Um surfista!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não é um surfista.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É um homem num barco pequeno, a pescar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas ninguém o corrige.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É um dia demasiado bonito para isso.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 72.39,
-"kontext": false,
-"lage": null
+"dauer": 71.69,
+"kontext": true,
+"lage": 0.06,
+"urteil": "sch"
 }
 ]
 },
 "s34": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": ", quando a Ana e a Marie entram na sala.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Acorda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Temos duas novidades.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Estou a ouvir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "De olhos fechados ouve-se melhor.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ou para Coimbra em setembro — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tenho vaga na universidade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João abre um olho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "u vou trabalhar em Sagres — diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Na escola do Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Até setembro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João abre o outro olho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Senta-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "z nada, o que para o João é muito tempo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Então ninguém fica em Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tu ficas — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu não fico.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu também tenho uma novidade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "As duas olham para ele.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O meu tio deu-me a carrinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A velha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A que a Ana odeia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Aquela carrinha não anda — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Anda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Devagar, mas anda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Em agosto levo-vos para o sul.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "primeiro, para a Ana ver a universidade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Depois o Alentejo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Depois Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Isso não é um plano — diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Isso é uma viagem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " diz o João, e fecha os olhos outra vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Acordem-me em agosto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "um martelo de plástico ao ar e apanha-o.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ele vai a Sagres de certeza.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ainda não sabe como.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas vai.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 78.71,
-"kontext": false,
-"lage": null
+"dauer": 80.64,
+"kontext": true,
+"lage": 0.0,
+"urteil": "sch"
 }
 ]
 },
@@ -16311,11 +21651,190 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "A última noite no Porto é quieta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " manjerico está na varanda e ainda vive.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A avó chama a Marie à cozinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vais para Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Vou, avó.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Em agosto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E vais falar português o verão todo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vou tentar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A avó abre um armário e tira uma caixa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ico, velho, amarelo, com o cabo partido.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Este é de 1968.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie não diz nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não consegue.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não é para ti — diz a avó.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— É para ficar aqui.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas queria que o visses.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "começam sempre com um martelo na cabeça.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Isso é uma frase muito portuguesa, avó.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu sei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Agora vai dormir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Amanhã o comboio é cedo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " a Ana já está na cama, com o telemóvel.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A Inês respondeu — diz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Diz que podemos ficar lá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ia para os alunos novos na universidade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vamos as duas, e tu vens connosco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "mbra é a cidade mais bonita de Portugal.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ela é de Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Por isso é que é grave.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie deita-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "la vê o rio, escuro, e as luzes de Gaia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Amanhã Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Na semana que vem, Coimbra.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Em agosto o sul.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": ", pela primeira vez, sonha em português.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 78.05,
-"kontext": false,
-"lage": -0.04
+"dauer": 79.41,
+"kontext": true,
+"lage": 0.06,
+"urteil": "sch"
 }
 ]
 },
@@ -16498,96 +22017,1593 @@
 "s37": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "noite, a Ana faz contas na mesa da Inês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "ais a luz mais a internet mais a caução.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e números e a Ana fica cheia de dúvidas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Com a bolsa não chega — diz.",
+"urteil": "sch",
+"versuche": 4
+},
+{
+"text": "— Chega para o rés do chão — diz a Inês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Eu não quero viver sem sol, Inês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Sou do Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Já tenho chuva suficiente na alma.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O telemóvel da Marie toca.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É o Tiago.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " que temos um quarto livre na república.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A partir de setembro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Joana acabou o curso.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Quanto é a renda?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Cento e vinte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Com tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a, e ninguém pode dizer mal do Sporting.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie repete tudo em voz alta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana deixa cair a caneta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Cento e vinte?!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Com tudo?!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Com tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E com onze colegas de casa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Onze?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Onze — diz a Inês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— E um deles é o Tiago.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Que canta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Todos os dias.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Ana pensa durante três segundos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Diz-lhe que gostaria de ver o quarto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Amanhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Podia ser às dez?",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "— Podia — diz o Tiago, que ouviu tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E Ana?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Bem-vinda aos Kágados.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Agora venham ao rio, para festejar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A água do Mondego em julho está quente.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não está.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas vão na mesma.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 76.85,
-"kontext": false,
-"lage": null
+"dauer": 81.84,
+"kontext": true,
+"lage": 0.27,
+"urteil": "sch"
 }
 ]
 },
 "s38": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": " na sala da Inês, com o Alberto ao lado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o pior sítio do mundo para estar doente.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "imeiro dia, a Marie dorme catorze horas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " «e ninguém pode dizer mal do Sporting».",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Assinei — diz.",
+"urteil": "sch",
+"versuche": 6
+},
+{
+"text": "— Sou uma Kágada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "No segundo dia, a Marie consegue ler.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "res do ano passado, do princípio ao fim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ri-se dos erros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "ois erros numa frase de quatro palavras.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "creve cartas ao senhorio no condicional.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "da no saco, e senta-se na cama da Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Como está a garganta?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Melhor.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Obrigada, doutora.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não me chames doutora.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Chama-me Inês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Faz uma pausa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Duas noites, disse a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vão ser oito.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu sei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Desculpa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não peças desculpa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Gosto de ter a casa cheia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Outra pausa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O João disse-me uma coisa ao telefone.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O quê?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s a pessoa mais teimosa que ele conhece.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Depois da Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Depois de mim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Isso é um elogio?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vindo do João, é uma declaração de amor.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A Inês levanta-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Amanhã já podes sair.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vais ouvir o Tiago cantar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Leva um casaco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E não te ponhas ao pé do rio.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 87.38,
-"kontext": false,
-"lage": null
+"dauer": 88.25,
+"kontext": true,
+"lage": 0.1,
+"urteil": "sch"
 }
 ]
 },
 "s39": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "pois do fado, ninguém quer ir para casa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s colegas da república, a Ana e a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e está quente e o Mondego parece parado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ada durante vinte minutos — diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu estava a ouvir — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Há uma diferença.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sentam-se na relva junto à ponte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o afina a guitarra e não canta: toca só.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " sem letra, que sobe e desce como o rio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie fecha os olhos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Pensa em Hamburgo, no porto, nos navios.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "sa na avó do Porto e no martelo de 1968.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e numa prancha grande que está à espera.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "isa no peito que não tem nome em alemão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Em português tem: saudade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ade de coisas que ainda nem aconteceram.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ando o Tiago acaba, ninguém bate palmas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Ana pigarreia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie pigarreia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Os dois colegas pigarreiam.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Tiago ri-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Aprendem depressa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Nós somos do Norte — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Aprendemos tudo depressa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Menos a ficar caladas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "nho para casa, a Ana dá o braço à Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sabes o que é que eu senti hoje?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O quê?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Que vou ficar bem aqui.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fiquei calma.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ra vez desde a resposta da universidade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu sei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu vi.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Viste?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas ouvi.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vinte minutos de silêncio, Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Foi o som mais bonito da noite.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 93.7,
-"kontext": false,
-"lage": null
+"dauer": 91.13,
+"kontext": true,
+"lage": 0.03,
+"urteil": "sch"
 }
 ]
 },
 "s40": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Marie não diz mais nada sobre a chamada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana também não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "asa da Inês fica mais pequena nesse dia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "À noite, a Marie liga ao João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Está?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— João, sou eu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tens um minuto?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tenho todos os minutos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Estou no sofá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O que é que se passa?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " quinze de julho, a pessoa que desistiu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "João ouve sem interromper, o que é raro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E o que é que a Ana disse?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fez uma cara.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Que cara?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A cara de quem não diz nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Essa é a pior cara dela.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Silêncio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Marie, posso dizer uma coisa?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Diz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "na não está zangada por causa de Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "stá zangada porque tu decidiste sozinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Outra vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "lhete para Hamburgo sem dizer a ninguém.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu não decidi nada!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Mas estás a pensar sozinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Para ela é a mesma coisa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie fica calada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João espera.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Depois diz, mais baixo: — Fala com ela.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Antes de sexta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E Marie…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ulho ou agosto, a carrinha vai na mesma.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Com ou sem ti.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Isso é uma ameaça?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— É um recado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Boa noite.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Desliga.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie olha para o telemóvel.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "fá onde a Ana já não faz barulho nenhum.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 76.33,
-"kontext": false,
-"lage": null
+"dauer": 78.63,
+"kontext": true,
+"lage": 0.21,
+"urteil": "sch"
 }
 ]
 },
 "s41": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Sexta-feira de manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "elemóvel na mão e o Mondego lá em baixo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tem de avisar o Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Prometeu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a faz café e finge que não está a ouvir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Está?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vasco?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sou eu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Marie!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Então?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Quinze de julho?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Agosto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Como combinámos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Silêncio na linha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "co, calma como sempre: — Tens a certeza?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Perdes duas semanas de trabalho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tenho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não vou sozinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a carrinha velha do João, pelo Alentejo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "na de atraso porque a carrinha não anda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas chegamos juntos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— E a pessoa que desistiu?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Arranjas outra.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tu arranjas sempre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco ri.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "que eu te disse no ano passado, no Cabo?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Que para mim era só o começo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Isso.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Boa resposta, Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Outra vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Agosto, então.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Traz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Traz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s, que me manda mensagens todos os dias.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Marie desliga.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vira-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ra de quem ouviu tudo e não vai admitir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu não estava a ouvir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu sei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Mas obrigada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Deixa lá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana dá-lhe o café.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "aixinho: — Não voltes a decidir sozinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tu também não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Combinado.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 78.58,
-"kontext": false,
-"lage": null
+"dauer": 88.3,
+"kontext": true,
+"lage": 0.18,
+"urteil": "sch"
 }
 ]
 },
 "s42": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "ado de manhã, a última manhã em Coimbra.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " da Inês com café, a ver a rua que sobe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " apanhar o comboio das onze para Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Às dez e meia ouve-se um barulho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " a tossir, a pensar, a tossir outra vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "r que o resto, sobe a rua muito devagar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Para em frente do prédio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ulos de sol e a cara de quem não dormiu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Bom dia!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— grita para a varanda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Quem quer boleia para Lisboa?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— João?!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A Ana quase deixa cair a chávena.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vieste de Lisboa nisso?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Duzentos quilómetros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Cinco horas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A carrinha anda, como eu disse.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a Inês, que apareceu à porta com a bata.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— É arrastar-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Arrastou-se até aqui, não arrastou?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a, olha para o motor, olha para o irmão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Isto não chega ao Alentejo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Chega.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Isto não chega a Leiria.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A Leiria chega de certeza.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " sorrir como se tivesse ganho a lotaria.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "rcebe que agosto não vai ser uma viagem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vai ser uma aventura.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Provavelmente com uma oficina no meio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu vou de carrinha — diz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Eu também — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " cinco litros e põe-na no banco de trás.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Para o motor.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não para vocês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "E liguem-me de Leiria.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 94.82,
-"kontext": false,
-"lage": null
+"dauer": 98.34,
+"kontext": true,
+"lage": 0.13,
+"urteil": "sch"
 }
 ]
 },
 "s43": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Oito da manhã, Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "com uma mochila e o martelo de plástico.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O martelo vem connosco?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O martelo vai a todo o lado — diz a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Já tentei escondê-lo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ele encontra-o sempre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João dá a volta à chave.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A carrinha tosse, pensa, e pega.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ouviram?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "À primeira!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ninguém responde.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "à espera do segundo barulho, o estranho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não vem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": ", com o Tomás já a dormir no ombro dela.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Passam a ponte Vasco da Gama.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " pequeno, sem saber dizer «autoestrada».",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Quantos quilómetros até Sagres?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— pergunta o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Trezentos e vinte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A esta velocidade?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ta velocidade, chegamos na quinta-feira.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana ri atrás.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " diz, ainda meio a dormir: — Já é o mar?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ainda não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Avisem-me quando for.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E volta a dormir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O João mete a terceira.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A carrinha protesta, mas aceita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Quilómetro zero.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 86.36,
-"kontext": false,
-"lage": null
+"dauer": 86.08,
+"kontext": true,
+"lage": -0.08,
+"urteil": "sch"
 }
 ]
 },
 "s44": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "O empregado tinha razão nas duas coisas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " mais bonita que a Marie já tinha visto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fazia um calor branco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "elhos e nus, pareciam soldados cansados.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "a carrinha como se fosse um animal raro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Provavelmente era.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Tomás contava sobreiros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Chegou aos duzentos e desistiu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Porque é que os troncos são vermelhos?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— perguntou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Porque tiram a cortiça — disse o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— De nove em nove anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A árvore não morre.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Como é que sabes?",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "— Trabalho com pão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sei coisas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " a resposta, mas ninguém perguntou mais.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "tou tão alto que o João travou: — O MAR!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "co, azul-escuro, a fazer ondas pequenas.",
+"urteil": "sch",
+"versuche": 4
+},
+{
+"text": "— Já é o mar?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— perguntou o Tomás, desta vez a sério.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Já é — disse a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "nguém disse mais nada durante um minuto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A carrinha também não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "s silencioso da viagem, e o mais bonito.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 82.57,
-"kontext": false,
-"lage": null
+"dauer": 78.8,
+"kontext": true,
+"lage": 0.28,
+"urteil": "sch"
 }
 ]
 },
@@ -16595,35 +23611,582 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "O reboque demorou duas horas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " de trás «para o motor, não para vocês».",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Beberam-na toda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O motor não bebeu nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "dele com o martelo, como um rei pequeno.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "João foi pior do que qualquer discussão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie ligou ao Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A carrinha do tio do João?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e a Marie afastou o telemóvel da orelha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Já a conheço.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Avariou aqui em Sagres em 2019.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Na mesma curva onde avaria toda a gente.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não estamos em Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Estamos no meio do nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O meio do nada é o Alentejo inteiro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Onde exatamente?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie disse.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco ficou calado dois segundos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Conheço o homem do reboque.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vou ligar-lhe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " com um homem grande e calmo ao volante.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vocês são os de Lisboa?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco ligou-me.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "m os amigos dele e que eu não devia rir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Olhou para a carrinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vou tentar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Riu-se na mesma.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a porta de trás e disse: — Cabem quatro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O miúdo vai à frente comigo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Tomás nunca foi tão feliz.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 83.2,
-"kontext": false,
-"lage": 0.01
+"dauer": 80.67,
+"kontext": true,
+"lage": 0.04,
+"urteil": "sch"
 }
 ]
 },
 "s46": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "equena e branca em cima de um rio verde.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "dia acampar, a Ana faz contas outra vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Faz sempre contas quando está nervosa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Trezentos e sessenta pela reparação.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vinte de gasóleo até Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "E o reboque?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " O reboque não cobrou nada — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O homem disse que era um favor ao Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O Vasco tem favores em Odemira?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " O Vasco tem favores em todo o Alentejo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "essoa mais conhecida do sul de Portugal.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie olha para a estrada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "porta da oficina a falar com o mecânico.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " de motor, de correia, de bomba de água.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O mecânico ri.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a coisa: uma peça velha, preta, redonda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O que é que o mecânico lhe deu?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— pergunta a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A bomba de água — diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A velha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ho que o Tomás vai levá-la para o Porto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Para quê?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Para mostrar à avó.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E para pôr ao lado do martelo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Ana fecha o caderno das contas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "bomba de água velha e um dia em Odemira.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É caríssimo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— É — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Mas amanhã à tarde está pronta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E amanhã à noite estamos em Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Se a carrinha chegar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Chega.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Agora chega.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ninguém acredita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "m acreditar, e às vezes é a mesma coisa.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 87.3,
-"kontext": false,
-"lage": null
+"dauer": 89.65,
+"kontext": true,
+"lage": 0.03,
+"urteil": "sch"
 }
 ]
 },
 "s47": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "a, numa baía pequena com pedras escuras.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "que se podia acampar «se ninguém visse».",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ninguém viu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ira com madeira que o mar tinha trazido.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "do em sete minutos quando está contente.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " queijo, e as últimas sardinhas de lata.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "más comeu por dois e adormeceu por três.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "eio de estrelas, a Ana contou uma lenda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a vivia um pescador que não sabia nadar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "inha medo de cair e por isso nunca caía.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Um dia, uma tempestade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O barco virou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O pescador caiu à água…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e descobriu que sabia nadar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sempre soube.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Só nunca tinha tentado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Silêncio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E depois?",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "— perguntou a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "à praia, vendeu o barco e abriu um café.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Isso não é uma lenda.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Inventaste isso agora.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Claro que inventei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas é verdade na mesma.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie olhou para o fogo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "omboio das seis, na onda número catorze.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "No pescador que sempre soube nadar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vou dormir — disse o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Acordo às três e meia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Hábito.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— João, estás de férias.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— O corpo não sabe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ada a Marie acordou com o cheiro a café.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a olhar para o mar que ainda não se via.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não conseguias dormir?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Consigo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Só não quero.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Isto é melhor do que dormir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ficaram os dois a ver o dia nascer.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não disseram mais nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não era preciso.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 108.15,
-"kontext": false,
-"lage": null
+"dauer": 104.92,
+"kontext": true,
+"lage": 0.2,
+"urteil": "sch"
 }
 ]
 },
@@ -16631,23 +24194,411 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": " cinco, como o mecânico tinha prometido.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "lo do Tomás como um animal de estimação.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " a Sagres são cento e vinte quilómetros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Duas horas para um carro normal.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Para a carrinha, o João prometeu três.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Ninguém acreditou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " pela costa, sempre com o mar à direita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O sol começa a baixar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " quilómetros em voz alta, de dez em dez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Setenta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Oitenta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Noventa…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "metros do fim, a carrinha faz o barulho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O barulho estranho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Todos ficam calados.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "elera, só fala com ela, baixinho: — Não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Agora não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mais nove.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Só mais nove.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A carrinha pensa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E continua.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a cheirar a sal, passam a placa: SAGRES.",
+"urteil": "sch",
+"versuche": 4
+},
+{
+"text": "o que a Ana acorda com o martelo na mão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "om pranchas à porta e uma bandeira azul.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "orriso que se vê de longe, está o Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A carrinha para.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " um último barulho e desliga-se sozinho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Chegaram — diz o Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Três horas e vinte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Bem calculado, João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu sei de carrinhas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— A carrinha é que sabe de ti.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O Vasco olha para a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Amanhã às seis.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Trabalho.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Às seis?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Às seis.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A época alta não espera.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Bem-vinda a casa, Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "iagem, que desta vez não veio de férias.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 103.6,
-"kontext": false,
-"lage": -0.07
+"dauer": 107.91,
+"kontext": true,
+"lage": 0.33,
+"urteil": "sch"
 }
 ]
 },
 "s49": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Seis da manhã, Praia da Mareta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o a bater como no primeiro dia de aulas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O Vasco abre a porta às seis em ponto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não diz bom dia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Diz: — Vinte alunos hoje.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "to principiantes de manhã, doze à tarde.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tu ficas com os principiantes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Eu fico com os outros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Eu…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "dou a aula?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tu dás a aula.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Em português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Eu estou ao lado, mas não falo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Se falares tu, aprendem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Se falar eu, olham para mim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vasco, eu sou principiante!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Há um ano eras.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "na primeira aula e levantaste-te quinze.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " o que um principiante precisa de saber.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O resto é português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Marie olha para o mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ito pranchas grandes alinhadas na areia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e quem vai ajudar quer queiram quer não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Está bem — diz.",
+"urteil": "sch",
+"versuche": 3
+},
+{
+"text": "— Mas se correr mal…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Se correr mal, corrigimos amanhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É assim que se aprende.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É assim que se ensina.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Às oito chegam os oito.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "um rapaz de Lisboa que tem medo de tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "amburgo que nunca vai perder: — Bom dia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu sou a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Hoje vamos aprender a cair.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco, ao lado, não diz nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas sorri.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " de que não se bate palmas, e pigarreia.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 97.23,
-"kontext": false,
-"lage": null
+"dauer": 100.78,
+"kontext": true,
+"lage": 0.28,
+"urteil": "sch"
 }
 ]
 },
@@ -16851,11 +24802,195 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "er foi a melhor e a pior aula da semana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "emão uma coisa que fez rir toda a praia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "uês e não sabia dizer nada em português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Rema!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— gritava a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Rema!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Senhor Weber, muito contente, sem remar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não, o senhor tem de…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "pois, desistindo: — Herr Weber, paddeln!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Nein!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Português!",
+"urteil": "sch",
+"versuche": 3
+},
+{
+"text": "Ficou de pé à sétima tentativa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Foi o homem mais feliz de Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "nha dito que já sabia surfar, não sabia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ha dez anos e as crianças percebem tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— A tua professora é alemã?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Tomás ao miúdo, na areia, em português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "em português também, com sotaque bávaro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E tu percebes o que ela diz?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Mais ou menos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Ela diz «rema» e eu remo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É fácil.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " a frase mais longa do dia: — A senhora…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "professora…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "muito boa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Obrigado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Cerveja?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Obrigada — disse a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Com a.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas obrigada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "nhor Weber pensou durante três segundos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " Obrigada — repetiu, apontando para ela.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Obrigado — apontando para si.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Percebi!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Percebeu.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e aprendeu três palavras e as usa todas.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 97.04,
-"kontext": false,
-"lage": -0.05
+"dauer": 94.03,
+"kontext": true,
+"lage": 0.18,
+"urteil": "sch"
 }
 ]
 },
@@ -16863,11 +24998,215 @@
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": true,
+"saetze": [
+{
+"text": "da a gente e um cartaz sobre alforrecas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "penso azul e disse: — Terceiro este mês.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Todos da mesma escola.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco devia dar capacetes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— A culpa foi minha — disse o Martim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu tinha olhado para os pés.",
+"urteil": "sch",
+"versuche": 3
+},
+{
+"text": "á tinha ouvido muitas histórias de surf.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "No caminho de volta, o Martim ia calado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie também.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Foi ele que falou primeiro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ficaste com medo?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Fiquei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu também.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas depois pensei: a Marie está aqui.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E fiquei calmo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie não respondeu logo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não conseguia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e por fim —, o Vasco disse-me uma coisa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Que o mar não é perigoso.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O que é perigoso é não olhar para ele.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu não olhei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Hoje não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Amanhã olhas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " corte na testa, prancha, sem gravidade.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Instrutora: Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Reação: correta.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " o meu primeiro acidente como instrutor?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Um alemão de Hamburgo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Bateu com a prancha no meu nariz.",
+"urteil": "sch",
+"versuche": 3
+},
+{
+"text": "No meu primeiro verão como instrutor.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ainda tenho a marca.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E o que é que fizeste?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sorri.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Como tu hoje.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A pessoa primeiro, o nariz depois.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Levantou-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Amanhã o Tomás tem a competição.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Dorme bem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vais precisar de voz.",
+"urteil": "sch",
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 95.32,
-"kontext": false,
-"lage": -0.19
+"dauer": 98.2,
+"kontext": true,
+"lage": 0.13,
+"urteil": "sch"
 }
 ]
 },
@@ -17085,48 +25424,804 @@
 "s54": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Vasco não contou tudo no muro da escola.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " os dois, com o farol a piscar ao longe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "avata na mesa do chefe é a parte bonita.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A parte feia foi o ano a seguir.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " um carro, uma prancha e três mil euros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Alugou um quarto por cima de um café.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "va trabalho, à noite contava o dinheiro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o vento a cem à hora, o dinheiro acabou.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Liguei ao meu antigo chefe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ele disse: «Volta.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O escritório está à tua espera.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E eu disse que sim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Comprei o bilhete de comboio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sexta-feira de manhã, às seis.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— E?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a-feira à noite fui à praia despedir-me.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Estava um mar horrível.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " prancha grande demais, a cair e a cair.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fiquei a ver.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ele caiu trinta vezes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Na trigésima primeira, ficou de pé.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a à procura de alguém que tivesse visto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E tu tinhas visto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Eu tinha visto.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fiz assim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— O Vasco levantou o polegar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ele levantou os braços.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "ercebi que não conseguia ir para Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não porque não quisesse.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Porque não conseguia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Rasgaste o bilhete?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Devolvi-o.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "nheiro de volta se for com antecedência.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sou advogado, Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sei essas coisas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "ois, baixinho, para não acordar ninguém.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E o miúdo?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Nunca soube quem era.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Nunca mais o vi.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ma aula grátis todos os dias, na cabeça.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Fez uma pausa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " Por isso é que te dei os principiantes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Não foi por causa do teu português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Foi por causa da onda número catorze.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " sabe uma coisa que os outros não sabem.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " o que é que o miúdo procurava na praia.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 113.53,
-"kontext": false,
-"lage": null
+"dauer": 110.46,
+"kontext": true,
+"lage": 0.42,
+"urteil": "sch"
 }
 ]
 },
 "s55": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "e» e a cara de quem vai chorar em Tunes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O João levou-a à estação na carrinha.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "imeira, o que a Ana considerou um sinal.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ligas-me quando chegares?",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— disse a Marie, à porta do comboio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Ligo — disse a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E Ana…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "obrigada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Por tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Pelo ano passado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Por este.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Deixa lá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": ", porque é a Ana: — No Porto era melhor.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas aqui também não foi mau.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "o da escola com o telemóvel e o caderno.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tinha pensado o dia inteiro.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tinha feito listas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "o, que disse: «Tu já sabes o que queres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Só queres que eu diga que sim.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E disse que sim.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " no grupo: «Vou fazer o curso em Lisboa.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "De outubro a maio.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ver com o João, que diz que tem um sofá.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Em junho venho para Sagres, de vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "daria do tio do João às quatro da manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "diz que preciso de aprender a fazer pão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "igo isto primeiro a vocês, como prometi.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Depois digo ao Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Depois digo a Hamburgo.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "m quatro segundos, de Tunes: «EU SABIA.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A do João em dez: «O sofá é mau.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas o pão é bom.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "«Posso ir a Lisboa nas férias do Natal?»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "har para o farol: — Boa resposta, Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tu nem leste.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Não preciso.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Vi a tua cara.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "É a cara do miúdo na praia.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 99.37,
-"kontext": false,
-"lage": null
+"dauer": 100.14,
+"kontext": true,
+"lage": -0.05,
+"urteil": "sch"
 }
 ]
 },
 "s56": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Junho, um ano depois.",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "Praia da Mareta, seis da manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "surf estão duas pessoas com café na mão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " cabelo com sal e uma cicatriz no nariz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "to de instrutora assinado ontem à noite.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vinte alunos hoje — diz o Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Dez principiantes de manhã.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "São teus.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Já sei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Um deles é alemão.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Diz que fala português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Já sei o que isso quer dizer.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Às oito chegam os dez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "nde demais, que não é aluno: é ajudante.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " bomba de água e um martelo de plástico.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Tomás — diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Deita, rema, de pé.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Sabes o que fazer?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Sei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Então mostra-lhes.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Em português.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " de cinco países deitam-se ao lado dele.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie olha para o mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e faz o gesto do polegar sem dizer nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "extas e depois não dorme: «Primeiro dia?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não te esqueças: no Porto é melhor.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Mas aí também não é mau.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Boa onda.»",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie guarda o telemóvel.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Respira fundo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "sotaque que nunca vai perder: — Bom dia.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu sou a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Hoje vamos aprender a cair.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Fim.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 96.55,
-"kontext": false,
-"lage": null
+"dauer": 94.47,
+"kontext": true,
+"lage": 0.2,
+"urteil": "sch"
 }
 ]
 },
 "s56h": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "ente: o Vasco, o João, o Tomás, a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "a e agora só tem medo de algumas coisas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "O sol desce devagar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O vento é forte.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O farol ainda está apagado.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "ano passado estávamos aqui — diz o João.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Com a Ana.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E a mãe dela.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E eu escrevi «eu volto» — diz a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— E voltaste.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Voltei.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E vou voltar outra vez.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "E outra.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "mais alta, com o boné e a bomba de água.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "para o mar como quem já sabe o que quer.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Tem treze anos.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Sabe.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vasco — diz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Para o ano quero ser ajudante.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Como a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Para o ano tens catorze.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": " no primeiro dia e não sabia dizer nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Eu já sei dizer tudo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco olha para a Marie.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "A Marie olha para o Tomás.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "ma vida: — Aqui é o fim do mundo, Tomás.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Mas para ti foi só o começo.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O farol acende-se.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Ninguém diz mais nada.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Não é preciso.",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 69.64,
-"kontext": false,
-"lage": null
+"dauer": 70.55,
+"kontext": true,
+"lage": 0.13,
+"urteil": "sch"
 }
 ]
 },
@@ -17481,12 +26576,111 @@
 "sb": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "Férias!",
+"urteil": "sch",
+"versuche": 2
+},
+{
+"text": "O grupo está em Sagres.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "está vento — e as ondas estão perfeitas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": " Marie tem uma aula de surf com o Vasco.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "á fria, mas a Marie tem um fato de surf.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Vasco, as ondas estão muito grandes!",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Não, Marie, estão pequenas.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "Não há problema!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Uma hora na água…",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "e a Marie surfa!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Está muito feliz.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "— Fantástico!",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Agora queria um chá quente.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "Quanto custa o chá no café da praia?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "— Dois euros.",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "A Marie e a Ana estão no café.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "O Vasco surfa e nada no mar.",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "E o João?",
+"urteil": null,
+"versuche": 1
+},
+{
+"text": "oão está na toalha — está muito cansado!",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 34.64,
-"kontext": false,
-"lage": null
+"dauer": 37.74,
+"kontext": true,
+"lage": 0.19,
+"urteil": "sch"
 }
 ]
 },
@@ -21273,24 +30467,52 @@
 "v3305": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "mais …",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "do que",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 1.75,
+"dauer": 1.79,
 "kontext": true,
-"lage": null
+"lage": 0.0,
+"urteil": "sch"
 }
 ]
 },
 "v3306": {
 "fig": "marie",
 "gewaehlt": 0,
-"pruefen": false,
+"pruefen": true,
+"saetze": [
+{
+"text": "menos …",
+"urteil": "sch",
+"versuche": 1
+},
+{
+"text": "do que",
+"urteil": null,
+"versuche": 1
+}
+],
+"satzweise": true,
 "versuche": [
 {
-"dauer": 1.7,
+"dauer": 1.87,
 "kontext": true,
-"lage": null
+"lage": 0.31,
+"urteil": "sch"
 }
 ]
 },

@@ -147,9 +147,17 @@ def nach_m4a(mp3, dest):
         subprocess.run(['afconvert', tmp, dest, '-f', 'm4af', '-d', 'aac', '-b', '48000'], check=True, capture_output=True)
     os.unlink(tmp)
 
+# Abkürzungen, nach denen kein Satz endet („Ponte D. Luís“, „Exmo. Senhor“): dort nicht trennen
+ABKUERZUNG = re.compile(r'(?:^|[\s«“"(—])(?:D|Dr|Dra|Sr|Sra|Exmo|Exma|Prof|Sto|Sta|n\.º)\.$')
+
 def saetze(text):
     # Satzende auch vor schließendem Anführungszeichen („… prévio.» Aqui …“, Fix 06.11.2026)
-    return [t for t in re.split(r'(?<=[.!?…][»”")])\s+|(?<=[.!?…])\s+', text.strip()) if t and re.search(r'\w', t)]
+    teile = [t for t in re.split(r'(?<=[.!?…][»”")])\s+|(?<=[.!?…])\s+', text.strip()) if t and re.search(r'\w', t)]
+    out = []
+    for t in teile:
+        if out and ABKUERZUNG.search(out[-1]): out[-1] += ' ' + t
+        else: out.append(t)
+    return out
 
 def _wav_lesen(pfad):
     import numpy as np
