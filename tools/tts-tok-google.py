@@ -37,6 +37,11 @@ def tok_woerter():
                 toks(sec['text'])
             elif sec['type'] == 'reading':
                 for ln in sec['lines']: toks(ln['pt'])
+    # Beispielsätze der Vokabelkarten: ihre Wörter sind dort auch antippbar
+    texte = os.path.join(BASE, 'tools', 'beispiele-texte.json')
+    if os.path.exists(texte):
+        for t in json.load(open(texte, encoding='utf-8')).values():
+            toks(t['pt'])
     return sorted(tok)
 
 def synth(text, dest):

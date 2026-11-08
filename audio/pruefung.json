@@ -1,4 +1,7232 @@
 {
+"bv0201": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.38,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0202": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0203": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0205": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0206": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0207": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0301": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0303": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0304": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0307": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0308": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": -0.04,
+"urteil": "sch"
+}
+]
+},
+"bv0309": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0401": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0402": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0405": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0406": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0407": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0408": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0503": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.52,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0602": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0603": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0605": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0606": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0607": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0608": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0609": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0807": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0808": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0809": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0901": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0904": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv0912": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1006": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1008": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1103": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1108": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.82,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1109": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.52,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1111": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.49,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1204": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1205": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.82,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1206": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1209": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1503": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1506": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1507": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1509": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1510": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1512": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1608": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.49,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1612": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1707": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1801": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1802": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1808": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1810": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1907": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1909": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1910": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1911": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv1912": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2003": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2004": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2005": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2006": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2007": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2008": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2009": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2010": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2011": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2012": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2305": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2308": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2311": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2312": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.49,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2404": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2405": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2406": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2407": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2408": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2412": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": -0.06,
+"urteil": "sch"
+}
+]
+},
+"bv2501": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2503": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2506": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2507": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2510": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2602": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2604": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2605": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2606": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2609": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2610": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2701": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2702": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2703": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2706": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2707": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2710": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2712": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2901": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2903": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2905": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2906": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2907": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2911": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2913": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv2914": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3001": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3002": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3005": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3007": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3008": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3009": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3010": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3011": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3012": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3013": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3014": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3101": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3102": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3103": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3105": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3106": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3107": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3109": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3110": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3112": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3113": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3114": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3202": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3203": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3204": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3205": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3206": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3207": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3208": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3209": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3210": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3211": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3213": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3214": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3302": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3303": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3304": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3305": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3306": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3307": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3308": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3309": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3310": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3312": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3313": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3314": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3401": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3403": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3404": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3405": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3406": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3408": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3409": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3410": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3411": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3412": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3413": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3414": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3601": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3602": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3603": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3604": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3605": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3606": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3609": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3610": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3611": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3612": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3613": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3614": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3702": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3703": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3704": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3705": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3710": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3711": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3712": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3713": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3714": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3801": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3802": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3803": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3804": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3805": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3806": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3807": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.28,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3808": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3809": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3812": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3813": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3902": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3903": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3904": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3906": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3907": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3908": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3909": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3910": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3911": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3912": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv3914": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4001": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4002": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4003": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4004": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4005": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4006": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4007": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4008": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4009": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4010": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4011": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4012": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4013": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4101": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4102": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4103": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4104": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4105": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.38,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4106": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4107": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4108": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4109": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4110": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4111": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4112": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4301": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4302": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4304": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4306": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4307": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4309": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4311": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4312": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4313": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4314": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4401": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4403": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4404": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4405": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4406": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4407": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4408": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4409": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4410": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4411": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4412": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4413": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4414": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4501": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4502": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4503": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4504": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4505": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4506": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4508": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4509": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4510": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4511": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4512": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4514": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4601": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4602": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4603": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4604": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4605": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4606": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4607": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4608": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4609": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4610": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4611": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4612": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4701": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4702": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4703": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4704": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4705": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4706": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4708": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4709": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4710": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4711": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4712": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4713": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4714": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4801": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4803": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4804": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4805": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4806": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4807": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4808": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4809": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4810": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.77,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4811": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4812": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4813": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv4814": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5001": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5002": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5003": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5004": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5005": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5008": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5009": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5010": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5011": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5012": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5013": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5014": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5101": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5102": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5103": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5105": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5106": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5107": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5108": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5109": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5112": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5114": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.49,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5201": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 3.0,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5202": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5203": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5204": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.52,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5205": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5206": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5208": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5209": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5210": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5211": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5212": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5213": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5214": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5301": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5302": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5304": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5305": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5306": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5307": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5308": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5309": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5310": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5311": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5312": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5313": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5314": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5401": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5402": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5403": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5404": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5405": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5407": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5408": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5409": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5410": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5411": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5412": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5413": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5414": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5501": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5502": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5504": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5505": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5507": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.82,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5508": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5512": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5513": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5514": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5703": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5704": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5706": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5707": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5708": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5710": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5711": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5712": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5713": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5714": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5715": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5716": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5801": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5802": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5803": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5804": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5805": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5806": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5807": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5808": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5809": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5810": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.64,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5811": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5812": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5813": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5814": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5815": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5816": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5901": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5902": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5904": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5905": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5906": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5907": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5908": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5910": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5911": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.95,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5912": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5913": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.77,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5914": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5915": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.53,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bv5916": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bvb04": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw001": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw002": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw004": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw005": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw006": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw007": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw008": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw009": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw011": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.38,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw012": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw013": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw014": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw018": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw019": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.44,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw020": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw022": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw025": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw026": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw027": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw028": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw029": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw030": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw032": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw033": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw034": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw035": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw038": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw039": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw040": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw041": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw042": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw043": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw045": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw046": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw047": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.49,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw048": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.33,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw052": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw053": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw054": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw056": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw057": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw058": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.49,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw061": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw063": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw066": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw068": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw069": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw070": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw072": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw073": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw075": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw076": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw078": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw081": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw082": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw083": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw085": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw089": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw091": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.62,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw092": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw097": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw098": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw100": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.33,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw102": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.52,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw103": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw105": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw106": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw107": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw108": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw109": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw110": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw111": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw112": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw113": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw114": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw115": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw117": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.44,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw118": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw119": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw120": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw121": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.74,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw122": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw123": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw124": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw125": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw126": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw128": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw129": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw130": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw131": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.75,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw133": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw134": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw135": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw136": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw137": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw138": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.35,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw139": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw142": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw143": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw144": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.04,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw145": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.99,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw146": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw147": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw151": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw153": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.44,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw157": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw158": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw159": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw160": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw161": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.85,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw162": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw164": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw165": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.69,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw171": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw172": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw173": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw174": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw175": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.33,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw181": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw182": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.38,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw183": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.22,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw188": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.12,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw189": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw192": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.46,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw194": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.09,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw196": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.59,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw197": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.32,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw198": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.8,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw199": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw201": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.67,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw203": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw205": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.4,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw206": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.27,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw208": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.52,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw210": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.51,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw212": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.93,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw217": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.17,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bw218": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 2.77,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "d0101": {
 "fig": "ana",
 "gewaehlt": 0,

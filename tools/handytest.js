@@ -318,13 +318,15 @@ async function zurKursliste(id) {
           const karte = await page.evaluate(() => {
             const b = BEISPIELE && BEISPIELE[queue[idx].id];
             return { wort: queue[idx].pt, flipped, soll: !!b, ist: document.getElementById('c-bsp').style.display === 'flex',
-              text: document.querySelector('#c-bsp .bsp-text')?.textContent.replace(/\s+/g, ' ').trim() || '', satz: b ? b.pt : '',
+              text: document.querySelector('#c-bsp [lang=pt]')?.textContent.replace(/\s+/g, ' ').trim() || '', satz: b ? b.pt : '',
+              de: document.querySelector('#c-bsp .bsp-de')?.textContent || '', soll_de: b ? b.de || '' : '',
               tonOk: !b || navigator.onLine === false || audio.src.endsWith('/audio/' + b.a + '.m4a') };
           });
           z.karten = (z.karten || 0) + 1;
           if (karte.soll) z.mitSatz = (z.mitSatz || 0) + 1;
           if (!karte.flipped) await befund('Karte dreht nicht um', karte.wort);
           else if (karte.soll !== karte.ist || karte.text !== karte.satz) await befund('Beispielsatz falsch', karte.wort, karte.text);
+          else if (karte.de !== karte.soll_de) await befund('Übersetzung falsch', karte.wort, karte.de);
           else if (!karte.tonOk) await befund('Beispielsatz ohne Ton', karte.wort);
           await tippe(await page.$('#learnactions .good'), 'Kann ich');
           await sleep(120);

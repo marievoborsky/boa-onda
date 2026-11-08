@@ -12,6 +12,14 @@ import json, os
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 W = {
+ # Beispielsätze der Vokabelkarten (08.11.2026)
+ 'apaixonar-se': 'sich verlieben', 'aprenderes': 'du lernst (Form von aprender)', 'a atenção': 'die Aufmerksamkeit', 'azuis': 'blau (Plural)',
+ 'o centímetro': 'der Zentimeter', 'o cheque': 'der Scheck', 'a corda': 'die Saite, das Seil', 'cuidar': 'sich kümmern (cuidar de)', 'depender': 'abhängen (depender de)',
+ 'dói': 'tut weh (Form von doer)', 'o estudante': 'der Student, die Studentin', 'o principiante': 'der Anfänger, die Anfängerin', 'o cliente': 'der Kunde, die Kundin',
+ 'o ginásio': 'das Fitnessstudio', 'gostaríamos': 'wir würden gern (Form von gostar)', 'habituar-se': 'sich gewöhnen', 'a ideia': 'die Idee', 'impossível': 'unmöglich',
+ 'possível': 'möglich', 'inclui': 'enthält, schließt ein (Form von incluir)', 'inscrever-se': 'sich anmelden, sich einschreiben', 'lavar': 'waschen',
+ 'preocupar-se': 'sich Sorgen machen', 'pá': 'Mensch!, Mann! (é pá: Ausruf)', 'repita': 'wiederholen Sie (Form von repetir)', 'siga': 'gehen Sie weiter, folgen Sie (Form von seguir)',
+ 'sinto': 'ich fühle (Form von sentir)', 'inscrever': 'anmelden, einschreiben',
  # Zeit, Ordnung, Menge
  'depois': 'danach, dann', 'antes': 'vorher, früher', 'então': 'dann, also', 'só': 'nur; allein', 'quase': 'fast', 'ainda': 'noch', 'já': 'schon',
  'sempre': 'immer', 'nunca': 'nie', 'logo': 'gleich, bald', 'cedo': 'früh', 'tarde': 'spät', 'agora': 'jetzt', 'hoje': 'heute', 'ontem': 'gestern', 'amanhã': 'morgen',

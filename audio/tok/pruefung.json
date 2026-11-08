@@ -90,6 +90,19 @@
 }
 ]
 },
+"aborrecido": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "abra": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -97,6 +110,19 @@
 "versuche": [
 {
 "dauer": 0.73,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"abraçar": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.33,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -409,6 +435,19 @@
 "versuche": [
 {
 "dauer": 0.86,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"acalma-me": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -1000,6 +1039,19 @@
 }
 ]
 },
+"adormeci": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "adormeças": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -1042,6 +1094,32 @@
 "kontext": true,
 "lage": -0.02,
 "urteil": "sch"
+}
+]
+},
+"adversária": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"advogada": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -1377,6 +1455,19 @@
 "versuche": [
 {
 "dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"ajudar-me": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -1779,6 +1870,19 @@
 }
 ]
 },
+"almoçar": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "almoço": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -1841,6 +1945,19 @@
 "kontext": true,
 "lage": 0.33,
 "urteil": "sch"
+}
+]
+},
+"altura": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -2013,6 +2130,19 @@
 }
 ]
 },
+"ambulância": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.28,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "ameaça": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -2075,6 +2205,19 @@
 "kontext": true,
 "lage": -0.17,
 "urteil": "sch"
+}
+]
+},
+"amizade": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -2286,6 +2429,19 @@
 }
 ]
 },
+"antiga": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "antigamente": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -2410,6 +2566,19 @@
 "versuche": [
 {
 "dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"apaixonou-se": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.2,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -2878,6 +3047,19 @@
 "versuche": [
 {
 "dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"aquece": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -3820,6 +4002,19 @@
 }
 ]
 },
+"austríaco": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "autocarro": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -4249,6 +4444,19 @@
 }
 ]
 },
+"baile": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "bairro": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -4671,6 +4879,19 @@
 }
 ]
 },
+"bati": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "baía": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -4743,6 +4964,19 @@
 "versuche": [
 {
 "dauer": 0.84,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"bebida": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -5425,6 +5659,19 @@
 }
 ]
 },
+"brasileira": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "braço": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -5490,6 +5737,19 @@
 "versuche": [
 {
 "dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"brincam": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -6045,6 +6305,19 @@
 "kontext": true,
 "lage": 0.15,
 "urteil": "sch"
+}
+]
+},
+"calaram-se": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -7029,6 +7302,19 @@
 }
 ]
 },
+"casou-se": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "castanho": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -7750,6 +8036,19 @@
 }
 ]
 },
+"chegues": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": -0.05,
+"urteil": "sch"
+}
+]
+},
 "chegámos": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -8212,6 +8511,19 @@
 "versuche": [
 {
 "dauer": 1.28,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"cinto": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -9362,6 +9674,19 @@
 }
 ]
 },
+"conduzo": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "condução": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -9382,6 +9707,19 @@
 "versuche": [
 {
 "dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"confiar": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.2,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -9753,6 +10091,19 @@
 ]
 },
 "conta": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.86,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"conta-me": {
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": false,
@@ -10265,6 +10616,19 @@
 }
 ]
 },
+"coragem": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.28,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "coração": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -10376,6 +10740,19 @@
 "versuche": [
 {
 "dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"corrente": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.86,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -10603,6 +10980,19 @@
 }
 ]
 },
+"cortou-se": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "costa": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -10636,6 +11026,19 @@
 "versuche": [
 {
 "dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"costumo": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -10902,6 +11305,19 @@
 }
 ]
 },
+"cumpre": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "cumprimentos": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -11110,6 +11526,19 @@
 }
 ]
 },
+"cópia": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "côdea": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -11143,6 +11572,19 @@
 "versuche": [
 {
 "dauer": 0.78,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"dança": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -11357,6 +11799,19 @@
 "versuche": [
 {
 "dauer": 1.15,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"decidiu": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -12130,6 +12585,19 @@
 }
 ]
 },
+"descansa": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "descansar": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -12364,6 +12832,19 @@
 }
 ]
 },
+"desejo-te": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "desejos": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -12585,6 +13066,19 @@
 }
 ]
 },
+"despedida": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "despedir-me": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -12592,6 +13086,19 @@
 "versuche": [
 {
 "dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"despediu-se": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -12696,6 +13203,19 @@
 "versuche": [
 {
 "dauer": 0.78,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"destino": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -13209,6 +13729,19 @@
 }
 ]
 },
+"discorda": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "discorde": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -13320,6 +13853,19 @@
 "versuche": [
 {
 "dauer": 1.33,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"disponível": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -14443,6 +14989,19 @@
 }
 ]
 },
+"dói": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.73,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "dói-me": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -14950,6 +15509,19 @@
 }
 ]
 },
+"encher": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "encheu": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -15041,6 +15613,19 @@
 }
 ]
 },
+"encontro": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "encontrou": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -15068,6 +15653,19 @@
 ]
 },
 "enfermeira": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"enganei-me": {
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": false,
@@ -15516,6 +16114,19 @@
 "versuche": [
 {
 "dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"equilíbrio": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -16195,6 +16806,19 @@
 "kontext": true,
 "lage": -0.15,
 "urteil": "sch"
+}
+]
+},
+"esperança": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -17131,6 +17755,19 @@
 }
 ]
 },
+"estômago": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "estúpido": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -17151,6 +17788,19 @@
 "versuche": [
 {
 "dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"etapa": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -17366,6 +18016,19 @@
 ]
 },
 "explica": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"explicar-me": {
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": false,
@@ -17963,6 +18626,19 @@
 }
 ]
 },
+"fatura": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "fava": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -18360,6 +19036,19 @@
 "versuche": [
 {
 "dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"ferida": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -18924,6 +19613,19 @@
 }
 ]
 },
+"fizemos": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 1.38,
+"kontext": true,
+"lage": -0.05,
+"urteil": "sch"
+}
+]
+},
 "fizeram": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -19262,6 +19964,19 @@
 }
 ]
 },
+"formação": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.2,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "formulário": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -19477,6 +20192,19 @@
 "versuche": [
 {
 "dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"francesa": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -19769,6 +20497,19 @@
 }
 ]
 },
+"furou": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "futebol": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -19984,6 +20725,19 @@
 "versuche": [
 {
 "dauer": 0.84,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"garantia": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -20224,6 +20978,19 @@
 }
 ]
 },
+"giro": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "giros": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -20386,6 +21153,19 @@
 }
 ]
 },
+"gostou": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.78,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "governo": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -20510,6 +21290,19 @@
 "versuche": [
 {
 "dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"grelhado": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -20731,6 +21524,19 @@
 "versuche": [
 {
 "dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"habituei": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -21192,6 +21998,19 @@
 }
 ]
 },
+"idade": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "ideia": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -21514,6 +22333,19 @@
 "kontext": true,
 "lage": -0.03,
 "urteil": "sch"
+}
+]
+},
+"inscrever-me": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -21946,6 +22778,19 @@
 }
 ]
 },
+"italiano": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "itália": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -22008,6 +22853,19 @@
 "kontext": true,
 "lage": null,
 "urteil": null
+}
+]
+},
+"jantamos": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": -0.24,
+"urteil": "sch"
 }
 ]
 },
@@ -22407,6 +23265,19 @@
 }
 ]
 },
+"lançar": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "laranja": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -22550,6 +23421,19 @@
 }
 ]
 },
+"leite": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.86,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "lembra": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -22570,6 +23454,19 @@
 "versuche": [
 {
 "dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"lembrança": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.2,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -22804,6 +23701,19 @@
 "versuche": [
 {
 "dauer": 1.2,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"leva-te": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -23239,6 +24149,19 @@
 }
 ]
 },
+"licença": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "lidar": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -23298,6 +24221,19 @@
 "versuche": [
 {
 "dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"ligar": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -23551,6 +24487,19 @@
 }
 ]
 },
+"lindíssimo": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.38,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "linha": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -23746,6 +24695,19 @@
 }
 ]
 },
+"lojas": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": -0.11,
+"urteil": "sch"
+}
+]
+},
 "longa": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -23798,6 +24760,19 @@
 }
 ]
 },
+"lua": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.73,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "lugar": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -23805,6 +24780,19 @@
 "versuche": [
 {
 "dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"luminosa": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -23889,6 +24877,19 @@
 "versuche": [
 {
 "dauer": 0.68,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"lágrima": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -24104,6 +25105,32 @@
 ]
 },
 "magoado": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"magoar": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.38,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"magoei-me": {
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": false,
@@ -24441,6 +25468,19 @@
 }
 ]
 },
+"manobra": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "manta": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -24572,6 +25612,19 @@
 ]
 },
 "marcado": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"marcar": {
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": false,
@@ -25734,6 +26787,19 @@
 }
 ]
 },
+"morava": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "moravas": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -26014,6 +27080,19 @@
 "versuche": [
 {
 "dauer": 0.86,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"mudar-me": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -26306,6 +27385,19 @@
 }
 ]
 },
+"médico": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "mês": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -26423,6 +27515,32 @@
 }
 ]
 },
+"namorada": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"namorado": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "naquela": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -26430,6 +27548,19 @@
 "versuche": [
 {
 "dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"naquele": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -28009,6 +29140,19 @@
 }
 ]
 },
+"orgulhosa": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "oriente": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -28094,6 +29238,19 @@
 "versuche": [
 {
 "dauer": 0.84,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"outono": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.86,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -28613,6 +29770,19 @@
 }
 ]
 },
+"pagámos": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": 0.33,
+"urteil": "sch"
+}
+]
+},
 "pai": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -28636,6 +29806,19 @@
 "kontext": true,
 "lage": -0.02,
 "urteil": "sch"
+}
+]
+},
+"paixão": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -29029,6 +30212,32 @@
 }
 ]
 },
+"participar": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.33,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"partida": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "partido": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -29393,6 +30602,19 @@
 }
 ]
 },
+"pazes": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 1.15,
+"kontext": true,
+"lage": 0.01,
+"urteil": "sch"
+}
+]
+},
 "país": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -29721,6 +30943,19 @@
 "kontext": true,
 "lage": -0.05,
 "urteil": "sch"
+}
+]
+},
+"peniche": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.38,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -30094,6 +31329,19 @@
 }
 ]
 },
+"percurso": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "perde": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -30348,6 +31596,19 @@
 "versuche": [
 {
 "dauer": 1.2,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"perna": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.86,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -30803,6 +32064,19 @@
 "versuche": [
 {
 "dauer": 1.15,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"pneu": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.78,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -31582,6 +32856,19 @@
 }
 ]
 },
+"preencher": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.7,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "preferia": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -31686,6 +32973,32 @@
 }
 ]
 },
+"preocupada": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"preocupação": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "preocupes": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -31764,6 +33077,19 @@
 }
 ]
 },
+"presunto": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "preta": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -31823,6 +33149,19 @@
 "versuche": [
 {
 "dauer": 0.84,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"primavera": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -32131,6 +33470,19 @@
 "kontext": true,
 "lage": -0.1,
 "urteil": "sch"
+}
+]
+},
+"promete": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -33219,6 +34571,19 @@
 }
 ]
 },
+"quentíssimo": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.28,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "quer": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -33452,6 +34817,31 @@
 "dauer": 1.1,
 "kontext": true,
 "lage": -0.16,
+"urteil": "sch"
+}
+]
+},
+"quinhentos": {
+"fig": "marie",
+"gewaehlt": 2,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": 0.54,
+"urteil": "s"
+},
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": 0.53,
+"urteil": "s"
+},
+{
+"dauer": 1.2,
+"kontext": true,
+"lage": 0.01,
 "urteil": "sch"
 }
 ]
@@ -33923,6 +35313,19 @@
 }
 ]
 },
+"recusar": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "rede": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -34024,6 +35427,19 @@
 "kontext": true,
 "lage": -0.1,
 "urteil": "sch"
+}
+]
+},
+"regressa": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -34586,6 +36002,19 @@
 }
 ]
 },
+"responsabilidade": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.57,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "responsável": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -34827,6 +36256,19 @@
 "versuche": [
 {
 "dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"risco": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -35093,6 +36535,19 @@
 }
 ]
 },
+"sabemos": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": true,
+"versuche": [
+{
+"dauer": 1.15,
+"kontext": true,
+"lage": 0.15,
+"urteil": "sch"
+}
+]
+},
 "saber": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -35165,6 +36620,19 @@
 "versuche": [
 {
 "dauer": 0.86,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"saco-cama": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.38,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -35340,6 +36808,19 @@
 }
 ]
 },
+"salada": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.2,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "saldanha": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -35431,6 +36912,19 @@
 "versuche": [
 {
 "dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"sangue": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.84,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -36269,6 +37763,19 @@
 }
 ]
 },
+"serenata": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "seria": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -36646,6 +38153,19 @@
 }
 ]
 },
+"sincera": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "sino": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -36893,6 +38413,19 @@
 }
 ]
 },
+"socorro": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "socorros": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -37056,6 +38589,19 @@
 "versuche": [
 {
 "dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"sonho": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -37621,6 +39167,32 @@
 }
 ]
 },
+"susto": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.1,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"suíça": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.25,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "sábado": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -37891,6 +39463,19 @@
 "kontext": true,
 "lage": -0.09,
 "urteil": "sch"
+}
+]
+},
+"talão": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 },
@@ -38544,6 +40129,19 @@
 }
 ]
 },
+"testemunha": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "testemunhas": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -38973,6 +40571,19 @@
 }
 ]
 },
+"tiveste": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "tivéssemos": {
 "fig": "marie",
 "gewaehlt": 1,
@@ -39382,6 +40993,19 @@
 }
 ]
 },
+"trabalhei": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.07,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "trabalho": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -39487,6 +41111,19 @@
 ]
 },
 "trata": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.02,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"tratar-me": {
 "fig": "marie",
 "gewaehlt": 0,
 "pruefen": false,
@@ -41345,6 +42982,19 @@
 }
 ]
 },
+"visitar": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.33,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "visitas": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -41612,6 +43262,19 @@
 "versuche": [
 {
 "dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"você": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.2,
 "kontext": true,
 "lage": null,
 "urteil": null
@@ -42125,6 +43788,32 @@
 }
 ]
 },
+"zangado": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.15,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
+"zangou-se": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.97,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "zangues": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -42281,6 +43970,19 @@
 }
 ]
 },
+"évora": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 1.2,
+"kontext": true,
+"lage": null,
+"urteil": null
+}
+]
+},
 "íamos": {
 "fig": "marie",
 "gewaehlt": 0,
@@ -42434,6 +44136,19 @@
 "kontext": true,
 "lage": 0.17,
 "urteil": "sch"
+}
+]
+},
+"útil": {
+"fig": "marie",
+"gewaehlt": 0,
+"pruefen": false,
+"versuche": [
+{
+"dauer": 0.91,
+"kontext": true,
+"lage": null,
+"urteil": null
 }
 ]
 }

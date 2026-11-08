@@ -28,6 +28,7 @@ Aufruf (ELEVENLABS_API_KEY steht in ~/.zshrc):
   python3 tts-eleven.py --nach DIR      # in einen anderen Ordner (erst prüfen, dann übernehmen)
   python3 tts-eleven.py --nachpruefen --versuche 8   # vorhandene Dateien streng nachmessen, schlechte neu
   python3 tts-eleven.py --nur s36 d3110 --saetze      # Satz für Satz erzeugen (gegen verschluckte s mitten im Text)
+  python3 tts-eleven.py --nur … --max-credits 9000    # hält sauber an, sobald dieser Lauf so viele Credits verbraucht hat
   python3 tts-eleven.py --tok           # die antippbaren Einzelwörter (audio/tok/, Stimme Benedita,
                                         # Wortliste aus tts-tok-google.py, eigenes tok/manifest.json)
 Danach: sw.js – SHELL hochzählen, bei ersetzten Audios auch AUDIO – und pushen.
@@ -99,6 +100,12 @@ def collect():
         add(f'db{i:02d}', pt.strip(), WHO2FIG.get(who.strip().lower(), 'marie'))
     story = re.search(r'Kleine Geschichte: O fim do mundo.*?<div class="dialog">(.*?)</div>', html, re.S).group(1)
     add('sb', re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', story)).strip(), 'marie')
+    # Eigens geschriebene Beispielsätze der Vokabelkarten (Audio-IDs b…), Erzählstimme; PREV kostet nichts und hält den Akzent europäisch
+    texte = os.path.join(BASE, 'tools', 'beispiele-texte.json')
+    if os.path.exists(texte):
+        for t in json.load(open(texte, encoding='utf-8')).values():
+            if t['a'].startswith('b'):
+                add(t['a'], t['pt'], 'marie', PREV)
     return items
 
 def tok_items():
@@ -110,6 +117,8 @@ def tok_items():
 def fingerabdruck(item):
     teile = (VERSION, VOICES[item['fig']]['id'], item['text'], item.get('prev') or '')
     return hashlib.sha1('|'.join(teile).encode()).hexdigest()[:16]
+
+KOSTEN = [0]   # tatsächlich verbrauchte Credits dieses Laufs (Antwort-Kopf character-cost)
 
 class Guthaben(Exception):
     """ElevenLabs-Guthaben aufgebraucht: sauber anhalten, später mit demselben Aufruf weitermachen."""
@@ -124,7 +133,9 @@ def anfrage(text, voice_id, prev=None, seed=None):
             f'https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=mp3_44100_128',
             data=daten, headers={'xi-api-key': KEY, 'Content-Type': 'application/json'})
         try:
-            return urllib.request.urlopen(req, timeout=180).read()
+            with urllib.request.urlopen(req, timeout=180) as antwort:
+                KOSTEN[0] += int(antwort.headers.get('character-cost') or 0)
+                return antwort.read()
         except urllib.error.HTTPError as e:
             txt = e.read().decode(errors='replace')[:400]
             if 'quota' in txt.lower(): raise Guthaben(txt)
@@ -304,8 +315,11 @@ if __name__ == '__main__':
     def speichern():
         json.dump(manifest, open(mpfad, 'w'), indent=0, sort_keys=True)
         json.dump(pruefung, open(ppfad, 'w'), indent=0, sort_keys=True, ensure_ascii=False)
+    obergrenze = int(argumente_nach('--max-credits')[0]) if '--max-credits' in sys.argv else None
     def eins(aid):
         if halt.is_set(): return
+        if obergrenze and KOSTEN[0] >= obergrenze:
+            halt.set(); fehler.append((aid, f'OBERGRENZE erreicht: {KOSTEN[0]} Credits')); return
         it = items[aid]
         try:
             f = erzeuge_saetze if '--saetze' in sys.argv else erzeuge
@@ -323,7 +337,7 @@ if __name__ == '__main__':
     if not ('--probe' in sys.argv or '--nur' in sys.argv or '--nachpruefen' in sys.argv):
         manifest = {a: h for a, h in manifest.items() if a in items}
     speichern()
-    print(f'Fertig: {fertig[0]} erzeugt, {len(fehler)} Fehler.' + (' ANGEHALTEN: Guthaben aufgebraucht, später gleichen Aufruf wiederholen.' if halt.is_set() else ''), flush=True)
+    print(f'Fertig: {fertig[0]} erzeugt, {len(fehler)} Fehler, {KOSTEN[0]} Credits verbraucht.' + (' ANGEHALTEN: Guthaben oder Obergrenze erreicht, später mit den restlichen IDs wiederholen.' if halt.is_set() else ''), flush=True)
     for aid, err in fehler[:20]: print('  FEHLER', aid, err, flush=True)
     for name, s in zusammenfassung(pruefung, auswahl).items():
         print(f'  {name}: {s["Dateien"]} Dateien, {s["mit End-s"]} mit End-s → sch sofort {s["sch sofort"]}, nach Wiederholung {s["sch nach Wiederholung"]}, s fehlt/unklar {len(s["unklar"])} {s["unklar"][:12]}, bleibt s-artig {len(s["bleibt s-artig"])} {s["bleibt s-artig"][:12]}', flush=True)

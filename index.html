@@ -192,8 +192,8 @@
     font-size: .95rem; color: var(--ink-soft); }
   .card .de { font-size: 1.25rem; font-weight: 500; color: var(--lav-text); }
   /* Beispielsatz auf der Rückseite: Satz aus dem Dialog mit eigenem Ton, Wörter antippbar wie im Lesetext */
-  /* Mindesthöhe: damit „Nochmal“ und „Kann ich“ beim Umdrehen nicht wegrutschen, auch bei einem vierzeiligen Satz */
-  #card { min-height: 400px; }
+  /* Mindesthöhe: damit „Nochmal“ und „Kann ich“ beim Umdrehen nicht wegrutschen, auch beim längsten Satz mit Übersetzung */
+  #card { min-height: 430px; }
   .card .bsp { display: flex; align-items: flex-start; gap: .75rem; text-align: left;
     border-top: 1px solid var(--line-soft); padding-top: .9rem; margin: .2rem 0 .5rem; }
   .card .bsp-text { flex: 1; min-width: 0; font-family: "Roboto Mono", monospace; font-weight: 300;
@@ -201,6 +201,7 @@
   .card .bsp-text .wtok { padding: 0 1px; line-height: 1.5; border-top-width: 1px; border-bottom-width: 1px; cursor: pointer; }
   .card .bsp-text .wtok.bsp-wort { font-weight: 500; color: var(--clay-text); }
   .card .bsp-text .wtok.wsel { color: var(--on-sea); }
+  .card .bsp-de { margin-top: .3rem; padding-left: 1px; font-size: .8rem; line-height: 1.4; color: var(--ink-soft); }
   .card .hintline { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .75rem; color: var(--ink-soft); position: absolute; bottom: 1rem; left: 0; right: 0; }
   .audiobtn {
@@ -1839,7 +1840,8 @@ const STOPP = new Set(['de', 'da', 'do', 'das', 'dos', 'em', 'no', 'na', 'nos', 
 function vmap() {
   if (VMAP) return VMAP;
   VMAP = {}; VMAP_ART = {};
-  const norm = t => t.toLowerCase().replace(/[?!.,…::]/g, '').trim();
+  // Klammern gehören nicht zum Wort: sonst bekommt „zangar-se (com)“ keine gebeugten Formen
+  const norm = t => t.toLowerCase().replace(/\(.*?\)/g, '').replace(/[?!.,…::]/g, '').trim();
   const liste = alleWorte();
   const abgeleitet = [], teile = [];
   for (const w of liste) {
@@ -1900,6 +1902,7 @@ const EIGENNAMEN = {
   'roterdão': 'Rotterdam – Noors Heimatstadt', 'setúbal': 'Setúbal – Hafenstadt südlich von Lissabon', 'campanhã': 'Campanhã – Hauptbahnhof von Porto', santa: 'Santa Apolónia – Bahnhof in Lissabon (Züge nach Norden)', 'apolónia': 'Santa Apolónia – Bahnhof in Lissabon (Züge nach Norden)',
   intercidades: 'Intercidades – der Fernzug der CP', cp: 'CP – Comboios de Portugal, die portugiesische Bahn', entrecampos: 'Entrecampos – Bahnhof und Viertel in Lissabon', mouraria: 'Mouraria – altes Viertel in Lissabon unterhalb des Castelo',
   pombal: 'Marquês de Pombal – Platz und Kreisverkehr in Lissabon', moniz: 'Martim Moniz – Platz in Lissabon', restauradores: 'Restauradores – Platz in Lissabon', bispo: 'Vila do Bispo – Ort kurz vor Sagres', gama: 'Vasco da Gama (Ponte Vasco da Gama in Lissabon)',
+  'évora': 'Évora – Stadt im Alentejo', peniche: 'Peniche – Surfort nördlich von Lissabon', martinhal: 'Praia do Martinhal – Strand bei Sagres', 'brás': 'Brás (bacalhau à Brás: Stockfisch mit Ei und Kartoffeln)',
   'grândola': '„Grândola, Vila Morena“ – das Lied der Nelkenrevolution (25. April 1974)', iade: 'IADE – Design-Hochschule in Lissabon, wo João studiert', brasil: 'Brasilien', espanha: 'Spanien', 'itália': 'Italien', europa: 'Europa', veneza: 'Venedig',
   d: 'D. – Dom (Ponte D. Luís I in Porto)', t: 'T. – Teresa (Unterschrift der Professora)', 'instrutor/a': 'instrutor/a – Lehrer/-in, Trainer/-in (Stellenanzeige: männlich oder weiblich)',
 };
@@ -4007,14 +4010,18 @@ let queue = [], idx = 0, total = 0, flipped = false, correct = 0, richtigErst = 
 /* Alle lernbaren Wörter: Kernwortschatz + Lektionsvokabeln (LVOCAB).
    Ohne das erreichte gut ein Drittel der Wörter nie eine Übung. */
 /* Alle lernbaren Wörter – ein Wort, das in zwei Lektionen als Vokabel steht (z. B. combinar Tag 40 und 55),
-   erscheint im Heft nur einmal (erste Lektion gewinnt); in der Lektion selbst bleibt es sichtbar. */
+   erscheint im Heft nur einmal (erste Lektion gewinnt); in der Lektion selbst bleibt es sichtbar.
+   EIGENE_KARTE: Ohne Artikel sähen diese Einträge wie ein anderes Wort aus, sind aber eigene Wörter
+   („tarde“ = spät neben „a tarde“ = Nachmittag, „que“ = dass neben „o que“ = was). Liste auch in tools/beispielsaetze.py. */
+const EIGENE_KARTE = new Set(['o / a estudante', 'o / a principiante', 'o / a cliente', 'um', 'que', 'um pouco', 'tarde', 'jantar', 'o alemão / o português / o inglês']);
 function alleWorte() {
   const roh = LVOCAB ? VOCAB.concat(lvocabFrei()) : VOCAB;
   const key = (LVOCAB ? LVOCAB.length : 0) + ':' + roh.length;
   if (alleWorte._key === key) return alleWorte._cache;
   const seen = new Set(), out = [];
   for (const w of roh) {
-    const k = String(w.pt || '').toLowerCase().split(' / ')[0].split(' (')[0].replace(/^(o|a|os|as|um|uma)\s+/, '').trim();
+    const pt = String(w.pt || '').toLowerCase();
+    const k = EIGENE_KARTE.has(pt) ? '=' + pt : pt.split(' / ')[0].split(' (')[0].replace(/^(o|a|os|as|um|uma)\s+/, '').trim();
     if (seen.has(k)) continue;
     seen.add(k); out.push(w);
   }
@@ -4173,7 +4180,7 @@ function flipCard() {
   if (b) {
     const bsp = document.getElementById('c-bsp');
     bsp.innerHTML = `<button class="playbtn" aria-label="Beispielsatz anhören" onclick="play('${b.a}')">${PLAY_SVG}</button>
-      <div class="bsp-text" lang="pt">${beispielZeile(b)}</div>`;
+      <div class="bsp-text"><div lang="pt">${beispielZeile(b)}</div>${b.de ? `<div class="bsp-de">${b.de}</div>` : ''}</div>`;
     bsp.style.display = 'flex';
     // Ohne Netz liegt der Satz oft noch nicht im Cache: dann nicht bei jeder Karte eine Fehlermeldung, der Knopf bleibt
     if (navigator.onLine !== false) play(b.a);

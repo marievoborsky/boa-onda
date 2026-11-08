@@ -1,24 +1,30 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Baut lektionen/beispiele.json: zu jeder Vokabel ein Beispielsatz mit Ton.
+"""Baut lektionen/beispiele.json: zu jeder Vokabel ein Beispielsatz mit Ton und deutscher Übersetzung.
 
-Die Sätze stammen aus den Dialogen der Lektionen, weil jede Dialogzeile schon ein eigenes Audio hat.
-Das kostet keine ElevenLabs-Credits und der Satz kommt in der Stimme der Figur.
+Quelle ist tools/beispiele-texte.json (von Hand gepflegt, Schlüssel wie alleWorte() in der App):
+  { "<schluessel>": { "a": "<Audio-ID>", "pt": "<Satz>", "de": "<Übersetzung>", "h": "<Wortform im Satz>" } }
+Audio-IDs mit d… sind Dialogzeilen aus den Lektionen (Ton in der Stimme der Figur), b… sind eigens
+geschriebene Sätze (tts-eleven.py vertont sie mit der Erzählstimme, tts-tok-google.py nimmt ihre Wörter mit auf).
 
-Format:  { "<Wort-ID>": { "pt": "<Satz>", "a": "<Audio-ID>", "h": [<Wortnummern zum Hervorheben>] } }
-Die Wortnummern zählen wie tokenizeLine() in der App: am Leerraum getrennt, ab 0.
+Wörter ohne Eintrag dort (neue Lektionen) bekommen automatisch eine passende Dialogzeile, aber noch keine
+Übersetzung. Das Skript listet sie auf: Satz gegenlesen, übersetzen und in die Textdatei eintragen.
 
-Auswahl: zuerst die Lektion, in der das Wort neu ist; dann die zeitlich nächste Lektion.
+Format der App-Datei: { "<Wort-ID>": { "pt", "a", "h": [<Wortnummern zum Hervorheben>], "de" } }
+Die Wortnummern zählen wie in der App: am Leerraum getrennt, ab 0.
+
+Automatische Auswahl: zuerst die Lektion, in der das Wort neu ist; dann die zeitlich nächste Lektion.
 Innerhalb einer Lektion gewinnen Zeilen aus einem einzigen Satz, dann selten benutzte, dann kurze.
+Falsche Treffer (Wort in anderer Bedeutung) kommen in KEIN_SATZ oder FEST.
 
 Aufruf (von überall):  python3 tools/beispielsaetze.py [--liste]
---liste gibt alle Paare zum Gegenlesen aus. freischalten.py ruft das Skript selbst auf.
-Falsche Treffer (Wort in anderer Bedeutung) kommen in KEIN_SATZ oder FEST.
+--liste gibt die automatisch gefundenen Paare zum Gegenlesen aus. freischalten.py ruft das Skript selbst auf.
 """
 import glob, json, os, re, sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEK = os.path.join(BASE, 'lektionen')
+TEXTE = os.path.join(BASE, 'tools', 'beispiele-texte.json')
 MAX_ZEICHEN = 110
 MIN_WOERTER = 3
 
@@ -52,6 +58,8 @@ FEST = {
     'primeiro': ('E uma sopa primeiro', 'primeiro'),
     'a volta': ('Ida e volta', 'volta'),
 }
+# Eigene Wörter, die ohne Artikel wie ein anderes aussähen; dieselbe Liste steht bei alleWorte() in der App
+EIGENE_KARTE = {'o / a estudante', 'o / a principiante', 'o / a cliente', 'um', 'que', 'um pouco', 'tarde', 'jantar', 'o alemão / o português / o inglês'}
 # Sieht aus wie Artikel + Nomen, ist aber ein fester Ausdruck
 PHRASEN = {'o que': ['o', 'que']}
 
@@ -175,9 +183,25 @@ class Muster:
         return None
 
 
-def main():
+def schluessel(pt):
+    """Wie alleWorte() in der App: ein Wort mit zwei Einträgen zeigt nur eine Karte."""
+    k = str(pt).lower()
+    if k in EIGENE_KARTE:
+        return '=' + k
+    return ARTIKEL.sub('', k.split(' / ')[0].split(' (')[0]).strip()
+
+
+def wortnummern(satz, wort):
+    """Stelle der Wortform im Satz, als Nummern der am Leerraum getrennten Wörter. Leer, wenn nicht gefunden."""
+    cores, ziel = [kern(t) for t in satz.split()], [kern(t) for t in wort.split()]
+    for i in range(len(cores) - len(ziel) + 1):
+        if cores[i:i + len(ziel)] == ziel:
+            return list(range(i, i + len(ziel)))
+    return []
+
+
+def lade_daten():
     html = open(os.path.join(BASE, 'index.html'), encoding='utf-8').read()
-    irreg = lade_irregulaere(html)
     vokabeln = lade_vokabeln()
     ids = list(dict.fromkeys(re.findall(r"\{\s*id:\s*'(tag\d+|sagres)'", html)))
     lektionen = {}
@@ -186,17 +210,18 @@ def main():
         if os.path.exists(pfad):
             with open(pfad, encoding='utf-8') as f:
                 lektionen[lid] = json.load(f)
-    pos = {lid: i for i, lid in enumerate(ids)}
 
-    zeilen, eintraege, kern_lid = [], [], {}
+    alle_zeilen, zeilen, eintraege, kern_lid = {}, [], [], {}
     pt_zu_kern = {v['pt'].strip().lower(): v['id'] for v in vokabeln}
     for lid, L in lektionen.items():
         for sec in L.get('sections', []):
             for ln in sec.get('lines') or []:
                 pt, a = ln.get('pt'), ln.get('audio')
-                if pt and a and len(pt) <= MAX_ZEICHEN and len(pt.split()) >= MIN_WOERTER:
-                    zeilen.append({'lid': lid, 'pt': pt, 'a': a,
-                                   'saetze': len(re.findall(r'[.!?…]+(?:\s|$)', pt))})
+                if pt and a:
+                    alle_zeilen[a] = {'lid': lid, 'pt': pt, 'a': a, 'who': ln.get('who', '')}
+                    if len(pt) <= MAX_ZEICHEN and len(pt.split()) >= MIN_WOERTER:
+                        zeilen.append({'lid': lid, 'pt': pt, 'a': a, 'who': ln.get('who', ''),
+                                       'saetze': len(re.findall(r'[.!?…]+(?:\s|$)', pt))})
             if sec.get('type') == 'vocab':
                 for it in sec.get('items', []):
                     kid = pt_zu_kern.get(it.get('pt', '').strip().lower())
@@ -205,24 +230,28 @@ def main():
                     elif it.get('audio'):
                         eintraege.append({'id': it['audio'], 'pt': it['pt'], 'de': it.get('de', ''), 'lid': lid})
     eintraege = [{'id': v['id'], 'pt': v['pt'], 'de': v.get('de', ''), 'lid': kern_lid.get(v['id'])} for v in vokabeln] + eintraege
+    return {'html': html, 'ids': ids, 'pos': {lid: i for i, lid in enumerate(ids)}, 'eintraege': eintraege,
+            'zeilen': zeilen, 'alle_zeilen': alle_zeilen, 'irreg': lade_irregulaere(html)}
 
+
+def suche(d):
+    """Automatische Auswahl: Wort-ID → (Zeile, Wortnummern)."""
+    irreg, pos, zeilen, eintraege = d['irreg'], d['pos'], d['zeilen'], d['eintraege']
     # Schreibungen, die selbst als Vokabel existieren (für die Abgrenzung Nomen/Verb)
     andere = set()
     for e in eintraege:
         for teil in e['pt'].lower().split('/'):
             andere.add(ARTIKEL.sub('', re.sub(r'\(.*?\)', '', teil).strip()).strip())
 
-    genutzt, out, liste = {}, {}, []
+    genutzt, gefunden = {}, {}
     for e in eintraege:
         if e['pt'] in KEIN_SATZ:
             continue
         if e['pt'] in FEST:
             stueck, wort = FEST[e['pt']]
             z = next(z for z in zeilen if stueck in z['pt'])  # bricht bewusst ab, wenn die Zeile im Dialog geändert wurde
-            h = [i for i, t in enumerate(z['pt'].split()) if kern(t) == wort][:1]
             genutzt[z['a']] = genutzt.get(z['a'], 0) + 1
-            out[e['id']] = {'pt': z['pt'], 'a': z['a'], 'h': h}
-            liste.append((e, z))
+            gefunden[e['id']] = (z, wortnummern(z['pt'], wort)[:1])
             continue
         m = Muster(e['pt'], irreg)
         p0 = pos.get(e['lid'])
@@ -241,17 +270,58 @@ def main():
 
         z, h = min(treffer, key=rang)
         genutzt[z['a']] = genutzt.get(z['a'], 0) + 1
-        out[e['id']] = {'pt': z['pt'], 'a': z['a'], 'h': h}
-        liste.append((e, z))
+        gefunden[e['id']] = (z, h)
+    return gefunden
 
+
+def lade_texte():
+    if not os.path.exists(TEXTE):
+        return {}
+    with open(TEXTE, encoding='utf-8') as f:
+        return json.load(f)
+
+
+def main():
+    d = lade_daten()
+    gefunden = suche(d)
+    texte = lade_texte()
+    out, liste, ohne_text, veraltet, ohne_satz, wartet = {}, [], [], [], [], set()
+    for e in d['eintraege']:
+        t = texte.get(schluessel(e['pt']))
+        if t and t['a'].startswith('b') and not os.path.exists(os.path.join(BASE, 'audio', t['a'] + '.m4a')):
+            wartet.add(t['a'])                  # noch nicht vertont: Karte bleibt solange ohne Satz
+        elif t:
+            a, pt = t['a'], t['pt']
+            zeile = d['alle_zeilen'].get(a)
+            if zeile and zeile['pt'] != pt:     # Dialog wurde geändert: neuer Text, Übersetzung prüfen
+                veraltet.append(a)
+                pt = zeile['pt']
+            h = wortnummern(pt, t['h'])
+            if not h:
+                sys.exit(f"beispiele-texte.json: „{t['h']}“ steht nicht im Satz „{pt}“ ({e['pt']})")
+            out[e['id']] = {'pt': pt, 'a': a, 'h': h, 'de': t['de']}
+        elif e['id'] in gefunden:
+            z, h = gefunden[e['id']]
+            out[e['id']] = {'pt': z['pt'], 'a': z['a'], 'h': h}
+            liste.append((e, z))
+            ohne_text.append(e['pt'])
+        else:
+            ohne_satz.append(e['pt'])
     ziel = os.path.join(LEK, 'beispiele.json')
     with open(ziel, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, separators=(',', ':'), sort_keys=True)
     if '--liste' in sys.argv:
         for e, z in liste:
             print(f"{e['pt']} | {e['de'][:22]} | {z['lid'][3:] if z['lid'].startswith('tag') else z['lid']} | {z['pt']}")
-    print(f"beispiele.json: {len(out)} von {len(eintraege)} Einträgen mit Satz "
-          f"({os.path.getsize(ziel) // 1024} KB, {len(zeilen)} Zeilen zur Auswahl)", file=sys.stderr)
+    print(f"beispiele.json: {len(out)} von {len(d['eintraege'])} Einträgen mit Satz ({os.path.getsize(ziel) // 1024} KB)", file=sys.stderr)
+    if ohne_text:
+        print(f"  {len(ohne_text)} automatisch gefunden, noch ohne Übersetzung: {', '.join(ohne_text[:12])} …", file=sys.stderr)
+    if wartet:
+        print(f"  {len(wartet)} geschriebene Sätze warten auf die Vertonung (tts-eleven.py), bis dahin ohne Satz", file=sys.stderr)
+    if ohne_satz:
+        print(f"  {len(ohne_satz)} ohne Satz: {', '.join(ohne_satz[:12])} …", file=sys.stderr)
+    if veraltet:
+        print(f"  Dialog geändert, Übersetzung prüfen: {', '.join(veraltet)}", file=sys.stderr)
 
 
 if __name__ == '__main__':
