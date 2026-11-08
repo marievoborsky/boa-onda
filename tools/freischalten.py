@@ -116,6 +116,7 @@ def main():
     open(sw, 'w', encoding='utf-8').write(w)
     # Vokabel-Index neu bauen – die App liest beim Start nur lektionen/index.json
     subprocess.run([sys.executable, os.path.join(BASE, 'tools', 'vokabel-index.py')], check=True)
+    subprocess.run([sys.executable, os.path.join(BASE, 'tools', 'beispielsaetze.py')], check=True)
     subprocess.run([sys.executable, os.path.join(BASE, '..', '08_ARBEITSBLAETTER', 'generieren.py')], check=True)
     print('sw.js gebumpt, Vokabel-Index und Arbeitsblätter erzeugt. Jetzt: Smoke-Test, commit, push.')
 

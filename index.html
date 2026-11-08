@@ -191,6 +191,16 @@
   .card .ipa { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .95rem; color: var(--ink-soft); }
   .card .de { font-size: 1.25rem; font-weight: 500; color: var(--lav-text); }
+  /* Beispielsatz auf der Rückseite: Satz aus dem Dialog mit eigenem Ton, Wörter antippbar wie im Lesetext */
+  /* Mindesthöhe: damit „Nochmal“ und „Kann ich“ beim Umdrehen nicht wegrutschen, auch bei einem vierzeiligen Satz */
+  #card { min-height: 400px; }
+  .card .bsp { display: flex; align-items: flex-start; gap: .75rem; text-align: left;
+    border-top: 1px solid var(--line-soft); padding-top: .9rem; margin: .2rem 0 .5rem; }
+  .card .bsp-text { flex: 1; min-width: 0; font-family: "Roboto Mono", monospace; font-weight: 300;
+    font-size: .88rem; line-height: 1.5; }
+  .card .bsp-text .wtok { padding: 0 1px; line-height: 1.5; border-top-width: 1px; border-bottom-width: 1px; cursor: pointer; }
+  .card .bsp-text .wtok.bsp-wort { font-weight: 500; color: var(--clay-text); }
+  .card .bsp-text .wtok.wsel { color: var(--on-sea); }
   .card .hintline { font-family: "Roboto Mono", monospace; font-weight: 300;
     font-size: .75rem; color: var(--ink-soft); position: absolute; bottom: 1rem; left: 0; right: 0; }
   .audiobtn {
@@ -611,6 +621,7 @@
       <div class="ipa" id="c-ipa"></div>
       <button class="audiobtn" id="c-audio" onclick="event.stopPropagation(); playCurrent()" aria-label="Anhören"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" stroke="none"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
       <div class="de" id="c-de" style="display:none"></div>
+      <div class="bsp" id="c-bsp" style="display:none"></div>
       <div class="hintline" id="c-hint">Antippen zum Umdrehen</div>
     </div>
     <div id="excard" style="display:none"></div>
@@ -4067,8 +4078,25 @@ function wacklerListe() {
 }
 function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
+/* Beispielsätze für die Rückseite der Karte: Dialogzeilen aus den Lektionen, mit deren Ton (tools/beispielsaetze.py).
+   Fehlt die Datei (offline, noch nicht im Cache), bleibt die Karte einfach ohne Satz. */
+let BEISPIELE = null;
+async function ladeBeispiele() {
+  if (BEISPIELE) return;
+  try { BEISPIELE = await ladeJSON('lektionen/beispiele.json'); } catch (e) { /* beim nächsten Start neu versuchen */ }
+}
+function beispielZeile(b) {
+  const treffer = b.h || [];
+  return b.pt.split(/\s+/).filter(Boolean).map((tok, i) => {
+    const core = tok.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, '');
+    if (!core || /^\d+$/.test(core)) return `<span>${tok}</span>`;
+    return `<span class="wtok${treffer.includes(i) ? ' bsp-wort' : ''}" data-w="${core.toLowerCase()}" onclick="tapWord(this)">${tok}</span>`;
+  }).join(' ');
+}
+
 async function startLearn(block, arg) {
   curBlock = block;
+  ladeBeispiele();   // ohne Warten: bis zum ersten Umdrehen ist die Datei da
   if (block === 'uebungen') queue = shuffle(await uebungsKarten(uebungenFaellig())).slice(0, 10);
   else if (block === 'dica') queue = await dicaUebungen(arg);
   else {
@@ -4114,6 +4142,8 @@ function showCard() {
   document.getElementById('c-pt').textContent = w.pt;
   document.getElementById('c-ipa').textContent = w.ipa;
   document.getElementById('c-de').style.display = 'none';
+  const bsp = document.getElementById('c-bsp');
+  bsp.style.display = 'none'; bsp.innerHTML = '';
   document.getElementById('c-hint').textContent = 'Antippen zum Umdrehen';
   play(w.id);
 }
@@ -4139,6 +4169,15 @@ function flipCard() {
   document.getElementById('c-de').textContent = w.de;
   document.getElementById('c-de').style.display = 'block';
   document.getElementById('c-hint').textContent = 'Und – konntest du es?';
+  const b = BEISPIELE && BEISPIELE[w.id];
+  if (b) {
+    const bsp = document.getElementById('c-bsp');
+    bsp.innerHTML = `<button class="playbtn" aria-label="Beispielsatz anhören" onclick="play('${b.a}')">${PLAY_SVG}</button>
+      <div class="bsp-text" lang="pt">${beispielZeile(b)}</div>`;
+    bsp.style.display = 'flex';
+    // Ohne Netz liegt der Satz oft noch nicht im Cache: dann nicht bei jeder Karte eine Fehlermeldung, der Knopf bleibt
+    if (navigator.onLine !== false) play(b.a);
+  }
 }
 function playCurrent() { if (queue[idx] && !queue[idx].ex) play(queue[idx].id); }
 function answer(good) {

@@ -292,9 +292,18 @@ async function zurKursliste(id) {
     }
     // Wiederholungsrunde: zwölf Wörter heute fällig machen, zehn Karten mit „Kann ich“
     aktuell = 'Wiederholung';
-    await page.evaluate(() => { const t = today(); Object.keys(store.words).slice(0, 12).forEach(id => { store.words[id].due = t; }); saveStill(); goTab('home'); });
+    await page.evaluate(async () => {
+      await ladeLVocab();
+      const t = today();
+      // Ohne abgeschlossene Lektion (NUR_TEXTE) zeigt Heute nur den Erststart und keine Runde: eine Lektion und zwölf Wörter eintragen
+      if (!Object.keys(store.lessons).length) store.lessons.tag01 = t;
+      if (Object.keys(store.words).length < 12) alleWorte().slice(150, 162).forEach(w => { store.words[w.id] = { box: 1, due: t }; });
+      Object.keys(store.words).slice(0, 12).forEach(id => { store.words[id].due = t; });
+      saveStill(); goTab('home');
+    });
     await sleep(400);
-    const start = await page.evaluateHandle(() => [...document.querySelectorAll('#home button, #home [role=button]')].find(b => /Wörter|Runde|Wiederhol|Lernen/.test(b.textContent)) || null);
+    // Über den Knopf selbst suchen: der Text „Wörter …“ steht auch auf der Lesetext-Kachel (Fehlalarm vom 08.11.)
+    const start = await page.evaluateHandle(() => document.querySelector('#home button[onclick*="startLearn"]'));
     if (start.asElement()) {
       await tippe(start.asElement(), 'Heute: Runde starten');
       if (await warte(() => document.getElementById('learn').style.display === 'block', 3000)) {
@@ -303,6 +312,20 @@ async function zurKursliste(id) {
           const ex = await page.evaluate(() => document.getElementById('excard').style.display !== 'none');
           if (ex) { const w = await page.$('#excard .reveal'); if (w) await tippe(w, 'Übungskarte'); const weiter = await page.evaluateHandle(() => [...document.querySelectorAll('#excard button')].find(b => /Weiter/.test(b.textContent)) || null); if (weiter.asElement()) await tippe(weiter.asElement(), 'Weiter'); continue; }
           await tippe(await page.$('#card'), 'Karte umdrehen');
+          // Die Kartenmitte kann der Ton-Knopf sein: dann über die Hinweiszeile umdrehen
+          if (!(await page.evaluate(() => flipped))) await tippe(await page.$('#c-hint'), 'Karte umdrehen (Hinweiszeile)');
+          // Rückseite: Beispielsatz da, wenn es einen gibt, und mit dem richtigen Ton
+          const karte = await page.evaluate(() => {
+            const b = BEISPIELE && BEISPIELE[queue[idx].id];
+            return { wort: queue[idx].pt, flipped, soll: !!b, ist: document.getElementById('c-bsp').style.display === 'flex',
+              text: document.querySelector('#c-bsp .bsp-text')?.textContent.replace(/\s+/g, ' ').trim() || '', satz: b ? b.pt : '',
+              tonOk: !b || navigator.onLine === false || audio.src.endsWith('/audio/' + b.a + '.m4a') };
+          });
+          z.karten = (z.karten || 0) + 1;
+          if (karte.soll) z.mitSatz = (z.mitSatz || 0) + 1;
+          if (!karte.flipped) await befund('Karte dreht nicht um', karte.wort);
+          else if (karte.soll !== karte.ist || karte.text !== karte.satz) await befund('Beispielsatz falsch', karte.wort, karte.text);
+          else if (!karte.tonOk) await befund('Beispielsatz ohne Ton', karte.wort);
           await tippe(await page.$('#learnactions .good'), 'Kann ich');
           await sleep(120);
         }
