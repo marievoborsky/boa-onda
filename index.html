@@ -3894,7 +3894,13 @@ async function kontoCodeBestaetigen() {
 }
 async function kontoSyncJetzt() {
   if (!navigator.onLine) { meldung('Du bist offline – der Abgleich läuft, sobald wieder Netz da ist.'); syncMerken(true); return; }
+  // Von Hand angestoßen: einen App-Store-Kauf sofort ans Konto binden, auch wenn der automatische Versuch heute schon scheiterte
+  delete store.ui.appleBindFehler;
+  const vorher = store.premium && store.premium.quelle;
   const ok = await kontoSync('manuell');
+  const jetzt = store.premium && store.premium.quelle;
+  if (vorher === 'apple' && jetzt === 'konto') { meldung('Dein Kauf gehört jetzt zu deinem Konto. Premium gilt damit auf allen Geräten.'); return; }
+  if (ok && jetzt === 'apple') { meldung('Abgeglichen. Nur dein Kauf aus dem App Store hängt noch nicht an deinem Konto. Versuch es bitte später noch einmal.'); return; }
   meldung(ok ? 'Alles abgeglichen.' : (syncLaeuft ? 'Der Abgleich läuft gerade.' : 'Der Abgleich hat nicht geklappt – er wird später nachgeholt.'));
 }
 async function kontoAbmelden() {
