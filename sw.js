@@ -1,6 +1,6 @@
 // Zwei getrennte Caches: die Shell wird bei jedem Update ersetzt, die Audios
 // bleiben liegen – ein Versionssprung darf keine 15 MB Neudownload auslösen.
-const SHELL = 'boa-onda-shell-v71';
+const SHELL = 'boa-onda-shell-v72';
 const AUDIO = 'boa-onda-audio-v4';   // v4 (06.11.2026 abends): Geschichten und lange Dialogzeilen von Staffel 1+2 Satz für Satz neu (End-s mitten im Text) – alter Cache muss weg; v3: ElevenLabs-Stimmen aus Portugal
 // Vorab nur der Vokabel-Index und die erste Woche; jede weitere Lektion landet beim
 // ersten Öffnen im Cache (siehe fetch: Netz zuerst, Antwort wird gespeichert).
@@ -15,6 +15,8 @@ const CORE = [
   './avatare/marie.webp', './avatare/ana.webp', './avatare/joao.webp', './avatare/vasco.webp', './avatare/martim.webp', './avatare/tiago.webp', './avatare/ines.webp', './avatare/carolina.webp', './avatare/tio.webp', './avatare/professora.webp',
   './etappen/porto.webp', './etappen/lisboa.webp', './etappen/milfontes.webp', './etappen/sagres.webp', './etappen/coimbra.webp', './etappen/alentejo.webp',
   './fotos/sagres-mareta.webp', './fotos/sagres-baia.webp', './fotos/sagres-vale.webp', './fotos/sagres-praia.webp', './fotos/sagres-falesia.webp', './fotos/sagres-estrada.webp',
+  // Postal: kleine Vorschaubilder der Postkarten-Fotos (zusammen ca. 100 KB)
+  ...['sul-costa', 'sagres-mareta', 'sul-rochas', 'sagres-praia', 'sul-casas', 'sul-telhados', 'sul-azulejo', 'sagres-baia', 'sagres-falesia', 'sagres-vale', 'sagres-estrada', 'sul-lagoa'].map(n => `./fotos/mini/${n}.webp`),
   ...LEKTIONEN,
 ];
 
@@ -38,11 +40,11 @@ function cachebar(res) {
   return res && res.ok && res.status === 200 && res.type !== 'opaque';
 }
 // Netz mit Zeitlimit – bei schlechtem Netz nach 2,5 s auf den Cache fallen
-function netzMitTimeout(req, ms) {
+function mitZeitlimit(netz, ms) {
   return new Promise((resolve, reject) => {
     const t = setTimeout(() => reject(new Error('timeout')), ms);
-    fetch(req).then(res => { clearTimeout(t); resolve(res); },
-                    err => { clearTimeout(t); reject(err); });
+    netz.then(res => { clearTimeout(t); resolve(res); },
+              err => { clearTimeout(t); reject(err); });
   });
 }
 
@@ -65,17 +67,22 @@ self.addEventListener('fetch', e => {
     // Rest: Netz zuerst (damit Updates ankommen), sonst Cache. Jede erfolgreiche Antwort
     // wird gespeichert – so sind einmal geöffnete Lektionen und Texte auch offline da.
     const istDaten = /\.json$/.test(url.pathname);
+    const istSeite = e.request.mode === 'navigate';
+    const netz = fetch(e.request);
+    netz.catch(() => {});   // Fehler werden unten behandelt
+    const speichern = res => {
+      if (cachebar(res)) {
+        const kopie = res.clone();
+        caches.open(SHELL).then(c => c.put(e.request, kopie)).catch(() => {});
+      }
+      return res;
+    };
     e.respondWith(
-      netzMitTimeout(e.request, 2500).then(res => {
-        if (cachebar(res)) {
-          const kopie = res.clone();
-          caches.open(SHELL).then(c => c.put(e.request, kopie)).catch(() => {});
-        }
-        return res;
-      }).catch(() => caches.match(e.request, { ignoreSearch: true }).then(hit => hit ||
+      mitZeitlimit(netz, 2500).then(speichern).catch(() => caches.match(e.request, { ignoreSearch: true }).then(hit => hit ||
         // Daten, die nie geladen wurden, bekommen kein index.html untergeschoben (die App
-        // zeigt dann „Bist du offline?" mit Nochmal-Knopf); Navigationen fallen auf die Shell
-        (istDaten ? Response.error() : caches.match('./index.html'))))
+        // zeigt dann „Bist du offline?" mit Nochmal-Knopf); Navigationen fallen auf die Shell.
+        // Bilder & Co. warten weiter aufs Netz – vorher kam nach 2,5 s index.html als „Bild“ (kaputtes Bild).
+        (istDaten ? Response.error() : istSeite ? caches.match('./index.html') : netz.then(speichern))))
     );
   }
 });

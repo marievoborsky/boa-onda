@@ -246,6 +246,10 @@
     "src": "fotos/sul-bola.webp",
     "cap": "<i lang=\"pt\">Vamos jogar à bola?</i> Spielen wir Ball?"
    }
-  ]
+  ],
+  "knopf": {
+   "text": "Selbst eine Postkarte schreiben",
+   "aktion": "goTab('postal')"
+  }
  }
 ]
