@@ -130,7 +130,13 @@
   "title": "Azulejos – die Haut der Häuser",
   "meta": "Kultur · Kacheln",
   "html": "Das Wort kommt nicht von <i>azul</i>, blau, auch wenn es so klingt. <b>Azulejo</b> geht auf das arabische <i>al-zulaij</i> zurück, „polierter Stein“ – die Mauren brachten die Technik auf die Halbinsel. Im <b>17. und 18. Jahrhundert</b> wurde es blau-weiß: Chinesisches Porzellan und Delfter Kacheln waren Mode, also bekamen Kirchen und Paläste riesige Bildtafeln – Heiligenleben, Jagdszenen, Schlachten.<br><br>Auf die Fassaden kamen die Kacheln erst im <b>19. Jahrhundert</b>. Der Grund ist praktisch: Sie schützen gegen Feuchtigkeit und Salzluft, halten im Sommer die Wände kühler und müssen nie gestrichen werden. Seitdem sind ganze Straßen gemustert wie Küchentapeten – grün, gelb, violett, nicht nur blau.<br><br>Die großen Beispiele: der Bahnhof <b>São Bento</b> in Porto, dessen Halle Jorge Colaço zwischen 1905 und 1916 mit rund <b>20.000 Kacheln</b> auskleidete. Das <b>Museu Nacional do Azulejo</b> in Lissabon, im alten Kloster Madre de Deus, mit einem 23 Meter langen Panorama der Stadt vor dem Erdbeben. Und die <b>Metro von Lissabon</b>: Die Malerin <b>Maria Keil</b> gestaltete ab 1959 die ersten elf Stationen mit geometrischen Mustern, jede anders.<br><br>Weil alte Kacheln Geld bringen, verschwinden sie nachts von Fassaden, Richtung Flohmarkt. Seit 2017 verbietet ein Gesetz, gekachelte Fassaden ohne Genehmigung abzureißen, und Lissabons <b>Banco de Materiais</b> sammelt gerettete Azulejos, damit Hausbesitzer fehlende Stücke ersetzen können. João behauptet, seine Küche in Graça habe Originale von 1900. Es sind Fliesen aus dem Baumarkt.",
-  "fact": "<b>Wusstest du?</b> Nach dem Beben von 1755 wurden Kacheln zur Massenware: Die schnell wiederaufgebaute Baixa brauchte billigen, feuerfesten Wandschmuck, und die Manufakturen lieferten einfache Serienmuster, die <i>padrões pombalinos</i>. Der Azulejo von der Stange begann also als Notlösung."
+  "fact": "<b>Wusstest du?</b> Nach dem Beben von 1755 wurden Kacheln zur Massenware: Die schnell wiederaufgebaute Baixa brauchte billigen, feuerfesten Wandschmuck, und die Manufakturen lieferten einfache Serienmuster, die <i>padrões pombalinos</i>. Der Azulejo von der Stange begann also als Notlösung.",
+  "fotos": [
+   {
+    "src": "fotos/sul-azulejo.webp",
+    "cap": "<i lang=\"pt\">Cada azulejo conta uma história.</i> Jede Kachel erzählt eine Geschichte."
+   }
+  ]
  },
  {
   "id": "alentejo",
@@ -179,7 +185,21 @@
   "title": "A cultura do surf – von Nazaré bis Sagres",
   "meta": "Alltag · Vascos Regeln im Line-up",
   "html": "<b>Nazaré</b> war ein Fischerdorf mit Trachten und Trockenfisch, bis Garrett McNamara am 1. November 2011 an der Praia do Norte eine Welle von 23,8 Metern surfte. Verantwortlich ist der <b>Canhão da Nazaré</b>, eine Unterwasserschlucht, über 200 Kilometer lang und bis zu 5000 Meter tief, die den Swell bündelt und vor die Klippe schiebt. Offizieller Rekord ist seit 2020 die 26,2-Meter-Welle des Deutschen Sebastian Steudtner; eine 2024 mit 28,57 Metern vermessene ist bislang nicht anerkannt. Im Winter stehen Tausende am Leuchtturm und schauen zu.<br><br>Südlich davon liegt <b>Peniche</b> mit <b>Supertubos</b>, einer Röhre über Sand, die seit 2009 jedes Jahr eine Etappe der World Surf League austrägt. <b>Ericeira</b> wurde im Oktober 2011 zur ersten <i>World Surfing Reserve</i> Europas: vier Kilometer Küste, sieben Wellen. Und an der <b>Costa Vicentina</b> zwischen Odeceixe und Sagres leben ganze Dörfer von Surfcamps, Boardverleih und Kursen – Surflehrer ist dort ein normaler Beruf.<br><br>Der <b>fato</b> hat im Sommer 3/2 Millimeter, im Winter 4/3; an der Algarve reicht manchmal weniger. Die <b>prancha</b> ist für Anfänger groß und weich.<br><br>Und die Regeln, die Vasco erklärt, bevor jemand nass wird: Wer dem <b>pico</b>, dem Brechpunkt, am nächsten ist, hat <b>prioridade</b>. Einem anderen in seine Welle zu springen heißt <i>fazer drop-in</i> und ist das Unhöflichste, was man im Wasser tun kann. Man paddelt außen herum, nicht durch die Zone. Wörter dazu: <b>a onda</b> (Welle), <b>o set</b> (der Set: mehrere Wellen hintereinander), <b>a espuma</b> (Weißwasser), <b>apanhar uma onda</b> (eine erwischen) und <b>levar uma tareia</b> – von der Welle verprügelt, also durchgewaschen werden. Passiert jedem. Vasco sagt: <i>É só água.</i>",
-  "fact": "<b>Wusstest du?</b> Bei der ersten Tour-Etappe in Peniche 2009 wanderten rund 30.000 Zuschauer fünf Kilometer zum Ausweichspot Belgas, weil Supertubos an dem Tag nicht lief. Gewonnen hat Mick Fanning – und Peniche seinen festen Platz im Kalender."
+  "fact": "<b>Wusstest du?</b> Bei der ersten Tour-Etappe in Peniche 2009 wanderten rund 30.000 Zuschauer fünf Kilometer zum Ausweichspot Belgas, weil Supertubos an dem Tag nicht lief. Gewonnen hat Mick Fanning – und Peniche seinen festen Platz im Kalender.",
+  "fotos": [
+   {
+    "src": "fotos/sul-costa.webp",
+    "cap": "<i lang=\"pt\">Boa onda.</i> Gute Welle."
+   },
+   {
+    "src": "fotos/sul-rochas.webp",
+    "cap": "<i lang=\"pt\">Está um dia lindo.</i> Es ist ein wunderschöner Tag."
+   },
+   {
+    "src": "fotos/sul-dunas.webp",
+    "cap": "<i lang=\"pt\">Devagar se vai ao longe.</i> Langsam kommt man weit."
+   }
+  ]
  },
  {
   "id": "petiscos",
@@ -194,5 +214,38 @@
   "meta": "Alltag · Anas Stadt hat den Portwein",
   "html": "<b>Vinho verde</b> ist nicht grün. Der Name meint die Region, das regennasse Minho im Nordwesten, 1908 abgegrenzt und die flächengrößte Weinregion des Landes. Der Wein ist jung, leicht, meist weiß, mit feinem Prickeln – und mit oft nur elf Prozent das, was man mittags zu Sardinen trinkt, ohne danach zu schlafen.<br><br>Das <b>Douro</b>-Tal wurde am 10. September 1756 unter dem <b>Marquês de Pombal</b> mit Granitsteinen abgesteckt und mit Regeln versehen – nach eigener Zählung das älteste geregelte Weinbaugebiet der Welt, seit 2001 UNESCO-Welterbe. Auf Schieferterrassen wächst der <b>vinho do Porto</b>: Die Gärung wird mit Weinbrand gestoppt, der Zucker bleibt, der Alkohol steigt auf rund 20 Prozent. Gelagert wird er in den <b>caves</b> von <b>Vila Nova de Gaia</b>, gegenüber von Anas Porto, ihre Namen groß auf den Dächern. <b>Ruby</b> ist jung und fruchtig, <b>tawny</b> reift Jahre im Fass und wird nussig, <b>vintage</b> stammt aus einem einzigen erklärten Jahrgang und schläft Jahrzehnte in der Flasche.<br><br>Im <b>Alentejo</b> ist der Wein rot, warm und weich. Rund um Vidigueira lebt eine römische Technik weiter: der <b>vinho de talha</b>, vergoren in mannshohen Tonamphoren, traditionell um São Martinho, den 11. November, geöffnet.<br><br>Der Korken kommt ohnehin aus Portugal, und der Preis ist freundlich: Eine gute Flasche kostet im Supermarkt fünf bis acht Euro. Im Lokal bestellt man <b>um copo de tinto</b> oder <b>de branco</b>, oder gleich <b>a garrafa</b>. Bier heißt nach der Stadt: <b>uma imperial</b> in Lissabon, <b>um fino</b> in Porto, beides 20 cl, beides <b>à pressão</b>, vom Fass. Ana bestellt in Lissabon trotzdem einen fino. Aus Prinzip.",
   "fact": "<b>Wusstest du?</b> Das Wort <i>imperial</i> war eine Marke: Bis 1916 braute die Lissabonner Brauerei Germânia ein Fassbier namens Imperial – der Name blieb am Glas hängen. Und <i>fino</i> geht auf einen Coimbraer Bohemien der 1940er zurück, der sein Bier immer <i>em copo fino</i>, im dünnen Glas, bestellte."
+ },
+ {
+  "id": "postais",
+  "title": "Postais do sul – Fotos aus dem Süden",
+  "meta": "Orte · Maries Fotos",
+  "html": "Diese Fotos hat Marie auf ihrer zweiten Reise in den Süden Portugals gemacht. Unter jedem Bild steht ein kurzer Satz auf Portugiesisch und dahinter die Übersetzung. Lies den Satz zuerst laut, dann erst die Übersetzung.<br><br><b>Postal</b> heißt Postkarte. Im Plural wird aus <i>-al</i> ein <i>-ais</i>: <i>um postal, dois postais</i>, genau wie <i>um animal, dois animais</i>.",
+  "fact": "<b>Wusstest du?</b> <i>A aldeia está a dormir</i> ist typisch für Portugal: Hier sagt man <i>estar a</i> + Grundform. In Brasilien hieße es <i>está dormindo</i>.",
+  "fotos": [
+   {
+    "src": "fotos/sul-marie.webp",
+    "cap": "<i lang=\"pt\">Olá, eu sou a Marie.</i> Hallo, ich bin Marie."
+   },
+   {
+    "src": "fotos/sul-casas.webp",
+    "cap": "<i lang=\"pt\">O céu está cor-de-rosa.</i> Der Himmel ist rosa."
+   },
+   {
+    "src": "fotos/sul-telhados.webp",
+    "cap": "<i lang=\"pt\">A aldeia está a dormir.</i> Das Dorf schläft gerade."
+   },
+   {
+    "src": "fotos/sul-lagoa.webp",
+    "cap": "<i lang=\"pt\">Hoje não faço nada.</i> Heute mache ich nichts."
+   },
+   {
+    "src": "fotos/sul-sapatos.webp",
+    "cap": "<i lang=\"pt\">Hoje não preciso de sapatos.</i> Heute brauche ich keine Schuhe."
+   },
+   {
+    "src": "fotos/sul-bola.webp",
+    "cap": "<i lang=\"pt\">Vamos jogar à bola?</i> Spielen wir Ball?"
+   }
+  ]
  }
 ]
