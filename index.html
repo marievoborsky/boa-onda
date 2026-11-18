@@ -4424,14 +4424,24 @@ function showCard() {
     return;
   }
   card.style.display = ''; acts.style.display = ''; exbox.style.display = 'none';
-  document.getElementById('c-pt').textContent = w.pt;
-  document.getElementById('c-ipa').textContent = w.ipa;
+  const s = store.words[w.id];
+  karteRueck = !!s && s.box >= RUECK_AB_BOX && Math.random() < .5;
+  const pt = document.getElementById('c-pt');
+  pt.textContent = karteRueck ? w.de : w.pt;
+  pt.lang = karteRueck ? 'de' : 'pt';
+  document.getElementById('c-ipa').textContent = karteRueck ? '' : w.ipa;
+  document.getElementById('c-audio').style.visibility = karteRueck ? 'hidden' : '';
   document.getElementById('c-de').style.display = 'none';
   const bsp = document.getElementById('c-bsp');
   bsp.style.display = 'none'; bsp.innerHTML = '';
-  document.getElementById('c-hint').textContent = 'Antippen zum Umdrehen';
-  play(w.id);
+  document.getElementById('c-hint').textContent = karteRueck ? 'Wie heißt das auf Portugiesisch? Sag es laut, dann umdrehen.' : 'Antippen zum Umdrehen';
+  if (!karteRueck) play(w.id);
 }
+/* Richtung Deutsch → Portugiesisch (wie die „sagen“-Karte im Anki-Deck): Wörter ab Box 2 (zweimal gekonnt) kommen
+   im Schnitt jedes zweite Mal andersrum. Vorne steht Deutsch, man sagt das Portugiesische laut; die Rückseite ist
+   dieselbe wie sonst (Wort, Lautschrift, Ton, Übersetzung, Beispielsatz). Bewertet wird derselbe Kasten wie sonst. */
+const RUECK_AB_BOX = 2;
+let karteRueck = false;
 /* Übungs-Karte in der Session bewertet: Erst-Treffer zählt, alles andere bleibt fällig */
 function sessionExErgebnis(row, ok, erst, offen) {
   if (offen) return;   // erster Fehlversuch bei Lücke/Satz: noch einmal probieren
@@ -4451,6 +4461,12 @@ function flipCard() {
   if (flipped) return;
   flipped = true;
   const w = queue[idx];
+  if (karteRueck) {
+    const pt = document.getElementById('c-pt');
+    pt.textContent = w.pt; pt.lang = 'pt';
+    document.getElementById('c-ipa').textContent = w.ipa;
+    document.getElementById('c-audio').style.visibility = '';
+  }
   document.getElementById('c-de').textContent = w.de;
   document.getElementById('c-de').style.display = 'block';
   document.getElementById('c-hint').textContent = 'Und – konntest du es?';
@@ -4461,8 +4477,10 @@ function flipCard() {
       <div class="bsp-text"><div lang="pt">${beispielZeile(b)}</div>${b.de ? `<div class="bsp-de">${b.de}</div>` : ''}</div>`;
     bsp.style.display = 'flex';
     // Ohne Netz liegt der Satz oft noch nicht im Cache: dann nicht bei jeder Karte eine Fehlermeldung, der Knopf bleibt
-    if (navigator.onLine !== false) play(b.a);
+    if (navigator.onLine !== false && !karteRueck) play(b.a);
   }
+  // Andersrum gefragt: Zum Vergleichen kommt zuerst das Wort selbst (der Beispielsatz bleibt auf seinem Knopf)
+  if (karteRueck) play(w.id);
 }
 function playCurrent() { if (queue[idx] && !queue[idx].ex) play(queue[idx].id); }
 function answer(good) {
