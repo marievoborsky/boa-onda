@@ -1098,7 +1098,7 @@ function dialogOeffnen(el, titelId) {
   sheet.tabIndex = -1;
   dialogVorher = document.activeElement;
   el.style.display = 'flex';
-  const erst = sheet.querySelector('button, input');
+  const erst = sheet.querySelector('button, input:not([type=time])');   // ein Uhrzeit-Feld nicht anspringen: iOS öffnet sonst sofort das Rad
   setTimeout(() => (erst || sheet).focus(), 30);
 }
 function dialogSchliessen(el) {
@@ -2400,7 +2400,8 @@ function zeigeErinnerung() {
       <h2 id="erinnerung-titel" style="font-size:1.5rem; font-weight:600; margin:.2rem 0 .7rem">Erinnerung</h2>
       <div style="font-size:.9rem; line-height:1.55; margin-bottom:1rem">Zu deiner Lernzeit kommt ein kurzer Stups aufs iPhone. Hast du dein Tagesziel an dem Tag schon geschafft, bleibt es still.</div>
       <label for="er-zeit" class="kicker" style="display:block; margin-bottom:.35rem">Uhrzeit</label>
-      <input id="er-zeit" class="exin" type="time" value="${erinnerungZeit()}" style="margin:0 0 1.1rem; width:100%">
+      <input id="er-zeit" class="exin" type="time" value="${erinnerungZeit()}" style="display:block; width:100%; -webkit-appearance:none; appearance:none; margin:0 0 1.1rem; font-size:1.05rem">
+
       <button class="mixbtn" style="margin:0 0 .6rem; transform:none" onclick="erinnerungSheetSpeichern()">${an ? 'Speichern' : 'Einschalten'}</button>
       ${an ? `<button class="mixbtn" style="margin:0; transform:none; background:var(--card-2); color:var(--ink); box-shadow:none" onclick="erinnerungSheetAus()">Ausschalten</button>` : ''}
     </div>`;
