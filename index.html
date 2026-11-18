@@ -2309,6 +2309,7 @@ const MAIS_SVG = {
   user: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>',
   postal: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="13" y1="8" x2="13" y2="16"/><rect x="16" y="8" width="3" height="3"/><line x1="5" y1="10" x2="10" y2="10"/><line x1="5" y1="14" x2="9" y2="14"/></svg>',
   bell: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>',
+  mail: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>',
 };
 /* ---------- Tägliche Erinnerung (nur iPhone-App ab 1.0.3, Plugin „Erinnerung“ aus 03_STORE/ios) ----------
    Lokale Mitteilungen ohne Server. Bei jedem Öffnen plant die App die nächsten 14 Tage neu; ist das Tagesziel heute
@@ -2433,6 +2434,7 @@ function renderMais() {
     ['chart', 'Fortschritt', 'Deine Wochen, Wörter und Wackler', "goTab('fortschritt')"],
     ['deck', 'Anki-Deck', 'Alle Vokabeln mit Audio für Anki', "zeigeAnki()"],
     ...(erinnerungPlugin() ? [['bell', 'Erinnerung', erinnerungEin() ? `Jeden Tag um ${erinnerungZeit()} Uhr` : 'Ein kurzer Stups zur Lernzeit', "zeigeErinnerung()"]] : []),
+    ...(NEWSLETTER_AKTIV ? [['mail', 'Newsletter', 'Einmal im Monat: ein Tipp, ein Wort, ein Foto', "zeigeNewsletter()"]] : []),
     ['user', 'Konto', kontoUser ? 'Angemeldet als ' + kontoUser.email : 'Anmelden, um auf allen Geräten weiterzulernen', "zeigeKonto()"],
   ];
   const el = document.getElementById('mais-list');
@@ -3523,6 +3525,59 @@ function checkOrder(row) {
    einer Server-Komponente, die Kaufbelege prüft (siehe STAFFEL2.md). */
 const GRATIS = ['tag15'];
 const DESCOBRIR_FREI = 3;   // die ersten drei Artikel sind gratis
+/* Newsletter (eigener Dienst statt Brevo, siehe 05_NEWSLETTER/README.md): Mehr → Newsletter schickt die Adresse an die
+   Supabase-Funktion „newsletter“, die eine Bestätigungsmail verschickt (Double-Opt-in). Bestätigen und Abmelden
+   laufen über boa-onda.app/newsletter/. Solange NEWSLETTER_AKTIV false ist, bleibt der Eintrag unsichtbar. */
+const NEWSLETTER_AKTIV = false;
+function zeigeNewsletter() {
+  let el = document.getElementById('newsletter-sheet');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'newsletter-sheet';
+    el.style.cssText = 'position:fixed; inset:0; z-index:80; background:var(--scrim); display:flex; align-items:flex-end; justify-content:center';
+    el.onclick = e => { if (e.target === el) dialogSchliessen(el); };
+    document.body.appendChild(el);
+  }
+  const mail = String((kontoUser && kontoUser.email) || (store.ui.newsletter && store.ui.newsletter.email) || '').replace(/[<>"&]/g, '');
+  el.innerHTML = `
+    <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
+      <div class="kicker">Einmal im Monat</div>
+      <h2 id="newsletter-titel" style="font-size:1.5rem; font-weight:600; margin:.2rem 0 .7rem">Newsletter</h2>
+      <div style="font-size:.9rem; line-height:1.55; margin-bottom:1rem">Ein Tipp von Ana, ein Wort zum Merken, ein Foto aus Portugal und was es Neues in der App gibt. Abmelden geht mit einem Klick.</div>
+      <label for="nl-email" class="kicker" style="display:block; margin-bottom:.35rem">Deine E-Mail-Adresse</label>
+      <input id="nl-email" class="exin" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" value="${mail}" placeholder="du@beispiel.de" style="display:block; width:100%; margin:0 0 .4rem; font-size:1.05rem" onkeydown="if (event.key === 'Enter') newsletterAnmelden()">
+      <div id="nl-status" role="status" aria-live="polite" style="font-size:.85rem; line-height:1.45; min-height:1.3em; margin-bottom:.6rem; color:var(--ink-soft)"></div>
+      <button class="mixbtn" id="nl-knopf" style="margin:0 0 .7rem; transform:none" onclick="newsletterAnmelden()">Anmelden</button>
+      <div class="mono" style="font-size:.75rem; line-height:1.5; color:var(--ink-soft)">Du bekommst eine Mail mit einem Bestätigungslink. Erst wenn du darauf tippst, bist du angemeldet. Mehr in der <a href="datenschutz.html#newsletter" style="color:var(--lav-text)">Datenschutzerklärung</a>.</div>
+    </div>`;
+  dialogOeffnen(el, 'newsletter-titel');
+}
+async function newsletterAnmelden() {
+  const inp = document.getElementById('nl-email'), st = document.getElementById('nl-status'), kn = document.getElementById('nl-knopf');
+  if (!inp || !st || !kn || kn.disabled) return;
+  const m = (inp.value || '').trim();
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(m)) { st.textContent = 'Das sieht noch nicht nach einer E-Mail-Adresse aus.'; inp.focus(); return; }
+  kn.disabled = true; st.textContent = 'Einen Moment …';
+  let j;
+  try {
+    const r = await fetch(SUPABASE_URL + '/functions/v1/newsletter', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ aktion: 'anmelden', email: m, quelle: postalNativ() ? 'ios' : 'app' }),
+    });
+    j = await r.json().catch(() => ({ ok: false }));
+  } catch (e) { j = { ok: false, fehler: 'netz' }; }
+  kn.disabled = false;
+  if (j.ok) {
+    store.ui.newsletter = { email: m.toLowerCase(), am: today() }; saveStill();
+    dialogSchliessen(document.getElementById('newsletter-sheet'));
+    meldung(j.status === 'aktiv' ? 'Diese Adresse bekommt den Newsletter schon.' : 'Fast geschafft! Schau in dein Postfach und tipp auf den Link in der Mail.');
+    return;
+  }
+  st.textContent = j.fehler === 'email' ? 'Das sieht noch nicht nach einer E-Mail-Adresse aus.'
+    : j.fehler === 'netz' ? 'Keine Verbindung. Versuch es gleich noch einmal.'
+    : j.fehler === 'limit' ? 'Gerade melden sich sehr viele an. Versuch es bitte morgen noch einmal.'
+    : 'Das hat gerade nicht geklappt. Versuch es später noch einmal oder schreib an boaonda.app@gmail.com.';
+}
 /* Prüfcodes für Store-Reviews (Google/Apple): ohne Konto einlösbar, Premium nur lokal auf dem Gerät */
 const PRUEF_HASHES = ['5691b04b806aa42e4463045aeb5d87041b122bcee4f2aa0faa1c88f41fe9b755'];
 const CODE_HASHES = [
