@@ -1530,6 +1530,22 @@ function finishLesson() {
   if (lektionAktiv > 0) aktivLektion();
   else meldung('Abgehakt. Für Tagesziel und Streak zählt eine gelöste Übung.');
   zeigeAbschluss(l, neue, test);
+  if (lektionAktiv > 0) bewertungPruefen();
+}
+/* Bewertung: Nach „Tag 7 geschafft“ (die erste Woche) bittet die iPhone-App einmal mit Apples eigenem Fenster um Sterne.
+   Nur in der iPhone-App ab Version 1.0.3 (Plugin „Teilen“ mit bewerten()), nie im Browser.
+   iOS entscheidet selbst, ob das Fenster wirklich erscheint (höchstens 3× in 365 Tagen).
+   Danach frühestens nach 120 Tagen wieder, und auch dann nur direkt nach einer geschafften Lektion. */
+const BEWERTUNG_AB = 7, BEWERTUNG_PAUSE_TAGE = 120;
+function bewertungPruefen() {
+  const t = postalPlugin();
+  if (!t || typeof t.bewerten !== 'function') return;
+  if (LESSONS.filter(x => !x.bonus && store.lessons[x.id]).length < BEWERTUNG_AB) return;
+  const b = store.ui.bewertung || {};
+  if (b.zuletzt && Date.now() - Date.parse(b.zuletzt) < BEWERTUNG_PAUSE_TAGE * 864e5) return;
+  store.ui.bewertung = { zuletzt: today(), mal: (b.mal || 0) + 1 };
+  saveStill();
+  setTimeout(() => { Promise.resolve().then(() => t.bewerten()).catch(() => {}); }, 1500);
 }
 function zeigeAbschluss(l, neue, test) {
   const i = LESSONS.indexOf(l), next = LESSONS[i + 1] || null;
