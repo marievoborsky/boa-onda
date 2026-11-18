@@ -3516,7 +3516,7 @@ function checkOrder(row) {
 
 /* ==================== PREMIUM: KAUFSCHRANKE ====================
    Woche 1 und 2 sind gratis. Ab Woche 3 (w >= 2) ist Premium nötig; Tag 15 ist die
-   freie Probelektion. Premium = Abo 5,99 €/Monat oder Einmalkauf 29,99 € (Launch-Preis).
+   freie Probelektion. Premium = Abo 5,99 €/Monat, Jahresabo 39,99 € oder Einmalkauf 99,99 € (Preise: PREISE).
    Premium-Funktionen außerhalb der Lektionen: Spiele, Arbeitsblätter, Descobrir ab Artikel 4.
    Freigeschaltet wird per Code (Tester, Marie) oder über die Store-Kasse in kaufen():
    Play Billing (Android-TWA) bzw. Apple-Kasse (iPhone-App, Capacitor-Plugin AppleKasse).
@@ -3625,10 +3625,11 @@ function zeigePaywall() {
         <div class="kicker" style="margin-bottom:.3rem">Was du bekommst</div>
         <div class="mono" style="font-size:.75rem; line-height:1.7; color:var(--ink); margin-bottom:1rem">alle Lektionen: Woche 3 und 4, Staffel 2 (A2), Staffel 3 (B1)<br>Audio zu jedem Satz, in europäischem Portugiesisch<br>Spiele, Arbeitsblätter und alle Descobrir-Artikel</div>
         <div style="display:flex; gap:.5rem; margin-bottom:.5rem">
-          <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem" onclick="kaufen('abo')">5,99 € / Monat</button>
-          <button class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem; background:var(--lav-deep)" onclick="kaufen('einmal')">29,99 € einmal</button>
+          <button id="pw-abo" class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem" onclick="kaufen('abo')">${PREISE.abo} / Monat</button>
+          <button id="pw-jahr" class="mixbtn" style="margin:0; transform:none; flex:1; padding-left:.4rem; padding-right:.4rem; display:none" onclick="kaufen('jahr')">${PREISE.jahr} / Jahr</button>
         </div>
-        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo: 1 Monat, verlängert sich automatisch, jederzeit kündbar in den Einstellungen deines Stores · Einmalkauf ist der Launch-Preis<br>Mit Konto gilt Premium auf allen deinen Geräten<br>Mit dem Kauf gelten die <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener" style="color:var(--lav-text)">Nutzungsbedingungen</a> und die <a href="datenschutz.html" style="color:var(--lav-text)">Datenschutzerklärung</a></div>
+        <button id="pw-einmal" class="mixbtn" style="margin:0 0 .5rem; transform:none; background:var(--lav-deep)" onclick="kaufen('einmal')">${PREISE.einmal} einmalig, für immer</button>
+        <div class="mono" style="font-size:.75rem; color:var(--ink-soft); text-align:center; margin-bottom:1rem">Abo: <span id="pw-dauer">1 Monat</span>, verlängert sich automatisch, jederzeit kündbar in den Einstellungen deines Stores<br>Mit Konto gilt Premium auf allen deinen Geräten<br>Mit dem Kauf gelten die <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener" style="color:var(--lav-text)">Nutzungsbedingungen</a> und die <a href="datenschutz.html" style="color:var(--lav-text)">Datenschutzerklärung</a></div>
         <div id="pw-code-zeile" style="display:flex; gap:.5rem">
           <input id="pw-code" class="exin" placeholder="Code einlösen …" value="${paywallCodeMerken.replace(/"/g, '')}" autocapitalize="characters" autocorrect="off" spellcheck="false"
             onkeydown="if (event.key === 'Enter') codeEinloesen()">
@@ -3646,6 +3647,7 @@ function zeigePaywall() {
   const rs = document.getElementById('pw-restore'); if (rs) rs.style.display = (playBillingDa() || appleKasseDa()) ? 'block' : 'none';
   // iPhone-App: Apple erlaubt keine Freischaltung außerhalb des App Stores (Richtlinie 3.1.1) – Code-Feld ausblenden
   const cz = document.getElementById('pw-code-zeile'); if (cz) cz.style.display = appleKasseDa() ? 'none' : 'flex';
+  paywallKnoepfe(); appleProdukteLaden();
   dialogOeffnen(el, 'paywall-titel');
 }
 function zeigeAnki() {
@@ -3699,7 +3701,7 @@ function kaufen(art) {
   meldung('Der Kauf geht in der Android-App aus dem Play Store oder in der iPhone-App aus dem App Store. Hier: Code eingeben (unten) oder Tag 15 gratis ausprobieren.');
 }
 /* ---------- Play Billing (nur in der Android-App; im Browser ist getDigitalGoodsService undefiniert) ---------- */
-const PLAY_SKU = { abo: 'premium_monatlich', einmal: 'premium_einmal' };
+const PLAY_SKU = { abo: 'premium_monatlich', jahr: 'premium_jaehrlich', einmal: 'premium_einmal' };
 let kaufLaeuft = false;
 function playBillingDa() { return typeof window.getDigitalGoodsService === 'function' && 'PaymentRequest' in window; }
 async function playService() { return await window.getDigitalGoodsService('https://play.google.com/billing'); }
@@ -3724,7 +3726,7 @@ async function playKauf(art) {
     throw e;
   }
   // Einmalkauf bleibt dauerhaft (wird nicht konsumiert); Bestätigung (acknowledge) erledigt der Server.
-  store.premium = { seit: today(), quelle: 'konto', art: art === 'abo' ? 'play-abo' : 'play-einmal' };
+  store.premium = { seit: today(), quelle: 'konto', art: art === 'einmal' ? 'play-einmal' : 'play-abo' };
   VMAP = null; save();
   schliessePaywall();
   meldung('Premium ist aktiv und gehört zu deinem Konto. Boa onda!');
@@ -3752,7 +3754,7 @@ async function playWiederherstellen() {
   for (const p of purchases || []) {
     const r = await playVerifizieren(p.purchaseToken, p.itemId);
     if (r && r.ok) {
-      store.premium = { seit: today(), quelle: 'konto', art: p.itemId === PLAY_SKU.abo ? 'play-abo' : 'play-einmal' };
+      store.premium = { seit: today(), quelle: 'konto', art: skuIstAbo(p.itemId) ? 'play-abo' : 'play-einmal' };
       VMAP = null; save(); await kontoSync('kauf');
       return true;
     }
@@ -3773,9 +3775,37 @@ async function playAuffrischen(p) {
 /* ---------- Apple-Kasse (nur in der iPhone-App; Capacitor-Plugin „AppleKasse“ aus 03_STORE/ios, StoreKit 2) ----------
    Gleiche Produkt-IDs wie bei Play. Der Beleg (Transaktions-ID + JWS) geht an die Supabase-Funktion apple-verify,
    die bei Apple nachfragt und Premium im Profil setzt (premium_source = 'apple', Abo mit premium_until). */
-const APPLE_SKU = { abo: 'premium_monatlich', einmal: 'premium_einmal' };
+const APPLE_SKU = { abo: 'premium_monatlich', jahr: 'premium_jaehrlich', einmal: 'premium_einmal' };
+function skuIstAbo(id) { return id === APPLE_SKU.abo || id === APPLE_SKU.jahr; }   // Monats- und Jahresabo (Play nutzt dieselben IDs)
 function appleKasseDa() { return !!(window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.AppleKasse); }
 function appleKasse() { return window.Capacitor.Plugins.AppleKasse; }
+/* Preise in der Paywall. In der iPhone-App kommen sie von Apple (Landeswährung, nur freigegebene Produkte):
+   Das Jahresabo erscheint dort erst, wenn Apple es ausliefert (in der Prüfung über die Sandbox schon vorher).
+   Im Browser und in der Android-App gelten die deutschen Preise, das Jahresabo erst mit JAHRESABO_FREI. */
+const PREISE = { abo: '5,99 €', jahr: '39,99 €', einmal: '99,99 €' };
+const JAHRESABO_FREI = false;   // nach Apples Freigabe des Jahresabos auf true (dann auch die Website anpassen)
+let appleProdukte = null;       // { premium_monatlich: '5,99 €', … } aus StoreKit, einmal pro App-Start
+function paywallKnoepfe() {
+  const p = appleProdukte || {};
+  const preis = art => p[APPLE_SKU[art]] || PREISE[art];
+  const jahrDa = appleKasseDa() ? !!p[APPLE_SKU.jahr] : JAHRESABO_FREI;
+  const setz = (id, t) => { const b = document.getElementById(id); if (b) b.textContent = t; };
+  setz('pw-abo', `${preis('abo')} / Monat`);
+  setz('pw-jahr', `${preis('jahr')} / Jahr`);
+  setz('pw-einmal', `${preis('einmal')} einmalig, für immer`);
+  setz('pw-dauer', jahrDa ? '1 Monat oder 1 Jahr' : '1 Monat');
+  const j = document.getElementById('pw-jahr'); if (j) j.style.display = jahrDa ? '' : 'none';
+}
+async function appleProdukteLaden() {
+  if (!appleKasseDa() || appleProdukte) return;
+  try {
+    const r = await appleKasse().produkte({ ids: Object.values(APPLE_SKU) });
+    const m = {};
+    for (const x of (r && r.produkte) || []) if (x && x.id && x.preis) m[x.id] = x.preis;
+    if (Object.keys(m).length) appleProdukte = m;
+  } catch (e) {}
+  paywallKnoepfe();
+}
 async function appleKauf(art) {
   const sku = APPLE_SKU[art];
   const r = await appleKasse().kaufen({ id: sku });
@@ -3786,7 +3816,7 @@ async function appleKauf(art) {
     let v = null;
     try { v = await appleVerifizieren(r); } catch (e) { v = null; }
     if (v && v.ok) {
-      store.premium = { seit: today(), quelle: 'konto', art: art === 'abo' ? 'apple-abo' : 'apple-einmal' };
+      store.premium = { seit: today(), quelle: 'konto', art: art === 'einmal' ? 'apple-einmal' : 'apple-abo' };
       VMAP = null; save(); schliessePaywall();
       meldung('Premium ist aktiv und gehört zu deinem Konto. Boa onda!'); goTab('kurs');
       return;
@@ -3800,7 +3830,7 @@ async function appleKauf(art) {
 }
 /* Premium auf dem Gerät aus einem von StoreKit geprüften Beleg (ohne Konto oder bis die Bindung ans Konto klappt) */
 function appleGeraetPremium(b) {
-  const art = b.productId === APPLE_SKU.abo ? 'apple-abo' : 'apple-einmal';
+  const art = skuIstAbo(b.productId) ? 'apple-abo' : 'apple-einmal';
   const seit = store.premium && store.premium.seit ? store.premium.seit : today();
   store.premium = { seit, quelle: 'apple', art, bis: (art === 'apple-abo' && b.expires) ? b.expires : null };
   VMAP = null; save();
@@ -3811,7 +3841,7 @@ async function appleGeraetAbgleich() {
   if (!appleKasseDa()) return;
   let belege = [];
   try { const r = await appleKasse().belege(); belege = (r && r.belege) || []; } catch (e) { return; }
-  const gueltig = belege.filter(b => !b.widerrufen && (APPLE_SKU.abo === b.productId || APPLE_SKU.einmal === b.productId));
+  const gueltig = belege.filter(b => !b.widerrufen && Object.values(APPLE_SKU).includes(b.productId));
   const p = store.premium;
   if (gueltig.length) {
     const b = gueltig.find(x => x.productId === APPLE_SKU.einmal) || gueltig[0];
@@ -3830,7 +3860,7 @@ async function appleAnKontoBinden() {
       if (b.widerrufen) continue;
       const v = await appleVerifizieren(b);
       if (v && v.ok) {
-        store.premium = { seit: store.premium.seit || today(), quelle: 'konto', art: b.productId === APPLE_SKU.abo ? 'apple-abo' : 'apple-einmal' };
+        store.premium = { seit: store.premium.seit || today(), quelle: 'konto', art: skuIstAbo(b.productId) ? 'apple-abo' : 'apple-einmal' };
         VMAP = null; save(); return true;
       }
     }
@@ -3859,7 +3889,7 @@ async function appleWiederherstellen() {
     let v = null;
     try { v = await appleVerifizieren(b); } catch (e) { v = null; }
     if (v && v.ok) {
-      store.premium = { seit: today(), quelle: 'konto', art: b.productId === APPLE_SKU.abo ? 'apple-abo' : 'apple-einmal' };
+      store.premium = { seit: today(), quelle: 'konto', art: skuIstAbo(b.productId) ? 'apple-abo' : 'apple-einmal' };
       VMAP = null; save(); await kontoSync('kauf');
       return true;
     }
@@ -3886,6 +3916,7 @@ if (appleKasseDa()) {
     });
   } catch (e) {}
   setTimeout(appleGeraetAbgleich, 400);
+  setTimeout(appleProdukteLaden, 1500);   // Preise und Jahresabo für die Paywall vorab holen
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') appleGeraetAbgleich(); });
 }
 function kaufFehlerText(e) {
