@@ -282,6 +282,12 @@
     font-size: .75rem; color: var(--clay-text); min-width: 3.2rem; }
   .dline .dpt { font-size: 1rem; cursor: pointer; flex: 1; min-width: 0; text-align: left; line-height: 1.4;
     background: none; border: none; font-family: inherit; color: inherit; padding: .55rem 0; min-height: 44px; }
+  /* Rückmeldung beim Abspielen: Der Knopf färbt sich sofort beim Tippen und bleibt so, solange sein Ton lädt und spielt
+     (bei leisem Handy sieht man so trotzdem, dass der Tipp angekommen ist) */
+  .playbtn, .audiobtn, .dline .dpt { transition: background-color .15s ease, color .15s ease, box-shadow .15s ease; }
+  .playbtn.spielt { background-color: var(--sea); color: var(--on-sea); }
+  .audiobtn.spielt { box-shadow: 0 0 0 .45rem rgba(63,191,174,.32), 0 4px 12px rgba(63,191,174,.4); }
+  .dline .dpt.spielt { color: var(--sea-ink); }
   .recbtn { border: none; background: var(--clay-soft); color: var(--clay-ink);
     border-radius: 50%; width: 2rem; height: 2rem; flex: none; box-sizing: content-box; padding: .4rem; margin: -.4rem; cursor: pointer;
     display: flex; align-items: center; justify-content: center; background-clip: content-box; }
@@ -557,7 +563,10 @@
     <h1 class="ltitle">Mehr</h1>
     <div class="lsub" style="margin: .2rem 0 1rem .2rem"><i>mais</i> · Nachschlagen, üben, ausdrucken</div>
     <div id="mais-list"></div>
-    <a href="datenschutz.html" class="kicker" style="display:flex; align-items:center; justify-content:center; min-height:44px; margin-top:1rem; text-decoration:none">Datenschutz</a>
+    <div style="display:flex; justify-content:center; gap:1.4rem; margin-top:1rem">
+      <a href="datenschutz.html" class="kicker" style="display:flex; align-items:center; min-height:44px; text-decoration:none">Datenschutz</a>
+      <a href="impressum.html" class="kicker" style="display:flex; align-items:center; min-height:44px; text-decoration:none">Impressum</a>
+    </div>
     <a href="#" onclick="resetStore(); return false" class="kicker" style="display:flex; align-items:center; justify-content:center; min-height:44px; text-decoration:none">Fortschritt zurücksetzen</a>
   </div>
 
@@ -4258,10 +4267,19 @@ audio.addEventListener('error', () => {
   meldung(navigator.onLine === false ? 'Audio ist offline noch nicht geladen – beim nächsten Mal mit Netz einmal abspielen.'
                                      : 'Audio konnte nicht geladen werden.');
 });
+/* Der getippte Abspielknopf bekommt .spielt, bis sein Ton zu Ende ist (oder ein anderer startet) */
+let audioKnopf = null;
+function audioKnopfAus() { if (audioKnopf) audioKnopf.classList.remove('spielt'); audioKnopf = null; }
+function audioKnopfPruefen() { setTimeout(() => { if (audio.paused || audio.ended || audio.error) audioKnopfAus(); }, 60); }
+['ended', 'pause', 'error'].forEach(t => audio.addEventListener(t, audioKnopfPruefen));
 function play(id, rate) {
+  audioKnopfAus();
+  const ev = window.event;
+  const knopf = ev && ev.type === 'click' && ev.target && ev.target.closest ? ev.target.closest('.playbtn, .audiobtn, .dpt') : null;
   audio.src = 'audio/' + id + '.m4a';
   audio.defaultPlaybackRate = rate || 1; audio.playbackRate = rate || 1;
-  audio.play().catch(() => {});
+  audio.play().catch(audioKnopfPruefen);
+  if (knopf) { audioKnopf = knopf; knopf.classList.add('spielt'); }
 }
 
 /* ---------- Lern-Session ---------- */
