@@ -818,18 +818,18 @@ function tagHeute() { const t = today(); return store.tage[t] || (store.tage[t] 
 function aktiv(karten, richtig) {
   const tag = tagHeute();
   tag.karten += karten || 0; tag.richtig += richtig || 0;
-  streakPruefen(); save(); zeigeStreak();
+  streakPruefen(); save(); zeigeStreak(); erinnerungNachAktivitaet();
 }
 function aktivUebung(ok, erst) {
   const tag = tagHeute();
   tag.uebungen = (tag.uebungen || 0) + 1;
   if (ok && erst) tag.geloest = (tag.geloest || 0) + 1;
-  streakPruefen(); save(); zeigeStreak();
+  streakPruefen(); save(); zeigeStreak(); erinnerungNachAktivitaet();
 }
 function aktivLektion() {
   const tag = tagHeute();
   tag.lektionen = (tag.lektionen || 0) + 1;
-  streakPruefen(); save(); zeigeStreak();
+  streakPruefen(); save(); zeigeStreak(); erinnerungNachAktivitaet();
 }
 function tagesziel() {
   const tag = store.tage[today()] || {};
@@ -998,7 +998,21 @@ function renderHome() {
   }
   // Konto-Hinweis: ab der ersten Lektion, nur ohne Anmeldung; „Später" blendet ihn 7 Tage aus (store.ui.kontoHinweis = Zeitstempel)
   const khZeit = typeof store.ui.kontoHinweis === 'number' ? store.ui.kontoHinweis : 0;
-  if (done >= 1 && kontoClient && kontoBereit && !kontoUser && Date.now() - khZeit > 7 * 864e5) {
+  // Erinnerung anbieten (nur iPhone-App ab 1.0.3, ab der ersten Lektion, bis entschieden) – solange steht der Konto-Hinweis zurück
+  const erAngebot = done >= 1 && !store.ui.erinnerung && !!erinnerungPlugin();
+  if (erAngebot) {
+    const eh = kachel('spot dica-note', () => erinnerungAngebotJa());
+    eh.id = 'erinnerung-hinweis';
+    eh.style.cursor = 'pointer';
+    eh.innerHTML = `
+      <div class="icon">${MAIS_SVG.bell}</div>
+      <div class="info">
+        <div class="theme">Erinnerung?</div>
+        <div class="name" style="font-size:.9rem; font-weight:500">Jeden Abend um 19 Uhr ein kurzer Stups, falls du noch nicht gelernt hast. Antippen zum Einschalten.</div>
+      </div>
+      <button class="kicker" style="border:none; background:none; cursor:pointer; min-height:44px; padding:0 .4rem; flex:none" aria-label="Erinnerung nicht einschalten" onclick="event.stopPropagation(); erinnerungAngebotNein()">Nein danke</button>`;
+    main.appendChild(eh);
+  } else if (done >= 1 && kontoClient && kontoBereit && !kontoUser && Date.now() - khZeit > 7 * 864e5) {
     const kh = kachel('spot dica-note', () => zeigeKonto());
     kh.id = 'konto-hinweis';
     kh.style.cursor = 'pointer';
@@ -2294,7 +2308,121 @@ const MAIS_SVG = {
   mic: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg>',
   user: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>',
   postal: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="13" y1="8" x2="13" y2="16"/><rect x="16" y="8" width="3" height="3"/><line x1="5" y1="10" x2="10" y2="10"/><line x1="5" y1="14" x2="9" y2="14"/></svg>',
+  bell: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>',
 };
+/* ---------- Tägliche Erinnerung (nur iPhone-App ab 1.0.3, Plugin „Erinnerung“ aus 03_STORE/ios) ----------
+   Lokale Mitteilungen ohne Server. Bei jedem Öffnen plant die App die nächsten 14 Tage neu; ist das Tagesziel heute
+   schon geschafft oder die Uhrzeit vorbei, fällt heute weg. Die Einstellung gilt nur für dieses Gerät:
+   store.ui.erinnerung = { an, zeit: 'HH:MM', gefragt: Datum }. Angeboten wird sie einmal auf „Heute“ (ab der ersten
+   Lektion), umstellen lässt sie sich unter Mehr → Erinnerung. Browser, Android und iPhone-App 1.0.2 zeigen nichts davon. */
+const ERINNERUNG_TAGE = 14, ERINNERUNG_ZEIT = '19:00';
+let erinnerungTimer = null, erinnerungZielStand = null;
+function erinnerungPlugin() { const C = window.Capacitor; return postalNativ() && C.Plugins && C.Plugins.Erinnerung ? C.Plugins.Erinnerung : null; }
+function erinnerungEin() { return !!(store.ui.erinnerung && store.ui.erinnerung.an); }
+function erinnerungZeit() { const z = store.ui.erinnerung && store.ui.erinnerung.zeit; return /^\d\d:\d\d$/.test(z || '') ? z : ERINNERUNG_ZEIT; }
+/* Text: abwechselnd die nächste Lektion (bleibt wahr, solange man nicht weiterlernt) und das Tagesziel mit Karten */
+function erinnerungText(tagNr, stunde) {
+  const gruss = stunde < 12 ? 'Bom dia!' : stunde < 19 ? 'Boa tarde!' : 'Boa noite!';
+  const next = LESSONS.find(l => !store.lessons[l.id]);
+  if (next && !gesperrt(next.id) && tagNr % 2 === 0) {
+    const [tag, ...rest] = next.label.split(' · ');
+    const titel = rest.join(' · ');
+    return `${gruss} ${tag} wartet auf dich${titel ? ': ' + titel : ''}${/[.!?…]$/.test(titel) ? '' : '.'}`;
+  }
+  return `${gruss} ${ZIEL_KARTEN} Karten reichen für dein Tagesziel.`;
+}
+function erinnerungPlanen() { clearTimeout(erinnerungTimer); erinnerungTimer = setTimeout(erinnerungJetztPlanen, 400); }
+async function erinnerungJetztPlanen() {
+  const p = erinnerungPlugin();
+  if (!p) return;
+  try {
+    if (!erinnerungEin()) { erinnerungZielStand = null; await p.aus(); return; }
+    const [hh, mm] = erinnerungZeit().split(':').map(Number);
+    const jetzt = new Date(), heuteFertig = tagesziel().erreicht;
+    erinnerungZielStand = heuteFertig;
+    const tage = [];
+    for (let i = 0; i < ERINNERUNG_TAGE; i++) {
+      const d = new Date(jetzt.getFullYear(), jetzt.getMonth(), jetzt.getDate() + i, hh, mm);
+      if (i === 0 && (heuteFertig || d <= jetzt)) continue;
+      tage.push({ datum: today(d), stunde: hh, minute: mm, titel: 'Boa Onda', text: erinnerungText(i, hh) });
+    }
+    await p.planen({ tage });
+  } catch (e) {}
+}
+/* Nach jeder Lernaktivität: nur neu planen, wenn das Tagesziel gerade erreicht wurde (dann fällt heute weg) */
+function erinnerungNachAktivitaet() {
+  if (erinnerungEin() && erinnerungPlugin() && tagesziel().erreicht !== erinnerungZielStand) erinnerungPlanen();
+}
+async function erinnerungEinschalten(zeit) {
+  const p = erinnerungPlugin();
+  if (!p) return false;
+  let erlaubt = 'offen';
+  try {
+    erlaubt = (await p.status()).erlaubt;
+    if (erlaubt === 'offen') erlaubt = (await p.erlaubnis()).erlaubt ? 'ja' : 'nein';
+  } catch (e) { erlaubt = 'nein'; }
+  if (erlaubt !== 'ja') {
+    store.ui.erinnerung = { an: false, zeit, gefragt: today() }; saveStill();
+    meldung('Mitteilungen sind für Boa Onda ausgeschaltet. Erlauben kannst du sie in den iPhone-Einstellungen unter Mitteilungen → Boa Onda.');
+    return false;
+  }
+  store.ui.erinnerung = { an: true, zeit, gefragt: today() }; saveStill();
+  await erinnerungJetztPlanen();
+  meldung(`Erinnerung an: jeden Tag um ${zeit} Uhr. Hast du schon gelernt, bleibt es still.`);
+  return true;
+}
+/* Angebot auf „Heute“ */
+async function erinnerungAngebotJa() {
+  const el = document.getElementById('erinnerung-hinweis');
+  if (el) el.remove();
+  await erinnerungEinschalten(ERINNERUNG_ZEIT);
+}
+function erinnerungAngebotNein() {
+  store.ui.erinnerung = { an: false, zeit: ERINNERUNG_ZEIT, gefragt: today() }; saveStill();
+  const el = document.getElementById('erinnerung-hinweis');
+  if (el) el.remove();
+  meldung('Alles klar. Einschalten kannst du sie jederzeit unter Mehr → Erinnerung.');
+}
+/* Mehr → Erinnerung */
+function zeigeErinnerung() {
+  let el = document.getElementById('erinnerung-sheet');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'erinnerung-sheet';
+    el.style.cssText = 'position:fixed; inset:0; z-index:80; background:var(--scrim); display:flex; align-items:flex-end; justify-content:center';
+    el.onclick = e => { if (e.target === el) dialogSchliessen(el); };
+    document.body.appendChild(el);
+  }
+  const an = erinnerungEin();
+  el.innerHTML = `
+    <div style="background:var(--card); width:100%; max-width:480px; border-radius:22px 22px 0 0; padding:1.4rem 1.3rem calc(1.4rem + env(safe-area-inset-bottom)); box-shadow:0 -10px 40px rgba(51,41,74,.25)">
+      <div class="kicker">Jeden Tag</div>
+      <h2 id="erinnerung-titel" style="font-size:1.5rem; font-weight:600; margin:.2rem 0 .7rem">Erinnerung</h2>
+      <div style="font-size:.9rem; line-height:1.55; margin-bottom:1rem">Zu deiner Lernzeit kommt ein kurzer Stups aufs iPhone. Hast du dein Tagesziel an dem Tag schon geschafft, bleibt es still.</div>
+      <label for="er-zeit" class="kicker" style="display:block; margin-bottom:.35rem">Uhrzeit</label>
+      <input id="er-zeit" class="exin" type="time" value="${erinnerungZeit()}" style="margin:0 0 1.1rem; width:100%">
+      <button class="mixbtn" style="margin:0 0 .6rem; transform:none" onclick="erinnerungSheetSpeichern()">${an ? 'Speichern' : 'Einschalten'}</button>
+      ${an ? `<button class="mixbtn" style="margin:0; transform:none; background:var(--card-2); color:var(--ink); box-shadow:none" onclick="erinnerungSheetAus()">Ausschalten</button>` : ''}
+    </div>`;
+  dialogOeffnen(el, 'erinnerung-titel');
+}
+async function erinnerungSheetSpeichern() {
+  const inp = document.getElementById('er-zeit');
+  const zeit = inp && /^\d\d:\d\d/.test(inp.value) ? inp.value.slice(0, 5) : ERINNERUNG_ZEIT;
+  dialogSchliessen(document.getElementById('erinnerung-sheet'));
+  await erinnerungEinschalten(zeit);
+  renderMais();
+}
+function erinnerungSheetAus() {
+  store.ui.erinnerung = { an: false, zeit: erinnerungZeit(), gefragt: (store.ui.erinnerung && store.ui.erinnerung.gefragt) || today() };
+  saveStill();
+  erinnerungJetztPlanen();
+  dialogSchliessen(document.getElementById('erinnerung-sheet'));
+  meldung('Erinnerung aus.');
+  renderMais();
+}
+erinnerungPlanen();
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') erinnerungPlanen(); });
 function renderMais() {
   const items = [
     ['compass', 'Descobrir', 'Portugal kennenlernen – Land & Kultur', "goTab('descobrir')"],
@@ -2303,6 +2431,7 @@ function renderMais() {
     ['grid', 'Jogos', 'Kleine Spiele mit deinen Wörtern', "goTab('jogos')"],
     ['chart', 'Fortschritt', 'Deine Wochen, Wörter und Wackler', "goTab('fortschritt')"],
     ['deck', 'Anki-Deck', 'Alle Vokabeln mit Audio für Anki', "zeigeAnki()"],
+    ...(erinnerungPlugin() ? [['bell', 'Erinnerung', erinnerungEin() ? `Jeden Tag um ${erinnerungZeit()} Uhr` : 'Ein kurzer Stups zur Lernzeit', "zeigeErinnerung()"]] : []),
     ['user', 'Konto', kontoUser ? 'Angemeldet als ' + kontoUser.email : 'Anmelden, um auf allen Geräten weiterzulernen', "zeigeKonto()"],
   ];
   const el = document.getElementById('mais-list');
