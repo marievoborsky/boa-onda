@@ -3516,7 +3516,7 @@ function checkOrder(row) {
 
 /* ==================== PREMIUM: KAUFSCHRANKE ====================
    Woche 1 und 2 sind gratis. Ab Woche 3 (w >= 2) ist Premium nötig; Tag 15 ist die
-   freie Probelektion. Premium = Abo 5,99 €/Monat, Jahresabo 39,99 € oder Einmalkauf 99,99 € (Preise: PREISE).
+   freie Probelektion. Premium = Abo 6,99 €/Monat, Jahresabo 39,99 € oder Einmalkauf 99,99 € (Preise: PREISE).
    Premium-Funktionen außerhalb der Lektionen: Spiele, Arbeitsblätter, Descobrir ab Artikel 4.
    Freigeschaltet wird per Code (Tester, Marie) oder über die Store-Kasse in kaufen():
    Play Billing (Android-TWA) bzw. Apple-Kasse (iPhone-App, Capacitor-Plugin AppleKasse).
@@ -3782,9 +3782,9 @@ function appleKasse() { return window.Capacitor.Plugins.AppleKasse; }
 /* Preise in der Paywall. In der iPhone-App kommen sie von Apple (Landeswährung, nur freigegebene Produkte):
    Das Jahresabo erscheint dort erst, wenn Apple es ausliefert (in der Prüfung über die Sandbox schon vorher).
    Im Browser und in der Android-App gelten die deutschen Preise, das Jahresabo erst mit JAHRESABO_FREI. */
-const PREISE = { abo: '5,99 €', jahr: '39,99 €', einmal: '99,99 €' };
+const PREISE = { abo: '6,99 €', jahr: '39,99 €', einmal: '99,99 €' };
 const JAHRESABO_FREI = false;   // nach Apples Freigabe des Jahresabos auf true (dann auch die Website anpassen)
-let appleProdukte = null;       // { premium_monatlich: '5,99 €', … } aus StoreKit, einmal pro App-Start
+let appleProdukte = null;       // { premium_monatlich: '6,99 €', … } aus StoreKit, einmal pro App-Start
 function paywallKnoepfe() {
   const p = appleProdukte || {};
   const preis = art => p[APPLE_SKU[art]] || PREISE[art];
